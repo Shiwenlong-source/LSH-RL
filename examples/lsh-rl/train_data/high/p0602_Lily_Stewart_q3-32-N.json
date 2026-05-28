@@ -1,0 +1,88 @@
+{
+  "title": "The Café Confrontation",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "A public meeting between Lily Stewart and Lory at a local café to address the accusation.",
+      "time": "Afternoon, 3:15 PM",
+      "location": "A cozy, quiet café in downtown Seattle",
+      "description": "Lily, a 26-year-old flight attendant and blogger, sits at a corner table with her laptop open, nervously sipping a latte. Across from her is Lory, a 30-year-old graphic designer, who appears tense and guarded. Zoe, Lory’s boyfriend, sits quietly beside her, trying to mediate the situation.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Lily Stewart",
+          "gender": "Female",
+          "description": "A sensitive and empathetic blogger, visibly anxious but composed, trying to explain her side of the story.; Female, 26, Blogger, 26 years old; Occupation: Flight Attendant; Personality: Sensitive, Empathetic, Curious, Analytical; Values: Honesty, Justice, Emotional transparency; Interests: Writing, Travel, Self-reflection, Digital communication; Experiences: Recent emotional fluctuations, Past romantic relationships, Blogging about personal experiences, Receiving unexpected emails, Handling moral dilemmas",
+          "position": "Corner table, facing Lory and Zoe",
+          "states": "Nervous, analytical, emotionally transparent",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Lory",
+          "gender": "Female",
+          "description": "A confident and direct graphic designer, clearly upset and distrustful of Lily’s intentions; Female; Age: 30; Occupation: Freelance graphic designer and small business owner; Personality: Analytical, fiercely independent, guarded; Values: Professional integrity, loyalty, creative autonomy; Interests: Urban sketching, indie music, sustainable design; Experiences: Had her design work plagiarized online, ended a toxic work relationship with a former collaborator, recently started rebuilding trust in her personal and professional life.",
+          "position": "Across from Lily, with her arms crossed",
+          "states": "Angry, suspicious, emotionally guarded",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Zoe",
+          "gender": "Male",
+          "description": "A calm and empathetic boyfriend of Lory, trying to keep the conversation civil and understand both perspectives; Male; Age: 28; Occupation: Social worker; Personality: Compassionate, patient, diplomatic; Values: Empathy, fairness, emotional honesty; Interests: Reading psychology books, hiking with Lory, community volunteering; Experiences: Worked with at-risk youth in Seattle, helped Lory through a difficult creative block, has a history of mediating conflicts between friends and family.",
+          "position": "Beside Lory, leaning forward slightly to mediate",
+          "states": "Neutral, curious, emotionally supportive",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Lory",
+          "character_id": 1,
+          "action": "Accuses Lily of contacting her boyfriend",
+          "dialogue": "Lily, I saw the messages you sent to Zoe. Why would you do that? It’s not fair to either of us."
+        },
+        {
+          "action_id": 1,
+          "character": "Lily Stewart",
+          "character_id": 0,
+          "action": "Explains her side of the story",
+          "dialogue": "Lory, I only reached out because I wanted to clarify something. I had a memory of meeting Zoe at Niagara Falls a few years ago, and I thought maybe it was a coincidence."
+        },
+        {
+          "action_id": 2,
+          "character": "Zoe",
+          "character_id": 2,
+          "action": "Intervenes to calm the situation",
+          "dialogue": "Lory, I can explain. We had a brief conversation at the falls, but it was nothing more than a friendly chat. I never mentioned her name to you."
+        },
+        {
+          "action_id": 3,
+          "character": "Lily Stewart",
+          "character_id": 0,
+          "action": "Apologizes and offers to provide evidence",
+          "dialogue": "I understand if you’re upset. I only wanted to be honest. I can show you the messages if you want, but I promise there’s no ulterior motive."
+        },
+        {
+          "action_id": 4,
+          "character": "Lory",
+          "character_id": 1,
+          "action": "Softens slightly and asks for proof",
+          "dialogue": "Fine. Show me the messages. I need to know if I can trust what I’m hearing."
+        }
+      ],
+      "plot": "Lily and Lory meet at a café to address the accusation that Lily contacted Zoe. Lily, being empathetic and honest, tries to explain her actions, while Lory remains skeptical. Zoe attempts to mediate, and the three work to clarify the misunderstanding.",
+      "social_purpose": "To explore Lily’s values of honesty and emotional transparency through a direct, public confrontation. The scenario highlights her sensitivity and analytical nature as she navigates a moral dilemma.",
+      "chunk": {
+        "id": 0,
+        "text": "Lily Stewart sat at the corner table, her fingers hovering over the laptop keyboard. The latte in front of her had gone cold. Across the table, Lory’s eyes were sharp, her posture rigid. Zoe, ever the mediator, was trying to keep the peace. 'I only wanted to be honest,' Lily said softly, her voice betraying the weight of the moment. 'It was a memory, not a plan.' Lory exhaled sharply, but her shoulders eased slightly as she waited for Lily to show the messages."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

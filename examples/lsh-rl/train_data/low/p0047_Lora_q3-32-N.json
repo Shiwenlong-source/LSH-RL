@@ -1,0 +1,102 @@
+{
+  "title": "The Blocked Lunch",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Lora discovers a traffic control blocking her route to her favorite sandwich shop.",
+      "time": "12:15 PM",
+      "location": "Downtown Maplewood, near the corner of Main and 5th",
+      "description": "Lora stands by her car, arms crossed, looking frustrated as a temporary traffic barrier blocks the street. Officer Mike, a calm and patient man in his 40s, is directing cars around the construction zone. Linda, a friendly and composed editor in her 30s, approaches from the sidewalk, having followed Lora from the office.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Lora",
+          "gender": "Female",
+          "description": "Short-tempered and fiery, Lora is a 35-year-old writer who values order and autonomy. She is visibly upset by the traffic control.; Female, Small-town resident, 35 years old; Occupation: Writer; Personality: Fiery, Impatient, Enthusiastic; Values: Fairness, Autonomy, Order; Interests: Writing, Food, Urban planning; Experiences: Daily small-town life, Dealing with public facility issues, Expressing emotions through writing",
+          "position": "By her car",
+          "states": "Angry, anxious, determined",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Officer Mike",
+          "gender": "Male",
+          "description": "A 42-year-old local police officer, known for his calm demeanor and patience, managing traffic control with a clipboard in hand; Male; Age: 42; Occupation: Traffic Management Officer; Personality: Calm, professional, slightly amused; Values: Public service, order and safety, community; Interests: Cycling, classic rock, amateur photography; Experiences: Managed major downtown events, dealt with difficult commuters during road closures, worked night shifts during city emergencies.",
+          "position": "At the traffic control booth",
+          "states": "Calm, professional, slightly amused",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Linda",
+          "gender": "Female",
+          "description": "Linda is a 32-year-old editor and Lora’s colleague; Female; Age: 32; Occupation: Senior Editorial Coordinator at a mid-sized publishing house; Personality: Calm, empathetic, diplomatic; Values: Professionalism, fairness, collaboration; Interests: Urban planning, independent films, journaling; Experiences: Mediated several workplace conflicts between creative teams, volunteered as a community liaison for a local transit initiative, frequently navigates busy downtown commutes.",
+          "position": "Approaching from the sidewalk",
+          "states": "Calm, empathetic, trying to mediate",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Lora",
+          "character_id": 0,
+          "action": "Confronts Officer Mike",
+          "dialogue": "What is this nonsense? Who decided to block the street on a Tuesday? I had a sandwich to eat and a plan to follow, not some red tape!"
+        },
+        {
+          "action_id": 1,
+          "character": "Officer Mike",
+          "character_id": 1,
+          "action": "Explains the situation",
+          "dialogue": "Ma’am, this is a temporary road closure for utility work. It’s in the public interest and should be lifted by the end of the week."
+        },
+        {
+          "action_id": 2,
+          "character": "Linda",
+          "character_id": 2,
+          "action": "Attempts to soothe Lora",
+          "dialogue": "Lora, I know this is frustrating, but maybe we can find an alternative route? Let’s not make a scene here."
+        },
+        {
+          "action_id": 3,
+          "character": "Lora",
+          "character_id": 0,
+          "action": "Considers Linda's suggestion",
+          "dialogue": "Alternative route? That’s not what I asked for, Linda. I want to know if this is fair. What if I had a meeting or something important?"
+        },
+        {
+          "action_id": 4,
+          "character": "Officer Mike",
+          "character_id": 1,
+          "action": "Offers a compromise",
+          "dialogue": "I understand your frustration. If you call the town hall, they can send you a notice when the road reopens. Would that help?"
+        },
+        {
+          "action_id": 5,
+          "character": "Lora",
+          "character_id": 0,
+          "action": "Softens slightly",
+          "dialogue": "Fine. I’ll do that. But this is exactly the kind of thing that makes me want to write about how out of touch small-town planning is."
+        },
+        {
+          "action_id": 6,
+          "character": "Linda",
+          "character_id": 2,
+          "action": "Encourages her",
+          "dialogue": "Maybe you can turn this into a story. You know how to make people listen when you’re passionate about it."
+        }
+      ],
+      "plot": "Lora’s routine is disrupted by a traffic control blocking her path to her favorite lunch spot. Her impatience and desire for autonomy lead her to confront Officer Mike. Linda, her colleague, tries to mediate and redirect her frustration into a constructive outlet. Lora, though still upset, begins to see a way to channel her emotions into her writing.",
+      "social_purpose": "To explore how individuals with strong values like fairness and autonomy respond to disruptions in their daily lives, and how supportive relationships can help navigate these challenges.",
+      "chunk": {
+        "id": 0,
+        "text": "Lora, a fiery and impatient writer, is blocked from her favorite sandwich shop by a new traffic control. Her frustration leads her to confront Officer Mike, who remains calm and professional. Linda, her composed colleague, steps in to mediate and suggest alternative solutions. The interaction highlights Lora’s desire for fairness and control, as well as her tendency to express strong emotions in public settings."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

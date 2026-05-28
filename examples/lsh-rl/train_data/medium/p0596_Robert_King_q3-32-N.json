@@ -1,0 +1,102 @@
+{
+  "title": "Evening at the Café",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Robert and his friends meet for coffee.",
+      "time": "7:30 PM on a Thursday",
+      "location": "A quiet university café in Abu Dhabi",
+      "description": "Robert sits at a corner table, trying to appear casual while subtly checking his phone for updates on a Christian forum. His roommate Mike and their mutual friend Sun approach, both carrying coffee. Sun is warm and curious, while Mike is more reserved and observant.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Robert King",
+          "gender": "Male",
+          "description": "A 25-year-old international student from the US, studying in the UAE. He is anxious about being discovered for his religious interests but is determined to find a sense of belonging.; Male, International Student, 25 years old; Occupation: International Student; Personality: Anxious, Determined, Introspective; Values: Belonging, Faith, Caution; Interests: Online communities, Spiritual exploration, Academic success; Experiences: Studying abroad, Practicing a minority religion, Seeking social connections",
+          "position": "Corner table, phone in hand",
+          "states": "Tense, cautious, hopeful",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Mike",
+          "gender": "Male",
+          "description": "Robert's roommate, a local UAE student. He is observant and concerned about Robert's behavior, but also respects his privacy; Male; Age: 22; Occupation: Business Administration student; Personality: Analytical, empathetic, introverted; Values: Privacy, cultural respect, loyalty; Interests: Economics, photography, coffee culture; Experiences: Studied abroad in Japan for a semester, volunteered in community development projects, noticed a shift in Robert's recent behavior.",
+          "position": "Standing beside the table, holding a coffee",
+          "states": "Curious, cautious, concerned",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Sun",
+          "gender": "Male",
+          "description": "A Christian international student from South Korea; Male; Age: 22; Occupation: International Relations major with a part-time role as a campus ministry volunteer; Personality: Outgoing, empathetic, perceptive; Values: Compassion, faith, community; Interests: Cross-cultural dialogue, coffee tasting, reading theological and philosophical texts; Experiences: Participated in a global youth Christian leadership program in Germany, volunteered in refugee outreach initiatives in South Korea, recently moved to the UAE to study and share his faith in a diverse setting.",
+          "position": "Sitting across from Robert, smiling",
+          "states": "Friendly, supportive, perceptive",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Sun",
+          "character_id": 2,
+          "action": "Greets Robert warmly",
+          "dialogue": "Hey Robert, how was your day? I saw you missed our study group earlier."
+        },
+        {
+          "action_id": 1,
+          "character": "Robert King",
+          "character_id": 0,
+          "action": "Looks up, slightly startled",
+          "dialogue": "Oh, I was just... catching up on some readings for class. I didn’t mean to miss it."
+        },
+        {
+          "action_id": 2,
+          "character": "Mike",
+          "character_id": 1,
+          "action": "Notices Robert's phone",
+          "dialogue": "You’ve been on your phone a lot lately, Robert. Everything okay?"
+        },
+        {
+          "action_id": 3,
+          "character": "Robert King",
+          "character_id": 0,
+          "action": "Avoids eye contact, shifts in his seat",
+          "dialogue": "Yeah, just... some online stuff. Nothing serious."
+        },
+        {
+          "action_id": 4,
+          "character": "Sun",
+          "character_id": 2,
+          "action": "Changes the subject",
+          "dialogue": "Hey, I heard there’s a new interfaith club forming. Robert, you should come check it out if you're interested."
+        },
+        {
+          "action_id": 5,
+          "character": "Robert King",
+          "character_id": 0,
+          "action": "Considers the suggestion, hesitates",
+          "dialogue": "That sounds... nice. I might look into it."
+        },
+        {
+          "action_id": 6,
+          "character": "Mike",
+          "character_id": 1,
+          "action": "Nods, sensing something deeper",
+          "dialogue": "Just let me know if you need anything. We’re all here for you."
+        }
+      ],
+      "plot": "Robert meets with his roommate Mike and his Christian friend Sun for coffee. Sun suggests an interfaith club, which excites Robert but also makes him anxious. Mike notices Robert's unusual behavior and gently inquires, creating a moment of tension and decision for Robert.",
+      "social_purpose": "To explore Robert's internal conflict between his need for faith and community and his desire to remain cautious in a public setting.",
+      "chunk": {
+        "id": 0,
+        "text": "Robert sits at a corner table in the café, phone in hand. Sun approaches with a coffee, his tone warm and inviting. Mike, standing nearby, watches Robert closely. The tension in the air is palpable as Robert weighs his options."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

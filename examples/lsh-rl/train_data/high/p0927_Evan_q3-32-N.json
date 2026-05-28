@@ -1,0 +1,123 @@
+{
+  "title": "Waiting for a Response",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Evan is waiting for a response to a critical email he sent to his close friend and coworker Kani about their recent article.",
+      "time": "Afternoon",
+      "location": "Office Break Room",
+      "description": "Evan sits at a small table in the office break room, sipping lukewarm coffee while staring at his phone. His expression is tense and conflicted. Chloe, a fellow office clerk, enters and notices his unease. Sean, their supervisor, soon follows, adding to the pressure in the room.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Evan",
+          "gender": "Gender Neutral",
+          "description": "Evan is a 27-year-old office clerk who is introspective and anxious. They are currently struggling with the consequences of a harsh email they sent to a friend.; Gender Neutral / Office Clerk, 27 years old; Occupation: Office Employee; Personality: Anxious, Introspective, Ambivalent; Values: Professionalism, Friendship, Honesty; Interests: Reading, Writing, Career Development; Experiences: Recent professional disagreement, Close friendship with a colleague, Workplace stress, Email communication, Supervision",
+          "position": "Office Clerk",
+          "states": "Tense, conflicted, anxious",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Chloe",
+          "gender": "Female",
+          "description": "Chloe is a 30-year-old office clerk known for her empathy and ability to read the room; Female; Age: 30; Occupation: Administrative Assistant; Personality: Observant, empathetic, curious; Values: Compassion, workplace harmony, integrity; Interests: People-watching, journaling, indie music; Experiences: Mediated a difficult team conflict last year, provided emotional support to a coworker during a family crisis, recently started a lunchtime mindfulness group at work.",
+          "position": "Office Clerk",
+          "states": "Observant, empathetic, curious",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Sean",
+          "gender": "Male",
+          "description": "Sean is a 40-year-old supervisor with a calm and professional demeanor; Male; Age: 40; Occupation: Office Operations Manager; Personality: Analytical, empathetic, composed; Values: Team cohesion, accountability, fairness; Interests: Reading leadership books, playing chess, listening to jazz; Experiences: Managed a high-pressure project that required constant team communication, resolved a major workplace conflict between close coworkers, transitioned a department to remote work during a crisis.",
+          "position": "Supervisor",
+          "states": "Calm, professional, inquisitive",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Evan",
+          "character_id": 0,
+          "action": "Sits in the break room and stares at his phone.",
+          "dialogue": "Evan: (muttering to himself) Maybe I overdid it. I just wanted to be honest."
+        },
+        {
+          "action_id": 1,
+          "character": "Chloe",
+          "character_id": 1,
+          "action": "Sits across from Evan and gently asks how he is.",
+          "dialogue": "Chloe: Hey, Evan. You seem a bit off. Everything okay?"
+        },
+        {
+          "action_id": 2,
+          "character": "Evan",
+          "character_id": 0,
+          "action": "Looks up and hesitates before responding.",
+          "dialogue": "Evan: (avoiding eye contact) Yeah, just... tired. It's been a rough week."
+        },
+        {
+          "action_id": 3,
+          "character": "Sean",
+          "character_id": 2,
+          "action": "Enters the break room and approaches the table.",
+          "dialogue": "Sean: Hey, Evan. Got a moment to go over your feedback on Kani's project?"
+        },
+        {
+          "action_id": 4,
+          "character": "Evan",
+          "character_id": 0,
+          "action": "Takes a deep breath and responds with some hesitation.",
+          "dialogue": "Evan: (nervously) Sure, Sean. I just hope I didn't come off too harsh."
+        },
+        {
+          "action_id": 5,
+          "character": "Chloe",
+          "character_id": 1,
+          "action": "Notices the tension and tries to ease it.",
+          "dialogue": "Chloe: You always aim for professionalism, Evan. That’s what makes you reliable."
+        },
+        {
+          "action_id": 6,
+          "character": "Evan",
+          "character_id": 0,
+          "action": "Nods slightly but remains uneasy.",
+          "dialogue": "Evan: I hope Kani sees it that way too. We've been friends for years, and I don’t want to mess that up."
+        },
+        {
+          "action_id": 7,
+          "character": "Sean",
+          "character_id": 2,
+          "action": "Listens carefully and offers reassurance.",
+          "dialogue": "Sean: Feedback is part of the process. Just make sure it’s constructive and clear."
+        },
+        {
+          "action_id": 8,
+          "character": "Evan",
+          "character_id": 0,
+          "action": "Agrees but still seems preoccupied.",
+          "dialogue": "Evan: I tried. I just don’t know if I handled it well."
+        },
+        {
+          "action_id": 9,
+          "character": "Chloe",
+          "character_id": 1,
+          "action": "Encourages Evan to open up further.",
+          "dialogue": "Chloe: You can always talk to Kani in person if you’re worried about the email."
+        }
+      ],
+      "plot": "Evan is anxious about the impact of his critical email to Kani. His colleague Chloe notices his unease and offers support, while their supervisor Sean adds pressure to address the issue professionally. The scene highlights Evan's internal conflict between honesty and friendship.",
+      "social_purpose": "To explore the tension between professionalism and personal relationships in the workplace, while showcasing Evan's introspective and anxious nature.",
+      "chunk": {
+        "id": 0,
+        "text": "Evan is waiting for a response to a critical email he sent to his close friend and coworker Kani about their recent article. In the break room, Chloe and Sean observe his emotional struggle and attempt to engage him in a constructive dialogue."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

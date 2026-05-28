@@ -1,0 +1,123 @@
+{
+  "title": "The Voting Booth Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Allison attempts to correct her vote at the polling station.",
+      "time": "10:30 AM",
+      "location": "Local Community Center Polling Station",
+      "description": "Allison stands at the voting kiosk, visibly anxious. She approaches an election official named Chen, who is seated behind a table with a stack of voter records. A few other voters are waiting in line. Wang, a quiet and observant voter, is standing nearby, watching the interaction unfold.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Allison Gordon",
+          "gender": "Female",
+          "description": "Allison is a 38-year-old administrative staff member who values accuracy and fairness. She is determined to ensure her vote reflects her true intentions, but her anxiety is making the process difficult.; Female, Voter, 38 years old; Occupation: Administrative Staff; Personality: Anxious, Determined, Curious; Values: Fairness, Accuracy, Sense of Responsibility; Interests: Political Participation, Problem Solving, Attention to Detail; Experiences: Participated in elections, Encountered technical issues, Sought clarification from staff, Received contradictory advice, Considering alternative solutions",
+          "position": "At the voting kiosk",
+          "states": "Anxious, determined, curious",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Chen",
+          "gender": "Male",
+          "description": "Chen is an election official who is firm and procedural; Male; Age: 52; Occupation: Deputy Polling Station Supervisor; Personality: Disciplined, composed, detail-oriented; Values: Integrity, impartiality, civic duty; Interests: Reading legal documents, playing chess, maintaining organized systems; Experiences: Managed high-turnout local elections during political tensions, resolved voter disputes while maintaining protocol, trained new election staff on compliance procedures.",
+          "position": "Behind the election table",
+          "states": "Professional, rigid, calm",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Wang",
+          "gender": "Male",
+          "description": "Wang is a quiet, observant, and empathetic voter who is hopeful for positive change; Male; Age: 52; Occupation: Retired school principal; Personality: Cautious, patient, reflective; Values: Fairness, community well-being, integrity; Interests: Reading political history, gardening, volunteering at the local library; Experiences: Witnessed flawed elections in the past, mentored young teachers in civic education, helped resolve voter disputes during previous local elections.",
+          "position": "Observing from the sidelines",
+          "states": "Observant, empathetic, hopeful",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Allison Gordon",
+          "character_id": 0,
+          "action": "Approaches Chen with a request",
+          "dialogue": "Excuse me, I think I made a mistake on my ballot. Is there any way I can change it?"
+        },
+        {
+          "action_id": 1,
+          "character": "Chen",
+          "character_id": 1,
+          "action": "Responds according to procedure",
+          "dialogue": "I'm sorry, but once you've submitted your ballot, it can't be changed. You'll have to cast a new one if you want to vote again."
+        },
+        {
+          "action_id": 2,
+          "character": "Allison Gordon",
+          "character_id": 0,
+          "action": "Looks worried and asks for clarification",
+          "dialogue": "But I didn't make a mistake in the process. I just need to correct one choice. Is there no option to modify it?"
+        },
+        {
+          "action_id": 3,
+          "character": "Chen",
+          "character_id": 1,
+          "action": "Shakes his head and refers to the manual",
+          "dialogue": "The system doesn't allow for changes after submission. I can't make exceptions."
+        },
+        {
+          "action_id": 4,
+          "character": "Wang",
+          "character_id": 2,
+          "action": "Steps forward and offers advice",
+          "dialogue": "I had the same issue last year. I was told I could re-choose the same candidate and then make the correction. It's not perfect, but it worked for me."
+        },
+        {
+          "action_id": 5,
+          "character": "Allison Gordon",
+          "character_id": 0,
+          "action": "Considers Wang's suggestion and asks Chen",
+          "dialogue": "So if I re-choose the same candidate, can I then make changes to the other parts of my ballot?"
+        },
+        {
+          "action_id": 6,
+          "character": "Chen",
+          "character_id": 1,
+          "action": "Nods slightly, but remains cautious",
+          "dialogue": "If the system allows it, you can cast a new ballot. But I can't guarantee it will be accepted. You'll need to do it quickly."
+        },
+        {
+          "action_id": 7,
+          "character": "Allison Gordon",
+          "character_id": 0,
+          "action": "Returns to the kiosk and hesitates",
+          "dialogue": "I just need to make sure this is right. It's important for the outcome to reflect my choice accurately."
+        },
+        {
+          "action_id": 8,
+          "character": "Wang",
+          "character_id": 2,
+          "action": "Approaches and reassures her",
+          "dialogue": "You're not alone in this. I understand the pressure. Just take a deep breath and go with what feels fair."
+        },
+        {
+          "action_id": 9,
+          "character": "Allison Gordon",
+          "character_id": 0,
+          "action": "Decides to proceed with the new ballot",
+          "dialogue": "Okay, I'll try it. Thank you for your help, Wang, and for explaining the rules clearly, Chen."
+        }
+      ],
+      "plot": "Allison, a voter who accidentally selected the wrong candidate, approaches election official Chen for help. She is denied the opportunity to change her vote, but Wang, a more experienced voter, shares his own workaround. Chen confirms the possibility of re-casting a ballot, giving Allison hope. Despite her lingering anxiety, she decides to proceed with the new ballot to ensure accuracy and fairness in her vote.",
+      "social_purpose": "This scene highlights the tension between procedural rigidity and individual needs in a democratic process. It also explores themes of responsibility and the desire for accurate political participation.",
+      "chunk": {
+        "id": 0,
+        "text": "Allison, a 38-year-old administrative staff member, stands at the voting kiosk, her hands slightly trembling. She approaches Chen, an election official, with a clear request to correct her ballot. Chen, while polite, is bound by the rules and refuses her request. Wang, an older voter who has experienced similar issues before, steps in and offers a potential solution based on his own experience. This interaction reveals Allison's determination to ensure her vote is accurate, her anxiety about the process, and the subtle support from a fellow voter. It also shows the limitations of the system and how people adapt to overcome them."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

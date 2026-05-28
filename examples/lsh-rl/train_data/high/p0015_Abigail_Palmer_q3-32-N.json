@@ -1,0 +1,130 @@
+{
+  "title": "A Bench and a Choice",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Abigail and An are supposed to meet for coffee, but Abigail is late and An is waiting in a nearby café.",
+      "time": "Afternoon",
+      "location": "A quiet park with a nearby café",
+      "description": "Abigail sits on a park bench, staring at her phone, her fingers hovering over the screen. Across town, An sits at a table in a cozy café, sipping a latte and glancing at the clock. Mutual friend Joe, who works part-time at the café, approaches An to see if he can help ease the situation.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Abigail Palmer",
+          "gender": "Female",
+          "description": "A 21-year-old recent design graduate who is sensitive, self-reflective, and often overwhelmed by her own guilt and anxiety. She is sitting on a bench, looking anxious and conflicted.; 21-year-old female, recent graduate, 21 years old; Occupation: Designer; Personality: Sensitive, Prone to guilt, Self-reflective, Anxious; Values: Friendship, Integrity, Emotional honesty; Interests: Personal growth, Technology, Social connection; Experiences: Missing important appointments, Self-doubt, Handling friendship conflicts, Receiving emotional support from friends, Experiencing social anxiety",
+          "position": "On the park bench",
+          "states": "Anxious, guilty, conflicted",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "An",
+          "gender": "Male",
+          "description": "A 21-year-old student and Abigail’s close friend; Male; Age: 21; Occupation: Psychology major at a local university; Personality: patient, loyal, introspective; Values: friendship, honesty, personal growth; Interests: journaling, indie music, long walks; Experiences: dealt with Abigail’s chronic forgetfulness for years, recently opened up about his feelings for her, lost trust in a previous friendship due to dishonesty.",
+          "position": "At a table in the café",
+          "states": "Frustrated, hurt, conflicted",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Joe",
+          "gender": "Male",
+          "description": "A 22-year-old mutual friend who works part-time at the café; Male; Age: 22; Occupation: Part-time barista and full-time psychology student; Personality: Empathetic, level-headed, supportive; Values: Loyalty, emotional well-being, honesty; Interests: Listening to indie folk music, journaling, helping others; Experiences: Mediated a difficult breakup between two close friends, volunteered at a local mental health outreach program, frequently offers quiet support to coworkers and customers at the café.",
+          "position": "Standing near An’s table",
+          "states": "Empathetic, concerned, supportive",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Joe",
+          "character_id": 2,
+          "action": "Approaches An and sits down with him.",
+          "dialogue": "Hey An, I heard you were waiting for Abigail. She’s around here somewhere, right?"
+        },
+        {
+          "action_id": 1,
+          "character": "An",
+          "character_id": 1,
+          "action": "Nods and sighs, looking at the clock.",
+          "dialogue": "Yeah, we were supposed to meet an hour ago. I’m not sure if she even remembers."
+        },
+        {
+          "action_id": 2,
+          "character": "Joe",
+          "character_id": 2,
+          "action": "Leans in, trying to be comforting.",
+          "dialogue": "She’s not trying to ignore you, I promise. She’s just been really overwhelmed lately. But she’s not the kind of person who likes to hurt people on purpose."
+        },
+        {
+          "action_id": 3,
+          "character": "An",
+          "character_id": 1,
+          "action": "Looks at Joe, conflicted.",
+          "dialogue": "I know she’s been going through a lot, but I also need to know where I stand. I can’t keep waiting for her to show up when she doesn’t even call."
+        },
+        {
+          "action_id": 4,
+          "character": "Joe",
+          "character_id": 2,
+          "action": "Suggests a plan to help Abigail.",
+          "dialogue": "Maybe I can go find her and encourage her to come over. If she’s honest with you, it’ll mean a lot. She values integrity and emotional honesty, even if it’s hard for her."
+        },
+        {
+          "action_id": 5,
+          "character": "Abigail Palmer",
+          "character_id": 0,
+          "action": "Sees Joe approaching her from a distance and hesitates.",
+          "dialogue": "Oh no, here he comes. I don’t even know what to say."
+        },
+        {
+          "action_id": 6,
+          "character": "Joe",
+          "character_id": 2,
+          "action": "Sits down on the bench next to Abigail.",
+          "dialogue": "Hey, Abigail. I just saw An in the café nearby. He’s been waiting for you, and he’s really hurt."
+        },
+        {
+          "action_id": 7,
+          "character": "Abigail Palmer",
+          "character_id": 0,
+          "action": "Looks down, fiddling with her phone.",
+          "dialogue": "I know. I feel awful. I just keep messing up, and it’s like I can’t fix it. I’m afraid of what he’ll say."
+        },
+        {
+          "action_id": 8,
+          "character": "Joe",
+          "character_id": 2,
+          "action": "Places a hand on her shoulder, gently.",
+          "dialogue": "You can fix it, but you have to take the first step. You value friendship, Abigail. That’s part of who you are. He just wants to know you care enough to show up and talk."
+        },
+        {
+          "action_id": 9,
+          "character": "Abigail Palmer",
+          "character_id": 0,
+          "action": "Takes a deep breath and looks at her phone again.",
+          "dialogue": "I… I should call him. I don’t want to lose this friendship. It means a lot to me."
+        },
+        {
+          "action_id": 10,
+          "character": "Joe",
+          "character_id": 2,
+          "action": "Nods and smiles encouragingly.",
+          "dialogue": "That’s all he needs to hear. Come on, let’s go find him."
+        }
+      ],
+      "plot": "Abigail is struggling with her guilt over missing a meeting with her friend An. Joe, a mutual friend, helps her realize that taking responsibility is the only way to move forward. With his support, she decides to reach out and face the situation, giving her friendship a chance to heal.",
+      "social_purpose": "To demonstrate the importance of emotional honesty, integrity, and taking responsibility in maintaining meaningful relationships. It also highlights the role of supportive friends in helping someone overcome social anxiety and self-doubt.",
+      "chunk": {
+        "id": 0,
+        "text": "Abigail Palmer sat on a park bench, her phone in hand, her mind racing. She had missed yet another important appointment—with An, her closest friend. The guilt was suffocating. Nearby, in a cozy café, An waited, hurt and confused. Joe, the mutual friend who had always known how to navigate their emotional tides, stepped in. He approached An with a calm, reassuring presence and then went to find Abigail. When he found her, he didn’t scold. Instead, he reminded her of who she was—someone who cared deeply, who valued honesty and connection. Encouraged by his words, Abigail took a deep breath and finally made the call."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

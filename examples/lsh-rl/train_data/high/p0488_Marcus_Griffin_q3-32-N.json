@@ -1,0 +1,81 @@
+{
+  "title": "Summer Camp Leadership Huddle",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Team meeting to finalize summer camp plans",
+      "time": "Afternoon",
+      "location": "Church Fellowship Hall",
+      "description": "Marcus Griffin, a 25-year-old recent college graduate, stands at the head of a small table in the church's fellowship hall, surrounded by his team members. The room is filled with the scent of coffee and the soft hum of anticipation. Marcus is visibly nervous, his fingers tapping lightly on the table. Han and Henry, his two closest team members, sit across from him, offering quiet support and guidance.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Marcus Griffin",
+          "gender": "Male",
+          "description": "Recent college graduate and newly appointed church summer camp leader, visibly self-doubting but thoughtful and determined.; Male, Recent college graduate, 25 years old; Occupation: Church summer camp leader; Personality: Self-doubting, Thoughtful, Determined; Values: Faith, Teamwork, Integrity; Interests: Youth counseling, Spiritual growth, Community service; Experiences: Recent college graduate, Assigned a leadership role, Organizing church activities",
+          "position": "Head of the team",
+          "states": "Nervous, contemplative, hopeful",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Han",
+          "gender": "Female",
+          "description": "Experienced church volunteer, supportive and empathetic; Female; Age: 42; Occupation: Youth Ministry Coordinator; Personality: Compassionate, patient, organized; Values: Community, faith, mentorship; Interests: Bible study, gardening, crafting; Experiences: Led youth retreats for over a decade, trained new volunteers in camp leadership, helped resolve conflicts among camp staff.",
+          "position": "Counselor",
+          "states": "Calm, concerned, reassuring",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Henry",
+          "gender": "Male",
+          "description": "Youth group coordinator with a warm and encouraging demeanor. He believes in Marcus's potential; Male; Age: 34; Occupation: Youth Ministry Director; Personality: Empathetic, optimistic, patient; Values: Community, personal growth, faith; Interests: Mentoring young adults, outdoor activities, music; Experiences: Organized multiple successful summer camps, trained new volunteers in youth outreach, led crisis intervention workshops for teens.",
+          "position": "Coordinator",
+          "states": "Encouraging, confident, supportive",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Marcus Griffin",
+          "character_id": 0,
+          "action": "Expresses self-doubt about the leadership role",
+          "dialogue": "I just don’t know if I’m ready for this. I mean, I’m still figuring out what I want to do with my life, and now I’m leading a summer camp?"
+        },
+        {
+          "action_id": 1,
+          "character": "Han",
+          "character_id": 1,
+          "action": "Offers reassurance based on her experience",
+          "dialogue": "Marcus, we all have doubts. But the kids aren’t expecting a perfect leader—they just need someone who cares and is willing to learn with them."
+        },
+        {
+          "action_id": 2,
+          "character": "Henry",
+          "character_id": 2,
+          "action": "Encourages Marcus to trust in his values and team",
+          "dialogue": "You were chosen for a reason. You’ve shown integrity and a real interest in youth counseling and spiritual growth. That’s what matters most."
+        },
+        {
+          "action_id": 3,
+          "character": "Marcus Griffin",
+          "character_id": 0,
+          "action": "Shows a moment of reflection and determination",
+          "dialogue": "Maybe you're right. I just need to remember that it’s not about being perfect, but about being faithful and leaning on the team."
+        }
+      ],
+      "plot": "Marcus is struggling with the weight of his new leadership role during a team meeting. His team members, Han and Henry, recognize his hesitation and gently encourage him to trust in his values and the support of the group. Through their interaction, Marcus begins to feel a shift in his mindset, realizing that his thoughtful and determined nature, combined with his commitment to faith and community service, can be an asset to the team.",
+      "social_purpose": "To showcase Marcus's internal conflict and how his team members help him recognize his strengths and values in a public setting, reinforcing the importance of teamwork and faith in leadership.",
+      "chunk": {
+        "id": 0,
+        "text": "Marcus Griffin, a 25-year-old recent college graduate, stood at the head of the table in the church fellowship hall, his expression a mix of uncertainty and resolve. Across from him, Han and Henry watched with quiet concern and encouragement. Han, a seasoned volunteer, offered her steady support, while Henry, the youth group coordinator, reminded Marcus of the qualities that made him a good fit for the role. As the conversation unfolded, Marcus began to feel the weight of his self-doubt ease slightly, replaced by a growing sense of purpose and trust in the team around him."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "title": "The Pancake Decision",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Family breakfast planning",
+      "time": "Saturday morning",
+      "location": "Kitchen at home",
+      "description": "Trevor is in the kitchen, carefully measuring ingredients for homemade pancakes. Emma, his wife, is at the table sipping coffee, while their daughter Emily sets the table. The room is filled with the smell of flour and the soft sounds of kitchen tools.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Trevor Clark",
+          "gender": "Male",
+          "description": "A focused and health-conscious nutritionist who is passionate about cooking from scratch.; 48 / Male / Family-oriented, 48 years old; Occupation: Nutritionist; Personality: Health-conscious, Responsible, Determined; Values: Family Health, Transparency, Quality; Interests: Cooking, Nutrition, Family Time; Experiences: Recently started making ingredients from scratch, Discussing dietary choices with family, Prioritizing natural ingredients",
+          "position": "Kitchen counter",
+          "states": "Determined, focused",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Emma Clark",
+          "gender": "Female",
+          "description": "Trevor’s wife, practical and organized, often balancing the family’s needs with convenience; Female; Age: 38; Occupation: Office Manager; Personality: Thoughtful, reliable, nurturing; Values: Family, efficiency, tradition; Interests: Home baking, gardening, reading self-help books; Experiences: Managed a busy household during the pandemic, helped start a local parent-teacher association, learned to cook from scratch after moving to a rural area.",
+          "position": "Dining table",
+          "states": "Cautious, supportive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Emily Clark",
+          "gender": "Female",
+          "description": "Trevor and Emma’s curious and inquisitive 12-year-old daughter, who enjoys learning about food; Female; Age: 12; Occupation: Middle school student; Personality: Curious, energetic, empathetic; Values: Family, creativity, knowledge; Interests: Cooking, reading about different cuisines, baking with friends; Experiences: Assisted in hosting a family cooking night, learned to make basic breakfast dishes from her grandmother, won a school science fair project on fermentation.",
+          "position": "Near the table",
+          "states": "Curious, engaged",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Trevor Clark",
+          "character_id": 0,
+          "action": "Mixing batter",
+          "dialogue": "I’ve been reading more about additives in store-bought pancake mixes. I just want to make sure we’re eating something clean for breakfast."
+        },
+        {
+          "action_id": 1,
+          "character": "Emma Clark",
+          "character_id": 1,
+          "action": "Expressing concern",
+          "dialogue": "I get it, Trevor, but this takes so much time. We’re always in a rush on the weekends. Can’t we just use the pre-made one this time?"
+        },
+        {
+          "action_id": 2,
+          "character": "Emily Clark",
+          "character_id": 2,
+          "action": "Asking a question",
+          "dialogue": "Do you think they taste different, Dad? I mean, I’ve never really noticed a difference before."
+        },
+        {
+          "action_id": 3,
+          "character": "Trevor Clark",
+          "character_id": 0,
+          "action": "Explaining his choice",
+          "dialogue": "They do, actually. When you use real butter, eggs, and fresh berries instead of preservatives and flavorings, the taste is much better. Plus, I want you to know where your food comes from."
+        },
+        {
+          "action_id": 4,
+          "character": "Emma Clark",
+          "character_id": 1,
+          "action": "Sighing and nodding",
+          "dialogue": "I guess I can make time for this if it’s really that important. I just hope the kids don’t mind the extra effort."
+        },
+        {
+          "action_id": 5,
+          "character": "Emily Clark",
+          "character_id": 2,
+          "action": "Smiling and helping",
+          "dialogue": "I don’t mind at all, Dad. It’s kind of fun learning how to make things from scratch. Can I help you flip the pancakes?"
+        },
+        {
+          "action_id": 6,
+          "character": "Trevor Clark",
+          "character_id": 0,
+          "action": "Smiling and accepting help",
+          "dialogue": "That’d be great, Emily. Just watch how I do it first, okay?"
+        }
+      ],
+      "plot": "Trevor is determined to make pancakes from scratch to ensure they are free of additives, sparking a discussion with his wife and daughter about the trade-offs between health and convenience. While Emma is skeptical, Emily shows curiosity and support, helping Trevor with the cooking process.",
+      "social_purpose": "To explore the protagonist’s health-conscious values and his determination to prioritize family health and transparency in their diet, while also showing the dynamics between family members and their differing perspectives.",
+      "chunk": {
+        "id": 0,
+        "text": "Trevor is in the kitchen, carefully measuring ingredients for homemade pancakes. Emma, his wife, is at the table sipping coffee, while their daughter Emily sets the table. The room is filled with the smell of flour and the soft sounds of kitchen tools."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "title": "Faith on the Stage",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Pre-show meeting",
+      "time": "3:00 PM, two hours before a major church worship event",
+      "location": "Backstage at Grace Community Church auditorium",
+      "description": "Nora Bailey, a 28-year-old Christian worship artist, is preparing for a large worship performance. She is visibly unwell, with a fever and a sore throat. Her team is gathered to discuss the final details of the show, but the focus quickly shifts to her health.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Nora Bailey",
+          "gender": "Female",
+          "description": "Passionate Christian worship artist and performance coordinator, currently battling a severe illness.; Female, Christian worship artist, 28 years old; Occupation: Christian worship artist and performance coordinator; Personality: Passionate, Determined, Compassionate, Resilient; Values: Faith, Integrity, Community, Artistic expression; Interests: Dramatic worship, Christian music, Performing arts, Spiritual growth; Experiences: Leading worship activities, Integrating drama into spiritual experiences, Coordinating large performances, Overcoming health challenges",
+          "position": "Center of the group, holding a script and a water bottle.",
+          "states": "Feverish, determined, emotionally conflicted",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Anna Carter",
+          "gender": "Female",
+          "description": "Nora's longtime friend and spiritual mentor, known for her unwavering faith and encouragement; Female; Age: 34; Occupation: Church Youth Pastor and Worship Leader; Personality: Supportive, confident, empathetic; Values: Faithfulness, community, integrity; Interests: Bible study, music ministry, mentoring young people; Experiences: Organized multiple youth retreats, led worship during a church crisis, supported Nora through her first major performance setback.",
+          "position": "Standing beside Nora, supportive and calm.",
+          "states": "Supportive, confident, empathetic",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "King Thompson",
+          "gender": "Male",
+          "description": "Nora's sound technician and event logistics partner, pragmatic and deeply concerned about her health; Male; Age: 35; Occupation: Event Production Manager and Audio Engineer; Personality: Analytical, compassionate, responsible; Values: Professional integrity, care for others, reliability; Interests: Church sound design, event planning, outdoor hiking; Experiences: Managed large-scale worship events for multiple Christian artists, once had to step in and lead a show when a performer fell ill, has a background in Christian youth ministry.",
+          "position": "Sitting at a nearby table, reviewing equipment checklists.",
+          "states": "Anxious, concerned, prepared",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Nora Bailey",
+          "character_id": 0,
+          "action": "Clears her throat and speaks with a raspy voice",
+          "dialogue": "I know I'm not at my best, but I believe God can use this. This performance is important to the community."
+        },
+        {
+          "action_id": 1,
+          "character": "Anna Carter",
+          "character_id": 1,
+          "action": "Places a hand on Nora's shoulder",
+          "dialogue": "Nora, I've seen you lead worship through tough times. This is no different. Your faith and preparation will carry you through."
+        },
+        {
+          "action_id": 2,
+          "character": "King Thompson",
+          "character_id": 2,
+          "action": "Leans forward, voice firm but kind",
+          "dialogue": "I get the faith part, but we can't risk you collapsing mid-show. I’ve already reached out to a few back-up vocalists just in case."
+        },
+        {
+          "action_id": 3,
+          "character": "Nora Bailey",
+          "character_id": 0,
+          "action": "Nods slowly, then looks at the script",
+          "dialogue": "I want to honor the commitment we made to the congregation. But if I can't breathe, I can't sing. I don't want to fake it."
+        },
+        {
+          "action_id": 4,
+          "character": "Anna Carter",
+          "character_id": 1,
+          "action": "Sits beside Nora, offering a prayer",
+          "dialogue": "Let's ask God to guide our decision. He knows your heart and what's best for you and for the event."
+        },
+        {
+          "action_id": 5,
+          "character": "King Thompson",
+          "character_id": 2,
+          "action": "Gestures to the equipment",
+          "dialogue": "I’ll make sure the back-up plan is ready. Just know I’m here to protect your well-being, not your ego."
+        },
+        {
+          "action_id": 6,
+          "character": "Nora Bailey",
+          "character_id": 0,
+          "action": "Smiles faintly, taking a deep breath",
+          "dialogue": "Thank you both. I’ll rest now and pray. If I can make it, I’ll be there. If not, I trust you’ll handle it with grace."
+        }
+      ],
+      "plot": "Nora is forced to confront her physical limitations and spiritual calling as her team supports her in making a difficult decision about performing while ill. Anna encourages her to rely on faith and preparation, while King prepares a contingency plan, highlighting the tension between personal responsibility and health.",
+      "social_purpose": "To explore how faith, integrity, and community support intersect in a high-pressure public setting, and how Nora's values and experiences shape her response to the situation.",
+      "chunk": {
+        "id": 0,
+        "text": "Nora Bailey, a 28-year-old Christian worship artist, is preparing for a large worship performance. She is visibly unwell, with a fever and a sore throat. Her team is gathered to discuss the final details of the show, but the focus quickly shifts to her health. Anna Carter, her longtime friend and spiritual mentor, encourages her to trust in her strength and God's preparation, while King Thompson, her sound technician and event logistics partner, is deeply concerned and has already reached out to back-up vocalists. Nora's decision not only affects the performance but also tests her personal beliefs and others' perceptions of her. In this moment, she must show resilience and faith amidst vulnerability."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

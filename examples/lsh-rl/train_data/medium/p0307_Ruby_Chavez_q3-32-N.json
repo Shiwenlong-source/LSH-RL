@@ -1,0 +1,88 @@
+{
+  "title": "Faith and Work Balance",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Coffee meetup at a local café",
+      "time": "Afternoon",
+      "location": "A cozy corner of a community café near the church",
+      "description": "Ruby, Joy, and Lili sit at a small table with mugs of coffee, surrounded by the soft hum of conversation and the aroma of freshly brewed beans. Ruby nervously stirs her drink while Joy and Lili listen intently.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Ruby Chavez",
+          "gender": "Female",
+          "description": "A 24-year-old newcomer to the Christian gathering, thoughtful and introspective, with a notebook open on the table.; 24-year-old, Female, New member of Christian gathering, 24 years old; Occupation: Workplace Newcomer; Personality: Thoughtful, Determined, Introspective; Values: Faith, Authenticity, Community; Interests: Spiritual Growth, Taking Notes, Meaningful Conversation; Experiences: Recent faith awakening, Striving to balance work and faith, First time attending fellowship",
+          "position": "Seated at the head of the table",
+          "states": "Nervous, hopeful, determined",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Joy",
+          "gender": "Female",
+          "description": "A long-time member of the Christian community, cheerful and curious, always eager to learn from others; Female; Age: 42; Occupation: Youth group coordinator at the local church; Personality: Enthusiastic, supportive, empathetic; Values: Faith, community, personal growth; Interests: Bible study, mentoring young people, baking for church events; Experiences: Led a successful youth outreach program for over a decade, organized community service projects, helped several teenagers through personal crises.",
+          "position": "Seated to Ruby’s left",
+          "states": "Enthusiastic, supportive, engaged",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Lili",
+          "gender": "Female",
+          "description": "A compassionate and encouraging friend, known for her deep spiritual insights and gentle guidance; Female; Age: 32; Occupation: Pastoral counselor at a local church; Personality: Empathetic, attentive, reassuring; Values: Compassion, inner peace, community; Interests: Meditation, journaling, helping others through life transitions; Experiences: Provided counseling during a friend's difficult divorce, led a grief support group after a community tragedy, spent time volunteering at a women's shelter.",
+          "position": "Seated to Ruby’s right",
+          "states": "Empathetic, attentive, reassuring",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Ruby Chavez",
+          "character_id": 0,
+          "action": "Takes a deep breath and begins to speak",
+          "dialogue": "I’ve been thinking a lot about how to bring my faith into my new job. I don’t want to hide who I am, but I’m also afraid people won’t understand."
+        },
+        {
+          "action_id": 1,
+          "character": "Joy",
+          "character_id": 1,
+          "action": "Leans forward and responds with excitement",
+          "dialogue": "That’s amazing, Ruby! I think it’s so important to be authentic in every part of your life. What’s one way you’ve tried to integrate your faith at work?"
+        },
+        {
+          "action_id": 2,
+          "character": "Ruby Chavez",
+          "character_id": 0,
+          "action": "Looks down at her notebook and replies",
+          "dialogue": "I’ve been writing down verses to keep me grounded during the day, but I worry it might make me stand out too much."
+        },
+        {
+          "action_id": 3,
+          "character": "Lili",
+          "character_id": 2,
+          "action": "Nods thoughtfully and encourages further sharing",
+          "dialogue": "I admire your determination, Ruby. It’s a journey to find balance, but you don’t have to do it alone. We’re here to support you."
+        },
+        {
+          "action_id": 4,
+          "character": "Ruby Chavez",
+          "character_id": 0,
+          "action": "Smiles slightly and opens up more",
+          "dialogue": "Thanks, Lili. I’ve never talked about this with anyone before. It feels good to share, even if I’m still figuring it out."
+        }
+      ],
+      "plot": "Ruby shares her recent faith awakening and struggles to balance her new job with her spiritual growth. Joy and Lili respond with curiosity and encouragement, helping her feel supported and understood.",
+      "social_purpose": "To explore Ruby’s internal conflict and her values of authenticity and community, while showing how she navigates her new identity in a public and social setting.",
+      "chunk": {
+        "id": 0,
+        "text": "Ruby’s vulnerability and determination are revealed through her dialogue, while Joy and Lili provide a safe space for her to express herself. This interaction highlights Ruby’s growth and the supportive nature of her community."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "title": "Cornerstone of Change",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Meeting with Cornerstone Package Representatives",
+      "time": "10:00 AM",
+      "location": "Company Headquarters Lobby",
+      "description": "Maya stands in the lobby of a wellness company, clutching the signed Cornerstone Package order. She is greeted by Una and Sam, two representatives who are known for their warm and persuasive approach. The lobby is filled with hopeful individuals and the scent of essential oils, creating an atmosphere of possibility.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Maya Scott",
+          "gender": "Female",
+          "description": "A 30-year-old laid-off worker seeking a lifestyle change. She is hopeful yet anxious, and her determination is evident in her every action.; Female / Seeking lifestyle change, 30 years old; Occupation: Laid-off worker; Personality: Hopeful, Anxious, Determined; Values: Health, Financial stability, New beginnings; Interests: Health and wellness, Self-improvement, Entrepreneurship; Experiences: Long-term health issues, Financial difficulties, Recent purchase of health products, First time attending a presentation meeting, Trying a new lifestyle",
+          "position": "Near the entrance, clutching the signed order",
+          "states": "Anticipatory, nervous, and determined",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Una Martinez",
+          "gender": "Female",
+          "description": "Una Martinez; Female; Age: 34; Occupation: Wellness Program Coordinator; Personality: Charismatic, Empathetic, Confident; Values: Holistic health, Community empowerment, Ethical integrity; Interests: Aromatherapy, Mindfulness practices, Sustainable living; Experiences: Led successful corporate wellness initiatives, Trained in integrative health coaching, Organized community wellness events.",
+          "position": "Approaching Maya from the center of the lobby",
+          "states": "Friendly and encouraging",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Sam Thompson",
+          "gender": "Male",
+          "description": "A detail-oriented and energetic representative with a sales background, known for his ability to connect with people on a personal level; Male; Age: 34; Occupation: Client Relations Specialist at a wellness company; Personality: Empathetic, enthusiastic, and organized; Values: Customer satisfaction, holistic well-being, and integrity; Interests: Networking, fitness, and aromatherapy; Experiences: Successfully managed high-profile client onboarding, transitioned from pharmaceutical sales to wellness industry, and trained new hires in client engagement techniques.",
+          "position": "Standing slightly behind Una, ready to assist",
+          "states": "Supportive and attentive",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Una Martinez",
+          "character_id": 1,
+          "action": "Approaching Maya with a smile and a hand outstretched",
+          "dialogue": "Hi Maya! Welcome to Cornerstone. We're so glad to have you here today."
+        },
+        {
+          "action_id": 1,
+          "character": "Maya Scott",
+          "character_id": 0,
+          "action": "Nervously shaking Una's hand and looking around the lobby",
+          "dialogue": "Thank you. I'm not sure what to expect, but I'm ready to try something new."
+        },
+        {
+          "action_id": 2,
+          "character": "Sam Thompson",
+          "character_id": 2,
+          "action": "Stepping forward with a folder in hand",
+          "dialogue": "Maya, I'm Sam. We can walk you through the next steps. It's a big decision, but one that many of our clients say changed their lives."
+        },
+        {
+          "action_id": 3,
+          "character": "Maya Scott",
+          "character_id": 0,
+          "action": "Taking the folder from Sam and opening it with cautious interest",
+          "dialogue": "I've struggled with my health for years, and I'm tired of feeling stuck financially. This feels like a chance to start fresh."
+        },
+        {
+          "action_id": 4,
+          "character": "Una Martinez",
+          "character_id": 1,
+          "action": "Nodding thoughtfully and gesturing toward a nearby meeting room",
+          "dialogue": "That's exactly why we're here. Let's go over how this can help you achieve both health and financial goals."
+        }
+      ],
+      "plot": "Maya meets with Una and Sam at the wellness company's headquarters to discuss her recent decision to join the Cornerstone Package. The representatives guide her through the process while addressing her concerns about health, financial stability, and the unknown.",
+      "social_purpose": "To demonstrate Maya's motivation for change and her internal conflict, while showcasing the supportive and persuasive nature of the representatives.",
+      "chunk": {
+        "id": 0,
+        "text": "Maya stands in the lobby, clutching the signed Cornerstone Package order, as Una and Sam greet her warmly. The meeting is a pivotal moment for her, representing a potential new chapter in her life."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

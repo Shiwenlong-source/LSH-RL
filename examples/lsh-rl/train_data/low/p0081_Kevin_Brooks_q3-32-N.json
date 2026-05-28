@@ -1,0 +1,102 @@
+{
+  "title": "Kevin's Last-Minute Crisis",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Kevin meets Jason and Kris at a local coffee shop to discuss his urgent issues.",
+      "time": "Afternoon",
+      "location": "Local Coffee Shop",
+      "description": "As a thunderstorm approaches, Kevin, an irritable and anxious office worker, sits at a corner table with his laptop, visibly stressed. Jason and Kris, his supportive friend and neighbor, sit across from him, offering their help. Kevin's laptop screen is blank, and he keeps checking the time, showing his growing frustration.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Kevin Brooks",
+          "gender": "Male",
+          "description": "Kevin is a 35-year-old accountant who is procrastinating on his bills and dealing with an internet outage. He is anxious, irritable, and values independence and responsibility.; Male, Office Worker, 35 years old; Occupation: Accountant; Personality: Procrastinating, Irritable, Anxious; Values: Responsibility, Independence, Problem-solving; Interests: Technology, Finance, Weather; Experiences: Financial management, Handling technical failures, Dependence on digital systems, Friend support, High-pressure deadlines",
+          "position": "Corner Table",
+          "states": "Anxious, Frustrated, Seeking help",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Jason Moore",
+          "gender": "Male",
+          "description": "Jason is a calm and tech-savvy friend of Kevin's who is always ready to help; Male; Age: early 30s; Occupation: IT Systems Analyst; Personality: patient, logical, empathetic; Values: reliability, problem-solving, friendship; Interests: cybersecurity, hiking, classic video games; Experiences: helped Kevin recover from a major computer failure, collaborated with Kris on a neighborhood tech support initiative, managed IT during a corporate merger.",
+          "position": "Across from Kevin",
+          "states": "Calm, Supportive, Analytical",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Kris Ramirez",
+          "gender": "Female",
+          "description": "Kris is a responsible and level-headed neighbor of Kevin's who offers practical advice; Female; Age: 35; Occupation: Financial Planner; Personality: Empathetic, Practical, Analytical; Values: Stability, Community Support, Honesty; Interests: Urban gardening, Reading personal finance books, Volunteering at local food bank; Experiences: Helped friends navigate financial hardships during the 2008 crisis, Managed her own debt recovery after a career shift, Organized neighborhood emergency preparedness workshops.",
+          "position": "Next to Jason",
+          "states": "Empathetic, Practical, Concerned",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Kevin Brooks",
+          "character_id": 0,
+          "action": "Kevin slams his laptop shut and sighs heavily.",
+          "dialogue": "I can't believe this. No internet, and I still haven't paid these bills. I can't do anything right."
+        },
+        {
+          "action_id": 1,
+          "character": "Jason Moore",
+          "character_id": 1,
+          "action": "Jason leans forward and suggests a solution.",
+          "dialogue": "Maybe you can use my mobile hotspot. It's a temporary fix, but it should get you online until the storm passes."
+        },
+        {
+          "action_id": 2,
+          "character": "Kris Ramirez",
+          "character_id": 2,
+          "action": "Kris nods and offers an alternative.",
+          "dialogue": "And for the bills, you could pay by check. It's not ideal, but it works in a pinch."
+        },
+        {
+          "action_id": 3,
+          "character": "Kevin Brooks",
+          "character_id": 0,
+          "action": "Kevin crosses his arms and looks at them skeptically.",
+          "dialogue": "I don't know. I should be able to handle this on my own. I'm an accountant, not a helpless kid."
+        },
+        {
+          "action_id": 4,
+          "character": "Jason Moore",
+          "character_id": 1,
+          "action": "Jason calmly reassures Kevin.",
+          "dialogue": "We're just trying to help, Kevin. It's okay to rely on others sometimes. You don't have to do everything alone."
+        },
+        {
+          "action_id": 5,
+          "character": "Kris Ramirez",
+          "character_id": 2,
+          "action": "Kris gently adds her perspective.",
+          "dialogue": "I know you value independence, but this is a situation where asking for help is part of being responsible."
+        },
+        {
+          "action_id": 6,
+          "character": "Kevin Brooks",
+          "character_id": 0,
+          "action": "Kevin hesitates, then takes out his phone and connects to Jason's hotspot.",
+          "dialogue": "Fine, I'll use the hotspot. And maybe I can write a check for the most urgent bill. Thanks, I guess."
+        }
+      ],
+      "plot": "Kevin, overwhelmed by an internet outage and a stack of unpaid bills, reluctantly accepts help from his friend Jason and neighbor Kris. Jason offers a mobile hotspot solution, and Kris suggests paying by check. Kevin's internal conflict between his need for independence and the practicality of relying on others is evident as he tries to maintain control while accepting their support.",
+      "social_purpose": "To illustrate the tension between Kevin's values of independence and responsibility, and his personality traits of anxiety and irritability, while showing how social support can be crucial during a crisis. It also highlights his dependence on digital systems and the real-world consequences of procrastination.",
+      "chunk": {
+        "id": 0,
+        "text": "Kevin slams his laptop shut and sighs heavily. 'I can't believe this. No internet, and I still haven't paid these bills. I can't do anything right.' Jason leans forward and suggests a solution. 'Maybe you can use my mobile hotspot. It's a temporary fix, but it should get you online until the storm passes.' Kris nods and offers an alternative. 'And for the bills, you could pay by check. It's not ideal, but it works in a pinch.' Kevin crosses his arms and looks at them skeptically. 'I don't know. I should be able to handle this on my own. I'm an accountant, not a helpless kid.' Jason calmly reassures Kevin. 'We're just trying to help, Kevin. It's okay to rely on others sometimes. You don't have to do everything alone.' Kris gently adds her perspective. 'I know you value independence, but this is a situation where asking for help is part of being responsible.' Kevin hesitates, then takes out his phone and connects to Jason's hotspot. 'Fine, I'll use the hotspot. And maybe I can write a check for the most urgent bill. Thanks, I guess.'"
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

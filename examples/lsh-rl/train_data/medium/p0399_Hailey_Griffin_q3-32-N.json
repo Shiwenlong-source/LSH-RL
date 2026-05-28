@@ -1,0 +1,95 @@
+{
+  "title": "The Birthday Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Hailey's friend Halen is celebrating her birthday with a group of friends at a restaurant, but Hailey must choose between staying or going home to help her mother.",
+      "time": "Evening",
+      "location": "A cozy family-style restaurant with soft lighting and a small private booth for the group.",
+      "description": "Hailey, Halen, and Lili are seated in a booth at a family restaurant, preparing to celebrate Halen's 18th birthday. The atmosphere is warm, but Hailey is visibly conflicted. Her phone buzzes with a message from her mother, reminding her of a responsibility at home.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Hailey Griffin",
+          "gender": "Female",
+          "description": "A 17-year-old college student who is lively, caring, and thoughtful. She is trying to decide whether to stay for the celebration or go home.; Female, years old, Student, 17 years old; Occupation: College Student; Personality: Lively, Caring, Thoughtful, Emotional; Values: Friendship, Family, Responsibility; Interests: Socializing, Laughter, Celebrations; Experiences: Spending time with close friends, Balancing family expectations, Making difficult decisions",
+          "position": "Seat next to Halen",
+          "states": "Torn, hesitant, emotional",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Halen Moore",
+          "gender": "Female",
+          "description": "Halen Moore; Female; Age: 18; Occupation: High school senior with part-time job at a local bookstore; Personality: warm, empathetic, thoughtful; Values: friendship, family, kindness; Interests: reading, baking, planning surprise events; Experiences: organizing small gatherings for friends, helping care for her younger sibling after school, recently balancing schoolwork with family responsibilities.",
+          "position": "Seat across from Hailey",
+          "states": "Concerned, kind, patient",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Lili Chen",
+          "gender": "Female",
+          "description": "Playful and supportive friend trying to keep the focus on Halen's birthday celebration; Female; Age: 19; Occupation: Part-time barista and high school senior; Personality: Cheerful, empathetic, spontaneous; Values: Loyalty, joy in small moments, kindness; Interests: Stand-up comedy, baking, storytelling; Experiences: Helped Halen through a tough breakup last year, thrown several memorable surprise parties for friends, often acts as the group's emotional anchor during stressful times.",
+          "position": "Seat next to Halen",
+          "states": "Playful, supportive, observant",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Halen Moore",
+          "character_id": 1,
+          "action": "Reassures Hailey she can leave early if needed.",
+          "dialogue": "Hey, Hailey, don't stress about it. You can go help your mom if you need to. I'd rather you be there for her than feel bad staying with us."
+        },
+        {
+          "action_id": 1,
+          "character": "Lili Chen",
+          "character_id": 2,
+          "action": "Changes the subject to the birthday gifts.",
+          "dialogue": "Okay, but before Hailey leaves, we still need to decide what to get Halen. You know she’s going to be mad if we don’t get it right."
+        },
+        {
+          "action_id": 2,
+          "character": "Hailey Griffin",
+          "character_id": 0,
+          "action": "Looks at her phone and then at Halen.",
+          "dialogue": "I really appreciate you saying that, Halen. But I also don't want to leave you guys alone on your birthday. I'm just not sure what to do."
+        },
+        {
+          "action_id": 3,
+          "character": "Halen Moore",
+          "character_id": 1,
+          "action": "Offers to call Hailey's mom to explain the situation.",
+          "dialogue": "How about I call your mom and tell her it's a special night for me and my friends? Maybe she'll let you stay a little longer."
+        },
+        {
+          "action_id": 4,
+          "character": "Hailey Griffin",
+          "character_id": 0,
+          "action": "Considers the offer and smiles slightly.",
+          "dialogue": "You don’t have to do that, but I might take you up on it. I don't want to miss the chance to celebrate with you, but I also don't want to be late."
+        },
+        {
+          "action_id": 5,
+          "character": "Lili Chen",
+          "character_id": 2,
+          "action": "Encourages Hailey to make the call.",
+          "dialogue": "Just call her and ask, Hailey. We all want you to be happy. No one will be upset if you have to leave."
+        }
+      ],
+      "plot": "Hailey is caught between her responsibilities at home and her desire to celebrate her friend Halen's birthday. Halen tries to make Hailey feel at ease by offering to call her mom, while Lili keeps the group focused on the fun and gift preparations. Hailey's emotional and thoughtful nature makes the decision difficult, but the friends support her in the end.",
+      "social_purpose": "To explore Hailey's values of friendship and family, and how her personality traits of being caring and thoughtful affect her decision-making in a social setting.",
+      "chunk": {
+        "id": 0,
+        "text": "Hailey's friend Halen is celebrating her birthday with a group of friends at a restaurant, but Hailey must choose between staying or going home to help her mother."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

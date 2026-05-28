@@ -1,0 +1,102 @@
+{
+  "title": "Choosing the Right Path",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "After-Class Discussion",
+      "time": "Afternoon",
+      "location": "University Computer Science Lecture Hall",
+      "description": "Nathan Black lingers in the lecture hall after his classmates have left. Jackson and David approach him, curious about his thoughts on the class. The atmosphere is quiet but charged with unspoken tension as Nathan grapples with his uncertain future.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Nathan Black",
+          "gender": "Male",
+          "description": "A 22-year-old college student at a crossroads, shifting his passion from technology to business. He is contemplative and uncertain about his next steps.; Male, college student, 22 years old; Occupation: College student; Personality: Contemplative, Uncertain, Analytical; Values: Self-exploration, Adaptability, Future planning; Interests: Technology, Business, Academic discussions; Experiences: Attending tech lectures, Exploring career choices, Participating in class discussions",
+          "position": "Near the whiteboard",
+          "states": "Lost in thought, hesitant, analytical",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Jackson Reed",
+          "gender": "Male",
+          "description": "A tech enthusiast and Nathan's classmate. Enthusiastic about wireless technology and eager to discuss it with Nathan; Male; Age: 22; Occupation: Computer Science Undergraduate Student; Personality: Energetic, curious, optimistic; Values: Innovation, collaboration, intellectual growth; Interests: Wireless networking, open-source software, sci-fi novels; Experiences: Participated in a university hackathon focused on IoT devices, worked on a research project about 5G signal optimization, founded a student tech club.",
+          "position": "Standing next to Nathan",
+          "states": "Energetic, curious, engaged",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "David Chen",
+          "gender": "Male",
+          "description": "A pragmatic and thoughtful classmate who sees the potential for technology and business to work together; Male; Age: 22; Occupation: Computer Science Student with a minor in Business Administration; Personality: Analytical, empathetic, adaptable; Values: Collaboration, innovation, ethical responsibility; Interests: Startup ecosystems, AI ethics, coding challenges; Experiences: Interned at a tech incubator, co-founded a student-led app development project, participated in a national hackathon.",
+          "position": "Sitting on the edge of a desk",
+          "states": "Calm, encouraging, insightful",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Jackson Reed",
+          "character_id": 1,
+          "action": "Initiates conversation",
+          "dialogue": "Hey Nathan, you stayed behind after the lecture. You okay? You looked like you had a lot on your mind."
+        },
+        {
+          "action_id": 1,
+          "character": "Nathan Black",
+          "character_id": 0,
+          "action": "Responds hesitantly",
+          "dialogue": "Yeah... I just need some time to process. I'm not sure if I'm on the right track anymore."
+        },
+        {
+          "action_id": 2,
+          "character": "David Chen",
+          "character_id": 2,
+          "action": "Offers perspective",
+          "dialogue": "Maybe you're not wrong to question it. Tech and business aren't mutually exclusive. I think there's a lot of value in combining both."
+        },
+        {
+          "action_id": 3,
+          "character": "Jackson Reed",
+          "character_id": 1,
+          "action": "Expresses concern",
+          "dialogue": "But you're one of the best in the class. Why even think about leaving it behind?"
+        },
+        {
+          "action_id": 4,
+          "character": "Nathan Black",
+          "character_id": 0,
+          "action": "Shares his thoughts",
+          "dialogue": "I love tech, but I'm starting to see how business can give it more purpose. I want to make an impact, not just code for the sake of it."
+        },
+        {
+          "action_id": 5,
+          "character": "David Chen",
+          "character_id": 2,
+          "action": "Encourages further discussion",
+          "dialogue": "That makes sense. Have you considered a dual major or maybe an internship in the business department? It could help you explore both fields."
+        },
+        {
+          "action_id": 6,
+          "character": "Nathan Black",
+          "character_id": 0,
+          "action": "Considers the idea",
+          "dialogue": "I haven't, but maybe it's worth looking into. I just don't want to lose touch with what I love about tech."
+        }
+      ],
+      "plot": "Nathan is struggling with the decision to shift his focus from technology to business. His friends Jackson and David confront him with their perspectives, challenging and supporting him in his journey of self-exploration.",
+      "social_purpose": "To naturally reveal Nathan's internal conflict and values through a conversation with his peers, while also showing how their differing interests and personalities influence the discussion.",
+      "chunk": {
+        "id": 0,
+        "text": "Nathan's contemplative nature and uncertainty are evident as he weighs his options. Jackson's enthusiasm for technology contrasts with David's more balanced view of combining tech and business. Their dialogue highlights Nathan's analytical approach and his desire to plan for a meaningful future."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

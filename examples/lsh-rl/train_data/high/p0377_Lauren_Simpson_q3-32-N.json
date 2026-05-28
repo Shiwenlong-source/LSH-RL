@@ -1,0 +1,98 @@
+{
+  "title": "The Coffee Shop Writing Workshop",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "A local writing workshop at a cozy urban coffee shop",
+      "time": "Afternoon, 2:00 PM",
+      "location": "A quiet corner of a bustling coffee shop in the city",
+      "description": "Lauren sits at a small table with her laptop, sipping a latte while trying to focus on a writing prompt. Around her, a few other writers are engaged in the workshop. Yuki, a close friend and fellow writer, sits to her left, while Chen, her thoughtful and observant colleague, sits across from her. The workshop leader, a local author named Marcus, circulates the room offering feedback.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Lauren Simpson",
+          "gender": "Woman",
+          "description": "A young writer in her early 20s, visibly thoughtful and hesitant. She carries a quiet emotional weight.; woman, 25+, Urban Resident, 24 years old; Occupation: Writer; Personality: Independent, Emotional, Thoughtful, Hesitant; Values: Autonomy, Emotional Honesty, Friendship; Interests: Writing, Self-reflection, Digital Communication; Experiences: Recent romantic breakup, Close friendships, Workplace relationships, Emotional self-expression, Digital privacy concerns",
+          "position": "Writer at the table",
+          "states": "Emotionally uncertain, introspective, slightly withdrawn",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Yuki Tanaka",
+          "gender": "Woman",
+          "description": "Lauren's close friend and fellow writer, empathetic and perceptive; Woman; Age: 28; Occupation: Freelance fiction writer and writing tutor; Personality: Compassionate, analytical, patient; Values: Creativity, authenticity, community; Interests: Japanese literature, indie music, urban photography; Experiences: Participated in multiple writing workshops, helped a close friend through a creative slump, published a short story in a local literary magazine.",
+          "position": "Writer at the table",
+          "states": "Cautiously concerned, supportive, observant",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Chen Li",
+          "gender": "Man",
+          "description": "Lauren's thoughtful and reserved colleague, who has noticed her recent emotional distance at work; Female; Age: 31; Occupation: Freelance editor and content strategist; Personality: Analytical, observant, patient; Values: Professional integrity, empathy, work-life balance; Interests: Literary fiction, journaling, urban exploration; Experiences: Worked in publishing for five years, collaborated on a successful independent author's debut novel, recently started attending writing workshops to expand creative skills.",
+          "position": "Writer at the table",
+          "states": "Cautiously curious, professional, empathetic",
+          "is_npc": true
+        },
+        {
+          "id": 3,
+          "name": "Marcus Reed",
+          "gender": "Man",
+          "description": "A local author and workshop facilitator, experienced and encouraging; Man; Age: 42; Occupation: Creative Writing Instructor and Published Author; Personality: Empathetic, patient, articulate; Values: Artistic expression, community growth, authenticity; Interests: Storytelling, urban culture, mentoring young writers; Experiences: Taught writing workshops at a community college for over a decade, won regional literary awards for his short fiction, co-founded a writers' collective in the city.",
+          "position": "Walking around the room",
+          "states": "Engaged, supportive, attentive",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Marcus Reed",
+          "character_id": 3,
+          "action": "Approaches the table and sits with them.",
+          "dialogue": "Lauren, your last piece was so moving. I'd love to hear what you're working on now."
+        },
+        {
+          "action_id": 1,
+          "character": "Lauren Simpson",
+          "character_id": 0,
+          "action": "Looks down at her laptop and hesitates.",
+          "dialogue": "I'm... still working through some things. It's not quite ready yet."
+        },
+        {
+          "action_id": 2,
+          "character": "Yuki Tanaka",
+          "character_id": 1,
+          "action": "Reaches out and touches Lauren's hand gently.",
+          "dialogue": "That's okay. Take your time. I'm here if you want to talk or write or just sit quietly."
+        },
+        {
+          "action_id": 3,
+          "character": "Chen Li",
+          "character_id": 2,
+          "action": "Nods thoughtfully and offers a comment.",
+          "dialogue": "Sometimes the hardest part is getting the words out. If you need space, that's fine. I understand."
+        },
+        {
+          "action_id": 4,
+          "character": "Lauren Simpson",
+          "character_id": 0,
+          "action": "Sighs and opens a new document on her laptop.",
+          "dialogue": "I guess I just need to start somewhere. Thank you both for being patient."
+        }
+      ],
+      "plot": "Lauren is attending a writing workshop with friends and colleagues. She is struggling to focus due to recent emotional turmoil from a breakup. Yuki and Chen offer quiet support, and Marcus encourages her to share her thoughts. Lauren slowly begins to open up through writing, showing her internal conflict between emotional honesty and autonomy.",
+      "social_purpose": "To explore Lauren's emotional state and her struggle to express herself while maintaining her independence, all within the supportive context of a shared creative goal.",
+      "chunk": {
+        "id": 0,
+        "text": "Lauren's laptop screen glows as she types slowly, the weight of her recent decision still fresh in her mind. Yuki and Chen exchange a glance, their concern for her evident but carefully measured. Marcus, sensing the tension, gently encourages her to share her voice, knowing that writing is both a refuge and a challenge for her. The workshop becomes a quiet space for Lauren to begin her journey of emotional honesty."
+      },
+      "npcs": [
+        1,
+        2,
+        3
+      ]
+    }
+  ]
+}

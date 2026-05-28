@@ -1,0 +1,116 @@
+{
+  "title": "The Final Signing",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Book signing event",
+      "time": "11:30 PM",
+      "location": "Local bookstore signing area",
+      "description": "Spencer Gibson, a 40-year-old writer, sits at a small table in the corner of the bookstore, surrounded by stacks of his newly released novel. He signs books with mechanical precision, his arm shaking slightly from overuse. His wife, Anna, stands quietly nearby, watching him with concern. His friend, Colin, leans against the wall, trying to make light of the situation with jokes. A few readers trickle in and out, waiting patiently for their turn.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Spencer Gibson",
+          "gender": "male",
+          "description": "A 40-year-old writer, visibly exhausted from several days of promotional events. His face is pale, and his movements are slow and deliberate.; male, writer, 40 years old; Occupation: Writer; Personality: Exhausted, Resilient, Anxious, Compromising; Values: Responsibility, Connection with readers, Integrity; Interests: Literature, Public interaction, Creative writing; Experiences: Book promotion events, Extended public appearances, Emotional stress from obligations",
+          "position": "Signing books at the table",
+          "states": "Exhausted, anxious, conflicted",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Anna Gibson",
+          "gender": "female",
+          "description": "Calm and empathetic woman in her early 40s quietly supporting her husband; Female; Age: 42; Occupation: High school English teacher; Personality: Compassionate, observant, resilient; Values: Family, integrity, quiet strength; Interests: Reading literary fiction, gardening, community theater; Experiences: Supported Spencer through his writer's block years ago, organized local book clubs to promote literacy, managed a family through multiple relocations for his career.",
+          "position": "Standing near the table, observing",
+          "states": "Supportive, concerned, patient",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Colin Hayes",
+          "gender": "male",
+          "description": "Colin Hayes; Male; Age: 42; Occupation: Freelance journalist and short story writer; Personality: Witty, empathetic, easygoing; Values: Loyalty, creativity, work-life balance; Interests: Stand-up comedy, indie music, local café culture; Experiences: Survived a period of creative burnout, helped Spencer through his first book tour, co-authored a well-received anthology with a group of friends.",
+          "position": "Leaning against the wall, chatting",
+          "states": "Playful, supportive, observant",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Colin Hayes",
+          "character_id": 2,
+          "action": "jokes to Spencer",
+          "dialogue": "You know, if you keep signing books like this, you might become a pen manufacturer. Just say the word, and I’ll start a line of Gibson pens."
+        },
+        {
+          "action_id": 1,
+          "character": "Spencer Gibson",
+          "character_id": 0,
+          "action": "responds with a weak smile",
+          "dialogue": "That’s not funny, Colin. But thanks. I just want to get through this."
+        },
+        {
+          "action_id": 2,
+          "character": "Anna Gibson",
+          "character_id": 1,
+          "action": "places a hand on Spencer’s shoulder",
+          "dialogue": "You’ve done so much already, love. You don’t have to do this alone."
+        },
+        {
+          "action_id": 3,
+          "character": "Spencer Gibson",
+          "character_id": 0,
+          "action": "sighs and looks at the remaining books",
+          "dialogue": "I know. I just feel like I owe it to the readers. They’ve waited so long for this."
+        },
+        {
+          "action_id": 4,
+          "character": "Colin Hayes",
+          "character_id": 2,
+          "action": "jokes again, trying to cheer Spencer up",
+          "dialogue": "Well, if you collapse, I’ll be the one to tell them it was an integrity-induced faint. That’ll be the story."
+        },
+        {
+          "action_id": 5,
+          "character": "Spencer Gibson",
+          "character_id": 0,
+          "action": "gives a tired chuckle",
+          "dialogue": "You always know how to make me feel better, even if I don’t laugh."
+        },
+        {
+          "action_id": 6,
+          "character": "Anna Gibson",
+          "character_id": 1,
+          "action": "nudges Spencer gently",
+          "dialogue": "You’ve met your goal for the night. Let’s call it a day, and I’ll help you tomorrow."
+        },
+        {
+          "action_id": 7,
+          "character": "Spencer Gibson",
+          "character_id": 0,
+          "action": "considers Anna's words, then nods",
+          "dialogue": "Alright. I’ll finish this last stack and call it. I just need to be sure I’m doing the right thing."
+        },
+        {
+          "action_id": 8,
+          "character": "Colin Hayes",
+          "character_id": 2,
+          "action": "claps Spencer on the back",
+          "dialogue": "That’s the spirit. You’re a writer, not a robot. And robots can’t write novels like you do."
+        }
+      ],
+      "plot": "Spencer is struggling with the physical and emotional toll of a long book signing event. His wife Anna and friend Colin support him in different ways, with Anna offering empathy and Colin using humor to ease the tension. Spencer’s internal conflict between his sense of responsibility to his readers and his need for rest is evident. Ultimately, he decides to finish the last stack of books and end the night, showing his resilience and willingness to compromise for his well-being.",
+      "social_purpose": "To explore the tension between professional responsibility and personal well-being, while showcasing the protagonist's relationships and values through a realistic public interaction.",
+      "chunk": {
+        "id": 0,
+        "text": "Spencer Gibson sat at the table, his pen shaking as he signed the 200th copy of his novel. Anna stood nearby, watching him with a mix of admiration and worry. Colin, leaning against the wall, cracked another joke, hoping to ease the tension. Spencer’s exhaustion was palpable, but his sense of duty to his readers kept him going. The interaction revealed his struggle to balance his obligations with his need for rest, while Anna’s quiet support and Colin’s humor highlighted the roles they play in his life."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

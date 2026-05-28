@@ -1,0 +1,95 @@
+{
+  "title": "Cafe Crush",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Kayla helps Sun work up the courage to ask Yuna out at a local café.",
+      "time": "Afternoon, 3 PM",
+      "location": "A cozy campus café with soft background music and a few students chatting.",
+      "description": "Sun is sitting at a table, nervously fidgeting with her coffee cup. Kayla sits across from her, smiling and trying to ease the tension. Nearby, Yuna is studying with a group of friends, laughing occasionally.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Kayla Alexander",
+          "gender": "Female",
+          "description": "A socially confident and perceptive college student in her early 20s. She is warm, witty, and observant, always ready to support her friends.; Female, early, student, 25 years old; Occupation: College student; Personality: Perceptive, Considerate, Socially confident, Encouraging; Values: Friendship, Emotional support, Courage; Interests: Helping friends, Social interaction, Emotional growth; Experiences: Supporting friends in emotional matters, Navigating campus social relationships, Assisting others' growth",
+          "position": "Across from Sun, facing her",
+          "states": "Encouraging, playful, supportive",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Sun",
+          "gender": "Non-binary",
+          "description": "A shy and introverted student in their early 20s who has a secret crush on Yuna; Non-binary; Age: 21; Occupation: Undergraduate student majoring in psychology; Personality: introverted, empathetic, anxious; Values: authenticity, meaningful relationships; Interests: journaling, indie music, observing human behavior; Experiences: struggled with self-confidence in social settings, developed close friendships through study groups, has never been on a date.",
+          "position": "At the table, facing Kayla",
+          "states": "Nervous, anxious, hopeful",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Yuna",
+          "gender": "Female",
+          "description": "A bright and approachable student in her early 20s; Female; Age: 21; Occupation: Psychology major with a part-time role as a campus peer counselor; Personality: Empathetic, cheerful, and confident; Values: Compassion, authenticity, and personal growth; Interests: Reading self-help books, organizing community events, and enjoying lattes while people-watching; Experiences: Volunteered at a youth mentorship program, led a successful campus mental health awareness campaign, and recently helped a close friend through a difficult breakup.",
+          "position": "At a nearby table with friends",
+          "states": "Engaged in conversation, unaware of Sun's presence",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Kayla Alexander",
+          "character_id": 0,
+          "action": "Leans forward and gently nudges Sun.",
+          "dialogue": "Come on, Sun. You've been staring at her table for 10 minutes now. What's the worst that could happen?"
+        },
+        {
+          "action_id": 1,
+          "character": "Sun",
+          "character_id": 1,
+          "action": "Avoids eye contact and stammers.",
+          "dialogue": "I don't know, Kayla. What if she says no? I don't want to embarrass myself."
+        },
+        {
+          "action_id": 2,
+          "character": "Kayla Alexander",
+          "character_id": 0,
+          "action": "Smiles and places a hand on Sun's shoulder.",
+          "dialogue": "Sun, you're not just asking her out—you're being brave. That's what friendship is for: to help each other grow."
+        },
+        {
+          "action_id": 3,
+          "character": "Sun",
+          "character_id": 1,
+          "action": "Takes a deep breath and looks up.",
+          "dialogue": "Maybe you're right. But what if I say something awkward?"
+        },
+        {
+          "action_id": 4,
+          "character": "Kayla Alexander",
+          "character_id": 0,
+          "action": "Grins and leans in closer.",
+          "dialogue": "Then I'll be right here to save you. Just take the first step. You got this!"
+        },
+        {
+          "action_id": 5,
+          "character": "Sun",
+          "character_id": 1,
+          "action": "Nods slowly, then stands up and walks toward Yuna's table.",
+          "dialogue": "Okay... here goes nothing."
+        }
+      ],
+      "plot": "Kayla helps Sun overcome their anxiety and take the first step in confessing their feelings to Yuna in a public setting.",
+      "social_purpose": "To demonstrate the role of friendship in emotional support and personal growth, while showcasing the protagonist's traits and values through natural dialogue and interaction.",
+      "chunk": {
+        "id": 0,
+        "text": "Kayla leans forward and gently nudges Sun. 'Come on, Sun. You've been staring at her table for 10 minutes now. What's the worst that could happen?' Sun fidgets with their coffee cup, avoiding eye contact. 'I don't know, Kayla. What if she says no? I don't want to embarrass myself.' Kayla smiles and places a hand on Sun's shoulder. 'Sun, you're not just asking her out—you're being brave. That's what friendship is for: to help each other grow.' Sun takes a deep breath. 'Maybe you're right. But what if I say something awkward?' Kayla leans in closer and grins. 'Then I'll be right here to save you. Just take the first step. You got this!' Sun nods slowly, then stands up and walks toward Yuna's table. 'Okay... here goes nothing.'"
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

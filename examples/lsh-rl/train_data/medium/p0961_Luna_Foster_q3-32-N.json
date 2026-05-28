@@ -1,0 +1,102 @@
+{
+  "title": "Designing New Beginnings",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Coffee Break Discussion",
+      "time": "10:30 AM",
+      "location": "Office Break Room",
+      "description": "Luna is sitting at a small table in the break room, sipping coffee while staring at a photo on her phone. Nina and Jack enter, both carrying mugs and looking curious about her mood.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Luna Foster",
+          "gender": "Female",
+          "description": "A 26-year-old designer who recently moved to a new city. She is sentimental and reflective, often caught in moments of deep thought.; 26-year-old female, recently moved to a new city, 26 years old; Occupation: Designer; Personality: Hesitant, Sentimental, Reflective; Values: Self-Exploration, Emotional Honesty, New Beginnings; Interests: Design, City Life, Personal Growth; Experiences: Brief Summer Romance, Moving to a New City, Adapting to a New Work Environment",
+          "position": "Seated at the table, holding her phone",
+          "states": "Hesitant, sentimental, slightly distracted",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Nina Scott",
+          "gender": "Female",
+          "description": "A sharp and observant marketing executive who is always quick to notice subtle changes in her colleagues' behavior; Female; Age: 34; Occupation: Senior Marketing Director; Personality: Analytical, empathetic, observant; Values: Professional integrity, loyalty, growth; Interests: Data-driven storytelling, interior design, travel; Experiences: Led a successful rebranding campaign that increased company visibility by 40%, mentored junior staff through a challenging merger, navigated a high-pressure product launch during the pandemic.",
+          "position": "Standing near the coffee machine",
+          "states": "Supportive, curious, observant",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Jack Hughes",
+          "gender": "Male",
+          "description": "A laid-back and empathetic project manager who has a knack for diffusing tension and sparking meaningful conversations; Male; Age: 34; Occupation: Senior Project Manager, Tech Consulting Firm; Personality: Compassionate, observant, easygoing; Values: Work-life balance, emotional intelligence, team harmony; Interests: Board games, nature photography, indie music; Experiences: Managed a high-stress merger project that required deep interpersonal skills, helped a junior colleague navigate a difficult career transition, spent a year volunteering in a community mentorship program.",
+          "position": "Walking into the room, smiling warmly",
+          "states": "Empathetic, approachable, intuitive",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Nina Scott",
+          "character_id": 1,
+          "action": "Noticing Luna's distraction",
+          "dialogue": "Hey, Luna. You seem... quiet today. Everything okay?"
+        },
+        {
+          "action_id": 1,
+          "character": "Luna Foster",
+          "character_id": 0,
+          "action": "Looking up with a forced smile",
+          "dialogue": "Oh, I'm fine. Just... thinking about some things."
+        },
+        {
+          "action_id": 2,
+          "character": "Jack Hughes",
+          "character_id": 2,
+          "action": "Approaching the table",
+          "dialogue": "You know, when you're in a new city, it's normal to feel a bit out of place. I remember my first few weeks here—it was tough to focus on anything else."
+        },
+        {
+          "action_id": 3,
+          "character": "Luna Foster",
+          "character_id": 0,
+          "action": "Looking down at her phone again",
+          "dialogue": "It's not just the city. I just saw a photo that reminded me of someone I... used to know."
+        },
+        {
+          "action_id": 4,
+          "character": "Nina Scott",
+          "character_id": 1,
+          "action": "Sitting down across from Luna",
+          "dialogue": "Brief romances can leave a lasting impression. I get it. But I also know that this city is full of new possibilities for you."
+        },
+        {
+          "action_id": 5,
+          "character": "Jack Hughes",
+          "character_id": 2,
+          "action": "Setting his mug down and leaning forward",
+          "dialogue": "What matters is that you're here now, and that you're doing work you love. That photo might be a reminder, but it doesn't have to be a roadblock."
+        },
+        {
+          "action_id": 6,
+          "character": "Luna Foster",
+          "character_id": 0,
+          "action": "Taking a deep breath and nodding slowly",
+          "dialogue": "You're right. I guess I'm just trying to figure out what this means for me moving forward."
+        }
+      ],
+      "plot": "During a coffee break, Luna's colleagues notice her emotional struggle and gently encourage her to focus on her new life and work in the city, helping her take a step toward emotional honesty and self-exploration.",
+      "social_purpose": "To explore Luna's emotional state and encourage her to embrace new beginnings while acknowledging her past experiences.",
+      "chunk": {
+        "id": 0,
+        "text": "Luna sat at the small table in the break room, her fingers lightly tapping the edge of her mug. The photo on her phone showed a man in a white shirt and a sweet-smiling girl, both laughing under the summer sun. She had moved to the city for a fresh start, but memories of the past were still lingering. Nina approached with a concerned look, while Jack offered a warm, comforting smile. The conversation that followed helped Luna begin to untangle her emotions and consider where her heart truly wanted to go."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

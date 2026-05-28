@@ -1,0 +1,81 @@
+{
+  "title": "A New Chapter",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Meeting for coffee to discuss a collaborative project",
+      "time": "Afternoon",
+      "location": "A cozy, independent café in the new city",
+      "description": "Michael sits at a corner table, nervously sipping his latte while waiting for his friends, Mona and Tao. He's still adjusting to the new city and is anxious about reconnecting with people he used to know. Mona arrives first, her warm smile easing some of Michael’s tension. Tao follows shortly after, carrying a sketchbook and a teasing grin. They are here to discuss a joint creative project, but the underlying goal is to help Michael feel more connected and less isolated in his new environment.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Michael Martinez",
+          "gender": "Male",
+          "description": "Recently moved to the city, appears thoughtful and slightly reserved, showing signs of emotional transition.; Male / Recently Moved to a New City, 26 years old; Occupation: Working in the Creative Field; Personality: Thoughtful, Reserved, Empathetic, Introspective; Values: Independence, Emotional Connection, Authenticity; Interests: Personal Growth, Meaningful Relationships, New Experiences; Experiences: Recent Relocation, Experiencing Emotional Transition, Maintaining Long-distance Relationships",
+          "position": "Corner table, sipping a latte",
+          "states": "Nervous but determined",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Mona Singh",
+          "gender": "Female",
+          "description": "A close friend of Michael's, empathetic and supportive, known for her warm and caring nature; Female; Age: 32; Occupation: Community Arts Coordinator; Personality: Compassionate, patient, observant; Values: Connection, creativity, inclusivity; Interests: Urban sketching, cultural festivals, mentoring young artists; Experiences: Organized a successful city-wide mural project, helped Michael navigate his early transition to the city, volunteers at a local community center for new immigrants.",
+          "position": "Sitting across from Michael, holding a cappuccino",
+          "states": "Reassuring and attentive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Tao Lee",
+          "gender": "Male",
+          "description": "Creative and playful childhood friend; Male; Age: 28; Occupation: Freelance graphic designer and illustrator; Personality: Witty, empathetic, imaginative; Values: Creativity, loyalty, authenticity; Interests: Sketching in public places, indie music, urban exploration; Experiences: Collaborated with Michael on a school art project, moved across the country for a creative career, volunteered for a local mural project to bring communities together.",
+          "position": "Sitting to Michael's right, flipping through a sketchbook",
+          "states": "Teasing but friendly",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Mona Singh",
+          "character_id": 1,
+          "action": "greets Michael warmly",
+          "dialogue": "Hey, Michael! It’s so good to see you again. You look a bit nervous—everything okay?"
+        },
+        {
+          "action_id": 1,
+          "character": "Michael Martinez",
+          "character_id": 0,
+          "action": "smiles shyly",
+          "dialogue": "Yeah, I’m just still getting used to the new place. But I’m glad we’re meeting. This project sounds exciting."
+        },
+        {
+          "action_id": 2,
+          "character": "Tao Lee",
+          "character_id": 2,
+          "action": "teases Michael",
+          "dialogue": "Exciting, huh? I bet it’s not as exciting as trying to survive in a new city alone. You could’ve brought us a souvenir from your new adventure!"
+        },
+        {
+          "action_id": 3,
+          "character": "Michael Martinez",
+          "character_id": 0,
+          "action": "laughs lightly",
+          "dialogue": "I’ll keep that in mind for next time. But seriously, I’ve been thinking a lot about how to make this project meaningful. I want to create something real, something that connects with people."
+        }
+      ],
+      "plot": "Michael meets with Mona and Tao to discuss a collaborative creative project. Through the interaction, his desire for meaningful relationships and authenticity comes to light. Mona provides emotional support, while Tao’s playful energy helps lighten the mood and push Michael to open up more. The shared goal of the project becomes a bridge for Michael to feel more connected to his old friends in his new city.",
+      "social_purpose": "To show Michael’s struggle with independence and emotional connection in a new environment, while highlighting the supportive dynamics between the characters and the role of shared goals in building relationships.",
+      "chunk": {
+        "id": 0,
+        "text": "Michael meets with Mona and Tao to discuss a collaborative creative project. Through the interaction, his desire for meaningful relationships and authenticity comes to light. Mona provides emotional support, while Tao’s playful energy helps lighten the mood and push Michael to open up more. The shared goal of the project becomes a bridge for Michael to feel more connected to his old friends in his new city."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

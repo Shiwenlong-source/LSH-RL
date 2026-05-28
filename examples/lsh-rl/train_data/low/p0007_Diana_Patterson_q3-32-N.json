@@ -1,0 +1,88 @@
+{
+  "title": "A Quiet Connection at the Café",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Diana shares a moment with her cousin and mother at a café, trying to cope with grief while connecting through shared memories.",
+      "time": "Afternoon",
+      "location": "A cozy family-run café with soft lighting and a small live music corner",
+      "description": "Diana sits quietly at a corner table, sipping a cup of tea while her cousin Nam and mother Keri try to engage her in conversation. A soft, nostalgic melody plays in the background from the live music corner. The air is warm, and the café is filled with the faint aroma of freshly baked bread and coffee.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Diana Patterson",
+          "gender": "Female",
+          "description": "A reflective 25-year-old waitress with a quiet demeanor, currently dealing with unresolved grief and emotional vulnerability.; Female, Family Member, 25 years old; Occupation: Restaurant Waitress; Personality: Introverted, Highly Empathetic, Reflective; Values: Family bonds, Emotional authenticity, Nostalgia; Interests: Music, Photography, Personal narratives; Experiences: Loss of a loved one, Unresolved feelings, Family gatherings, Emotional introspection, Childhood memories",
+          "position": "Corner table",
+          "states": "Tense, contemplative, holding back tears",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Nam Tran",
+          "gender": "Male",
+          "description": "Diana's cousin, mid-30s, with a warm and nostalgic personality, trying to bring comfort through shared memories; Male; Age: 36; Occupation: High school history teacher; Personality: Empathetic, patient, sentimental; Values: Family bonds, emotional healing, tradition; Interests: Storytelling, old family recipes, folk music; Experiences: Lost his father at a young age, helped care for his younger siblings, often the family's unofficial counselor during difficult times.",
+          "position": "Across from Diana",
+          "states": "Supportive, observant, gently persistent",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Keri Patterson",
+          "gender": "Female",
+          "description": "Diana's mother, late 40s, emotionally expressive and determined to help her daughter heal through family connections; Female; Age: 48; Occupation: High school English teacher; Personality: Compassionate, patient, empathetic; Values: Family bonds, emotional healing, authenticity; Interests: Reading classic literature, baking comfort foods, playing piano; Experiences: Navigated her own grief after losing a sibling, supported Diana through past traumas, maintains close ties with extended family.",
+          "position": "Beside Diana",
+          "states": "Caring, sentimental, encouraging",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Nam Tran",
+          "character_id": 1,
+          "action": "Pulls out a yellowed photo from his pocket and places it gently on the table",
+          "dialogue": "Look at this, Diana. Remember when Grandpa took us all to the lake and we had that picnic? You were the one who took the photo of the sunset."
+        },
+        {
+          "action_id": 1,
+          "character": "Keri Patterson",
+          "character_id": 2,
+          "action": "Taps the side of her cup and hums an old tune from their hometown",
+          "dialogue": "This song always reminds me of you and Grandpa. He used to sing it while fixing the porch swing. It felt like time stood still."
+        },
+        {
+          "action_id": 2,
+          "character": "Diana Patterson",
+          "character_id": 0,
+          "action": "Looks at the photo, then at her mother, and finally at the window with a distant gaze",
+          "dialogue": "I miss him. I just... I don’t know how to say it out loud without it all coming out wrong."
+        },
+        {
+          "action_id": 3,
+          "character": "Nam Tran",
+          "character_id": 1,
+          "action": "Places a hand on Diana’s and smiles softly",
+          "dialogue": "You don’t have to say it right. Just say it. We’re here for that."
+        },
+        {
+          "action_id": 4,
+          "character": "Keri Patterson",
+          "character_id": 2,
+          "action": "Reaches over and takes Diana’s other hand",
+          "dialogue": "We’re your family, Di. You can always trust us with your heart."
+        }
+      ],
+      "plot": "Diana is struggling to open up about her grief over her grandfather’s passing. Nam and Keri, recognizing her emotional state, use shared memories and familiar music to create a safe space for her to express her feelings. Their gentle persistence and the comforting atmosphere of the café slowly help Diana feel more at ease.",
+      "social_purpose": "To demonstrate how family bonds and emotional authenticity can help someone process grief and vulnerability in a public setting.",
+      "chunk": {
+        "id": 0,
+        "text": "The café’s soft lighting and familiar music create a safe space for Diana to confront her grief. Through shared memories of her grandfather, her cousin and mother encourage her to open up, aligning with her values of family and nostalgia. Diana’s empathetic nature and introverted personality make the interaction delicate but meaningful."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

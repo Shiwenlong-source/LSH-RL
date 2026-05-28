@@ -1,0 +1,95 @@
+{
+  "title": "A Night of Worship and Choice",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Youth Group Worship Night",
+      "time": "7:00 PM on a Saturday evening",
+      "location": "Back room of a local church",
+      "description": "A small group of young Christians gather for a worship night. The room is softly lit, with a few instruments and a small stage. A sense of anticipation and quiet reverence fills the air as the group prepares for a night of music and prayer. The shared goal is to connect with God through worship and community, and for some, like Allison, it is a moment of personal decision.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Allison Olson",
+          "gender": "Female",
+          "description": "A 20-year-old college student with a deep sense of spiritual sensitivity but also a quiet hesitation. She is seated in the front row, hands clasped in her lap, eyes closed as if in prayer.; 22-year-old female, Christian, 24 years old; Occupation: College Student; Personality: Hesitant, Spiritually Sensitive, Pensive; Values: Faith, Inner Peace, Community; Interests: Worship Music, Spiritual Reflection, Youth Fellowship; Experiences: Attending church events, Struggling with doubt, Observing others' spiritual journeys, Seeking divine guidance",
+          "position": "Front Row",
+          "states": "Torn, Reflective, Anxious",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Joe Ramirez",
+          "gender": "Male",
+          "description": "A 21-year-old who has been part of the youth group for years. He is more reserved than most, often observing rather than participating. Tonight, he seems uneasy, fidgeting with the strap of his guitar; Male; Age: 21; Occupation: Part-time music teacher at a community center; Personality: Thoughtful, introverted, empathetic; Values: Faithfulness, humility, community; Interests: Playing acoustic guitar, writing worship songs, reading theological reflections; Experiences: Led a small Bible study for middle schoolers, struggled with doubt during a difficult family situation, recently began mentoring a new member of the youth group.",
+          "position": "Near Stage",
+          "states": "Uncomfortable, Thoughtful, Supportive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Lora Chen",
+          "gender": "Female",
+          "description": "A 23-year-old who is passionate about leading worship and encouraging others; Female; Age: 23; Occupation: Part-time worship leader and full-time youth ministry coordinator; Personality: Compassionate, patient, and empathetic; Values: Community, spiritual growth, and authenticity; Interests: Playing piano, writing devotional content, and organizing prayer circles; Experiences: Led a youth revival event that brought 50 new members into the church, helped a close friend through a faith crisis, and has been a regular participant in interdenominational prayer groups since high school.",
+          "position": "Beside Allison",
+          "states": "Encouraging, Calm, Observant",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Lora Chen",
+          "character_id": 2,
+          "action": "nudges Allison",
+          "dialogue": "Allison, you’ve been so still. God is speaking tonight. Let’s listen together."
+        },
+        {
+          "action_id": 1,
+          "character": "Allison Olson",
+          "character_id": 0,
+          "action": "looks at Lora, then at the stage",
+          "dialogue": "I want to, Lora. I just... don’t know if I’m ready."
+        },
+        {
+          "action_id": 2,
+          "character": "Joe Ramirez",
+          "character_id": 1,
+          "action": "strums a few chords on his guitar",
+          "dialogue": "We’re all in this together. You don’t have to be ready. Just show up."
+        },
+        {
+          "action_id": 3,
+          "character": "Allison Olson",
+          "character_id": 0,
+          "action": "sighs and opens her eyes",
+          "dialogue": "It’s not just about being ready. It’s about trusting that He’s there."
+        },
+        {
+          "action_id": 4,
+          "character": "Lora Chen",
+          "character_id": 2,
+          "action": "places a hand on Allison’s shoulder",
+          "dialogue": "And He is. I’ve felt it. Let’s take this step together."
+        },
+        {
+          "action_id": 5,
+          "character": "Allison Olson",
+          "character_id": 0,
+          "action": "nods slowly, then stands up",
+          "dialogue": "Okay. I’ll try."
+        }
+      ],
+      "plot": "During a church youth group worship night, Allison Olson is at a crossroads in her faith journey. Lora Chen, a supportive and spiritually driven friend, encourages her to take part in the moment, while Joe Ramirez, a fellow group member, offers quiet reassurance. Their shared goal of deepening their connection to God and each other brings them into a meaningful interaction that could change Allison’s spiritual path forever.",
+      "social_purpose": "To explore the internal and external factors that influence a person’s spiritual journey, using a public worship setting to showcase how community and personal doubt interact. The dialogue and actions naturally reveal the characters' values, personalities, and experiences.",
+      "chunk": {
+        "id": 0,
+        "text": "As the first song begins to play, the room fills with soft melodies and the hum of voices. Lora sits beside Allison, sensing her hesitation. She gently nudges her and says, 'Allison, you’ve been so still. God is speaking tonight. Let’s listen together.' Allison looks at Lora, then at the stage, where Joe is tuning his guitar. 'I want to,' she says quietly, 'I just... don’t know if I’m ready.' Joe, noticing the exchange, strums a few chords and says, 'We’re all in this together. You don’t have to be ready. Just show up.' Allison sighs, staring at the floor. 'It’s not just about being ready. It’s about trusting that He’s there.' Lora places a hand on Allison’s shoulder. 'And He is. I’ve felt it. Let’s take this step together.' After a long pause, Allison nods slowly. 'Okay. I’ll try.'"
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

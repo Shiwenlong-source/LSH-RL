@@ -1,0 +1,88 @@
+{
+  "title": "Morning Break",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Lena offers Ivy a drink during a morning coffee break.",
+      "time": "10:00 AM",
+      "location": "Office pantry",
+      "description": "Lena stands by the coffee machine, holding a freshly made latte. Ivy is sitting at the small table, scrolling through her phone. Frank leans against the counter, watching the exchange with a knowing smile.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Lena",
+          "gender": "Female",
+          "description": "A considerate and empathetic office clerk in her late 20s, who is often thoughtful in her interactions with colleagues.; Female, Professional, 28 years old; Occupation: Office Clerk; Personality: Considerate, Empathetic, Analytical; Values: Connection, Integrity, Growth; Interests: Writing, Communication, Self-reflection; Experiences: Running a personal blog, Handling workplace relationships, Building connections through shared interests",
+          "position": "By the coffee machine",
+          "states": "Nervous but determined",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Ivy",
+          "gender": "Female",
+          "description": "A reserved and focused coworker, who keeps her distance but is open to small gestures of kindness; Female; Age: 28; Occupation: Data Analyst; Personality: Analytical, introverted, observant; Values: Integrity, work ethic, quiet respect; Interests: Reading mystery novels, practicing yoga, listening to indie folk music; Experiences: Worked her way up from entry-level roles through sheer dedication, experienced a betrayal from a close colleague which made her more guarded, recently started opening up to a few trusted coworkers.",
+          "position": "Seated at the table",
+          "states": "Surprised and cautious",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Frank",
+          "gender": "Male",
+          "description": "A laid-back and observant team leader, who enjoys watching and sometimes commenting on workplace dynamics; Male; Age: 38; Occupation: Senior Project Manager; Personality: Observant, Humorous, Patient; Values: Teamwork, Work-Life Balance, Integrity; Interests: People-watching, Retro video games, Casual barbecues; Experiences: Managed a high-stress product launch that succeeded due to team cohesion, Mediated a conflict between two senior employees that improved office morale, Spent five years in entry-level roles before rising to leadership.",
+          "position": "Leaning against the counter",
+          "states": "Amused and attentive",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Lena",
+          "character_id": 0,
+          "action": "Offers a latte to Ivy",
+          "dialogue": "Hey Ivy, I made an extra latte this morning. Thought you might like it. No sugar, just the way I know you like it."
+        },
+        {
+          "action_id": 1,
+          "character": "Ivy",
+          "character_id": 1,
+          "action": "Looks up and hesitates",
+          "dialogue": "Oh, that's... really thoughtful of you, Lena. I didn't expect that. Thanks."
+        },
+        {
+          "action_id": 2,
+          "character": "Frank",
+          "character_id": 2,
+          "action": "Smiles and comments",
+          "dialogue": "You're a writer, Lena. That's a good story starter right there."
+        },
+        {
+          "action_id": 3,
+          "character": "Lena",
+          "character_id": 0,
+          "action": "Laughs lightly and responds",
+          "dialogue": "Maybe I'll turn it into one. But right now, I just wanted to make sure someone else enjoyed it."
+        },
+        {
+          "action_id": 4,
+          "character": "Ivy",
+          "character_id": 1,
+          "action": "Accepts the latte and smiles",
+          "dialogue": "I do enjoy it. I appreciate the thought. You always know the right thing to say, or in this case, the right thing to do."
+        }
+      ],
+      "plot": "Lena tries to bridge the gap between her and Ivy by offering a small, personal gesture. Ivy is initially surprised but warms up to the idea, showing that Lena's empathetic approach can foster connection. Frank's comment highlights Lena's analytical and communicative nature, while also keeping the mood light.",
+      "social_purpose": "To demonstrate Lena's values of connection and integrity, as well as her empathetic and considerate personality, through a simple but meaningful gesture in a professional setting.",
+      "chunk": {
+        "id": 0,
+        "text": "Lena stands by the coffee machine, holding a freshly made latte. Ivy is sitting at the small table, scrolling through her phone. Frank leans against the counter, watching the exchange with a knowing smile."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

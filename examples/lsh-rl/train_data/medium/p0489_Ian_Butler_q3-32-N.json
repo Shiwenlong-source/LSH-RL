@@ -1,0 +1,88 @@
+{
+  "title": "The Yard Sign Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Neighbors discuss political yard signs in a park.",
+      "time": "Saturday morning",
+      "location": "Maplewood Park",
+      "description": "A quiet park on a crisp autumn morning, where community members gather for coffee and casual conversation. Ian Butler is seated on a wooden bench, sipping his coffee and reading a local newspaper. Lily, a 38-year-old teacher and active community volunteer, approaches with a friendly but determined expression. Kiki, a 42-year-old barista and Ian's close friend, arrives shortly after with a tray of coffee mugs.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Ian Butler",
+          "gender": "Male",
+          "description": "40-year-old community activist with a firm, principled, and thoughtful demeanor. He is well-respected in the neighborhood for his political integrity and advocacy of personal values.; 40-year-old male, Community resident, 47 years old; Occupation: Community activist; Personality: Firm, Principled, Thoughtful; Values: Personal freedom, Political integrity, Community respect; Interests: Political participation, Community affairs, Coffee culture; Experiences: Participating in local elections, Engaging in political discussions, Advocating personal values in public",
+          "position": "Seated on a bench, sipping coffee",
+          "states": "Calm but resolute, engaged in a conversation",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Lily",
+          "gender": "Female",
+          "description": "Lily; Female; Age: 38; Occupation: High school civics teacher and community volunteer; Personality: Passionate, persistent, empathetic; Values: Civic responsibility, community empowerment, fairness; Interests: Local politics, public speaking, gardening; Experiences: Organized a successful voter registration drive in her neighborhood, led workshops on understanding municipal policies, served on the city's education advisory board.",
+          "position": "Standing near Ian's bench, holding a Bush/Cheney yard sign",
+          "states": "Slightly frustrated, trying to persuade",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Kiki",
+          "gender": "Female",
+          "description": "Kiki is a 42-year-old barista and Ian's close friend; Female; Age: 42; Occupation: Barista and part-time community event coordinator; Personality: Easygoing, empathetic, quick-witted; Values: Community harmony, kindness, authenticity; Interests: Coffee culture, local politics, autumn hikes; Experiences: Mediated a neighborhood dispute over a community garden, organized a successful town-wide coffee tasting event, grew up in a politically active household.",
+          "position": "Sitting on the bench next to Ian, handing out coffee",
+          "states": "Trying to lighten the mood",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Lily",
+          "character_id": 1,
+          "action": "Approaching Ian with a yard sign",
+          "dialogue": "Ian, I just wanted to check in. The neighborhood is trying to show support for the Bush/Cheney campaign. Would you consider putting one of these in your yard?"
+        },
+        {
+          "action_id": 1,
+          "character": "Ian Butler",
+          "character_id": 0,
+          "action": "Firmly declining the offer",
+          "dialogue": "Lily, I appreciate the effort, but I can't support that campaign. My values don't align with their policies, and I believe in staying true to my political integrity."
+        },
+        {
+          "action_id": 2,
+          "character": "Kiki",
+          "character_id": 2,
+          "action": "Changing the subject to coffee",
+          "dialogue": "Hey, I brought the usual. Want a latte, Ian? We can talk about something else for a while."
+        },
+        {
+          "action_id": 3,
+          "character": "Lily",
+          "character_id": 1,
+          "action": "Expressing mild disappointment",
+          "dialogue": "I understand, Ian. I just think it's important for the community to have a unified voice. But I guess we all have our own way of participating."
+        },
+        {
+          "action_id": 4,
+          "character": "Ian Butler",
+          "character_id": 0,
+          "action": "Reiterating his stance",
+          "dialogue": "Exactly, Lily. I value personal freedom and the right to make my own choices, even if it means standing out. I'm not trying to disrupt the community, just to honor my own beliefs."
+        }
+      ],
+      "plot": "Ian's refusal to support the Bush/Cheney campaign through a yard sign creates a moment of tension in the park. Lily, who values community unity and political participation, is disappointed, while Kiki tries to ease the situation. Ian remains firm in his principled stance, emphasizing the importance of personal freedom and political integrity.",
+      "social_purpose": "This scenario highlights the tension between individual political expression and community expectations. It also explores how personal values and experiences can influence one's decisions in public settings, and how friends and neighbors navigate these differences.",
+      "chunk": {
+        "id": 0,
+        "text": "The conversation in the park reveals the subtle dynamics of political participation and personal freedom. Ian's principled refusal to display a yard sign that doesn't reflect his beliefs shows his commitment to political integrity. Lily's disappointment reflects her belief in the importance of visible community support for political causes, while Kiki's attempts to mediate demonstrate her role as a social glue in the neighborhood."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

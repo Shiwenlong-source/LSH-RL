@@ -1,0 +1,98 @@
+{
+  "title": "The Community Meeting",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Community meeting to discuss the blog's future direction",
+      "time": "Evening",
+      "location": "Local community center",
+      "description": "Elliot Jackson, the blog founder, is seated at the head of a long table in a small community center. Around him are members of the online community who have gathered in person for the first time to discuss the blog's future. Loe, a long-time contributor, sits to his left, while Shaki, a newer but enthusiastic member, sits to his right. Others are scattered around the table, some with laptops, some with notebooks, all eager to participate.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Elliot Jackson",
+          "gender": "Male",
+          "description": "30-something blog founder and community leader. He is thoughtful, visionary, and analytical, with a firm but fair demeanor.; 30-something, Male, Community Leader, 30 years old; Occupation: Blog Founder; Personality: Thoughtful, Visionary, Analytical, Firm; Values: Community, Collaboration, Innovation, Responsibility; Interests: Online Communities, Social Dynamics, Creative Writing, Philosophy; Experiences: Founding a blog, Managing online discussions, Establishing community norms, Receiving member feedback, Reflecting on leadership",
+          "position": "Head of the table",
+          "states": "Contemplative, composed, attentive",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Loe",
+          "gender": "Female",
+          "description": "A veteran contributor to the blog; Female; Age: 38; Occupation: Digital Communications Strategist; Personality: Analytical, empathetic, tenacious; Values: Collaboration, transparency, intellectual integrity; Interests: Online discourse ethics, local grassroots organizing, indie literature; Experiences: Led a successful campaign to reform a controversial blog policy, helped mentor new contributors like Shaki, has attended and spoken at multiple community-driven digital media conferences.",
+          "position": "To the left of Elliot",
+          "states": "Engaged, assertive, confident",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Shaki",
+          "gender": "Non-binary",
+          "description": "A newer member with a lot of enthusiasm for the blog. They are slightly nervous but eager to contribute and grow the community; Non-binary; Age: 24; Occupation: Freelance graphic designer; Personality: Enthusiastic, anxious, optimistic, creative, introverted; Values: Community, authenticity, growth; Interests: Digital art, storytelling, indie music; Experiences: Recently transitioned and found a supportive online space through the blog, collaborated on a few small design projects for local nonprofits.",
+          "position": "To the right of Elliot",
+          "states": "Enthusiastic, anxious, optimistic",
+          "is_npc": true
+        },
+        {
+          "id": 3,
+          "name": "Raj",
+          "gender": "Male",
+          "description": "A tech-savvy member who values innovation and is open to both collaborative and structured leadership; Male; Age: 28; Occupation: Software Developer; Personality: Analytical, friendly, adaptable; Values: Progress, community, integrity; Interests: Open-source projects, digital storytelling, gaming; Experiences: Led a successful community forum redesign, contributed to a viral blog series on emerging technologies, volunteered at a local coding bootcamp.",
+          "position": "Across from Elliot",
+          "states": "Curious, neutral, supportive",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Loe",
+          "character_id": 1,
+          "action": "Asks a question about leadership",
+          "dialogue": "Elliot, we've all been part of this blog's growth. I think it's time we decide the direction together instead of just following your vision."
+        },
+        {
+          "action_id": 1,
+          "character": "Elliot Jackson",
+          "character_id": 0,
+          "action": "Responds thoughtfully",
+          "dialogue": "I appreciate your input, Loe. I founded this blog to create a space for collaboration and innovation. But I also need to ensure it stays focused and responsible. How do we balance that?"
+        },
+        {
+          "action_id": 2,
+          "character": "Shaki",
+          "character_id": 2,
+          "action": "Shares their perspective",
+          "dialogue": "I think we can both have structure and participation. Maybe we can set up a council or a voting system for major decisions. That way, everyone's voice is heard."
+        },
+        {
+          "action_id": 3,
+          "character": "Raj",
+          "character_id": 3,
+          "action": "Supports the idea",
+          "dialogue": "That could work. I'd be happy to help design the system. We can keep the blog innovative while making sure the community feels involved."
+        },
+        {
+          "action_id": 4,
+          "character": "Elliot Jackson",
+          "character_id": 0,
+          "action": "Considers the proposal",
+          "dialogue": "A council sounds like a good compromise. I want this blog to be a reflection of our shared values and interests. Let's discuss the details in the next meeting."
+        }
+      ],
+      "plot": "At a community meeting, Elliot Jackson is asked to consider shifting from a personal leadership model to a more collaborative one. Loe, a veteran contributor, pushes for community input, while Shaki, a newer member, suggests a structured approach like a council. Raj, a tech-oriented member, supports the idea and offers to help implement it. Elliot, being thoughtful and analytical, weighs the benefits of both his original vision and the community's involvement before agreeing to the proposed compromise.",
+      "social_purpose": "To explore the tension between personal leadership and community-driven decision-making in a collaborative setting, while showcasing the protagonist's values and personality through dialogue and action.",
+      "chunk": {
+        "id": 0,
+        "text": "Elliot Jackson sits at the head of the table, listening to the suggestions of his community members. Loe speaks up, advocating for shared decision-making. Shaki offers a practical solution, and Raj supports it. Elliot, being both visionary and responsible, considers the idea carefully before agreeing to form a council."
+      },
+      "npcs": [
+        1,
+        2,
+        3
+      ]
+    }
+  ]
+}

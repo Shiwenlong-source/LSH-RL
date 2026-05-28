@@ -1,0 +1,88 @@
+{
+  "title": "A Temporary Babysitting Job",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Piper accepts a babysitting request from her neighbor Lisa",
+      "time": "Saturday afternoon",
+      "location": "Lisa's house",
+      "description": "Piper is at Lisa's house, babysitting her child for two hours while Lisa runs errands. Joy, her sister, is present at the beginning of the scene, making a joke about the payment. Lisa, the neighbor, is grateful and gives brief instructions before leaving.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Piper Mcdonald",
+          "gender": "17-year-old female",
+          "description": "Piper is a reliable and helpful high school student who is eager to earn extra money. She is calm, considerate, and takes her responsibilities seriously.; 17-year-old female, student, 17 years old; Occupation: High school student; Personality: Open, Reliable, Considerate, Independent; Values: Independence, Helpfulness, Responsibility; Interests: Sports, Learning new skills, Reading, Watching TV; Experiences: Looking for part-time income, Studying, Helping neighbors, Spending time with family, Balancing academics and personal time",
+          "position": "Sitting on the couch with a book in her lap, watching the child play nearby",
+          "states": "Calm, focused, slightly nervous about being responsible for the child",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Lisa Thompson",
+          "gender": "35-year-old female",
+          "description": "Lisa is a busy working mother who is always trying to balance her job and family life; Female; Age: 35; Occupation: Marketing Manager; Personality: Compassionate, organized, high-achieving; Values: Family, reliability, work-life balance; Interests: Interior design, yoga, baking; Experiences: Struggled with postpartum anxiety, recently started hiring part-time help for childcare, works remotely to manage family commitments.",
+          "position": "Standing near the front door, preparing to leave",
+          "states": "Hurried, relieved, slightly anxious about leaving her child",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Joy Mcdonald",
+          "gender": "19-year-old female",
+          "description": "Joy McDonald; Female; Age: 19; Occupation: Part-time retail worker and student; Personality: Playful, easygoing, witty; Values: Family, humor, fairness; Interests: Watching sitcoms, baking, making inside jokes; Experiences: Babysat for neighborhood kids during high school, helped Piper with childcare responsibilities before, balances school and part-time jobs.",
+          "position": "Leaning against the kitchen counter, sipping a drink",
+          "states": "Playful, relaxed, observing the situation",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Lisa Thompson",
+          "character_id": 1,
+          "action": "Asks for help with her child",
+          "dialogue": "Hey Piper, I need to run a couple of quick errands and was wondering if you could watch my son for two hours? I can pay you five pounds."
+        },
+        {
+          "action_id": 1,
+          "character": "Piper Mcdonald",
+          "character_id": 0,
+          "action": "Considers the request and agrees",
+          "dialogue": "Sure, I don't mind. I'm free this afternoon, and it's a good chance to earn some extra cash."
+        },
+        {
+          "action_id": 2,
+          "character": "Joy Mcdonald",
+          "character_id": 2,
+          "action": "Jokes about the payment",
+          "dialogue": "Five pounds for two hours? That's a steal! He'll be asleep by ten, I promise."
+        },
+        {
+          "action_id": 3,
+          "character": "Lisa Thompson",
+          "character_id": 1,
+          "action": "Leaves after giving instructions",
+          "dialogue": "Thanks, Piper. He's usually pretty easygoing, but if anything happens, just call me. I'll be back in two hours."
+        },
+        {
+          "action_id": 4,
+          "character": "Piper Mcdonald",
+          "character_id": 0,
+          "action": "Sits down and starts reading to the child",
+          "dialogue": "Okay, buddy, let's find a story to read while we wait for Mom to come back."
+        }
+      ],
+      "plot": "Piper agrees to babysit her neighbor Lisa's child for two hours in exchange for five pounds. Her sister Joy teases her about the low payment, but Piper is focused on the opportunity to demonstrate her responsibility and earn some extra money. Lisa leaves after giving a few instructions, and Piper begins engaging with the child by reading a story. The scene highlights Piper's helpful nature, her desire for independence, and her ability to balance responsibilities with personal time.",
+      "social_purpose": "To show how Piper's values of independence and helpfulness influence her decision to take on a babysitting job. The interaction also demonstrates her reliability and consideration for others, especially in a family context.",
+      "chunk": {
+        "id": 0,
+        "text": "The living room is quiet, save for the sound of a child giggling as he flips through a picture book. Piper, sitting cross-legged on the couch, looks up from her own book and smiles at the boy. 'This is a really cool story, isn't it?' she says, trying to keep him engaged. Joy walks by the doorway, still chuckling from her earlier comment, and gives Piper a thumbs-up. 'You're doing great, kid. Just don't let him eat the couch cushions.' Lisa's car pulls away from the curb, and Piper takes a deep breath, ready to show how responsible she can be."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

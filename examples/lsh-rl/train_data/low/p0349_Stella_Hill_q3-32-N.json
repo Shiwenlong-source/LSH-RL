@@ -1,0 +1,102 @@
+{
+  "title": "Farewell at the Café",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Stella decides to go to the concert alone after a brief conversation with a friend.",
+      "time": "Evening",
+      "location": "A cozy indie café in downtown Austin",
+      "description": "Stella Hill sits by the window in a corner booth of the café, her fingers tracing the rim of her coffee cup. The soft strumming of Andy’s music plays in the background, mingling with the low hum of conversation. Her phone buzzes on the table, but she hesitates to check it. Joy, a bubbly barista in her early 30s, approaches with a tray of drinks. Cici, a quiet college student in her late teens, is seated nearby, reading a poetry book.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Stella Hill",
+          "gender": "female",
+          "description": "A thoughtful and independent young woman, about to move to Dallas. She is filled with mixed emotions about going to Andy's concert alone.; female / Moving to Dallas soon, 24 years old; Occupation: Pharmaceutical sales representative; Personality: Enthusiastic, Thoughtful, Independent; Values: Self-expression, Friendship, Art appreciation; Interests: Indie music, Concerts, Personal reflection; Experiences: Planning a farewell concert, Waiting for a friend's response, Making an emotional decision",
+          "position": "Corner booth",
+          "states": "Anxious, hopeful, contemplative",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Joy",
+          "gender": "female",
+          "description": "A warm and observant barista in her early 30s who has a deep appreciation for music and often connects with customers on a personal level; Female; Age: 32; Occupation: Barista and part-time music teacher; Personality: Empathetic, cheerful, perceptive; Values: Community, authenticity, kindness; Interests: Indie folk music, journaling, supporting local artists; Experiences: Managed a small music venue in her early 20s, helped a regular customer through a tough breakup with quiet support, studied psychology in college.",
+          "position": "Near Stella's table",
+          "states": "Caring, curious",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Cici",
+          "gender": "female",
+          "description": "A quiet and introspective college student in her late teens who often finds solace in poetry and music; Female; Age: 19; Occupation: English Literature major at the University of Texas with a part-time job at a local bookstore; Personality: Thoughtful, introverted, compassionate; Values: Self-expression, authenticity, community; Interests: Writing poetry, indie folk music, journaling, and stargazing; Experiences: Attended a poetry slam where she performed for the first time, spent a summer volunteering at a community arts center, recently lost touch with a close friend and is learning to navigate solitude.",
+          "position": "Adjacent table",
+          "states": "Observant, empathetic",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Stella Hill",
+          "character_id": 0,
+          "action": "Looks up from her phone and smiles faintly at the music playing.",
+          "dialogue": "I used to hate going to concerts alone, but maybe this is the perfect way to say goodbye to Austin... and to myself, too."
+        },
+        {
+          "action_id": 1,
+          "character": "Joy",
+          "character_id": 1,
+          "action": "Places a fresh cup of coffee in front of Stella and leans in slightly.",
+          "dialogue": "That’s a bittersweet thought, isn’t it? I’ve been to a few of Andy’s shows—his music always makes me feel like I’m not alone, even when I am."
+        },
+        {
+          "action_id": 2,
+          "character": "Cici",
+          "character_id": 2,
+          "action": "Looks up from her poetry book and offers a small smile.",
+          "dialogue": "Sometimes I think we just need to be with ourselves for a while. It’s not the end, just a new beginning."
+        },
+        {
+          "action_id": 3,
+          "character": "Stella Hill",
+          "character_id": 0,
+          "action": "Nods thoughtfully and takes a sip of her coffee.",
+          "dialogue": "Yeah, I guess you’re right. It’s not like I’m doing this to be dramatic. I just want to remember this city the way I love it—through music and the people who understand it."
+        },
+        {
+          "action_id": 4,
+          "character": "Joy",
+          "character_id": 1,
+          "action": "Leans back slightly, still listening intently.",
+          "dialogue": "You’ll do great, Stella. And if you ever need company, just let me know. I’ve got a playlist for every mood."
+        },
+        {
+          "action_id": 5,
+          "character": "Stella Hill",
+          "character_id": 0,
+          "action": "Laughs softly and packs up her things.",
+          "dialogue": "Thanks, Joy. I think I just needed to hear that. I’m going to go. I’ve been waiting too long to second-guess myself."
+        },
+        {
+          "action_id": 6,
+          "character": "Cici",
+          "character_id": 2,
+          "action": "Smiles and returns to her book, but leaves a small note on the table for Stella.",
+          "dialogue": "Take care, Stella. I hope your new chapter is as beautiful as the songs you love."
+        }
+      ],
+      "plot": "Stella is about to make a decision about attending Andy’s concert alone. Through a conversation with Joy and a quiet gesture from Cici, she gains the confidence to embrace her independence while honoring her emotional connections to music and friendship.",
+      "social_purpose": "To show Stella’s internal struggle and how her values of self-expression, friendship, and art appreciation are reflected in her decision to go to the concert alone, with support from others who understand her.",
+      "chunk": {
+        "id": 0,
+        "text": "Stella Hill sits in a corner booth of the café, her coffee untouched as she stares at her phone. The music of Andy, a local indie artist, plays softly in the background. She had planned to invite her best friend Angel, but the silence on the other end of the phone has left her feeling abandoned. Joy, the barista, notices her quiet demeanor and offers a few kind words, while Cici, the poetry-reading student, leaves a small note of encouragement. Stella, though anxious, decides to go to the concert alone, seeing it as a meaningful step toward her new life in Dallas."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

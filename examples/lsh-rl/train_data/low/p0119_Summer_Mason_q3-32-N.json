@@ -1,0 +1,98 @@
+{
+  "title": "The Flan Challenge",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Summer tries to make leche flan at a local community cooking class",
+      "time": "Saturday afternoon, 2:00 PM",
+      "location": "Community Center Kitchen, Manila",
+      "description": "Summer Mason, a 34-year-old housewife, is at a community cooking class with a few other participants. She is excited to learn how to make leche flan, a traditional Filipino dessert, using fresh milk. Her husband, Jacob, and their daughter, Lili, are also present, quietly observing from the side. Summer is determined to master the recipe, even as her nerves flare up slightly.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Summer Mason",
+          "gender": "Female",
+          "description": "Summer is a housewife who loves cooking and is preparing to try making leche flan using fresh milk. She is enthusiastic and determined, but also a bit anxious about the challenge.; Female / Housewife, 34 years old; Occupation: Housewife; Personality: Enthusiastic, Creative, Determined, Traditional; Values: Family, Tradition, Innovation; Interests: Cooking, Baking, Cultural Recipes; Experiences: Preparing family meals, Trying new recipes, Learning traditional Filipino desserts",
+          "position": "Front of the kitchen counter, working on the flan mixture",
+          "states": "Excited, focused, slightly nervous",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Jacob Mason",
+          "gender": "Male",
+          "description": "Summer's supportive husband, who is also a bit worried about the outcome of the experiment; Male; Age: 37; Occupation: Electrical Engineer; Personality: Supportive, cautious, proud; Values: Family, safety, tradition; Interests: Home improvement, local culture, reading technical manuals; Experiences: Helped Summer learn to cook as a new bride, attended many of her cooking classes in the past, witnessed her take on new challenges with mixed success.",
+          "position": "Near the entrance, watching and offering occasional encouragement",
+          "states": "Supportive, cautious, proud",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Lili Mason",
+          "gender": "Female",
+          "description": "Summer and Jacob's 10-year-old daughter, who is full of energy and humor; Female; Age: 10; Occupation: Student; Personality: Playful, curious, supportive; Values: Family, fun, fairness; Interests: Baking, storytelling, playing board games; Experiences: Attended a family cooking class with her parents, helped make traditional desserts during holidays, won a school talent show with a cooking-themed magic trick.",
+          "position": "Standing next to her dad, giggling and commenting",
+          "states": "Playful, curious, supportive",
+          "is_npc": true
+        },
+        {
+          "id": 3,
+          "name": "Mina Alvarez",
+          "gender": "Female",
+          "description": "A local cooking instructor in her 50s, known for her traditional yet innovative approach to Filipino cuisine; Female; Age: 56; Occupation: Culinary Instructor and Part-Time Food Blogger; Personality: Patient, encouraging, knowledgeable; Values: Cultural heritage, community, excellence in craft; Interests: Experimenting with traditional recipes, teaching beginners, food photography; Experiences: Grew up in a family of home cooks, trained in professional culinary arts in Spain, hosted a local cooking show focused on Filipino classics.",
+          "position": "Demonym",
+          "states": "Patient, encouraging, knowledgeable",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Summer Mason",
+          "character_id": 0,
+          "action": "Summer carefully measures the eggs and sugar, whispering to herself, 'This is for my family.'",
+          "dialogue": "I've never made leche flan from scratch before, but I want to bring back the old flavors and make something new."
+        },
+        {
+          "action_id": 1,
+          "character": "Jacob Mason",
+          "character_id": 1,
+          "action": "Jacob walks over to Summer and gently places a hand on her shoulder.",
+          "dialogue": "You're doing great, Summer. Just don't burn the caramel like last time with the cake."
+        },
+        {
+          "action_id": 2,
+          "character": "Lili Mason",
+          "character_id": 2,
+          "action": "Lili giggles and says, 'If it turns out bad, I'll eat it and pretend it's the best thing ever.'",
+          "dialogue": "But if it's perfect, I'll tell all my friends you're the best flan maker in the world!"
+        },
+        {
+          "action_id": 3,
+          "character": "Mina Alvarez",
+          "character_id": 3,
+          "action": "Mina walks over, observing Summer's technique and offering a few tips.",
+          "dialogue": "You're doing well, Summer. The key is to whisk the eggs thoroughly to avoid bubbles. Tradition and creativity go hand in hand here."
+        },
+        {
+          "action_id": 4,
+          "character": "Summer Mason",
+          "character_id": 0,
+          "action": "Summer smiles, takes a deep breath, and starts whisking the eggs with more confidence.",
+          "dialogue": "Thank you, Mina. I just want to make something my family can enjoy together."
+        }
+      ],
+      "plot": "Summer enrolls in a community cooking class to learn how to make leche flan using fresh milk. Her husband, Jacob, is supportive but cautious, while their daughter, Lili, teases her but also wants to see her succeed. Mina, the instructor, encourages Summer and helps her balance traditional techniques with her creative approach. Through the shared goal of making a dessert that connects them to their heritage, the family's subtle tensions and emotional bonds are revealed.",
+      "social_purpose": "Highlight the protagonist's values of tradition and innovation, and showcase the family's dynamic through a shared cooking experience in a public setting.",
+      "chunk": {
+        "id": 0,
+        "text": "Summer Mason stood at the front of the kitchen counter, her hands steady as she measured the eggs and sugar. She whispered to herself, 'This is for my family.' Her husband, Jacob, approached quietly and placed a hand on her shoulder. 'You're doing great, Summer,' he said, his voice a mix of pride and caution. 'Just don't burn the caramel like last time with the cake.' Their daughter, Lili, giggled from the side and teased, 'If it turns out bad, I'll eat it and pretend it's the best thing ever.' Mina Alvarez, the instructor, noticed Summer's determination and walked over. 'You're doing well,' she said. 'The key is to whisk the eggs thoroughly to avoid bubbles. Tradition and creativity go hand in hand here.' Summer smiled, took a deep breath, and started whisking with more confidence. 'Thank you, Mina. I just want to make something my family can enjoy together.'"
+      },
+      "npcs": [
+        1,
+        2,
+        3
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "title": "The Bar Loyalty Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Michael is deciding whether to remain loyal to his rugby team, the All Blacks, after a controversial event involving the team captain.",
+      "time": "10:30 PM",
+      "location": "The Green Lion Pub, a local sports bar known for its large screens and passionate rugby fans.",
+      "description": "Michael is seated at the bar with two friends, Bob and Shary, who are also rugby fans. The atmosphere is lively, but the conversation is turning serious as the topic of the All Blacks' recent controversy arises. The bar is dimly lit, and the TV behind them shows highlights of a past match. Michael's internal conflict is palpable as he weighs his loyalty against his values.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Michael Dixon",
+          "gender": "male",
+          "description": "A 30-something real estate agent and long-time All Blacks supporter. He is thoughtful, loyal, and visibly conflicted about his team's recent actions.; 30-something, male, rugby fan, 30 years old; Occupation: Real estate sales; Personality: Loyal, Thoughtful, Conflicted; Values: Team spirit, Integrity, Self-reflection; Interests: Rugby, Sports discussions, Personal identity; Experiences: Long-time supporter of All Blacks, Watching live games, Deep involvement in sports community",
+          "position": "center",
+          "states": "conflicted, contemplative",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Bob",
+          "gender": "male",
+          "description": "Michael's friend and fellow rugby fan; male; Age: 34; Occupation: Firefighter; Personality: impulsive, vocal, competitive; Values: loyalty, fairness, team spirit; Interests: rugby, bar trivia nights, classic rock; Experiences: attended multiple All Blacks matches in person, led a community sports initiative, publicly defended a teammate during a workplace conflict.",
+          "position": "left",
+          "states": "curious, assertive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Shary",
+          "gender": "female",
+          "description": "A thoughtful and diplomatic friend who prefers to mediate and offer balanced perspectives; female; Age: 29; Occupation: Social worker; Personality: empathetic, analytical, patient; Values: integrity, fairness, loyalty; Interests: rugby, community organizing, reading; Experiences: worked with youth sports teams to resolve conflicts, witnessed the impact of public figures on young athletes, volunteered during a high-profile sports scandal to support affected players.",
+          "position": "right",
+          "states": "supportive, cautious",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Bob",
+          "character_id": 1,
+          "action": "challenges Michael's wavering loyalty",
+          "dialogue": "Come on, Mike, you've been with the All Blacks since you were a kid. You're not seriously thinking about switching teams over one bad call, are you?"
+        },
+        {
+          "action_id": 1,
+          "character": "Michael Dixon",
+          "character_id": 0,
+          "action": "responds with hesitation",
+          "dialogue": "I don't know, Bob. I always supported them because of the values they stood for. But this captain's actions... it's making me question if I'm still on the same page."
+        },
+        {
+          "action_id": 2,
+          "character": "Shary",
+          "character_id": 2,
+          "action": "suggests a compromise",
+          "dialogue": "Maybe you should wait and see how things go next week. If the team shows they're still standing for what's right, your loyalty might hold. But if they don't, it's your call to make."
+        },
+        {
+          "action_id": 3,
+          "character": "Michael Dixon",
+          "character_id": 0,
+          "action": "expresses his internal struggle",
+          "dialogue": "I just don't want to be a fan for the wrong reasons anymore. It's not just about the team. It's about who I am and what I stand for."
+        },
+        {
+          "action_id": 4,
+          "character": "Bob",
+          "character_id": 1,
+          "action": "tries to reassure Michael",
+          "dialogue": "You're still you, Mike. The team's not perfect, but they're still the All Blacks. You've got history with them."
+        },
+        {
+          "action_id": 5,
+          "character": "Michael Dixon",
+          "character_id": 0,
+          "action": "considers Shary's suggestion",
+          "dialogue": "You're probably right, Shary. I need to make a decision based on what I see, not just what I feel right now."
+        }
+      ],
+      "plot": "Michael, a long-time All Blacks fan, is torn after the team captain's controversial behavior. At a local bar with his friends Bob and Shary, he confronts his conflicting emotions and values. Bob urges him to remain loyal, while Shary suggests waiting for the team's next actions before making a decision. Through the conversation, Michael's character is revealed as thoughtful and introspective, struggling to align his personal integrity with his team spirit.",
+      "social_purpose": "To explore the dynamics of personal identity and loyalty in a social setting, where friends challenge and support each other in making meaningful life decisions.",
+      "chunk": {
+        "id": 0,
+        "text": "Michael leans back in his chair, staring at the bar counter. The TV behind him buzzes with the sound of commentary, but his attention is on the conversation. Bob's voice is loud and clear, pushing for certainty. Shary, in contrast, speaks softly but firmly, encouraging patience. Michael's internal conflict is evident in his pauses and the way he avoids eye contact at times. The friends continue to talk, each bringing their own perspective, while Michael wrestles with his decision in the dim light of the pub."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

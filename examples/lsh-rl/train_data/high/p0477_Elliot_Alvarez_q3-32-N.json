@@ -1,0 +1,98 @@
+{
+  "title": "The Neighborhood BBQ Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Neighborhood BBQ",
+      "time": "Saturday afternoon, 3 PM",
+      "location": "Backyard of the Alvarez home",
+      "description": "Elliot is hosting a neighborhood barbecue to celebrate the completion of the fireplace repairs. The event is a way to show off his DIY progress and to mend any potential neighborly tensions from the late-night work. Cici, his wife, is present but visibly uneasy about the noise and time Elliot spent on the project. Two neighbors, Mr. and Mrs. Thompson, are also in attendance and are curious about the changes Elliot has made.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Elliot Alvarez",
+          "gender": "Male",
+          "description": "A 35-year-old homeowner with a passion for DIY projects. He is determined to complete his home improvement goals but also values family harmony and neighborly relations.; Male / Homeowner, 35 years old; Occupation: Homeowner keen on DIY; Personality: Determined, Thoughtful, Pragmatic; Values: Improvement, Harmony, Responsibility; Interests: Home renovation, Woodworking, Problem-solving; Experiences: Past DIY projects, Marital dynamics, Neighborly disputes",
+          "position": "Host, grilling at the barbecue",
+          "states": "Proud of his work, slightly defensive about the noise, trying to be sociable",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Cici Alvarez",
+          "gender": "Female",
+          "description": "Cici Alvarez; Female; Age: 34; Occupation: Elementary school teacher; Personality: Compassionate, diplomatic, observant; Values: Family harmony, community respect, work-life balance; Interests: Gardening, baking, reading contemporary fiction; Experiences: Dealt with noisy construction near her childhood home, which caused family tension; has a close-knit group of neighbors she often mediates conflicts for; recently expressed concerns to Elliot about the strain his late-night work has placed on their marriage.",
+          "position": "Sitting on a lawn chair, sipping a drink",
+          "states": "Cautiously supportive, subtly reminding Elliot of the stress the project caused",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Mr. Thompson",
+          "gender": "Male",
+          "description": "A 50-year-old neighbor who has had past disputes with Elliot over noise and is now curious about his new project; Male; Age: 50; Occupation: Retired high school history teacher; Personality: Observant, polite, skeptical; Values: Quiet living, community harmony, respect for boundaries; Interests: Gardening, classic literature, local politics; Experiences: Had frequent arguments with Elliot over late-night construction noise, served on the neighborhood association board for ten years, renovated his own home in the 90s with strict noise regulations.",
+          "position": "Standing near the grill, chatting with Elliot",
+          "states": "Observant, polite, but skeptical about Elliot's progress",
+          "is_npc": true
+        },
+        {
+          "id": 3,
+          "name": "Mrs. Thompson",
+          "gender": "Female",
+          "description": "Mrs. Thompson; Female; Age: 62; Occupation: Retired school teacher; Personality: Warm-hearted, diplomatic, observant; Values: Community harmony, lifelong learning, kindness; Interests: Gardening, local history, neighborhood events; Experiences: Taught elementary school for 35 years, organized neighborhood book clubs, participated in town restoration projects.",
+          "position": "Helping Cici set the table",
+          "states": "Friendly, interested in Elliot's work, trying to ease the tension",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Elliot Alvarez",
+          "character_id": 0,
+          "action": "Shows off the newly repaired fireplace to the guests",
+          "dialogue": "I spent a lot of time on it, but it’s finally done. It’s a bit of a project, but I think it’s worth it."
+        },
+        {
+          "action_id": 1,
+          "character": "Cici Alvarez",
+          "character_id": 1,
+          "action": "Gently reminds Elliot about the late-night noise",
+          "dialogue": "I’m happy it’s finished, but I hope you’ll think about the neighbors when you work on other things."
+        },
+        {
+          "action_id": 2,
+          "character": "Mr. Thompson",
+          "character_id": 2,
+          "action": "Asks Elliot about the time he spent on the repairs",
+          "dialogue": "I heard a lot of noise at night. How long did you work on this by yourself?"
+        },
+        {
+          "action_id": 3,
+          "character": "Mrs. Thompson",
+          "character_id": 3,
+          "action": "Compliments Elliot's craftsmanship",
+          "dialogue": "That looks really professional. I didn’t know you were so skilled with woodwork!"
+        },
+        {
+          "action_id": 4,
+          "character": "Elliot Alvarez",
+          "character_id": 0,
+          "action": "Responds thoughtfully to Mr. Thompson's question",
+          "dialogue": "It took a few weeks, mostly late at night when I could work without disturbing the kids. I wanted to make sure everything was done right."
+        }
+      ],
+      "plot": "Elliot hosts a neighborhood barbecue to showcase his completed fireplace repair and to address any lingering concerns from the late-night work. Cici subtly reminds him of the tension the project caused, while the Thompsons, particularly Mrs. Thompson, show appreciation for his craftsmanship. Elliot balances his pride in the project with his awareness of the impact on his wife and neighbors.",
+      "social_purpose": "To explore Elliot's values of improvement and responsibility in a public setting while highlighting the importance of harmony in family and community relationships. The scenario allows for a natural discussion of past experiences and personality traits through dialogue and action.",
+      "chunk": {
+        "id": 0,
+        "text": "Elliot stands by the grill, flipping burgers with a practiced hand, as the sun casts a warm glow over the backyard. The repaired fireplace, now gleaming with its new mantle and polished wood, is the centerpiece of the gathering. Cici watches from the shade of the tree, her expression a mix of pride and concern. Mr. Thompson approaches, eyeing the fireplace with a cautious smile, while Mrs. Thompson chats with Cici about the event."
+      },
+      "npcs": [
+        1,
+        2,
+        3
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "title": "The Classroom Debate",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Lucy Morris discusses a legal challenge against a policy mandating religious posters in schools with lawyer Tiki and friend Zoe.",
+      "time": "Afternoon",
+      "location": "Café near the courthouse",
+      "description": "Lucy, Tiki, and Zoe are seated at a small table in a quiet corner of the café. They're reviewing a recent court decision that upheld the policy, and Lucy is determined to challenge it on the grounds of future children's rights.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Lucy Morris",
+          "gender": "Female",
+          "description": "A 30-year-old journalist known for her passion for social justice and constitutional issues.; Female, Journalist, 30 years old; Occupation: Journalist; Personality: Idealistic, Determined, Analytical, Passionate; Values: Social Justice, Individual Rights, Constitutional Integrity; Interests: Legal Reform, Religious Freedom, Public Policy, Investigative Reporting; Experiences: Reporting on Controversial Social Issues, Advocating for Constitutional Rights, Focusing on Separation of Church and State, Collaborating with Legal Professionals",
+          "position": "Center of the table",
+          "states": "Engaged, determined, slightly anxious",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Tiki Langston",
+          "gender": "Male",
+          "description": "A seasoned constitutional lawyer in his late 40s, known for his cautious and strategic approach to legal matters; Male; Age: 48; Occupation: Constitutional Lawyer specializing in civil rights and education law; Personality: Analytical, patient, empathetic; Values: Justice, intellectual integrity, youth empowerment; Interests: Historical legal cases, urban hiking, jazz music; Experiences: Successfully challenged a state prayer law in the 1990s, represented underprivileged students in school funding disputes, served as a legal advisor to a non-profit promoting secular education.",
+          "position": "To Lucy's left",
+          "states": "Calm, analytical, supportive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Zoe Ramirez",
+          "gender": "Female",
+          "description": "Lucy's close friend and a policy analyst in her early 30s, skeptical of idealistic arguments in legal contexts; Female; Age: 32; Occupation: Policy Analyst for a local government think tank; Personality: Analytical, pragmatic, observant; Values: Fairness, evidence-based decision-making, intellectual integrity; Interests: Urban planning, data visualization, political theory; Experiences: Worked on education reform initiatives, researched religious accommodation laws, advised on municipal transparency policies.",
+          "position": "To Lucy's right",
+          "states": "Skeptical, curious, concerned",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Lucy Morris",
+          "character_id": 0,
+          "action": "Presenting her argument",
+          "dialogue": "This policy is a slippery slope. If we don't challenge it now, future generations will have even fewer rights. I believe in the separation of church and state, and this undermines it."
+        },
+        {
+          "action_id": 1,
+          "character": "Tiki Langston",
+          "character_id": 1,
+          "action": "Offering legal insight",
+          "dialogue": "I agree with your concern, Lucy, but we need a strong legal precedent to support the idea of future children's rights. Courts tend to be conservative in interpreting such abstract concepts."
+        },
+        {
+          "action_id": 2,
+          "character": "Zoe Ramirez",
+          "character_id": 2,
+          "action": "Expressing doubt",
+          "dialogue": "I don't think the court will take 'future rights' seriously. They're more focused on what's happening now. Are you sure this is the right angle?"
+        },
+        {
+          "action_id": 3,
+          "character": "Lucy Morris",
+          "character_id": 0,
+          "action": "Reaffirming her stance",
+          "dialogue": "I know it's risky, but I can't ignore the implications. As a journalist, I've seen how policies like this erode individual rights over time. I want to make a difference, even if it's hard."
+        },
+        {
+          "action_id": 4,
+          "character": "Tiki Langston",
+          "character_id": 1,
+          "action": "Suggesting a strategy",
+          "dialogue": "Let's look into similar cases involving education and religious expression. If we can find a precedent that supports your argument, we might have a shot."
+        },
+        {
+          "action_id": 5,
+          "character": "Zoe Ramirez",
+          "character_id": 2,
+          "action": "Offering a counterpoint",
+          "dialogue": "But if we lose, it could set a bad precedent. Are you ready for that kind of professional backlash, Lucy?"
+        },
+        {
+          "action_id": 6,
+          "character": "Lucy Morris",
+          "character_id": 0,
+          "action": "Responding to Zoe",
+          "dialogue": "I'm not doing this for popularity. I'm doing it because I believe in the values of individual rights and constitutional integrity. If I stay silent, I'm complicit."
+        }
+      ],
+      "plot": "Lucy is determined to challenge a new policy requiring religious posters in schools, believing it undermines the rights of future children. Tiki, as her legal advisor, is cautious about the lack of precedent, while Zoe, her friend and policy analyst, questions the practicality of the case. Their conversation explores the balance between idealism and legal feasibility.",
+      "social_purpose": "Highlight the tension between idealism and legal reality in advocating for social justice. Show how Lucy's background as a journalist and her values influence her decision to take on a controversial case.",
+      "chunk": {
+        "id": 0,
+        "text": "Lucy, Tiki, and Zoe are seated at a small table in a quiet corner of the café. They're reviewing a recent court decision that upheld the policy, and Lucy is determined to challenge it on the grounds of future children's rights."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

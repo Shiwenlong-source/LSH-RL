@@ -1,0 +1,95 @@
+{
+  "title": "A Surprise at the Park",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Planning a surprise concert trip",
+      "time": "Saturday afternoon, 3:00 PM",
+      "location": "Local Park, picnic area",
+      "description": "Sean is sitting at a picnic table, quietly reviewing a map and a concert ticket stub. Lili is nearby with her friends, laughing and playing. Coco approaches Sean, curious about his repeated visits to the park.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Sean Perez",
+          "gender": "Male / Uncle",
+          "description": "Sean is a reserved, creative 35-year-old screenwriter who loves his niece Lili. He is focused and seems a bit nervous.; Male / Uncle, 35 years old; Occupation: Screenwriter; Personality: Family-oriented, Attentive, Reserved, Creative; Values: Family, Memories, Surprises; Interests: Event Planning, Music, Family Interaction; Experiences: Organizing family activities, Planning surprises, Maintaining family bonds",
+          "position": "Picnic table, reviewing a map",
+          "states": "Nervous, determined, affectionate",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Lili Ramirez",
+          "gender": "Female",
+          "description": "Lili is a 14-year-old with a big smile and a love for music, especially her favorite artist, Jessica; Female; Age: 14; Occupation: Middle school student and part-time babysitter; Personality: Playful, energetic, optimistic; Values: Friendship, joy, authenticity; Interests: Listening to live music, dancing, spending time with friends; Experiences: Attended her first concert last summer, helped organize a school talent show, recently started babysitting to earn money for concert tickets.",
+          "position": "Nearby, playing with friends",
+          "states": "Happy, unaware, curious",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Coco Ramirez",
+          "gender": "Female",
+          "description": "Coco is Lili's mother, observant and protective; Female; Age: 38; Occupation: Community Center Coordinator; Personality: Caring, analytical, perceptive; Values: Family, authenticity, community well-being; Interests: Volunteering, outdoor activities, local events; Experiences: Organized several neighborhood festivals, navigated a difficult divorce while co-parenting, met Sean through Lili’s school activities.",
+          "position": "Approaching Sean from across the park",
+          "states": "Curious, cautious, supportive",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Coco Ramirez",
+          "character_id": 2,
+          "action": "Approaching Sean and asking a question",
+          "dialogue": "Sean, I noticed you've been coming here a lot this week. Everything okay?"
+        },
+        {
+          "action_id": 1,
+          "character": "Sean Perez",
+          "character_id": 0,
+          "action": "Looking up and giving a vague answer",
+          "dialogue": "Oh, just... thinking about some ideas for a new project. You know how it is."
+        },
+        {
+          "action_id": 2,
+          "character": "Coco Ramirez",
+          "character_id": 2,
+          "action": "Noticing the ticket and pressing further",
+          "dialogue": "Is that a concert ticket? Lili mentioned Jessica's tour. You're not planning something big, are you?"
+        },
+        {
+          "action_id": 3,
+          "character": "Sean Perez",
+          "character_id": 0,
+          "action": "Trying to hide the ticket and downplay the situation",
+          "dialogue": "I, uh... I just thought it would be nice for her to see something fun. But I didn't want to make a big deal out of it."
+        },
+        {
+          "action_id": 4,
+          "character": "Coco Ramirez",
+          "character_id": 2,
+          "action": "Softening her tone and offering support",
+          "dialogue": "That's sweet of you, Sean. Lili would love it. Just make sure she's ready for it. She's been so excited about Jessica lately."
+        },
+        {
+          "action_id": 5,
+          "character": "Sean Perez",
+          "character_id": 0,
+          "action": "Nodding and showing a hint of relief",
+          "dialogue": "Thanks, Coco. I just want her to have a good time. Maybe it'll be a nice memory for her."
+        }
+      ],
+      "plot": "Sean is trying to plan a surprise concert trip for Lili without giving it away. Coco notices his behavior and gently presses for answers, allowing Sean to reveal his intentions and receive reassurance.",
+      "social_purpose": "To show Sean's family-oriented nature and his desire to create meaningful memories for Lili, while also highlighting his reserved personality and the subtle tension of keeping a surprise.",
+      "chunk": {
+        "id": 0,
+        "text": "Sean sat at the picnic table, his fingers tracing the lines of the map and the edges of the ticket. He had spent weeks planning this surprise, but now, with Coco watching him closely, he felt exposed. 'Just ideas for a project,' he said, trying to sound casual. Coco, however, was not fooled. 'That's a Jessica concert ticket, isn't it?' she asked. Sean hesitated, then nodded. 'I didn't want to ruin the surprise,' he admitted. Coco smiled, a bit softer now. 'She's going to love you for this, Sean. Just make sure it's what she wants.'"
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

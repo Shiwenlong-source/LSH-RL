@@ -1,0 +1,88 @@
+{
+  "title": "Navigating the DNC Party",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Arrival at the DNC Party",
+      "time": "7:00 PM",
+      "location": "Grand Ballroom, Boston Marriott",
+      "description": "Peter arrives at the Democratic National Convention party in Boston, where he is scheduled to meet political figures and network with fellow bloggers and journalists. He is joined by his wife Yuna, who is a graphic designer, and his colleague Chen, a fellow political writer and close friend.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Peter Palmer",
+          "gender": "male",
+          "description": "A 35-year-old political blogger with an analytical and thoughtful personality. He is cautious and anxious about how to present himself professionally while staying authentic.; male, Political Blogger, 35 years old; Occupation: Executive; Personality: Analytical, Anxious, Thoughtful, Cautious; Values: Integrity, Professionalism, Authenticity; Interests: Political analysis, Social events, Public speaking, Current events; Experiences: Writing political blogs, Attending high-end events, Managing public image, Navigating social hierarchies",
+          "position": "Guest Blogger",
+          "states": "Anxious, Thoughtful",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Yuna Palmer",
+          "gender": "female",
+          "description": "Yuna Palmer; Female; Age: 32; Occupation: Political Event Graphic Designer; Personality: Supportive, Calm, Empathetic; Values: Partnership, Integrity, Creative Expression; Interests: Designing campaign materials, attending political events with Peter, experimenting with digital art; Experiences: Designed visuals for local Democratic campaigns, attended multiple political conventions with Peter, collaborated with journalists on multimedia storytelling projects.",
+          "position": "Accompanying Spouse",
+          "states": "Supportive, Calm",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Chen",
+          "gender": "male",
+          "description": "Chen is a 34-year-old political writer and Peter’s colleague; male; Age: 34; Occupation: Staff Writer for a progressive political blog; Personality: Analytical, introverted, observant; Values: Integrity, intellectual honesty, social justice; Interests: Documentaries, policy debates, quiet evenings with a good book; Experiences: Covered local elections for a small-town newspaper, attended a controversial town hall that turned hostile, once had to retract a published article due to factual inaccuracies.",
+          "position": "Guest Blogger",
+          "states": "Anxious, Cautious",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Peter Palmer",
+          "character_id": 0,
+          "action": "adjusts his tie and checks his phone for last-minute notes",
+          "dialogue": "I just want to make sure I don’t say something that’s too controversial."
+        },
+        {
+          "action_id": 1,
+          "character": "Yuna Palmer",
+          "character_id": 1,
+          "action": "places a reassuring hand on Peter’s shoulder",
+          "dialogue": "You don’t need to be perfect, just be you. They respect that."
+        },
+        {
+          "action_id": 2,
+          "character": "Chen",
+          "character_id": 2,
+          "action": "nervously sips his drink and scans the room",
+          "dialogue": "I hope Molly and Bill don’t remember my blog. It’s pretty... opinionated."
+        },
+        {
+          "action_id": 3,
+          "character": "Peter Palmer",
+          "character_id": 0,
+          "action": "nods at Chen and offers a small smile",
+          "dialogue": "We’re here to observe and connect, not to debate. Just keep it professional."
+        },
+        {
+          "action_id": 4,
+          "character": "Yuna Palmer",
+          "character_id": 1,
+          "action": "glances at Chen and laughs lightly",
+          "dialogue": "Relax, you’re not on the podium yet. Enjoy the hors d'oeuvres first."
+        }
+      ],
+      "plot": "As Peter and Chen arrive at the DNC party, they are both visibly anxious about how to present themselves in front of prominent political figures. Yuna, their host, reassures them and encourages them to focus on authenticity and professionalism. The tension between Peter’s desire to express his views and the need to maintain social decorum is evident.",
+      "social_purpose": "To showcase the protagonist’s inner conflict between professional identity and personal expression, while highlighting the supportive role of his wife and the shared experiences of navigating high-end social events.",
+      "chunk": {
+        "id": 0,
+        "text": "The trio enters the ballroom, where the hum of political discussion and clinking of glasses fills the air. Peter’s eyes dart between the speakers on the dais and the mingling crowd, his mind racing with potential topics and pitfalls. Chen stands a step behind, clutching his drink as if it’s an anchor. Yuna, ever the social butterfly, gently nudges Peter forward and says, “Start with a smile and a question. That’s all you need.”"
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

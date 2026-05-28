@@ -1,0 +1,74 @@
+{
+  "title": "The Godfather's First Step",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Baptism Preparation",
+      "time": "10:00 AM",
+      "location": "St. Mary's Church Waiting Room",
+      "description": "Tyler stands in the corner of the waiting room, clutching an agenda filled with notes, looking slightly nervous. The room is quiet, with a few other families preparing for the upcoming baptism. Zak and Mrs. Delgado, the child's mother, are nearby, offering quiet support and encouragement.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Tyler Chavez",
+          "gender": "Male",
+          "description": "27-year-old young professional, first-time godfather, reserved and self-doubting but determined and thoughtful.; 27-year-old, Male, Community Role, 24 years old; Occupation: Young Professional; Personality: Reserved, Self-doubting, Determined, Thoughtful; Values: Responsibility, Growth, Community; Interests: Personal Development, Religious Traditions, Helping Others; Experiences: First time serving as a godfather, Transitioning into adulthood, Coping with social expectations",
+          "position": "Corner of the room",
+          "states": "Nervous, clutching agenda, looking out of place",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Zak Delgado",
+          "gender": "Male",
+          "description": "Friendly, experienced godfather and father of the child being baptized; Male; Age: 42; Occupation: High school history teacher; Personality: Compassionate, patient, composed; Values: Family, tradition, integrity; Interests: Classic literature, gardening, quiet family dinners; Experiences: Married for 15 years with two children, served as a godparent multiple times, actively involved in his children's religious upbringing.",
+          "position": "Near Tyler",
+          "states": "Calm, reassuring, handing Tyler the baptismal robe",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Mrs. Delgado",
+          "gender": "Female",
+          "description": "Mrs. Delgado, the mother of the child being baptized, is warm and grateful for Tyler's involvement; Female; Age: 42; Occupation: School Counselor; Personality: Compassionate, composed, observant; Values: Family, faith, community service; Interests: Volunteering at the church, reading spiritual literature, gardening; Experiences: Organized multiple community outreach programs, recently went through a personal spiritual renewal, has three children all involved in church activities.",
+          "position": "Sitting on a bench",
+          "states": "Nodding with appreciation, watching Tyler closely",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Tyler Chavez",
+          "character_id": 0,
+          "action": "clutches agenda tightly",
+          "dialogue": "I hope I'm doing this right... I don't really know what to expect."
+        },
+        {
+          "action_id": 1,
+          "character": "Zak Delgado",
+          "character_id": 1,
+          "action": "hands Tyler the robe",
+          "dialogue": "You're doing great, Tyler. Just be there for him, and that's all that matters."
+        },
+        {
+          "action_id": 2,
+          "character": "Mrs. Delgado",
+          "character_id": 2,
+          "action": "smiles warmly",
+          "dialogue": "Thank you for stepping up, Tyler. It means a lot to us."
+        }
+      ],
+      "plot": "Tyler is preparing for his first baptism as a godfather and is feeling the weight of responsibility. Zak, a more experienced godfather, reassures him while Mrs. Delgado expresses her gratitude for his involvement. Tyler's internal conflict between his self-doubt and his desire to grow is evident in his actions and dialogue.",
+      "social_purpose": "To explore Tyler's personal growth and the social expectations placed on him as a godfather, while showing how community support can help him navigate these challenges.",
+      "chunk": {
+        "id": 0,
+        "text": "Tyler stands in the corner of the waiting room, clutching an agenda filled with notes, looking slightly nervous. The room is quiet, with a few other families preparing for the upcoming baptism. Zak and Mrs. Delgado, the child's mother, are nearby, offering quiet support and encouragement."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

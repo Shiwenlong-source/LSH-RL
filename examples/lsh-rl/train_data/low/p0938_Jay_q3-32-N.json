@@ -1,0 +1,88 @@
+{
+  "title": "The Accreditation Deadline",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Meeting with Colleague and Administrator",
+      "time": "9:30 AM",
+      "location": "School Office",
+      "description": "Jay is seated at his desk in the school office, nervously tapping his pen against a stack of paperwork. King, his supportive colleague, stands nearby, while Ivy, the strict administrator, is seated at her desk, arms crossed, unyielding.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Jay",
+          "gender": "Male",
+          "description": "A new teacher in his first year, Jay is anxious about starting his career and is frustrated by the college's bureaucratic hurdles.; Male, New Teacher, 28 years old; Occupation: New Teacher; Personality: Anxious, Determined, Resilient; Values: Professional Responsibility, Fairness, Persistence; Interests: Education, Problem Solving, Advocacy; Experiences: Just entering the teaching profession, Dealing with bureaucratic issues, Seeking colleague support",
+          "position": "Seated at desk",
+          "states": "Anxious, determined, exhausted",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "King",
+          "gender": "Male",
+          "description": "A veteran teacher and Jay's close friend, King is empathetic and often acts as a mentor to new staff; Male; Age: 58; Occupation: High School English Teacher and Department Head; Personality: Compassionate, patient, wise; Values: Integrity, mentorship, student well-being; Interests: Classic literature, gardening, mentoring young teachers; Experiences: Guided struggling students to academic success, mediated conflicts between staff and administration, taught for over 30 years at the same school.",
+          "position": "Standing beside Jay",
+          "states": "Supportive, concerned",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Ivy",
+          "gender": "Female",
+          "description": "A no-nonsense administrator who strictly enforces policies; Female; Age: 48; Occupation: School Principal; Personality: Authoritative, Unemotional, Detail-oriented; Values: Discipline, Fairness, Institutional Integrity; Interests: Organizational efficiency, Regulatory compliance; Experiences: Managed disciplinary actions with unwavering consistency, Implemented school-wide policy reforms, Supervised multiple staff evaluations.",
+          "position": "Seated at her desk",
+          "states": "Firm, unemotional, authoritative",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Jay",
+          "character_id": 0,
+          "action": "Pleading for an exception",
+          "dialogue": "Ms. Ivy, I've already submitted my ETS scores twice. It's been over a month since the deadline. I just want to start teaching on time."
+        },
+        {
+          "action_id": 1,
+          "character": "King",
+          "character_id": 1,
+          "action": "Supporting Jay",
+          "dialogue": "Ivy, Jay's situation is unique. He's been proactive and even reached out to ETS directly. Can't we make an exception for a new hire who's already met the requirements?"
+        },
+        {
+          "action_id": 2,
+          "character": "Ivy",
+          "character_id": 2,
+          "action": "Reiterating the policy",
+          "dialogue": "I understand your frustration, Jay. But the policy is clear. If the scores haven't been received, we can't proceed. It's not just about you; it's about maintaining accreditation standards."
+        },
+        {
+          "action_id": 3,
+          "character": "Jay",
+          "character_id": 0,
+          "action": "Expressing concern for the students",
+          "dialogue": "I know it's about the policy, but I'm worried about the students. They need a teacher, and I'm ready to help. This is why I became a teacher, to make a difference."
+        },
+        {
+          "action_id": 4,
+          "character": "Ivy",
+          "character_id": 2,
+          "action": "Offering a compromise",
+          "dialogue": "I can request an extension from the board, but only if ETS confirms the scores are on their way. I need written proof from them by the end of the day."
+        }
+      ],
+      "plot": "Jay is struggling with a bureaucratic issue that is delaying his start as a new teacher. King supports him while Ivy, the administrator, insists on following strict policy. Ivy offers a compromise if Jay can provide proof that ETS is resending his scores.",
+      "social_purpose": "To demonstrate Jay's determination and advocacy for his students while highlighting the tension between policy and fairness in a professional setting.",
+      "chunk": {
+        "id": 0,
+        "text": "Jay, a new 28-year-old teacher, is anxious about a bureaucratic delay in his accreditation. His colleague King supports him, while administrator Ivy remains firm. Jay pleads for an exception, emphasizing his readiness and commitment to his students. Ivy offers a compromise if Jay can provide proof from ETS that his scores are on the way."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

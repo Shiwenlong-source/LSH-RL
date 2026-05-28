@@ -1,0 +1,88 @@
+{
+  "title": "Stitching Independence",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Textile class conflict over fabric sharing",
+      "time": "Afternoon, 3:00 PM",
+      "location": "High school textile arts classroom",
+      "description": "Anna Ortiz, a 17-year-old high school student, is working on her textile project when the teacher, Lucy, approaches her desk and demands she share her fabric with another student. Anna is visibly annoyed, crossing her arms and leaning back in her chair. Lili, a classmate, steps in to mediate the situation.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Anna Ortiz",
+          "gender": "Female",
+          "description": "A determined and uncompromising high school student who values personal ownership and fairness.; Female, High School Student, 17 years old; Occupation: Student; Personality: Determined, Irritated, Uncompromising; Values: Fairness, Personal Ownership; Interests: Textile Art, Standing up for Personal Beliefs; Experiences: Conflict with Teacher over Class Rules, Expressing Strong Opinions in Public, Experiencing Peer Mediation",
+          "position": "At her desk",
+          "states": "Frustrated, defensive, focused",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Lucy",
+          "gender": "Female",
+          "description": "A strict and serious teacher who enforces class rules without exception; Female; Age: 38; Occupation: High school textile arts teacher; Personality: Authoritative, meticulous, empathetic; Values: Fairness, responsibility, excellence in craftsmanship; Interests: Traditional weaving techniques, educational reform, gardening; Experiences: Taught for over a decade at the same school, dealt with multiple classroom conflicts over shared materials, mentored students in after-school arts programs.",
+          "position": "Standing beside Anna",
+          "states": "Authoritative, unyielding, concerned",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Lili",
+          "gender": "Female",
+          "description": "A calm and empathetic classmate who tries to find middle ground in conflicts; Female; Age: 17; Occupation: High school student; Personality: Diplomatic, patient, observant; Values: Fairness, kindness, collaboration; Interests: Sewing, journaling, group discussions; Experiences: Mediated a disagreement between friends over group project roles, organized a peer-led conflict resolution workshop at school, helped a new student integrate into the class by fostering inclusive conversations.",
+          "position": "Approaching from the side",
+          "states": "Neutral, diplomatic, supportive",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Lucy",
+          "character_id": 1,
+          "action": "Confrontation",
+          "dialogue": "Anna, I've asked you to share your fabric with Sarah. It's a class rule, and I can't have you disrupting the flow of the lesson again."
+        },
+        {
+          "action_id": 1,
+          "character": "Anna Ortiz",
+          "character_id": 0,
+          "action": "Defiance",
+          "dialogue": "It's my fabric, and I bought it myself. Why should I give it to someone else just because they didn't prepare?"
+        },
+        {
+          "action_id": 2,
+          "character": "Lili",
+          "character_id": 2,
+          "action": "Mediation",
+          "dialogue": "Maybe there's another solution, like borrowing from the supply closet or working on something else until Sarah can get her own fabric?"
+        },
+        {
+          "action_id": 3,
+          "character": "Lucy",
+          "character_id": 1,
+          "action": "Warning",
+          "dialogue": "Anna, if you don't comply with the rules, I will have to report this to the principal. I can't let one student set a precedent for the whole class."
+        },
+        {
+          "action_id": 4,
+          "character": "Anna Ortiz",
+          "character_id": 0,
+          "action": "Assertion",
+          "dialogue": "That's not fair. I don't mind helping, but I won't be treated like I'm responsible for everyone else's mistakes."
+        }
+      ],
+      "plot": "Anna refuses to share her fabric with another student in the textile class, leading to a confrontation with the teacher, Lucy. Lili tries to mediate and find a compromise, but Anna remains firm in her belief that personal ownership should be respected. Lucy warns her of disciplinary action if she continues to break the rules, highlighting the tension between Anna's values and the teacher's expectations.",
+      "social_purpose": "To explore the conflict between individual values (like personal ownership and fairness) and institutional rules, while showcasing Anna's determination and her ability to stand up for her beliefs in a public setting.",
+      "chunk": {
+        "id": 0,
+        "text": "Anna's refusal to share fabric highlights her uncompromising attitude and belief in fairness. Her confrontation with Lucy demonstrates her willingness to express her opinions in public, while Lili's mediation reflects her experience in peer conflict resolution."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

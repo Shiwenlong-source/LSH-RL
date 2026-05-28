@@ -1,0 +1,105 @@
+{
+  "title": "Wedding Venue Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Choosing a wedding venue",
+      "time": "Saturday afternoon",
+      "location": "A cozy coffee shop",
+      "description": "Rose Henderson, her fiancé Chen, and their close friends Yuna and Marcus are gathered at a small coffee shop to discuss the wedding venue. Rose prefers a simple, intimate setting, while Yuna insists on a grand, traditional event.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Rose Henderson",
+          "gender": "Female",
+          "description": "A thoughtful and pragmatic bride-to-be who values authenticity and simplicity in life and marriage.; Female, 28, Bride-to-be, 28 years old; Occupation: Management; Personality: Pragmatic, Thoughtful, Determined, Sincere; Values: Authenticity, Simplicity, Future-Oriented; Interests: Wedding Planning, Relationship Building, Budget Planning; Experiences: Planning a Wedding, Navigating Social Expectations, Balancing Personal Values with Outside Influence",
+          "position": "Seated at a corner table, sipping a latte",
+          "states": "Calm, determined, slightly anxious about the discussion",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Yuna",
+          "gender": "Female",
+          "description": "A social butterfly who loves grand events and believes in traditional celebrations, often challenging Rose's frugal approach; Female; Age: 28; Occupation: Event Planner; Personality: Charismatic, confident, impulsive; Values: Celebration, legacy, social status; Interests: Throwing elaborate parties, vintage fashion, networking; Experiences: Organized her sister’s extravagant outdoor wedding, frequently hosts charity galas in her community, grew up in a family that valued big, traditional milestones.",
+          "position": "Across from Rose, animatedly gesturing",
+          "states": "Passionate, persuasive, a bit dismissive of Rose's concerns",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Chen",
+          "gender": "Male",
+          "description": "Calm, supportive, focused on Rose's perspective; Male; Age: 29; Occupation: Architect; Personality: Thoughtful, patient, diplomatic; Values: Partnership, simplicity, long-term planning; Interests: Design, photography, cultural traditions; Experiences: Grew up in a small family-run business, worked on community-focused design projects, recently helped Rose renovate her childhood home.",
+          "position": "Sitting beside Rose, nodding in agreement",
+          "states": "Calm, supportive, focused on Rose's perspective",
+          "is_npc": true
+        },
+        {
+          "id": 3,
+          "name": "Marcus",
+          "gender": "Male",
+          "description": "A laid-back friend who prefers to stay neutral but is open to both sides of the conversation; Male; Age: 32; Occupation: Event planner; Personality: Diplomatic, observant, easygoing; Values: Balance, harmony, personal happiness; Interests: Coffee culture, interior design, people-watching; Experiences: Helped plan multiple weddings with varying styles, grew up in a large family that valued tradition, spent time in a minimalist lifestyle phase.",
+          "position": "Sitting next to Yuna, sipping a coffee",
+          "states": "Observant, diplomatic, trying to mediate",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Yuna",
+          "character_id": 1,
+          "action": "Proposes a large venue",
+          "dialogue": "Rose, I just don't see why you're so against the ballroom at the Grand Hotel. It's the perfect setting for a traditional wedding!"
+        },
+        {
+          "action_id": 1,
+          "character": "Rose Henderson",
+          "character_id": 0,
+          "action": "Counts the budget",
+          "dialogue": "I know it's a beautiful place, Yuna, but the cost is over $10,000. We could use that money for our future home or our honeymoon."
+        },
+        {
+          "action_id": 2,
+          "character": "Chen",
+          "character_id": 2,
+          "action": "Supports Rose's idea",
+          "dialogue": "Rose's right. We both agreed we wanted something meaningful and manageable, not just a showy event."
+        },
+        {
+          "action_id": 3,
+          "character": "Marcus",
+          "character_id": 3,
+          "action": "Suggests a compromise",
+          "dialogue": "What if we find a mid-sized venue that still feels elegant but won't break the bank? Maybe a garden or a small banquet hall?"
+        },
+        {
+          "action_id": 4,
+          "character": "Rose Henderson",
+          "character_id": 0,
+          "action": "Expresses gratitude",
+          "dialogue": "That sounds like a great idea, Marcus. I just want this day to reflect who we are, not what society expects."
+        },
+        {
+          "action_id": 5,
+          "character": "Yuna",
+          "character_id": 1,
+          "action": "Softens her stance",
+          "dialogue": "I guess I just get caught up in the idea of a 'perfect' wedding. But if it's about you two, I can be more open-minded."
+        }
+      ],
+      "plot": "Rose and Chen are trying to finalize their wedding venue with the help of their friends Yuna and Marcus. While Yuna pushes for a grand event, Rose and Chen prefer something intimate and meaningful. Marcus suggests a compromise, and Yuna eventually softens her position.",
+      "social_purpose": "To demonstrate Rose's values of authenticity and frugality in a public setting while navigating social expectations and maintaining her friendships.",
+      "chunk": {
+        "id": 0,
+        "text": "Rose and her friends are at a coffee shop, trying to choose a wedding venue. Yuna suggests a large, traditional ballroom, but Rose counters with concerns about the budget and the true meaning of marriage. Chen supports Rose, while Marcus proposes a middle ground. The group engages in a respectful but passionate discussion about what the wedding should represent."
+      },
+      "npcs": [
+        1,
+        2,
+        3
+      ]
+    }
+  ]
+}

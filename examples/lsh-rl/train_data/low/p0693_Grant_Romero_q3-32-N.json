@@ -1,0 +1,102 @@
+{
+  "title": "Grant's Wedding Speech",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Wedding Reception",
+      "time": "6:30 PM",
+      "location": "Banquet Hall",
+      "description": "Grant stands at the podium, adjusting his tie and taking a deep breath. Mona, his new wife, gently squeezes his hand from behind, offering silent support. The room is filled with family and friends, all waiting for the speech. Henry, Grant's older brother, sits at the back of the hall, his posture tense and his eyes scanning the crowd for any signs of tension or emotion.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Grant Romero",
+          "gender": "Male",
+          "description": "Newlywed groom, nervous but determined, preparing to deliver a heartfelt speech.; Male, Newlywed, 35 years old; Occupation: Corporate Management; Personality: Nervous, Determined, Thoughtful; Values: Family, Honesty, Emotional Connection; Interests: Public Speaking, Wedding Planning, Family Interaction; Experiences: Preparing a wedding speech, Handling family dynamics, Managing public anxiety",
+          "position": "Podium",
+          "states": "Nervous, Focused",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Mona Romero",
+          "gender": "Female",
+          "description": "Grant's new wife, smiling warmly and offering emotional support; Female; Age: 28; Occupation: Marriage counselor and part-time event planner; Personality: Empathetic, composed, optimistic; Values: Emotional well-being, family unity, authenticity; Interests: Reading relationship psychology, organizing community gatherings, gardening; Experiences: Helped couples navigate premarital counseling, planned her own sister's wedding, overcame a long-distance relationship with Grant",
+          "position": "Behind Grant",
+          "states": "Supportive, Encouraging",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Henry Romero",
+          "gender": "Male",
+          "description": "Henry Romero; Male; Age: 34; Occupation: Psychologist; Personality: Analytical, reserved, empathetic; Values: Family loyalty, emotional honesty, personal growth; Interests: Reading psychology journals, long walks, quiet evenings with a good book; Experiences: Witnessed several family conflicts growing up with Grant, recently helped a close friend through a difficult breakup, often serves as the family's unofficial therapist.",
+          "position": "Back of the room",
+          "states": "Curious, Alert",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Grant Romero",
+          "character_id": 0,
+          "action": "Adjusts his tie and takes a deep breath.",
+          "dialogue": "Good evening, everyone. Thank you for being here to celebrate Mona and me. I’ve been thinking a lot about how to say what’s on my mind, and I hope I can do it justice."
+        },
+        {
+          "action_id": 1,
+          "character": "Mona Romero",
+          "character_id": 1,
+          "action": "Squeezes Grant’s hand gently.",
+          "dialogue": "You’ve got this, Grant. We’re all here for you."
+        },
+        {
+          "action_id": 2,
+          "character": "Grant Romero",
+          "character_id": 0,
+          "action": "Looks out at the crowd and begins his speech.",
+          "dialogue": "Mona and I have always believed in the importance of family and honesty. Today, as we start this new chapter, I want to thank each of you for being part of our journey."
+        },
+        {
+          "action_id": 3,
+          "character": "Henry Romero",
+          "character_id": 2,
+          "action": "Leans forward, listening intently.",
+          "dialogue": "He’s not just talking about the wedding. He’s setting something up."
+        },
+        {
+          "action_id": 4,
+          "character": "Grant Romero",
+          "character_id": 0,
+          "action": "Shares a personal story about his father.",
+          "dialogue": "My father always said that the most important thing in life is to be emotionally connected to the people you love. That’s why I’m here, to promise Mona—and myself—that I’ll always try to be open and honest with her."
+        },
+        {
+          "action_id": 5,
+          "character": "Mona Romero",
+          "character_id": 1,
+          "action": "Smiles through tears and gives a small nod.",
+          "dialogue": "I’m so proud of you, Grant. That meant a lot."
+        },
+        {
+          "action_id": 6,
+          "character": "Henry Romero",
+          "character_id": 2,
+          "action": "Exchanges a knowing glance with his mother.",
+          "dialogue": "He’s really changed since the wedding planning started. Thoughtful in a way I haven’t seen before."
+        }
+      ],
+      "plot": "Grant delivers a heartfelt wedding speech that highlights his values of family and honesty. His words resonate with the guests, especially Henry, who notices the emotional depth and maturity in his brother. The speech becomes a turning point in the evening, deepening the bonds between family members and sparking quiet reflection among the attendees.",
+      "social_purpose": "To showcase Grant’s personality traits, values, and experiences in a public setting, while also revealing the emotional dynamics within the family and the impact of his speech on those around him.",
+      "chunk": {
+        "id": 0,
+        "text": "Grant stands at the podium, adjusting his tie and taking a deep breath. Mona, his new wife, gently squeezes his hand from behind, offering silent support. The room is filled with family and friends, all waiting for the speech. Henry, Grant's older brother, sits at the back of the hall, his posture tense and his eyes scanning the crowd for any signs of tension or emotion."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "title": "Deadline Dilemma at the Student Council Meeting",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Student Council Meeting",
+      "time": "3:00 PM, Thursday",
+      "location": "School Auditorium",
+      "description": "The student council is meeting to finalize preparations for the upcoming school cafe and competition events. Tension is high due to the approaching yearbook deadline, and the class pages have not been returned yet. Robin Jenkins, the Student Council President, is visibly anxious but determined to keep the project on track.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Robin Jenkins",
+          "gender": "Male",
+          "description": "Robin is the Student Council President, known for his leadership and principled nature. He is 22 years old and appears tense due to the approaching yearbook deadline.; Male / Student leader, 22 years old; Occupation: Student Council President; Personality: Determined, Principled, Anxious, Uncompromising; Values: Responsibility, Teamwork, Integrity; Interests: Organizing events, Leadership, Collaboration; Experiences: Leading school projects, Managing deadlines, Handling group conflict, Coordinating with classmates, Representing class interests",
+          "position": "Student Council President",
+          "states": "Anxious, determined, focused",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Mona Patel",
+          "gender": "Female",
+          "description": "Mona is the Vice President of the Student Council and a key organizer of the cafe event. She is calm and organized, but her patience is wearing thin due to the delays; Female; Age: 17; Occupation: High school student and event coordinator for the Student Council; Personality: Calm, organized, impatient; Values: Responsibility, efficiency, teamwork; Interests: Project management, baking, academic competitions; Experiences: Successfully organized a school-wide charity fundraiser, managed a team for the annual science fair, dealt with last-minute changes in event planning during her first year on the council.",
+          "position": "Vice President",
+          "states": "Calm, organized, impatient",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Jack Morgan",
+          "gender": "Male",
+          "description": "Jack is a class representative with a laid-back and humorous attitude; Male; Age: 17; Occupation: Student Council Class Representative; Personality: easygoing, witty, procrastinating; Values: camaraderie, fun, responsibility; Interests: stand-up comedy, video games, casual hangouts; Experiences: organized a successful school talent show, missed a project deadline due to overconfidence in last-minute work, frequently mediates conflicts between classmates with a light-hearted approach.",
+          "position": "Class Representative",
+          "states": "Relaxed, playful, defensive",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Robin Jenkins",
+          "character_id": 0,
+          "action": "Expresses urgency about the yearbook deadline.",
+          "dialogue": "Jack, we can't afford any more delays. The yearbook deadline is in two days, and the class pages are still missing. This is a team effort, and we all have a responsibility to meet our commitments."
+        },
+        {
+          "action_id": 1,
+          "character": "Mona Patel",
+          "character_id": 1,
+          "action": "Supports Robin's stance and emphasizes the cafe event.",
+          "dialogue": "I agree with Robin. The cafe event is also in the works, and we need those pages finalized before we can proceed with the design and layout. We can't keep pushing things back."
+        },
+        {
+          "action_id": 2,
+          "character": "Jack Morgan",
+          "character_id": 2,
+          "action": "Challenges the urgency with a light-hearted tone.",
+          "dialogue": "Relax, Robin. I'm not made of deadlines. It's not like the class pages are going to disappear overnight. You're making it sound like the world is ending."
+        },
+        {
+          "action_id": 3,
+          "character": "Robin Jenkins",
+          "character_id": 0,
+          "action": "Insists on the importance of integrity and teamwork.",
+          "dialogue": "I'm being serious, Jack. This isn't just about the yearbook; it's about showing integrity as a team. We've all put in work, and we can't let one person hold us back."
+        },
+        {
+          "action_id": 4,
+          "character": "Mona Patel",
+          "character_id": 1,
+          "action": "Suggests a compromise to ease the tension.",
+          "dialogue": "Maybe we can set a specific time this afternoon for Jack to submit the pages? We can all help him if he needs it. It's about teamwork, after all."
+        },
+        {
+          "action_id": 5,
+          "character": "Jack Morgan",
+          "character_id": 2,
+          "action": "Considers the compromise and agrees.",
+          "dialogue": "Alright, alright. Let's say 4 PM. But I'm not promising it'll be perfect, just that it'll be done. You're all so intense about this stuff."
+        },
+        {
+          "action_id": 6,
+          "character": "Robin Jenkins",
+          "character_id": 0,
+          "action": "Expresses relief and reaffirms the team's goal.",
+          "dialogue": "Thanks, Jack. I appreciate the cooperation. Let's make sure this is the last delay. We need to be a team and deliver something we can all be proud of."
+        }
+      ],
+      "plot": "As the student council meeting progresses, the group confronts the issue of the missing class pages for the yearbook. Robin, as the President, takes a firm but diplomatic approach, balancing his anxiety with his commitment to responsibility and integrity. Mona supports his stance but suggests a compromise to maintain team cohesion. Jack, initially dismissive, eventually agrees to a deadline. The interaction highlights the challenges of leadership and the importance of diplomacy in group settings.",
+      "social_purpose": "Demonstrates how a leader must balance determination with diplomacy to achieve a shared goal, especially when managing group dynamics and deadlines.",
+      "chunk": {
+        "id": 0,
+        "text": "Robin Jenkins, the Student Council President, is visibly anxious as he addresses the group. 'Jack, we can't afford any more delays. The yearbook deadline is in two days, and the class pages are still missing. This is a team effort, and we all have a responsibility to meet our commitments.' Mona Patel, the Vice President, nods in agreement. 'I agree with Robin. The cafe event is also in the works, and we need those pages finalized before we can proceed with the design and layout. We can't keep pushing things back.' Jack Morgan, the class representative, leans back with a grin. 'Relax, Robin. I'm not made of deadlines. It's not like the class pages are going to disappear overnight. You're making it sound like the world is ending.' Robin's eyes narrow slightly. 'I'm being serious, Jack. This isn't just about the yearbook; it's about showing integrity as a team. We've all put in work, and we can't let one person hold us back.' Mona interjects with a calm tone. 'Maybe we can set a specific time this afternoon for Jack to submit the pages? We can all help him if he needs it. It's about teamwork, after all.' Jack sighs and mutters, 'Alright, alright. Let's say 4 PM. But I'm not promising it'll be perfect, just that it'll be done. You're all so intense about this stuff.' Robin nods, showing a mix of relief and determination. 'Thanks, Jack. I appreciate the cooperation. Let's make sure this is the last delay. We need to be a team and deliver something we can all be proud of.'"
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

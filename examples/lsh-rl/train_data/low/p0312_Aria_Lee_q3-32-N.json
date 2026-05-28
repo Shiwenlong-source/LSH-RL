@@ -1,0 +1,102 @@
+{
+  "title": "Faith and Friends",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Coffee Shop Meetup",
+      "time": "Afternoon",
+      "location": "A cozy local coffee shop",
+      "description": "Aria meets up with her friends Bing and Hong at a local coffee shop to discuss their weekend plans. Bing is eager to go to a party, while Hong is more reserved and curious about Aria's recent shift in priorities.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Aria Lee",
+          "gender": "Female",
+          "description": "Aria is thoughtful and introspective, recently unemployed and exploring her faith more deeply. She is trying to balance her social life with her newfound spiritual commitment.; Female, 25 years old; Occupation: Recent Graduate, Unemployed; Personality: Thoughtful, Introspective, Compassionate; Values: Faith, Authenticity, Community; Interests: Exploring Faith, Meaningful Conversation, Personal Growth; Experiences: Recently joined a faith group, Attending parties with friends, Balancing faith and social life",
+          "position": "Seated at the corner table",
+          "states": "Torn, thoughtful, empathetic",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Bing",
+          "gender": "Male",
+          "description": "Bing is outgoing and enthusiastic, always eager to socialize and have fun. He is supportive of Aria but also wants her to stay engaged in their social circle; Male; Age: 26; Occupation: Event Planner; Personality: Energetic, charismatic, optimistic; Values: Friendship, spontaneity, community; Interests: Themed parties, music festivals, trying new local cafes; Experiences: Organized a successful college homecoming event, hosted a popular weekly trivia night at a local bar, recently planned a surprise birthday party for Aria.",
+          "position": "Sitting across from Aria",
+          "states": "Excited, persuasive, friendly",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Hong",
+          "gender": "Female",
+          "description": "Hong is rational and observant, often asking thoughtful questions; Female; Age: 26; Occupation: Journalist; Personality: Analytical, empathetic, introspective; Values: Truth, intellectual growth, meaningful connections; Interests: Conversations about culture and society, independent films, journaling; Experiences: Covered local politics for a community magazine, interviewed diverse individuals for human-interest stories, recently moved to a new city to start fresh.",
+          "position": "Sitting to Aria's right",
+          "states": "Curious, calm, inquisitive",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Bing",
+          "character_id": 1,
+          "action": "Expresses excitement about the party",
+          "dialogue": "Hey Aria, I know you've been busy lately, but this party is going to be epic! You can't miss out on all the fun."
+        },
+        {
+          "action_id": 1,
+          "character": "Aria Lee",
+          "character_id": 0,
+          "action": "Shows hesitation and shares her thoughts",
+          "dialogue": "I appreciate the invite, Bing, but I already committed to a gathering with my faith group. It's important to me right now."
+        },
+        {
+          "action_id": 2,
+          "character": "Hong",
+          "character_id": 2,
+          "action": "Asks a thoughtful question",
+          "dialogue": "I get it, Aria. But I'm curious—how do you see your faith fitting into your life with us? I want to understand better."
+        },
+        {
+          "action_id": 3,
+          "character": "Aria Lee",
+          "character_id": 0,
+          "action": "Explains her perspective with compassion",
+          "dialogue": "It's not about choosing one over the other. I'm just trying to align my life more with what I believe matters. I hope you can support me in that."
+        },
+        {
+          "action_id": 4,
+          "character": "Bing",
+          "character_id": 1,
+          "action": "Softens his tone and shows concern",
+          "dialogue": "I didn't mean to push you, Aria. I just miss you being around. Maybe we can find something that works for both?"
+        },
+        {
+          "action_id": 5,
+          "character": "Hong",
+          "character_id": 2,
+          "action": "Offers a compromise",
+          "dialogue": "What if we meet up for something else this weekend? Maybe a picnic or a movie night? It could still be fun and meaningful."
+        },
+        {
+          "action_id": 6,
+          "character": "Aria Lee",
+          "character_id": 0,
+          "action": "Appreciates the compromise and shares her growth",
+          "dialogue": "That sounds great, Hong. I've been learning how to integrate my values into every part of my life, and it's helping me feel more at peace with my choices."
+        }
+      ],
+      "plot": "Aria meets with her friends Bing and Hong to discuss weekend plans. Bing is excited about a party, while Hong is more reflective and curious about Aria's recent decisions. Aria explains her shift in priorities and the importance of her faith group, leading to a compromise and deeper understanding between the friends.",
+      "social_purpose": "To explore the tension between personal values and social expectations, while showcasing Aria's introspective and compassionate nature. The dialogue reveals her journey toward authenticity and community.",
+      "chunk": {
+        "id": 0,
+        "text": "Aria meets with her friends Bing and Hong at a local coffee shop. Bing is excited about a party, while Hong is curious about Aria's recent shift in priorities. Aria explains her choice to attend a faith gathering, highlighting her values and experiences. A compromise is reached, showing her thoughtful and community-oriented personality."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

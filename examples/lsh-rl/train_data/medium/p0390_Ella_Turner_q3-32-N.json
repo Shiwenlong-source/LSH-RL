@@ -1,0 +1,88 @@
+{
+  "title": "The Last Night Out",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Group decision about attending a late-night party",
+      "time": "9:00 PM",
+      "location": "A cozy coffee shop near the university",
+      "description": "Ella, Lora, and Lili are gathered at a small table in the corner of the coffee shop, discussing a party invitation. Lora is visibly distant, while Lili is quietly worried. Ella is trying to balance her care for Lora with the group's desire to have fun.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Ella Turner",
+          "gender": "Female",
+          "description": "21-year-old college student, warm and empathetic, trying to keep her friends together while ensuring their safety.; 21-year-old /Female/Social Group Member, 24 years old; Occupation: College Student; Personality: Caring, Determined, Empathetic; Values: Friendship, Safety, Responsibility; Interests: Social Gatherings, Team Activities, Helping Others; Experiences: Participating in Team Sports, Handling Interpersonal Conflicts, Organizing Social Activities",
+          "position": "Seated at the center of the table",
+          "states": "Determined, concerned, conflicted",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Lora Smith",
+          "gender": "Female",
+          "description": "24-year-old friend of Ella's, recently distant and independent, insists on going alone despite the group's objections; Female; Age: 24; Occupation: Graduate student in psychology; Personality: Analytical, reserved, self-reliant; Values: Autonomy, personal growth; Interests: Journaling, indie music, quiet evenings at home; Experiences: Recently ended a long-term relationship, started therapy to process past trauma, feeling pressure to meet social expectations.",
+          "position": "Leaning back in her chair",
+          "states": "Firm, detached, slightly defensive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Lili Chen",
+          "gender": "Female",
+          "description": "Lili Chen; Female; Age: 22; Occupation: Psychology major; Personality: Thoughtful, empathetic, introverted; Values: Safety, loyalty, emotional well-being; Interests: Reading self-help books, journaling, nature walks; Experiences: Witnessed a close friend struggle with anxiety at a similar social event, often acts as a quiet mediator in group conflicts.",
+          "position": "Seated to Ella's left",
+          "states": "Cautious, anxious, supportive",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Ella Turner",
+          "character_id": 0,
+          "action": "Tries to persuade Lora to stay with the group",
+          "dialogue": "Lora, I just don't feel comfortable if you go alone. It's not worth the risk, you know that. We can all go together and make sure you're safe."
+        },
+        {
+          "action_id": 1,
+          "character": "Lora Smith",
+          "character_id": 1,
+          "action": "Firmly refuses Ella's suggestion",
+          "dialogue": "Ella, I appreciate the concern, but I need to do this on my own. I'm not a child, and I can handle myself."
+        },
+        {
+          "action_id": 2,
+          "character": "Lili Chen",
+          "character_id": 2,
+          "action": "Whispers her concern to Ella",
+          "dialogue": "She hasn't been herself lately. I'm worried she's not thinking clearly."
+        },
+        {
+          "action_id": 3,
+          "character": "Ella Turner",
+          "character_id": 0,
+          "action": "Pauses, visibly torn between her values and Lora's wishes",
+          "dialogue": "I just... I don't want anything to happen to you. If you're sure, I'll respect that. But if you need us, we're here, okay?"
+        },
+        {
+          "action_id": 4,
+          "character": "Lora Smith",
+          "character_id": 1,
+          "action": "Softens slightly, but remains resolute",
+          "dialogue": "Thanks, Ella. I know you're just trying to help. I'll be fine, I promise."
+        }
+      ],
+      "plot": "Ella is trying to convince Lora not to go to a late-night party alone, but Lora is insistent. Lili supports Ella but also shows concern for Lora. The group's dynamic is tested as they struggle to find a balance between respecting Lora's wishes and ensuring her safety.",
+      "social_purpose": "To demonstrate Ella's values of friendship, safety, and responsibility, and how she navigates interpersonal conflict and group dynamics while caring for her friends.",
+      "chunk": {
+        "id": 0,
+        "text": "Ella, Lora, and Lili are discussing a party invitation in a coffee shop. Lora insists on going alone, and Ella is trying to convince her otherwise. Lili supports Ella but is also worried about Lora's well-being."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "title": "Lost Photos, Shared Goal",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Oliver seeks help from colleagues after losing travel photos due to a power outage.",
+      "time": "10:30 AM",
+      "location": "Office IT Service Desk",
+      "description": "The office is quiet except for the usual hum of keyboards and printers. Oliver is visibly upset at the IT service desk, clutching his camera bag. Luke, a more experienced IT technician, approaches with a professional yet empathetic demeanor, while Sean, a friendly coworker from the marketing department, tries to lighten the mood.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Oliver",
+          "gender": "Male",
+          "description": "An emotional and anxious office clerk in his 40s, who recently returned from a trip and lost all his travel photos due to a power outage. He is passionate about photography and values preserving memories.; Male, Office Clerk, 41 years old; Occupation: IT Department Employee; Personality: Anxious, Enthusiastic, Emotional; Values: Preservation of Memories, Professionalism, Friendship; Interests: Photography, Technology, Travel; Experiences: Camera issues during recent travel, Data loss due to power outage, Receiving colleague support during crisis",
+          "position": "IT Service Desk",
+          "states": "Anxious, Emotional, Seeking Help",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Luke",
+          "gender": "Male",
+          "description": "A seasoned IT technician in his late 30s, known for his calm and methodical approach; Male; Age: 38; Occupation: Senior IT Support Specialist; Personality: Calm, Analytical, Patient; Values: Reliability, Professionalism, Problem-solving; Interests: Digital forensics, Photography, Classic cars; Experiences: Recovered lost data for multiple employees, Trained new IT staff on system backups, Dealt with high-pressure IT outages during critical business events.",
+          "position": "Behind the IT Service Desk",
+          "states": "Professional, Supportive, Analytical",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Sean",
+          "gender": "Male",
+          "description": "A cheerful marketing department coworker in his early 30s; Male; Age: 32; Occupation: Marketing Specialist; Personality: Optimistic, Humorous, Empathetic; Values: Teamwork, Positivity, Loyalty; Interests: Photography, Stand-up comedy, Coffee culture; Experiences: Recovered lost client data during a system crash, Organized a successful office morale event, Helped mentor new hires in the marketing team.",
+          "position": "Standing beside Oliver",
+          "states": "Supportive, Light-hearted, Concerned",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Oliver",
+          "character_id": 0,
+          "action": "Expresses his frustration and emotional distress over losing the photos.",
+          "dialogue": "I don’t know what I’m going to do. I lost all the photos from my trip to Iceland. I can’t believe it. They were everything to me."
+        },
+        {
+          "action_id": 1,
+          "character": "Luke",
+          "character_id": 1,
+          "action": "Asks about the possibility of backups in a professional tone.",
+          "dialogue": "Did you have any backups of the photos, Oliver? If you used cloud storage or an external drive, we might still be able to retrieve them."
+        },
+        {
+          "action_id": 2,
+          "character": "Sean",
+          "character_id": 2,
+          "action": "Attempts to lighten the mood with a joke.",
+          "dialogue": "Well, if nothing else, at least we can all pretend we went to Iceland now. You can describe it to us over and over again until we believe it."
+        },
+        {
+          "action_id": 3,
+          "character": "Oliver",
+          "character_id": 0,
+          "action": "Mentions the power outage that caused the data loss.",
+          "dialogue": "No, I didn’t have a backup. The power went out at the hotel, and the next day my camera was just... dead. All those memories are gone."
+        },
+        {
+          "action_id": 4,
+          "character": "Luke",
+          "character_id": 1,
+          "action": "Offers to help check for possible recovery options.",
+          "dialogue": "Let’s take a look at the camera and the files. Sometimes data can be recovered if the drive wasn’t corrupted completely. I’ll need a bit of time, but I’ll do what I can."
+        },
+        {
+          "action_id": 5,
+          "character": "Sean",
+          "character_id": 2,
+          "action": "Encourages Oliver to stay positive.",
+          "dialogue": "Hey, don’t give up hope yet. Luke’s the IT wizard. If there’s a way to get those photos back, he’ll find it. And if not, I’m sure you’ll get another chance to go back and take more."
+        },
+        {
+          "action_id": 6,
+          "character": "Oliver",
+          "character_id": 0,
+          "action": "Expresses gratitude and a mix of hope and anxiety.",
+          "dialogue": "Thanks, Luke. And Sean, your optimism is a bit much, but I appreciate it. I just... I wish I had been more careful. I love photography, and now it feels like I lost a part of myself."
+        }
+      ],
+      "plot": "Oliver is distraught after losing all his travel photos due to a power outage. Luke, a professional IT colleague, offers to help recover the data, while Sean, a close friend, tries to comfort him with humor and reassurance. Together, they begin the process of retrieving the photos, with Oliver’s emotional struggle and appreciation for his friends and colleagues subtly revealed through the interaction.",
+      "social_purpose": "To showcase Oliver’s emotional vulnerability, his passion for photography, and his value of preserving memories, while also highlighting the supportive dynamics between him and his colleagues. The scenario encourages cooperation and demonstrates how shared goals can strengthen relationships in the workplace.",
+      "chunk": {
+        "id": 0,
+        "text": "Oliver stands at the IT service desk, emotional due to lost travel photos. His colleague Luke suggests he ask if there are backups, while his friend Sean tries to ease the atmosphere with banter. Oliver's anxiety stems not only from the data loss but also reflects his deep concern over irrevocable memories. His relationship with Luke is more formal, while with Sean it is closer. Oliver struggles between anger and expectation, an emotion that also affects the tense atmosphere in the office. This incident may impact his professional performance and could also prompt him to cooperate with colleagues to find a solution."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

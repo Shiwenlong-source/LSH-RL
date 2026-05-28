@@ -1,0 +1,102 @@
+{
+  "title": "The Morning Decision",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Noah is deciding whether to accept a high-pressure promotion or maintain his current work-life balance.",
+      "time": "5:00 AM",
+      "location": "Office lobby",
+      "description": "The office is quiet, with only a few early birds present. Noah Moss sits at a desk near the entrance, staring at his laptop. He just ended a call with an airline, and the tension in the air is palpable. Quinn, a cheerful and supportive colleague, approaches with a coffee in hand. Zhang, a more reserved and observant coworker, stands nearby, watching the scene unfold.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Noah Moss",
+          "gender": "male",
+          "description": "A 29-year-old corporate employee who is ambitious, analytical, and reflective, but also indecisive. He is visibly shaken and anxious.; male, professional, 29 years old; Occupation: Corporate employee; Personality: Ambitious, Analytical, Reflective, Indecisive; Values: Career growth, Integrity, Work-life balance; Interests: Career development, Problem-solving, Self-improvement; Experiences: High-pressure work environment, Career choices, Workplace interpersonal relationships",
+          "position": "Near the entrance",
+          "states": "Hesitant, anxious, contemplative",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Quinn",
+          "gender": "female",
+          "description": "A supportive and energetic colleague who often encourages Noah in his career decisions; Female; Age: 32; Occupation: Senior Human Resources Coordinator; Personality: Optimistic, Empathetic, Resilient; Values: Work-Life Balance, Professional Growth, Team Harmony; Interests: Yoga, Reading self-help books, Networking events; Experiences: Successfully mentored several junior employees to leadership roles, Navigated a high-stress company merger while maintaining team morale, Volunteered for community career development workshops.",
+          "position": "Approaching Noah",
+          "states": "Cheerful, encouraging",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Zhang",
+          "gender": "male",
+          "description": "A reserved and observant coworker who prefers to let others speak first. He is calm and analytical; Male; Age: 32; Occupation: Senior Project Analyst; Personality: Analytical, introverted, patient; Values: Integrity, work-life balance, quiet efficiency; Interests: Reading non-fiction, early morning routines, data visualization; Experiences: Managed a high-stakes project that failed due to miscommunication, learned the importance of observation over immediate action, mentored new analysts to avoid repeating past mistakes.",
+          "position": "Standing near the front desk",
+          "states": "Calm, observant",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Quinn",
+          "character_id": 1,
+          "action": "Offers support",
+          "dialogue": "Hey Noah, I saw you were in here early. Everything okay?"
+        },
+        {
+          "action_id": 1,
+          "character": "Noah Moss",
+          "character_id": 0,
+          "action": "Exhales deeply",
+          "dialogue": "I just got off a call with the airline. They want me to take a new project lead role. It’s a big step up, but... it’s going to require a lot."
+        },
+        {
+          "action_id": 2,
+          "character": "Quinn",
+          "character_id": 1,
+          "action": "Encourages Noah",
+          "dialogue": "That’s huge! You’ve worked so hard for this. You’re ready, right?"
+        },
+        {
+          "action_id": 3,
+          "character": "Noah Moss",
+          "character_id": 0,
+          "action": "Looks conflicted",
+          "dialogue": "I don’t know. It’s a great opportunity, but I’ve been trying to balance my work and personal life. I’m not sure I can handle this without losing that balance."
+        },
+        {
+          "action_id": 4,
+          "character": "Zhang",
+          "character_id": 2,
+          "action": "Shares his perspective",
+          "dialogue": "You always do a good job analyzing the pros and cons. Maybe write down what matters most to you in this decision."
+        },
+        {
+          "action_id": 5,
+          "character": "Noah Moss",
+          "character_id": 0,
+          "action": "Considers the advice",
+          "dialogue": "That’s not a bad idea. I just need to figure out if the long hours and pressure are worth it."
+        },
+        {
+          "action_id": 6,
+          "character": "Quinn",
+          "character_id": 1,
+          "action": "Reassures him",
+          "dialogue": "Whatever you decide, we’re here for you. Integrity and balance are important too. Don’t forget that."
+        }
+      ],
+      "plot": "Noah is contemplating a career decision while his colleagues offer different perspectives. Quinn is optimistic and supportive, while Zhang offers a more reflective and analytical approach. Noah’s internal conflict is evident as he weighs his ambition against his values and well-being.",
+      "social_purpose": "To explore Noah’s personal and professional values through a natural conversation with supportive colleagues.",
+      "chunk": {
+        "id": 0,
+        "text": "Noah sits in the early morning office, weighing a career opportunity. Quinn and Zhang offer support and insight, helping him navigate his indecision."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

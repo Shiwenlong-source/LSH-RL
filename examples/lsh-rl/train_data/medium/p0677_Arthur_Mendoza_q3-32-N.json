@@ -1,0 +1,105 @@
+{
+  "title": "Breaking the Habit",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Arthur Mendoza meets with friends to symbolically destroy his credit card",
+      "time": "Evening",
+      "location": "Living room of Arthur's apartment",
+      "description": "Arthur sits at the center of the living room, his hands resting on the table with the credit card in front of him. The room is dimly lit with a few candles, creating a calm but intense atmosphere. His two closest friends, Luna and Joe, are seated on either side of him, while his younger sister, Maria, is on the couch across the room, watching silently. A small trash can sits nearby, ready for the symbolic act.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Arthur Mendoza",
+          "gender": "Male",
+          "description": "A 29-year-old financially independent freelancer who is determined to break free from long-term debt. He is introspective and resilient, often reflecting on his life choices and striving for self-improvement.; 29-year-old Male, Financially Independent, 29 years old; Occupation: Freelancer; Personality: Determined, Introspective, Resilient; Values: Financial Freedom, Independence, Self-Improvement; Interests: Personal Finance, Self-Reflection, Social Gatherings; Experiences: Long-term Debt Struggle, Symbolic Life Transition, Friendship Interaction",
+          "position": "center of the room",
+          "states": "tense, contemplative, resolute",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Luna Chen",
+          "gender": "Female",
+          "description": "Arthur’s close friend and a financial planner who is empathetic and logical; Female; Age: 29; Occupation: Personal Financial Advisor; Personality: Analytical, Compassionate, Patient; Values: Financial responsibility, Emotional well-being, Trust; Interests: Budgeting workshops, Mindfulness practices, Supporting friends through life transitions; Experiences: Guided clients through debt recovery, Witnessed Arthur’s financial struggles, Organized this gathering to help him move forward.",
+          "position": "left side of Arthur",
+          "states": "calm, concerned, encouraging",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Joe Ramirez",
+          "gender": "Male",
+          "description": "Arthur’s childhood friend and a laid-back comedian who often uses humor to diffuse serious situations; Male; Age: 28; Occupation: Stand-up comedian and part-time event host; Personality: Playful, supportive, slightly nervous; Values: Friendship, authenticity, emotional well-being; Interests: Improv comedy, storytelling, collecting vintage joke books; Experiences: Grew up with Arthur in the same neighborhood, has supported him through personal setbacks, recently helped organize a support group for people dealing with financial stress.",
+          "position": "right side of Arthur",
+          "states": "playful, supportive, slightly nervous",
+          "is_npc": true
+        },
+        {
+          "id": 3,
+          "name": "Maria Mendoza",
+          "gender": "Female",
+          "description": "Arthur’s younger sister who is a college student and has always admired her brother’s independence and resilience; Female; Age: 21; Occupation: Psychology major at a local university; Personality: introspective, empathetic, determined; Values: family, personal growth, authenticity; Interests: journaling, indie music, volunteering at a community mental health center; Experiences: struggled with anxiety during her first year of college, supported Arthur emotionally during his financial downturn, participated in a campus group focused on financial literacy and mental well-being.",
+          "position": "opposite couch",
+          "states": "thoughtful, proud, anxious",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Arthur Mendoza",
+          "character_id": 0,
+          "action": "Arthur looks at the credit card on the table, then at his friends and sister.",
+          "dialogue": "This card has been with me through so much. It’s time to let it go."
+        },
+        {
+          "action_id": 1,
+          "character": "Luna Chen",
+          "character_id": 1,
+          "action": "Luna leans forward and gently places her hand on Arthur’s.",
+          "dialogue": "I’m proud of you for getting to this point. But before you destroy it, have you considered other ways to manage it?"
+        },
+        {
+          "action_id": 2,
+          "character": "Joe Ramirez",
+          "character_id": 2,
+          "action": "Joe chuckles and gestures toward the card.",
+          "dialogue": "So, how are you going to do this? Just rip it in half or go full Hollywood and set it on fire?"
+        },
+        {
+          "action_id": 3,
+          "character": "Arthur Mendoza",
+          "character_id": 0,
+          "action": "Arthur smiles faintly and shakes his head.",
+          "dialogue": "I think I’ll stick to the basics. Rip it in half. It’s not about the method—it’s about the meaning."
+        },
+        {
+          "action_id": 4,
+          "character": "Maria Mendoza",
+          "character_id": 3,
+          "action": "Maria stands up and walks over to the table, placing a hand on Arthur’s shoulder.",
+          "dialogue": "You’ve always been so strong, Arthur. I believe in you."
+        },
+        {
+          "action_id": 5,
+          "character": "Arthur Mendoza",
+          "character_id": 0,
+          "action": "Arthur takes a deep breath, picks up the card, and tears it in half.",
+          "dialogue": "This isn’t just about debt. It’s about taking control of my life again."
+        }
+      ],
+      "plot": "Arthur is preparing to destroy his credit card in front of his friends and sister, marking a symbolic step in his journey toward financial freedom. While Luna offers alternative solutions and Joe tries to lighten the mood, Arthur remains focused on his decision, driven by his values of independence and self-improvement. Maria’s quiet support highlights the emotional stakes of the moment.",
+      "social_purpose": "To showcase Arthur’s personal growth and the support he receives from his close relationships while addressing his financial independence and determination to overcome debt.",
+      "chunk": {
+        "id": 0,
+        "text": "Arthur Mendoza, a 29-year-old freelancer, has gathered his friends and family in his living room for a small but significant event. The room is filled with a mix of tension and warmth as he prepares to destroy the credit card that has symbolized years of financial struggle. Luna Chen, his friend and financial planner, offers a more cautious perspective, suggesting alternatives to the drastic act. Joe Ramirez, his childhood friend, tries to ease the moment with humor, but Arthur remains resolute. Maria, his younger sister, silently supports him, reflecting the emotional impact of this decision on their family. The shared goal of this gathering is to help Arthur move forward in his journey toward financial freedom and self-improvement."
+      },
+      "npcs": [
+        1,
+        2,
+        3
+      ]
+    }
+  ]
+}

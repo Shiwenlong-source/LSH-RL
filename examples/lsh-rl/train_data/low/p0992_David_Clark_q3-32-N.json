@@ -1,0 +1,95 @@
+{
+  "title": "The Last-Minute Task",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "David assigns Lily to photocopy a stack of legal documents.",
+      "time": "Afternoon",
+      "location": "Office Copy Room",
+      "description": "David Clark, a confident and impatient young lawyer, enters the office copy room with a stack of documents in hand. He is preparing for a high-stakes case and needs the materials duplicated quickly. Lily Moore, a detail-oriented and cautious colleague, is already in the room. Assistant Zhang, a quiet and helpful office assistant, is nearby, organizing supplies.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "David Clark",
+          "gender": "male",
+          "description": "A 30-year-old lawyer who is confident, impatient, and expectant. He is focused on preparing for a major case and wants things done quickly.; male, lawyer, 30 years old; Occupation: Lawyer; Personality: Confident, Impatient, Expectant; Values: Professionalism, Efficiency, Teamwork; Interests: Legal research, Case preparation, Task delegation; Experiences: Preparing for important cases, Collaborating with colleagues, Handling office affairs",
+          "position": "Standing by the photocopier, holding a stack of documents",
+          "states": "Impatient, focused",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Lily Moore",
+          "gender": "female",
+          "description": "A detail-oriented and cautious legal assistant; Female; Age: 28; Occupation: Legal Assistant; Personality: meticulous, introverted, loyal; Values: accuracy, reliability, professionalism; Interests: reading legal journals, organizing systems, quiet weekend hikes; Experiences: previously made a costly filing error early in her career, has worked on several high-profile cases under tight deadlines, values mentorship from experienced colleagues.",
+          "position": "Standing near the counter, looking at the documents",
+          "states": "Nervous, concerned",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Assistant Zhang",
+          "gender": "male",
+          "description": "Assistant Zhang; Male; Age: 25; Occupation: Office Assistant; Personality: Observant, helpful, patient; Values: Efficiency, teamwork, respect; Interests: Reading management books, organizing systems, quiet hobbies like photography; Experiences: Assisted in high-pressure law office environments, managed document workflows for busy attorneys, resolved minor office conflicts with tact.",
+          "position": "Sitting at a desk, organizing office supplies",
+          "states": "Observant, ready to help",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "David Clark",
+          "character_id": 0,
+          "action": "Approaches Lily and hands her the documents.",
+          "dialogue": "Lily, I need you to photocopy these for me. They're part of the case prep, and I'm on a tight schedule. Can you handle it?"
+        },
+        {
+          "action_id": 1,
+          "character": "Lily Moore",
+          "character_id": 1,
+          "action": "Takes the documents but hesitates.",
+          "dialogue": "Sure, but David, I noticed the yellow pages in here. They might not copy well, and the documents are all stapled together. Do you want me to remove the staples first?"
+        },
+        {
+          "action_id": 2,
+          "character": "David Clark",
+          "character_id": 0,
+          "action": "Sighs and waves off her concerns.",
+          "dialogue": "Just do it quickly, Lily. I don’t have time for complications. The staples are fine, and the yellow pages will be fine too. I need these done now."
+        },
+        {
+          "action_id": 3,
+          "character": "Lily Moore",
+          "character_id": 1,
+          "action": "Nods slowly and begins preparing the documents.",
+          "dialogue": "Alright, I’ll do my best. Let me check the copier settings first."
+        },
+        {
+          "action_id": 4,
+          "character": "Assistant Zhang",
+          "character_id": 2,
+          "action": "Approaches and offers assistance.",
+          "dialogue": "Hey, I can help with the staples if you want. I’ve done this before."
+        },
+        {
+          "action_id": 5,
+          "character": "David Clark",
+          "character_id": 0,
+          "action": "Looks at Zhang briefly but focuses back on Lily.",
+          "dialogue": "Thanks, Zhang. Lily, just make sure you’re done in 20 minutes. I have a meeting to get to."
+        }
+      ],
+      "plot": "David Clark, a young lawyer, urgently needs Lily Moore to photocopy a stack of legal documents for an important case. Lily expresses concerns about the yellow pages and staples, which David dismisses. Assistant Zhang, noticing the tension, offers help. The interaction highlights David’s impatience and expectation, Lily’s attention to detail and hesitation, and Zhang’s quiet willingness to assist.",
+      "social_purpose": "To demonstrate how different personalities and approaches to tasks can create tension in a professional setting, while also showing the potential for collaboration and teamwork.",
+      "chunk": {
+        "id": 0,
+        "text": "David Clark, a confident and impatient young lawyer, enters the office copy room with a stack of documents in hand. He is preparing for a high-stakes case and needs the materials duplicated quickly. Lily Moore, a detail-oriented and cautious colleague, is already in the room. Assistant Zhang, a quiet and helpful office assistant, is nearby, organizing supplies. David approaches Lily and hands her the documents. 'Lily, I need you to photocopy these for me. They’re part of the case prep, and I’m on a tight schedule. Can you handle it?' Lily takes the documents but hesitates. 'Sure, but David, I noticed the yellow pages in here. They might not copy well, and the documents are all stapled together. Do you want me to remove the staples first?' David sighs and waves off her concerns. 'Just do it quickly, Lily. I don’t have time for complications. The staples are fine, and the yellow pages will be fine too. I need these done now.' Lily nods slowly and begins preparing the documents. Assistant Zhang, noticing the tension, approaches and offers assistance. 'Hey, I can help with the staples if you want. I’ve done this before.' David looks at Zhang briefly but focuses back on Lily. 'Thanks, Zhang. Lily, just make sure you’re done in 20 minutes. I have a meeting to get to.'"
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

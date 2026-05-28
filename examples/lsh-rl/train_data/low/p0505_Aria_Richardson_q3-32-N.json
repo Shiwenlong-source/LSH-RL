@@ -1,0 +1,74 @@
+{
+  "title": "Unfamiliar Trucks",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Aria notices two unfamiliar trucks near her house and calls her neighbor Tao for help.",
+      "time": "Evening",
+      "location": "Aria's suburban home and the nearby street",
+      "description": "Aria is home alone when she sees two unfamiliar trucks parked near her house. Her dog, Luna, starts barking furiously. She feels uneasy but tries to remain calm. After a moment of hesitation, she calls her neighbor Tao, who responds quickly and agrees to come over and check the situation with her.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Aria Richardson",
+          "gender": "Female",
+          "description": "A suburban resident in her mid-30s who lives alone. She is independent, cautious, and values safety and trust in her neighborhood.; Female, Suburban resident, 35 years old; Occupation: Freelancer; Personality: Independent, Anxious, Cautious, Vigilant; Values: Safety, Independence, Trust; Interests: Home safety, Pets, Neighborhood relations; Experiences: Living alone in a remote area, Handling emergencies, Staying vigilant",
+          "position": "Inside her house",
+          "states": "Anxious and vigilant",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Tao Nguyen",
+          "gender": "Male",
+          "description": "Tao Nguyen; Male; Age: 42; Occupation: IT Security Consultant; Personality: Calm, observant, empathetic; Values: Safety, community trust, reliability; Interests: Woodworking, amateur astronomy, Vietnamese cooking; Experiences: Investigated a break-in at a local business using surveillance tech, helped neighbors set up home security systems, served in the military before entering the tech field.",
+          "position": "Outside Aria's house",
+          "states": "Calm and ready to help",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Luna",
+          "gender": "Female",
+          "description": "Luna; Female; Age: 5; Occupation: Family companion and home guardian; Personality: Loyal, vigilant, intuitive; Values: Protection, trust, safety; Interests: Staying close to Aria, monitoring the yard, playful walks; Experiences: Detected a break-in attempt at Aria's home, comforted her during a storm, trained to respond to unfamiliar sounds and movements.",
+          "position": "By the window, barking",
+          "states": "Alert and defensive",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Aria Richardson",
+          "character_id": 0,
+          "action": "Calls Tao",
+          "dialogue": "Tao, I saw two unfamiliar trucks near my house. My dog is barking like crazy. Can you come over and check it out?"
+        },
+        {
+          "action_id": 1,
+          "character": "Tao Nguyen",
+          "character_id": 1,
+          "action": "Agrees to help",
+          "dialogue": "Of course, Aria. I'll be right over. Don't worry, we'll figure this out together."
+        },
+        {
+          "action_id": 2,
+          "character": "Aria Richardson",
+          "character_id": 0,
+          "action": "Watches the trucks",
+          "dialogue": "I'll keep an eye on them until you get here. Just make sure to be careful when you approach."
+        }
+      ],
+      "plot": "Aria is alone in her house when she notices two unfamiliar trucks parked near her home. Her dog, Luna, starts barking furiously, signaling that something is wrong. Aria calls her neighbor Tao for help, and he agrees to check the situation out with her. As they investigate, they will need to work together to determine if the trucks are a threat or not.",
+      "social_purpose": "To demonstrate the importance of trust, vigilance, and neighborhood relations in a situation where safety is at stake.",
+      "chunk": {
+        "id": 0,
+        "text": "Aria is home alone when she sees two unfamiliar trucks parked near her house. Her dog, Luna, starts barking furiously, signaling that something is wrong. Aria calls her neighbor Tao for help, and he agrees to come over and check the situation with her. As they investigate, they will need to work together to determine if the trucks are a threat or not."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

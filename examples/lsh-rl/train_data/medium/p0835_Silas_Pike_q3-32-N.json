@@ -1,0 +1,88 @@
+{
+  "title": "Visa Dilemma at the Airport",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Silas Pike is at the immigration counter in the San Francisco airport, trying to resolve a visa issue.",
+      "time": "Early morning",
+      "location": "San Francisco Airport Immigration Hall",
+      "description": "Silas Pike, a 25-year-old Canadian international student, stands nervously in front of the immigration counter. His passport was mistakenly classified as a regular tourist document, and he is seeking correction. His uncle, Ian, paces nearby, trying to intervene on his behalf. An immigration officer is calmly reviewing the documents and explaining the next steps.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Silas Pike",
+          "gender": "Male",
+          "description": "A 25-year-old Canadian international student who is anxious about his visa status. He is determined to resolve the issue and is hopeful that it can be corrected quickly.; Male / International Student, 25 years old; Occupation: International Student; Personality: Anxious, Determined, Expectant; Values: Education, Independence, Family Support; Interests: Studying Abroad, Problem Solving, Academic Success; Experiences: Studying in Canada, International Travel, Dealing with Bureaucracy",
+          "position": "Front of immigration counter",
+          "states": "Anxious, determined, expectant",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Ian Pike",
+          "gender": "Male",
+          "description": "Ian Pike; Male; Age: 58; Occupation: Immigration Lawyer; Personality: Anxious, supportive, overprotective, meticulous; Values: Family, justice, responsibility; Interests: Legal advocacy, community service, travel documentaries; Experiences: Represented several international students in visa cases, dealt with bureaucratic errors in past client files, recently helped Silas with initial visa application",
+          "position": "Near the counter, pacing",
+          "states": "Anxious, frustrated, supportive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Officer Ramirez",
+          "gender": "Female",
+          "description": "A professional and calm immigration officer who is assisting Silas with his visa issue; Female; Age: 34; Occupation: Immigration Officer at U.S. Customs and Border Protection; Personality: Composed, detail-oriented, empathetic; Values: Integrity, fairness, public service; Interests: Reading legal policy journals, hiking in the Bay Area, practicing Spanish; Experiences: Handled numerous student visa cases, worked night shifts during peak travel seasons, previously served at a busy border checkpoint.",
+          "position": "Behind the immigration counter",
+          "states": "Calm, professional, helpful",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Silas Pike",
+          "character_id": 0,
+          "action": "Speak to the immigration officer",
+          "dialogue": "Officer, my passport was misclassified as a tourist document. I have a valid student visa and need to correct this before I miss my orientation."
+        },
+        {
+          "action_id": 1,
+          "character": "Ian Pike",
+          "character_id": 1,
+          "action": "Intervene on Silas's behalf",
+          "dialogue": "Can you expedite this, please? He has a flight to catch and a future to build here."
+        },
+        {
+          "action_id": 2,
+          "character": "Officer Ramirez",
+          "character_id": 2,
+          "action": "Provide guidance",
+          "dialogue": "I understand your situation, Mr. Pike. The best course of action is to visit the INS office. They can correct the classification and issue a new stamp."
+        },
+        {
+          "action_id": 3,
+          "character": "Silas Pike",
+          "character_id": 0,
+          "action": "Express determination",
+          "dialogue": "Thank you for the suggestion. I’ll go to the INS office right away. I can’t afford to let this delay my academic plans."
+        },
+        {
+          "action_id": 4,
+          "character": "Ian Pike",
+          "character_id": 1,
+          "action": "Offer support",
+          "dialogue": "I’ll drive you there. I can’t sit here and do nothing while my nephew’s future is at stake."
+        }
+      ],
+      "plot": "Silas Pike is trying to correct a misclassification of his passport at the airport immigration counter. His uncle, Ian, is attempting to assist him, but his interventions are not effective. The immigration officer, Ramirez, suggests visiting the INS office to resolve the issue. Silas, determined and anxious, agrees to this solution, and Ian offers to support him by driving him there.",
+      "social_purpose": "The scenario highlights the protagonist's values of education and independence, as well as the importance of family support. It also shows his experience with bureaucracy and his personality traits of anxiety and determination in a high-stakes situation.",
+      "chunk": {
+        "id": 0,
+        "text": "Silas Pike, a 25-year-old Canadian international student, stands nervously in front of the immigration counter. His passport was mistakenly classified as a regular tourist document, and he is seeking correction. His uncle, Ian, paces nearby, trying to intervene on his behalf. An immigration officer is calmly reviewing the documents and explaining the next steps."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

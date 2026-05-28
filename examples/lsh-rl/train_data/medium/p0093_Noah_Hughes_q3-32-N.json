@@ -1,0 +1,88 @@
+{
+  "title": "The Last-Minute Move Help",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Noah asks Mike and Bob for help with his moving preparations",
+      "time": "3:00 PM",
+      "location": "University Campus Cafeteria",
+      "description": "Noah is sitting at a table with his laptop open, reviewing a list of tasks for his upcoming move. He is joined by Mike, a laid-back friend who has a history of being forgetful, and Bob, a more studious and focused friend who is preoccupied with his own schoolwork. The shared goal is to coordinate help for the move, but Noah's anxiety and Bob's focus create tension.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Noah Hughes",
+          "gender": "Male",
+          "description": "A 25-year-old college intern who is preparing to move while finishing his studies. He is anxious, communicative, and thoughtful.; years old, Male, College Student, 25 years old; Occupation: Intern; Personality: Anxious, Communicative, Thoughtful; Values: Responsibility, Friendship, Independence; Interests: Moving Preparation, Academics, Social Interaction; Experiences: Preparing for a move, Academic pressure, Relying on friends for help",
+          "position": "Center of the table",
+          "states": "Stressed, hesitant, focused",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Mike Carter",
+          "gender": "Male",
+          "description": "A 24-year-old college student and Noah's longtime friend; Male; Age: 24; Occupation: Psychology major with a part-time job at the campus bookstore; Personality: Friendly, easygoing, forgetful; Values: Loyalty, spontaneity, personal freedom; Interests: Video games, casual sports, music festivals; Experiences: Helped Noah move into his first apartment last year but forgot to show up, recently failed a midterm due to poor time management.",
+          "position": "Left side of the table",
+          "states": "Relaxed, slightly distracted, apologetic",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Bob Thompson",
+          "gender": "Male",
+          "description": "A 23-year-old college student known for his academic dedication; Male; Age: 23; Occupation: Psychology major with a part-time job as a campus research assistant; Personality: detail-oriented, responsible, slightly impatient; Values: academic achievement, reliability, personal growth; Interests: reading scientific journals, studying group dynamics, volunteering for academic clubs; Experiences: worked as a tutor for underclassmen, managed a tight schedule during finals week, helped friends with moves in the past but often deferred to last minute.",
+          "position": "Right side of the table",
+          "states": "Engrossed in homework, slightly impatient, supportive",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Noah Hughes",
+          "character_id": 0,
+          "action": "Looks up from his laptop and hesitates before speaking.",
+          "dialogue": "Hey Mike, I was just wondering if you still remember about helping me pick up the boxes from the liquor store tomorrow. I don't want to double-book anyone."
+        },
+        {
+          "action_id": 1,
+          "character": "Mike Carter",
+          "character_id": 1,
+          "action": "Pauses his phone game and looks up, slightly taken aback.",
+          "dialogue": "Oh man, I'm so sorry, I totally forgot about that. I was just thinking about it earlier, though. I can definitely help out tomorrow. What time?"
+        },
+        {
+          "action_id": 2,
+          "character": "Noah Hughes",
+          "character_id": 0,
+          "action": "Relaxes slightly but still seems uneasy.",
+          "dialogue": "That's great, Mike. I was worried about that. Maybe around 10 AM? I need to get things packed up by the weekend."
+        },
+        {
+          "action_id": 3,
+          "character": "Bob Thompson",
+          "character_id": 2,
+          "action": "Glances up from his notebook, then back down.",
+          "dialogue": "I can help, too, if you need it. I might be a bit busy, but I don't want you to be stuck alone."
+        },
+        {
+          "action_id": 4,
+          "character": "Noah Hughes",
+          "character_id": 0,
+          "action": "Smiles and nods, grateful for Bob's offer.",
+          "dialogue": "Thanks, Bob. I really appreciate it. I just want to make sure everything goes smoothly, you know? This move is a big step for me."
+        }
+      ],
+      "plot": "Noah is preparing for a move while juggling the end of the semester. He reaches out to his friends Mike and Bob for help, but his anxiety makes him hesitant to confirm their availability. Mike reassures him, and Bob, despite his focus on school, offers to assist. The interaction helps Noah feel more secure about the move and his friendships.",
+      "social_purpose": "To demonstrate Noah's values of responsibility and friendship, while showcasing his personality traits of anxiety and thoughtfulness in a public setting.",
+      "chunk": {
+        "id": 0,
+        "text": "Noah is sitting at a table with his laptop open, reviewing a list of tasks for his upcoming move. He is joined by Mike, a laid-back friend who has a history of being forgetful, and Bob, a more studious and focused friend who is preoccupied with his own schoolwork. The shared goal is to coordinate help for the move, but Noah's anxiety and Bob's focus create tension."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

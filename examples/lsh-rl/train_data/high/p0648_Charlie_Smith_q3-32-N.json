@@ -1,0 +1,102 @@
+{
+  "title": "The Post That Matters",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Charlie tries to write a social media post about a recent emotional experience.",
+      "time": "Evening",
+      "location": "Charlie's living room",
+      "description": "Charlie is seated at a small table with his laptop, surrounded by his friends Joe and Yuki. The living room is dimly lit with a soft glow from the overhead lamp. Charlie fidgets with his pen, eyes darting between the screen and his friends, clearly anxious about what he's writing.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Charlie Smith",
+          "gender": "Male",
+          "description": "A 17-year-old high school student who is sensitive and thoughtful. He is trying to share a personal reflection on social media but is struggling with self-doubt and the fear of being misunderstood.; Male, High School Student, 17 years old; Occupation: High School Student; Personality: Sensitive, Thoughtful, Self-reflective, Anxious; Values: Authenticity, Acceptance, Honesty; Interests: Self-expression, Writing, Social Media, Emotional Exploration; Experiences: Experiencing self-doubt, Seeking peer validation, Handling past conflicts, Valuing personal growth, Participating in creative writing",
+          "position": "At the laptop",
+          "states": "Anxious, self-reflective",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Joe Ramirez",
+          "gender": "Male",
+          "description": "Charlie's close friend, known for being direct and encouraging; Male; Age: 28; Occupation: Social media strategist; Personality: Supportive, confident, empathetic; Values: Honesty, loyalty, personal growth; Interests: Writing, psychology, helping others express themselves; Experiences: Volunteered as a peer counselor in college, helped friends navigate public speaking anxiety, worked on campaigns for mental health awareness.",
+          "position": "Sitting on the couch to Charlie's left",
+          "states": "Supportive, confident",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Yuki Tanaka",
+          "gender": "Female",
+          "description": "A thoughtful and articulate friend who values clarity in communication; Female; Age: 26; Occupation: Professional copywriter and content strategist; Personality: Analytical, empathetic, reserved; Values: Honesty, emotional intelligence; Interests: Japanese literature, photography, meaningful conversations; Experiences: Worked in public relations during a high-profile crisis, navigated a long-distance relationship through careful communication, frequently helps friends craft personal messages for social media.",
+          "position": "Sitting on the couch to Charlie's right",
+          "states": "Calm, observant",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Charlie Smith",
+          "character_id": 0,
+          "action": "types on his laptop",
+          "dialogue": "I just don’t know if this is the right way to say it. I don’t want to come off as too dramatic, but I also don’t want to lie about how I feel."
+        },
+        {
+          "action_id": 1,
+          "character": "Joe Ramirez",
+          "character_id": 1,
+          "action": "leans forward and speaks",
+          "dialogue": "Charlie, you don’t have to worry about being too dramatic. Your feelings are valid. Just say what you need to say."
+        },
+        {
+          "action_id": 2,
+          "character": "Yuki Tanaka",
+          "character_id": 2,
+          "action": "nods and suggests",
+          "dialogue": "What if we rephrase that part? It might help if you focus on how you felt instead of how you think others might react."
+        },
+        {
+          "action_id": 3,
+          "character": "Charlie Smith",
+          "character_id": 0,
+          "action": "reads the draft aloud",
+          "dialogue": "‘Sometimes I feel like my voice doesn’t matter, but I’m trying to grow and be honest with myself and others.’"
+        },
+        {
+          "action_id": 4,
+          "character": "Joe Ramirez",
+          "character_id": 1,
+          "action": "smiles and praises",
+          "dialogue": "That’s good, man. It shows you’re self-aware and trying to be real. That’s what people respond to."
+        },
+        {
+          "action_id": 5,
+          "character": "Yuki Tanaka",
+          "character_id": 2,
+          "action": "adjusts the wording on the screen",
+          "dialogue": "Maybe add something like, ‘I hope this helps others feel seen too.’ It gives your post a more positive direction and invites connection."
+        },
+        {
+          "action_id": 6,
+          "character": "Charlie Smith",
+          "character_id": 0,
+          "action": "takes a deep breath and hits publish",
+          "dialogue": "Alright, let’s do it. I’ll just post it and see what happens. Thanks for helping me get it right."
+        }
+      ],
+      "plot": "Charlie is trying to write a social media post that reflects his recent emotional experience, but he's worried about how it might be received. His friends Joe and Yuki offer different forms of support: Joe encourages him to be honest and true to his feelings, while Yuki helps him refine the language to avoid misinterpretation. After some back-and-forth, Charlie feels confident enough to publish the post, hoping it will resonate with others and foster genuine connection.",
+      "social_purpose": "To demonstrate the protagonist’s struggle between authenticity and acceptance, as well as how his values and personality are shaped through peer interaction and emotional exploration.",
+      "chunk": {
+        "id": 0,
+        "text": "Charlie is seated at a small table with his laptop, surrounded by his friends Joe and Yuki. The living room is dimly lit with a soft glow from the overhead lamp. Charlie fidgets with his pen, eyes darting between the screen and his friends, clearly anxious about what he's writing."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

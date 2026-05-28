@@ -1,0 +1,88 @@
+{
+  "title": "Wedding Dress Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Wedding Dress Fitting",
+      "time": "Afternoon",
+      "location": "A bridal boutique in the city",
+      "description": "Amelia is trying on wedding dresses with her fiancé and a close friend. The atmosphere is light, but Amelia is visibly distracted by a missed call from the principal of Queen's School.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Amelia Hunt",
+          "gender": "Female",
+          "description": "A 28-year-old enthusiastic and thoughtful teacher, recently engaged and considering a career advancement.; 28, Female, Fiancée, 28 years old; Occupation: New 5th Grade Teacher; Personality: Enthusiastic, Thoughtful, Ambitious, Empathetic; Values: Commitment, Growth, Balance; Interests: Education, Wedding Planning, Career Development; Experiences: Recently Engaged, New Teacher, Career Advancement Opportunity, Friendship with Supportive Friends",
+          "position": "Trying on a wedding dress in the fitting room",
+          "states": "Nervous, conflicted, distracted",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Cici",
+          "gender": "Female",
+          "description": "Amelia's best friend, a supportive and observant listener who notices her emotional state; Female; Age: 28; Occupation: Event Planner; Personality: Compassionate, intuitive, cheerful; Values: Loyalty, authenticity, work-life balance; Interests: Fashion, people-watching, romantic comedies; Experiences: Helped plan Amelia's engagement party, recently attended a friend's wedding, has a sister who is a school administrator.",
+          "position": "Waiting with Amelia's fiancé in the boutique",
+          "states": "Concerned, curious, empathetic",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "James",
+          "gender": "Male",
+          "description": "James; Male; Age: 28; Occupation: Event Planner; Personality: Optimistic, patient, romantic; Values: Commitment, joy in shared moments, open communication; Interests: Planning surprise dates, photography, city exploring; Experiences: Organized a successful engagement party for Amelia, recently helped a close friend plan their wedding, grew up in a small town and values moving to the city with Amelia",
+          "position": "Sitting on a bench, flipping through a magazine",
+          "states": "Happy, supportive, unaware of the conflict",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Amelia Hunt",
+          "character_id": 0,
+          "action": "Glances at her phone after hanging up from a call",
+          "dialogue": "I should probably call the principal back, but I don’t want to ruin the day."
+        },
+        {
+          "action_id": 1,
+          "character": "Cici",
+          "character_id": 1,
+          "action": "Notices Amelia's hesitation and asks gently",
+          "dialogue": "Hey, is everything okay? You seem a bit off today."
+        },
+        {
+          "action_id": 2,
+          "character": "James",
+          "character_id": 2,
+          "action": "Looks up from his magazine and smiles reassuringly",
+          "dialogue": "You know I’m always here to support you, no matter what you decide."
+        },
+        {
+          "action_id": 3,
+          "character": "Amelia Hunt",
+          "character_id": 0,
+          "action": "Sighs and responds thoughtfully",
+          "dialogue": "I’ve been offered a leadership position at the school, and I’m just trying to figure out if I can do both—this wedding and the new role."
+        },
+        {
+          "action_id": 4,
+          "character": "Cici",
+          "character_id": 1,
+          "action": "Reassures her with a smile",
+          "dialogue": "You’ve always balanced everything so well, Amelia. You’ll find a way to make it work."
+        }
+      ],
+      "plot": "Amelia is trying on wedding dresses when she becomes distracted by a missed call from the principal of Queen's School. Her friend Cici notices her unease and gently inquires about her stress. Amelia reveals a career advancement opportunity, and her fiancé James reassures her of his support. The scene highlights Amelia’s struggle to balance her personal and professional aspirations.",
+      "social_purpose": "To explore Amelia’s internal conflict and the values of commitment and growth, while showcasing the support of her friends and partner.",
+      "chunk": {
+        "id": 0,
+        "text": "Amelia stands in the fitting room, admiring the lace wedding dress in the mirror. Her phone buzzes on the small table beside her, and she hesitates before picking it up. A missed call from the principal. She looks at the message, then back at the dress. Cici, outside the room, notices her pause and asks, 'Hey, is everything okay?' Amelia takes a deep breath and says, 'I got an offer for a leadership position at the school, and I’m just trying to figure out if I can do both—this wedding and the new role.' James smiles from the bench and says, 'You’ve always balanced everything so well, Amelia. You’ll find a way to make it work.'"
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

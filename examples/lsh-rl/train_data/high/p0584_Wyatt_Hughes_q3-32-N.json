@@ -1,0 +1,102 @@
+{
+  "title": "The High-Stakes Café",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Wyatt meets with friends at a café to discuss his recent gambling decisions.",
+      "time": "Afternoon",
+      "location": "A quiet corner of a local café",
+      "description": "Wyatt sits at a table, nervously tapping his fingers on the edge of a half-empty coffee cup. His two friends, Jack and Luna, are seated across from him. The atmosphere is tense but calm, with soft background music and the hum of conversation. The shared goal is to help Wyatt make a decision about his future in poker.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Wyatt Hughes",
+          "gender": "Male",
+          "description": "A 36-year-old online poker player and small business chairman, visibly stressed and emotionally conflicted.; Male, Online poker player, 36 years old; Occupation: Small business Chairman; Personality: Impulsive, Emotional, Determined, Restless; Values: Recovery, Independence, Self-control; Interests: Online gaming, Adventure, Strategic thinking; Experiences: Poker experience, Struggling with gambling addiction, Support from friends and family, Exposing emotional vulnerability, Facing financial losses",
+          "position": "Center of the table",
+          "states": "Restless, emotionally vulnerable, determined",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Jack",
+          "gender": "Male",
+          "description": "A long-time friend of Wyatt, pragmatic and concerned about his well-being; Male; Age: 32; Occupation: Financial Analyst; Personality: Caring, level-headed, patient; Values: Responsibility, loyalty, honesty; Interests: Board games, hiking, reading strategy books; Experiences: Witnessed Wyatt's early poker success, helped him through a past financial setback, recently noticed a shift in his gambling habits.",
+          "position": "Left of Wyatt",
+          "states": "Calm, supportive, frustrated",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Luna",
+          "gender": "Female",
+          "description": "Wyatt's girlfriend, empathetic and emotionally invested in his recovery; Female; Age: 27; Occupation: Counselor; Personality: Compassionate, anxious, determined; Values: Loyalty, emotional well-being, honesty; Interests: Art therapy, journaling, helping others; Experiences: Witnessed Wyatt's downward spiral due to gambling, successfully supported a friend through addiction recovery.",
+          "position": "Right of Wyatt",
+          "states": "Anxious, caring, pleading",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Luna",
+          "character_id": 2,
+          "action": "Reaches across the table and touches Wyatt's hand.",
+          "dialogue": "Wyatt, you've already lost so much. I know you're trying to turn it around, but this isn't the way. You need to protect yourself."
+        },
+        {
+          "action_id": 1,
+          "character": "Jack",
+          "character_id": 1,
+          "action": "Leans forward, speaking with a firm but gentle tone.",
+          "dialogue": "You've got a business to run, man. You can't keep chasing losses. It's not just about the money anymore."
+        },
+        {
+          "action_id": 2,
+          "character": "Wyatt Hughes",
+          "character_id": 0,
+          "action": "Looks down at the table, then back up with a mix of defiance and sadness.",
+          "dialogue": "I know, but I feel like I'm so close to getting it back. Just one more hand, one more win. I can do this."
+        },
+        {
+          "action_id": 3,
+          "character": "Luna",
+          "character_id": 2,
+          "action": "Shakes her head, her voice soft but urgent.",
+          "dialogue": "You've said that before. And it always ends the same way. I'm scared for you, Wyatt. You're more than this."
+        },
+        {
+          "action_id": 4,
+          "character": "Jack",
+          "character_id": 1,
+          "action": "Pulls out a small envelope and slides it across the table.",
+          "dialogue": "This is a proposal for a recovery group. It's not about poker, it's about regaining control. You said self-control was important. This is your chance."
+        },
+        {
+          "action_id": 5,
+          "character": "Wyatt Hughes",
+          "character_id": 0,
+          "action": "Takes the envelope slowly, hesitates, then looks at both of them.",
+          "dialogue": "I... I want to believe I can do this. But it's in my blood, you know? The thrill, the strategy—it's what I live for."
+        },
+        {
+          "action_id": 6,
+          "character": "Luna",
+          "character_id": 2,
+          "action": "Nods, her eyes glistening.",
+          "dialogue": "Then maybe it's time to find a new adventure. One that doesn't cost us everything."
+        }
+      ],
+      "plot": "Wyatt is confronted by his friends and girlfriend about his gambling addiction and the toll it's taking on his life. They push him to consider recovery, but his determination and emotional state make it difficult for him to let go of the game.",
+      "social_purpose": "To show the internal and external conflict Wyatt faces, and how his relationships influence his decisions.",
+      "chunk": {
+        "id": 0,
+        "text": "Wyatt, Jack, and Luna sit in a café, discussing his recent gambling decisions. Luna and Jack urge him to stop playing, while Wyatt struggles with the idea of giving up the game he loves. The conversation reveals his emotional vulnerability and the pressure he feels from those around him."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

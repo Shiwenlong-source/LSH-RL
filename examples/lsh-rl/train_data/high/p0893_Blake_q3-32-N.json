@@ -1,0 +1,88 @@
+{
+  "title": "The Midnight Study Session",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Blake is working late on his simulation project with two classmates, Jordan and Maya, at the campus library.",
+      "time": "11:30 PM",
+      "location": "Campus Library, Study Room 3B",
+      "description": "The room is dimly lit with only a few students left. Blake is hunched over his laptop, furiously typing. Jordan sits beside him, offering support, while Maya leans back in her chair, watching him closely.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Blake",
+          "gender": "Male",
+          "description": "A 21-year-old college sophomore, visibly stressed but focused on finishing his simulation project.; Male, College Student, 21 years old; Occupation: College Student; Personality: Anxious, Persistent, Thoughtful; Values: Academic Success, Friendship, Self-improvement; Interests: Project Research, Social Gatherings, Problem Solving; Experiences: Staying up late to study, Academic pressure, Collaborative learning, Social activities",
+          "position": "At his laptop, center of the table",
+          "states": "Anxious, Persistent, Thoughtful",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Jordan",
+          "gender": "Male",
+          "description": "A helpful and patient classmate who wants to support Blake in his academic success; Male; Age: 21; Occupation: Computer Science undergraduate student; Personality: Supportive, Encouraging, Confident, Analytical, Empathetic; Values: Collaboration, Integrity, Academic excellence; Interests: Coding, Game design, Robotics; Experiences: Participated in a university hackathon, Tutored peers in programming, Worked on a group AI research project.",
+          "position": "Beside Blake, looking at his screen",
+          "states": "Supportive, Encouraging, Confident",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Maya",
+          "gender": "Female",
+          "description": "A curious and socially aware classmate who is more focused on the group dynamics than the project itself; Female; Age: 21; Occupation: Computer Science undergraduate student; Personality: Empathetic, Analytical, Diplomatic; Values: Collaboration, Integrity, Empathy; Interests: Group psychology, Creative writing, Coffee culture; Experiences: Led a successful group project in her sophomore year by mediating conflicts, Participated in campus debate club which sharpened her interpersonal skills, Volunteered at a community center mentoring younger students in STEM.",
+          "position": "Across from Blake, sipping coffee",
+          "states": "Observant, Concerned, Friendly",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Jordan",
+          "character_id": 1,
+          "action": "Offers to help",
+          "dialogue": "Hey Blake, let me take a look at your code. I think I can spot a few issues before the deadline."
+        },
+        {
+          "action_id": 1,
+          "character": "Maya",
+          "character_id": 2,
+          "action": "Asks about Blake's distraction",
+          "dialogue": "You seem really distracted. Did something happen at the party last night?"
+        },
+        {
+          "action_id": 2,
+          "character": "Blake",
+          "character_id": 0,
+          "action": "Responds with hesitation",
+          "dialogue": "I just... I don't want to let the team down. This project is important."
+        },
+        {
+          "action_id": 3,
+          "character": "Jordan",
+          "character_id": 1,
+          "action": "Encourages collaboration",
+          "dialogue": "We're all in this together. If you're stuck, we can figure it out as a group. That's what teamwork is for."
+        },
+        {
+          "action_id": 4,
+          "character": "Maya",
+          "character_id": 2,
+          "action": "Expresses concern for his well-being",
+          "dialogue": "I get it, but you can't keep doing this every night. You need to take care of yourself too."
+        }
+      ],
+      "plot": "Blake is caught between his academic responsibilities and his social life. Jordan's offer to help aligns with Blake's values of academic success and collaborative learning, while Maya's concern highlights the tension between friendship and self-improvement. Blake must decide how to balance his commitments and respond to his peers.",
+      "social_purpose": "To demonstrate the protagonist's internal conflict and how his values and experiences influence his interactions with others in a public setting.",
+      "chunk": {
+        "id": 0,
+        "text": "Blake is working late on his simulation project with two classmates, Jordan and Maya, at the campus library."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

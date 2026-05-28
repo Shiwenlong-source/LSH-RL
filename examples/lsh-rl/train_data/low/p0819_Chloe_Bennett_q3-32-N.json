@@ -1,0 +1,95 @@
+{
+  "title": "The Boardroom Invitation",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Board Invitation Discussion",
+      "time": "February 3, 2025, 7:00 PM",
+      "location": "Congdon Manor, Drawing Room",
+      "description": "Chloe Bennett, a 29-year-old temporary nanny, is invited to join the board of directors at a local nonprofit. She meets with Miles, the hostess and board member, and Will, a cautious friend and former coworker, in the elegant drawing room of Congdon Manor. The room is filled with soft lighting, plush furniture, and the faint sound of a fireplace crackling. Miles is eager to discuss the opportunity, while Will is more reserved, offering a counterpoint to the excitement.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Chloe Bennett",
+          "gender": "Female",
+          "description": "A 29-year-old temporary nanny with a curious and thoughtful nature. She is cautious about new opportunities, especially those that might disrupt her personal life balance.; 29-year-old / Female / Domestic Service Provider, 29 years old; Occupation: Temporary Nanny; Personality: Curious, Cautious, Thoughtful; Values: Balance, Opportunity, Independence; Interests: Childcare, Personal Growth, New Experiences; Experiences: Nanny work, Interacting with upper-class families, Receiving career invitations",
+          "position": "Seated on the arm of a couch, leaning forward slightly",
+          "states": "Hesitant, curious, thoughtful",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Miles",
+          "gender": "Female",
+          "description": "The hostess of Congdon Manor and a board member of the nonprofit; Female; Age: 48; Occupation: Philanthropy Consultant and Event Planner; Personality: Warm, enthusiastic, supportive; Values: Community impact, integrity, inclusivity; Interests: Fine arts, social entrepreneurship, interior design; Experiences: Led a successful fundraising campaign for a youth mentorship program, organized high-profile charity galas for over a decade, served on multiple nonprofit boards in the city.",
+          "position": "Sitting across from Chloe, smiling and gesturing with her hands",
+          "states": "Warm, enthusiastic, supportive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Will",
+          "gender": "Male",
+          "description": "A 32-year-old former coworker of Chloe's, now working in social work; Male; Age: 32; Occupation: Community Social Worker; Personality: Cautious, observant, concerned; Values: Personal independence, ethical responsibility, work-life balance; Interests: Urban policy, hiking, independent film; Experiences: Worked in corporate childcare management, transitioned to nonprofit social services after witnessing systemic failures, recently became a licensed clinical social worker.",
+          "position": "Standing near the window, arms crossed",
+          "states": "Cautious, observant, concerned",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Miles",
+          "character_id": 1,
+          "action": "Initiates the conversation",
+          "dialogue": "Chloe, I'm so glad you're here. We've been discussing the board and I think you'd be a perfect fit. Your work with children and your thoughtful nature are exactly what we need."
+        },
+        {
+          "action_id": 1,
+          "character": "Chloe Bennett",
+          "character_id": 0,
+          "action": "Replies with cautious interest",
+          "dialogue": "Thank you, Miles. It's a big change from what I usually do. I'm curious, but I want to make sure I can keep my current balance."
+        },
+        {
+          "action_id": 2,
+          "character": "Will",
+          "character_id": 2,
+          "action": "Offers a counterpoint",
+          "dialogue": "I get it, Chloe. It's a great opportunity, but don't forget how much time and energy it takes. You've worked hard to keep your independence."
+        },
+        {
+          "action_id": 3,
+          "character": "Chloe Bennett",
+          "character_id": 0,
+          "action": "Reflects on the conversation",
+          "dialogue": "You're both right. It's a new experience, and I value personal growth, but I also need to think about how it fits into my life."
+        },
+        {
+          "action_id": 4,
+          "character": "Miles",
+          "character_id": 1,
+          "action": "Encourages further consideration",
+          "dialogue": "Of course, take your time. We'd love to have you on board, but it's your decision. Let me know what you think."
+        },
+        {
+          "action_id": 5,
+          "character": "Will",
+          "character_id": 2,
+          "action": "Supports Chloe's thoughtful approach",
+          "dialogue": "Exactly. You don't have to decide tonight. Just make sure you're choosing what's best for you, not what others expect."
+        }
+      ],
+      "plot": "Chloe is invited to join a board of directors at a local nonprofit during a social gathering at Congdon Manor. Miles, the hostess, is enthusiastic about the opportunity, while Will, a friend, advises her to consider the impact on her personal life. Chloe is torn between her desire for growth and her need to maintain independence and balance. The scene ends with her deciding to take time to think it over.",
+      "social_purpose": "To explore Chloe's values of balance, independence, and opportunity in the context of a career decision. The interaction highlights her cautious and thoughtful personality, as well as her interest in new experiences and personal growth.",
+      "chunk": {
+        "id": 0,
+        "text": "Chloe sits in the drawing room of Congdon Manor, surrounded by the warmth of the fireplace and the soft glow of chandeliers. Miles, the hostess, is seated across from her, smiling and gesturing with her hands as she speaks. Will stands near the window, arms crossed, offering a more grounded perspective. The conversation unfolds as Chloe weighs the opportunity of joining the board against the potential disruption to her life."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

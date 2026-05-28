@@ -1,0 +1,102 @@
+{
+  "title": "The Trackside Conversation",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Hazel joins her friends for a track meet practice.",
+      "time": "Afternoon",
+      "location": "University Track Field",
+      "description": "Hazel sits on the sidelines, nervously smoothing her pajama pants while watching her friends practice. Lucy and Ruby approach her, one with concern and the other with lighthearted teasing.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Hazel Green",
+          "gender": "Female",
+          "description": "22-year-old Christian student, self-conscious and devout, wearing pajama pants and a loose sweatshirt.; 22-year-old Female, Christian, 22 years old; Occupation: Student; Personality: Self-conscious, Devout, Determined, Humble; Values: Faith, Self-discipline, Friendship; Interests: Cooking, Reading, Spiritual Growth; Experiences: Not Good at Sports, Relies on Friends for Motivation, Often Feels Out of Place in Social Settings",
+          "position": "Sideline bench",
+          "states": "Nervous, determined, out of place",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Lucy",
+          "gender": "Female",
+          "description": "23-year-old athletic and supportive friend, wearing a sports bra and running shorts; Female; Age: 23; Occupation: Third-year kinesiology student; Personality: Empathetic, determined, upbeat; Values: Teamwork, perseverance, health and wellness; Interests: Training for marathons, helping others improve their fitness, listening to podcasts during runs; Experiences: Competed in high school track and field, volunteered as a peer mentor for new students in her program, supported a close friend through a major injury and recovery.",
+          "position": "Standing beside Hazel",
+          "states": "Concerned, encouraging",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Ruby",
+          "gender": "Female",
+          "description": "Ruby; Female; Age: 24; Occupation: Sports science major; Personality: Teasing, cheerful, supportive; Values: Friendship, perseverance, fun; Interests: Track and field, fitness challenges, pranks; Experiences: Won regional college relay championship, organized campus sports events, helped train a friend through a comeback from injury.",
+          "position": "Leaning on the bench",
+          "states": "Teasing, cheerful",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Lucy",
+          "character_id": 1,
+          "action": "Sits beside Hazel and speaks with concern.",
+          "dialogue": "Hazel, are you okay? You look like you're about to pass out. Do you want to take a break?"
+        },
+        {
+          "action_id": 1,
+          "character": "Hazel Green",
+          "character_id": 0,
+          "action": "Looks away, then speaks softly.",
+          "dialogue": "I'm fine. I just don't do well with running, but I'm here to support us and pray for our team."
+        },
+        {
+          "action_id": 2,
+          "character": "Ruby",
+          "character_id": 2,
+          "action": "Laughs and teases lightly.",
+          "dialogue": "Pray for us, and maybe bring your famous banana bread next time we have a team meeting. You know, to fuel us up instead of watching from the bench."
+        },
+        {
+          "action_id": 3,
+          "character": "Hazel Green",
+          "character_id": 0,
+          "action": "Smiles shyly and responds with humility.",
+          "dialogue": "I know I'm not as fast as you two, but I believe faith can carry me through in ways you might not see."
+        },
+        {
+          "action_id": 4,
+          "character": "Lucy",
+          "character_id": 1,
+          "action": "Nods thoughtfully and replies.",
+          "dialogue": "That's true, Hazel. We all have different strengths. You bring something special to our group."
+        },
+        {
+          "action_id": 5,
+          "character": "Ruby",
+          "character_id": 2,
+          "action": "Softens her tone and adds.",
+          "dialogue": "Yeah, and we're all in this together. You don't have to run to be part of the team."
+        },
+        {
+          "action_id": 6,
+          "character": "Hazel Green",
+          "character_id": 0,
+          "action": "Looks at her friends, visibly touched.",
+          "dialogue": "Thank you. Sometimes I feel like I don't belong here, but you two always make me feel included."
+        }
+      ],
+      "plot": "Hazel's friends help her feel accepted at the track meet, even though she is not athletic. Through their interaction, they affirm her value as a friend and her faith, which helps her feel more confident in her own skin.",
+      "social_purpose": "To show how Hazel's self-consciousness and faith are part of her identity, and how her friends help her feel accepted despite her insecurities.",
+      "chunk": {
+        "id": 0,
+        "text": "Hazel sat on the sidelines, her hands fidgeting with the fabric of her pajama pants. The track field buzzed with energy as her friends Lucy and Ruby practiced sprints and hurdles. She watched them with admiration, but also with a quiet sense of being out of place. Lucy approached her, concern etched in her expression, while Ruby leaned on the bench with a teasing grin. As they spoke to her, Hazel found herself opening up about her faith and how it gave her strength in ways running never could. Their words of encouragement helped her feel less alone, and more accepted for who she was."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

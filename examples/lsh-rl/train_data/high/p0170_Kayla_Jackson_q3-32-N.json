@@ -1,0 +1,88 @@
+{
+  "title": "The Eve of Performance",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Kayla's friends visit her to help her prepare for an important performance.",
+      "time": "Evening",
+      "location": "Kayla's apartment",
+      "description": "Kayla is rehearsing for an upcoming concert in her living room. Lora and Amy sit on the couch, listening and offering encouragement. Kayla's anxiety is evident as she struggles with a difficult part of the song.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Kayla Jackson",
+          "gender": "female",
+          "description": "A singer in her early 25s, visibly anxious but deeply pious and determined to overcome her fears.; female, early, 25 years old; Occupation: Singer; Personality: Anxious, Pious, Determined, Introspective; Values: Faith, Self-improvement, Group support; Interests: Music, Spirituality, Performance; Experiences: Preparing for an important performance, Receiving emotional support from friends, Overcoming stage fright, Praying to God for guidance, Seeking balance between personal fear and faith",
+          "position": "Standing by the piano",
+          "states": "Nervous, reflective, hopeful",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Lora Smith",
+          "gender": "female",
+          "description": "A supportive friend who has known Kayla since college, calm and empathetic; female; Age: 29; Occupation: Music therapist; Personality: patient, compassionate, observant; Values: emotional well-being, loyalty, artistic expression; Interests: piano, mindfulness practices, indie folk music; Experiences: helped friends through performance anxiety, worked with children on the autism spectrum, studied music psychology in graduate school.",
+          "position": "Sitting on the couch",
+          "states": "Calm, encouraging, attentive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Amy Chen",
+          "gender": "female",
+          "description": "Another close friend and fellow musician, cheerful and confident; Female; Age: 26; Occupation: Music teacher and session violinist; Personality: Cheerful, motivating, optimistic; Values: Friendship, perseverance, artistic expression; Interests: Classical music, spontaneous jam sessions, baking; Experiences: Performed in several local theater productions, helped Kayla through past performance anxieties, earned a degree in music education.",
+          "position": "Sitting next to Lora",
+          "states": "Cheerful, motivating, optimistic",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Kayla Jackson",
+          "character_id": 0,
+          "action": "Rehearsing a song",
+          "dialogue": "I just don't know if I can do this. What if I mess up and everyone judges me?"
+        },
+        {
+          "action_id": 1,
+          "character": "Lora Smith",
+          "character_id": 1,
+          "action": "Comforting Kayla",
+          "dialogue": "You've practiced so hard, Kayla. You're ready. Just remember to breathe and let your faith carry you."
+        },
+        {
+          "action_id": 2,
+          "character": "Amy Chen",
+          "character_id": 2,
+          "action": "Encouraging Kayla",
+          "dialogue": "You're not just singing for yourself, you're singing for all of us who believe in you. You've got this!"
+        },
+        {
+          "action_id": 3,
+          "character": "Kayla Jackson",
+          "character_id": 0,
+          "action": "Praying quietly",
+          "dialogue": "Lord, help me to trust in my preparation and in Your plan for my life."
+        },
+        {
+          "action_id": 4,
+          "character": "Lora Smith",
+          "character_id": 1,
+          "action": "Offering perspective",
+          "dialogue": "You're not just a singer, Kayla. You're a person of faith, and that's what will make your performance truly powerful."
+        }
+      ],
+      "plot": "As Kayla prepares for her big performance, her friends Lora and Amy help her to find the balance between her anxiety and her faith. Through their support, Kayla begins to feel more confident and ready to face the challenge ahead.",
+      "social_purpose": "To demonstrate how personal struggles can be supported and overcome through group support and shared values.",
+      "chunk": {
+        "id": 0,
+        "text": "Kayla stands by the piano, rehearsing a song while Lora and Amy sit on the couch, offering comfort and encouragement. Kayla's anxiety is evident as she struggles with a difficult part of the song, but her friends help her to find the balance between her anxiety and her faith. Through their support, Kayla begins to feel more confident and ready to face the challenge ahead."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

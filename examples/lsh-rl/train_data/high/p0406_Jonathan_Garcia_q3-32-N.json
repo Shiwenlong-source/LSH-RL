@@ -1,0 +1,74 @@
+{
+  "title": "Evening at Bull and Finch",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Jonathan's decision to go out for a drink",
+      "time": "7:30 PM",
+      "location": "Jonathan's apartment living room",
+      "description": "Jonathan is sitting on the couch, scrolling through his phone, trying to decide whether to stay in or go out for a drink with his friend Sun. His sister Yuki is nearby, reading a book but occasionally glancing at him with concern.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Jonathan Garcia",
+          "gender": "Male",
+          "description": "25-year-old young professional, visibly conflicted but leaning towards socializing.; years old / Male / professional, 25 years old; Occupation: Young Professional; Values: Friendship, Responsibility, Balance; Interests: Sports, Casual socializing, Relaxing; Experiences: Watching sports at home, Social drinking, Family interaction, Work pressure",
+          "position": "On the couch",
+          "states": "Hesitant, anxious, socially aware",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Sun Kim",
+          "gender": "Male",
+          "description": "Sun Kim; Male; Age: 28; Occupation: Event Planner; Personality: Energetic, charismatic, optimistic; Values: Friendship, spontaneity, connection; Interests: Networking, trying new bars and cocktails, urban exploring; Experiences: Organized a successful rooftop party in the city last month, recently helped a close friend through a tough breakup with emotional support, grew up in a large family that valued togetherness.",
+          "position": "Standing near the door",
+          "states": "Excited, persuasive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Yuki Garcia",
+          "gender": "Female",
+          "description": "Yuki Garcia; Female; Age: 24; Occupation: Medical Student; Personality: Analytical, reserved, protective; Values: Responsibility, family, health; Interests: Neuroscience, quiet evenings, cooking; Experiences: Witnessed a friend's alcohol-related accident, raised by strict parents who emphasized discipline, works part-time at a local clinic.",
+          "position": "Near the bookshelf",
+          "states": "Cautious, disapproving",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Sun Kim",
+          "character_id": 1,
+          "action": "invites Jonathan for a drink",
+          "dialogue": "Hey, man, let's go to Bull and Finch. Just one drink before the big day tomorrow. It'll help you relax."
+        },
+        {
+          "action_id": 1,
+          "character": "Jonathan Garcia",
+          "character_id": 0,
+          "action": "hesitates but accepts the invitation",
+          "dialogue": "Yeah... I guess one drink won't hurt. Might be nice to take my mind off work for a bit."
+        },
+        {
+          "action_id": 2,
+          "character": "Yuki Garcia",
+          "character_id": 2,
+          "action": "expresses quiet disapproval",
+          "dialogue": "Ugh, 'just one drink' always turns into something else. I hope you know what you're doing, Jonathan."
+        }
+      ],
+      "plot": "Jonathan is invited by his friend Sun to Bull and Finch for a drink. Despite his sister Yuki's disapproval, he agrees, showing his easygoing and socially aware nature. His anxiety about the next day is evident, but his desire for connection with friends takes precedence.",
+      "social_purpose": "Highlight Jonathan's internal conflict between responsibility and social connection, while showing his family dynamics and friend relationships.",
+      "chunk": {
+        "id": 0,
+        "text": "Sun's invitation creates a small but meaningful social interaction in Jonathan's apartment. It reveals his struggle to balance work and personal life, and his tendency to prioritize friendship when possible. Yuki's comment adds tension and shows the family's concern for his well-being."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

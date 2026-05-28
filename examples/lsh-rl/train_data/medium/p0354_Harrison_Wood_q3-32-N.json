@@ -1,0 +1,133 @@
+{
+  "title": "Last-Minute Flight Fiasco",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Airport Disruption",
+      "time": "Afternoon",
+      "location": "Reno-Tahoe International Airport, Terminal C",
+      "description": "Harrison Wood, a 21-year-old college student, is frantically pacing near the ticket counter at Reno Airport. His flight back to Orange County has been canceled due to weather delays, and the airport staff are informing him that last-minute changes are not possible without additional fees. His friends, Gang and Henry, are nearby at a gate, calmly discussing alternative plans. Tension is rising as Harrison’s anxiety grows.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Harrison Wood",
+          "gender": "Male",
+          "description": "A 21-year-old college student from Orange County, currently stranded at Reno Airport. He is visibly anxious, constantly checking his phone for updates.; 21-year-old /Male/Student, 24 years old; Occupation: College student; Personality: Anxious, Rational, Determined; Values: Responsibility, Independence, Time management; Interests: Travel, Studying, Problem-solving; Experiences: Travel disruptions, Academic pressure, Group decision-making",
+          "position": "Near the ticket counter",
+          "states": "Anxious, determined, indecisive",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Gang",
+          "gender": "Male",
+          "description": "Harrison’s roommate and friend; Male; Age: 22; Occupation: Part-time freelance graphic designer and student; Personality: Calm, practical, supportive; Values: Loyalty, resourcefulness, adaptability; Interests: Urban exploration, low-budget travel hacks, indie music; Experiences: Missed a flight due to a miscommunication and had to hitchhike to a friend’s city, helped Harrison through a family emergency during college, frequently travels on a tight budget for creative projects.",
+          "position": "Gate B12",
+          "states": "Calm, practical, supportive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Henry",
+          "gender": "Male",
+          "description": "Another friend from Harrison’s study group, 23 years old. He is tech-savvy and good at finding alternatives. Standing near the gate, looking at a map on his phone.; Male; Age: 23; Occupation: Computer Science Student; Personality: Optimistic, analytical, patient; Values: Problem-solving, adaptability, loyalty; Interests: Coding, travel tech, strategy games; Experiences: Successfully organized a last-minute road trip for his friends using real-time transit data, worked part-time as a tech support intern for a local startup, navigated multiple flight cancellations during a cross-country move.",
+          "position": "Gate B12",
+          "states": "Optimistic, analytical, patient",
+          "is_npc": true
+        },
+        {
+          "id": 3,
+          "name": "Airport Staff",
+          "gender": "Female",
+          "description": "A mid-30s airport staff member who is firm but polite in explaining the airline's last-minute ticket policy; Female; Age: 35; Occupation: Customer Service Supervisor at a regional airline; Personality: Professional, unyielding, helpful; Values: Integrity, Efficiency, Customer Respect; Interests: Organizing travel itineraries, Listening to true crime podcasts, Practicing yoga; Experiences: Managed multiple travel disruptions during the 2022 winter storms, Trained new customer service staff for three years, Handled difficult passenger situations with diplomatic calm.",
+          "position": "Behind the ticket counter",
+          "states": "Professional, unyielding, helpful",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Harrison Wood",
+          "character_id": 0,
+          "action": "Arguing with the airport staff",
+          "dialogue": "Look, I didn’t have time to book in advance. My professor’s class starts tomorrow, and I can’t afford to miss it. Is there any way to get on a later flight without paying more?"
+        },
+        {
+          "action_id": 1,
+          "character": "Airport Staff",
+          "character_id": 3,
+          "action": "Explaining airline policy",
+          "dialogue": "I understand, but our system requires advance booking for last-minute changes. You might have to wait for a new flight or find another way to Orange County."
+        },
+        {
+          "action_id": 2,
+          "character": "Gang",
+          "character_id": 1,
+          "action": "Calling Harrison over to the gate",
+          "dialogue": "Hey, Harrison! Come over here. Henry found a bus route to Sacramento with a connecting flight. It might be a longer trip, but it’s cheaper than waiting here for a last-minute ticket."
+        },
+        {
+          "action_id": 3,
+          "character": "Harrison Wood",
+          "character_id": 0,
+          "action": "Listening to the alternative plan",
+          "dialogue": "A bus to Sacramento? That could work, but it’s going to add hours to the trip. I need to get back to campus as soon as possible."
+        },
+        {
+          "action_id": 4,
+          "character": "Henry",
+          "character_id": 2,
+          "action": "Offering a compromise",
+          "dialogue": "I know it’s not ideal, but it’s the only option without paying a ton more. We can leave tonight and split the cost. It’s better than sitting here and waiting for something that might not happen."
+        },
+        {
+          "action_id": 5,
+          "character": "Harrison Wood",
+          "character_id": 0,
+          "action": "Considering the options",
+          "dialogue": "I just... I wanted to be responsible and make it on time. But I guess I didn’t plan this right. Maybe I should take the bus. I can study on the way."
+        },
+        {
+          "action_id": 6,
+          "character": "Airport Staff",
+          "character_id": 3,
+          "action": "Offering a suggestion",
+          "dialogue": "If you’re open to it, there’s a flight to Las Vegas later this evening. From there, you could take a connecting flight to Orange County. It’s a bit of a detour, but it might be faster than the bus."
+        },
+        {
+          "action_id": 7,
+          "character": "Gang",
+          "character_id": 1,
+          "action": "Reacting to the suggestion",
+          "dialogue": "Wait, Las Vegas? That’s wild. But if it gets you back to class faster, I’m all for it."
+        },
+        {
+          "action_id": 8,
+          "character": "Harrison Wood",
+          "character_id": 0,
+          "action": "Making a decision",
+          "dialogue": "Okay, let’s go with the Las Vegas flight. I need to get back in time for class, and I can’t afford to wait. Thanks for the help, everyone."
+        },
+        {
+          "action_id": 9,
+          "character": "Henry",
+          "character_id": 2,
+          "action": "Helping with logistics",
+          "dialogue": "I’ll help you book the flight and figure out the rest. Don’t worry, we’ll make it work."
+        }
+      ],
+      "plot": "Harrison is stranded at Reno Airport after his flight home is canceled. He argues with airport staff about last-minute options but is met with resistance. His friends Gang and Henry suggest alternative plans, including a bus to Sacramento and a detour via Las Vegas. Harrison weighs his options and decides to take the Las Vegas flight to ensure he returns to school on time. The group works together to adjust their plans.",
+      "social_purpose": "Show how Harrison’s values of responsibility and time management clash with his anxiety and the need to compromise in a group setting. Highlight the dynamics of group decision-making and the role of each character’s personality in shaping the outcome.",
+      "chunk": {
+        "id": 0,
+        "text": "Harrison Wood is stranded at Reno Airport after his flight home is canceled. He argues with airport staff about last-minute options but is met with resistance. His friends Gang and Henry suggest alternative plans, including a bus to Sacramento and a detour via Las Vegas. Harrison weighs his options and decides to take the Las Vegas flight to ensure he returns to school on time. The group works together to adjust their plans."
+      },
+      "npcs": [
+        1,
+        2,
+        3
+      ]
+    }
+  ]
+}

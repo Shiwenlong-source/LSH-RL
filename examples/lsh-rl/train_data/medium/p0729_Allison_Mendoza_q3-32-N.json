@@ -1,0 +1,88 @@
+{
+  "title": "A Quiet Stand at the Family Gathering",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Family Reunion at the Church Hall",
+      "time": "Afternoon on a Saturday",
+      "location": "St. Michael's Church Community Center",
+      "description": "The Mendoza family is gathered for a reunion at the church hall, a space that typically amplifies the conservative values of the group. The room is filled with the sounds of laughter, clinking glasses, and the occasional clatter of dishes. A banner reading 'Mendoza Family Reunion' hangs over the entrance, and a small stage is set up for a performance later that evening. In the corner, Allison Mendoza stands quietly, her posture firm and her expression calm but watchful. Zoe, her cousin and the church's youth minister, is at the center of a small group, speaking with authority. Hong, an older cousin and a quiet observer, sits at a table nearby, sipping tea and watching the interactions unfold.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Allison Mendoza",
+          "gender": "27-year-old woman, lesbian",
+          "description": "Lead singer of a band, confident and determined, with a quiet but strong presence.; 27-year-old woman, lesbian, 24 years old; Occupation: Lead singer of a band; Personality: Strong, Rational, Determined, Vigilant; Values: Self-esteem, Honesty, Dignity; Interests: Personal autonomy, Family reconciliation, Self-expression; Experiences: Conflict with family due to faith differences, Being scrutinized in public, Standing up for respect",
+          "position": "Corner of the room, near the entrance",
+          "states": "Calm, alert, focused on Zoe",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Zoe Mendoza",
+          "gender": "29-year-old woman, religious leader",
+          "description": "Charismatic and well-respected within the family, but often rigid in her beliefs; Female; Age: 29; Occupation: Youth Minister at St. Michael's Church; Personality: Devout, authoritative, empathetic; Values: Faith, tradition, moral integrity; Interests: Organizing community events, mentoring young people, theological studies; Experiences: Led a successful youth outreach program, navigated conflicts between family members and church doctrine, grew up in a large, devout Catholic family.",
+          "position": "Center of a group, near the stage",
+          "states": "Engaged in conversation, slightly hesitant",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Hong Mendoza",
+          "gender": "35-year-old man",
+          "description": "An older cousin who has always been a quiet supporter of Allison, despite his own beliefs; Male; Age: 45; Occupation: High school history teacher; Personality: Observant, subtly supportive, introspective; Values: Family loyalty, intellectual honesty, quiet integrity; Interests: Reading historical biographies, gardening, listening to classical music; Experiences: Grew up in a strict religious household, later became more secular but remained close to family traditions, supported Allison through her struggles with the family's conservative views.",
+          "position": "At a table near the back",
+          "states": "Observant, subtly supportive",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Allison Mendoza",
+          "character_id": 0,
+          "action": "Approaching Zoe",
+          "dialogue": "Allison walks over to Zoe, her steps deliberate but unhurried. 'Zoe, can we talk for a moment?'"
+        },
+        {
+          "action_id": 1,
+          "character": "Zoe Mendoza",
+          "character_id": 1,
+          "action": "Reacting to Allison's request",
+          "dialogue": "Zoe stops mid-sentence and turns to look at Allison, her eyes narrowing slightly before she nods. 'Of course, Allison.'"
+        },
+        {
+          "action_id": 2,
+          "character": "Allison Mendoza",
+          "character_id": 0,
+          "action": "Making her point clearly",
+          "dialogue": "Allison speaks with a calm but firm voice. 'I appreciate that you're trying, but I want you to call me by my name, not by what you think I should be.'"
+        },
+        {
+          "action_id": 3,
+          "character": "Zoe Mendoza",
+          "character_id": 1,
+          "action": "Hesitating, then responding",
+          "dialogue": "Zoe looks away for a moment, then back at Allison. 'I... I understand. I'll try to do better.'"
+        },
+        {
+          "action_id": 4,
+          "character": "Hong Mendoza",
+          "character_id": 2,
+          "action": "Offering subtle support",
+          "dialogue": "Hong raises his cup of tea slightly in a silent gesture of encouragement, his eyes meeting Allison's briefly before returning to the group."
+        }
+      ],
+      "plot": "Allison approaches Zoe during the family reunion and firmly requests to be addressed by her true identity. Her calm and rational tone reflects her growing confidence, while Zoe's hesitation and eventual nod hint at a shift in their dynamic. Hong's quiet support underscores the subtle but real change in the atmosphere, as the family begins to see Allison in a new light.",
+      "social_purpose": "To showcase Allison's determination and self-esteem, while also highlighting the potential for understanding and reconciliation within the family.",
+      "chunk": {
+        "id": 0,
+        "text": "Allison Mendoza had always felt like a guest at her own family gatherings, especially at St. Michael's Church where Zoe, her cousin and the youth minister, often held sway. But this time was different. She had spent the last few months building her confidence, both in her music and in her identity. As the afternoon sun filtered through the stained glass windows, casting colorful patterns on the floor, she made her way to Zoe, who was deep in conversation with the other family elders. 'Zoe, can we talk for a moment?' she asked, her voice steady. Zoe turned, surprised but composed. 'Of course, Allison.' The two moved to a quieter corner, and Hong, watching from his seat, felt a flicker of hope. 'I want you to call me by my name, not by what you think I should be,' Allison said, her eyes unwavering. Zoe looked away, then back, nodding slowly. 'I understand. I'll try to do better.' Hong raised his cup of tea, a silent gesture of support, while the rest of the family noticed the shift in the air, though none spoke of it."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "title": "The Final Meeting",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Community meeting to discuss project responsibilities after Trevor's departure",
+      "time": "Afternoon, 3 PM",
+      "location": "Community Center Conference Room",
+      "description": "The room is filled with a mix of concern and determination as the team prepares to redistribute responsibilities. Trevor, seated at the head of the table, looks visibly conflicted.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Trevor Garcia",
+          "gender": "Male",
+          "description": "A 25-year-old doctor who has been a key leader in the community. He is sincere, thoughtful, and feels guilty about his decision to step back.; Male, Former Active Member, 25 years old; Occupation: Doctor; Personality: Sincere, Guilty, Firm, Thoughtful; Values: Sense of Responsibility, Honesty, Balance; Interests: Community Participation, Team Collaboration, Problem Solving; Experiences: Leading Community Projects, Managing Team Responsibilities, Making Difficult Decisions",
+          "position": "Former Active Member",
+          "states": "Guilt, Determination, Thoughtfulness",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Bob Johnson",
+          "gender": "Male",
+          "description": "A long-time community organizer and Trevor's closest collaborator; Male; Age: 52; Occupation: Community Development Coordinator; Personality: Resilient, Analytical, Empathetic; Values: Accountability, Equity, Collective Growth; Interests: Urban gardening, Public policy debates, Mentoring youth; Experiences: Led successful neighborhood revitalization projects, Navigated funding crises in nonprofit work, Mediated conflicts between community stakeholders",
+          "position": "Community Organizer",
+          "states": "Concern, Frustration, Supportive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Anna Lee",
+          "gender": "Female",
+          "description": "A passionate volunteer who has taken on various roles; Female; Age: 28; Occupation: Social Worker; Personality: Empathetic, Analytical, Assertive; Values: Community, Integrity, Growth; Interests: Mental health advocacy, Urban gardening; Experiences: Organized a neighborhood support group during a local crisis, Led a volunteer team in a youth outreach program",
+          "position": "Volunteer Coordinator",
+          "states": "Empathy, Anxiety, Understanding",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Trevor Garcia",
+          "character_id": 0,
+          "action": "Expresses his decision to step back and his reasons for it.",
+          "dialogue": "I know this isn't easy for any of us, but I need to focus on my personal life for a while. I'm sorry if this disrupts the team, but I believe it's the right choice for now."
+        },
+        {
+          "action_id": 1,
+          "character": "Bob Johnson",
+          "character_id": 1,
+          "action": "Asks about the timeline and impact of his decision.",
+          "dialogue": "Trevor, how long are you planning to be away? And do you think the team can handle the project without you?"
+        },
+        {
+          "action_id": 2,
+          "character": "Trevor Garcia",
+          "character_id": 0,
+          "action": "Explains his timeline and offers to help with the transition.",
+          "dialogue": "I'm not sure how long, but I'll do everything I can to make the transition smooth. I've worked on these projects before, and I know how important they are to all of us."
+        },
+        {
+          "action_id": 3,
+          "character": "Anna Lee",
+          "character_id": 2,
+          "action": "Expresses understanding and offers to assist in redistributing tasks.",
+          "dialogue": "We all have to balance our lives at some point. I'll take the lead on the volunteer side and help redistribute the work. Let's make sure the community keeps moving forward."
+        },
+        {
+          "action_id": 4,
+          "character": "Trevor Garcia",
+          "character_id": 0,
+          "action": "Shows appreciation for their understanding and support.",
+          "dialogue": "Thank you, Anna. That means a lot. I know you can handle it, and I'll be here if needed."
+        }
+      ],
+      "plot": "Trevor announces his temporary withdrawal from the community to focus on personal responsibilities, sparking a discussion on how to redistribute his tasks. Bob and Anna express concern but also offer support, showing the team's cohesion and adaptability.",
+      "social_purpose": "To demonstrate how personal decisions can impact group dynamics and how honesty and a sense of responsibility can maintain trust and collaboration.",
+      "chunk": {
+        "id": 0,
+        "text": "Trevor sat at the head of the conference table, his hands folded in front of him. The room was quiet, everyone waiting for him to speak. 'I need to step back for a while,' he said, his voice steady but tinged with guilt. Bob leaned forward, his brow furrowed. 'How long?' he asked. Anna, who had been quietly listening, nodded in understanding. 'We'll handle it,' she said, her tone calm but firm. Trevor looked at them, feeling the weight of his decision, but also the reassurance of their support."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

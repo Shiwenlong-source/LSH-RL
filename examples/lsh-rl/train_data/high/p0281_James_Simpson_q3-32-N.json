@@ -1,0 +1,102 @@
+{
+  "title": "The Crossroads of Faith and Friendship",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "May Day Party Invitation",
+      "time": "Evening",
+      "location": "Outside a neighborhood house",
+      "description": "James Simpson stands on the porch of a house where a May Day party is in full swing. He listens to the laughter and music inside, but his grip on the Bible in his hands tightens as he wrestles with his decision. Tao and Lucy, his close friends, call out to him from within, eager for him to join the fun. The rain begins to fall lightly, adding to the tension in the air.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "James Simpson",
+          "gender": "Male",
+          "description": "A 25-year-old man who recently converted to Christianity and is now trying to balance his faith with his old social life. He is thoughtful, conflicted, and determined to make the right choice.; Male, Recent Convert, 25 years old; Occupation: Mover; Personality: Conflicted, Thoughtful, Determined; Values: Faith, Friendship, Self-discipline; Interests: Spirituality, Social Gatherings, Music; Experiences: Recent Religious Conversion, Attending Social Events, Struggling with Personal Change",
+          "position": "On the porch",
+          "states": "Hesitant, gripping a Bible, conflicted",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Tao",
+          "gender": "Male",
+          "description": "Tao is James's longtime friend, a laid-back and outgoing guy who values social gatherings and music; Male; Age: 28; Occupation: Music teacher and part-time event planner; Personality: Charismatic, empathetic, easygoing; Values: Friendship, joy in life, community; Interests: Hosting parties, playing the guitar, local festivals; Experiences: Organized neighborhood events for years, helped James through tough times in college, recently attended a spiritual retreat out of curiosity.",
+          "position": "Inside the house",
+          "states": "Warm, inviting, concerned",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Lucy",
+          "gender": "Female",
+          "description": "James's other close friend, a thoughtful and empathetic person who respects his choice but is worried about the distance it might create between them; Female; Age: 22; Occupation: Youth counselor at a local community center; Personality: Compassionate, patient, introspective; Values: Loyalty, personal integrity, emotional connection; Interests: Reading literary fiction, journaling, attending local music events; Experiences: Navigated a period of personal doubt in her early twenties, helped several teens through difficult life transitions, has a close-knit group of friends who value deep conversations and mutual support.",
+          "position": "Inside the house",
+          "states": "Supportive, understanding, hopeful",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Tao",
+          "character_id": 1,
+          "action": "Calls out to James from inside the house",
+          "dialogue": "Hey, James! Come on in, man. It's your favorite song playing!"
+        },
+        {
+          "action_id": 1,
+          "character": "Lucy",
+          "character_id": 2,
+          "action": "Waves at James from the window",
+          "dialogue": "We miss you, James! Don't let anything hold you back from having fun."
+        },
+        {
+          "action_id": 2,
+          "character": "James Simpson",
+          "character_id": 0,
+          "action": "Looks at the Bible in his hand and then at the house",
+          "dialogue": "I just... I don't know if I can do this anymore."
+        },
+        {
+          "action_id": 3,
+          "character": "James Simpson",
+          "character_id": 0,
+          "action": "Steps back from the porch and raises his Bible slightly",
+          "dialogue": "I need to follow what's right for me now."
+        },
+        {
+          "action_id": 4,
+          "character": "Tao",
+          "character_id": 1,
+          "action": "Shouts out in surprise",
+          "dialogue": "Wait, you're not coming in?"
+        },
+        {
+          "action_id": 5,
+          "character": "Lucy",
+          "character_id": 2,
+          "action": "Looks at Tao and then back at James with a soft expression",
+          "dialogue": "Maybe he's just not ready yet. Let's give him space."
+        },
+        {
+          "action_id": 6,
+          "character": "James Simpson",
+          "character_id": 0,
+          "action": "Turns around and walks away from the house",
+          "dialogue": "I'm sorry, guys. I can't."
+        }
+      ],
+      "plot": "James is invited to a May Day party by his friends Tao and Lucy but feels torn between his new commitment to faith and his desire to remain part of their social circle. His decision to leave highlights his internal struggle and determination to honor his values.",
+      "social_purpose": "To explore the tension between personal values (faith) and social relationships (friendship), and to show how a protagonist's experiences and personality influence their decisions in public settings.",
+      "chunk": {
+        "id": 0,
+        "text": "The porch light flickered as James stood there, caught between the warmth of the house and the cold drizzle of the evening. Inside, Tao's voice rang out with laughter, and Lucy's smile was visible through the window. James looked at the Bible in his hand, then at the door, and finally stepped back, his decision made."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

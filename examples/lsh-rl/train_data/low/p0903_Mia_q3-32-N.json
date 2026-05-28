@@ -1,0 +1,95 @@
+{
+  "title": "A Coffee Break Decision",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Mia shares her recent career decision with her colleagues Maggie and Lucy during a coffee break.",
+      "time": "10:30 AM",
+      "location": "Company lounge",
+      "description": "Mia sits at a small table in the company lounge with her colleagues Maggie and Lucy. The atmosphere is relaxed, and the hum of casual conversation and the aroma of coffee fill the space. Mia is visibly composed but shows a hint of nervousness as she prepares to share her thoughts.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Mia",
+          "gender": "Female",
+          "description": "A mid-career professional with a calm and thoughtful demeanor, preparing to share a significant career decision.; Female, Mid-career professional, 38 years old; Occupation: Mid-level Company Employee; Personality: Calm, Determined, Thoughtful; Values: Support, Community, Career development; Interests: Career growth, Spiritual reflection, Colleague relationships; Experiences: Considering a new position, Receiving colleague support, Participating in prayer meetings",
+          "position": "Mid-level Company Employee",
+          "states": "Determined, apprehensive, seeking support",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Maggie",
+          "gender": "Female",
+          "description": "A supportive and empathetic colleague who values community and career development, often offering encouragement to others; Female; Age: 34; Occupation: Human Resources Specialist; Personality: Compassionate, patient, observant; Values: Professional growth, teamwork, work-life balance; Interests: Networking events, mindfulness practices, mentoring; Experiences: Organized a successful internal mentorship program, helped several colleagues transition to new roles within the company, navigated a high-pressure merger integration process.",
+          "position": "Senior Project Manager",
+          "states": "Encouraging, attentive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Lucy",
+          "gender": "Female",
+          "description": "A pragmatic and insightful colleague who enjoys deep conversations about career growth and personal reflection; Female; Age: 32; Occupation: Senior HR Consultant; Personality: Analytical, empathetic, observant; Values: Professional integrity, lifelong learning, work-life balance; Interests: Career coaching, journaling, minimalist lifestyle design; Experiences: Led a successful company-wide mentorship program, transitioned from a corporate role to HR consulting for greater impact, recently mentored a junior colleague through a career crossroads.",
+          "position": "Marketing Coordinator",
+          "states": "Curious, thoughtful",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Mia",
+          "character_id": 0,
+          "action": "Initiates the conversation",
+          "dialogue": "I've been thinking a lot about my next step, and I wanted to share something with you both. I've received an offer for a new position, and I'm trying to decide whether to take it."
+        },
+        {
+          "action_id": 1,
+          "character": "Maggie",
+          "character_id": 1,
+          "action": "Reacts with support",
+          "dialogue": "That sounds like a big opportunity, Mia. I know it's a lot to consider, but I'm here to help if you need anything."
+        },
+        {
+          "action_id": 2,
+          "character": "Lucy",
+          "character_id": 2,
+          "action": "Asks a thoughtful question",
+          "dialogue": "What are the main things you're weighing right now? I mean, I know you value growth and community, so what does this new role offer in those areas?"
+        },
+        {
+          "action_id": 3,
+          "character": "Mia",
+          "character_id": 0,
+          "action": "Shares her concerns and values",
+          "dialogue": "The new role has a higher salary and more responsibility, which aligns with my career goals. But I'm also worried about how it might affect my work-life balance and the team here. I've been praying about it and wanted to see what you two think."
+        },
+        {
+          "action_id": 4,
+          "character": "Maggie",
+          "character_id": 1,
+          "action": "Offers perspective",
+          "dialogue": "It's important to think about how this fits into your long-term vision. If it helps, we can even pray for you together if you'd like."
+        },
+        {
+          "action_id": 5,
+          "character": "Lucy",
+          "character_id": 2,
+          "action": "Provides encouragement",
+          "dialogue": "Whatever you decide, just know that this team supports you. You've always been thoughtful about your choices, and I'm sure this one will be no different."
+        }
+      ],
+      "plot": "Mia opens up to her colleagues Maggie and Lucy about a new job opportunity, seeking their advice and support. The conversation unfolds naturally, highlighting her thoughtful and determined nature, as well as the strong sense of community and mutual support among the three women.",
+      "social_purpose": "To demonstrate how Mia's values of support, community, and career development influence her interactions and how her colleagues respond with empathy and encouragement.",
+      "chunk": {
+        "id": 0,
+        "text": "Mia, Maggie, and Lucy shared a meaningful coffee break conversation in which Mia revealed her career decision and received support from her colleagues."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

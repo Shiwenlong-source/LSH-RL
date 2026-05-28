@@ -1,0 +1,88 @@
+{
+  "title": "Waiting Room Tensions",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Family members waiting for a surgery update",
+      "time": "Afternoon",
+      "location": "Hospital waiting room",
+      "description": "Arthur Green sits on the edge of a hospital waiting room bench, staring at his phone, while his mother Amy and aunt Lora wait anxiously for news about Mike's surgery. The room is quiet except for the occasional beeping of hospital equipment and the murmurs of other families. Arthur's avoidance of eye contact and reluctance to speak are evident.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Arthur Green",
+          "gender": "15-year-old male, 16 years old",
+          "description": "Arthur is a conflicted and introverted teenager, visibly uncomfortable in the hospital setting. He keeps to himself, scrolling through his phone, and avoids engaging in the conversation.; 15-year-old male, 16 years old; Occupation: Middle school student; Personality: Conflicted, Introverted, Emotional; Values: Independence, Family, Comfort; Interests: Technology, Privacy, Conflict avoidance; Experiences: Family conflict, Hospital anxiety, Emotional suppression, Peer pressure, Family expectations",
+          "position": "On the bench, near the window",
+          "states": "Anxious, withdrawn, conflicted",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Amy Green",
+          "gender": "Female",
+          "description": "Amy Green; Female; Age: 43; Occupation: School nurse; Personality: Compassionate, empathetic, resilient; Values: Family, health and well-being, emotional support; Interests: Reading self-help books, gardening, baking for loved ones; Experiences: Cared for her husband during a long illness, volunteered in community mental health programs, recently faced a family medical emergency.",
+          "position": "Sitting next to Arthur",
+          "states": "Caring, concerned, patient",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Lora Green",
+          "gender": "Female",
+          "description": "Lora Green; Female; Age: 53; Occupation: School Nurse; Personality: Empathetic, impatient, warm; Values: Family unity, proactive care; Interests: Gardening, community volunteering; Experiences: Lost her brother in a preventable accident due to delayed medical attention, frequently mediates family conflicts due to her nurturing nature.",
+          "position": "Standing by the information desk",
+          "states": "Frustrated, caring, assertive",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Amy Green",
+          "character_id": 1,
+          "action": "Tries to engage Arthur",
+          "dialogue": "Arthur, maybe you should try to talk to your grandfather before they take him in. It might help you both feel better."
+        },
+        {
+          "action_id": 1,
+          "character": "Arthur Green",
+          "character_id": 0,
+          "action": "Avoids eye contact and responds minimally",
+          "dialogue": "I don’t really want to. I just need to be alone for a bit."
+        },
+        {
+          "action_id": 2,
+          "character": "Lora Green",
+          "character_id": 2,
+          "action": "Expresses concern and reproach",
+          "dialogue": "Arthur, this is your grandfather we're talking about. He needs support from all of us, not just silence."
+        },
+        {
+          "action_id": 3,
+          "character": "Arthur Green",
+          "character_id": 0,
+          "action": "Deflects the pressure",
+          "dialogue": "I know, but I can't deal with this right now. I just need my space."
+        },
+        {
+          "action_id": 4,
+          "character": "Amy Green",
+          "character_id": 1,
+          "action": "Attempts to reassure Arthur",
+          "dialogue": "We all need space, but being here is important. We're a family, Arthur. You don’t have to face everything alone."
+        }
+      ],
+      "plot": "Arthur's resistance to the hospital and his emotional avoidance are tested as his mother and aunt try to involve him in supporting his grandfather before surgery. Their attempts to connect with him highlight the tension between his need for independence and family obligations.",
+      "social_purpose": "This interaction reveals Arthur's emotional suppression, conflict avoidance, and his struggle between family values and personal comfort. It also explores the pressure from family expectations and the generational differences in coping with fear and anxiety.",
+      "chunk": {
+        "id": 0,
+        "text": "Arthur sat on the bench, fingers moving quickly over his phone screen as if it could shield him from the reality around him. His mother, Amy, gently touched his shoulder, trying to draw him into the conversation. 'Arthur, maybe you should try to talk to your grandfather before they take him in. It might help you both feel better.' Arthur flinched slightly, his voice low and distant. 'I don’t really want to. I just need to be alone for a bit.' Lora, overhearing, turned from the information desk with a sigh. 'Arthur, this is your grandfather we're talking about. He needs support from all of us, not just silence.' Arthur didn’t look up, but his jaw tightened. 'I know, but I can't deal with this right now. I just need my space.' Amy, sensing the tension, tried to mediate. 'We all need space, but being here is important. We're a family, Arthur. You don’t have to face everything alone.' Arthur didn’t respond, but the silence between them spoke louder than words."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

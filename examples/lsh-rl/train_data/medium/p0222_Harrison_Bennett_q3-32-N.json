@@ -1,0 +1,95 @@
+{
+  "title": "Lunch Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Harrison debates his lunch choice with friends at the cafeteria entrance.",
+      "time": "12:15 PM",
+      "location": "College Cafeteria Entrance",
+      "description": "Harrison stands at the entrance of the campus cafeteria, staring at the Subway menu. Nana and David approach from the adjacent hallway, each with their own lunch in hand. Nana, a nutrition major, is energetic and health-focused, while David, a laid-back engineering student, prioritizes convenience and affordability.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Harrison Bennett",
+          "gender": "22-year-old male",
+          "description": "A thoughtful and pragmatic college student, Harrison is trying to balance his health goals with financial constraints. He is hesitant and often influenced by his friends.; 22-year-old male, College Student, 24 years old; Occupation: College Student; Personality: Thoughtful, Pragmatic, Hesitant; Values: Health, Economy, Friendship; Interests: Healthy Eating, Financial Management, Social Interaction; Experiences: Academic Pressure, Financial Constraints, Peer Influence, Daily Decision Making, Student Life",
+          "position": "Near the Subway counter",
+          "states": "Hesitant, conflicted, attentive",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Nana Okoro",
+          "gender": "21-year-old female",
+          "description": "A health-conscious and proactive nutrition student who advocates for balanced meals and mindful eating; Female; Age: 21; Occupation: Nutrition major; Personality: Energetic, encouraging, assertive; Values: Wellness, education, community; Interests: Meal prepping, fitness, mentoring; Experiences: Volunteered at a campus wellness fair, interned at a local organic food co-op, led a peer-led healthy eating workshop.",
+          "position": "Standing next to Harrison",
+          "states": "Energetic, encouraging, assertive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "David Kim",
+          "gender": "23-year-old male",
+          "description": "A pragmatic and easygoing engineering student who values convenience and budget-friendly options; Male; Age: 23; Occupation: Undergraduate studying mechanical engineering; Personality: Laid-back, persuasive, adaptable; Values: Practicality, affordability, efficiency; Interests: Fixing gadgets, budget meal planning, weekend gaming sessions; Experiences: Worked part-time at a campus tech support desk, survived multiple all-nighters during engineering finals week, frequently influences friends to join him at fast-casual lunch spots.",
+          "position": "To the left of Harrison",
+          "states": "Relaxed, casual, persuasive",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Nana Okoro",
+          "character_id": 1,
+          "action": "Suggests a healthy sandwich",
+          "dialogue": "Hey Harrison, I know the Subway is tempting, but have you seen the veggie sandwich deal? It’s only $7 and full of fiber and protein. You’ll feel so much better after class."
+        },
+        {
+          "action_id": 1,
+          "character": "David Kim",
+          "character_id": 2,
+          "action": "Mentions the food truck",
+          "dialogue": "Don’t listen to her, man. The food truck down the street has that same meal for like $4. I had it last week and it was solid. You can save money and still eat."
+        },
+        {
+          "action_id": 2,
+          "character": "Harrison Bennett",
+          "character_id": 0,
+          "action": "Expresses hesitation",
+          "dialogue": "I just don’t know. I want to eat healthy, but I also can’t afford to blow my budget every day. It’s like I’m stuck between the two."
+        },
+        {
+          "action_id": 3,
+          "character": "Nana Okoro",
+          "character_id": 1,
+          "action": "Encourages thoughtful decision making",
+          "dialogue": "I get it, but think of it as an investment in your energy and focus. If you can’t afford the Subway, maybe we can split a larger sandwich and share the cost."
+        },
+        {
+          "action_id": 4,
+          "character": "David Kim",
+          "character_id": 2,
+          "action": "Offers a compromise",
+          "dialogue": "Or we could hit the food truck and then grab a smoothie from the health bar later. That way you get the best of both worlds."
+        },
+        {
+          "action_id": 5,
+          "character": "Harrison Bennett",
+          "character_id": 0,
+          "action": "Considers both options",
+          "dialogue": "Hmm, maybe that’s the way to go. I don’t want to seem cheap, but I also don’t want to regret spending a bunch on something I don’t need."
+        }
+      ],
+      "plot": "Harrison is caught in a decision between health and economy for his lunch. His friends Nana and David, with differing priorities, offer their suggestions. The conversation reveals Harrison’s inner conflict and the subtle tension in their differing values. Ultimately, he seeks a compromise that aligns with his interests and social dynamics.",
+      "social_purpose": "This scenario highlights Harrison’s values of health and economy while showcasing his personality traits of being thoughtful, pragmatic, and hesitant. The interaction with Nana and David illustrates the influence of friendship and peer dynamics in decision-making within the context of student life and financial constraints.",
+      "chunk": {
+        "id": 0,
+        "text": "Harrison stands at the entrance of the campus cafeteria, staring at the Subway menu. Nana and David approach from the hallway, each with their lunch. Nana suggests a healthy veggie sandwich, while David recalls the food truck’s affordable meal. Harrison hesitates, weighing his options. Nana offers a solution of splitting a sandwich, and David suggests a food truck and smoothie combo. Harrison is left considering the best path forward, aware of how his choice might reflect his values to his friends."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

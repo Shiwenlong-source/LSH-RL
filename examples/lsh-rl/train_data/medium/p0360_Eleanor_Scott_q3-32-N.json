@@ -1,0 +1,91 @@
+{
+  "title": "A New Beginning",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Finalizing a divorce in court",
+      "time": "Morning",
+      "location": "Local courthouse waiting room",
+      "description": "Eleanor Scott sits in the waiting room of the courthouse, clutching a worn notebook in her hands. Her mother, Tara, sits beside her, offering quiet support, while her best friend, Angel, texts on her phone, trying to keep the mood light. A court clerk, Ms. Delaney, approaches them with a clipboard and a calm demeanor.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Eleanor Scott",
+          "gender": "Female",
+          "description": "A 25-year-old teacher with a thoughtful and emotionally expressive personality, preparing to finalize her divorce. She is resilient and determined but still holds onto fear and uncertainty.; 25-year-old female, entering a new stage of life, 25 years old; Occupation: Young teacher; Personality: Resilient, Determined, Thoughtful, Emotionally expressive; Values: Independence, Self-esteem, Family support; Interests: Personal growth, Emotional healing, New beginnings; Experiences: Recently divorced, Emotional recovery, Pursuing independence, Supportive relationships, Legal proceedings",
+          "position": "Seated at the front of the waiting room",
+          "states": "Nervous but composed, holding a notebook",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Tara Scott",
+          "gender": "Female",
+          "description": "Eleanor's mother, a proud and supportive woman in her late 40s; Female; Age: 48; Occupation: School Counselor; Personality: Empathetic, patient, nurturing; Values: Family, emotional well-being, loyalty; Interests: Reading self-help books, gardening, baking for family gatherings; Experiences: Navigated a difficult divorce years ago, supported multiple family members through personal crises, volunteered in community mental health programs.",
+          "position": "Sitting next to Eleanor",
+          "states": "Comforting and reassuring",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Angel",
+          "gender": "Female",
+          "description": "Angel is Eleanor's best friend, a 26-year-old graphic designer who is optimistic and emotionally supportive; Female; Age: 26; Occupation: Freelance graphic designer; Personality: cheerful, empathetic, witty; Values: loyalty, emotional well-being, creativity; Interests: interior design, social media trends, indie music; Experiences: helped a close friend through a difficult breakup, volunteered with a local mental health awareness group, designed logos for small businesses in the community.",
+          "position": "Sitting across from Eleanor, on her phone",
+          "states": "Trying to lighten the mood",
+          "is_npc": true
+        },
+        {
+          "id": 3,
+          "name": "Ms. Delaney",
+          "gender": "Female",
+          "description": "A 30-year-old court clerk who is professional and empathetic; Female; Age: 30; Occupation: Court Clerk; Personality: Calm, organized, patient; Values: Fairness, compassion, efficiency; Interests: Reading legal journals, gardening, classical music; Experiences: Assisted numerous families through emotionally difficult legal proceedings, previously worked as a legal assistant in a family law firm, volunteers at a local domestic violence support center.",
+          "position": "Standing near the front of the waiting room",
+          "states": "Calm and organized",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Eleanor Scott",
+          "character_id": 0,
+          "action": "Looks up from her notebook and takes a deep breath",
+          "dialogue": "I just want this to be over. I feel like I’m finally ready to move on, but I’m scared it’s not the right decision."
+        },
+        {
+          "action_id": 1,
+          "character": "Tara Scott",
+          "character_id": 1,
+          "action": "Places a hand on Eleanor's shoulder",
+          "dialogue": "You're doing this for your independence, sweetheart. That makes you strong. Whatever happens, I'm here for you."
+        },
+        {
+          "action_id": 2,
+          "character": "Angel",
+          "character_id": 2,
+          "action": "Looks up from her phone and smiles",
+          "dialogue": "You're not alone in this, Ellie. We've got your back. And this is just the start of your new chapter—remember that."
+        },
+        {
+          "action_id": 3,
+          "character": "Ms. Delaney",
+          "character_id": 3,
+          "action": "Approaches the group and clears her throat",
+          "dialogue": "Ms. Scott? Your case is being called now. If you could follow me to the courtroom, we’ll get this moving along quickly."
+        }
+      ],
+      "plot": "Eleanor is preparing to finalize her divorce in court, supported by her mother and best friend. As the clerk calls her case, she reflects on her journey and the emotional strength it has taken to pursue independence and healing.",
+      "social_purpose": "Eleanor's emotional and personal growth is highlighted through the supportive interactions with her mother and friend, showing the importance of family and friendship in times of change. The shared goal of finalizing the divorce brings these values to the forefront naturally.",
+      "chunk": {
+        "id": 0,
+        "text": "Eleanor stands, her notebook still in hand, as she looks at Tara and Angel. 'Thanks for being here,' she says, her voice soft but resolute. Tara nods, eyes glistening. 'We're proud of you, Eleanor. This is your choice, and it's the right one.' Angel adds, 'You've got this. I know you're ready for something new.' Eleanor smiles, takes a final deep breath, and follows Ms. Delaney into the courtroom, ready to step into the next chapter of her life."
+      },
+      "npcs": [
+        1,
+        2,
+        3
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "title": "A Worshipful Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Attending a non-traditional church service",
+      "time": "Sunday morning",
+      "location": "St. Elias Progressive Church, Kalamazoo",
+      "description": "Caleb Walker, a 24-year-old PhD student visiting Kalamazoo, finds himself in a church that's anything but traditional. The music is experimental, the decorations are eclectic, and the congregation seems to be in a state of spiritual flux. He's there to keep Shana company, who is visibly engaged and curious about the service. Henry, an older man in the back row, watches silently, his expression unreadable. Caleb's laid-back attitude is slowly being tested as he tries to make sense of the experience.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Caleb Walker",
+          "gender": "Male",
+          "description": "A 24-year-old PhD student with a laid-back demeanor and a penchant for humor. He is visibly confused by the church's unconventional style but is trying to be open-minded for Shana's sake.; 28-year-old male, Visitor, 24 years old; Occupation: PhD Student; Personality: Laid-back, Humorous, Curious, Open; Values: Friendship, Openness, Adaptability; Interests: Music, Trying new experiences, Conversation; Experiences: Attending non-traditional religious activities, Traveling to new places, Having casual conversations",
+          "position": "Front row, next to Shana",
+          "states": "Confused, uneasy, trying to adapt",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Shana",
+          "gender": "Female",
+          "description": "Shana is a long-time member of the church, open to new experiences and passionate about spiritual exploration. She is encouraging and empathetic, trying to help Caleb understand and connect with the service. Female; Age: 38; Occupation: Community Counselor; Personality: Compassionate, inquisitive, patient; Values: Inclusion, personal growth, authenticity; Interests: Contemplative art, interfaith dialogue, meditation; Experiences: Participated in a year-long spiritual journey program, helped organize a community outreach initiative for the homeless, attended a retreat focused on non-dogmatic religious practices.",
+          "position": "Front row, center",
+          "states": "Engaged, encouraging, thoughtful",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Henry",
+          "gender": "Male",
+          "description": "An older man in his 60s, Henry is a regular at the church. He is observant, analytical, and has a quiet presence. He seems to be weighing the service's merits and flaws in his mind; Male; Age: 67; Occupation: Retired philosophy professor; Personality: Observant, contemplative, skeptical, patient, reserved; Values: Intellectual honesty, community, tradition; Interests: Theology debates, jazz music, reading historical texts; Experiences: Taught ethics at Western Michigan University for 30 years, attended traditional liturgical services all his life, recently lost his wife and is re-evaluating his faith.",
+          "position": "Back row, right side",
+          "states": "Observant, contemplative, skeptical",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Caleb Walker",
+          "character_id": 0,
+          "action": "Leans toward Shana and whispers",
+          "dialogue": "Okay, I get it's supposed to be different, but I'm not sure I get what's going on. This is like a jazz band in a cathedral. Is that a good thing or a bad thing?"
+        },
+        {
+          "action_id": 1,
+          "character": "Shana",
+          "character_id": 1,
+          "action": "Smiles and replies in a low voice",
+          "dialogue": "It's more about feeling something than following a script. The music is meant to stir emotions and create a personal connection. Give it a chance, Caleb."
+        },
+        {
+          "action_id": 2,
+          "character": "Caleb Walker",
+          "character_id": 0,
+          "action": "Nods, then mutters with a grin",
+          "dialogue": "Alright, I'll stay. But if this turns into a drum circle, I'm out."
+        },
+        {
+          "action_id": 3,
+          "character": "Henry",
+          "character_id": 2,
+          "action": "Looks toward the front and speaks to a fellow congregant",
+          "dialogue": "I used to think tradition was the only way. Now I wonder if we're just trying to replace one form of comfort with another."
+        },
+        {
+          "action_id": 4,
+          "character": "Shana",
+          "character_id": 1,
+          "action": "Notices Henry's comment and responds with a thoughtful tone",
+          "dialogue": "That's a fair point, Henry. But sometimes the journey is more important than the destination. Caleb's here because he's willing to try something new with me."
+        },
+        {
+          "action_id": 5,
+          "character": "Caleb Walker",
+          "character_id": 0,
+          "action": "Listens to Henry and Shana, then turns to Shana with curiosity",
+          "dialogue": "Wait, is this a test of my adaptability or just a really weird Sunday?"
+        }
+      ],
+      "plot": "Caleb's visit to the church with Shana leads to a subtle shift in his perspective as he begins to question his assumptions about tradition and spiritual experience. Henry's quiet reflection and Shana's encouragement create a dynamic that challenges Caleb's laid-back attitude and opens the door for deeper self-reflection.",
+      "social_purpose": "To explore the theme of openness and adaptability in the face of unfamiliar experiences, and to show how shared goals can lead to unexpected personal growth.",
+      "chunk": {
+        "id": 0,
+        "text": "Caleb sat in the front row of St. Elias Progressive Church, trying not to fidget as the band played a mix of ambient noise and what he could only describe as 'spiritual jazz.' He glanced at Shana, who was smiling and swaying slightly to the rhythm. 'So, is this how everyone prays here?' he asked, trying to sound casual. 'It's more about connecting,' she replied. 'The music helps people get into a different headspace.' Caleb raised an eyebrow but said nothing, choosing instead to focus on the lyrics being projected on the wall. The words were poetic, but the delivery felt odd. He looked back at Henry, who was watching the service with a critical eye. 'You okay back there, old man?' Caleb called out with a grin. Henry didn't respond, just gave a small nod. Caleb turned back, unsure if he was being judged or just ignored. The music swelled, and for the first time, he felt something stir in him—something he couldn't quite name."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

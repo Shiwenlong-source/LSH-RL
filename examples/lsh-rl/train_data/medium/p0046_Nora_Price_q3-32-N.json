@@ -1,0 +1,102 @@
+{
+  "title": "The Coffee Shop Confession",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Nora and her friends Bob and Ive meet at a local coffee shop to study for an upcoming exam.",
+      "time": "7:30 PM",
+      "location": "A cozy corner booth in a local coffee shop",
+      "description": "The atmosphere is warm and quiet, with soft jazz music playing in the background. Nora is unusually quiet, fidgeting with her notebook while Bob and Ive chat about their weekend plans. A thick tension hangs in the air as Nora wrestles with the message she sent to Bob earlier that night.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Nora Price",
+          "gender": "Female",
+          "description": "A 21-year-old college student, visibly nervous and distracted.; 21-year-old female college student, 21 years old; Occupation: College student; Personality: Emotional, Sensitive, Caring, Insecure; Values: Friendship, Sincerity, Emotional connection; Interests: Romantic relationships, Self-reflection, Writing; Experiences: Late-night emotional conversations, Unrequited love, Boundaries between friendship and love",
+          "position": "Seated at the corner of the booth, facing the window",
+          "states": "Anxious, self-conscious, emotionally conflicted",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Bob Miller",
+          "gender": "Male",
+          "description": "A 22-year-old college student, calm and focused on studying; Male; Age: 22; Occupation: Psychology major at a local university; Personality: Analytical, patient, and easygoing; Values: Academic integrity, loyalty, and personal growth; Interests: Reading self-help books, hiking, and collecting vintage vinyl records; Experiences: Volunteered at a community mental health center, recently helped a friend through a difficult breakup, and is preparing for his first major internship application.",
+          "position": "Sitting across from Nora, reviewing notes on his laptop",
+          "states": "Engaged, unaware of the tension",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Ive Chen",
+          "gender": "Non-binary",
+          "description": "Nora's roommate, observant and supportive but unobtrusive; Non-binary; Age: 22; Occupation: Psychology student; Personality: Empathetic, introspective, patient; Values: Emotional well-being, authenticity, trust; Interests: Listening to vinyl records, journaling, indie film; Experiences: Volunteered at a mental health outreach program, helped a close friend through a difficult breakup, recently dealt with personal identity exploration.",
+          "position": "Sitting next to Nora, sipping a latte",
+          "states": "Perceptive, quietly concerned",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Ive Chen",
+          "character_id": 2,
+          "action": "Noticing Nora's distraction and asking about it.",
+          "dialogue": "Hey, Nora, you okay? You’ve been kind of quiet tonight."
+        },
+        {
+          "action_id": 1,
+          "character": "Nora Price",
+          "character_id": 0,
+          "action": "Avoiding eye contact and stammering in response.",
+          "dialogue": "Yeah, I’m fine. Just tired, I guess."
+        },
+        {
+          "action_id": 2,
+          "character": "Bob Miller",
+          "character_id": 1,
+          "action": "Looking up from his laptop and offering reassurance.",
+          "dialogue": "You don’t look tired. More like deep in thought. Everything good with you and that guy you mentioned earlier?"
+        },
+        {
+          "action_id": 3,
+          "character": "Nora Price",
+          "character_id": 0,
+          "action": "Forcing a smile while her hands tremble slightly.",
+          "dialogue": "Yeah, we’re just friends. I was thinking about something else. Never mind."
+        },
+        {
+          "action_id": 4,
+          "character": "Ive Chen",
+          "character_id": 2,
+          "action": "Changing the subject to ease the tension.",
+          "dialogue": "Alright, let’s focus on the exam. I think the next chapter is the hardest one."
+        },
+        {
+          "action_id": 5,
+          "character": "Bob Miller",
+          "character_id": 1,
+          "action": "Looking at his phone and smiling slightly.",
+          "dialogue": "Just got a message from Nora. She said she’s ready to talk if I’m free tomorrow."
+        },
+        {
+          "action_id": 6,
+          "character": "Nora Price",
+          "character_id": 0,
+          "action": "Feeling a mix of hope and dread as she watches Bob read the message.",
+          "dialogue": "Oh, right. I just thought it would be nice to catch up more."
+        }
+      ],
+      "plot": "Nora struggles with the emotional weight of her unspoken feelings for Bob as they study together. Though she sent a message to him earlier, she fears his reaction and tries to hide her anxiety. Ive notices her emotional state but chooses not to pry, while Bob remains oblivious to the deeper meaning behind the message.",
+      "social_purpose": "To explore the tension between friendship and romantic feelings, and how individuals navigate emotional vulnerability in social settings.",
+      "chunk": {
+        "id": 0,
+        "text": "Nora’s quiet demeanor and emotional fluctuations are subtly revealed through her interactions with Bob and Ive. The scenario highlights her caring and sensitive nature, as well as her fear of losing a meaningful connection if her feelings are not reciprocated."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

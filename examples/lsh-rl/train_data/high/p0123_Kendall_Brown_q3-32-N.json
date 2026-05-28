@@ -1,0 +1,88 @@
+{
+  "title": "Sunday Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Kendall is considering switching churches with his family",
+      "time": "Sunday morning",
+      "location": "Local coffee shop near the church",
+      "description": "Kendall and his wife Ella are having a quiet conversation over coffee before deciding whether to attend their usual church or try Zoey's suggestion. Zoey, their mutual friend, joins them and encourages Kendall to consider her more laid-back church. The interaction reveals Kendall's internal conflict and the potential impact of this choice on his family.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Kendall Brown",
+          "gender": "Male",
+          "description": "A thoughtful and introspective man in his mid-30s who is married with children and currently a rideshare driver. He is at a crossroads in his faith journey and is struggling with finding a sense of belonging in his current church.; Male / Married with children, 35 years old; Occupation: Rideshare Driver; Personality: Thoughtful, Introspective, Struggling, Yearning; Values: Authenticity, Belonging, Spiritual Growth, Family; Interests: Faith Exploration, Family Life, Self-reflection, Meaningful Relationships; Experiences: Attending traditional church activities, Questioning religious practices, Seeking deeper spiritual fulfillment, Handling family relationships, Exploring alternative faith groups",
+          "position": "At the table with Ella and Zoey",
+          "states": "Torn between his rational skepticism and yearning for authenticity",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Ella Brown",
+          "gender": "Female",
+          "description": "Kendall's supportive wife who is trying to navigate their shared spiritual struggles; Female; Age: 34; Occupation: Elementary school counselor; Personality: Empathetic, patient, introspective; Values: Family unity, spiritual growth, honesty; Interests: Reading theological and self-help books, baking, attending community workshops; Experiences: Grew up in a strict religious household, has explored various faith communities seeking a deeper connection, recently supported Kendall through a period of doubt in their marriage.",
+          "position": "Sitting across from Kendall",
+          "states": "Trying to mediate and support Kendall's decision",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Zoey",
+          "gender": "Female",
+          "description": "Zoey is a close friend of Kendall and Ella who is part of a more relaxed and authentic church. She is encouraging and open-minded, believing that her church could offer a better experience for Kendall. Female; Age: 28; Occupation: Youth Ministry Coordinator; Personality: compassionate, optimistic, empathetic; Values: community, spiritual authenticity, family; Interests: coffee culture, scripture study, outdoor retreats; Experiences: led a small group that helped her through a personal spiritual crisis, organized interfaith youth events to promote understanding, grew up in a traditional church but found a deeper connection in a more modern, inclusive setting.",
+          "position": "Sitting beside Ella",
+          "states": "Advocating for her church and trying to ease Kendall's doubts",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Ella Brown",
+          "character_id": 1,
+          "action": "Suggests a compromise",
+          "dialogue": "Maybe we could try Zoey's church this Sunday and see how it feels? It might be a good change for us as a family."
+        },
+        {
+          "action_id": 1,
+          "character": "Kendall Brown",
+          "character_id": 0,
+          "action": "Expresses his doubts",
+          "dialogue": "I just don't know if I'm ready for another big change. We've been at this church for years, and I'm worried about how the kids will react."
+        },
+        {
+          "action_id": 2,
+          "character": "Zoey",
+          "character_id": 2,
+          "action": "Shares her experience",
+          "dialogue": "I understand your hesitation, Kendall. But my church really feels like a community. It's not about the service being perfect—it's about people being real and helping each other grow."
+        },
+        {
+          "action_id": 3,
+          "character": "Kendall Brown",
+          "character_id": 0,
+          "action": "Considers the idea",
+          "dialogue": "I do miss the feeling of being part of something real. Maybe a trial run is the best way to see if it's right for us."
+        },
+        {
+          "action_id": 4,
+          "character": "Ella Brown",
+          "character_id": 1,
+          "action": "Reassures Kendall",
+          "dialogue": "I'm with you, whatever you decide. But I think we both want a place where we can grow spiritually and feel connected."
+        }
+      ],
+      "plot": "Kendall and Ella are discussing their current dissatisfaction with their traditional church. Zoey, who is part of a more relaxed and authentic faith community, suggests they try her church. Through dialogue, the characters reveal Kendall's inner conflict and the importance of authenticity and family in his decision-making process.",
+      "social_purpose": "To explore the protagonist's values of authenticity and belonging through a realistic conversation with his wife and a friend, while also showing the influence of relationships and shared goals in his spiritual journey.",
+      "chunk": {
+        "id": 0,
+        "text": "Kendall sipped his coffee, eyes scanning the familiar faces around the shop. Ella's hand rested lightly on his, a silent gesture of support. Zoey leaned forward, her voice warm but persuasive. 'You don't have to commit to anything, Kendall. Just come see what it's like. I think you'll feel more at home than you expect.' The thought lingered in his mind—home, belonging, community. He glanced at Ella, who nodded gently, and then at Zoey, whose enthusiasm was genuine. 'Alright,' he said slowly. 'Let's give it a shot.'"
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

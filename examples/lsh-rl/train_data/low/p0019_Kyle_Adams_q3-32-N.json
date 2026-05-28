@@ -1,0 +1,81 @@
+{
+  "title": "Morning Outreach at the Park",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Handing out religious flyers at a park entrance",
+      "time": "7:15 AM",
+      "location": "City Park Entrance, near the main gate",
+      "description": "The park is quiet in the early morning, with a few joggers and dog walkers passing by. Kyle Adams stands at the front of the line, ready to distribute flyers. His companions, Tony and Leo, are visibly hesitant and distracted.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Kyle Adams",
+          "gender": "Male",
+          "description": "25-year-old religious outreach volunteer, calm and determined, leading the team with faith and encouragement.; 25-year-old / Male, 24 years old; Occupation: Religious outreach volunteer; Personality: Determined, Pious, Calm, Supportive; Values: Faith, Community service, Courage; Interests: Religious propagation, Teamwork, Morning activities; Experiences: Organizing community activities, Public speaking, Faith guidance",
+          "position": "Front of the line",
+          "states": "Ready, enthusiastic",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Tony Martinez",
+          "gender": "Male",
+          "description": "26-year-old team member, skeptical about the effectiveness of the outreach, prefers to avoid confrontation; Male; Age: 26; Occupation: Part-time barista and freelance graphic designer; Personality: Introverted, analytical, passive; Values: Stability, honesty, personal freedom; Interests: Coffee culture, reading non-fiction, quiet outdoor walks; Experiences: Brief involvement in a campus ministry group in college, struggled with public speaking in high school, recently started questioning long-held beliefs.",
+          "position": "Behind Kyle",
+          "states": "Nervous, unenthusiastic",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Leo Chen",
+          "gender": "Male",
+          "description": "24-year-old team member, quiet and introspective, feels anxious about being misunderstood or ignored; Male; Age: 24; Occupation: Part-time library assistant; Personality: Thoughtful, observant, empathetic; Values: Respect for others' beliefs, personal integrity; Interests: Reading philosophy, photography, early morning walks; Experiences: Struggled with social anxiety in college, volunteered for a community outreach program last year, often feels out of place in public interactions",
+          "position": "Behind Tony",
+          "states": "Anxious, hesitant",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Kyle Adams",
+          "character_id": 0,
+          "action": "Approaches a jogger with a flyer",
+          "dialogue": "Good morning! We're sharing a message of hope and faith. Would you take a moment to read this?"
+        },
+        {
+          "action_id": 1,
+          "character": "Tony Martinez",
+          "character_id": 1,
+          "action": "Looks around nervously",
+          "dialogue": "I don't know, Kyle. People are in a hurry this early. What if they just ignore us or get annoyed?"
+        },
+        {
+          "action_id": 2,
+          "character": "Leo Chen",
+          "character_id": 2,
+          "action": "Hands a flyer to a woman walking her dog",
+          "dialogue": "Hi, I hope you don't mind. This might be interesting to read if you have a second."
+        },
+        {
+          "action_id": 3,
+          "character": "Kyle Adams",
+          "character_id": 0,
+          "action": "Encourages the team",
+          "dialogue": "It's okay to feel uneasy, but this is about sharing something meaningful. We're not just handing out paper—we're building connections and offering hope."
+        }
+      ],
+      "plot": "Kyle leads the team in their early morning outreach mission, despite Tony and Leo's doubts about the effectiveness of the activity. Kyle's calm and supportive attitude helps the team stay focused, even as they face the risk of being ignored or misunderstood.",
+      "social_purpose": "Demonstrate Kyle's values of faith and community service, while showcasing the team's dynamic and his leadership through encouragement and example.",
+      "chunk": {
+        "id": 0,
+        "text": "Kyle Adams and his team began their day at the park, determined to share their message. While Kyle remained composed and driven, his teammates struggled with self-doubt. Through his steady guidance and belief in their mission, Kyle inspired them to continue, even in the face of uncertainty."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

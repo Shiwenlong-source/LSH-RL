@@ -1,0 +1,112 @@
+{
+  "title": "The Weekend Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Lunchtime conversation",
+      "time": "Thursday at noon",
+      "location": "School cafeteria",
+      "description": "Peter is sitting at a lunch table with his usual group of friends, trying to decide which weekend activity to attend. Jason, his long-time friend, is pushing for the OG activity, while Luna and Amy are excited about the class event. The tension in the air is subtle but growing.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Peter Ward",
+          "gender": "Male",
+          "description": "17-year-old introverted high school student, thoughtful and conscientious, often caught between personal preferences and social expectations.; years old / Male / High School Student, 17 years old; Occupation: High School Student; Personality: Introverted, Thoughtful, Conscientious; Values: Friendship, Belonging, Responsibility; Interests: Social Activities, Decision Making, Interpersonal Interaction; Experiences: Participating in Campus Activities, Balancing Social Responsibilities, Coping with Peer Pressure",
+          "position": "main_table",
+          "states": "hesitant, attentive, conflicted",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Jason Lee",
+          "gender": "Male",
+          "description": "17-year-old extroverted and adventurous student, a close friend of Peter’s who values tradition and fun over everything else; Male; Age: 17; Occupation: High school junior; Personality: enthusiastic, persuasive, slightly impatient; Values: tradition, fun, loyalty; Interests: outdoor adventures, classic movies, school events; Experiences: attended summer camp every year since age 10, organized a successful school spirit week last semester, went on a family road trip across the country when he was 15.",
+          "position": "main_table",
+          "states": "enthusiastic, persuasive, slightly impatient",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Luna Chen",
+          "gender": "Female",
+          "description": "17-year-old social butterfly and class representative, always eager to include others and promote unity among peers; Female; Age: 17; Occupation: High school student; Personality: enthusiastic, compassionate, persuasive; Values: community, fairness, positivity; Interests: organizing school events, making new friends, trying out different hobbies; Experiences: led a successful school-wide charity drive, mediated conflicts between classmates during group projects, planned a memorable class trip to the amusement park.",
+          "position": "main_table",
+          "states": "excited, encouraging, empathetic",
+          "is_npc": true
+        },
+        {
+          "id": 3,
+          "name": "Amy Patel",
+          "gender": "Female",
+          "description": "17-year-old cheerful and supportive friend of Peter, known for being a team player and encouraging group bonding; Female; Age: 17; Occupation: High school student; Personality: optimistic, animated, persuasive; Values: friendship, inclusivity, growth; Interests: group activities, music, social media; Experiences: organized a successful school club event, helped mediate a conflict between friends in the past, recently joined Peter’s group to expand her social circle.",
+          "position": "main_table",
+          "states": "optimistic, animated, persuasive",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Jason Lee",
+          "character_id": 1,
+          "action": "enthusiastically suggests the OG activity",
+          "dialogue": "Hey Peter, you gotta come with us to the OG skate park this weekend. It’s the only time they’re doing that old-school event again, and it’s going to be epic!"
+        },
+        {
+          "action_id": 1,
+          "character": "Luna Chen",
+          "character_id": 2,
+          "action": "invites Peter to the class activity",
+          "dialogue": "I know it’s tempting, but the class is doing a volunteer day at the animal shelter. We really need more people, and it would be so much fun to do it together!"
+        },
+        {
+          "action_id": 2,
+          "character": "Amy Patel",
+          "character_id": 3,
+          "action": "adds to Luna’s invitation",
+          "dialogue": "Yeah, Peter, it’s a great way to bond with everyone and make a difference. Plus, the teacher said it counts as extra credit for the semester!"
+        },
+        {
+          "action_id": 3,
+          "character": "Peter Ward",
+          "character_id": 0,
+          "action": "responds thoughtfully",
+          "dialogue": "I appreciate both of your invites, but I’m just not sure what to do. The skate park is something I’ve wanted to try, but I also don’t want to miss out on the class event..."
+        },
+        {
+          "action_id": 4,
+          "character": "Jason Lee",
+          "character_id": 1,
+          "action": "tries to push Peter’s decision",
+          "dialogue": "Come on, Peter. You always say you want to have more fun and try new things. This is your chance!"
+        },
+        {
+          "action_id": 5,
+          "character": "Luna Chen",
+          "character_id": 2,
+          "action": "acknowledges Peter’s struggle",
+          "dialogue": "I get it, Peter. It’s hard to choose between what you want and what’s good for the group. But if you come with us to the shelter, you’ll feel like you’re part of something bigger."
+        },
+        {
+          "action_id": 6,
+          "character": "Peter Ward",
+          "character_id": 0,
+          "action": "expresses his internal conflict",
+          "dialogue": "It’s not that I don’t want to have fun or help out. I just don’t want to let either of you down. Both mean a lot to me."
+        }
+      ],
+      "plot": "Peter is caught between two social invitations: one from Jason for a high-energy, traditional activity and one from Luna and Amy for a group-oriented, meaningful class event. As he weighs his options, the group’s dynamics subtly shift, revealing the tension between his personal inclinations and the expectations of those around him.",
+      "social_purpose": "To illustrate Peter’s struggle with peer pressure, his value of friendship and belonging, and his conscientious nature as he seeks to make a decision that honors both his interests and his relationships.",
+      "chunk": {
+        "id": 0,
+        "text": "At lunchtime, Peter finds himself at a crossroads as his friends Jason, Luna, and Amy each push for a different weekend plan. Jason’s enthusiasm for the OG skate park event contrasts with Luna and Amy’s excitement about the class volunteer day. Peter’s thoughtful and introverted nature leads him to carefully consider the implications of his choice, while his desire to belong and maintain friendships adds to the complexity of the situation."
+      },
+      "npcs": [
+        1,
+        2,
+        3
+      ]
+    }
+  ]
+}

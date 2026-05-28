@@ -1,0 +1,95 @@
+{
+  "title": "Decision at the Café",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "William and Chen meet with Cici at a local café to discuss William's move to New York and its impact on their relationship.",
+      "time": "Afternoon",
+      "location": "A quiet corner of a cozy local café",
+      "description": "The café is filled with the soft hum of conversation and the aroma of freshly brewed coffee. William, Chen, and Cici are seated at a small table, cups of coffee in front of them. William is leaning forward, eager but hesitant, while Chen sits with his arms crossed, looking more withdrawn. Cici is trying to keep the conversation light but focused.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "William Martin",
+          "gender": "Male",
+          "description": "A 22-year-old college student with a thoughtful and ambitious demeanor. He is excited about his future in New York but is anxious about how it will affect his relationship with Chen.; 22-year-old /Male/College Student, 24 years old; Occupation: College Student; Personality: Thoughtful, Anxious, Ambitious; Values: Commitment, Growth, Balance; Interests: Education, Interpersonal Relationships, Future Planning; Experiences: Academic pursuits, Long-distance relationships, Decision-making under pressure",
+          "position": "Seated at the table, facing Chen",
+          "states": "Anxious, hopeful, conflicted",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Chen",
+          "gender": "Male",
+          "description": "A 24-year-old who is hesitant and emotionally attached to his current life; Male; Age: 24; Occupation: Junior graphic designer; Personality: introspective, loyal, indecisive; Values: stability, personal growth, meaningful connections; Interests: photography, indie music, journaling; Experiences: recently moved out of his parents' home, has been in a long-distance relationship with Cici for a year, is currently navigating a career transition.",
+          "position": "Seated across from William",
+          "states": "Hesitant, contemplative, slightly defensive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Cici",
+          "gender": "Female",
+          "description": "A supportive and empathetic friend who is trying to mediate the conversation; Female; Age: 28; Occupation: Social worker; Personality: Compassionate, patient, tactful; Values: Loyalty, emotional well-being; Interests: Reading self-help books, journaling, community volunteer work; Experiences: Mediated conflicts between friends in the past, recently helped a client through a difficult life transition, has a close-knit group of friends who rely on her for advice.",
+          "position": "Seated next to Chen",
+          "states": "Supportive, observant, trying to keep the peace",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "William Martin",
+          "character_id": 0,
+          "action": "Expresses his excitement about the move to New York.",
+          "dialogue": "I’ve been dreaming about this for so long. New York is the perfect place for me to grow and focus on my studies. But I don’t want to lose what we have."
+        },
+        {
+          "action_id": 1,
+          "character": "Chen",
+          "character_id": 1,
+          "action": "Responds with a mix of concern and hesitation.",
+          "dialogue": "I get it, William. It’s just... I’ve built my life here, and I don’t know if I’m ready to uproot everything for something that might not work out."
+        },
+        {
+          "action_id": 2,
+          "character": "Cici",
+          "character_id": 2,
+          "action": "Attempts to mediate and offer a balanced perspective.",
+          "dialogue": "Maybe it’s not about making a decision right now. You both need time to think about what you really want. William, your future is important. Chen, your comfort and stability matter too."
+        },
+        {
+          "action_id": 3,
+          "character": "William Martin",
+          "character_id": 0,
+          "action": "Shares his internal conflict.",
+          "dialogue": "I want to be ambitious, but I also value our relationship. It feels like I’m choosing between the two things I care most about."
+        },
+        {
+          "action_id": 4,
+          "character": "Chen",
+          "character_id": 1,
+          "action": "Reflects on his feelings and the possibility of change.",
+          "dialogue": "I know I’m scared. But maybe if we talk more and plan how to handle this, it won’t feel so overwhelming."
+        },
+        {
+          "action_id": 5,
+          "character": "Cici",
+          "character_id": 2,
+          "action": "Encourages both to take time and communicate.",
+          "dialogue": "Let’s not rush. Promise me you’ll both take a few days to think this through and talk about your options. I believe in both of you."
+        }
+      ],
+      "plot": "William, Chen, and Cici are having a meaningful conversation about the future of their relationship in light of William's upcoming move to New York. The dialogue reveals their individual values, fears, and hopes as they try to find a balance between personal growth and commitment.",
+      "social_purpose": "To explore the dynamics of a relationship under pressure from life-changing decisions, and to highlight the importance of communication, patience, and understanding.",
+      "chunk": {
+        "id": 0,
+        "text": "William and Chen meet with Cici at a local café to discuss William's move to New York and its impact on their relationship. The conversation reveals their inner conflicts and values as they attempt to find a way forward."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

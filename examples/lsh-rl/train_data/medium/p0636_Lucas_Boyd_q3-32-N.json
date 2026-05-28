@@ -1,0 +1,95 @@
+{
+  "title": "The 96-Hour Challenge",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Coffee Shop Debate",
+      "time": "10:30 AM",
+      "location": "Local Coffee Shop",
+      "description": "Lucas sits at a corner table with his two friends, Jisso and Angel, sipping black coffee. The sun is bright outside, but Lucas feels increasingly sluggish. Jisso is animated and energetic, while Angel sits with a calm, concerned demeanor. The trio is discussing the 96-hour challenge, a popular online endurance test that Lucas is considering joining.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Lucas Boyd",
+          "gender": "male",
+          "description": "A 25-year-old professional esports player, visibly tired but trying to project determination. His eyes are bloodshot, and he keeps adjusting his posture as if to stay alert.; male, early, 25 years old; Occupation: Professional Esports Player; Personality: Determined, Anxious, Self-doubting, Ambitious; Values: Self-improvement, Friendship, Resilience; Interests: Online challenges, Video games, Self-exploration; Experiences: Prolonged sleep deprivation, Peer pressure, Attempting digital detox, Mental health issues, Self-challenge experiences",
+          "position": "Corner table, center",
+          "states": "Tired, conflicted, anxious",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Jisso",
+          "gender": "female",
+          "description": "Jisso is Lucas's close friend and a social media influencer; Female; Age: 24; Occupation: Digital Marketing Specialist and Content Creator; Personality: Energetic, encouraging, persistent; Values: Authenticity, connection, personal growth; Interests: Trendy coffee culture, fitness challenges, storytelling; Experiences: Completed a 72-hour fast for a wellness challenge, launched a viral campaign for a local café, mentored new influencers on content strategy.",
+          "position": "Corner table, left",
+          "states": "Energetic, encouraging, persistent",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Angel",
+          "gender": "male",
+          "description": "Lucas's long-time friend and a fitness coach. He sits quietly, occasionally interjecting with logical concerns and trying to ground Lucas in reality; male; Age: 28; Occupation: Personal Trainer and Nutrition Consultant; Personality: Analytical, empathetic, patient; Values: Health and well-being, honesty, loyalty; Interests: Yoga, reading psychology books, hiking; Experiences: Trained athletes for endurance competitions, helped friends recover from burnout, volunteered at community wellness events.",
+          "position": "Corner table, right",
+          "states": "Calm, concerned, rational",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Jisso",
+          "character_id": 1,
+          "action": "Leans in and speaks passionately",
+          "dialogue": "Lucas, this is your moment! If you can survive 96 hours without sleeping, you’ll be unstoppable in the next tournament. You’ve always been ambitious, so why not prove it now?"
+        },
+        {
+          "action_id": 1,
+          "character": "Lucas Boyd",
+          "character_id": 0,
+          "action": "Fidgets and responds hesitantly",
+          "dialogue": "I know, Jisso, but I’ve already been up for over 30 hours. My brain is fried, and I’m not sure I can push through another 60 hours..."
+        },
+        {
+          "action_id": 2,
+          "character": "Angel",
+          "character_id": 2,
+          "action": "Places a hand on Lucas’s shoulder",
+          "dialogue": "Lucas, I get it. You want to prove yourself, but your health is more important than any online challenge. You’ve had mental health issues before—this could trigger something serious."
+        },
+        {
+          "action_id": 3,
+          "character": "Lucas Boyd",
+          "character_id": 0,
+          "action": "Looks down and sighs",
+          "dialogue": "I just feel like I need to test my limits again. I’ve tried digital detoxes and self-challenges before, but this feels... different. Like it could either break me or make me stronger."
+        },
+        {
+          "action_id": 4,
+          "character": "Jisso",
+          "character_id": 1,
+          "action": "Nods in agreement",
+          "dialogue": "Exactly! You’ve always been about self-improvement, right? This is just another way to grow. And I’ll be there to support you the whole way."
+        },
+        {
+          "action_id": 5,
+          "character": "Angel",
+          "character_id": 2,
+          "action": "Shakes his head",
+          "dialogue": "But at what cost, Lucas? You value friendship, but if you end up hurting yourself, what good is that? You’ve already seen what sleep deprivation can do—don’t ignore it this time."
+        }
+      ],
+      "plot": "Lucas is torn between his desire to prove his resilience and his growing anxiety about the risks of the 96-hour challenge. Jisso’s encouragement contrasts with Angel’s caution, highlighting the internal conflict Lucas faces. As the conversation continues, Lucas must decide whether to accept the challenge, risking his health, or walk away, potentially damaging his self-perception and relationships.",
+      "social_purpose": "To explore how peer pressure and personal values intersect in a high-stakes situation, and how internal struggles manifest in social interactions.",
+      "chunk": {
+        "id": 0,
+        "text": "Lucas Boyd is caught between the opposing views of his friends Jisso and Angel as he weighs the 96-hour challenge. The tension in the air reflects his inner turmoil, as he considers the potential for personal growth against the reality of his fragile mental state."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

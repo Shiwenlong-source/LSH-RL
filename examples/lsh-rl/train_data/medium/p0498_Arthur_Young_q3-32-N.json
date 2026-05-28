@@ -1,0 +1,88 @@
+{
+  "title": "The Midnight Choice",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Arthur is at home, trying to relax by writing a blog.",
+      "time": "11:30 PM",
+      "location": "Arthur's apartment",
+      "description": "Arthur is sitting at his desk, surrounded by dim lighting and scattered notes. He's trying to focus on his blog, but his thoughts are drifting. His phone buzzes, breaking his concentration.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Arthur Young",
+          "gender": "Male",
+          "description": "23-year-old Arthur is empathetic and thoughtful, often caught in the balance between personal time and helping others. He's a writer who values friendship and introspection.; 23-year-old Male, 23 years old; Occupation: Writer or Blogger; Personality: Empathetic, Thoughtful, Responsible, Introspective; Values: Friendship, Empathy, Self-reflection; Interests: Writing, Technology, Problem Solving; Experiences: Helping Friends in Need, Working Late at Night, Emotional Decision-making",
+          "position": "Seated at his desk",
+          "states": "Fatigued, contemplative, slightly distracted",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Tao",
+          "gender": "Male",
+          "description": "Tao is a close friend of Arthur's, known for his tendency to reach out in the middle of the night with urgent requests; Male; Age: 29; Occupation: Freelance software developer; Personality: Impulsive, loyal, overthinker; Values: Trust, innovation, personal growth; Interests: Coding challenges, urban hiking, indie music; Experiences: Recently lost a job due to company downsizing, started a side project that's consuming his time and energy, has a history of emotional dependency in friendships.",
+          "position": "Calling from his phone",
+          "states": "Urgent, anxious, seeking help",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Bob",
+          "gender": "Male",
+          "description": "Bob is Arthur's supportive friend who often encourages him to take care of himself; Male; Age: 28; Occupation: Freelance graphic designer; Personality: Empathetic, observant, easygoing; Values: Friendship, work-life balance, personal growth; Interests: Writing short stories, hiking, indie music; Experiences: Has seen Arthur struggle with burnout in the past, once helped him redesign his blog layout.",
+          "position": "Texting from his phone",
+          "states": "Supportive, concerned, trying to be helpful",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Arthur Young",
+          "character_id": 0,
+          "action": "Arthur pauses his writing and looks at his phone.",
+          "dialogue": ""
+        },
+        {
+          "action_id": 1,
+          "character": "Tao",
+          "character_id": 1,
+          "action": "Tao calls Arthur and says, 'Hey, I know it's late, but I'm really stuck and need your help. Can you talk?'",
+          "dialogue": "Hey, I know it's late, but I'm really stuck and need your help. Can you talk?"
+        },
+        {
+          "action_id": 2,
+          "character": "Arthur Young",
+          "character_id": 0,
+          "action": "Arthur sighs and responds, 'Yeah, Tao. What's going on? I'm here.'",
+          "dialogue": "Yeah, Tao. What's going on? I'm here."
+        },
+        {
+          "action_id": 3,
+          "character": "Bob",
+          "character_id": 2,
+          "action": "Bob texts Arthur: 'Hey, just wanted to say I'm proud of you for helping your friends. But don't forget to rest, too.'",
+          "dialogue": "Hey, just wanted to say I'm proud of you for helping your friends. But don't forget to rest, too."
+        },
+        {
+          "action_id": 4,
+          "character": "Arthur Young",
+          "character_id": 0,
+          "action": "Arthur reads Bob's message and smiles slightly, then turns back to his phone to listen to Tao's problem.",
+          "dialogue": ""
+        }
+      ],
+      "plot": "Arthur is trying to balance his need for rest with his responsibility to help his friend Tao, who calls at an inconvenient time. Bob's supportive message adds to his internal conflict as he decides whether to continue writing or to help Tao.",
+      "social_purpose": "To illustrate Arthur's values of friendship and empathy, while showing his struggle with self-care and the expectations of others.",
+      "chunk": {
+        "id": 0,
+        "text": "Arthur is at home, trying to relax by writing a blog when Tao calls for help. Bob texts to remind him to take care of himself. Arthur's response shows his empathetic and responsible nature."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

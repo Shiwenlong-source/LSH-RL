@@ -1,0 +1,88 @@
+{
+  "title": "Voices for Change",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Community Meeting for Advocacy Planning",
+      "time": "5:30 PM",
+      "location": "GLBT Community Center Activity Room",
+      "description": "Jackson Hicks is seated in the corner of the room, clutching the event program and visibly anxious. Lily, a passionate and assertive advocate, and Yuna, a calm and empathetic former colleague, sit nearby, trying to support him. The room is filled with a small group of community members, all gathered to plan a new outreach initiative. The shared goal is to decide on a public statement that will be presented at a local town hall.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Jackson Hicks",
+          "gender": "Male, Member of GLBT Community",
+          "description": "A 25-year-old college student who is hesitant to speak up but deeply cares about inclusivity and community support.; Male, Member of GLBT Community, 25 years old; Occupation: College Student; Personality: Hesitant, Thoughtful, Caring, Anxious; Values: Inclusivity, Authenticity, Support, Community; Interests: Social Advocacy, Self-reflection, Friendship, Personal Growth; Experiences: Participating in community events, Exploring personal identity, Facing social anxiety, Building supportive relationships",
+          "position": "Corner of the room",
+          "states": "Anxious, Thoughtful, Caring",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Lily Chen",
+          "gender": "Female, Member of GLBT Community",
+          "description": "A 28-year-old community organizer with a bold and direct personality; Female, Member of GLBT Community; Age: 28; Occupation: LGBTQ+ Advocacy Coordinator; Personality: Passionate, Encouraging, Firm; Values: Equality, Empowerment, Community; Interests: Public speaking, Social justice art, Networking with local activists; Experiences: Organized successful Pride Week events, Led workshops on transgender rights, Survived a personal discrimination case that fueled her activism.",
+          "position": "Near Jackson",
+          "states": "Firm, Encouraging, Passionate",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Yuna Kim",
+          "gender": "Non-binary, Member of GLBT Community",
+          "description": "Yuna Kim; Non-binary; Age: 27; Occupation: Community Counselor; Personality: Supportive, Calm, Understanding; Values: Empathy, Inclusivity; Interests: Art therapy, LGBTQ+ literature; Experiences: Former colleague of Jackson's, Trained in conflict resolution and group counseling, Volunteer at youth outreach programs.",
+          "position": "Beside Jackson",
+          "states": "Supportive, Calm, Understanding",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Lily Chen",
+          "character_id": 1,
+          "action": "Asks Jackson to share his thoughts on the statement",
+          "dialogue": "Jackson, you've been thinking a lot about this. What do you think we should say at the town hall?"
+        },
+        {
+          "action_id": 1,
+          "character": "Jackson Hicks",
+          "character_id": 0,
+          "action": "Looks down and hesitates before responding",
+          "dialogue": "I... I'm not sure. I don't want to say something that doesn't resonate or that people will dismiss."
+        },
+        {
+          "action_id": 2,
+          "character": "Yuna Kim",
+          "character_id": 2,
+          "action": "Reassures Jackson with a gentle touch",
+          "dialogue": "Your perspective matters, Jackson. We're here to support you, not judge you."
+        },
+        {
+          "action_id": 3,
+          "character": "Jackson Hicks",
+          "character_id": 0,
+          "action": "Shares a thoughtful idea after a pause",
+          "dialogue": "Maybe we can focus on personal stories. It's the human connection that makes these issues real for people."
+        },
+        {
+          "action_id": 4,
+          "character": "Lily Chen",
+          "character_id": 1,
+          "action": "Nods and builds on Jackson's idea",
+          "dialogue": "That's a great point. We can include a few heartfelt testimonials to highlight inclusivity and authenticity."
+        }
+      ],
+      "plot": "At a community meeting, Jackson is encouraged by Lily and Yuna to contribute his ideas for a public statement at a town hall. Despite his anxiety, he shares a thoughtful suggestion, which is positively received and helps shape the group's plans. The interaction highlights his internal struggle and the supportive dynamics of the group.",
+      "social_purpose": "To show how supportive relationships can help individuals overcome social anxiety and contribute to a shared advocacy goal, while naturally revealing Jackson's values and personality traits.",
+      "chunk": {
+        "id": 0,
+        "text": "Jackson sits in the corner of the GLBT community center activity room, clutching the event program, filled with inner conflict. His friend Lily and former colleague Yuna try to encourage him to speak up for the community. Jackson struggles between the desire to participate and the fear of being ignored or attacked. Lily's firm questioning and Yuna's gentle comfort highlight the tension between courage and caution. As the event begins, whether Jackson chooses to speak may affect his role in the community as well as his sense of belonging and self-worth."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

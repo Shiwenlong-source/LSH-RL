@@ -1,0 +1,88 @@
+{
+  "title": "The Radio Shift Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Supervisor's Request for Temporary Coverage",
+      "time": "9:30 AM",
+      "location": "Radio Station Break Room",
+      "description": "Zara is sipping her coffee in the break room when her supervisor, Mr. Thompson, approaches with a proposal. Felix, a fellow DJ, overhears the conversation and joins in.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Zara",
+          "gender": "Female",
+          "description": "A 27-year-old Radio DJ who is confident, principled, and analytical. She is known for her introverted nature and high personal standards.; Female / Radio DJ, 27 years old; Occupation: Radio DJ; Personality: Confident, Principled, Analytical, Introverted; Values: Professional Ethics, Collaborative Harmony, Personal Standards; Interests: Audio Production, Music Curation, Radio Broadcasting; Experiences: Working in Radio Broadcasting, Collaborating with Difficult People, Handling Temporary Adjustments, Dealing with Professional Conflicts",
+          "position": "Break Room Table",
+          "states": "Uncomfortable, Analytical",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Mr. Thompson",
+          "gender": "Male",
+          "description": "The radio department head, experienced and authoritative. He is trying to maintain station operations during a colleague's absence; Male; Age: 58; Occupation: Radio Station Program Director; Personality: Persuasive, Concerned, Decisive, Analytical; Values: Professional integrity, Team stability, Clear communication; Interests: Classic jazz, Vintage car restoration, Local politics; Experiences: Managed emergency broadcast during a regional blackout, Led successful station rebranding in 2018, Trained multiple on-air personalities over 20 years.",
+          "position": "Standing by Zara",
+          "states": "Persuasive, Concerned",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Felix",
+          "gender": "Male",
+          "description": "A 30-year-old Radio DJ who shares Zara's views about DJ Molly's hosting style; Male; Age: 30; Occupation: Midday Shift Radio DJ; Personality: Supportive, Nervous, Collaborative, Analytical, Enthusiastic; Values: Teamwork, Fairness, Professionalism; Interests: Music production, Podcasting, Local events; Experiences: Co-hosted a successful charity radio marathon, Received feedback on his on-air style, Recently helped mentor a new intern.",
+          "position": "Seated at the Table",
+          "states": "Supportive, Nervous",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Mr. Thompson",
+          "character_id": 1,
+          "action": "Asks Zara to cover for DJ Molly temporarily",
+          "dialogue": "Zara, I know this is short notice, but we really need someone to step in for Molly's afternoon shift. Can you handle it for a week?"
+        },
+        {
+          "action_id": 1,
+          "character": "Zara",
+          "character_id": 0,
+          "action": "Expresses discomfort and refusal",
+          "dialogue": "I appreciate the offer, Mr. Thompson, but I can't do it. Molly's hosting style doesn't align with mine, and I don't want to compromise the show's integrity for the sake of convenience."
+        },
+        {
+          "action_id": 2,
+          "character": "Felix",
+          "character_id": 2,
+          "action": "Echoes Zara's concerns",
+          "dialogue": "Yeah, I remember working with Molly last year. It was a nightmare. We clashed over almost everything, and it affected the team dynamic. I don't want to see that happen again."
+        },
+        {
+          "action_id": 3,
+          "character": "Mr. Thompson",
+          "character_id": 1,
+          "action": "Attempts to reassure and persuade",
+          "dialogue": "I understand your concerns, Zara. But this is a temporary adjustment, and it's important we support each other during this time. It won't be easy, but it's necessary for the station's operations."
+        },
+        {
+          "action_id": 4,
+          "character": "Zara",
+          "character_id": 0,
+          "action": "Considers the consequences of her decision",
+          "dialogue": "I get that, but I have to think about the long-term effects. If I go against my values, it might set a precedent I'm not comfortable with. I can't ignore the impact on the team atmosphere either."
+        }
+      ],
+      "plot": "Zara is asked to temporarily cover for a colleague, DJ Molly, whose hosting style she strongly disagrees with. She refuses the request, citing her professional ethics and concerns about team harmony. Felix supports her, recalling a bad experience with Molly, while Mr. Thompson tries to convince her to make the adjustment for the station's sake. Zara is left to weigh the consequences of her decision.",
+      "social_purpose": "To explore Zara's values of professional ethics and personal standards while navigating a professional conflict and a temporary adjustment in her role.",
+      "chunk": {
+        "id": 0,
+        "text": "Zara is asked to temporarily cover for a colleague, DJ Molly, whose hosting style she strongly disagrees with. She refuses the request, citing her professional ethics and concerns about team harmony. Felix supports her, recalling a bad experience with Molly, while Mr. Thompson tries to convince her to make the adjustment for the station's sake. Zara is left to weigh the consequences of her decision."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

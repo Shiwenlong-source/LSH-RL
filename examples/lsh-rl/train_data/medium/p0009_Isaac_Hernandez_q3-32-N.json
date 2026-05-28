@@ -1,0 +1,123 @@
+{
+  "title": "Unspoken Memories in Paris",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Awkward Reunion and Attempted Connection",
+      "time": "Evening",
+      "location": "A quiet bistro in Montmartre, Paris",
+      "description": "Isaac and Mary, former travel companions, meet for a drink. The atmosphere is tense, with unspoken history between them. A waiter notices the awkwardness and intervenes.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Isaac Hernandez",
+          "gender": "Male",
+          "description": "Around 30, introverted and guarded, sitting with a contemplative expression. He avoids eye contact for long periods.; Male / Around 30 / Former Travel Partner, 24 years old; Occupation: Technical Engineer; Personality: Introverted, Contemplative, Guarded, Thoughtful; Values: Autonomy, Honesty, Emotional control; Interests: Travel, Reflection, Personal boundaries; Experiences: Travel experience in Africa, Past with Mary, Emotional conflict, Awkward reunion, Social tension",
+          "position": "At the table, sipping a glass of wine",
+          "states": "Nervous, restrained, conflicted",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Mary Thompson",
+          "gender": "Female",
+          "description": "Mary Thompson; Female; Age: 29; Occupation: Travel blogger and freelance journalist; Personality: Empathetic, determined, slightly anxious; Values: Authenticity, human connection, personal growth; Interests: Exploring off-the-beaten-path destinations, capturing stories through photography, sipping artisanal coffee; Experiences: Shared a transformative backpacking trip across Europe with Isaac, wrote a viral article about a personal loss that changed her perspective on relationships, recently ended a long-distance relationship that left her emotionally guarded.",
+          "position": "Across from Isaac, holding her coffee cup",
+          "states": "Empathetic, determined, slightly anxious",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Lucas Moreau",
+          "gender": "Male",
+          "description": "A friendly, observant waiter in his 40s, always ready to engage in light conversation to ease the mood; Male; Age: 43; Occupation: Waiter at a family-run bistro in Montmartre; Personality: Observant, helpful, tactful; Values: Hospitality, discretion, empathy; Interests: People-watching, jazz music, local history; Experiences: Witnessed countless romantic entanglements and quiet heartbreaks in the bistro, learned to read subtle cues in diners to offer just the right kind of attention, grew up in the neighborhood and knows many of the regulars by name.",
+          "position": "Approaching the table with a tray of pastries",
+          "states": "Observant, helpful, tactful",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Mary Thompson",
+          "character_id": 1,
+          "action": "Initiates conversation",
+          "dialogue": "Isaac, it's been a while. Remember the time we got lost in the Sahara? I still can't believe we found our way back."
+        },
+        {
+          "action_id": 1,
+          "character": "Isaac Hernandez",
+          "character_id": 0,
+          "action": "Avoids direct engagement",
+          "dialogue": "Yeah... that was a long time ago."
+        },
+        {
+          "action_id": 2,
+          "character": "Mary Thompson",
+          "character_id": 1,
+          "action": "Attempts to bridge the silence",
+          "dialogue": "I thought it would make you smile. You were so thoughtful then, always making sure we were okay."
+        },
+        {
+          "action_id": 3,
+          "character": "Isaac Hernandez",
+          "character_id": 0,
+          "action": "Changes the subject subtly",
+          "dialogue": "This wine is good. It's one of the few things I can still appreciate without overthinking."
+        },
+        {
+          "action_id": 4,
+          "character": "Lucas Moreau",
+          "character_id": 2,
+          "action": "Interrupts to lighten the mood",
+          "dialogue": "Mesdames et Messieurs, I brought some fresh croissants for the table. Would you like to try one?"
+        },
+        {
+          "action_id": 5,
+          "character": "Mary Thompson",
+          "character_id": 1,
+          "action": "Accepts the croissants",
+          "dialogue": "Thank you, Lucas. That's very kind of you."
+        },
+        {
+          "action_id": 6,
+          "character": "Isaac Hernandez",
+          "character_id": 0,
+          "action": "Nods but says little",
+          "dialogue": "Yes, thank you."
+        },
+        {
+          "action_id": 7,
+          "character": "Lucas Moreau",
+          "character_id": 2,
+          "action": "Comments on the setting",
+          "dialogue": "It's a lovely evening for a chat. The light is just right for reflection, don't you think?"
+        },
+        {
+          "action_id": 8,
+          "character": "Isaac Hernandez",
+          "character_id": 0,
+          "action": "Responds with a hint of vulnerability",
+          "dialogue": "Reflection is... complicated these days."
+        },
+        {
+          "action_id": 9,
+          "character": "Mary Thompson",
+          "character_id": 1,
+          "action": "Seizes the moment to express openness",
+          "dialogue": "We don't have to talk about everything, Isaac. But I want you to know I care."
+        }
+      ],
+      "plot": "Isaac and Mary, once close travel companions, meet for an evening drink in Paris. Mary tries to reconnect by recalling their shared trip to Africa, but Isaac remains guarded and hesitant. A waiter notices the tension and offers a brief distraction, creating a moment of vulnerability for Isaac. The underlying emotional conflict between them remains unresolved, and Isaac must decide whether to confront it.",
+      "social_purpose": "To explore Isaac's guarded personality and emotional control through a reunion with someone from his past, while highlighting the value of honesty and the difficulty of confronting unresolved emotions.",
+      "chunk": {
+        "id": 0,
+        "text": "Isaac and Mary meet in a quiet Parisian bistro. Mary attempts to rekindle their connection by mentioning their shared travel experience in Africa, but Isaac's introverted nature and emotional restraint make the conversation tense. A waiter, Lucas, intervenes with a kind gesture and a comment about the evening, briefly easing the atmosphere. Isaac's contemplative and thoughtful traits emerge as he considers whether to open up to Mary."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

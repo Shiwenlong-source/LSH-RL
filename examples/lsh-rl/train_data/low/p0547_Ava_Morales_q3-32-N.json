@@ -1,0 +1,123 @@
+{
+  "title": "Coffee and Confessions",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Ava and two coworkers meet for coffee to discuss an upcoming team project.",
+      "time": "Afternoon",
+      "location": "Local Café",
+      "description": "Ava sits with her two coworkers, Liam and Priya, in a cozy corner of a local café. They are discussing an upcoming team project for a client. The atmosphere is casual but focused, with the clinking of cups and soft background music.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Ava Morales",
+          "gender": "Female",
+          "description": "Ava is a 26-year-old young professional who is rational and humorous. She is focused on the project but subtly aware of her own emotional boundaries.; 26-year-old / Female / Single, 23 years old; Occupation: Young Professional; Personality: Rational, Humorous, Considerate, Reserved; Values: Emotional clarity, Friendship, Self-control; Interests: Late-night chats, Maintaining boundaries, Supporting friends; Experiences: Studying abroad, Cross-timezone friendships, Handling emotional dynamics",
+          "position": "Seated at the corner table, sipping a latte",
+          "states": "Relaxed on the surface, slightly uneasy inside",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Liam Chen",
+          "gender": "Male",
+          "description": "Liam is a 28-year-old marketing strategist known for his bold ideas and easygoing nature; Male; Age: 28; Occupation: Digital Marketing Strategist; Personality: Energetic, creative, collaborative; Values: Innovation, teamwork, client satisfaction; Interests: Urban photography, indie music, coffee culture; Experiences: Successfully led a rebranding campaign for a startup, worked remotely during the pandemic to manage global client projects, frequently collaborates with cross-functional teams on creative initiatives.",
+          "position": "Leaning forward, animatedly speaking",
+          "states": "Energetic and engaged",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Priya Kapoor",
+          "gender": "Female",
+          "description": "Priya is a 25-year-old graphic designer who is detail-oriented and empathetic. She often mediates between more outspoken team members; Female; Age: 25; Occupation: Graphic Designer; Personality: Empathetic, detail-oriented, diplomatic; Values: Team harmony, creativity, professionalism; Interests: Urban sketching, indie music, interior design; Experiences: Led a successful rebranding project for a local nonprofit, resolved a creative conflict between two senior designers, recently completed a certification in UX design.",
+          "position": "Nodding thoughtfully, occasionally interjecting",
+          "states": "Supportive and focused",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Liam Chen",
+          "character_id": 1,
+          "action": "Shares his ideas for the project",
+          "dialogue": "I think we should focus on a bold, modern campaign. Let’s surprise the client with something they didn’t know they wanted!"
+        },
+        {
+          "action_id": 1,
+          "character": "Priya Kapoor",
+          "character_id": 2,
+          "action": "Offers a counterpoint",
+          "dialogue": "That’s exciting, Liam, but we also need to make sure it aligns with their brand identity. Maybe a balance of creativity and consistency?"
+        },
+        {
+          "action_id": 2,
+          "character": "Ava Morales",
+          "character_id": 0,
+          "action": "Adds a practical perspective",
+          "dialogue": "I agree with Priya. We should lay out a few clear options so they can feel in control. That way, we’re not just chasing wild ideas—we’re building a strategy they can trust."
+        },
+        {
+          "action_id": 3,
+          "character": "Liam Chen",
+          "character_id": 1,
+          "action": "Responds with enthusiasm",
+          "dialogue": "Okay, okay, I’ll tone it down a bit. But we can still make it memorable. What do you think, Ava? You always have the best sense of what’s doable."
+        },
+        {
+          "action_id": 4,
+          "character": "Ava Morales",
+          "character_id": 0,
+          "action": "Deflects with humor",
+          "dialogue": "Doable? That’s a stretch. I prefer to think I just have a good poker face when it comes to bad ideas."
+        },
+        {
+          "action_id": 5,
+          "character": "Priya Kapoor",
+          "character_id": 2,
+          "action": "Laughs and agrees",
+          "dialogue": "You do, but we all know you’re secretly the one keeping us from going off the rails."
+        },
+        {
+          "action_id": 6,
+          "character": "Ava Morales",
+          "character_id": 0,
+          "action": "Changes the subject slightly",
+          "dialogue": "Speaking of rails, has anyone been to Boracay? I heard it’s a place where people go to chase dreams or something."
+        },
+        {
+          "action_id": 7,
+          "character": "Liam Chen",
+          "character_id": 1,
+          "action": "Reacting to the mention of Boracay",
+          "dialogue": "Oh, you mean Jack’s friend? He’s been talking about it a lot lately. You two know each other?"
+        },
+        {
+          "action_id": 8,
+          "character": "Ava Morales",
+          "character_id": 0,
+          "action": "Lightly deflects the question",
+          "dialogue": "Just through Joy. I’ve been helping her keep Jack in check, you know, encouraging him to dream but not to overdo it."
+        },
+        {
+          "action_id": 9,
+          "character": "Priya Kapoor",
+          "character_id": 2,
+          "action": "Changes the topic back to work",
+          "dialogue": "Let’s get back to the project. Liam, can you draft the initial concept? Ava, maybe you can help with the client’s expectations."
+        }
+      ],
+      "plot": "Ava, Liam, and Priya are working on a team project and meet to plan. As they discuss, Ava subtly deflects a question about her connection to Jack, maintaining her emotional boundaries while supporting her friend’s journey.",
+      "social_purpose": "To show how Ava’s values of emotional clarity and self-control influence her interactions, even in professional settings, and how she supports friendships without overstepping boundaries.",
+      "chunk": {
+        "id": 0,
+        "text": "Ava, Liam, and Priya meet for coffee to plan a team project. Liam proposes a bold campaign, while Priya advocates for brand alignment. Ava adds a rational, humorous counterpoint and subtly shifts the conversation to Jack, who she knows through her friend Joy. She keeps the focus light and professional, avoiding deeper emotional discussions."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

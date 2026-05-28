@@ -1,0 +1,115 @@
+{
+  "title": "The Noisy Neighbors",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Neighbors' Argument",
+      "time": "Evening",
+      "location": "Front porch of Sarah's house",
+      "description": "Sarah is sitting on her porch with her two sons, trying to enjoy a quiet evening. The noise from her neighbors' yard is growing louder as their argument escalates. One of her sons is fidgeting and complaining, while the other is yelling at his friend in the yard, adding to the tension. Sarah is torn between protecting her children's peace and maintaining a good relationship with her neighbors.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Sarah Perry",
+          "gender": "Female",
+          "description": "A 35-year-old mother of two, currently on her porch trying to keep her children calm.; Female / Mother, 35 years old; Occupation: Housewife; Personality: Anxious, Thoughtful, Protective, Pragmatic; Values: Family happiness, Quiet life, Sense of responsibility; Interests: Childcare, Quiet environment, Problem-solving; Experiences: Raising multiple children, Dealing with noisy neighbors, Managing household stress, Communicating with landlord",
+          "position": "Front porch",
+          "states": "Anxious, Thoughtful, Protective",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Mr. Thompson",
+          "gender": "Male",
+          "description": "A loud and agitated neighbor arguing with his wife in the yard next door; Male; Age: 58; Occupation: Retired Firefighter; Personality: Short-tempered, Proud, Stubborn; Values: Family loyalty, Hard work, Traditionalism; Interests: Yard work, Classic cars, Watching sports; Experiences: Served 30 years in the fire department, Recently faced health issues, Struggles with declining influence in the family.",
+          "position": "Neighbor's yard",
+          "states": "Angry, Loud, Frustrated",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Mrs. Thompson",
+          "gender": "Female",
+          "description": "A visibly stressed neighbor, responding to her husband's outbursts with a mix of frustration and fear; Female; Age: 58; Occupation: Retired schoolteacher; Personality: Caring, Overprotective, Pragmatic; Values: Family harmony, Respect for community; Interests: Gardening, Baking, Classic literature; Experiences: Raised three children in a tight-knit neighborhood, recently dealt with marital tension, volunteered in local parent-teacher associations.",
+          "position": "Neighbor's yard",
+          "states": "Stressed, Fearful, Defensive",
+          "is_npc": true
+        },
+        {
+          "id": 3,
+          "name": "Tommy",
+          "gender": "Male",
+          "description": "Tommy is fidgeting and complaining about the noise; Male; Age: 8; Occupation: Student; Personality: Impatient, Sensitive, Energetic; Values: Family peace, Fairness; Interests: Building with Legos, Listening to stories, Outdoor play; Experiences: Frequently exposed to loud neighborhood disputes, Struggles with anxiety in chaotic environments, Learned to seek comfort from parents during stressful moments",
+          "position": "Front porch",
+          "states": "Irritable, Anxious, Young",
+          "is_npc": true
+        },
+        {
+          "id": 4,
+          "name": "Jacob",
+          "gender": "Male",
+          "description": "Sarah's 12-year-old son, yelling at his friend in the yard; Male; Age: 12; Occupation: Student; Personality: Energetic, impulsive, competitive; Values: Friendship, fairness, fun; Interests: Video games, sports, superhero movies; Experiences: Recently lost a video game tournament to a rival, enjoys hosting backyard hangouts, has a history of getting into minor neighborhood disputes with other kids.",
+          "position": "Front yard",
+          "states": "Loud, Excited, Young",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Sarah Perry",
+          "character_id": 0,
+          "action": "Looks over the fence and listens to the argument",
+          "dialogue": "I can't let this go on much longer. The kids can't even sleep with this noise."
+        },
+        {
+          "action_id": 1,
+          "character": "Tommy",
+          "character_id": 3,
+          "action": "Complains loudly to his mother",
+          "dialogue": "Mom, they're being so loud! I can't concentrate on my homework!"
+        },
+        {
+          "action_id": 2,
+          "character": "Jacob",
+          "character_id": 4,
+          "action": "Continues yelling at his friend",
+          "dialogue": "You're not listening to me, man! That's not fair!"
+        },
+        {
+          "action_id": 3,
+          "character": "Mrs. Thompson",
+          "character_id": 2,
+          "action": "Shouts back at her husband",
+          "dialogue": "You're the one being unreasonable, David! Can't you see what you're doing to the kids?"
+        },
+        {
+          "action_id": 4,
+          "character": "Mr. Thompson",
+          "character_id": 1,
+          "action": "Shouts louder",
+          "dialogue": "You don't know what I'm going through, Karen! You just don't get it!"
+        },
+        {
+          "action_id": 5,
+          "character": "Sarah Perry",
+          "character_id": 0,
+          "action": "Takes a deep breath and considers her next move",
+          "dialogue": "Maybe I should talk to them first... before it gets worse."
+        }
+      ],
+      "plot": "Sarah is trying to find a way to resolve the noise issue without causing a confrontation. She is aware of the potential consequences of both taking action and doing nothing. Her sons are becoming increasingly agitated, and the argument next door is growing more intense. Sarah's internal conflict is evident as she weighs her options.",
+      "social_purpose": "To explore the tension between personal responsibility and community harmony, while highlighting the protagonist's protective and thoughtful nature.",
+      "chunk": {
+        "id": 0,
+        "text": "The evening had been promising for Sarah, a chance to sit on her porch and enjoy a rare moment of calm with her two sons. However, the escalating argument next door has shattered that peace. She watches as Tommy fidgets and complains, and Jacob yells at his friend in the yard. The Thompsons' voices grow louder, and Sarah feels the weight of her decision. She knows that calling the police might solve the noise problem but could also strain her already delicate relationship with the neighbors. Her protective instincts kick in as she considers what's best for her children and the neighborhood."
+      },
+      "npcs": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  ]
+}

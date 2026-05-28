@@ -1,0 +1,112 @@
+{
+  "title": "Packing for Camp",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Isabella packs for Camp Whitewater while her family and friends offer support and encouragement.",
+      "time": "Afternoon",
+      "location": "Isabella's Bedroom",
+      "description": "Isabella is seated on the edge of her bed, suitcase open in front of her. Her mother, Lili, and John are in the room, each engaging in a different way to help her prepare for the camp. Her mother is practical and focused on safety, Lili is empathetic and offers emotional support, and John tries to lighten the mood with humor.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Isabella Foster",
+          "gender": "16-year-old Female",
+          "description": "A thoughtful and anxious 16-year-old girl preparing for her first summer camp. She is excited but also nervous about the experience.; 16-year-old Female, 16 years old; Occupation: High School Student; Personality: Anxious, Excited, Thoughtful; Values: Independence, Self-discovery, Friendship; Interests: Camping, Socializing, Personal Growth; Experiences: Attending summer camp, Adapting to new social environments, Balancing emotions",
+          "position": "Sitting on the bed, packing suitcase",
+          "states": "Nervous, excited, contemplative",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "John Carter",
+          "gender": "16-year-old Male",
+          "description": "Isabella's good friend, known for his lighthearted and teasing nature; Male; Age: 16; Occupation: High school student; Personality: Playful, supportive, confident; Values: Friendship, loyalty, fun; Interests: Pranks, outdoor adventures, video games; Experiences: Attended summer camps with Isabella in previous years, helped her through stressful school projects, shared many inside jokes and memories.",
+          "position": "Leaning against the wall, holding a water bottle",
+          "states": "Playful, supportive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Lili Nguyen",
+          "gender": "17-year-old Female",
+          "description": "Isabella's close friend, who is more introspective and empathetic; Female; Age: 17; Occupation: High school junior; Personality: Compassionate, thoughtful, observant; Values: Loyalty, emotional well-being, authenticity; Interests: Reading, journaling, nature walks; Experiences: Attended a week-long youth leadership retreat, helped a close friend through a difficult family situation, joined the school's mindfulness club.",
+          "position": "Sitting on the floor next to the suitcase",
+          "states": "Supportive, calm",
+          "is_npc": true
+        },
+        {
+          "id": 3,
+          "name": "Mrs. Foster",
+          "gender": "Female",
+          "description": "Isabella's mother, who is protective and detail-oriented, ensuring her daughter is well-prepared; Female; Age: 38; Occupation: Pediatric Nurse; Personality: Caring, organized, anxious; Values: Safety, family, responsibility; Interests: Reading parenting blogs, baking, gardening; Experiences: Has helped prepare children for camp for years, once had to rescue a child from a summer camp due to homesickness.",
+          "position": "Standing by the window, holding a checklist",
+          "states": "Concerned, nurturing",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Isabella Foster",
+          "character_id": 0,
+          "action": "Packs a sweater into her suitcase while biting her lip.",
+          "dialogue": "I just don’t know if I’m ready for this... It’s my first time going to a camp alone."
+        },
+        {
+          "action_id": 1,
+          "character": "Mrs. Foster",
+          "character_id": 3,
+          "action": "Checks her list and nods at Isabella.",
+          "dialogue": "You’ll be fine, sweetheart. Just remember to bring your rain jacket and sunscreen. Safety first."
+        },
+        {
+          "action_id": 2,
+          "character": "John Carter",
+          "character_id": 1,
+          "action": "Laughs and tosses a pair of socks into the suitcase.",
+          "dialogue": "Relax, Foster. You’ll probably end up with the best bunkmate and make a ton of friends. Just don’t fall off a canoe."
+        },
+        {
+          "action_id": 3,
+          "character": "Lili Nguyen",
+          "character_id": 2,
+          "action": "Reaches out and gently touches Isabella’s hand.",
+          "dialogue": "It’s okay to feel nervous. But this is also a chance to grow and find out who you are when you’re not with us."
+        },
+        {
+          "action_id": 4,
+          "character": "Isabella Foster",
+          "character_id": 0,
+          "action": "Smiles faintly and nods, then folds a shirt carefully.",
+          "dialogue": "Yeah, I guess you’re right. I want to try being more independent, but it’s still scary."
+        },
+        {
+          "action_id": 5,
+          "character": "John Carter",
+          "character_id": 1,
+          "action": "Grins and adds a pair of hiking boots to the suitcase.",
+          "dialogue": "Well, you’ve got us to back you up. And trust me, you’ll love the campfire stories. I’ve already promised to send you a postcard from the top of the mountain."
+        },
+        {
+          "action_id": 6,
+          "character": "Mrs. Foster",
+          "character_id": 3,
+          "action": "Hands Isabella a small journal and pen.",
+          "dialogue": "Write down your thoughts when you get there. It’ll help you reflect and remember everything you learn."
+        }
+      ],
+      "plot": "Isabella is preparing for Camp Whitewater with the support of her mother and two close friends, Lili and John. As she packs, their individual ways of offering comfort and reassurance highlight her internal conflict between excitement and anxiety. The scene serves as a transition into her journey of self-discovery and independence.",
+      "social_purpose": "To showcase Isabella's emotional state and the supportive dynamics in her relationships, while subtly revealing her values of independence, self-discovery, and friendship.",
+      "chunk": {
+        "id": 0,
+        "text": "Isabella sat on her bed, suitcase open in front of her, as her mother, Lili, and John stood around, each in their own way helping her prepare. Her mother’s voice was steady with reminders, while Lili offered quiet encouragement. John, as always, tried to make the moment feel lighter with his jokes. Through this small but meaningful interaction, Isabella felt the weight of her emotions shift slightly, from fear to a cautious hope."
+      },
+      "npcs": [
+        1,
+        2,
+        3
+      ]
+    }
+  ]
+}

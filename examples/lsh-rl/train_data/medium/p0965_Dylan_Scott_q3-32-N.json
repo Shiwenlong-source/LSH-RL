@@ -1,0 +1,123 @@
+{
+  "title": "The Crossroads Decision",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Coffee Break Conversation",
+      "time": "10:30 AM",
+      "location": "Office Cafeteria",
+      "description": "Dylan sits alone at a table in the office cafeteria, staring at his phone. His colleague Chloe approaches, carrying a coffee, and joins him. Nearby, another coworker, Mark, overhears the conversation and sits down to listen.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Dylan Scott",
+          "gender": "Male",
+          "description": "A 31-year-old office worker, visibly contemplative and emotional. He keeps glancing at a photo on his phone.; Male / Office Worker, 31 years old; Occupation: Company Employee; Personality: Determined, Emotional, Thoughtful; Values: Commitment, Balance, Honesty; Interests: Long-distance Relationships, Career Development, Photography; Experiences: Working at a Company, Maintaining a Long-distance Relationship, Making Major Life Decisions",
+          "position": "Seated at the table, facing Chloe and Mark",
+          "states": "Anxious, determined, thoughtful",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Chloe Hughes",
+          "gender": "Female",
+          "description": "A curious and supportive colleague in her late 20s who notices Dylan's hesitation and asks him about it; Female; Age: 28; Occupation: Marketing Analyst; Personality: Empathetic, observant, approachable; Values: Teamwork, open communication, work-life balance; Interests: Networking events, true crime podcasts, urban hiking; Experiences: Successfully led a cross-departmental campaign, supported a colleague through a difficult project period, recently transitioned to a remote-hybrid work setup.",
+          "position": "Seated across from Dylan",
+          "states": "Concerned, friendly, inquisitive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Mark Taylor",
+          "gender": "Male",
+          "description": "A laid-back coworker in his early 30s. He listens quietly and occasionally offers a comment; Male; Age: 32; Occupation: Project Coordinator; Personality: Observant, empathetic, calm; Values: Teamwork, integrity, work-life balance; Interests: Photography, hiking, indie music; Experiences: Managed a high-stakes cross-departmental project, volunteered at a community tech fair, recently took a sabbatical to travel through Southeast Asia.",
+          "position": "Seated to the left of Chloe",
+          "states": "Observant, empathetic, calm",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Chloe Hughes",
+          "character_id": 1,
+          "action": "Asks Dylan a question",
+          "dialogue": "Hey Dylan, you've been quiet all morning. Everything okay?"
+        },
+        {
+          "action_id": 1,
+          "character": "Dylan Scott",
+          "character_id": 0,
+          "action": "Looks up and hesitates",
+          "dialogue": "Yeah... just thinking about some big decisions I need to make."
+        },
+        {
+          "action_id": 2,
+          "character": "Chloe Hughes",
+          "character_id": 1,
+          "action": "Notices Dylan's phone",
+          "dialogue": "You've been staring at your phone a lot. Is it something to do with your girlfriend?"
+        },
+        {
+          "action_id": 3,
+          "character": "Dylan Scott",
+          "character_id": 0,
+          "action": "Nods slowly",
+          "dialogue": "Her name is Lei. She's in the Philippines, and I'm thinking about moving there to be with her."
+        },
+        {
+          "action_id": 4,
+          "character": "Mark Taylor",
+          "character_id": 2,
+          "action": "Leans in and comments",
+          "dialogue": "That's a huge step. You'd be leaving your job and everything here."
+        },
+        {
+          "action_id": 5,
+          "character": "Dylan Scott",
+          "character_id": 0,
+          "action": "Takes a deep breath",
+          "dialogue": "I know. It's not an easy choice. I love my job, but I also love her. I want to find balance in my life."
+        },
+        {
+          "action_id": 6,
+          "character": "Chloe Hughes",
+          "character_id": 1,
+          "action": "Expresses support",
+          "dialogue": "I get that. Relationships are important. It takes a lot of honesty and commitment to make something like this work."
+        },
+        {
+          "action_id": 7,
+          "character": "Mark Taylor",
+          "character_id": 2,
+          "action": "Shares his perspective",
+          "dialogue": "I've been in a long-distance relationship too. It's tough, but if you're ready to take the plunge, I say go for it."
+        },
+        {
+          "action_id": 8,
+          "character": "Dylan Scott",
+          "character_id": 0,
+          "action": "Smiles and thanks them",
+          "dialogue": "Thanks, guys. I really appreciate your understanding. I just need to make sure I'm doing the right thing."
+        },
+        {
+          "action_id": 9,
+          "character": "Dylan Scott",
+          "character_id": 0,
+          "action": "Types a message on his phone",
+          "dialogue": ""
+        }
+      ],
+      "plot": "Dylan is preparing to inform his employer about his decision to move to the Philippines to be with his girlfriend, Lei. His colleagues Chloe and Mark notice his anxiety and offer support, helping him clarify his values and commitment to the relationship.",
+      "social_purpose": "To show Dylan's internal conflict and how his values of commitment, honesty, and balance influence his decision-making process in a public and social setting.",
+      "chunk": {
+        "id": 0,
+        "text": "Dylan finally presses 'send' on his message to his boss, feeling a mix of relief and uncertainty as he takes a step toward his personal happiness."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "title": "The Decision in the Green Room",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Hannah Moss is deciding whether to publicly endorse her husband's presidential campaign in a private meeting with her close allies.",
+      "time": "Evening, during a campaign stop at a local community center",
+      "location": "The green room backstage at a political event",
+      "description": "Hannah sits at a small table in the green room, surrounded by the buzz of the campaign event outside. Her allies Zara and Max are seated across from her, each with their own opinions. Zara, a passionate campaign strategist, leans forward, urging Hannah to take a stand. Max, a cautious political advisor, sits back, offering measured warnings. The tension in the room is palpable as they wait for her decision.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Hannah Moss",
+          "gender": "Female",
+          "description": "A 47-year-old former billionaire and political consultant, currently the wife of a presidential candidate. She is composed and wise, but visibly weighed down by the decision before her.; 50-year-old woman, Presidential Candidate's Wife, 47 years old; Occupation: Former Billionaire, Political Consultant; Personality: Determined, Introspective, Wise, Composed; Values: Integrity, Self-discovery, Support, Balance; Interests: Political Strategy, Philosophical Thinking, Personal Growth; Experiences: Business Success, Political Participation, Marriage to a Public Figure, Strategic Decision Making, Emotional Introspection",
+          "position": "Center of the room",
+          "states": "Tense, contemplative, composed on the surface but uncertain internally",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Zara Chen",
+          "gender": "Female",
+          "description": "A 38-year-old campaign strategist with a sharp mind and a bold personality; Female; Age: 38; Occupation: Political Campaign Manager; Personality: Energetic, encouraging, slightly impatient; Values: Ambition, transparency, progress; Interests: Public speaking, data analysis, urban planning; Experiences: Managed successful mayoral campaigns in two major cities, worked as a policy advisor during a national crisis, led grassroots mobilization efforts in underrepresented communities.",
+          "position": "To the left of Hannah",
+          "states": "Energetic, encouraging, slightly impatient",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Max Carter",
+          "gender": "Male",
+          "description": "A 52-year-old political advisor known for his calm and calculated demeanor; Male; Age: 52; Occupation: Senior Political Strategist and Speechwriter; Personality: Analytical, patient, discreet; Values: Stability, integrity, long-term impact; Interests: Classical music, chess, historical biographies; Experiences: Advised three gubernatorial campaigns, navigated a high-profile political scandal without public fallout, served as a crisis communications director during a national emergency.",
+          "position": "To the right of Hannah",
+          "states": "Calm, concerned, analytical",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Zara Chen",
+          "character_id": 1,
+          "action": "Leans forward and speaks passionately",
+          "dialogue": "Hannah, this is your moment. You know the game better than anyone. Your voice can change the tide of this campaign. Don't let fear hold you back."
+        },
+        {
+          "action_id": 1,
+          "character": "Max Carter",
+          "character_id": 2,
+          "action": "Crosses his arms and speaks solemnly",
+          "dialogue": "Zara, I understand your enthusiasm, but Hannah must consider the risks. The public doesn't always see the truth behind the headlines. This could be dangerous for her and the campaign."
+        },
+        {
+          "action_id": 2,
+          "character": "Hannah Moss",
+          "character_id": 0,
+          "action": "Takes a deep breath and responds thoughtfully",
+          "dialogue": "I'm not doing this for fame or power. I want to support him, yes, but I also want to find my own purpose in this. I need to believe this is the right step for both of us."
+        },
+        {
+          "action_id": 3,
+          "character": "Zara Chen",
+          "character_id": 1,
+          "action": "Nods in agreement",
+          "dialogue": "Then let's make sure it's a step that reflects your values. We can craft a message that's authentic and powerful."
+        },
+        {
+          "action_id": 4,
+          "character": "Max Carter",
+          "character_id": 2,
+          "action": "Sighs and offers a compromise",
+          "dialogue": "Perhaps a measured approach. A statement that supports without overexposing you. That way, you can still be the voice of integrity we need."
+        },
+        {
+          "action_id": 5,
+          "character": "Hannah Moss",
+          "character_id": 0,
+          "action": "Pauses, then nods slowly",
+          "dialogue": "I think I can do that. A statement, not a full campaign appearance. But I need to be true to myself in it. I won't be a pawn."
+        }
+      ],
+      "plot": "Hannah Moss, the wife of a presidential candidate, is in a private meeting with her allies Zara and Max, deciding whether to publicly endorse her husband's campaign. Zara pushes for bold action, while Max urges caution. Hannah, driven by a desire to support her husband and find her own self-worth, ultimately decides to make a measured public statement.",
+      "social_purpose": "To explore the internal conflict of a public figure's spouse and the dynamics of support, integrity, and self-discovery in a high-stakes political environment.",
+      "chunk": {
+        "id": 0,
+        "text": "Hannah Moss sits in the green room, her face calm but her mind racing. Zara Chen leans forward, her voice steady and persuasive, while Max Carter speaks with quiet concern. The room is small, the tension thick, as the weight of the decision hangs in the air. Hannah, introspective and wise, takes her time to weigh the options. Her desire to support her husband and her need for personal integrity and balance guide her final decision."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

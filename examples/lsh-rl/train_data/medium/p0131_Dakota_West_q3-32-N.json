@@ -1,0 +1,109 @@
+{
+  "title": "The Coffee Shop Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Meeting at a coffee shop to avoid a family conflict",
+      "time": "Afternoon",
+      "location": "Local coffee shop",
+      "description": "Dakota, Alice, and James are at a quiet corner of their local coffee shop. Dakota is clearly agitated, flipping through a magazine while avoiding eye contact with the others. Alice and James are trying to help him prepare for his mother’s visit later that evening.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Dakota West",
+          "gender": "male",
+          "description": "23-year-old factory worker, visibly anxious and defensive, trying to avoid thinking about his mother’s visit.; male, 23 years old; Occupation: Factory worker; Personality: Anxious, Resistant, Emotionally sensitive, Defensive; Values: Autonomy, Comfort, Conflict avoidance; Interests: Leisure activities, Personal space, Emotional expression; Experiences: Family conflict, Social anxiety, Past conflicts with family members, Relying on friends for emotional support",
+          "position": "sitting at the corner table",
+          "states": "nervous, withdrawn",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Alice Chen",
+          "gender": "female",
+          "description": "Alice Chen; Female; Age: 24; Occupation: High school counselor; Personality: empathetic, encouraging, patient; Values: loyalty, emotional well-being, open communication; Interests: journaling, indie music, community volunteering; Experiences: helped several students through family-related stress, recently mediated a conflict between two close friends, grew up in a close-knit family with occasional tensions.",
+          "position": "sitting across from Dakota",
+          "states": "supportive, concerned",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "James Reed",
+          "gender": "male",
+          "description": "Dakota’s coworker and friend, pragmatic and lighthearted, attempting to distract him with casual conversation; male; Age: 28; Occupation: Marketing Coordinator; Personality: optimistic, adaptable, good-humored; Values: friendship, work-life balance, honesty; Interests: stand-up comedy, indie music, coffee culture; Experiences: helped a close friend through a difficult family situation, frequently mediates workplace tensions, grew up in a blended family with diverse dynamics.",
+          "position": "sitting to Dakota’s left",
+          "states": "optimistic, trying to lighten the mood",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Alice Chen",
+          "character_id": 1,
+          "action": "Suggests a plan to help Dakota cope",
+          "dialogue": "Hey, maybe you can just talk to her for a few minutes and then we can all go out for a walk or something. Just don’t let it get too bad, okay?"
+        },
+        {
+          "action_id": 1,
+          "character": "Dakota West",
+          "character_id": 0,
+          "action": "Responds defensively",
+          "dialogue": "No, she’s not going to just be a few minutes. It’s always something. She never just lets it go. I’d rather just not be there at all."
+        },
+        {
+          "action_id": 2,
+          "character": "James Reed",
+          "character_id": 2,
+          "action": "Tries to lighten the mood",
+          "dialogue": "Come on, man. You’ve survived worse than a coffee chat with your mom. I mean, we all did. Remember that time you got stuck in the factory machine?"
+        },
+        {
+          "action_id": 3,
+          "character": "Dakota West",
+          "character_id": 0,
+          "action": "Shows emotional sensitivity",
+          "dialogue": "That was different. This is about my feelings. She always makes me feel like I’m the problem. I just want to be left alone."
+        },
+        {
+          "action_id": 4,
+          "character": "Alice Chen",
+          "character_id": 1,
+          "action": "Encourages emotional expression",
+          "dialogue": "I get that, but if you don’t talk to her, it just gets worse. Maybe just say how you feel. You don’t have to be perfect, just honest."
+        },
+        {
+          "action_id": 5,
+          "character": "Dakota West",
+          "character_id": 0,
+          "action": "Considers the suggestion but remains resistant",
+          "dialogue": "I don’t know... I just feel like it’s not going to help. I’d rather not deal with it. You guys are always trying to push me into it."
+        },
+        {
+          "action_id": 6,
+          "character": "James Reed",
+          "character_id": 2,
+          "action": "Suggests an alternative activity",
+          "dialogue": "Okay, if you don’t want to talk, let’s just do something else. Maybe a movie or something. We can be your buffer if you want."
+        },
+        {
+          "action_id": 7,
+          "character": "Dakota West",
+          "character_id": 0,
+          "action": "Considers the plan",
+          "dialogue": "Yeah... maybe that’s the only way I can handle it. Just not alone."
+        }
+      ],
+      "plot": "Dakota is struggling with the idea of his mother visiting later that evening. Alice and James are trying to help him prepare and cope with the situation, but Dakota’s anxiety and resistance make it difficult. The friends attempt to balance support with distraction, while Dakota wrestles with his emotional sensitivity and desire for autonomy.",
+      "social_purpose": "To demonstrate Dakota’s avoidance tendencies, emotional sensitivity, and reliance on friends for comfort, while showing how his friends try to support him and encourage communication.",
+      "chunk": {
+        "id": 0,
+        "text": "Dakota is agitated as his friends try to help him prepare for his mother’s visit. He resists their efforts, showing his defensive and emotionally sensitive side, but eventually allows their plan to buffer the situation with an activity after the meeting."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "title": "Hotel Dilemma in Las Vegas",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Discussing hotel options",
+      "time": "Afternoon",
+      "location": "Café near the office",
+      "description": "Jayden is sitting at a small table with his colleague Ross and his friend Simon, trying to decide where to stay for his upcoming vacation to Las Vegas. Ross is advocating for a luxurious hotel, while Simon is pushing for a more entertainment-focused location.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Jayden",
+          "gender": "Male",
+          "description": "31-year-old office clerk, hesitant and pragmatic, trying to balance budget and experience for his vacation.; Male, Office clerk, 31 years old; Occupation: Office clerk; Personality: Hesitant, Pragmatic, Enthusiastic; Values: Value for money, Experience, Friendship; Interests: Travel, Entertainment, Decision-making; Experiences: Planning vacations, Taking friends' advice, Comparing hotel options",
+          "position": "Seated at the table, fidgeting with his phone.",
+          "states": "Torn, listening, thoughtful",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Ross",
+          "gender": "Male",
+          "description": "35-year-old project manager, confident and well-traveled, enjoys high-end experiences and is eager to share his opinions; Male; Age: 35; Occupation: Senior Hospitality Consultant; Personality: Confident, persuasive, enthusiastic, detail-oriented; Values: Excellence, comfort, professionalism; Interests: Fine dining, luxury travel, networking; Experiences: Managed hotel development projects in multiple countries, frequently stays at top-tier resorts for business, organized team retreats at high-end Vegas hotels.",
+          "position": "Leaning forward, gesturing with his hands.",
+          "states": "Persuasive, enthusiastic",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Simon",
+          "gender": "Male",
+          "description": "29-year-old event planner, adventurous and fun-loving, always looking for the next exciting experience; Male; Age: 29; Occupation: Event Planner; Personality: Playful, assertive, charismatic; Values: Adventure, spontaneity, authenticity; Interests: Themed parties, nightlife, travel; Experiences: Organized a surprise bachelor party in Las Vegas, worked on a high-profile music festival setup, frequently attends and plans social events for friends.",
+          "position": "Sitting casually, sipping his coffee.",
+          "states": "Playful, assertive",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Ross",
+          "character_id": 1,
+          "action": "Suggests a luxury hotel",
+          "dialogue": "Jayden, you're going to Vegas, right? You should stay at Bellagio. It's the best of the best. You won't regret the splurge."
+        },
+        {
+          "action_id": 1,
+          "character": "Simon",
+          "character_id": 2,
+          "action": "Counters with an entertainment-focused hotel",
+          "dialogue": "Come on, man, Bellagio is overpriced. You'll miss out on the fun if you're stuck in a fancy room. Try the Palms. They have a great pool and shows. You’ll get more bang for your buck."
+        },
+        {
+          "action_id": 2,
+          "character": "Jayden",
+          "character_id": 0,
+          "action": "Expresses hesitation",
+          "dialogue": "I know, I know. Both have their pros and cons. I just want to make sure I don't spend too much but still have a great time. I mean, I’ve planned a few trips before, but this one feels different."
+        },
+        {
+          "action_id": 3,
+          "character": "Ross",
+          "character_id": 1,
+          "action": "Reiterates the luxury option",
+          "dialogue": "But Jayden, the experience is everything. You can always go to cheaper places next time, but this is a chance to treat yourself. You’ll remember it for years."
+        },
+        {
+          "action_id": 4,
+          "character": "Simon",
+          "character_id": 2,
+          "action": "Emphasizes adventure",
+          "dialogue": "Exactly, but if you're too focused on the room, you might not even go out. The Palms is more about the vibe and the action. You’ll be surrounded by entertainment all the time."
+        },
+        {
+          "action_id": 5,
+          "character": "Jayden",
+          "character_id": 0,
+          "action": "Considers both sides",
+          "dialogue": "Yeah, I’ve heard the Palms has a cool pool scene. But I also want to feel like I'm in a place that’s worth the money. I guess it’s about what kind of trip I’m looking for..."
+        }
+      ],
+      "plot": "Jayden is caught between his friend Simon's desire for a lively and adventurous stay at the Palms and his colleague Ross's recommendation for a luxurious and high-end experience at the Bellagio. As they discuss the pros and cons, Jayden weighs his values of budget, experience, and friendship, trying to make a decision that satisfies his need for a meaningful and memorable vacation.",
+      "social_purpose": "To explore Jayden's internal conflict between value for money and the desire for a rich, memorable experience, while showcasing how his relationships with Ross and Simon influence his decision-making process.",
+      "chunk": {
+        "id": 0,
+        "text": "Jayden is sitting at a small table with his colleague Ross and his friend Simon, trying to decide where to stay for his upcoming vacation to Las Vegas. Ross is advocating for a luxurious hotel, while Simon is pushing for a more entertainment-focused location."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

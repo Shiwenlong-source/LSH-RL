@@ -1,0 +1,88 @@
+{
+  "title": "The Meeting That Won't End",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Team Meeting",
+      "time": "10:00 AM",
+      "location": "Conference Room at a School District Office",
+      "description": "Maya, Hugo, and Nolan are in a meeting to finalize a new curriculum rollout. The room is small, with a table at the center and three chairs. A whiteboard behind them is filled with notes and timelines. Maya is clearly growing more frustrated as the meeting drags on.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Maya",
+          "gender": "Female",
+          "description": "25-year-old project coordinator with a sharp gaze and a tightly crossed posture. She wears a blazer and is holding a tablet with a to-do list open.; 25-year-old Female, 25 years old; Occupation: Project Coordinator or Educational Planner; Personality: Impatient, Smart, Irritable; Values: Efficiency, Clarity, Direct Communication; Interests: Problem Solving, Time Management, Career Development; Experiences: Working in an Educational Environment, Dealing with Bureaucratic Delays, Managing Interpersonal Conflicts",
+          "position": "Middle of the table, facing the whiteboard",
+          "states": "Frustrated, impatient, determined",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Hugo",
+          "gender": "Male",
+          "description": "45-year-old educational consultant with a calm demeanor and a tendency to over-examine details; Male; Age: 45; Occupation: Curriculum Development Specialist; Personality: Analytical, meticulous, introverted; Values: Academic integrity, equity in education, thorough preparation; Interests: Reading educational research, solving complex puzzles, quiet weekend hikes; Experiences: Led curriculum reforms in underperforming schools, faced backlash from rushed policy implementations, mentored new teachers for five years.",
+          "position": "Left side of the table",
+          "states": "Analytical, hesitant to move forward, focused on perfection",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Nolan",
+          "gender": "Male",
+          "description": "38-year-old curriculum designer with a disheveled look and a tendency to second-guess decisions; Male; Age: 38; Occupation: High School Social Studies Curriculum Designer; Personality: Analytical, anxious, empathetic; Values: Collaboration, educational equity, thoroughness; Interests: Board games, indie music, coffee culture; Experiences: Oversaw a controversial curriculum change that faced community backlash, mentored new teachers during a district pilot program, recently had a proposal rejected by the school board due to lack of clarity.",
+          "position": "Right side of the table",
+          "states": "Uncertain, indecisive, trying to mediate",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Maya",
+          "character_id": 0,
+          "action": "Interrupts the discussion",
+          "dialogue": "Look, I get that the curriculum needs to be perfect, but we are wasting time. We need to decide on the core components by the end of this meeting. This isn't helping anyone."
+        },
+        {
+          "action_id": 1,
+          "character": "Hugo",
+          "character_id": 1,
+          "action": "Defends his approach",
+          "dialogue": "I'm just making sure we're not missing anything. If we rush, we might overlook a key detail that could derail the whole project."
+        },
+        {
+          "action_id": 2,
+          "character": "Nolan",
+          "character_id": 2,
+          "action": "Attempts to mediate",
+          "dialogue": "Maybe we can split the components into two phases. Let's finalize the core for now and leave the optional additions for later. That way, we can move forward without sacrificing quality."
+        },
+        {
+          "action_id": 3,
+          "character": "Maya",
+          "character_id": 0,
+          "action": "Sighs and proposes a compromise",
+          "dialogue": "Fine, but we set a hard deadline for the second phase. I can't keep waiting for this to be perfect if it's not even going to be ready on time."
+        },
+        {
+          "action_id": 4,
+          "character": "Hugo",
+          "character_id": 1,
+          "action": "Agrees reluctantly",
+          "dialogue": "If we can agree on a timeline and stick to it, I can focus on the core elements without overthinking the rest."
+        }
+      ],
+      "plot": "Maya, frustrated by the endless back-and-forth between Hugo and Nolan, steps in to push for a decision. Her impatience and focus on efficiency clash with Hugo's meticulousness and Nolan's hesitation. Through a tense but constructive exchange, Maya and Hugo find a middle ground, with Nolan acting as a mediator to ease the conflict.",
+      "social_purpose": "To showcase Maya's traits of impatience, smart decision-making, and desire for clarity, while also highlighting her ability to handle interpersonal conflict in a professional setting.",
+      "chunk": {
+        "id": 0,
+        "text": "Maya stood in the middle of the table, her fingers tapping impatiently on the edge of her tablet. Hugo and Nolan had been circling the same point for over an hour. 'I understand the importance of details, but we can't keep going in circles. We need to finalize the core components by the end of this meeting.' Her voice was sharp, but not unkind. She had learned that in her role as a project coordinator, clarity and efficiency were non-negotiable. Hugo, still focused on the minutiae, responded with, 'I'm just making sure we're not missing anything. If we rush, we might overlook a key detail that could derail the whole project.' Maya exhaled, recognizing the pattern. This was not the first time she had dealt with bureaucratic delays and indecisive colleagues. 'We can't afford to be perfect if we're not timely. Let's compromise—finalize the core now, and set a hard deadline for the rest.' Nolan, sensing the tension, suggested splitting the work into two phases. Hugo, after a long pause, nodded. 'If we can agree on a timeline and stick to it, I can focus on the core elements without overthinking the rest.' Maya felt a flicker of relief. It wasn't the fastest resolution, but it was progress."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

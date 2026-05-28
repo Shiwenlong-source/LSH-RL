@@ -1,0 +1,88 @@
+{
+  "title": "Lunchroom Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Office Lunch Break",
+      "time": "12:30 PM",
+      "location": "Company Cafeteria",
+      "description": "Nora stands near the lunch counter, staring at the menu board with a conflicted expression. Sam, a loud and energetic colleague, is holding a tray of his homemade fish noodles. Chloe, a more reserved and empathetic coworker, approaches Nora with a salad in hand.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Nora Harris",
+          "gender": "Female",
+          "description": "A 30-year-old office clerk with a thoughtful demeanor and a tendency to overanalyze her choices. She is conscious of her health but also tempted by comfort food.; Female, Corporate Employee, 30 years old; Occupation: Office Clerk; Personality: Anxious, Self-conscious, Thoughtful; Values: Health, Self-discipline, Social Harmony; Interests: Healthy Eating, Work-Life Balance, Personal Growth; Experiences: Long-term Office Work, Weight Struggles, Colleague Interaction, Decision-making Under Pressure, Balancing Health and Comfort",
+          "position": "Near the lunch counter",
+          "states": "Hesitant, conflicted, self-conscious",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Sam Thompson",
+          "gender": "Male",
+          "description": "A 35-year-old marketing executive known for his enthusiasm and bold personality; Male; Age: 35; Occupation: Senior Marketing Director; Personality: Enthusiastic, encouraging, self-assured; Values: Camaraderie, creativity, authenticity; Interests: Cooking, networking, pop culture; Experiences: Led a successful product launch campaign, survived a high-stakes corporate restructuring, recently started a lunchtime cooking demo series for coworkers.",
+          "position": "Next to Nora",
+          "states": "Enthusiastic, encouraging, self-assured",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Chloe Bennett",
+          "gender": "Female",
+          "description": "A 28-year-old project manager who values balance and empathy; Female; Age: 28; Occupation: Project Manager; Personality: Supportive, calm, understanding; Values: Work-life balance, emotional intelligence; Interests: Mindfulness practices, gardening; Experiences: Successfully mediated a team conflict that improved workplace morale, volunteered at a community mental health initiative.",
+          "position": "Approaching Nora from the side",
+          "states": "Supportive, calm, understanding",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Sam Thompson",
+          "character_id": 1,
+          "action": "Enthusiastically recommends his noodles",
+          "dialogue": "Nora! You’ve got to try these fish noodles I made! The soup base is so rich, it’s basically a hug for your taste buds. Come on, skip the salad for once!"
+        },
+        {
+          "action_id": 1,
+          "character": "Nora Harris",
+          "character_id": 0,
+          "action": "Looks uncertain and mutters to herself",
+          "dialogue": "But I’ve been trying to eat healthier this week... Maybe just a small portion?"
+        },
+        {
+          "action_id": 2,
+          "character": "Chloe Bennett",
+          "character_id": 2,
+          "action": "Softly reassures Nora",
+          "dialogue": "It’s okay to treat yourself sometimes, Nora. You don’t have to be perfect. Just do what feels right for you."
+        },
+        {
+          "action_id": 3,
+          "character": "Nora Harris",
+          "character_id": 0,
+          "action": "Pauses and then reaches for the noodle tray",
+          "dialogue": "You know what? I think I’ll take a small bowl. Thanks, Chloe. I needed that reminder."
+        },
+        {
+          "action_id": 4,
+          "character": "Sam Thompson",
+          "character_id": 1,
+          "action": "Gives a thumbs-up and grabs a napkin for her",
+          "dialogue": "That’s the spirit! Here, take this extra napkin. You’ll need it for the good stuff."
+        }
+      ],
+      "plot": "Nora is torn between her health goals and the tempting lunch options in the company cafeteria. Sam, her loud and enthusiastic colleague, pushes her to try his homemade fish noodles, while Chloe, a more reserved coworker, gently reminds her to be kind to herself. Nora ultimately decides to take a small portion, balancing her values of health and social harmony.",
+      "social_purpose": "To demonstrate how workplace relationships and differing styles of support can influence a person’s decision-making process, especially in situations involving personal boundaries and health choices.",
+      "chunk": {
+        "id": 0,
+        "text": "Nora stands near the lunch counter, staring at the menu board with a conflicted expression. Sam, a loud and energetic colleague, is holding a tray of his homemade fish noodles. Chloe, a more reserved and empathetic coworker, approaches Nora with a salad in hand."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

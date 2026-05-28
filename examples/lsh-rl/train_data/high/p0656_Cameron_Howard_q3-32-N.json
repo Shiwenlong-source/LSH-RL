@@ -1,0 +1,88 @@
+{
+  "title": "A Step of Faith",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Fellowship Gathering Invitation",
+      "time": "Saturday afternoon",
+      "location": "Grace Community Church",
+      "description": "Cameron sits alone on a pew in a quiet church after the morning service, deep in thought. Luna, his close friend, approaches with a warm smile, and Pastor Kara, the church elder, joins them a few moments later. They engage Cameron in a gentle conversation about the upcoming fellowship gathering.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Cameron Howard",
+          "gender": "male",
+          "description": "25-year-old office worker and believer who is navigating a journey of faith and redemption. He is thoughtful, hesitant, and hopeful, often caught between his past and present.; 25-year-old male believer, 24 years old; Occupation: Office Worker; Personality: Thoughtful, Hesitant, Hopeful; Values: Faith, Redemption, Self-reflection; Interests: Spiritual Growth, Friendship, Inner Peace; Experiences: Past crisis of faith, Recent renewal of faith, Ongoing internal conflict",
+          "position": "sitting on the pew",
+          "states": "contemplative, slightly anxious",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Luna",
+          "gender": "female",
+          "description": "Cameron’s close friend and member of the church; female; Age: 28; Occupation: Youth counselor and part-time Sunday school teacher; Personality: optimistic, patient, empathetic; Values: community, faith, kindness; Interests: reading Christian literature, gardening, helping others; Experiences: volunteered in outreach programs for at-risk youth, organized church charity events, deepened her spiritual journey after overcoming a personal loss.",
+          "position": "standing near the pew",
+          "states": "optimistic, patient",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Pastor Kara",
+          "gender": "female",
+          "description": "An elder and respected pastor in the church. She is compassionate, wise, and has a calming presence that helps others feel at ease; Female; Age: 62; Occupation: Pastor and community counselor; Personality: Gentle, understanding, patient; Values: Compassion, faith, community; Interests: Reading theological writings, gardening, mentoring young people; Experiences: Pastoral work in the same church for over 30 years, personal experience with loss and healing, leading community outreach programs.",
+          "position": "standing slightly behind Luna",
+          "states": "gentle, understanding",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Luna",
+          "character_id": 1,
+          "action": "approaches Cameron with a warm expression",
+          "dialogue": "Hey, Cameron. I know you've been going through a lot, but the fellowship gathering is this evening. It'd be great to see you there."
+        },
+        {
+          "action_id": 1,
+          "character": "Cameron Howard",
+          "character_id": 0,
+          "action": "looks up at Luna, hesitating",
+          "dialogue": "I... I don’t know if I’m ready for that. I still feel like I’m not where I should be."
+        },
+        {
+          "action_id": 2,
+          "character": "Pastor Kara",
+          "character_id": 2,
+          "action": "steps forward and speaks softly",
+          "dialogue": "Cameron, faith isn’t about being perfect or fully healed. It’s about taking one step at a time, trusting the journey."
+        },
+        {
+          "action_id": 3,
+          "character": "Luna",
+          "character_id": 1,
+          "action": "places a hand on Cameron’s shoulder",
+          "dialogue": "You don’t have to be ready, just show up. We’ll be there with you."
+        },
+        {
+          "action_id": 4,
+          "character": "Cameron Howard",
+          "character_id": 0,
+          "action": "nods slowly, a faint smile forming",
+          "dialogue": "Okay... I’ll try. For you both."
+        }
+      ],
+      "plot": "Cameron is invited to a fellowship gathering by his friend Luna and Pastor Kara. Despite his internal conflict and fear of the past, their encouragement helps him take a tentative step forward in his spiritual journey.",
+      "social_purpose": "To illustrate how friendship and guidance from authority can help someone in a state of internal conflict move toward growth and community.",
+      "chunk": {
+        "id": 0,
+        "text": "Cameron’s decision to attend the gathering marks a small but significant step in his ongoing journey of faith and redemption, influenced by the people who care about him."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

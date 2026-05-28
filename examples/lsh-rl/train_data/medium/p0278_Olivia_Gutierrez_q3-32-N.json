@@ -1,0 +1,133 @@
+{
+  "title": "Sharing the Mission",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Bible study group meeting",
+      "time": "6:30 PM",
+      "location": "Yale Divinity School, Room 204",
+      "description": "A small group of students and Christian coworkers gather in a quiet study room to discuss scripture and personal spiritual journeys. Olivia is preparing to share her calling, while others offer support and challenge.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Olivia Gutierrez",
+          "gender": "Female",
+          "description": "A 23-year-old devout college student with a deep commitment to her faith and a mission to share it. She is determined but visibly nervous as she prepares to speak.; 23-year-old / Female / College Student, 24 years old; Occupation: College Student; Personality: Determined, Devout, Nervous, Resolute; Values: Faith, Community, Truth, Mission; Interests: Spiritual growth, Evangelism, Christian fellowship; Experiences: Profound spiritual experience, Participating in Bible study group, Preparing to share faith in a university environment",
+          "position": "Center of the room",
+          "states": "Nervous, determined, hopeful",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "He Qingling",
+          "gender": "Female",
+          "description": "A gentle, empathetic friend who has supported Olivia in her spiritual growth; Female; Age: 28; Occupation: Chaplain intern at a local hospital; Personality: Compassionate, patient, introspective; Values: Community, faith, emotional well-being; Interests: Bible study, journaling, quiet contemplative walks; Experiences: Volunteered in campus ministry during college, led grief support groups, recently began accompanying students on spiritual retreats.",
+          "position": "Near Olivia, offering quiet support",
+          "states": "Supportive, attentive, reassuring",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Jason",
+          "gender": "Male",
+          "description": "A skeptical but thoughtful Christian coworker who questions whether Olivia is acting impulsively; Male; Age: 29; Occupation: Theology Adjunct Professor; Personality: Analytical, introspective, empathetic; Values: Intellectual integrity, community, spiritual growth; Interests: Biblical exegesis, hiking, jazz music; Experiences: Converted later in life after years of academic doubt, led small group discussions on faith and reason, wrestled with personal doubts during a period of spiritual dryness.",
+          "position": "Sitting at the back of the room",
+          "states": "Cautious, questioning, curious",
+          "is_npc": true
+        },
+        {
+          "id": 3,
+          "name": "Reverend Thomas",
+          "gender": "Male",
+          "description": "A spiritual mentor and leader of the Bible study group; Male; Age: 58; Occupation: Assistant Dean for Spiritual Life at Yale Divinity School; Personality: Compassionate, Analytical, Patient; Values: Integrity, Community, Intellectual humility; Interests: Theological debate, Jazz music, Gardening; Experiences: Pastoral work in inner-city churches, Academic teaching in Christian ethics, Leading interfaith dialogue initiatives.",
+          "position": "At the head of the group",
+          "states": "Encouraging, observant, thoughtful",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Olivia Gutierrez",
+          "character_id": 0,
+          "action": "Takes a deep breath and begins to speak.",
+          "dialogue": "Thank you all for being here. I’ve been wrestling with something I feel called to share, and I hope you’ll bear with me as I explain."
+        },
+        {
+          "action_id": 1,
+          "character": "He Qingling",
+          "character_id": 1,
+          "action": "Nods in encouragement and smiles warmly.",
+          "dialogue": "We’re all here to listen, Olivia. Your voice matters."
+        },
+        {
+          "action_id": 2,
+          "character": "Jason",
+          "character_id": 2,
+          "action": "Leans forward slightly, raising an eyebrow.",
+          "dialogue": "I’m curious to hear what you have to say, but I hope you’re not rushing into something big without thinking it through."
+        },
+        {
+          "action_id": 3,
+          "character": "Olivia Gutierrez",
+          "character_id": 0,
+          "action": "Picks up her Bible and flips to a passage.",
+          "dialogue": "This is from Acts 1:8. 'But you will receive power when the Holy Spirit comes on you; and you will be my witnesses in Jerusalem, and in all Judea and Samaria, and to the ends of the earth.' I believe this is my calling—to be a witness for Christ, even in a place like Yale."
+        },
+        {
+          "action_id": 4,
+          "character": "Reverend Thomas",
+          "character_id": 3,
+          "action": "Nods thoughtfully and offers a prayerful response.",
+          "dialogue": "That’s a powerful verse, Olivia. It’s not easy to step out in faith. Tell us more about what led you to this conviction."
+        },
+        {
+          "action_id": 5,
+          "character": "Olivia Gutierrez",
+          "character_id": 0,
+          "action": "Shares her spiritual experience with the group.",
+          "dialogue": "A few weeks ago, I had a moment of clarity during prayer. I felt a strong sense of purpose, as if God was asking me to take this message beyond our small circle. I want to be obedient to that."
+        },
+        {
+          "action_id": 6,
+          "character": "Jason",
+          "character_id": 2,
+          "action": "Crosses his arms and asks a probing question.",
+          "dialogue": "And how do you reconcile this calling with the academic rigor and intellectual challenges of a place like Yale? Do you think people here are ready for this kind of message?"
+        },
+        {
+          "action_id": 7,
+          "character": "Olivia Gutierrez",
+          "character_id": 0,
+          "action": "Looks Jason in the eye, resolute in her response.",
+          "dialogue": "I believe faith and reason can coexist. My mission is not to avoid challenges but to meet them with truth and love. I’m not perfect, but I’m willing to learn and grow."
+        },
+        {
+          "action_id": 8,
+          "character": "He Qingling",
+          "character_id": 1,
+          "action": "Shares a personal reflection.",
+          "dialogue": "I remember when I first felt God’s call too. It was scary, but it also felt right. Olivia, I believe in you and your mission."
+        },
+        {
+          "action_id": 9,
+          "character": "Reverend Thomas",
+          "character_id": 3,
+          "action": "Praises Olivia and offers guidance.",
+          "dialogue": "Faith is a journey, Olivia. Your courage to step forward is commendable. But also remember to be patient and discerning. Let the group support you as you go."
+        }
+      ],
+      "plot": "Olivia shares her spiritual calling with her Bible study group at Yale, seeking support and legitimacy for her mission. He Qingling offers encouragement, while Jason questions the practicality and timing of her decision. Reverend Thomas provides guidance and affirmation, helping the group navigate the tension between faith and reason.",
+      "social_purpose": "To explore Olivia’s conviction and how it is received by those close to her, highlighting the dynamics of faith, community, and intellectual inquiry.",
+      "chunk": {
+        "id": 0,
+        "text": "Olivia’s sharing of her calling sparks a meaningful dialogue among the group, revealing the diverse ways in which faith and purpose are approached and challenged in an academic setting."
+      },
+      "npcs": [
+        1,
+        2,
+        3
+      ]
+    }
+  ]
+}

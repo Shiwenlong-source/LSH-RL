@@ -1,0 +1,102 @@
+{
+  "title": "Balancing Memories at the Community Center",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Charity Run Planning Meeting",
+      "time": "3:00 PM, Friday",
+      "location": "Community Center Conference Room",
+      "description": "Ezra Parker, a focused and considerate community volunteer leader, is finalizing the memorial list for an upcoming charity run. He is joined by Lily, a compassionate social worker, and Jack, a tech-savvy marketing professional. The group is discussing how best to honor the deceased while encouraging community participation.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Ezra Parker",
+          "gender": "Male",
+          "description": "A 25-year-old community volunteer leader, focused and determined, currently preparing a memorial list for a charity run.; years old, Male, Community volunteer, 25 years old; Occupation: Community volunteer leader; Personality: Focused, Considerate, Determined; Values: Community service, Remembrance, Inclusivity; Interests: Event planning, Social welfare, Team collaboration; Experiences: Organizing charity events, Working with survivors, Leading community projects",
+          "position": "Front of the room, presenting the memorial list on a projector screen",
+          "states": "Thoughtful, engaged, slightly tense about the decision to make",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Lily Chen",
+          "gender": "Female",
+          "description": "Compassionate and community-oriented social worker concerned about honoring individual wishes; Female; Age: 32; Occupation: Social Worker; Personality: Empathetic, Analytical, Supportive; Values: Compassion, Inclusivity, Respect for Autonomy; Interests: Organizing community events, Listening to local stories, Mindfulness practices; Experiences: Provided grief support after a neighborhood tragedy, Collaborated on a community wellness initiative, Led a memorial project for a local veterans' group.",
+          "position": "Sitting to Ezra's left, taking notes on a pad",
+          "states": "Supportive, inquisitive, attentive to emotional nuances",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Jack Morales",
+          "gender": "Male",
+          "description": "A 28-year-old marketing professional, energetic and tech-savvy, focused on maximizing event reach; Male; Age: 28; Occupation: Digital Marketing Specialist; Personality: Enthusiastic, forward-thinking, eager to propose new ideas; Values: Innovation, community impact, collaboration; Interests: Social media trends, event planning, fitness technology; Experiences: Successfully promoted a local food drive using viral social media campaigns, organized a youth tech workshop in partnership with a nonprofit, led marketing efforts for a charity gala that raised over $100,000.",
+          "position": "Sitting to Ezra's right, using a laptop to draft a social media plan",
+          "states": "Enthusiastic, forward-thinking, eager to propose new ideas",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Ezra Parker",
+          "character_id": 0,
+          "action": "Presents the memorial list on the projector screen",
+          "dialogue": "Alright, I've compiled the list of names we're planning to honor during the charity run. I want to make sure we're being inclusive while also respecting individual wishes."
+        },
+        {
+          "action_id": 1,
+          "character": "Lily Chen",
+          "character_id": 1,
+          "action": "Asks a question about individual preferences",
+          "dialogue": "Have you checked if any families might prefer a private memorial instead of being listed publicly? I've worked with survivors before, and that's something they often consider."
+        },
+        {
+          "action_id": 2,
+          "character": "Jack Morales",
+          "character_id": 2,
+          "action": "Suggests using social media to publicize the memorial",
+          "dialogue": "What if we create a digital memorial wall on social media? It could be a way to honor everyone while also engaging more people in the cause."
+        },
+        {
+          "action_id": 3,
+          "character": "Ezra Parker",
+          "character_id": 0,
+          "action": "Considers the suggestions and responds thoughtfully",
+          "dialogue": "That's a good point, Jack. A digital wall could help reach more people. And Lily, I appreciate you bringing up the sensitivity of individual preferences. I'll make sure to reach out to those families to confirm their comfort level."
+        },
+        {
+          "action_id": 4,
+          "character": "Lily Chen",
+          "character_id": 1,
+          "action": "Offers to help with outreach to families",
+          "dialogue": "If you'd like, I can help you connect with those families. I have a good rapport with the support groups involved."
+        },
+        {
+          "action_id": 5,
+          "character": "Jack Morales",
+          "character_id": 2,
+          "action": "Shares a sample social media post idea",
+          "dialogue": "Here's a draft for the digital wall. It's inclusive but also allows people to add their own messages if they want."
+        },
+        {
+          "action_id": 6,
+          "character": "Ezra Parker",
+          "character_id": 0,
+          "action": "Expresses gratitude and outlines next steps",
+          "dialogue": "Thanks, both of you. I'll take your feedback into account and adjust the list accordingly. Let's make this event as meaningful and inclusive as possible."
+        }
+      ],
+      "plot": "Ezra is preparing a memorial list for a charity run and is seeking input from Lily and Jack. Lily raises concerns about individual preferences, while Jack suggests using social media to expand the event's reach. Ezra balances their perspectives to ensure the event is both respectful and impactful.",
+      "social_purpose": "To explore the tension between collective memory and individual wishes in memorial activities, while highlighting the importance of community collaboration and inclusivity.",
+      "chunk": {
+        "id": 0,
+        "text": "Ezra Parker, a focused and considerate community volunteer leader, is finalizing the memorial list for an upcoming charity run. He is joined by Lily, a compassionate social worker, and Jack, a tech-savvy marketing professional. The group is discussing how best to honor the deceased while encouraging community participation."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

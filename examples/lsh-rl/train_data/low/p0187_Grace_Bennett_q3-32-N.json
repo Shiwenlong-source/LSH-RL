@@ -1,0 +1,95 @@
+{
+  "title": "The Final Performance",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Grace Bennett is preparing for a piano recital at her university.",
+      "time": "Afternoon, 2 hours before the recital.",
+      "location": "University music hall, backstage area.",
+      "description": "Grace is seated at a small table, clutching a score and trying to calm her nerves. Kimi, her close friend, is quietly sitting nearby, watching her with concern. Lili, another friend who is a confident and outgoing musician, approaches with a warm smile.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Grace Bennett",
+          "gender": "Female",
+          "description": "A 21-year-old college student who is temporarily performing in place of her teacher. She is visibly anxious but trying to stay strong.; 21-year-old female student, 24 years old; Occupation: College student; Personality: Nervous, Determined, Vulnerable, Resilient; Values: Trust, Support, Self-improvement; Interests: Music, Performing, Friendship; Experiences: Temporarily taking on an important role, Practicing under pressure, Receiving peer encouragement",
+          "position": "Backstage, seated at the table",
+          "states": "Nervous, determined, vulnerable",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Kimi",
+          "gender": "Female",
+          "description": "Grace's supportive friend; Female; Age: 21; Occupation: Music education major; Personality: Empathetic, patient, intuitive; Values: Loyalty, emotional well-being, artistic integrity; Interests: Classical piano, journaling, nature walks; Experiences: Supported Grace through a difficult audition process, performed in multiple university recitals herself, helped her rehearse in quiet moments of self-doubt.",
+          "position": "Nearby, sitting on a bench",
+          "states": "Supportive, attentive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Lili",
+          "gender": "Female",
+          "description": "Confident and outgoing musician known for lifting others' spirits; Female; Age: 22; Occupation: Jazz pianist and music student; Personality: Energetic, empathetic, charismatic; Values: Camaraderie, artistic expression, resilience; Interests: Improvisation, live performances, mentoring younger musicians; Experiences: Performed at multiple university recitals and local jazz festivals, helped fellow students overcome stage fright, led a small jazz ensemble for a year.",
+          "position": "Approaching from the stage",
+          "states": "Encouraging, optimistic",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Grace Bennett",
+          "character_id": 0,
+          "action": "Looking at the score and sighing deeply.",
+          "dialogue": "I don't know if I can do this. I've only practiced this piece twice, and now I'm just... scared."
+        },
+        {
+          "action_id": 1,
+          "character": "Kimi",
+          "character_id": 1,
+          "action": "Reaching out to gently squeeze Grace's hand.",
+          "dialogue": "You can do it. I believe in you."
+        },
+        {
+          "action_id": 2,
+          "character": "Lili",
+          "character_id": 2,
+          "action": "Smiling and sitting beside Grace.",
+          "dialogue": "Hey, don't be so hard on yourself. You've worked hard, and you're going to do great. Remember, even the best musicians feel nervous before a performance."
+        },
+        {
+          "action_id": 3,
+          "character": "Grace Bennett",
+          "character_id": 0,
+          "action": "Nodding slowly, trying to smile.",
+          "dialogue": "Thanks, Lili. I just... I don't want to let anyone down."
+        },
+        {
+          "action_id": 4,
+          "character": "Lili",
+          "character_id": 2,
+          "action": "Placing a hand on Grace's shoulder.",
+          "dialogue": "You're not alone in this. We're all here for you. That's what friends do."
+        },
+        {
+          "action_id": 5,
+          "character": "Grace Bennett",
+          "character_id": 0,
+          "action": "Taking a deep breath and looking up at Lili.",
+          "dialogue": "I really appreciate that. I just hope I can prove to myself that I'm capable."
+        }
+      ],
+      "plot": "Grace is about to perform in a piano recital but is struggling with self-doubt. Her friends Kimi and Lili offer her quiet support and encouragement, helping her find the strength to face the challenge.",
+      "social_purpose": "To demonstrate Grace's internal struggle and the importance of trust and support from friends in overcoming personal challenges.",
+      "chunk": {
+        "id": 0,
+        "text": "Grace Bennett, a 21-year-old student, is backstage at a university recital, preparing to perform a piece she's only played twice. Her friend Kimi is nearby, silently offering support, while Lili, a confident musician, steps in to encourage her. Despite lingering nerves, Grace begins to feel a sense of resolve, knowing she has the trust and encouragement of her friends."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

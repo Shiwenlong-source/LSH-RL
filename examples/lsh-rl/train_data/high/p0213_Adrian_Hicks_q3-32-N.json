@@ -1,0 +1,88 @@
+{
+  "title": "The Crossroads of Choices",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Adrian discusses his future with Ella and Molly in a café.",
+      "time": "Evening",
+      "location": "Corner café near BIT campus",
+      "description": "Adrian Hicks, a 25-year-old BIT student, sits at a corner table in a cozy café. The warm glow of the setting sun casts long shadows across the room. He is deep in thought, staring out the window while his friends, Ella and Molly, attempt to engage him in conversation about his future. The tension in the air is palpable as Adrian weighs the decision between two prestigious institutions.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Adrian Hicks",
+          "gender": "Male",
+          "description": "Graduating BIT student, known for his excellent grades and introspective nature. He is anxious about his future and is caught between two offers.; years old, Male, BIT student, 25 years old; Occupation: Undergraduate student; Personality: Anxious, Thoughtful, Introspective; Values: Academic excellence, Future security, Personal passion; Interests: Higher education, Career planning, Self-reflection; Experiences: Excellent grades, Approaching graduation, Facing major life choices",
+          "position": "Corner table, looking out the window",
+          "states": "Anxious, thoughtful, indecisive",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Ella",
+          "gender": "Female",
+          "description": "Pragmatic and career-focused, Ella is a close friend of Adrian’s and has always emphasized the importance of job security and academic reputation; Female; Age: 26; Occupation: Management consultant; Personality: Analytical, empathetic, confident; Values: Stability, ambition, loyalty; Interests: Networking, professional development workshops, coffee culture; Experiences: Graduated top of her class from a reputable business school, worked for a Fortune 500 firm for three years, mentored younger colleagues.",
+          "position": "Across from Adrian, holding a coffee cup",
+          "states": "Calm, supportive, direct",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Molly",
+          "gender": "Female",
+          "description": "Idealistic and passionate, Molly encourages Adrian to follow his heart and pursue what truly excites him, even if it means taking a risk; Female; Age: 24; Occupation: Student counselor at BIT; Personality: Empathetic, curious, encouraging; Values: Personal growth, authenticity, friendship; Interests: Volunteering for student mentorship programs, reading self-help books, exploring local art galleries; Experiences: Helped several students navigate major life decisions, studied psychology in university, worked part-time at a community youth center.",
+          "position": "Sitting beside Adrian, fidgeting with her notebook",
+          "states": "Empathetic, curious, encouraging",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Ella",
+          "character_id": 1,
+          "action": "Suggests focusing on IT goals",
+          "dialogue": "Adrian, I know you're torn, but NITIE is the safer bet for your IT career. It has a strong brand and better placement stats. You've always been about future security, right?"
+        },
+        {
+          "action_id": 1,
+          "character": "Molly",
+          "character_id": 2,
+          "action": "Challenges Adrian to consider passion",
+          "dialogue": "But what about your passion for social impact? XLRI gives you the chance to work on meaningful projects. You've always talked about wanting to make a difference."
+        },
+        {
+          "action_id": 2,
+          "character": "Adrian Hicks",
+          "character_id": 0,
+          "action": "Expresses his inner conflict",
+          "dialogue": "I just don't want to miss out on either. NITIE is solid, but XLRI feels like the right fit for me. I'm scared of making the wrong choice."
+        },
+        {
+          "action_id": 3,
+          "character": "Ella",
+          "character_id": 1,
+          "action": "Reassures Adrian",
+          "dialogue": "You've always been thoughtful about your choices. Whatever you pick, just make sure it aligns with your long-term goals. I'm here for you, no matter what."
+        },
+        {
+          "action_id": 4,
+          "character": "Molly",
+          "character_id": 2,
+          "action": "Offers perspective on personal growth",
+          "dialogue": "Sometimes the best choices are the ones that scare you a little. Think about what will make you happy in five years, not just what's secure."
+        }
+      ],
+      "plot": "Adrian, a graduating BIT student, is struggling to decide between two prestigious admission offers: NITIE and XLRI. His friends, Ella and Molly, represent two different viewpoints—pragmatism and idealism—helping him explore his values and fears. Through their conversation, Adrian begins to reflect on what truly matters to him, seeking a balance between academic excellence, future security, and personal passion.",
+      "social_purpose": "This interaction highlights the importance of friendship and support during major life decisions. It also showcases how differing perspectives can help someone clarify their own values and goals.",
+      "chunk": {
+        "id": 0,
+        "text": "Adrian Hicks sat at the corner table of the café, the evening light casting a golden hue across the worn wooden surface. His fingers traced the rim of his untouched coffee cup as he stared out the window, his mind a battlefield of conflicting desires. Ella, ever the voice of reason, leaned forward, her calm tone cutting through the silence. 'NITIE is the safer bet for your IT career,' she said, her eyes steady. Across from her, Molly flipped through her notebook, her voice soft but insistent. 'But what about your passion for social impact?' she asked. Adrian sighed, the weight of the decision pressing down on him. 'I just don't want to miss out on either,' he replied, his voice barely above a whisper. The two friends exchanged glances, knowing that this was more than just an academic choice—it was a test of who Adrian truly was."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

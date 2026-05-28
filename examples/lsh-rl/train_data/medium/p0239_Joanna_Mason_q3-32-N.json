@@ -1,0 +1,95 @@
+{
+  "title": "The Beer Tasting Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Beer Tasting Event",
+      "time": "Evening",
+      "location": "Local College Bar",
+      "description": "Joanna, Sara, and Lucy are gathered in a cozy corner of the bar for a local beer tasting event. A flyer on the wall promises a $250 prize for the first person to finish all 10 samples and give a detailed review. The group is discussing whether to participate.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Joanna Mason",
+          "gender": "Female College Student, 22 years old",
+          "description": "Joanna is hesitant but curious about the reward. She is self-conscious about her dislike of beer and wants to stay honest with her friends.; Female College Student, 22 years old; Occupation: College Student; Personality: Hesitant, Curious, Pragmatic, Self-conscious; Values: Personal Comfort, Financial Independence, Honesty; Interests: Reading, Shopping, Socializing; Experiences: Part-time Job, Academic Study, Social Activities",
+          "position": "Sitting with Sara and Lucy",
+          "states": "Torn between her values and the reward",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Sara",
+          "gender": "Female College Student, 23 years old",
+          "description": "Sara is enthusiastic and eager to try new things; Female; Age: 23; Occupation: Marketing major with part-time work in event promotion; Personality: Curious, optimistic, impulsive; Values: Adventure, financial independence, friendship; Interests: Sampling local brews, social media content creation, live music; Experiences: Worked at a campus festival where she tried her first craft beer, successfully promoted a student club through viral Instagram posts, bar-hopped with friends during spring break.",
+          "position": "Sitting next to Joanna",
+          "states": "Excited and encouraging",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Lucy",
+          "gender": "Female College Student, 21 years old",
+          "description": "Lucy is more skeptical and cautious; Female; Age: 21; Occupation: Psychology major; Personality: Analytical, reserved, health-conscious; Values: Integrity, personal well-being; Interests: Reading self-help books, journaling, mindfulness practices; Experiences: Witnessed a friend's alcohol-related accident, volunteered at a campus wellness center, studied the effects of peer pressure in social settings.",
+          "position": "Across from Joanna",
+          "states": "Doubtful and observant",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Sara",
+          "character_id": 1,
+          "action": "Encourages Joanna to participate",
+          "dialogue": "Come on, Joanna! This is a perfect chance to earn some extra cash. You just need to give it a try!"
+        },
+        {
+          "action_id": 1,
+          "character": "Joanna Mason",
+          "character_id": 0,
+          "action": "Expresses hesitation",
+          "dialogue": "I don't know, Sara. I really don't like beer. It just doesn't sit well with me."
+        },
+        {
+          "action_id": 2,
+          "character": "Lucy",
+          "character_id": 2,
+          "action": "Voices concerns",
+          "dialogue": "I mean, it's $250, but is it worth it if you're uncomfortable? It might not be honest to pretend you like it."
+        },
+        {
+          "action_id": 3,
+          "character": "Joanna Mason",
+          "character_id": 0,
+          "action": "Considers the options",
+          "dialogue": "I get that. But I also need to pay my bills. Maybe I can just try a few and see how I feel?"
+        },
+        {
+          "action_id": 4,
+          "character": "Sara",
+          "character_id": 1,
+          "action": "Supports the compromise",
+          "dialogue": "That's a good idea! At least you're giving it a shot without forcing yourself to do all 10."
+        },
+        {
+          "action_id": 5,
+          "character": "Lucy",
+          "character_id": 2,
+          "action": "Offers to help",
+          "dialogue": "I can help you with the review part if you want. I've written a few for class before."
+        }
+      ],
+      "plot": "Joanna is trying to decide whether to participate in a beer tasting event for a $250 prize. Her friends Sara and Lucy have different perspectives: Sara is eager and supportive, while Lucy is skeptical and cautious. The group's interaction reflects Joanna's inner conflict and her desire to balance personal comfort with financial need.",
+      "social_purpose": "To explore the tension between personal values and financial incentives in a social setting, and how friends influence and support each other in making difficult decisions.",
+      "chunk": {
+        "id": 0,
+        "text": "Joanna is at a crossroads. She wants to earn the $250 prize but is uncomfortable with the idea of drinking beer. Her friends offer different perspectives, and she must decide whether to take the challenge or walk away, staying true to her values."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

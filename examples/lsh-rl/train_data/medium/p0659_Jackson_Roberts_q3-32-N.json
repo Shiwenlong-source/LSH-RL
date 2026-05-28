@@ -1,0 +1,98 @@
+{
+  "title": "A Divided Congregation",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Church Council Meeting",
+      "time": "10:00 AM on a Sunday",
+      "location": "Backroom of Grace Fellowship Church",
+      "description": "Jackson Roberts, the pastor of Grace Fellowship Church, stands at the head of a long table, flanked by members of the church council. The room is tense as they debate the Southern Baptist Convention's (SBC) latest resolution on social issues. Jackson is trying to mediate between those who support the resolution and those who oppose it, including himself and Tong, a church elder who favors a more measured approach.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Jackson Roberts",
+          "gender": "Male",
+          "description": "A 45-year-old pastor with a calm, analytical demeanor. He is deeply committed to his faith and the unity of the church.; Male, Religious Leader, 45 years old; Occupation: Pastor; Personality: Firm, Compassionate, Analytical; Values: Faith, Unity, Integrity; Interests: Spiritual Leadership, Community Building, Ethical Debates; Experiences: Pastoral training, Church leadership, Mediating conflicts, Organizing community activities, Participating in theological discussions",
+          "position": "Pastor",
+          "states": "Firm, Compassionate, Analytical",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Tong",
+          "gender": "Male",
+          "description": "A thoughtful and diplomatic church elder in his 60s who values understanding and dialogue over immediate action; Male; Age: 64; Occupation: Retired High School Theology Teacher and Church Council Member; Personality: Analytical, Compassionate, Patient; Values: Unity in diversity, Moral integrity through education, Peaceful conflict resolution; Interests: Reading theological debates, Walking in the church garden, Mentoring young leaders; Experiences: Led interfaith discussions during a community crisis, Mediated a split in the youth ministry over differing views, Taught ethics and philosophy for over 30 years.",
+          "position": "Elder",
+          "states": "Calm, Thoughtful, Diplomatic",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Maggie Carter",
+          "gender": "Female",
+          "description": "A passionate young member of the church in her 30s who is emotionally invested in the issue and wants the church to take a strong stance; Female; Age: 34; Occupation: Youth Ministry Coordinator; Personality: Zealous, Empathetic, Determined; Values: Faithfulness, Social Justice, Community; Interests: Bible study, mentoring teenagers, community outreach; Experiences: Led a successful youth initiative on moral education, volunteered at a local homeless shelter, grew up in a family active in church leadership.",
+          "position": "Church Member",
+          "states": "Passionate, Concerned, Fiercely Devout",
+          "is_npc": true
+        },
+        {
+          "id": 3,
+          "name": "David Miller",
+          "gender": "Male",
+          "description": "A pragmatic and middle-aged deacon; Male; Age: 54; Occupation: Small business owner and financial consultant; Personality: Pragmatic, Concerned, Logical, Diplomatic, Responsible; Values: Stability, Community, Faithfulness, Stewardship; Interests: Church financial planning, Local politics, Classic cars, Family time; Experiences: Led church budget reforms during economic downturn, Mediated conflicts between church members over property disputes, Served on the SBC regional finance committee.",
+          "position": "Deacon",
+          "states": "Pragmatic, Concerned, Logical",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Jackson Roberts",
+          "character_id": 0,
+          "action": "Opening the meeting",
+          "dialogue": "Thank you all for being here. I know this is a difficult and emotional topic, but let's approach it with reason and with the Gospel at the center of our discussion."
+        },
+        {
+          "action_id": 1,
+          "character": "Maggie Carter",
+          "character_id": 2,
+          "action": "Expressing frustration",
+          "dialogue": "Pastor, how can we even consider staying with the SBC after they passed that resolution? It feels like they're abandoning our core values."
+        },
+        {
+          "action_id": 2,
+          "character": "Tong",
+          "character_id": 1,
+          "action": "Advocating for understanding",
+          "dialogue": "Maggie, I understand your anger. But I believe we should take time to understand their reasoning before we decide to cut ties. The Gospel teaches us to love, not to rush into judgment."
+        },
+        {
+          "action_id": 3,
+          "character": "David Miller",
+          "character_id": 3,
+          "action": "Raising practical concerns",
+          "dialogue": "I agree with Tong, but we also need to think about the practical side. If we leave the SBC, we risk losing funding and partnerships. We must consider the long-term impact on the church community."
+        },
+        {
+          "action_id": 4,
+          "character": "Jackson Roberts",
+          "character_id": 0,
+          "action": "Calling for unity",
+          "dialogue": "I share your concerns, David, and your frustrations, Maggie. But as your pastor, I urge us to hold fast to our values of faith and unity. We must find a way forward that honors both."
+        }
+      ],
+      "plot": "Jackson Roberts leads a council meeting to address the congregation's growing division over the SBC's recent resolution. While Maggie Carter is emotionally driven to sever ties, Tong and David Miller advocate for a more measured and practical approach. Jackson must navigate the tension and guide the group toward a decision that upholds the church's integrity and values.",
+      "social_purpose": "To explore how differing values and personalities within a community can influence decision-making, and how a leader can balance emotion with reason to maintain unity.",
+      "chunk": {
+        "id": 0,
+        "text": "Jackson Roberts leads a council meeting to address the congregation's growing division over the SBC's recent resolution. While Maggie Carter is emotionally driven to sever ties, Tong and David Miller advocate for a more measured and practical approach. Jackson must navigate the tension and guide the group toward a decision that upholds the church's integrity and values."
+      },
+      "npcs": [
+        1,
+        2,
+        3
+      ]
+    }
+  ]
+}

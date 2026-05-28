@@ -1,0 +1,109 @@
+{
+  "title": "Awakening and Ambiguity",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Church Youth Fellowship Meeting",
+      "time": "Saturday Afternoon, 3:00 PM",
+      "location": "St. Michael's Church Fellowship Room",
+      "description": "The fellowship room is modest but warmly lit, with a few folding tables and chairs arranged in a circle. Nicholas sits between Angel and Kira, both of whom are longtime members of the youth group. Angel, a bubbly and supportive 20-year-old college student, has a habit of reading the room and bringing up topics others avoid. Kira, a quiet and thoughtful 22-year-old, is known for her deep spiritual insights and occasional blunt honesty. The group is preparing for a short discussion on the impact of recent faith camp experiences.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Nicholas Crawford",
+          "gender": "Male",
+          "description": "A 24-year-old student and church youth fellowship member who recently returned from a faith camp. He is contemplative, introspective, and faith-driven, but is currently torn between his spiritual awakening and his romantic feelings for Kira.; Male/Church Fellowship Member, 24 years old; Occupation: Student; Personality: Contemplative, Introspective, Faith-driven; Values: Spiritual Growth, Honesty, Community; Interests: Faith Exploration, Personal Reflection, Group Discussion; Experiences: Attended Faith Camp, Participating in Church Youth Fellowship, Dealing with Conflict between Feelings and Faith",
+          "position": "Center of the circle",
+          "states": "Tense, contemplative, slightly anxious",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Angel",
+          "gender": "Female",
+          "description": "Angel; Female; Age: 20; Occupation: Part-time youth group coordinator and college student majoring in Religious Studies; Personality: Empathetic, observant, enthusiastic; Values: Community, authenticity, spiritual growth; Interests: Organizing group activities, journaling personal reflections on faith, listening to Christian podcasts; Experiences: Led small group discussions at previous youth events, volunteered at a local outreach program for underprivileged teens, attended a faith camp where she formed close bonds with fellow attendees.",
+          "position": "To Nicholas's left",
+          "states": "Supportive, slightly curious",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Kira",
+          "gender": "Female",
+          "description": "Kira is a quiet and thoughtful 22-year-old; Female; Age: 22; Occupation: Part-time youth ministry assistant at St. Michael's Church; Personality: Introspective, compassionate, bluntly honest; Values: Faith, authenticity, community; Interests: Reading theological texts, journaling personal reflections, nature walks for meditation; Experiences: Attended multiple faith camps since high school, led a small Bible study group for teens, recently went through a personal spiritual crisis that deepened her commitment to her beliefs.",
+          "position": "To Nicholas's right",
+          "states": "Thoughtful, slightly guarded",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Angel",
+          "character_id": 1,
+          "action": "Asks Nicholas about his experience at the faith camp",
+          "dialogue": "So, Nicholas, we heard you had a really impactful time at the camp. What did you take away from it?"
+        },
+        {
+          "action_id": 1,
+          "character": "Nicholas Crawford",
+          "character_id": 0,
+          "action": "Pauses, then speaks thoughtfully",
+          "dialogue": "It was... life-changing. I felt a real connection to God, like I was being called to a deeper commitment to my faith. It's hard to put into words, but I just feel more... grounded now."
+        },
+        {
+          "action_id": 2,
+          "character": "Kira",
+          "character_id": 2,
+          "action": "Leans forward, responding with interest",
+          "dialogue": "That's beautiful, Nicholas. I've been thinking about how our spiritual growth affects our daily lives. It must have been hard to come back to the real world after such an intense experience."
+        },
+        {
+          "action_id": 3,
+          "character": "Angel",
+          "character_id": 1,
+          "action": "Changes the tone subtly",
+          "dialogue": "I know you've been spending a lot of time together, Kira. I wonder if that's part of what brought Nicholas back to the group so strongly."
+        },
+        {
+          "action_id": 4,
+          "character": "Nicholas Crawford",
+          "character_id": 0,
+          "action": "Looks down, then meets Kira's gaze briefly",
+          "dialogue": "I... I don't know. I feel like I need to focus on my faith right now, but I also care a lot about what I have with Kira. It's complicated."
+        },
+        {
+          "action_id": 5,
+          "character": "Kira",
+          "character_id": 2,
+          "action": "Nods and speaks gently",
+          "dialogue": "I get that. Faith can sometimes challenge the things we think we know about ourselves. I just hope we can both find clarity, Nicholas."
+        },
+        {
+          "action_id": 6,
+          "character": "Angel",
+          "character_id": 1,
+          "action": "Encourages open discussion",
+          "dialogue": "Maybe this is a good time for all of us to talk about how we're balancing our personal lives with our spiritual journeys. I know it's not always easy."
+        },
+        {
+          "action_id": 7,
+          "character": "Nicholas Crawford",
+          "character_id": 0,
+          "action": "Shares a moment of vulnerability",
+          "dialogue": "I think I'm trying to figure out if my feelings for Kira are something God wants me to pursue or if I need to step back and focus on my walk with Him."
+        }
+      ],
+      "plot": "Nicholas is trying to reconcile his recent spiritual awakening with his feelings for Kira. Angel gently probes the situation, creating a space for him to open up, while Kira offers quiet support. Their conversation reflects the group's shared goal of spiritual growth and community, but also highlights the personal conflict Nicholas is facing.",
+      "social_purpose": "To explore how Nicholas's spiritual values and personal feelings intersect, and how the community supports him in making decisions aligned with his faith and identity.",
+      "chunk": {
+        "id": 0,
+        "text": "Nicholas's journey at the faith camp has brought him closer to his beliefs, but it has also forced him to confront his feelings for Kira. The group's discussion offers a safe space for him to reflect, showing the importance of community and honesty in his spiritual growth."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "title": "Raid Team Tensions",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Guild meeting in an online game chat room",
+      "time": "10:30 PM",
+      "location": "Virtual Guild Hall (online game chat)",
+      "description": "The guild's late-night meeting is in full swing, with members discussing the upcoming raid. The chat room is chaotic, with multiple people talking over each other. Oliver is sitting at his desk, trying to focus, but the disarray is getting to him.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Oliver Mitchell",
+          "gender": "Male",
+          "description": "Veteran gamer and team leader, 30 years old. He's known for his strategic mind and self-discipline, but is visibly frustrated by the current situation.; Male, veteran gamer and team leader, 30 years old; Occupation: Game Development Team Lead; Personality: Self-disciplined, Strategic thinker, Irritable, Strong sense of responsibility; Values: Teamwork, Order, Responsibility; Interests: Online gaming, Tactical planning, Problem-solving; Experiences: Leading raid activities, Handling team conflicts, Experiencing team dissolution",
+          "position": "Moderator",
+          "states": "Frustrated, determined, conflicted",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Lily Chen",
+          "gender": "Female",
+          "description": "A skilled healer with a lot of potential, but lacks confidence and leadership; Female; Age: 22; Occupation: Guild Healer; Personality: Compassionate, introverted, perfectionistic; Values: Teamwork, personal growth; Interests: Herbalism, studying healing techniques; Experiences: Survived a deadly in-game plague with her guild, struggled to assert herself during a high-stakes raid.",
+          "position": "Healer",
+          "states": "Anxious, desperate, hopeful",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Zoe Ramirez",
+          "gender": "Female",
+          "description": "A talented damage dealer who recently caused a rift in the team due to poor communication; Female; Age: 24; Occupation: Software Developer; Personality: Apologetic, impulsive, passionate; Values: Teamwork, accountability, loyalty; Interests: Competitive PvP, streaming, strategy games; Experiences: Led a successful solo campaign that went viral, accidentally triggered a team wipe during a high-stakes raid, mentored new players in the guild.",
+          "position": "Damage Dealer",
+          "states": "Guilt-ridden, apologetic, nervous",
+          "is_npc": true
+        },
+        {
+          "id": 3,
+          "name": "Max Taylor",
+          "gender": "Male",
+          "description": "Tank and long-time member of the guild; Male; Age: 32; Occupation: Paramedic; Personality: Calm, supportive, concerned; Values: Teamwork, responsibility, loyalty; Interests: Strategy games, fitness training, mentoring new players; Experiences: Led guild through a major in-game conflict, has a real-life background in emergency response, helped organize multiple successful raids.",
+          "position": "Tank",
+          "states": "Calm, supportive, concerned",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Lily Chen",
+          "character_id": 1,
+          "action": "Typing a message",
+          "dialogue": "Hey everyone, I really need help with my rotation for the next boss. I don't want to let the team down."
+        },
+        {
+          "action_id": 1,
+          "character": "Zoe Ramirez",
+          "character_id": 2,
+          "action": "Typing an apology",
+          "dialogue": "I'm sorry for not sticking to the plan last time. I know I messed up, and I want to fix it."
+        },
+        {
+          "action_id": 2,
+          "character": "Oliver Mitchell",
+          "character_id": 0,
+          "action": "Responding to Lily",
+          "dialogue": "Lily, I'll help you, but we need to get this sorted quickly. We can't afford mistakes in the raid."
+        },
+        {
+          "action_id": 3,
+          "character": "Max Taylor",
+          "character_id": 3,
+          "action": "Trying to calm the chat",
+          "dialogue": "Let's all take a breath. We're here to solve problems, not create more chaos."
+        },
+        {
+          "action_id": 4,
+          "character": "Oliver Mitchell",
+          "character_id": 0,
+          "action": "Addressing Zoe",
+          "dialogue": "Zoe, your apology is noted. But actions speak louder than words. Let's see if you can prove it in the next fight."
+        },
+        {
+          "action_id": 5,
+          "character": "Lily Chen",
+          "character_id": 1,
+          "action": "Expressing gratitude",
+          "dialogue": "Thank you, Oliver. I'll make sure to follow your guidance closely this time."
+        },
+        {
+          "action_id": 6,
+          "character": "Zoe Ramirez",
+          "character_id": 2,
+          "action": "Committing to change",
+          "dialogue": "I'll do everything I can to follow the plan and support the team, Oliver. I owe it to everyone here."
+        },
+        {
+          "action_id": 7,
+          "character": "Oliver Mitchell",
+          "character_id": 0,
+          "action": "Setting the plan",
+          "dialogue": "Alright, let's outline the strategy. Max, you'll lead the tank rotations. Lily, stick to the healing phases I'll assign. Zoe, you're on my rotation for the first phase. Let's make this work or it's over."
+        }
+      ],
+      "plot": "The guild is preparing for an important raid, but communication issues and a recent mistake by Zoe have caused tension. Oliver, the team leader, is struggling with the chaos and exhaustion of managing a disorganized team. Lily seeks help, and Zoe offers an apology, prompting Oliver to decide whether to continue leading the team or let it fall apart.",
+      "social_purpose": "To showcase the protagonist's values of teamwork, order, and responsibility, while also highlighting his internal conflict between persistence and giving up. The interactions with Lily and Zoe naturally reveal his personality traits and experiences.",
+      "chunk": {
+        "id": 0,
+        "text": "The guild meeting is a test of Oliver's leadership and patience. The disarray in the chat room reflects the state of the team, and his response to Lily's plea and Zoe's apology will determine whether the group can come together or fall apart completely."
+      },
+      "npcs": [
+        1,
+        2,
+        3
+      ]
+    }
+  ]
+}

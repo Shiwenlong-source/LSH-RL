@@ -1,0 +1,123 @@
+{
+  "title": "A Shared Interest in the Library",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Irene and her friend Hong are studying in the library when they encounter Jack, a boy who shares an interest in literature.",
+      "time": "Afternoon",
+      "location": "Local public library, study area",
+      "description": "The library is quiet, with the soft hum of pages turning and the occasional rustle of chairs. Irene is sitting at a table with her friend Hong, both of them buried in books. Jack, an 18-year-old boy with a casual demeanor and a love for classic novels, walks by and stops to look at the book Irene is reading.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Irene Hunt",
+          "gender": "Female",
+          "description": "18-year-old high school student who is shy but curious and imaginative. She is often found in the library, where she feels most comfortable.; 18-year-old female, high school student, 18 years old; Occupation: High school student; Personality: Shy, Curious, Imaginative, Eager; Values: Friendship, Intellectual growth, Emotional sincerity; Interests: Reading, Literature, Observing others, Daydreaming; Experiences: Frequent library visits, Crush experiences, Social anxiety, Close friendships, Academic focus",
+          "position": "At the table, reading a book",
+          "states": "Nervous, excited, flustered",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Hong",
+          "gender": "",
+          "description": "Irene's close friend, known for being outgoing and observant. She enjoys teasing Irene playfully; Female; Age: 18; Occupation: High school senior; Personality: Charming, witty, empathetic; Values: Friendship, intellectual curiosity, kindness; Interests: Literature, people-watching, creative writing; Experiences: Participated in the school's debate club, organized a poetry night at the library, made many close friends through shared study sessions.",
+          "position": "Sitting next to Irene, watching the interaction",
+          "states": "Amused, teasing, supportive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Jack",
+          "gender": "",
+          "description": "18-year-old boy who is confident, articulate, and has a passion for literature; Male; Age: 18; Occupation: High school senior; Personality: Curious, friendly, observant; Values: Knowledge, respect for others, personal growth; Interests: Classic novels, poetry, independent study; Experiences: Recently moved to the area and started exploring local libraries, joined his school’s literary magazine as an editor, spent summers reading in his grandfather’s study.",
+          "position": "Standing near the table, looking at Irene's book",
+          "states": "Curious, friendly, observant",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Hong",
+          "character_id": 1,
+          "action": "notices Jack looking at Irene's book and nudges her",
+          "dialogue": "Hong whispers to Irene, 'You're staring at that book so intensely, I'm surprised it hasn't caught fire.'"
+        },
+        {
+          "action_id": 1,
+          "character": "Irene Hunt",
+          "character_id": 0,
+          "action": "looks up quickly and blushes",
+          "dialogue": "Irene stammers, 'Oh, I-I didn't notice anyone was watching. I just really like this book.'"
+        },
+        {
+          "action_id": 2,
+          "character": "Jack",
+          "character_id": 2,
+          "action": "approaches the table and introduces himself",
+          "dialogue": "Jack says, 'Hi, I'm Jack. I couldn't help but notice you're reading *Pride and Prejudice*. I just finished it last week.'"
+        },
+        {
+          "action_id": 3,
+          "character": "Irene Hunt",
+          "character_id": 0,
+          "action": "tries to respond politely but is flustered",
+          "dialogue": "Irene says, 'Oh, really? I love that book. I’ve read it a few times, but I’m always finding new things to think about.'"
+        },
+        {
+          "action_id": 4,
+          "character": "Hong",
+          "character_id": 1,
+          "action": "interjects with a teasing comment",
+          "dialogue": "Hong laughs, 'Looks like someone here has a literary crush!'"
+        },
+        {
+          "action_id": 5,
+          "character": "Jack",
+          "character_id": 2,
+          "action": "joins the conversation and asks about Irene's favorite book",
+          "dialogue": "Jack says, 'That’s awesome. What’s your favorite book of all time? I’d love to hear your thoughts.'"
+        },
+        {
+          "action_id": 6,
+          "character": "Irene Hunt",
+          "character_id": 0,
+          "action": "responds thoughtfully, trying to hide her excitement",
+          "dialogue": "Irene says, 'I think it’s *The Great Gatsby*. The way Fitzgerald writes about dreams and the American experience really moves me.'"
+        },
+        {
+          "action_id": 7,
+          "character": "Jack",
+          "character_id": 2,
+          "action": "reacts positively and shares his own interest in Gatsby",
+          "dialogue": "Jack replies, 'That’s a great choice. I’ve always been fascinated by Gatsby’s longing for something just out of reach. It’s kind of like how we all feel about the future, right? Uncertain but full of hope.'"
+        },
+        {
+          "action_id": 8,
+          "character": "Hong",
+          "character_id": 1,
+          "action": "encourages Jack to sit with them",
+          "dialogue": "Hong says, 'Jack, you can sit with us. We were just discussing the symbolism in Gatsby’s parties.'"
+        },
+        {
+          "action_id": 9,
+          "character": "Jack",
+          "character_id": 2,
+          "action": "accepts the invitation and sits down",
+          "dialogue": "Jack says, 'Thanks, I’d love to. I’ve got some theories I’d like to share.'"
+        }
+      ],
+      "plot": "Irene is studying in the library with her friend Hong when Jack, a boy she has a crush on, approaches and starts a conversation about literature. Hong teases Irene, but also helps facilitate a connection between her and Jack. Irene, despite her initial shyness, finds herself engaging in a meaningful discussion about her favorite book, *The Great Gatsby*, and Jack shares his own insights. The interaction feels like a turning point for Irene, who is usually more reserved in social settings.",
+      "social_purpose": "To showcase Irene's shyness and eagerness for intellectual and emotional connections, while also highlighting her close friendship with Hong and her passion for literature. The scenario allows for the development of a new social relationship with Jack, who shares her interests and helps her feel more at ease.",
+      "chunk": {
+        "id": 0,
+        "text": "Irene and Hong are in the library, surrounded by books and quiet. Hong teases Irene for being too absorbed in her reading, but Irene is just being her usual self—curious and imaginative, drawn to the stories on the page. Jack, who has been watching from a distance, finally approaches and starts a conversation about *Pride and Prejudice*. Irene is flustered at first, but Hong's teasing and Jack's genuine interest in literature help her open up. As they discuss *The Great Gatsby*, Irene feels a sense of connection and emotional sincerity that she has been longing for in her routine high school life."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

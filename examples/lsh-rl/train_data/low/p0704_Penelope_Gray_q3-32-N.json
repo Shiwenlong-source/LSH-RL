@@ -1,0 +1,91 @@
+{
+  "title": "The Final Decision",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Team meeting before a major competition",
+      "time": "10:00 AM",
+      "location": "U.S. Synchronized Swimming Team Locker Room",
+      "description": "The team is gathered for a final meeting before a major international competition. Tension is high as they prepare to make a decision about the opening performance lineup. Penelope Gray, the team captain, is at the center of the discussion.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Penelope Gray",
+          "gender": "Female",
+          "description": "28-year-old national team captain known for her leadership and emotional connection with her teammates.; Female, National Team Captain, 28 years old; Occupation: Synchronized Swimming Team Captain; Personality: Responsible, Empathetic, Determined, Deliberate; Values: Team Cohesion, Integrity, Emotional Connection; Interests: Team Sports, Leadership Development, Performing Arts; Experiences: Leading a national team, High-pressure competitions, Team building activities",
+          "position": "Team Captain",
+          "states": "Stressed, thoughtful, determined",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Coach Yuna",
+          "gender": "Female",
+          "description": "Experienced and respected coach with a strong emphasis on symbolism and team unity in performance; Female; Age: 48; Occupation: Head Coach of the U.S. Synchronized Swimming Team; Personality: Calm, authoritative, encouraging; Values: Teamwork, perseverance, artistic expression; Interests: Choreography, classical music, mentoring young athletes; Experiences: Olympic coaching success, leading teams through high-pressure international qualifiers, former competitive synchronized swimmer herself.",
+          "position": "Head Coach",
+          "states": "Calm, authoritative, encouraging",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Tina Ramirez",
+          "gender": "Female",
+          "description": "Assistant coach and team strategist, focused on efficiency and performance outcomes; Female; Age: 34; Occupation: Synchronized Swimming Assistant Coach and Performance Analyst; Personality: Urgent, pragmatic, supportive; Values: Team success, precision, adaptability; Interests: Sports psychology, data-driven training methods, mentoring young athletes; Experiences: Led strategy for U.S. team at the 2023 World Aquatics Championships, helped develop a rising star into an Olympic medalist, managed high-pressure team dynamics during a controversial lineup decision.",
+          "position": "Assistant Coach",
+          "states": "Urgent, pragmatic, supportive",
+          "is_npc": true
+        },
+        {
+          "id": 3,
+          "name": "Lila Chen",
+          "gender": "Female",
+          "description": "Senior team member and Penelope’s close friend, known for her loyalty and emotional support; Female; Age: 27; Occupation: Choreographer and team mentor; Personality: Compassionate, reliable, observant; Values: Team unity, perseverance, integrity; Interests: Music composition, yoga, mentoring young athletes; Experiences: Led the team through a difficult comeback after a national championship loss, helped Penelope recover from a major injury through emotional and technical guidance, competed internationally in her early career as a synchronized swimmer.",
+          "position": "Team Member",
+          "states": "Supportive, empathetic, concerned",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Coach Yuna",
+          "character_id": 1,
+          "action": "Addresses the team and focuses on Penelope’s role.",
+          "dialogue": "Penelope, as our captain, your position at the front of the lineup isn’t just about skill—it’s about symbolizing unity and strength. The world is watching, and we need you to lead with heart."
+        },
+        {
+          "action_id": 1,
+          "character": "Tina Ramirez",
+          "character_id": 2,
+          "action": "Urges Penelope to make a decision.",
+          "dialogue": "We don’t have much time left, Penelope. The lineup needs to be finalized. What’s your call?"
+        },
+        {
+          "action_id": 2,
+          "character": "Penelope Gray",
+          "character_id": 0,
+          "action": "Responds thoughtfully and deliberately.",
+          "dialogue": "I know this is important. I’ve been thinking about it a lot. I want to be there with the team, not just for the spotlight. I believe in us as a group, and I want to show that."
+        },
+        {
+          "action_id": 3,
+          "character": "Lila Chen",
+          "character_id": 3,
+          "action": "Expresses gratitude and reassurance.",
+          "dialogue": "Thank you, Pen. That means a lot. We’re all in this together, and we’ll make it shine."
+        }
+      ],
+      "plot": "Penelope is asked to confirm her position in the opening lineup for an international competition. While she values her individuality and comfort, she ultimately chooses to stand with her team, reinforcing her commitment to team cohesion and collective success. The decision is made with the support of her coach and teammates.",
+      "social_purpose": "To highlight Penelope’s internal conflict between personal comfort and team expectations, and to showcase her values of unity, integrity, and emotional connection through a concrete decision in a public setting.",
+      "chunk": {
+        "id": 0,
+        "text": "Coach Yuna spoke first, her calm tone cutting through the tension in the room. 'Penelope, as our captain, your position at the front of the lineup isn’t just about skill—it’s about symbolizing unity and strength. The world is watching, and we need you to lead with heart.' Tina, standing beside her, leaned forward slightly. 'We don’t have much time left, Penelope. The lineup needs to be finalized. What’s your call?' Her urgency was palpable, but Penelope appreciated it—Tina always kept them grounded in the reality of the competition. Penelope took a deep breath. 'I know this is important,' she said, her voice steady. 'I’ve been thinking about it a lot. I want to be there with the team, not just for the spotlight. I believe in us as a group, and I want to show that.' A quiet murmur of relief and approval spread through the room. Lila, who had been sitting beside her, gave Penelope a small smile. 'Thank you, Pen. That means a lot. We’re all in this together, and we’ll make it shine.' Penelope nodded, feeling the weight of the decision settle into place. It wasn’t just about her—it was about the team. And that was where she belonged."
+      },
+      "npcs": [
+        1,
+        2,
+        3
+      ]
+    }
+  ]
+}

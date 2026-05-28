@@ -1,0 +1,95 @@
+{
+  "title": "The Breaking Point",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Startup Team Meeting",
+      "time": "11:00 PM",
+      "location": "Corner Table at a 24-Hour Café",
+      "description": "Ryan, Leon, and Tina sit in a dimly lit café, the only sound being the soft hum of the espresso machine and the clinking of cups. A laptop sits open in front of Ryan, its screen glowing with lines of code and project timelines. The atmosphere is tense, with each person lost in their own thoughts.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Ryan Cole",
+          "gender": "Male",
+          "description": "32-year-old startup partner, calm and introverted. He's struggling with the decision to continue or end the partnership due to growing disagreements.; Male, Startup Partner, 32 years old; Occupation: Startup Company Partner; Personality: Calm, Introverted, Firm, Conflicted; Values: Integrity, Teamwork, Pragmatism; Interests: Technology, Entrepreneurship, Problem Solving; Experiences: Co-founding a company, Experienced project disagreements, Staying up late working on business plans, Handling team conflicts",
+          "position": "Seated at the center, laptop open",
+          "states": "Tense, conflicted, silent",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Leon Harris",
+          "gender": "Male",
+          "description": "35-year-old startup partner, passionate and impulsive; Male; Age: 35; Occupation: Co-founder and Chief Product Officer of a tech startup; Personality: Driven, impatient, charismatic; Values: Innovation, loyalty, perseverance; Interests: Entrepreneurship, gaming, urban exploration; Experiences: Successfully scaled a previous startup before a failed acquisition, recently lost key team members due to internal conflict.",
+          "position": "Leaning forward, arms on the table",
+          "states": "Frustrated, desperate, anxious",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Tina Lee",
+          "gender": "Female",
+          "description": "29-year-old startup partner, diplomatic and empathetic; Female; Age: 29; Occupation: Co-founder and Product Strategist at a tech startup; Personality: Analytical, patient, observant; Values: Collaboration, integrity, innovation; Interests: Urban planning, indie music, journaling; Experiences: Led a failed product launch that taught her the importance of team alignment, spent a year working in a cross-cultural tech incubator in Southeast Asia",
+          "position": "Sitting to the left of Ryan",
+          "states": "Calm, concerned, trying to remain neutral",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Leon Harris",
+          "character_id": 1,
+          "action": "Express frustration",
+          "dialogue": "This is pointless. We're not even on the same page anymore. Why are we still pretending everything's okay?"
+        },
+        {
+          "action_id": 1,
+          "character": "Tina Lee",
+          "character_id": 2,
+          "action": "Attempt to mediate",
+          "dialogue": "Leon, I know we're not perfect, but we've come too far to give up now. Maybe we just need a break to regroup."
+        },
+        {
+          "action_id": 2,
+          "character": "Ryan Cole",
+          "character_id": 0,
+          "action": "Respond thoughtfully",
+          "dialogue": "I agree with Tina. We all want the project to succeed. But I can't ignore the cracks forming in our team. We need to decide if we're still aligned."
+        },
+        {
+          "action_id": 3,
+          "character": "Leon Harris",
+          "character_id": 1,
+          "action": "React emotionally",
+          "dialogue": "Aligned? You think I'm not trying? I've poured everything into this, and now you're asking me if we're still aligned?"
+        },
+        {
+          "action_id": 4,
+          "character": "Tina Lee",
+          "character_id": 2,
+          "action": "Acknowledge the tension",
+          "dialogue": "Leon, I'm not saying you haven't. But maybe we're all just tired. We can't keep working like this."
+        },
+        {
+          "action_id": 5,
+          "character": "Ryan Cole",
+          "character_id": 0,
+          "action": "Make a pragmatic suggestion",
+          "dialogue": "What if we take a week off and reassess? No meetings, no pressure. Just time to think."
+        }
+      ],
+      "plot": "Ryan, Leon, and Tina are meeting late at night to discuss the future of their startup. Tensions have risen due to disagreements over the project's direction, and the fragile partnership is on the verge of collapse. Ryan is torn between his sense of integrity and the need for pragmatism, while Leon is desperate to keep the project going. Tina tries to mediate and find a solution that preserves both the project and the team.",
+      "social_purpose": "To explore the internal conflict and values of Ryan as he navigates the deteriorating dynamics of his startup team. The interaction highlights the importance of teamwork, the challenges of entrepreneurship, and the emotional toll of disagreements.",
+      "chunk": {
+        "id": 0,
+        "text": "Ryan, Leon, and Tina are meeting late at night to discuss the future of their startup. Tensions have risen due to disagreements over the project's direction, and the fragile partnership is on the verge of collapse. Ryan is torn between his sense of integrity and the need for pragmatism, while Leon is desperate to keep the project going. Tina tries to mediate and find a solution that preserves both the project and the team."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

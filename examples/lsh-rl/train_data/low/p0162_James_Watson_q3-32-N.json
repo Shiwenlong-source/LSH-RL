@@ -1,0 +1,88 @@
+{
+  "title": "The Pen Name Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Creative Writing Class Discussion",
+      "time": "Afternoon, 3:00 PM",
+      "location": "University Creative Writing Classroom",
+      "description": "James Watson, a 25-year-old college student with a passion for British culture and storytelling, introduces his pen name 'L.' to his class. Professor Jackson and classmate Lucy respond with humor and curiosity, prompting James to reflect on his choice and its implications.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "James Watson",
+          "gender": "Male",
+          "description": "A 25-year-old college student with a quiet but ambitious demeanor, deeply interested in British culture and the idea of a literary identity. He is imaginative and self-reflective, often pondering how to best express himself through writing.; Male / College Student, 25 years old; Occupation: Creative writing student; Personality: Shy, Ambitious, Imaginative, Self-reflective; Values: Individuality, Creativity, Cultural appreciation; Interests: British culture, Drama performance, Literary identity, Storytelling; Experiences: First class performance, Choosing a pen name, Receiving classmate feedback, Exploring personal identity through writing",
+          "position": "Front of the classroom",
+          "states": "Nervous, contemplative",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Professor Jackson",
+          "gender": "Male",
+          "description": "A seasoned creative writing professor in his 50s with a sharp wit and a passion for helping students discover their unique voices; Male; Age: 56; Occupation: Creative Writing Professor at a mid-sized university; Personality: Observant, witty, encouraging; Values: Artistic authenticity, intellectual curiosity, mentorship; Interests: Victorian literature, jazz improvisation, collecting vintage typewriters; Experiences: Published several academic papers on narrative structure, mentored award-winning student writers, spent a sabbatical teaching in a British university.",
+          "position": "Standing by the whiteboard",
+          "states": "Engaged, amused",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Lucy Chen",
+          "gender": "Female",
+          "description": "Confident and outgoing classmate in her early 20s who enjoys challenging others' creative choices with playful teasing; Female; Age: 21; Occupation: English Literature major and part-time poetry blog contributor; Personality: witty, imaginative, observant; Values: authenticity, intellectual honesty, artistic freedom; Interests: experimental writing, 19th-century novels, urban sketching; Experiences: organized a campus spoken word event, collaborated on a zine with friends, received early praise for a short story collection.",
+          "position": "Seated at the center of the class",
+          "states": "Playfully curious, intrigued",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "James Watson",
+          "character_id": 0,
+          "action": "Introduces his pen name",
+          "dialogue": "My name is James Watson, but I write under the pen name 'L.' It's inspired by the idea of mystery and the British tradition of using initials in literature."
+        },
+        {
+          "action_id": 1,
+          "character": "Professor Jackson",
+          "character_id": 1,
+          "action": "Replies with a humorous comment",
+          "dialogue": "Ah, 'L.'—a name that leaves so much to the imagination. I wonder if it stands for 'Lost' or 'Lonely'... or perhaps 'Legend.'"
+        },
+        {
+          "action_id": 2,
+          "character": "Lucy Chen",
+          "character_id": 2,
+          "action": "Asks a teasing question",
+          "dialogue": "So, 'L.' like the British secret agent or the letter from your last name? I mean, I get the cultural nod, but is it really the best choice for your voice?"
+        },
+        {
+          "action_id": 3,
+          "character": "James Watson",
+          "character_id": 0,
+          "action": "Responds thoughtfully",
+          "dialogue": "It was a way to feel connected to the tradition of British writers, but I'm starting to wonder if it's more about how I want to be seen rather than how I want to be."
+        },
+        {
+          "action_id": 4,
+          "character": "Professor Jackson",
+          "character_id": 1,
+          "action": "Encourages deeper reflection",
+          "dialogue": "That's the heart of creative identity, James. Sometimes, the names we choose are mirrors of our insecurities or aspirations. What do you think it says about you?"
+        }
+      ],
+      "plot": "James introduces his pen name 'L.' in a creative writing class, only to be met with playful skepticism from his professor and a classmate. The interaction challenges his self-perception and the motivations behind his choice, leading to internal reflection.",
+      "social_purpose": "To explore James's values and personality through a classroom setting, while engaging in dialogue that reveals his interests in British culture and the tension between external expectations and personal identity.",
+      "chunk": {
+        "id": 0,
+        "text": "James Watson stood at the front of the classroom, his hands slightly trembling as he introduced his pen name. The professor’s humorous remark and Lucy’s teasing question sparked a wave of self-doubt. He realized that the choice of 'L.' was not just a nod to tradition, but a reflection of his desire to be seen as more than just James. The discussion had opened a door to deeper questions about his identity and the kind of writer he wanted to become."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

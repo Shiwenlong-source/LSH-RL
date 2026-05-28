@@ -1,0 +1,112 @@
+{
+  "title": "Faith in the Open",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Faith Group Gathering",
+      "time": "Saturday evening",
+      "location": "Community Room at the Local Church",
+      "description": "A small group of young people and church members gather for a weekly faith group discussion. Kayla is seated at the table, looking around with a mix of anticipation and hesitation. Bob sits next to her, offering a comforting presence, while Yuna sits across from them, Bible in hand. King is at the back of the room, leaning against the wall, quietly observing.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Kayla Gray",
+          "gender": "Female",
+          "description": "A 17-year-old college student who is deeply thoughtful and introspective. She recently experienced a faith awakening but is now struggling with self-doubt and uncertainty about her spiritual journey. She is trying to be sincere and open in this group setting.; Female, College Student, 17 years old; Occupation: College Student; Personality: Thoughtful, Introspective, Vulnerable, Determined; Values: Faith growth, Sincerity, Group support; Interests: Faith exploration, Personal development, Group discussions; Experiences: Recent faith awakening, Active participation in church activities, Struggle with self-doubt",
+          "position": "Seated at the table",
+          "states": "Nervous, determined, contemplative",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Bob",
+          "gender": "Male",
+          "description": "A supportive and patient church member who has been mentoring Kayla for a few months; Male; Age: 38; Occupation: Youth Pastor; Personality: Compassionate, reliable, optimistic; Values: Faith, community service, personal growth; Interests: Bible study, mentoring young people, hiking; Experiences: Led a youth outreach program in a neighboring town, volunteered at a homeless shelter for five years, recently helped organize weekly faith group discussions at the church.",
+          "position": "Sitting next to Kayla",
+          "states": "Supportive, attentive, encouraging",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Yuna",
+          "gender": "Female",
+          "description": "A Bible-quoting, confident young woman in her early twenties who is active in church leadership; Female; Age: 22; Occupation: Youth Ministry Coordinator at the Local Church; Personality: Confident, empathetic, spiritually focused; Values: Faith, community service, integrity; Interests: Bible study, mentoring young people, prayer walks; Experiences: Led a successful youth outreach program, volunteered at a local homeless shelter, survived a personal crisis that deepened her spiritual commitment.",
+          "position": "Across from Kayla",
+          "states": "Confident, eager to listen, spiritually focused",
+          "is_npc": true
+        },
+        {
+          "id": 3,
+          "name": "King",
+          "gender": "Male",
+          "description": "A quiet, older church member in his 40s who rarely speaks but is deeply observant; Male; Age: 46; Occupation: Retired school principal; Personality: Thoughtful, patient, introspective; Values: Integrity, spiritual growth, community; Interests: Reading theological works, gardening, mentoring youth; Experiences: Led a youth outreach program for 15 years, faced personal loss that deepened his faith, served on church leadership committees.",
+          "position": "At the back of the room",
+          "states": "Observant, contemplative, reserved",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Kayla Gray",
+          "character_id": 0,
+          "action": "Takes a deep breath and begins to speak",
+          "dialogue": "I’ve been thinking a lot lately about what it means to grow in faith. I used to feel so sure, but now... I don’t know. It’s like I’m trying to find my own path, but I’m afraid I’m losing the group."
+        },
+        {
+          "action_id": 1,
+          "character": "Bob",
+          "character_id": 1,
+          "action": "Leans in and nods",
+          "dialogue": "Kayla, that’s a really honest thing to say. Growth can be scary, but it’s also part of the journey. You’re not alone in this."
+        },
+        {
+          "action_id": 2,
+          "character": "Yuna",
+          "character_id": 2,
+          "action": "Quotes a Bible verse",
+          "dialogue": "It says in 2 Timothy 1:7, 'For God has not given us a spirit of fear, but of power and love and self-discipline.' You’re not losing the group, Kayla. You’re just growing, and that’s a good thing."
+        },
+        {
+          "action_id": 3,
+          "character": "Kayla Gray",
+          "character_id": 0,
+          "action": "Looks down and then back up",
+          "dialogue": "I guess I just feel like I’m not as strong as I should be. Like I’m not living up to what the group expects."
+        },
+        {
+          "action_id": 4,
+          "character": "Bob",
+          "character_id": 1,
+          "action": "Places a hand on her shoulder",
+          "dialogue": "Your strength is in being real, not in pretending. That’s how we all grow—together, not alone."
+        },
+        {
+          "action_id": 5,
+          "character": "Yuna",
+          "character_id": 2,
+          "action": "Encourages further sharing",
+          "dialogue": "Would you like to share more about what’s been on your mind? We’re all here to listen and support you."
+        },
+        {
+          "action_id": 6,
+          "character": "King",
+          "character_id": 3,
+          "action": "Steps forward and speaks quietly",
+          "dialogue": "I remember when I first started questioning everything. It felt like a betrayal, but it was actually the beginning of a deeper understanding. Your journey is valid, Kayla."
+        }
+      ],
+      "plot": "Kayla struggles to articulate her feelings of inner conflict and self-doubt during a faith group gathering. Bob and Yuna offer her support and encouragement, while King’s quiet observation and eventual words of wisdom help her feel validated. The interaction highlights the tension between personal faith exploration and group expectations, while also showing the potential for growth and connection.",
+      "social_purpose": "To explore the protagonist’s internal struggle with faith growth, self-doubt, and the need for group support, while demonstrating how different personalities and values can interact in a shared goal of spiritual development.",
+      "chunk": {
+        "id": 0,
+        "text": "The group discussion begins to shift as Kayla shares her thoughts. Bob’s quiet support and Yuna’s scripture-based encouragement help her open up more, while King’s unexpected input adds a layer of depth and reassurance. Kayla feels a mix of relief and tension as she realizes that her journey is not only shared but also valued in this space."
+      },
+      "npcs": [
+        1,
+        2,
+        3
+      ]
+    }
+  ]
+}

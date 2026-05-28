@@ -1,0 +1,102 @@
+{
+  "title": "Reconnecting at the Library",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Phoebe meets Chen at the university library to try and rekindle their friendship.",
+      "time": "Afternoon",
+      "location": "University Library, Singapore",
+      "description": "Phoebe sits at a quiet study table, nervously tapping her pen while waiting for Chen. The library is filled with the soft hum of activity, but she feels isolated. Chen enters and hesitates for a moment before approaching her.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Phoebe Olson",
+          "gender": "Female",
+          "description": "A 23-year-old international student from Singapore, visibly anxious but determined to reconnect with Chen.; 28-year-old / Female / International Student, 23 years old; Occupation: International Student; Personality: Determined, Anxious, Hopeful, Introspective; Values: Connection, Reconciliation, Self-improvement; Interests: Social Relationships, Past Experiences, Emotional Reflection; Experiences: Studying abroad in Singapore, Past friendships, Emotional distress, Digital communication, Personal growth",
+          "position": "Seated at a study table near the window",
+          "states": "Nervous, hopeful, introspective",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Chen",
+          "gender": "Male",
+          "description": "Calm and reserved 25-year-old graduate student in computer science caught off guard by Phoebe's unexpected request; Male; Age: 25; Occupation: Graduate Research Assistant in Artificial Intelligence; Personality: Analytical, introverted, empathetic; Values: Intellectual integrity, loyalty, personal privacy; Interests: Coding, robotics, classical music; Experiences: Close friendship with Phoebe during undergraduate years, recent professional focus leading to emotional distance, current research on ethical AI applications.",
+          "position": "Approaching the table",
+          "states": "Surprised, cautious, thoughtful",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Amina",
+          "gender": "Female",
+          "description": "A 24-year-old classmate of Phoebe, observant and empathetic, sits nearby and watches the interaction unfold; Female; Age: 24; Occupation: Part-time research assistant in the Department of Social Sciences; Personality: Observant, empathetic, curious; Values: Integrity, compassion, intellectual growth; Interests: Psychology, journaling, urban exploration; Experiences: Mediated conflicts between friends in the past, conducted interviews for a student-led mental health study, often acts as a quiet confidant in group settings.",
+          "position": "Nearby, reading a book",
+          "states": "Observant, empathetic, curious",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Phoebe Olson",
+          "character_id": 0,
+          "action": "Initiates conversation",
+          "dialogue": "Chen, thank you for coming. I know it's been a while, and I've been thinking about what we had. I miss our conversations and the way we used to understand each other."
+        },
+        {
+          "action_id": 1,
+          "character": "Chen",
+          "character_id": 1,
+          "action": "Replies hesitantly",
+          "dialogue": "Phoebe, I wasn't sure what to expect. I've been busy with my research, but I do remember the good times we shared. What's on your mind?"
+        },
+        {
+          "action_id": 2,
+          "character": "Phoebe Olson",
+          "character_id": 0,
+          "action": "Shares her feelings",
+          "dialogue": "I've been feeling really alone lately. I know we drifted apart, but I don't want to lose the connection we had. I want to try to understand why it happened and maybe fix it."
+        },
+        {
+          "action_id": 3,
+          "character": "Chen",
+          "character_id": 1,
+          "action": "Reflects on the past",
+          "dialogue": "I think life got in the way. I didn't mean to ignore you. You were one of the few people I felt I could be honest with."
+        },
+        {
+          "action_id": 4,
+          "character": "Amina",
+          "character_id": 2,
+          "action": "Intervenes with a kind remark",
+          "dialogue": "Hey, if you two are done reminiscing, the coffee machine is working now. I can get you both a cup if you'd like."
+        },
+        {
+          "action_id": 5,
+          "character": "Phoebe Olson",
+          "character_id": 0,
+          "action": "Expresses gratitude",
+          "dialogue": "That would be great, Amina. Thank you for being here."
+        },
+        {
+          "action_id": 6,
+          "character": "Chen",
+          "character_id": 1,
+          "action": "Agrees to continue the conversation",
+          "dialogue": "Yes, let's take this slowly. I want to see where we can go from here."
+        }
+      ],
+      "plot": "Phoebe takes a chance to reconnect with Chen in a public, neutral space. Their conversation reveals the emotional distance that has grown between them, but also the possibility of reconciliation. Amina's presence adds a subtle layer of social support, encouraging Phoebe to take the next step.",
+      "social_purpose": "Phoebe seeks to understand and mend a fading friendship, while Chen reflects on their past and considers the possibility of rebuilding the connection. Amina's role highlights the importance of social relationships and emotional reflection in personal growth.",
+      "chunk": {
+        "id": 0,
+        "text": "Phoebe and Chen sit in the library, sipping coffee while talking about the past and the changes in their lives. Amina occasionally joins in with light-hearted comments, helping to ease the tension. Phoebe shares her struggles with feeling isolated and how she values the bond they once had. Chen listens and finally agrees to meet again, giving Phoebe a sense of hope."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

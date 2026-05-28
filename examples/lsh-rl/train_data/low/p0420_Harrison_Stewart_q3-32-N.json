@@ -1,0 +1,109 @@
+{
+  "title": "A Coffee Shop Confession",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Harrison finally opens up about his inner turmoil to Lora, with Loe present.",
+      "time": "Afternoon",
+      "location": "A quiet corner of a local coffee shop",
+      "description": "Harrison sits across from Lora at a small table, nervously fidgeting with his coffee cup. Loe, their mutual friend, is nearby at the counter, pretending to read a book but clearly eavesdropping with concern. The atmosphere is calm, with soft background music and the faint hum of conversations. Harrison is visibly conflicted, while Lora remains composed and attentive.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Harrison Stewart",
+          "gender": "Male",
+          "description": "A 21-year-old college student who is thoughtful, hesitant, and determined. He is visibly conflicted but trying to be open.; 21-year-old /Male/Friend, 24 years old; Occupation: College Student; Personality: Thoughtful, Hesitant, Determined; Values: Honesty, Friendship, Emotional Connection; Interests: Self-reflection, Deep Conversation, Personal Growth; Experiences: Experiencing Inner Struggle, Seeking Emotional Support, Handling Complex Friendship",
+          "position": "At the table",
+          "states": "Nervous, determined, emotionally vulnerable",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Lora",
+          "gender": "Female",
+          "description": "A kind and empathetic listener who offers gentle support and emotional connection; Female; Age: 32; Occupation: Counselor and part-time writing coach; Personality: Compassionate, patient, intuitive; Values: Emotional honesty, human connection, personal growth; Interests: Reading literary fiction, journaling, community mental health workshops; Experiences: Worked with trauma survivors for seven years, helped friends through major life transitions, lost her mother to depression and turned that into a passion for counseling.",
+          "position": "Across from Harrison at the table",
+          "states": "Calm, attentive, supportive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Loe",
+          "gender": "Male",
+          "description": "A close friend of Harrison and Lora, who is quietly concerned and observant; Male; Age: 28; Occupation: Journalist; Personality: Cautious, compassionate, introspective; Values: Loyalty, truthfulness, emotional honesty; Interests: People-watching, independent films, journaling; Experiences: Witnessed a close friend's mental health crisis, struggled with personal anxiety in his early twenties, worked in a high-pressure news environment.",
+          "position": "Near the counter",
+          "states": "Anxious, observant, empathetic",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Harrison Stewart",
+          "character_id": 0,
+          "action": "Initiates the conversation by clearing his throat and looking at Lora.",
+          "dialogue": "Lora, I need to talk about something. It’s been on my mind for a while, and I think it’s time I stopped pretending it’s not there."
+        },
+        {
+          "action_id": 1,
+          "character": "Lora",
+          "character_id": 1,
+          "action": "Leans in slightly and gives Harrison a reassuring smile.",
+          "dialogue": "Of course, Harrison. I’m here for you. What’s going on?"
+        },
+        {
+          "action_id": 2,
+          "character": "Harrison Stewart",
+          "character_id": 0,
+          "action": "Takes a deep breath and begins to open up about his confusion.",
+          "dialogue": "I’ve been feeling... lost. Like I don’t know who I am or what I really want. I’ve tried to push through it, but it’s getting harder to ignore."
+        },
+        {
+          "action_id": 3,
+          "character": "Lora",
+          "character_id": 1,
+          "action": "Nods and listens intently, showing genuine emotional connection.",
+          "dialogue": "That sounds really hard, Harrison. I can only imagine how overwhelming that must feel."
+        },
+        {
+          "action_id": 4,
+          "character": "Harrison Stewart",
+          "character_id": 0,
+          "action": "Looks down, then back up with a determined expression.",
+          "dialogue": "I just want to be honest, not just with you, but with myself. I’ve been suppressing this for so long, and I think it’s time I face it."
+        },
+        {
+          "action_id": 5,
+          "character": "Loe",
+          "character_id": 2,
+          "action": "Approaches the table, showing concern.",
+          "dialogue": "Hey, I heard you talking. If you need anything, I’m here too. You don’t have to do this alone."
+        },
+        {
+          "action_id": 6,
+          "character": "Harrison Stewart",
+          "character_id": 0,
+          "action": "Smiles slightly at Loe’s support, then returns his focus to Lora.",
+          "dialogue": "Thanks, Loe. I appreciate that. But I think this is something I need to work through with Lora."
+        },
+        {
+          "action_id": 7,
+          "character": "Lora",
+          "character_id": 1,
+          "action": "Reaches out and gently touches Harrison’s hand, showing empathy.",
+          "dialogue": "Whatever you need, Harrison. Just know that I care about you and your growth."
+        }
+      ],
+      "plot": "Harrison, after long hesitation, decides to confide in Lora about his inner struggles. Loe, being a good friend, notices Harrison’s emotional state and offers his support. The conversation is a turning point for Harrison, as he seeks true understanding and connection in a public setting where vulnerability is not always easy.",
+      "social_purpose": "To show Harrison’s values of honesty and emotional connection, while also highlighting the importance of friendship and support during times of personal growth and inner conflict.",
+      "chunk": {
+        "id": 0,
+        "text": "Harrison’s decision to open up in a public place reflects his desire for authenticity, while Lora’s gentle support and Loe’s concern illustrate the strength of their shared bond. The scenario allows Harrison to express his suppressed emotions in a safe space, with the potential for deeper connection or new challenges depending on how the conversation unfolds."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "title": "Networking at the Election Forum",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Election Forum and Career Fair",
+      "time": "3:00 PM on a Saturday",
+      "location": "Community Center, Room B",
+      "description": "A local election forum and career fair is being held, where aspiring election administrators can meet and network with experienced officials. Tyler King is determined to make a good impression on Kim, a respected district election official. His friend Jade is by his side, encouraging him to take initiative.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Tyler King",
+          "gender": "Male",
+          "description": "26-year-old aspiring election administrator, full of enthusiasm but nervous about making a strong impression. He is wearing a crisp suit and holding a printed portfolio of his accomplishments.; Male / Aspiring Election Administrator, 26 years old; Occupation: Administrator; Personality: Ambitious, Enthusiastic, Nervous, Determined; Values: Career Development, Public Service, Honesty; Interests: Election Process, Political Participation, Career Development; Experiences: Preparing to become an election administrator, Building professional networks, Seeking mentorship, Participating in political activities",
+          "position": "Aspiring Election Administrator",
+          "states": "Nervous, determined, enthusiastic",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Kim Lee",
+          "gender": "Female",
+          "description": "District election official with over 10 years of experience; Female; Age: 42; Occupation: Senior Election Compliance Officer; Personality: Calm, observant, approachable, analytical, empathetic; Values: Integrity, community service, mentorship; Interests: Public policy discussions, volunteer work, reading political history, yoga; Experiences: Managed multiple high-turnout local elections, trained new election staff during post-election audits, led a civic education initiative for high school students.",
+          "position": "District Election Official",
+          "states": "Calm, observant, approachable",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Jade Ramirez",
+          "gender": "Female",
+          "description": "Jade Ramirez; Female; Age: 28; Occupation: Civic Engagement Coordinator; Personality: Supportive, confident, observant; Values: Community empowerment, transparency in governance, lifelong learning; Interests: Political strategy, public speaking, local history; Experiences: Organized voter registration drives in underserved neighborhoods, volunteered as a poll worker in multiple municipal elections, led workshops on democratic participation at a nonprofit organization.",
+          "position": "Political Volunteer",
+          "states": "Supportive, confident, observant",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Jade Ramirez",
+          "character_id": 2,
+          "action": "Approaches Tyler to encourage him",
+          "dialogue": "Hey, Tyler. You've got this. Kim is the one to impress if you want to break through in this field. Just show her your passion and readiness."
+        },
+        {
+          "action_id": 1,
+          "character": "Tyler King",
+          "character_id": 0,
+          "action": "Takes a deep breath and approaches Kim",
+          "dialogue": "Good afternoon, Ms. Lee. I'm Tyler King, and I'm really passionate about election administration. I've been preparing for this role for a while now, and I'd love to learn from someone with your experience."
+        },
+        {
+          "action_id": 2,
+          "character": "Kim Lee",
+          "character_id": 1,
+          "action": "Smiles and responds politely",
+          "dialogue": "Hello, Tyler. That's great to hear. What kind of experience have you had so far, and what interests you most about this field?"
+        },
+        {
+          "action_id": 3,
+          "character": "Tyler King",
+          "character_id": 0,
+          "action": "Shares his background and interests",
+          "dialogue": "I've been volunteering with local voter registration drives and recently completed a certification program in election procedures. I love the process of ensuring every citizen can participate in democracy. It's a huge responsibility, and I'm ready to take it on."
+        },
+        {
+          "action_id": 4,
+          "character": "Kim Lee",
+          "character_id": 1,
+          "action": "Nods and asks a follow-up question",
+          "dialogue": "That's impressive, Tyler. How do you handle high-pressure situations, like during an election night?"
+        },
+        {
+          "action_id": 5,
+          "character": "Tyler King",
+          "character_id": 0,
+          "action": "Answers confidently, despite his nerves",
+          "dialogue": "I stay focused on the goal of accuracy and transparency. I believe preparation and clear communication are key, and I've worked on both in my projects so far."
+        },
+        {
+          "action_id": 6,
+          "character": "Kim Lee",
+          "character_id": 1,
+          "action": "Looks impressed and offers a business card",
+          "dialogue": "You're clearly dedicated. Here's my business card. Let's stay in touch. I might have a mentorship opportunity coming up."
+        },
+        {
+          "action_id": 7,
+          "character": "Jade Ramirez",
+          "character_id": 2,
+          "action": "Congratulates Tyler with a smile",
+          "dialogue": "That was perfect, Tyler. You showed your enthusiasm and competence. Don't blow this chance to connect."
+        }
+      ],
+      "plot": "At the election forum, Tyler is motivated by Jade to approach Kim, a district official. Despite his nervousness, he manages to present himself confidently and competently, impressing Kim and receiving a business card for a potential mentorship opportunity.",
+      "social_purpose": "To demonstrate Tyler's ambition, enthusiasm, and determination to build a career in election administration while showcasing his social skills and values such as public service and honesty.",
+      "chunk": {
+        "id": 0,
+        "text": "Tyler, with Jade's support, successfully engages with Kim, a pivotal moment in his career development. Kim's positive response gives Tyler hope that his persistence and passion will lead to meaningful opportunities in the field."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

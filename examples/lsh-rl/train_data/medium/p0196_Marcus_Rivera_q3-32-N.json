@@ -1,0 +1,116 @@
+{
+  "title": "The Tension of Priorities",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Marcus is invited to an Exun gathering but must choose between it and attending an important class.",
+      "time": "3:00 PM on a Thursday",
+      "location": "The campus courtyard during a break between classes",
+      "description": "Marcus Rivera stands near the edge of the courtyard, nervously checking his schedule on his phone. Jackson approaches him, clearly eager to discuss the upcoming Exun gathering. Yuna is nearby, leaning against a tree, watching the conversation unfold with a quiet, unreadable expression.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Marcus Rivera",
+          "gender": "Male",
+          "description": "A 25-year-old college student who values academic excellence and is appointed to Exun. He is thoughtful, pragmatic, and often feels the weight of responsibility.; Male, College Student, 25 years old; Occupation: Exun Appointed Member; Personality: Thoughtful, Pragmatic, Anxious, Conscientious; Values: Academic Excellence, Responsibility, Efficiency; Interests: Leadership Roles, Structured Activities, Education; Experiences: Participating in Student Organizations, Attending Mandatory Meetings, Balancing Academics and Extracurriculars",
+          "position": "Near the center of the courtyard, phone in hand",
+          "states": "Hesitant, anxious, focused on his priorities",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Jackson",
+          "gender": "Male",
+          "description": "Marcus's close friend and fellow student; Male; Age: 20; Occupation: Undergraduate student, majoring in Political Science; Personality: Energetic, persuasive, supportive; Values: Friendship, social connection, spontaneity; Interests: Networking events, campus activism, music festivals; Experiences: Organized a successful student-led community outreach program, frequently participates in debate clubs and student government meetings, helped Marcus through a tough academic transition period.",
+          "position": "Approaching Marcus from the right side of the courtyard",
+          "states": "Energetic, persuasive, supportive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Yuna",
+          "gender": "Female",
+          "description": "Yuna is a quiet and observant classmate who is also part of Exun. She respects Marcus's academic drive but is aware of the potential consequences of his decision; Female; Age: 19; Occupation: Undergraduate student, majoring in Political Science; Personality: Analytical, introverted, empathetic; Values: Integrity, intellectual curiosity, balance; Interests: Reading philosophy and political theory, journaling, nature walks; Experiences: Participated in a student-led debate on ethical leadership, witnessed a peer struggle with the pressures of balancing social and academic commitments, volunteered with a campus organization focused on student welfare and ethics.",
+          "position": "Leaning against a tree near Marcus and Jackson",
+          "states": "Reserved, contemplative, slightly concerned",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Jackson",
+          "character_id": 1,
+          "action": "Approaches Marcus and speaks with enthusiasm.",
+          "dialogue": "Hey, Marcus! The Exun gathering is in an hour. We need you there. It's a school rule for appointed members to attend these things."
+        },
+        {
+          "action_id": 1,
+          "character": "Marcus Rivera",
+          "character_id": 0,
+          "action": "Looks up from his phone and sighs.",
+          "dialogue": "I know, Jackson, but I have a lecture with Dr. Lang. It's a core class and I can't afford to miss it."
+        },
+        {
+          "action_id": 2,
+          "character": "Jackson",
+          "character_id": 1,
+          "action": "Shrugs and tries to lighten the mood.",
+          "dialogue": "Come on, it's just one class. You can catch up later. Exun meetings are part of the deal if you want to stay in the loop."
+        },
+        {
+          "action_id": 3,
+          "character": "Marcus Rivera",
+          "character_id": 0,
+          "action": "Crosses his arms, showing his internal conflict.",
+          "dialogue": "I'm not sure it's worth the risk. If I miss the class, I might fall behind, and I can't afford that right now. I need to maintain my grades."
+        },
+        {
+          "action_id": 4,
+          "character": "Yuna",
+          "character_id": 2,
+          "action": "Steps forward and speaks quietly but clearly.",
+          "dialogue": "Marcus, I get it. I respect how serious you take your studies. But if you don't show up, some might question your commitment to Exun."
+        },
+        {
+          "action_id": 5,
+          "character": "Marcus Rivera",
+          "character_id": 0,
+          "action": "Nods slowly, weighing the options.",
+          "dialogue": "I know. That's why I'm struggling with this. I don't want to be seen as disloyal, but I also can't ignore my responsibilities to my education."
+        },
+        {
+          "action_id": 6,
+          "character": "Jackson",
+          "character_id": 1,
+          "action": "Taps Marcus's shoulder reassuringly.",
+          "dialogue": "You're not alone in this, man. We can help you catch up on the lecture if you miss it."
+        },
+        {
+          "action_id": 7,
+          "character": "Marcus Rivera",
+          "character_id": 0,
+          "action": "Pauses, then looks at the time again.",
+          "dialogue": "Thanks, but I think I need to go. I'll make a note of the meeting and see if I can review the agenda later."
+        },
+        {
+          "action_id": 8,
+          "character": "Yuna",
+          "character_id": 2,
+          "action": "Nods, her expression unreadable.",
+          "dialogue": "I understand. If you change your mind, the meeting room is just across the courtyard."
+        }
+      ],
+      "plot": "Marcus is caught between his academic obligations and his role in Exun. Jackson, his friend, encourages him to attend the gathering, while Yuna, a quiet observer, subtly reminds him of the potential consequences of his decision. Marcus ultimately chooses to prioritize his class, showcasing his conscientious and pragmatic nature.",
+      "social_purpose": "To explore the tension between personal priorities and institutional obligations through Marcus's decision-making process and interactions with his peers.",
+      "chunk": {
+        "id": 0,
+        "text": "Marcus Rivera stands near the edge of the courtyard, nervously checking his schedule on his phone. Jackson approaches him, clearly eager to discuss the upcoming Exun gathering. Yuna is nearby, leaning against a tree, watching the conversation unfold with a quiet, unreadable expression."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

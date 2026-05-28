@@ -1,0 +1,116 @@
+{
+  "title": "Meeting at the Airport",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Meeting a potential romantic partner in person for the first time",
+      "time": "Afternoon",
+      "location": "Airport concourse",
+      "description": "Eleanor stands by the arrival gate, clutching a small bouquet of lilies. She has arranged to meet Hao, a man she has been in a long-distance online relationship with for months. Zoe, her 12-year-old daughter, is nearby, observing the scene with quiet curiosity. Eleanor's calm exterior masks her inner anxiety, while Zoe tries to be a source of reassurance.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Eleanor Morris",
+          "gender": "Female",
+          "description": "A 35-year-old single mother and startup founder, Eleanor is dressed professionally yet softly, trying to balance her identity as a strong, independent woman with her vulnerability in this personal moment.; Female, Single mother and entrepreneur, 35 years old; Occupation: Startup founder; Personality: Anxious, Hopeful, Calm exterior, Determined; Values: Emotional connection, Authenticity, Independence; Interests: Entrepreneurship, Personal growth, Romantic relationships; Experiences: Raising a child alone, Starting a business, Long-distance online relationship",
+          "position": "By the arrival gate",
+          "states": "Nervous, hopeful, and determined",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Zoe Morris",
+          "gender": "Female",
+          "description": "Eleanor's 12-year-old daughter, Zoe is a perceptive and mature child who has grown accustomed to her mother's emotional duality—her calm, professional demeanor and her hidden anxieties; Female; Age: 12; Occupation: Student; Personality: Observant, empathetic, independent; Values: Loyalty, honesty, emotional intelligence; Interests: Reading mystery novels, birdwatching, journaling; Experiences: Navigating her mother's previous failed relationships, helping Eleanor through her anxiety with quiet support, spending time with Hao online during virtual family visits.",
+          "position": "Near Eleanor, holding a small backpack",
+          "states": "Curious, supportive, and slightly concerned",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Hao Lin",
+          "gender": "Male",
+          "description": "A 38-year-old software engineer from Shanghai, Hao is tall and well-dressed, with a warm and confident smile; Male; Age: 38; Occupation: Senior Mobile App Developer; Personality: Optimistic, detail-oriented, empathetic; Values: Honesty, family, personal growth; Interests: Coding, photography, travel; Experiences: Years of remote collaboration with international teams, navigating long-distance relationships, mentoring young developers.",
+          "position": "Approaching the gate",
+          "states": "Excited, respectful, and observant",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Eleanor Morris",
+          "character_id": 0,
+          "action": "Looks at the arrival board",
+          "dialogue": "Just one more minute. I hope he's here."
+        },
+        {
+          "action_id": 1,
+          "character": "Zoe Morris",
+          "character_id": 1,
+          "action": "Approaches Eleanor",
+          "dialogue": "You okay, Mom? You look like you're about to run."
+        },
+        {
+          "action_id": 2,
+          "character": "Eleanor Morris",
+          "character_id": 0,
+          "action": "Smiles softly",
+          "dialogue": "I just want to make sure I'm being my authentic self today. I don't want to pretend to be someone I'm not."
+        },
+        {
+          "action_id": 3,
+          "character": "Hao Lin",
+          "character_id": 2,
+          "action": "Approaches Eleanor",
+          "dialogue": "Eleanor? I'm Hao. It's so good to finally meet you in person."
+        },
+        {
+          "action_id": 4,
+          "character": "Eleanor Morris",
+          "character_id": 0,
+          "action": "Hesitates before extending her hand",
+          "dialogue": "Hi, Hao. It's nice to see you too. I hope you're not disappointed by the real me versus the one I've been online."
+        },
+        {
+          "action_id": 5,
+          "character": "Hao Lin",
+          "character_id": 2,
+          "action": "Shakes her hand warmly",
+          "dialogue": "You're exactly who I imagined. Maybe even more. You seem very grounded and strong."
+        },
+        {
+          "action_id": 6,
+          "character": "Zoe Morris",
+          "character_id": 1,
+          "action": "Steps forward and smiles",
+          "dialogue": "Hi, I'm Zoe. You're the one who said you'd help me with my coding project, right?"
+        },
+        {
+          "action_id": 7,
+          "character": "Hao Lin",
+          "character_id": 2,
+          "action": "Looks surprised and then pleased",
+          "dialogue": "Yes, I remember! I can't wait to see what you're working on. You must be very proud of your mom—she's amazing."
+        },
+        {
+          "action_id": 8,
+          "character": "Eleanor Morris",
+          "character_id": 0,
+          "action": "Laughs nervously",
+          "dialogue": "She's the one who keeps me grounded. I wouldn't be here without her."
+        }
+      ],
+      "plot": "Eleanor meets Hao, the man she has been in a long-distance relationship with, for the first time. Her daughter, Zoe, is present and plays a role in easing the tension. Eleanor's doubts about authenticity and emotional connection are voiced, creating a moment of vulnerability and honesty. The interaction reveals Eleanor's values of independence and emotional connection, as well as her determination to pursue personal growth and meaningful relationships.",
+      "social_purpose": "To explore the protagonist's emotional journey as she confronts the gap between idealization and reality in a new relationship, while also showing the role of family in her life and decision-making.",
+      "chunk": {
+        "id": 0,
+        "text": "Eleanor stands by the gate, clutching a bouquet of lilies. Her daughter, Zoe, approaches with quiet curiosity. As Hao arrives, Eleanor's anxiety momentarily shows through her calm exterior. Zoe's presence helps to bridge the emotional distance, and the conversation highlights Eleanor's desire for authenticity and emotional connection."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

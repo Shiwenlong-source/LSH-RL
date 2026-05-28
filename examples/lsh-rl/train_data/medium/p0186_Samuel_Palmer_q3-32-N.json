@@ -1,0 +1,102 @@
+{
+  "title": "A Nostalgic Offer",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Samuel visits his old primary school and meets with Teacher Tang.",
+      "time": "Afternoon",
+      "location": "Primary school courtyard",
+      "description": "Samuel stands in the courtyard of his old primary school, surrounded by children playing and a few teachers supervising. He notices a familiar figure approaching—Teacher Tang, now in her 50s, still warm and approachable. She recognizes him instantly and smiles, recalling his time in her class.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Samuel Palmer",
+          "gender": "Male",
+          "description": "A 30-year-old successful milk tea shop owner with a gentle and nostalgic demeanor. He is thoughtful and enthusiastic about community involvement.; Male / Successful individual, 30 years old; Occupation: Chain milk tea shop owner; Personality: Gentle, Enthusiastic, Nostalgic, Thoughtful; Values: Community, Memory, Goodwill; Interests: Desserts, Writing, Childhood memories; Experiences: Attended this primary school, Visiting school as an alumnus, Interacting with former teachers",
+          "position": "Near the school gate",
+          "states": "Nostalgic, thoughtful, determined to help",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Teacher Tang",
+          "gender": "Female",
+          "description": "A kind and experienced teacher in her 50s who taught Samuel in primary school. She is proud of her former students and eager to support the school; Female; Age: 53; Occupation: Primary school teacher (Grade 3); Personality: Warm-hearted, patient, observant; Values: Dedication to education, nurturing future generations, lifelong learning; Interests: Reading children's literature, gardening, mentoring new teachers; Experiences: Taught Samuel for three years, served as head of the school's alumni relations committee, organized annual school cultural festivals.",
+          "position": "Approaching from the courtyard",
+          "states": "Happily surprised, curious about Samuel's intentions",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Ms. Lin",
+          "gender": "Female",
+          "description": "A young and energetic school administrator in her 30s; Female; Age: 34; Occupation: Assistant Principal; Personality: Organized, empathetic, driven; Values: Education quality, student well-being, innovation; Interests: School development projects, educational technology, mentoring new teachers; Experiences: Successfully led a school renovation initiative, implemented a new student support program, former teacher in the same school.",
+          "position": "Standing nearby, organizing supplies",
+          "states": "Professional, attentive, interested in Samuel's offer",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Samuel Palmer",
+          "character_id": 0,
+          "action": "Approaches Teacher Tang with a smile and a wave.",
+          "dialogue": "Ms. Tang, is that you? I can't believe I'm back here after all these years."
+        },
+        {
+          "action_id": 1,
+          "character": "Teacher Tang",
+          "character_id": 1,
+          "action": "Returns the smile and warmly greets Samuel.",
+          "dialogue": "Samuel! Oh my, you've grown up so well. I remember you were always so enthusiastic about writing and desserts. It's a joy to see you here."
+        },
+        {
+          "action_id": 2,
+          "character": "Samuel Palmer",
+          "character_id": 0,
+          "action": "Shares his nostalgic feelings and interest in helping the school.",
+          "dialogue": "I was just thinking about how much this place means to me. I'd love to give back in some way—maybe support a new project for the kids."
+        },
+        {
+          "action_id": 3,
+          "character": "Ms. Lin",
+          "character_id": 2,
+          "action": "Steps forward to introduce herself and discuss the school's needs.",
+          "dialogue": "Hello, I'm Ms. Lin, the school administrator. We're actually working on a new community kitchen program to teach students about healthy eating and cooking. It would mean a lot if someone like you could help."
+        },
+        {
+          "action_id": 4,
+          "character": "Samuel Palmer",
+          "character_id": 0,
+          "action": "Expresses interest in the idea and suggests a collaboration.",
+          "dialogue": "That sounds amazing. I own a chain of milk tea shops, and I could donate some equipment or even bring in a few of my staff to help out. Let me think about the best way to support this."
+        },
+        {
+          "action_id": 5,
+          "character": "Teacher Tang",
+          "character_id": 1,
+          "action": "Shares her pride in Samuel and encourages him.",
+          "dialogue": "You always had such a kind heart, Samuel. I'm sure the kids would love working with you. It's not just about what you give, but the memories you'll help them make."
+        },
+        {
+          "action_id": 6,
+          "character": "Ms. Lin",
+          "character_id": 2,
+          "action": "Offers to provide more details and schedule a follow-up meeting.",
+          "dialogue": "We'd be very grateful for your support. If you're interested, I can send you more information and set up a meeting with the school board."
+        }
+      ],
+      "plot": "Samuel, nostalgic for his childhood, visits his old primary school and meets with his former teacher, Teacher Tang, and a young administrator, Ms. Lin. He learns about a new community kitchen program and is inspired to help by donating resources and expertise from his milk tea chain. The interaction highlights his thoughtful and generous personality and deepens his connection to the school and its mission.",
+      "social_purpose": "Show Samuel's desire to give back to the community and how his background and values naturally lead to a collaborative effort with the school.",
+      "chunk": {
+        "id": 0,
+        "text": "Samuel stands in the courtyard of his old primary school, surrounded by children playing and a few teachers supervising. He notices a familiar figure approaching—Teacher Tang, now in her 50s, still warm and approachable. She recognizes him instantly and smiles, recalling his time in her class."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

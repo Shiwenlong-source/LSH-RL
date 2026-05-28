@@ -1,0 +1,95 @@
+{
+  "title": "Smoke-Free Breakroom",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Morning coffee break",
+      "time": "10:15 AM",
+      "location": "Office breakroom",
+      "description": "Xavier, a project manager, is in the office breakroom with his colleagues, Zoe and Lucas. The breakroom has a new 'No Smoking' sign, and Xavier is visibly trying to resist the urge to smoke. Zoe is supportive, while Lucas teases him about the challenge.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Xavier",
+          "gender": "Male",
+          "description": "A 37-year-old project manager who recently decided to quit smoking. He is resolute and ambitious but often feels anxious in high-pressure situations.; Male, Project Manager, 37 years old; Occupation: Project Manager; Personality: Resolute, Anxious, Ambitious, Self-reflective; Values: Self-improvement, Professional Ethics, Team Trust; Interests: Leadership Development, Health and Wellness, Project Management; Experiences: Leading high-pressure projects, Struggling with personal habits, Receiving colleague feedback",
+          "position": "Near the coffee machine, holding a mug",
+          "states": "Determined, slightly anxious, focused on staying smoke-free",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Zoe",
+          "gender": "Female",
+          "description": "Xavier's supportive and empathetic colleague who respects his decision to quit smoking. She is known for her positive attitude and team-oriented mindset; Female; Age: 32; Occupation: Senior Human Resources Specialist; Personality: Encouraging, calm, observant; Values: Health, work-life balance, personal growth; Interests: Mindfulness practices, community volunteering, trying new coffee shops; Experiences: Successfully quit smoking two years ago, mentored several colleagues through wellness programs, organized team-building retreats focused on mental and physical well-being.",
+          "position": "Sitting at the table with a notebook",
+          "states": "Encouraging, calm, observant",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Lucas",
+          "gender": "Male",
+          "description": "A laid-back and teasing colleague who occasionally challenges Xavier's resolve; Male; Age: 34; Occupation: IT Systems Analyst; Personality: Sarcastic, easygoing, mischievous; Values: Camaraderie, personal freedom, humor; Interests: Retro video games, classic rock, stand-up comedy; Experiences: Worked in the same office for over a decade, survived a brief non-smoking challenge last year, frequently bonds with coworkers over shared jokes and coffee.",
+          "position": "Leaning against the counter, sipping from a disposable cup",
+          "states": "Playfully skeptical, relaxed, conversational",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Xavier",
+          "character_id": 0,
+          "action": "Sips coffee slowly and avoids eye contact with the ashtray on the counter",
+          "dialogue": "Yeah, I’m giving it a shot. It’s not easy, but I think it’s time for a change."
+        },
+        {
+          "action_id": 1,
+          "character": "Zoe",
+          "character_id": 1,
+          "action": "Looks up from her notebook and smiles at Xavier",
+          "dialogue": "That’s great to hear, Xavier! I believe in you. You’ve always been someone who can lead by example."
+        },
+        {
+          "action_id": 2,
+          "character": "Lucas",
+          "character_id": 2,
+          "action": "Puffs on his cigarette and raises an eyebrow",
+          "dialogue": "You sure you’re not just trying to be the ‘healthy project manager’ for the team’s approval? You know I’m just here to keep you honest."
+        },
+        {
+          "action_id": 3,
+          "character": "Xavier",
+          "character_id": 0,
+          "action": "Takes a deep breath and meets Lucas’s gaze",
+          "dialogue": "It’s not just about the team. It’s about being the kind of leader who can commit to self-improvement, even when it’s hard."
+        },
+        {
+          "action_id": 4,
+          "character": "Zoe",
+          "character_id": 1,
+          "action": "Nods in agreement and offers a small piece of gum",
+          "dialogue": "Here, maybe this helps. I’ve been reading about how small habits can lead to big changes. You’re doing it, Xavier."
+        },
+        {
+          "action_id": 5,
+          "character": "Lucas",
+          "character_id": 2,
+          "action": "Extinguishes his cigarette with a smirk and leans in",
+          "dialogue": "Alright, Mr. Professional Ethics. Let’s see if you can make it through the day without one."
+        }
+      ],
+      "plot": "Xavier faces a small but meaningful test of his resolve to quit smoking during a routine morning break with colleagues. Zoe supports him, while Lucas teases him, adding to the pressure. Xavier remains determined to prove to himself and his team that he can follow through on his commitment.",
+      "social_purpose": "To showcase Xavier’s internal and external struggle with quitting smoking while highlighting the dynamics of support and skepticism from his colleagues, and to naturally reveal his values of self-improvement, professional ethics, and team trust.",
+      "chunk": {
+        "id": 0,
+        "text": "Xavier stood by the coffee machine, gripping his mug tightly as the familiar scent of coffee mixed with the lingering aroma of smoke from Lucas’s cigarette. Zoe, ever the optimist, offered her encouragement, while Lucas’s teasing was a reminder of the challenge ahead. Xavier’s determination to lead by example and improve his habits was evident in his calm response. This small interaction in the breakroom reflected the larger test of his leadership and personal growth."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

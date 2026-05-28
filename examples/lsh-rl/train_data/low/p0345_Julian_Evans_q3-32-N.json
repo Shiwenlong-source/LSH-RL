@@ -1,0 +1,88 @@
+{
+  "title": "The Concert Choice",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Julian is trying to decide which concert to attend with his friends.",
+      "time": "Evening",
+      "location": "Julian's living room, with friends in adjacent rooms",
+      "description": "Julian sits on the couch in his dimly lit living room, staring at his phone with the tickets to two concerts on the screen. His friends, Joy and Gang, are in separate rooms, each trying to sway his decision. The room is filled with a mix of anticipation and tension as Julian weighs his options.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Julian Evans",
+          "gender": "Male",
+          "description": "25 years old, independent musician, introspective and emotional, recently exhausted from setbacks and late nights.; years old / Male / Independent, 25 years old; Occupation: Independent musician; Personality: Enthusiastic, Introspective, Emotional; Values: Artistic expression, Friendship, Emotional connection; Interests: Music, Live performances, Emotional experiences; Experiences: Recent setbacks, Staying up late, Attending concerts alone",
+          "position": "Living room couch",
+          "states": "Torn, contemplative, seeking emotional support",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Joy",
+          "gender": "Female",
+          "description": "Julian's close friend, enthusiastic and persuasive, loves Cici Day's music and wants Julian to have a good time with her; Female; Age: 23; Occupation: Event planner; Personality: Energetic, optimistic, charismatic; Values: Friendship, spontaneity, joy in life; Interests: Live music, social gatherings, discovering new artists; Experiences: Organized a successful surprise concert for friends, attended multiple Cici Day concerts and met her once at a fan event.",
+          "position": "Kitchen",
+          "states": "Excited, encouraging, trying to influence Julian",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Gang",
+          "gender": "Male",
+          "description": "Another of Julian's friends, more teasing and laid-back, prefers Julian to attend the other concert alone and enjoys ribbing him about it; Male; Age: 24; Occupation: Social media content creator; Personality: Witty, manipulative, impulsive; Values: Fun, freedom, authenticity; Interests: Music festivals, viral trends, pranks; Experiences: Organized a surprise concert meetup for friends last summer, once convinced a friend to skip an exam for a concert, grew up in a family that valued independence over responsibility.",
+          "position": "Bedroom",
+          "states": "Playful, teasing, trying to provoke Julian",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Joy",
+          "character_id": 1,
+          "action": "enters the living room",
+          "dialogue": "Hey Julian! You're still deciding between the two concerts? Cici Day is amazing, and I promise it'll be a great night out together!"
+        },
+        {
+          "action_id": 1,
+          "character": "Julian Evans",
+          "character_id": 0,
+          "action": "looks up from his phone",
+          "dialogue": "I know, I know... I just can't decide. Both are great artists. I don't want to hurt anyone's feelings."
+        },
+        {
+          "action_id": 2,
+          "character": "Gang",
+          "character_id": 2,
+          "action": "calls from the bedroom",
+          "dialogue": "Face it, Julian. You always go alone for the other one. Why not stick with your old habit?"
+        },
+        {
+          "action_id": 3,
+          "character": "Julian Evans",
+          "character_id": 0,
+          "action": "shifts uncomfortably",
+          "dialogue": "I don't want to be alone... not after everything I've been through lately. But I also don't want to ignore my favorite."
+        },
+        {
+          "action_id": 4,
+          "character": "Joy",
+          "character_id": 1,
+          "action": "sits next to Julian",
+          "dialogue": "You don't have to be alone, Julian. We're your friends. Let's make a night of it with Cici Day. It'll be fun and emotional—just what you need."
+        }
+      ],
+      "plot": "Julian is trying to choose between attending a concert of his favorite artist alone, as he has in the past, or going with his friends to see Cici Day, who Joy is a big fan of. The interaction reveals Julian's emotional state and his desire for connection, while Joy and Gang represent contrasting approaches to his decision.",
+      "social_purpose": "To show Julian's internal conflict between his artistic values and his need for friendship and emotional connection, while also highlighting the dynamics of his relationships with Joy and Gang.",
+      "chunk": {
+        "id": 0,
+        "text": "Julian finally decides to go with Joy and the gang to the Cici Day concert, realizing that companionship and shared experiences are just as important as the music itself."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

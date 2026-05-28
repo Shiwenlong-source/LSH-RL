@@ -1,0 +1,116 @@
+{
+  "title": "Collateral Confidence",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Loan Application",
+      "time": "10:15 AM",
+      "location": "First National Bank, Loan Department",
+      "description": "Zoe Holt, a 24-year-old businesswoman, enters the loan office of First National Bank, her posture poised and her demeanor calm. She is met by Leo, a 35-year-old bank clerk with a friendly but cautious expression, and Iris, a 42-year-old supervisor who watches from behind her desk with a subtle air of scrutiny.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Zoe Holt",
+          "gender": "Female",
+          "description": "A 24-year-old businesswoman who is the Corporate Chairman of a growing tech startup. She is composed, confident, and playful in her speech, with a strategic mind and a bold approach to financial decisions.; 30-year-old female businesswoman, 24 years old; Occupation: Corporate Chairman; Personality: Calm, Confident, Playful, Smart; Values: Financial Independence, Daring, Strategic Thinking; Interests: Business Investment, Luxury Cars, International Travel; Experiences: Loan Application, Negotiation, Business Travel, High-risk Decision Making, Image Management",
+          "position": "Customer",
+          "states": "Calm, Confident, Playful",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Leo",
+          "gender": "Male",
+          "description": "A 35-year-old bank clerk with a friendly and professional demeanor. He is observant and cautious, especially when dealing with unusual loan applications; Male; Age: 35; Occupation: Loan Officer; Personality: Analytical, Courteous, Prudent; Values: Integrity, Responsibility; Interests: Reading financial journals, Woodworking, Classic cars; Experiences: Reviewed hundreds of loan applications, Identified several fraudulent schemes early in his career, Trained new staff on risk assessment protocols.",
+          "position": "Loan Officer",
+          "states": "Cautious, Friendly",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Iris",
+          "gender": "Female",
+          "description": "A 42-year-old supervisor with a sharp eye for detail and a reserved personality; Female; Age: 42; Occupation: Loan Department Supervisor at First National Bank; Personality: Analytical, Cynical, Composed, Pragmatic; Values: Risk Management, Institutional Integrity, Efficiency; Interests: Reading financial journals, Solving complex puzzles, Attending professional development seminars; Experiences: Managed a loan fraud case that led to tighter internal controls, Supervised a high-profile loan default that affected the bank’s reputation, Transitioned from a compliance officer to a supervisory role after demonstrating exceptional problem-solving skills.",
+          "position": "Supervisor",
+          "states": "Observant, Skeptical",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Zoe Holt",
+          "character_id": 0,
+          "action": "Approaches the counter",
+          "dialogue": "Good morning, I'm here to apply for a $5,000 loan. I think I have a solid case for it."
+        },
+        {
+          "action_id": 1,
+          "character": "Leo",
+          "character_id": 1,
+          "action": "Greets her and asks for her ID",
+          "dialogue": "Morning, Ms. Holt. Could you please show me your ID and fill out the application form over there?"
+        },
+        {
+          "action_id": 2,
+          "character": "Zoe Holt",
+          "character_id": 0,
+          "action": "Hands over her ID and begins the form",
+          "dialogue": "Of course, and I'd like to use my Mercedes-Benz SL500 as collateral. It's parked outside."
+        },
+        {
+          "action_id": 3,
+          "character": "Leo",
+          "character_id": 1,
+          "action": "Looks surprised but remains professional",
+          "dialogue": "That's quite an unusual choice for a small loan. Is there a particular reason you're using the car as collateral?"
+        },
+        {
+          "action_id": 4,
+          "character": "Zoe Holt",
+          "character_id": 0,
+          "action": "Smiles and responds playfully",
+          "dialogue": "Well, Leo, I like to make bold moves. You know, like investing in a new venture or taking a spontaneous trip to Dubai. Why not show the same daring in a loan?"
+        },
+        {
+          "action_id": 5,
+          "character": "Iris",
+          "character_id": 2,
+          "action": "Steps forward and speaks with authority",
+          "dialogue": "We appreciate your confidence, Ms. Holt, but we need to ensure all procedures are followed. May I ask if this is for a business-related purpose?"
+        },
+        {
+          "action_id": 6,
+          "character": "Zoe Holt",
+          "character_id": 0,
+          "action": "Answers with strategic clarity",
+          "dialogue": "Absolutely. It's for a new partnership in the tech sector. I've been managing my own investments for years now, and I believe this opportunity is worth the risk."
+        },
+        {
+          "action_id": 7,
+          "character": "Leo",
+          "character_id": 1,
+          "action": "Nods and begins processing the request",
+          "dialogue": "I see. I'll need the car's title and a few additional documents. If you're ready, we can proceed."
+        },
+        {
+          "action_id": 8,
+          "character": "Zoe Holt",
+          "character_id": 0,
+          "action": "Replies with confidence",
+          "dialogue": "Everything's ready. I always prepare for the unexpected."
+        }
+      ],
+      "plot": "Zoe Holt confidently applies for a $5,000 loan at First National Bank, using her luxury car as collateral. Her bold and playful approach catches the attention of the bank clerk, Leo, and his supervisor, Iris. While Leo is professional and accommodating, Iris is more skeptical, observing Zoe's every move with curiosity. Through the interaction, Zoe's financial independence, strategic thinking, and daring personality are subtly revealed as she navigates the process with ease.",
+      "social_purpose": "To showcase Zoe's confidence and strategic mindset while highlighting the bank staff's reactions to an unconventional loan application. This interaction allows for a natural exploration of her values and experiences in a public setting.",
+      "chunk": {
+        "id": 0,
+        "text": "Zoe Holt, a 24-year-old businesswoman, enters the loan office of First National Bank, her posture poised and her demeanor calm. She is met by Leo, a 35-year-old bank clerk with a friendly but cautious expression, and Iris, a 42-year-old supervisor who watches from behind her desk with a subtle air of scrutiny."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "title": "An Unexpected Encounter",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Luke accidentally enters a church and meets Hao and Joe during a service.",
+      "time": "10:30 AM",
+      "location": "St. Michael's Church, downtown area",
+      "description": "Luke, a 20-year-old college student, walks into St. Michael's Church, having missed his turn on the way to a nearby café. The small, quiet church is mid-service, and he quickly realizes he's intruded. He hesitates at the back but decides to sit near the center, where an older man named Hao is already seated. The pastor, Joe, begins speaking, drawing Luke deeper into the moment despite his initial discomfort.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Luke Johnson",
+          "gender": "male",
+          "description": "A young man in his early 20s, wearing a hoodie and jeans, clearly out of place but trying to stay composed. His eyes dart around the room, betraying his nervousness.; male, 20 years old; Occupation: College student; Personality: Curious, Anxious, Introspective, Hesitant; Values: Self-exploration, Spirituality, Authenticity; Interests: Religion, Personal growth, Quiet reflection; Experiences: Attending religious activities, Feeling uncomfortable in new environments, Seeking meaning in life",
+          "position": "Middle row, second seat from the aisle",
+          "states": "Nervous, curious, introspective",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Hao",
+          "gender": "male",
+          "description": "A middle-aged man with a calm and observant demeanor, dressed in a modest suit; male; Age: 58; Occupation: Retired school principal; Personality: Perceptive, introspective, patient; Values: Respect for tradition, empathy, quiet integrity; Interests: Reading theological works, walking in the park, mentoring young people; Experiences: Served as a Sunday school teacher for decades, witnessed many personal and community transformations through faith, lost his wife several years ago and found solace in the church.",
+          "position": "Middle row, first seat from the aisle",
+          "states": "Observant, reserved, slightly surprised",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Joe",
+          "gender": "male",
+          "description": "The pastor of St. Michael's Church, in his 40s, with a warm and engaging presence; Male; Age: 45; Occupation: Pastor and part-time youth counselor; Personality: Confident, welcoming, focused; Values: Community, compassion, integrity; Interests: Reading theological literature, playing guitar, mentoring young people; Experiences: Served in urban ministry for over 15 years, led a community outreach program during the pandemic, grew up in a large, faith-centered family.",
+          "position": "Pulpit",
+          "states": "Confident, welcoming, focused",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Luke Johnson",
+          "character_id": 0,
+          "action": "Sits down awkwardly, avoiding eye contact with others.",
+          "dialogue": ""
+        },
+        {
+          "action_id": 1,
+          "character": "Hao",
+          "character_id": 1,
+          "action": "Glances at Luke and smiles slightly, sensing his discomfort.",
+          "dialogue": ""
+        },
+        {
+          "action_id": 2,
+          "character": "Joe",
+          "character_id": 2,
+          "action": "Gives a brief, lighthearted welcome to the congregation.",
+          "dialogue": "Good morning, everyone. We're glad you're here. If you're new, don't worry—just sit back, relax, and let the service speak to you."
+        },
+        {
+          "action_id": 3,
+          "character": "Luke Johnson",
+          "character_id": 0,
+          "action": "Listens intently to Joe's message, which touches on self-reflection and finding meaning in life.",
+          "dialogue": ""
+        },
+        {
+          "action_id": 4,
+          "character": "Hao",
+          "character_id": 1,
+          "action": "Nods at Luke during a hymn, signaling a subtle connection.",
+          "dialogue": ""
+        },
+        {
+          "action_id": 5,
+          "character": "Luke Johnson",
+          "character_id": 0,
+          "action": "After the service, hesitantly approaches Hao to ask a question about the message.",
+          "dialogue": "Hey, I'm sorry if I'm out of place, but I really liked what you said about finding meaning through small steps. I've been trying to figure that out for a while now."
+        },
+        {
+          "action_id": 6,
+          "character": "Hao",
+          "character_id": 1,
+          "action": "Smiles warmly and invites Luke to sit with him in the church's courtyard for coffee.",
+          "dialogue": "That's a great question, Luke. I'd love to hear more about what you're going through. There's a nice little café just outside the church. Care to join me?"
+        },
+        {
+          "action_id": 7,
+          "character": "Joe",
+          "character_id": 2,
+          "action": "Notices Luke and Hao talking and approaches with a friendly offer.",
+          "dialogue": "Hey there, Luke! I'm Joe. If you're interested in spirituality or personal growth, we have small group meetings every week. You're welcome to come by if you'd like to learn more."
+        }
+      ],
+      "plot": "Luke accidentally enters a church, where he meets Hao and Joe. Despite his initial anxiety, he finds himself drawn to the service and the people. Through a shared interest in meaning and self-exploration, he begins to open up and consider forming a new connection.",
+      "social_purpose": "To show how a shared goal of self-exploration and spiritual growth can lead to unexpected social interactions and personal growth.",
+      "chunk": {
+        "id": 0,
+        "text": "Luke Johnson, a 20-year-old college student, stumbles into St. Michael's Church while seeking a nearby café. Feeling out of place, he sits next to Hao, a middle-aged man who senses his unease. During the service led by Pastor Joe, Luke is intrigued by the message on finding meaning. After the service, he musters the courage to ask Hao a question, leading to a conversation and an invitation for coffee. Joe, noticing Luke's interest, offers him a chance to join the church's small group meetings, which could mark the beginning of a new chapter in Luke's life."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

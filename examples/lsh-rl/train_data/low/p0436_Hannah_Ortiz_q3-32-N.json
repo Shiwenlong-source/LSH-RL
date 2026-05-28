@@ -1,0 +1,81 @@
+{
+  "title": "A Community Meeting for Safety",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Community Meeting",
+      "time": "Evening",
+      "location": "Community Center, Tampines, Singapore",
+      "description": "Hannah Ortiz, a 35-year-old convenience store owner, is attending a local community meeting to address recent security issues. She is joined by her husband Jack, a construction worker, and neighbor Chen, a retired teacher who has been trying to connect with Hannah since the theft. The meeting is filled with residents expressing concerns and proposing solutions.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Hannah Ortiz",
+          "gender": "Female",
+          "description": "A convenience store owner in her 30s, visibly upset and anxious about recent events. She is determined to improve safety in her neighborhood.; Female / Resident, 35 years old; Occupation: Convenience Store Owner; Personality: Angry, Anxious, Vigilant, Patriotic; Values: Safety, Justice, Community trust; Interests: Pet care, Urban life, Safety; Experiences: Recent theft, Dealing with police, Neighborly interactions, Emotional distress, Singapore urban life",
+          "position": "Near the front of the room, standing",
+          "states": "Anxious, vigilant, determined",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Jack Ortiz",
+          "gender": "Male",
+          "description": "Jack Ortiz; Male; Age: 38; Occupation: Construction worker; Personality: Calm, supportive, concerned; Values: Family, community safety, integrity; Interests: Woodworking, local sports events, DIY home projects; Experiences: Witnessed a break-in at Hannah's store, volunteered in neighborhood watch programs, worked on several Tampines housing developments.",
+          "position": "Standing beside Hannah",
+          "states": "Calm, supportive, concerned",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Chen",
+          "gender": "Male",
+          "description": "A retired teacher and neighbor of Hannah; Male; Age: 68; Occupation: Retired Secondary School Teacher; Personality: Empathetic, patient, warm-hearted; Values: Community safety, lifelong learning, kindness; Interests: Reading educational literature, gardening, mentoring youth; Experiences: Witnessed a theft at Hannah's convenience store, volunteered to organize neighborhood watch programs, taught in Tampines for over 30 years.",
+          "position": "Sitting in the second row, leaning forward",
+          "states": "Empathetic, concerned, hopeful",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Hannah Ortiz",
+          "character_id": 0,
+          "action": "Speak up",
+          "dialogue": "We can't keep waiting for the police to do something. We need to take action ourselves. This isn't just about me anymore—it's about all of us feeling safe in our homes."
+        },
+        {
+          "action_id": 1,
+          "character": "Jack Ortiz",
+          "character_id": 1,
+          "action": "Calmly support",
+          "dialogue": "Hannah's right. We should form a neighborhood watch group. We can start by sharing information and helping each other stay alert."
+        },
+        {
+          "action_id": 2,
+          "character": "Chen",
+          "character_id": 2,
+          "action": "Nod in agreement",
+          "dialogue": "I've been thinking the same thing. Maybe we can also encourage the community to install more streetlights and better cameras. It's about justice and protecting our homes."
+        },
+        {
+          "action_id": 3,
+          "character": "Hannah Ortiz",
+          "character_id": 0,
+          "action": "Speak passionately",
+          "dialogue": "I know I've been angry and frustrated, but I want to channel that into something positive. I'm not just a victim—I'm a part of this community, and I want to see it thrive."
+        }
+      ],
+      "plot": "At the community meeting, Hannah shares her recent theft experience and frustration with the police. Jack supports her by suggesting a neighborhood watch group. Chen, who has been trying to comfort Hannah, agrees and proposes additional measures like better lighting and cameras. Their shared goal is to improve safety and restore trust in their community.",
+      "social_purpose": "To show how shared values like safety and justice can bring people together, and how a traumatic event can lead to community action. It also demonstrates Hannah's transformation from a victim to an active participant in her community.",
+      "chunk": {
+        "id": 0,
+        "text": "Hannah stood at the front of the room, her voice steady but filled with emotion. 'We can't keep waiting for the police to do something. We need to take action ourselves.' A murmur of agreement rippled through the crowd. Jack, standing beside her, added, 'We should form a neighborhood watch group.' Chen, who had been quietly listening, leaned forward. 'I've been thinking the same thing. Maybe we can also encourage the community to install more streetlights and better cameras.' Hannah nodded, her determination growing. 'I'm not just a victim—I'm a part of this community, and I want to see it thrive.'"
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

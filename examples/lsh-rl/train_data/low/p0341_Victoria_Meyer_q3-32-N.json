@@ -1,0 +1,95 @@
+{
+  "title": "Beachside Confession",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Afternoon picnic at the park",
+      "time": "3:00 PM",
+      "location": "Greenfield Park, near the beach",
+      "description": "Victoria, Tiki, and Momo are sitting on a blanket, enjoying a post-beach picnic. The sun is warm, and the atmosphere is light, but Victoria is visibly distracted by Momo. Tiki senses this and subtly tries to redirect her attention.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Victoria Meyer",
+          "gender": "female, early, 25 years old",
+          "description": "Victoria is cheerful and adventurous, but now shows signs of nervousness and anticipation as she glances at Momo. She is wearing a sunflower-patterned shirt and her hair is still slightly damp from the ocean.; female, early, 25 years old; Occupation: College student; Personality: Enthusiastic, Adventurous, Sensitive, Impulsive; Values: Friendship, Authenticity, New experiences; Interests: Socializing, Adventure, Emotional exchange; Experiences: Beach activities, Building new relationships, Emotional reflection",
+          "position": "sitting on the blanket, facing Momo",
+          "states": "nervous, anticipatory, distracted",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Tiki",
+          "gender": "male, mid-20s",
+          "description": "Tiki is Victoria's close friend and roommate. He is observant and cautious, always trying to keep her grounded; Male; Age: mid-20s; Occupation: marine biology student; Personality: analytical, empathetic, level-headed; Values: loyalty, emotional well-being, balance; Interests: ocean conservation, photography, people-watching; Experiences: grew up near the coast, volunteered at a local wildlife rescue center, helped Victoria through a difficult breakup.",
+          "position": "sitting beside Victoria, facing her",
+          "states": "concerned, protective, composed",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Momo",
+          "gender": "female, late 20s",
+          "description": "Momo is Victoria's new acquaintance from the beach, known for her humor and easygoing nature. She is sitting across from Victoria, eating a sandwich and making light conversation; Female; Age: late 20s; Occupation: freelance graphic designer; Personality: cheerful, spontaneous, empathetic; Values: creativity, friendship, work-life balance; Interests: beachcombing, trying new foods, sketching; Experiences: worked remotely while traveling the world, started a small art blog that gained a local following, organized community beach clean-up events.",
+          "position": "sitting on the other side of the blanket, facing Victoria",
+          "states": "playful, relaxed, unaware of Victoria's internal conflict",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Victoria Meyer",
+          "character_id": 0,
+          "action": "glances at Momo",
+          "dialogue": "Victoria: (softly) So, Momo, what made you come to this beach today?"
+        },
+        {
+          "action_id": 1,
+          "character": "Tiki",
+          "character_id": 1,
+          "action": "notices Victoria's shift in attention",
+          "dialogue": "Tiki: (to Victoria) Hey, don't forget we have to finish your bucket list item for the day before the sun sets."
+        },
+        {
+          "action_id": 2,
+          "character": "Momo",
+          "character_id": 2,
+          "action": "responds with humor",
+          "dialogue": "Momo: (laughs) Honestly, I just followed the smell of adventure and found you two. What about you, Victoria? You seem like you're planning something epic."
+        },
+        {
+          "action_id": 3,
+          "character": "Victoria Meyer",
+          "character_id": 0,
+          "action": "nervously stirs her drink",
+          "dialogue": "Victoria: (avoiding eye contact) I, uh, just wanted to try something new. You know, embrace authenticity and all that."
+        },
+        {
+          "action_id": 4,
+          "character": "Tiki",
+          "character_id": 1,
+          "action": "nudges Victoria playfully",
+          "dialogue": "Tiki: (smiling) Yeah, but don't let the new experiences distract you from your best friend. I'm still here for you, no matter what."
+        },
+        {
+          "action_id": 5,
+          "character": "Momo",
+          "character_id": 2,
+          "action": "teases Victoria",
+          "dialogue": "Momo: (grinning) I'm flattered, but I think your best friend is just trying to keep you from making a spur-of-the-moment decision."
+        }
+      ],
+      "plot": "Victoria is trying to balance her excitement for new experiences and her feelings for Momo, while Tiki subtly reminds her of their friendship and tries to prevent impulsive decisions. Momo, unaware of Victoria's emotional state, keeps the conversation light and playful.",
+      "social_purpose": "To showcase Victoria's internal conflict between friendship and love while highlighting her impulsive and sensitive nature. Tiki's protective and composed traits contrast with Momo's humor and relaxed demeanor, creating a subtle tension in the group dynamic.",
+      "chunk": {
+        "id": 0,
+        "text": "Victoria, Tiki, and Momo are having a picnic after a day at the beach. Victoria is distracted by Momo, and Tiki senses this, trying to keep her grounded. Momo responds with humor, making the atmosphere more subtle. Victoria's emotional fluctuation is evident as she weighs her feelings for Momo against her loyalty to Tiki."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

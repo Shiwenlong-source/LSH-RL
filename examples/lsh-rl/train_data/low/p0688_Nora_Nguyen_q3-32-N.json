@@ -1,0 +1,88 @@
+{
+  "title": "Final Curtain Call",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Cast members gather backstage for a final group photo before the curtain falls on the last performance of the musical.",
+      "time": "Evening, 30 minutes before curtain call",
+      "location": "Backstage of a Broadway-style theater",
+      "description": "Nora, Lina, and Molly are standing in a semi-circle, surrounded by other cast members. The stage is dimly lit, and the atmosphere is bittersweet. A photographer sets up equipment nearby, and the cast is trying to balance excitement with the weight of the moment.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Nora Nguyen",
+          "gender": "Female",
+          "description": "A 28-year-old Broadway-style musical actor, known for her emotional and passionate performance as Billy Flynn. She is reflective and struggling to let go of the role and the memories associated with it.; 28-year-old / Female / Actor, 24 years old; Occupation: Broadway-style musical stage actor; Personality: Emotional, Reflective, Passionate; Values: Artistic expression, Friendship, Memory; Interests: Theater, Music, Performance; Experiences: Final performance of a long-running musical, Building deep relationships with cast members, Facing emotional farewells",
+          "position": "Center of the group",
+          "states": "Emotionally conflicted, holding back tears",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Lina Chen",
+          "gender": "Female",
+          "description": "Lina Chen; Female; Age: 26; Occupation: Broadway actress and choreographer; Personality: empathetic, optimistic, witty; Values: friendship, perseverance, artistic expression; Interests: dance, vintage fashion, storytelling; Experiences: performed in three off-Broadway productions, survived a grueling rehearsal for a lead role, organized a charity benefit through her theater group.",
+          "position": "To Nora's left",
+          "states": "Trying to cheer Nora up with light-hearted comments",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Molly Reyes",
+          "gender": "Female",
+          "description": "Another cast member and Nora's confidante; Female; Age: 28; Occupation: Supporting actress in the musical; Personality: Compassionate, grounded, observant; Values: Loyalty, authenticity, growth; Interests: Improv workshops, journaling, mentoring young actors; Experiences: Overcame stage fright in her first professional role, worked in regional theater before landing a Broadway spot, helped a fellow cast member through a difficult personal loss during rehearsal",
+          "position": "To Nora's right",
+          "states": "Encouraging the group to focus on the moment",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Lina Chen",
+          "character_id": 1,
+          "action": "Lina gently nudges Nora and smiles.",
+          "dialogue": "Come on, Nora, you’ve got one more performance in you. Let’s make this photo as memorable as our first one."
+        },
+        {
+          "action_id": 1,
+          "character": "Nora Nguyen",
+          "character_id": 0,
+          "action": "Nora forces a smile but looks down at the callboard in her hands.",
+          "dialogue": "I just… I don’t know how to say goodbye to this role. It’s been such a big part of me for so long."
+        },
+        {
+          "action_id": 2,
+          "character": "Molly Reyes",
+          "character_id": 2,
+          "action": "Molly places a hand on Nora’s shoulder and speaks softly.",
+          "dialogue": "You don’t have to say goodbye now. We’ll always have the memories and the art we created together."
+        },
+        {
+          "action_id": 3,
+          "character": "Nora Nguyen",
+          "character_id": 0,
+          "action": "Nora looks up at Molly, her eyes glistening.",
+          "dialogue": "I just hope I can keep that passion alive when the curtain closes tonight."
+        },
+        {
+          "action_id": 4,
+          "character": "Lina Chen",
+          "character_id": 1,
+          "action": "Lina grabs Nora’s hand and squeezes it.",
+          "dialogue": "You will. And we’ll be there with you, every step of the way."
+        }
+      ],
+      "plot": "As the cast prepares for their final group photo, Nora is overwhelmed by the emotional weight of the moment. Lina and Molly support her, trying to balance the sadness with a sense of celebration and shared memories.",
+      "social_purpose": "To showcase Nora’s deep emotional connection to her role and her friendships, while emphasizing the importance of artistic expression and memory in her life.",
+      "chunk": {
+        "id": 0,
+        "text": "Backstage, the cast members are gathered for a final group photo. Nora clutches the callboard, her emotions running high. Lina and Molly step in to offer comfort and encouragement, highlighting the bonds they've built through shared experiences in the theater."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

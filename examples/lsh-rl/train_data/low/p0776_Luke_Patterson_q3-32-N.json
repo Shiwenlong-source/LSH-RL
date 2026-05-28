@@ -1,0 +1,95 @@
+{
+  "title": "First Steps in Financial Advice",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Luke attempts to engage potential clients at a mall kiosk",
+      "time": "10:30 AM",
+      "location": "A busy shopping mall, near the food court",
+      "description": "Luke Patterson, a 25-year-old new financial advisor, is standing at a small kiosk with a sign that reads 'Free Financial Planning Consultation.' He is trying to attract attention from passing shoppers. A young woman named Joy walks by, looking interested, while Lora, his more experienced colleague, watches from a nearby bench.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Luke Patterson",
+          "gender": "male",
+          "description": "A new financial advisor with an enthusiastic and persistent attitude. He is eager to prove himself and build client relationships.; male, New Financial Advisor, 25 years old; Occupation: Financial Advisor; Personality: Enthusiastic, Persistent, Optimistic, Eager to Learn; Values: Professional Growth, Client Relationships, Sense of Responsibility; Interests: Sales and Marketing, Financial Planning, Sports, Interpersonal Communication; Experiences: First Independent Client Contact, New Financial Advisor, Athletic Talents, Teamwork Experience, Learning Client Communication Skills",
+          "position": "At the kiosk, handing out flyers",
+          "states": "Eager, determined, slightly nervous",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Joy",
+          "gender": "female",
+          "description": "A young woman in her early 20s, casually browsing the mall; Female; Age: 22; Occupation: Part-time barista and full-time college student; Personality: Curious, polite, hesitant; Values: Financial independence, education, honesty; Interests: Budgeting, personal development books, trying new coffee shops; Experiences: Worked part-time during studies to support herself, recently started researching investment options, has limited experience with financial planning.",
+          "position": "Near the kiosk, holding a coffee",
+          "states": "Curious, polite, hesitant",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Lora",
+          "gender": "female",
+          "description": "An experienced financial advisor and Luke's colleague. She is observant and analytical, often providing quiet feedback; Female; Age: 34; Occupation: Senior Financial Advisor; Personality: Analytical, reserved, detail-oriented; Values: Professional integrity, long-term growth; Interests: Reading economics journals, hiking, classical music; Experiences: Managed high-profile client portfolios, trained new advisors, navigated financial downturns with strategic foresight.",
+          "position": "Sitting on a bench nearby, watching Luke",
+          "states": "Observant, slightly disapproving, reflective",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Luke Patterson",
+          "character_id": 0,
+          "action": "Approaches Joy and offers a free consultation",
+          "dialogue": "Hi there! I'm Luke, a financial advisor. I'd love to give you a free consultation and help you start planning for your financial goals. It only takes a few minutes!"
+        },
+        {
+          "action_id": 1,
+          "character": "Joy",
+          "character_id": 1,
+          "action": "Smiles politely and declines",
+          "dialogue": "That sounds nice, but I'm not really looking for anything right now. Maybe another time."
+        },
+        {
+          "action_id": 2,
+          "character": "Luke Patterson",
+          "character_id": 0,
+          "action": "Insists on leaving his contact information",
+          "dialogue": "I completely understand! But if you ever want to talk about budgeting, investing, or just have questions, feel free to reach out. I'd be happy to help!"
+        },
+        {
+          "action_id": 3,
+          "character": "Joy",
+          "character_id": 1,
+          "action": "Takes the business card and thanks him",
+          "dialogue": "Okay, I'll keep it. Thanks for the offer, Luke."
+        },
+        {
+          "action_id": 4,
+          "character": "Lora",
+          "character_id": 2,
+          "action": "Approaches Luke to give feedback",
+          "dialogue": "Luke, I saw how you handled that. You're enthusiastic, which is great, but maybe a bit too pushy. People respond better when they feel in control."
+        },
+        {
+          "action_id": 5,
+          "character": "Luke Patterson",
+          "character_id": 0,
+          "action": "Reflects on Lora's feedback",
+          "dialogue": "You're right, Lora. I just want to make sure I don't miss any opportunities. I'll try to be more subtle next time."
+        }
+      ],
+      "plot": "Luke, as part of his first independent client outreach, tries to engage Joy at a mall kiosk. Although Joy politely declines, Luke remains persistent and leaves his contact information. Lora, observing from a distance, offers quiet but constructive feedback, helping Luke recognize the need to balance his enthusiasm with a more professional and client-focused approach.",
+      "social_purpose": "This scene explores the challenges of a new professional trying to build client relationships in a public setting. It highlights the importance of adapting communication style and understanding the value of patience and respect in sales and service roles.",
+      "chunk": {
+        "id": 0,
+        "text": "Luke approached Joy with a smile and a stack of flyers. 'Hi there! I'm Luke, a financial advisor. I'd love to give you a free consultation and help you start planning for your financial goals. It only takes a few minutes!' Joy looked at him with a polite smile, holding her coffee. 'That sounds nice, but I'm not really looking for anything right now. Maybe another time.' Luke nodded, undeterred. 'I completely understand! But if you ever want to talk about budgeting, investing, or just have questions, feel free to reach out. I'd be happy to help!' Joy took the business card and said, 'Okay, I'll keep it. Thanks for the offer, Luke.' From the bench nearby, Lora watched and then walked over. 'Luke, I saw how you handled that. You're enthusiastic, which is great, but maybe a bit too pushy. People respond better when they feel in control.' Luke thought for a moment before replying, 'You're right, Lora. I just want to make sure I don't miss any opportunities. I'll try to be more subtle next time.'"
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

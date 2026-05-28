@@ -1,0 +1,88 @@
+{
+  "title": "The BIR Hall Gamble",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Meeting at the BIR Hall",
+      "time": "10:00 AM",
+      "location": "BIR Hall Service Counter, Quezon City",
+      "description": "Elliot stands in line at the BIR Hall, nervously holding a stack of documents. He's trying to fast-track his TIN document to secure a freelance contract. Behind him, his friends Tiki and Hally wait, watching his every move.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Elliot Bennett",
+          "gender": "Male",
+          "description": "A 30-year-old freelancer with a history of impulsive decisions under pressure. He is visibly anxious and determined.; Male / Freelancer, 30 years old; Occupation: Freelancer; Personality: Persistent, Anxious, Impulsive, Pragmatic; Values: Financial Stability, Independence, Urgency; Interests: Career Development, Problem Solving, Financial Planning; Experiences: Recently Became a Freelancer, Facing Financial Pressure, Interacting with Colleagues and Friends, Handling Administrative Processes",
+          "position": "In line at the service counter",
+          "states": "Anxious, determined, uneasy",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Tiki Ramirez",
+          "gender": "Female",
+          "description": "A pragmatic and resourceful friend who gave Elliot the idea to lie about being a student; Female; Age: 26; Occupation: Tax Consultant; Personality: Analytical, reserved, loyal; Values: Honesty, responsibility, loyalty; Interests: Studying tax regulations, coffee culture, quiet evenings with a book; Experiences: Helped friends navigate legal paperwork, witnessed consequences of tax fraud, worked at the BIR for two years before moving to private consulting.",
+          "position": "Behind Elliot in the line",
+          "states": "Cautious, watchful, conflicted",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Hally Delgado",
+          "gender": "Male",
+          "description": "Elliot's older friend and mentor, who values honesty and integrity. He is visibly upset and scolding Elliot for his decision; Male; Age: 34; Occupation: Tax Consultant; Personality: Principled, impatient, protective; Values: Responsibility, fairness, transparency; Interests: Reading legal and financial literature, mentoring young professionals, hiking; Experiences: Witnessed Elliot's early career struggles, dealt with tax fraud cases that shaped his ethical stance, worked extensively with freelancers and entrepreneurs.",
+          "position": "Standing near the waiting area",
+          "states": "Angry, disappointed, concerned",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Elliot Bennett",
+          "character_id": 0,
+          "action": "Approaching the counter",
+          "dialogue": "Excuse me, I'm here to apply for a driver's license as a student. I need it urgently for my internship."
+        },
+        {
+          "action_id": 1,
+          "character": "Tiki Ramirez",
+          "character_id": 1,
+          "action": "Whispering to Elliot",
+          "dialogue": "You sure you want to go with the student story? I don't like it, but it might work."
+        },
+        {
+          "action_id": 2,
+          "character": "Hally Delgado",
+          "character_id": 2,
+          "action": "Calling out to Elliot",
+          "dialogue": "Elliot, this is wrong. If they catch you, it could ruin your credibility and get you in trouble. Why take that risk?"
+        },
+        {
+          "action_id": 3,
+          "character": "Elliot Bennett",
+          "character_id": 0,
+          "action": "Replies to Hally",
+          "dialogue": "I don't have a choice, Hally. If I don't get this TIN document soon, I lose the contract. This is about my livelihood."
+        },
+        {
+          "action_id": 4,
+          "character": "Tiki Ramirez",
+          "character_id": 1,
+          "action": "Trying to calm Hally",
+          "dialogue": "Hally, he's just trying to survive. Let him handle it his way for now. We can talk after."
+        }
+      ],
+      "plot": "Elliot, in a last-ditch effort to secure a freelance contract, lies about being a student to fast-track his TIN document. His friend Hally confronts him about the dishonesty, while Tiki supports his pragmatic approach. Elliot's impulsive decision highlights his desperation and the growing tension between his values and his survival instincts.",
+      "social_purpose": "To explore the tension between Elliot's values of urgency and financial stability and his friends' concerns for honesty and trust. The scenario shows how financial pressure can influence moral decisions in a public setting.",
+      "chunk": {
+        "id": 0,
+        "text": "Elliot's decision to lie at the BIR Hall creates a visible rift between him and his friends. Tiki's conflicted support and Hally's scolding highlight the complexity of maintaining trust while chasing financial goals."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

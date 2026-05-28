@@ -1,0 +1,88 @@
+{
+  "title": "Last-Minute Maternity Leave",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Hannah informs her supervisor about her unexpected labor and needs to submit her maternity leave application immediately.",
+      "time": "10:30 AM",
+      "location": "Office, Supervisor's Room",
+      "description": "Hannah, visibly calm but slightly pale, is seated with her friend and colleague Gloria. Quinn, their supervisor, is at their desk, reviewing documents. The atmosphere is tense yet professional as the news of Hannah's condition disrupts the usual routine.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Hannah",
+          "gender": "female",
+          "description": "A young mother in the late stages of pregnancy, known for her calm and responsible demeanor, but currently experiencing hidden anxiety about the sudden onset of labor.; female, office worker, 30 years old; Occupation: Administrative Assistant; Personality: Calm, Responsible, Anxious, Decisive; Values: Family, Professionalism, Preparation; Interests: Motherhood, Work-life balance, Health and wellness; Experiences: Recent pregnancy, Unexpected premature birth, Handling workplace procedures, Relying on close friendship, Coping with stress",
+          "position": "Seated, leaning slightly forward",
+          "states": "Calm, anxious, decisive",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Gloria",
+          "gender": "female",
+          "description": "A supportive and empathetic colleague, who has been a close friend to Hannah and is helping her navigate this urgent situation; Female; Age: 32; Occupation: Human Resources Coordinator; Personality: Compassionate, reliable, observant; Values: Loyalty, work-life balance, fairness; Interests: Mindfulness practices, volunteering for women's health initiatives, reading personal development books; Experiences: Assisted multiple colleagues through career transitions, including parental leave, organized a successful employee wellness program, and has a personal connection to Hannah through years of shared professional and personal milestones.",
+          "position": "Standing beside Hannah, offering reassurance",
+          "states": "Concerned, supportive, attentive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Quinn",
+          "gender": "male",
+          "description": "A pragmatic and detail-oriented supervisor who is initially surprised but quickly shifts into problem-solving mode to accommodate the situation; male; Age: 38; Occupation: HR Manager; Personality: analytical, empathetic, composed; Values: employee well-being, organizational efficiency, fairness; Interests: reading management literature, hiking, mentoring young professionals; Experiences: managed multiple workplace transitions during employee leaves, previously oversaw a high-stress merger process",
+          "position": "Behind his desk, adjusting his glasses",
+          "states": "Surprised, professional, concerned",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Hannah",
+          "character_id": 0,
+          "action": "explains the urgency",
+          "dialogue": "Quinn, I need to submit my maternity leave application right away. I think I might be going into labor today."
+        },
+        {
+          "action_id": 1,
+          "character": "Gloria",
+          "character_id": 1,
+          "action": "supports Hannah",
+          "dialogue": "She's been having contractions for a few hours now, and her doctor said it could be early. We're trying to make sure everything is in order."
+        },
+        {
+          "action_id": 2,
+          "character": "Quinn",
+          "character_id": 2,
+          "action": "responds with concern",
+          "dialogue": "Oh my, that's unexpected. Are you okay, Hannah? I'll get this handled immediately."
+        },
+        {
+          "action_id": 3,
+          "character": "Hannah",
+          "character_id": 0,
+          "action": "expresses gratitude",
+          "dialogue": "Thank you, Quinn. I know it's short notice, but I wanted to be responsible and give as much notice as possible."
+        },
+        {
+          "action_id": 4,
+          "character": "Quinn",
+          "character_id": 2,
+          "action": "assures her",
+          "dialogue": "Of course, Hannah. Your health and family come first. I'll make sure the team is informed and we'll adjust the workload accordingly."
+        }
+      ],
+      "plot": "Hannah, a responsible and calm administrative assistant, must address her unexpected labor and submit her maternity leave application. Gloria, her close friend and coworker, supports her by helping explain the situation to their supervisor, Quinn. Quinn is initially surprised but quickly shifts into a professional and problem-solving mindset, emphasizing teamwork to manage the disruption. Hannah's decision to prioritize her family reflects her values and experiences, while her anxiety is subtly conveyed through her composed yet urgent tone.",
+      "social_purpose": "To demonstrate Hannah's values of family and professionalism, as well as her personality traits of being responsible and decisive. It also highlights her reliance on close friendships and coping with stress in a public setting.",
+      "chunk": {
+        "id": 0,
+        "text": "Hannah, a young mother in the late stages of pregnancy, sits with her colleague Gloria in Quinn's office. She explains that she might be going into labor and needs to submit her maternity leave application immediately. Gloria supports her by describing the situation to Quinn, who is initially surprised but quickly shifts into a professional and problem-solving mindset. Hannah's calm demeanor hides her anxiety about the unexpected event and the transition to motherhood. Her decision to prioritize her family and handle the situation responsibly reflects her values and experiences."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

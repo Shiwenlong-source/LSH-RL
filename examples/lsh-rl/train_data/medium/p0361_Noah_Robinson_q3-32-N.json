@@ -1,0 +1,88 @@
+{
+  "title": "A Lift to the Summit",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Church Ski Trip Fundraiser",
+      "time": "10:30 AM",
+      "location": "Mountain Lodge at Snowfall Peak",
+      "description": "The group is gathered in the lodge's common area, waiting for the ski shuttle. A small table in the corner holds ski gear and lift passes, and the air is thick with the smell of coffee and the buzz of conversation. Noah Robinson, standing near the window, is clearly uneasy as he watches his friends prepare for the day. Anna, his close friend, notices his hesitation and approaches him. Hong, another friend, is nearby, trying to keep the mood light.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Noah Robinson",
+          "gender": "Male",
+          "description": "16-year-old, first-time skier, college-bound, and quietly anxious about his financial situation.; 20-year-old male, first-time skier, 16 years old; Occupation: College student; Personality: Anxious, Humble, Considerate; Values: Independence, Friendship, Dignity; Interests: Skiing, Gatherings, Financial planning; Experiences: First-time skiing, Peer pressure, Financial difficulties, Group travel, Emotional conversation",
+          "position": "Near the window, holding a backpack",
+          "states": "Hesitant, contemplative, and embarrassed",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Anna",
+          "gender": "Female",
+          "description": "17-year-old, outgoing and observant, has known Noah since high school and often helps him without being asked; Female; Age: 17; Occupation: Part-time ski resort volunteer and high school junior; Personality: Compassionate, proactive, and loyal; Values: Friendship, perseverance, and community service; Interests: Skiing, photography, and organizing group events; Experiences: Volunteered at local winter festivals, helped Noah through a difficult family situation last year, and led a peer mentorship program at school.",
+          "position": "Approaching Noah from behind",
+          "states": "Concerned, determined, and empathetic",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Hong",
+          "gender": "Male",
+          "description": "Hong; Male; Age: 16; Occupation: Student and part-time ski equipment helper at the Mountain Lodge; Personality: Easygoing, humorous, empathetic; Values: Friendship, adaptability, positivity; Interests: Skiing, comedy shows, making people laugh; Experiences: Volunteered at last year's church ski trip, helped organize the group's ski gear for the fundraiser, learned to handle skis and snowboards to earn extra money.",
+          "position": "Near the table, organizing ski gloves",
+          "states": "Lighthearted, aware of the tension, and trying to be supportive",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Anna",
+          "character_id": 1,
+          "action": "Approaches Noah with a lift pass in hand",
+          "dialogue": "Noah, I got an extra lift pass from my parents. You can use it, okay?"
+        },
+        {
+          "action_id": 1,
+          "character": "Noah Robinson",
+          "character_id": 0,
+          "action": "Looks away, fidgeting with his backpack",
+          "dialogue": "I don’t want to take it. I’m sure someone else could use it more."
+        },
+        {
+          "action_id": 2,
+          "character": "Hong",
+          "character_id": 2,
+          "action": "Jokes to ease the tension",
+          "dialogue": "Hey, if Noah takes it, he can beat us all to the top and claim the summit for himself. Just like a real mountain man!"
+        },
+        {
+          "action_id": 3,
+          "character": "Anna",
+          "character_id": 1,
+          "action": "Softly insists, trying to be persuasive",
+          "dialogue": "Noah, this is about having fun. You don’t have to pay for everything on your own. I know you’re trying to be independent, but sometimes we need each other."
+        },
+        {
+          "action_id": 4,
+          "character": "Noah Robinson",
+          "character_id": 0,
+          "action": "Finally accepts the pass after a long pause",
+          "dialogue": "…Thanks, Anna. I guess I could use a little help today."
+        }
+      ],
+      "plot": "At the Mountain Lodge, Noah faces the dilemma of accepting a lift pass from Anna due to his financial struggles, while trying to maintain his self-respect. Hong attempts to lighten the mood, but the tension between Noah and Anna remains palpable. Noah’s eventual acceptance of the pass reflects his internal conflict and the influence of his values, particularly friendship and dignity, in a public setting.",
+      "social_purpose": "To explore the dynamics of adolescent friendships and the struggle between independence and reliance, especially in the context of financial difficulties and shared goals.",
+      "chunk": {
+        "id": 0,
+        "text": "Noah Robinson stood near the window, backpack slung over one shoulder, watching the snow fall in quiet contemplation. He knew he should be excited for the church ski trip, but the weight of his empty wallet and the guilt of asking for help kept him rooted in place. Anna approached him, holding out a lift pass with a hopeful smile. Hong chuckled nearby, trying to make the moment feel lighter. Noah’s heart pounded as he weighed the value of his pride against the reality of his situation."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

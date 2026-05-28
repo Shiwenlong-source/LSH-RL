@@ -1,0 +1,102 @@
+{
+  "title": "The Unseen Masterpiece",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Gavin attempts to share his short film with his friends Jack and Lora in a café.",
+      "time": "Afternoon",
+      "location": "A cozy corner of a local café",
+      "description": "Gavin sits in a quiet corner of the café, laptop open and a short film ready to show. Jack and Lora, his friends and fellow performers, arrive and immediately begin discussing their upcoming performance and competition. Gavin tries to bring up his film, but his friends are distracted and dismissive, focusing only on their own goals.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Gavin Butler",
+          "gender": "Male",
+          "description": "A 25-year-old college student with a passion for filmmaking. He is enthusiastic, sensitive, and persistent, but feels overlooked by his friends.; years old, Male, College Student, 25 years old; Occupation: Film Student and Amateur Filmmaker; Personality: Enthusiastic, Persistent, Sensitive, Creative; Values: Artistic Expression, Reciprocity, Friendship; Interests: Filmmaking, Performing Arts, Creative Writing; Experiences: Completed a short film, Supported friends' projects, Felt overlooked in social settings",
+          "position": "At the table, laptop open",
+          "states": "Nervous, hopeful, slightly hurt",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Jack Reynolds",
+          "gender": "Male",
+          "description": "A 25-year-old theater student who is confident and competitive; Male; Age: 25; Occupation: Theater Performance Student; Personality: Energetic, ambitious, impatient; Values: Excellence, recognition, teamwork; Interests: Acting, improvisation, stage design; Experiences: Won regional theater competition in college, struggled to balance academics and creative projects, recently cast in a leading role in a university production.",
+          "position": "Sitting across from Gavin, holding a coffee",
+          "states": "Energetic, preoccupied, dismissive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Lora Chen",
+          "gender": "Female",
+          "description": "A 24-year-old dance major who is supportive but easily distracted; Female; Age: 24; Occupation: Dance instructor and choreographer at a local performing arts school; Personality: Enthusiastic, empathetic, impulsive; Values: Collaboration, artistic expression, positivity; Interests: Contemporary dance, music production, social media challenges; Experiences: Competed in multiple regional dance competitions, assisted in choreographing a winning school performance, struggled to balance school and creative side projects.",
+          "position": "Sitting next to Jack, scrolling through her phone",
+          "states": "Distracted, cheerful, apologetic",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Gavin Butler",
+          "character_id": 0,
+          "action": "Gavin hesitantly brings up his film project.",
+          "dialogue": "Hey, I just finished my short film. I was wondering if you guys wanted to take a quick look?"
+        },
+        {
+          "action_id": 1,
+          "character": "Jack Reynolds",
+          "character_id": 1,
+          "action": "Jack responds with disinterest.",
+          "dialogue": "Can we talk about that later? We need to go over our performance routine for the competition."
+        },
+        {
+          "action_id": 2,
+          "character": "Lora Chen",
+          "character_id": 2,
+          "action": "Lora tries to be polite but is clearly distracted.",
+          "dialogue": "Oh, that's great, Gavin! I'll watch it later, I promise. Right now, we need to focus on the competition."
+        },
+        {
+          "action_id": 3,
+          "character": "Gavin Butler",
+          "character_id": 0,
+          "action": "Gavin tries again, showing his persistence.",
+          "dialogue": "It's only a few minutes long. It's something I've been working on for a while now."
+        },
+        {
+          "action_id": 4,
+          "character": "Jack Reynolds",
+          "character_id": 1,
+          "action": "Jack brushes off the idea, revealing his competitive nature.",
+          "dialogue": "I know you've been working on it, but we really need to stick to the plan. We have a lot to do."
+        },
+        {
+          "action_id": 5,
+          "character": "Lora Chen",
+          "character_id": 2,
+          "action": "Lora shifts her attention to Gavin, showing her supportive side.",
+          "dialogue": "I'm sorry, Gavin. We're just really stressed about the competition. Maybe we can talk about it after the show?"
+        },
+        {
+          "action_id": 6,
+          "character": "Gavin Butler",
+          "character_id": 0,
+          "action": "Gavin nods, trying to hide his disappointment.",
+          "dialogue": "Sure, no problem. I just wanted you to see it."
+        }
+      ],
+      "plot": "Gavin's quiet persistence in sharing his film contrasts with his friends' focus on their performance. Their dismissive responses highlight the tension between his creative goals and the group's priorities, leaving Gavin feeling overlooked and uncertain about his place in the group.",
+      "social_purpose": "To showcase the protagonist's creative passion and the struggle for recognition within a group that has different priorities. It also highlights the dynamics of friendship and the need for reciprocity.",
+      "chunk": {
+        "id": 0,
+        "text": "Gavin sits in the corner of the café, nervously opening his laptop. Jack and Lora arrive, immediately diving into a conversation about their upcoming performance. Gavin tries to share his film, but his enthusiasm is met with a lack of interest. His sensitivity and need for support are evident as he tries to hide his disappointment. The scene ends with a subtle shift in the group dynamic, hinting at a future reckoning."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

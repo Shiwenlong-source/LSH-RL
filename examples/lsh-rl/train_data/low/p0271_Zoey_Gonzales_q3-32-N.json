@@ -1,0 +1,95 @@
+{
+  "title": "First Dance Class",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Zoey's first dance class with Tiki and Cici",
+      "time": "Evening",
+      "location": "Local community dance studio",
+      "description": "Zoey stands outside the dance studio, her heart racing with a mix of excitement and anxiety. Her roommate Tiki is beside her, offering quiet reassurance, while Cici, her old friend, teases her with playful confidence. They are about to enter a class together, and Zoey is determined to give it her all.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Zoey Gonzales",
+          "gender": "female",
+          "description": "A 24-year-old recent graduate with a passion for dance, music, and cultural activities. She is enthusiastic, ambitious, and self-reflective.; 24-year-old /female/recent graduate, 23 years old; Occupation: Student; Personality: Enthusiastic, Ambitious, Self-reflective; Values: Self-improvement, Friendship, Determination; Interests: Dance, Music, Cultural activities; Experiences: Attended a cultural performance, Inspired to start learning dance, Living with a supportive roommate",
+          "position": "Front",
+          "states": "Excited, nervous, determined",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Tiki",
+          "gender": "female",
+          "description": "Zoey's supportive roommate; Female; Age: 23; Occupation: Part-time yoga instructor and wellness blogger; Personality: Calm, empathetic, patient; Values: Growth, kindness, balance; Interests: Mindfulness practices, indie music, cooking healthy meals; Experiences: Volunteered at a community wellness center, helped friends through major life transitions, studied holistic health at a local college.",
+          "position": "Beside Zoey",
+          "states": "Supportive, reassuring, calm",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Cici",
+          "gender": "female",
+          "description": "Zoey's old friend; Female; Age: 24; Occupation: Dance instructor; Personality: Playful, encouraging, confident; Values: Friendship, personal growth, authenticity; Interests: Contemporary dance, music festivals, mentoring; Experiences: Competed in local dance competitions, taught group classes at a community center, helped Zoey overcome stage fright in high school.",
+          "position": "Behind Zoey",
+          "states": "Playful, encouraging, confident",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Zoey Gonzales",
+          "character_id": 0,
+          "action": "Zoey takes a deep breath and looks at the studio door.",
+          "dialogue": "I can't believe I'm actually doing this. What if I'm not good enough?"
+        },
+        {
+          "action_id": 1,
+          "character": "Tiki",
+          "character_id": 1,
+          "action": "Tiki places a hand on Zoey's shoulder.",
+          "dialogue": "You're already doing it by showing up. That's what matters most."
+        },
+        {
+          "action_id": 2,
+          "character": "Cici",
+          "character_id": 2,
+          "action": "Cici rolls her eyes and laughs.",
+          "dialogue": "Come on, Zoey! You've got this. Just don't quit after the first stumble."
+        },
+        {
+          "action_id": 3,
+          "character": "Zoey Gonzales",
+          "character_id": 0,
+          "action": "Zoey smiles, slightly embarrassed but motivated.",
+          "dialogue": "Okay, okay. I won't quit. Let's do this."
+        },
+        {
+          "action_id": 4,
+          "character": "Tiki",
+          "character_id": 1,
+          "action": "Tiki walks beside Zoey into the studio.",
+          "dialogue": "You're not alone in this. I'm here to support you every step of the way."
+        },
+        {
+          "action_id": 5,
+          "character": "Cici",
+          "character_id": 2,
+          "action": "Cici follows, clapping her hands.",
+          "dialogue": "Let's see if you can keep up with the pros, Gonzales!"
+        }
+      ],
+      "plot": "Zoey, inspired by a cultural performance, is attending her first dance class with the support of her roommate Tiki and the playful encouragement of her friend Cici. The trio shares a mix of nerves and excitement as they step into the studio, ready to begin Zoey's journey into dance.",
+      "social_purpose": "To showcase Zoey's determination and enthusiasm for dance while highlighting the roles of Tiki and Cici in her life—Tiki as a calming and supportive presence, and Cici as a fun, motivational force.",
+      "chunk": {
+        "id": 0,
+        "text": "Zoey stood at the edge of the dance studio, her heart pounding with a mix of excitement and fear. She had never taken a formal dance class before, but after seeing a cultural performance last week, she felt a pull to learn. Her roommate Tiki, who had always been supportive of her ambitions, gently nudged her forward. 'You've got this,' she said, her voice steady and kind. Cici, her old friend, chimed in with a teasing laugh, 'Just don't trip and make me laugh too hard.' Zoey smiled, her determination growing. She had come too far to turn back now. As they walked in, the instructor greeted them warmly, and Zoey felt a flicker of hope that this was the beginning of something beautiful."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

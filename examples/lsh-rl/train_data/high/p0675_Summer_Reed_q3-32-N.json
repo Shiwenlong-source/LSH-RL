@@ -1,0 +1,95 @@
+{
+  "title": "The Wedding Dress Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Wedding Dress Fitting",
+      "time": "Afternoon",
+      "location": "Elegant Bridal Atelier",
+      "description": "Summer Reed, a 28-year-old bride and fashion streamer, is trying on wedding dresses with her mother Amy and best friend Tiki. The salon is filled with soft lighting and elegant gowns. Summer is torn between a simple, modern design and a traditional, voluminous gown with a long train. Amy gently encourages her to go for something more 'special,' while Tiki reassures her that her fiancé Mikoy will love whatever she chooses. The interaction reveals Summer's internal conflict and her desire to honor her family while staying true to herself.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Summer Reed",
+          "gender": "Female",
+          "description": "28-year-old bride who is thoughtful and self-reflective. She is anxious about the wedding and wants to be authentic while considering her family's expectations.; 28-year-old Female, Bride, 28 years old; Occupation: Fashion Streamer; Personality: Thoughtful, Self-Reflective, Anxious, Authentic; Values: Authenticity, Family, Personal Happiness; Interests: Wedding Planning, Fashion, Self-Expression; Experiences: Preparing for a Wedding, Dealing with Family Expectations, Exploring Personal Identity",
+          "position": "Trying on a wedding dress in the fitting room",
+          "states": "Torn, anxious, seeking reassurance",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Amy Reed",
+          "gender": "Female",
+          "description": "Summer's mother, mid-50s, traditional and warm; Female; Age: 54; Occupation: Elementary school teacher; Personality: nurturing, patient, sentimental; Values: family traditions, emotional connection; Interests: baking, vintage fashion, family gatherings; Experiences: planning multiple family events, including her own daughter's quinceañera, helping Summer prepare for her first prom.",
+          "position": "Sitting in a chair near the fitting room",
+          "states": "Caring, gently persistent, nostalgic",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Tiki Nguyen",
+          "gender": "Female",
+          "description": "Summer's best friend, laid-back and supportive; Female; Age: 29; Occupation: Freelance graphic designer and part-time event planner; Personality: Creative, easygoing, empathetic; Values: Personal happiness, authenticity, loyalty; Interests: DIY fashion projects, indie music festivals, coffee culture; Experiences: Helped plan multiple weddings for friends, worked in a boutique before freelancing, grew up in a close-knit Vietnamese-American family.",
+          "position": "Standing behind the mirror, offering support",
+          "states": "Supportive, empathetic, encouraging",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Amy Reed",
+          "character_id": 1,
+          "action": "Expresses her opinion on the wedding dress",
+          "dialogue": "Summer, this is the most important day of your life. A gown with a train will make the ceremony feel more special. I just want you to look like a princess on your wedding day."
+        },
+        {
+          "action_id": 1,
+          "character": "Tiki Nguyen",
+          "character_id": 2,
+          "action": "Comforts Summer",
+          "dialogue": "Mikoy has always said he just wants you to be happy, Summer. It’s your day, and he’ll love you no matter what you wear."
+        },
+        {
+          "action_id": 2,
+          "character": "Summer Reed",
+          "character_id": 0,
+          "action": "Reflects on the advice and her own values",
+          "dialogue": "I know you both mean well. I just feel like I want something that reflects *me* and not just what people expect. I’ve worked so hard to be true to myself, and I don’t want to lose that now."
+        },
+        {
+          "action_id": 3,
+          "character": "Amy Reed",
+          "character_id": 1,
+          "action": "Softens her stance",
+          "dialogue": "I understand, Summer. I just want you to feel like the whole day is perfect. If this is what makes you feel most like yourself, then it’s perfect for you."
+        },
+        {
+          "action_id": 4,
+          "character": "Tiki Nguyen",
+          "character_id": 2,
+          "action": "Encourages Summer to make her choice",
+          "dialogue": "Exactly, Summer. This is your moment. You’ve always been so thoughtful about your choices, and I know you’ll make the right one."
+        },
+        {
+          "action_id": 5,
+          "character": "Summer Reed",
+          "character_id": 0,
+          "action": "Chooses a dress that reflects her true self",
+          "dialogue": "Okay, I think I found the one. It’s simple, but it feels like *me*. Thank you both for helping me through this."
+        }
+      ],
+      "plot": "Summer Reed is trying to choose a wedding dress that reflects her true self while also honoring her family’s expectations. Her mother, Amy, gently pushes for a traditional, voluminous gown, while her best friend, Tiki, reassures her that her fiancé will support her choice. Through the interaction, Summer finds the courage to choose a dress that aligns with her values of authenticity and personal happiness.",
+      "social_purpose": "To explore how the protagonist navigates between personal identity and external expectations in a public setting, while demonstrating her values and personality traits through dialogue and decision-making.",
+      "chunk": {
+        "id": 0,
+        "text": "Summer steps out of the fitting room in a simple, elegant white dress with a subtle lace bodice and a flowing, minimal train. Amy’s eyes soften as she takes in the sight, while Tiki claps her hands in excitement. Summer looks in the mirror, taking a deep breath, and finally feels at peace with her decision."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

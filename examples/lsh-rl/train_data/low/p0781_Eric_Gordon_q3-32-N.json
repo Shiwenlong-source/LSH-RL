@@ -1,0 +1,91 @@
+{
+  "title": "Power Outage Decision Point",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Team Meeting to Decide Next Steps",
+      "time": "Evening, 7:30 PM",
+      "location": "Command Center, Tactical Base",
+      "description": "The team is gathered in the dimly lit command center following a sudden and unexplained power outage. The base's emergency lighting flickers overhead as maps and reports are spread across the table. The atmosphere is tense, with team members divided on the best course of action.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Eric Gordon",
+          "gender": "Male",
+          "description": "A 42-year-old front-line commander with a calm and decisive demeanor. He is known for his strategic thinking and ability to keep the team focused during high-pressure situations.; Male / Front-line Commander, 42 years old; Occupation: Military Commander; Personality: Calm, Decisive, Analytical, Responsible; Values: Duty, Teamwork, Strategic Thinking, Control; Interests: Military Strategy, Leadership, Crisis Management; Experiences: Front-line Combat, Tactical Decision-making, Team Leadership, Emergency Response",
+          "position": "Commander",
+          "states": "Calm, Analytical, Focused",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Lena Torres",
+          "gender": "Female",
+          "description": "A 35-year-old communications officer who is passionate about diplomacy and conflict resolution. She believes in finding peaceful solutions before resorting to force; Female; Age: 35; Occupation: Communications Officer and Diplomatic Liaison; Personality: Calm, Persuasive, Concerned; Values: Cooperation, Integrity, Preparedness; Interests: Negotiation strategy, Cross-cultural communication, Emergency response planning; Experiences: Mediated a tense standoff between rival factions in a war-torn region, Led a team through a high-stakes crisis negotiation under unstable conditions, Trained in nonviolent conflict de-escalation techniques.",
+          "position": "Communications Officer",
+          "states": "Calm, Persuasive, Concerned",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Marcus Lee",
+          "gender": "Male",
+          "description": "A 38-year-old operations specialist with a background in engineering; Male; Age: 38; Occupation: Emergency Response Coordinator; Personality: Frustrated, Urgent, Confident, Analytical, Impatient; Values: Efficiency, Preparedness, Team Cohesion; Interests: Technical problem-solving, High-stakes strategy games, Fitness training; Experiences: Managed crisis recovery during a major infrastructure failure, Led a team through a prolonged blackout in a remote military outpost, Trained in disaster response protocols under extreme pressure.",
+          "position": "Operations Specialist",
+          "states": "Frustrated, Urgent, Confident",
+          "is_npc": true
+        },
+        {
+          "id": 3,
+          "name": "Sara Kim",
+          "gender": "Female",
+          "description": "A 31-year-old intelligence analyst who is methodical and detail-oriented; Female; Age: 31; Occupation: Senior Intelligence Analyst; Personality: Analytical, Disciplined, Pragmatic; Values: Accuracy, Team Cohesion, Preparedness; Interests: Cryptanalysis, Urban Survival Tactics, Documentary Filmmaking; Experiences: Investigated cyber-espionage incidents in Seoul, Survived a failed military coup in a conflict zone, Led post-crisis debriefings for high-stakes operations",
+          "position": "Intelligence Analyst",
+          "states": "Cautious, Observant, Neutral",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Marcus Lee",
+          "character_id": 2,
+          "action": "Pushes for immediate action",
+          "dialogue": "We can't wait any longer, Commander. The power's been cut for hours, and their demands are absurd. We need to move before the situation gets worse."
+        },
+        {
+          "action_id": 1,
+          "character": "Lena Torres",
+          "character_id": 1,
+          "action": "Advocates for negotiation",
+          "dialogue": "I understand the urgency, Marcus, but rushing in without understanding their motives could lead to unnecessary bloodshed. We should try to negotiate first."
+        },
+        {
+          "action_id": 2,
+          "character": "Sara Kim",
+          "character_id": 3,
+          "action": "Presents intelligence findings",
+          "dialogue": "Based on the intercepted transmissions, the other side is likely testing our resolve. They might not be fully committed to their demands, but we need to proceed carefully."
+        },
+        {
+          "action_id": 3,
+          "character": "Eric Gordon",
+          "character_id": 0,
+          "action": "Evaluates options and makes a decision",
+          "dialogue": "Thank you for the input. I agree with Sara's assessment. We'll prepare for negotiation, but we'll also have a contingency plan in place. Duty demands we act responsibly, not recklessly."
+        }
+      ],
+      "plot": "Eric Gordon, as the front-line commander, must lead his team in deciding how to respond to an enemy who has cut their power and issued unreasonable demands. His calm and analytical nature helps him weigh the options, while Lena Torres and Marcus Lee represent the two opposing views. Ultimately, he chooses a balanced approach, leveraging his experience in crisis management and strategic thinking to ensure both safety and control.",
+      "social_purpose": "Demonstrate how Eric Gordon's values of Duty, Teamwork, and Strategic Thinking influence his decision-making in a high-pressure scenario. Show his personality traits of Calmness and Responsibility as he mediates between conflicting opinions and maintains team cohesion.",
+      "chunk": {
+        "id": 0,
+        "text": "Eric Gordon stood at the head of the table, his calm presence anchoring the room. 'We need to consider all angles,' he said, his voice steady. 'Marcus, your point is valid, but rushing in without a clear strategy could cost us. Lena, your approach is sound, but we can't afford to be blind to the risks. Sara, your intelligence is crucial. We'll use it to inform our next move. We'll send a negotiation team, but we'll also prepare for the possibility of force. That's the responsible choice.'"
+      },
+      "npcs": [
+        1,
+        2,
+        3
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "title": "The Coffee Catch-Up",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Faith and her friend Jolin meet for coffee before a mutual friend's birthday party.",
+      "time": "Afternoon",
+      "location": "Local Café",
+      "description": "Faith sits at a small table near the window, sipping a latte while reviewing her outfit in a compact mirror. Jolin approaches, carrying a bagel and a coffee, clearly excited to catch up. A third friend, Maya, joins them shortly, bringing a book and a calm, observant energy.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Faith Smith",
+          "gender": "Female",
+          "description": "A 23-year-old young professional who is self-conscious and thoughtful, currently conflicted about her appearance.; 20-something / Female, 23 years old; Occupation: Young Professional; Personality: Self-conscious, Thoughtful, Pursuing authenticity; Values: Self-expression, Friendship, Authenticity; Interests: Beauty, Socializing, Personal style; Experiences: Preparing for social events, Self-reflection, Making decisions under pressure",
+          "position": "Seated at the table, holding a mirror and a latte.",
+          "states": "Anxious, contemplative, seeking reassurance.",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Jolin Carter",
+          "gender": "Female",
+          "description": "Faith’s best friend, confident and fashion-forward; Female; Age: 27; Occupation: Fashion stylist and personal shopper; Personality: Energetic, observant, supportive; Values: Self-expression, loyalty, authenticity; Interests: Trend forecasting, interior design, social media curation; Experiences: Worked on a local reality TV fashion show, helped Faith prepare for a high-profile event, recently traveled to Milan for a design workshop.",
+          "position": "Approaching the table with a coffee and a bagel.",
+          "states": "Energetic, observant, supportive.",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Maya Chen",
+          "gender": "Female",
+          "description": "A calm and artistic friend who values authenticity and is known for her natural, understated style; Female; Age: 28; Occupation: Freelance graphic designer and part-time art therapist; Personality: Observant, introspective, kind; Values: Self-expression, emotional well-being, simplicity; Interests: Watercolor painting, journaling, visiting local galleries; Experiences: Worked in a busy advertising agency before shifting to more meaningful creative work, helped a close friend through a difficult emotional period using art therapy techniques, spent a year traveling through Southeast Asia sketching and learning about cultural traditions.",
+          "position": "Arriving with a book and a coffee.",
+          "states": "Calm, curious, empathetic.",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Jolin Carter",
+          "character_id": 1,
+          "action": "Approaches and greets Faith with a smile.",
+          "dialogue": "Hey, Faith! You look amazing, as always. Are you ready for the party tonight?"
+        },
+        {
+          "action_id": 1,
+          "character": "Faith Smith",
+          "character_id": 0,
+          "action": "Looks up, slightly flustered.",
+          "dialogue": "Thanks, Jolin. I’m just trying to figure out if I should have worn more makeup. I don’t want to look too put together, but I also don’t want to seem like I didn’t try."
+        },
+        {
+          "action_id": 2,
+          "character": "Maya Chen",
+          "character_id": 2,
+          "action": "Sits down and adds her perspective.",
+          "dialogue": "Faith, you know I love your natural look. It’s real, and that’s what makes you unique. Why not just be you?"
+        },
+        {
+          "action_id": 3,
+          "character": "Faith Smith",
+          "character_id": 0,
+          "action": "Nods slowly, reflecting on Maya’s words.",
+          "dialogue": "I know, but it’s hard not to feel like I should match the vibe of the party. I don’t want to stand out in a bad way."
+        },
+        {
+          "action_id": 4,
+          "character": "Jolin Carter",
+          "character_id": 1,
+          "action": "Leans in, encouragingly.",
+          "dialogue": "You don’t have to match the vibe of the party if it’s not you. That’s what makes the night more interesting, right? Diversity in style."
+        },
+        {
+          "action_id": 5,
+          "character": "Faith Smith",
+          "character_id": 0,
+          "action": "Smiles and tucks the mirror away.",
+          "dialogue": "You’re both right. I think I’ll just go with my natural look and see how it goes. I should focus on being comfortable and presentable, not perfect."
+        }
+      ],
+      "plot": "Faith wrestles with her decision on whether to wear makeup before meeting her friends for coffee. Through their conversation, she gains confidence in her choice to embrace her natural look, aligning with her values of authenticity and self-expression.",
+      "social_purpose": "To explore the protagonist’s internal conflict and how her values are reinforced through interaction with friends who embody different perspectives on style and self-presentation.",
+      "chunk": {
+        "id": 0,
+        "text": "Faith, Jolin, and Maya gather for coffee before the party. Faith’s self-consciousness about her appearance is gently challenged by Jolin’s confidence and Maya’s emphasis on authenticity. Their dialogue helps Faith make a decision that aligns with her values."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "title": "Cafe Reflections",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Carter meets with Chen and Yuri at a cozy downtown cafe to catch up after ending a relationship.",
+      "time": "3:00 PM",
+      "location": "A quiet, artsy cafe with a view of the city skyline",
+      "description": "Carter sits at a corner table with two mugs of coffee in front of him. Chen and Yuri arrive, each taking a seat. The atmosphere is calm, with soft background music and the hum of conversation. The group is trying to shift the mood from Carter's recent emotional turmoil to something more forward-looking and constructive.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Carter Mason",
+          "gender": "Male",
+          "description": "A 30-year-old introspective and reserved young professional who recently ended a complicated relationship. He is trying to balance emotional honesty with a need for privacy.; years old / Male / professional, 30 years old; Occupation: Young Professional; Personality: Introspective, Empathetic, Reserved; Values: Emotional honesty, Friendship, Personal growth; Interests: Travel, Self-reflection, Coffee culture; Experiences: Recent breakup, International travel, Deep conversations with close friends",
+          "position": "Corner table, central",
+          "states": "Tense but trying to relax, occasionally distracted by his thoughts",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Chen",
+          "gender": "Male",
+          "description": "A supportive and perceptive friend who has a knack for reading between the lines; Male; Age: 28; Occupation: Therapist; Personality: Empathetic, patient, observant; Values: Emotional well-being, authenticity, trust; Interests: Reading psychology books, practicing mindfulness, visiting art galleries; Experiences: Worked with clients through difficult breakups, lost a close friend to depression, volunteers at a community mental health center.",
+          "position": "To Carter's left",
+          "states": "Gentle and attentive, trying to create a safe space for conversation",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Yuri",
+          "gender": "Non-binary",
+          "description": "A pragmatic and forward-thinking friend who is more interested in Carter's future than his past; Non-binary; Age: 28; Occupation: Urban planner; Personality: Optimistic, analytical, empathetic; Values: Growth, community, resilience; Interests: Sustainable design, indie music, hiking; Experiences: Helped revitalize a neighborhood from scratch, navigated a long-distance relationship that ended amicably, mentors young professionals in career transitions.",
+          "position": "To Carter's right",
+          "states": "Optimistic and focused, steering the conversation toward future plans",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Chen",
+          "character_id": 1,
+          "action": "Asks Carter how he's feeling about the recent breakup",
+          "dialogue": "Hey, Carter. I know it's been a few days, but how are you really feeling about everything? You don't have to talk about it if you're not ready, but I'm here to listen."
+        },
+        {
+          "action_id": 1,
+          "character": "Carter Mason",
+          "character_id": 0,
+          "action": "Avoids direct answers and mentions travel as a distraction",
+          "dialogue": "I don't know, it's complicated. I'm just trying to focus on work and maybe plan a trip soon. I need a change of scenery."
+        },
+        {
+          "action_id": 2,
+          "character": "Yuri",
+          "character_id": 2,
+          "action": "Suggests a specific travel destination and asks about his plans",
+          "dialogue": "That sounds like a good idea. I heard Iceland is amazing this time of year. Are you thinking of going there? I can help you plan it if you want."
+        },
+        {
+          "action_id": 3,
+          "character": "Carter Mason",
+          "character_id": 0,
+          "action": "Smiles slightly, considering the idea but not committing",
+          "dialogue": "Iceland... I've always wanted to go there. Maybe. I just need to clear my head first."
+        },
+        {
+          "action_id": 4,
+          "character": "Chen",
+          "character_id": 1,
+          "action": "Reassures Carter that it's okay to take time and feel conflicted",
+          "dialogue": "You don't have to rush, Carter. It's okay to feel both relief and sadness. Take the time you need."
+        },
+        {
+          "action_id": 5,
+          "character": "Carter Mason",
+          "character_id": 0,
+          "action": "Nods, showing appreciation for the empathy",
+          "dialogue": "Thanks, Chen. I really needed to hear that. I just don't know how to put it all into words yet."
+        },
+        {
+          "action_id": 6,
+          "character": "Yuri",
+          "character_id": 2,
+          "action": "Encourages Carter to focus on personal growth and new opportunities",
+          "dialogue": "I get it. But once you're ready, let's focus on the future. I know you've always talked about personal growth and self-reflection. This could be the perfect chance to do both."
+        }
+      ],
+      "plot": "Carter is trying to navigate his recent breakup while his friends Chen and Yuri offer different forms of support. Chen is empathetic and wants to understand Carter's emotions, while Yuri is more focused on practical steps for moving forward. The conversation highlights Carter's internal struggle and his tendency to remain reserved.",
+      "social_purpose": "To demonstrate how Carter's values of emotional honesty and personal growth interact with his reserved personality and how his friends' differing approaches reflect their own personalities and support systems.",
+      "chunk": {
+        "id": 0,
+        "text": "Carter sits at a corner table in a cozy downtown cafe, sipping coffee as Chen and Yuri settle in beside him. The air is thick with unspoken tension, but the friends are determined to make the best of the afternoon. Chen leans forward, asking gently about Carter's feelings, while Yuri leans back, already brainstorming travel ideas. Carter, caught between relief and uncertainty, listens carefully, weighing how much to share."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

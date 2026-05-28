@@ -1,0 +1,95 @@
+{
+  "title": "The Balloon's Last Flight",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Sadie and her daughter Sora are at a local park during a community event, where Sora becomes emotionally attached to a deflating balloon.",
+      "time": "Afternoon, 3 PM",
+      "location": "Local Park, Community Picnic Area",
+      "description": "The park is filled with families enjoying food, games, and music. Sora, a 6-year-old with a bright smile, clutches a balloon that is slowly losing air. Sadie watches from a few feet away, caught between letting the moment pass and guiding her daughter through it. Lucas, Sadie’s husband, approaches with a thoughtful suggestion.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Sadie Gonzales",
+          "gender": "Female",
+          "description": "34-year-old mother and teacher, gently anxious and empathetic. She is trying to balance her child’s emotional needs with the reality of the situation.; years old / Female / Mother, 34 years old; Occupation: Teacher; Personality: Gentle, Anxious, Empathetic, Pragmatic; Values: Family, Emotional Health, Responsibility; Interests: Parenting, Emotional Communication, Family Harmony; Experiences: Raising children, Teaching elementary school students, Handling family challenges, Dealing with emotional conflicts",
+          "position": "Near the picnic table, holding a plate of food",
+          "states": "Torn, concerned, trying to stay calm",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Sora Gonzales",
+          "gender": "Female",
+          "description": "6-year-old daughter of Sadie and Lucas, curious and emotional; Female; Age: 6; Occupation: Student in first grade; Personality: imaginative, empathetic, sensitive; Values: family, kindness, wonder; Interests: drawing, storytelling, collecting shiny things; Experiences: losing a beloved pet hamster, receiving a balloon as a gift at her last birthday party, participating in school plays and community fairs.",
+          "position": "Sitting on a blanket, clutching the balloon",
+          "states": "Upset, clinging to the balloon, seeking comfort",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Lucas Gonzales",
+          "gender": "Male",
+          "description": "Calm and supportive father; Male; Age: 34; Occupation: Elementary school teacher; Personality: Empathetic, patient, optimistic; Values: Family, growth through experience; Interests: Storytelling, outdoor activities with his family; Experiences: Successfully guided his students through emotional challenges, helped Sora cope with the loss of a pet rabbit.",
+          "position": "Approaching from the food table, holding a small notebook",
+          "states": "Thoughtful, encouraging, trying to help",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Sora Gonzales",
+          "character_id": 1,
+          "action": "Looks up at Sadie with teary eyes, holding the balloon tightly.",
+          "dialogue": "Don’t let it go, Mommy! It’s the last one!"
+        },
+        {
+          "action_id": 1,
+          "character": "Sadie Gonzales",
+          "character_id": 0,
+          "action": "Squats beside Sora, gently taking the balloon from her hands.",
+          "dialogue": "I know it means a lot to you, sweetheart. But it’s getting old and tired. Let’s make sure it goes out in a way that honors how special it was to you."
+        },
+        {
+          "action_id": 2,
+          "character": "Lucas Gonzales",
+          "character_id": 2,
+          "action": "Sits on the blanket, opening a small notebook and showing Sora a drawing.",
+          "dialogue": "What if we draw a picture of the balloon and write about the day it flew with you? That way, we can keep it in our hearts forever."
+        },
+        {
+          "action_id": 3,
+          "character": "Sadie Gonzales",
+          "character_id": 0,
+          "action": "Nods at Lucas, appreciating his approach, and turns back to Sora with a soft smile.",
+          "dialogue": "Your dad has a great idea. We can remember it together. What do you think?"
+        },
+        {
+          "action_id": 4,
+          "character": "Sora Gonzales",
+          "character_id": 1,
+          "action": "Wipes her eyes, then reaches for the notebook and pencil.",
+          "dialogue": "Okay… I can draw it. But can we take it home?"
+        },
+        {
+          "action_id": 5,
+          "character": "Lucas Gonzales",
+          "character_id": 2,
+          "action": "Smiles and nods, helping Sora with the drawing.",
+          "dialogue": "Of course we can. It will be a part of our family storybook."
+        }
+      ],
+      "plot": "Sadie and Lucas help their daughter Sora process the loss of a deflating balloon by creating a memory of it through a drawing. The shared goal is to preserve the moment while teaching Sora about emotional transitions and the importance of cherishing memories.",
+      "social_purpose": "To explore how a mother, like Sadie, balances empathy and responsibility while guiding her child through emotional experiences in a public setting.",
+      "chunk": {
+        "id": 0,
+        "text": "Sadie squats beside Sora, gently taking the balloon from her hands. She looks up at Lucas, who has a small notebook in his hand. 'What if we draw a picture of the balloon and write about the day it flew with you?' he suggests. Sadie nods, appreciating his approach. 'Your dad has a great idea,' she tells Sora. 'We can remember it together.' Sora, still teary, wipes her eyes and reaches for the notebook. 'Okay… I can draw it. But can we take it home?' Lucas smiles and nods. 'Of course we can. It will be a part of our family storybook.'"
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

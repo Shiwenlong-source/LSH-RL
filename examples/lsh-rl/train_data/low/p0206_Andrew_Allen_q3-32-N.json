@@ -1,0 +1,123 @@
+{
+  "title": "Evening Reflections",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Andrew and Kris meet at the library to study for an upcoming exam.",
+      "time": "Dusk, 5:30 PM",
+      "location": "School Library",
+      "description": "The library is quiet, with the last rays of sunlight casting a warm glow through the large windows. Andrew sits by the window, a notebook open in front of him, while Kris enters hesitantly, holding a stack of books.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Andrew Allen",
+          "gender": "Male",
+          "description": "Andrew is quietly studying, his calm demeanor evident as he reflects on the situation with Yuna.; 18-year-old Male, High School Student, 18 years old; Occupation: High School Student; Personality: Determined, Sensitive, Contemplative, Resilient; Values: Love, Integrity, Self-esteem; Interests: Emotional Introspection, Friendship, Personal Growth; Experiences: Experiencing Unrequited Love, Facing Mockery, Handling Complex Friendships",
+          "position": "By the window",
+          "states": "Calm, reflective, focused",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Kris",
+          "gender": "Male",
+          "description": "Kris looks conflicted, trying to balance his emotions with the need to maintain their friendship; Male; Age: 17; Occupation: High school student; Personality: Thoughtful, loyal, anxious; Values: Honesty, loyalty; Interests: Reading classic literature, playing chess; Experiences: Recently discovered a secret about Andrew that challenges his trust, struggled with academic pressure in the past.",
+          "position": "Approaching Andrew's table",
+          "states": "Nervous, conflicted, hopeful",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Yuna",
+          "gender": "Female",
+          "description": "Yuna is seated at a nearby table, reviewing her notes and occasionally glancing at Andrew and Kris; Female; Age: 19; Occupation: Student; Personality: Analytical, introverted, supportive; Values: Academic excellence, kindness, integrity; Interests: Reading non-fiction, journaling, helping others; Experiences: Volunteered as a peer tutor last semester, formed a study group during midterms, lost a close friend to illness and became more empathetic.",
+          "position": "Nearby table",
+          "states": "Distracted, observant, empathetic",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Kris",
+          "character_id": 1,
+          "action": "Approaches Andrew's table and sits down.",
+          "dialogue": "Hey Andrew, I brought the books we needed for the study group. I hope it's okay that I came early."
+        },
+        {
+          "action_id": 1,
+          "character": "Andrew Allen",
+          "character_id": 0,
+          "action": "Looks up from his notes and smiles.",
+          "dialogue": "Sure, it's fine. I was just going over the chapter on ethics. You're welcome to join me."
+        },
+        {
+          "action_id": 2,
+          "character": "Kris",
+          "character_id": 1,
+          "action": "Places the books on the table and hesitates.",
+          "dialogue": "Actually, I wanted to talk to you about something else. About Yuna."
+        },
+        {
+          "action_id": 3,
+          "character": "Andrew Allen",
+          "character_id": 0,
+          "action": "Pauses and listens attentively.",
+          "dialogue": "Okay. I know it's been a bit awkward lately. I care about our friendship, Kris."
+        },
+        {
+          "action_id": 4,
+          "character": "Kris",
+          "character_id": 1,
+          "action": "Takes a deep breath and speaks honestly.",
+          "dialogue": "I like her, and I know you do too. I don't want this to come between us. I respect you, Andrew."
+        },
+        {
+          "action_id": 5,
+          "character": "Andrew Allen",
+          "character_id": 0,
+          "action": "Nods thoughtfully and replies calmly.",
+          "dialogue": "I respect you too. I believe in fair competition and doing things with integrity. If she chooses you, I'll be happy for you."
+        },
+        {
+          "action_id": 6,
+          "character": "Kris",
+          "character_id": 1,
+          "action": "Looks relieved and slightly emotional.",
+          "dialogue": "Thanks, Andrew. I know we can get through this. I value our friendship more than anything."
+        },
+        {
+          "action_id": 7,
+          "character": "Yuna",
+          "character_id": 2,
+          "action": "Walks over to their table, noticing the tension.",
+          "dialogue": "Hey, I heard you two were here. I wanted to see if you'd like help with the study group."
+        },
+        {
+          "action_id": 8,
+          "character": "Andrew Allen",
+          "character_id": 0,
+          "action": "Smiles warmly at Yuna.",
+          "dialogue": "That would be great, Yuna. Thanks for coming."
+        },
+        {
+          "action_id": 9,
+          "character": "Kris",
+          "character_id": 1,
+          "action": "Forces a smile and tries to hide his discomfort.",
+          "dialogue": "Yeah, I could use the help. Thanks, Yuna."
+        }
+      ],
+      "plot": "Andrew and Kris confront the emotional tension caused by their mutual feelings for Yuna. Andrew's calm and mature approach helps to ease the situation, while Kris struggles to maintain his composure. Yuna's presence brings a sense of normalcy and shared purpose as they prepare for the upcoming exam.",
+      "social_purpose": "To show how Andrew's values of love, integrity, and self-esteem help him navigate complex friendships and emotional challenges. It also highlights Kris's inner struggle and the importance of communication in maintaining relationships.",
+      "chunk": {
+        "id": 0,
+        "text": "Andrew and Kris sit at the library table, the sun setting behind them. Their shared goal of preparing for an exam becomes a backdrop for a deeper conversation about their feelings for Yuna. Andrew's calm and determined nature allows him to address the issue with sensitivity, while Kris's internal conflict is evident. Yuna's arrival brings a new dynamic, reminding them of the importance of friendship and collaboration."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

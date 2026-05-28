@@ -1,0 +1,102 @@
+{
+  "title": "The Library Encounter",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Meeting at the local library for a book club session",
+      "time": "Afternoon, 3:00 PM",
+      "location": "City Library, Quiet Reading Area",
+      "description": "Lila is seated at a small table, nervously flipping through a book. Jisoo approaches her with a warm smile, accompanied by a new friend, Maya, who is curious about Lila’s return to social life.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Lila Morales",
+          "gender": "Female",
+          "description": "A 17-year-old high school student who is sensitive and thoughtful, currently rejoining social activities after recovering from a serious illness. She is cautious and anxious about reconnecting with others.; Female, years old, High School Student, 17 years old; Occupation: High School Student; Personality: Sensitive, Thoughtful, Anxious, Self-reflective; Values: Self-improvement, Friendship, Emotional Honesty; Interests: Personal Growth, Literature, Quiet Contemplation; Experiences: Recent Illness and Recovery, Academic Pressure, Social Withdrawal, Emotional Distress, Reconnecting with Peers",
+          "position": "Seated at the table, holding a book",
+          "states": "Nervous, self-reflective, hesitant to open up",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Jisoo",
+          "gender": "Female",
+          "description": "Lila’s close friend who has been trying to help her reintegrate into social life; Female; Age: 28; Occupation: High school English teacher; Personality: Supportive, patient, encouraging; Values: Empathy, community, personal growth; Interests: Classic literature, journaling, tea tasting; Experiences: Volunteered at a community literacy program, helped a former student through a difficult time, recently joined a new book club to expand social connections.",
+          "position": "Standing next to the table, smiling",
+          "states": "Supportive, patient, encouraging",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Maya",
+          "gender": "Female",
+          "description": "A new member of the book club who is curious and friendly; Female; Age: 28; Occupation: Archivist; Personality: Curious, open-minded, approachable, empathetic, observant; Values: Knowledge-sharing, community, personal growth; Interests: Classic literature, history, journaling; Experiences: Recently moved to the city after a period of self-discovery, volunteered at a community literacy program, joined the book club to connect with others.",
+          "position": "Standing beside Jisoo, holding a book",
+          "states": "Curious, open-minded, approachable",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Jisoo",
+          "character_id": 1,
+          "action": "Approaches Lila and sits down at the table",
+          "dialogue": "Hey Lila, I'm glad you came. This book is a good one — it's about personal growth and finding your way back after a tough time."
+        },
+        {
+          "action_id": 1,
+          "character": "Maya",
+          "character_id": 2,
+          "action": "Sits across from Lila and smiles",
+          "dialogue": "Hi, I'm Maya. I just joined the book club. I heard you were coming back and wanted to meet you. I really like literature, especially stories about overcoming challenges."
+        },
+        {
+          "action_id": 2,
+          "character": "Lila Morales",
+          "character_id": 0,
+          "action": "Looks up from the book, hesitant but polite",
+          "dialogue": "Hi, I'm Lila. I haven't been in a book club for a while, but I like reading... and thinking about things. It's good to be back, I guess."
+        },
+        {
+          "action_id": 3,
+          "character": "Jisoo",
+          "character_id": 1,
+          "action": "Nods and gently changes the subject",
+          "dialogue": "That's great to hear. What book did you bring? I'd love to hear what you think about it."
+        },
+        {
+          "action_id": 4,
+          "character": "Lila Morales",
+          "character_id": 0,
+          "action": "Looks at her book, then at Jisoo and Maya",
+          "dialogue": "It's a poetry collection. I like how it makes you feel things... and how quiet it is. I don't usually talk about what I'm reading, but I can if you want."
+        },
+        {
+          "action_id": 5,
+          "character": "Maya",
+          "character_id": 2,
+          "action": "Leans forward, showing interest",
+          "dialogue": "That sounds amazing. I love how literature can help you understand yourself better. I hope we can all share and learn from each other here."
+        },
+        {
+          "action_id": 6,
+          "character": "Lila Morales",
+          "character_id": 0,
+          "action": "Softly smiles and opens the book",
+          "dialogue": "I hope so too. It's been hard to find my place again, but this feels like a good start."
+        }
+      ],
+      "plot": "Lila meets Jisoo and Maya at a book club session in the library. The interaction is a small but meaningful step in her reintegration into social life, as she begins to open up about her interests and feelings in a safe, low-pressure environment.",
+      "social_purpose": "To demonstrate Lila's sensitivity and thoughtful nature, as well as her struggle with anxiety and desire for emotional honesty, while showing how friendship and shared interests can help her reconnect with others.",
+      "chunk": {
+        "id": 0,
+        "text": "Lila takes a deep breath as Jisoo and Maya sit down. She feels a mix of relief and anxiety as they begin to talk about the book. Jisoo's encouraging presence and Maya's genuine interest help her feel a bit more at ease, and she starts to enjoy the quiet camaraderie of the group."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

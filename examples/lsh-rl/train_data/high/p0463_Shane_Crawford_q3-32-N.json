@@ -1,0 +1,95 @@
+{
+  "title": "A Sunday in the Park",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Shane and Yuki meet an elderly pastor while exploring a local church in the park",
+      "time": "10:30 AM, Sunday",
+      "location": "Perth Park, near a small outdoor chapel",
+      "description": "Shane and Yuki are sitting on a bench near a quiet outdoor chapel, discussing their search for a church in Perth. The chapel is modest, with a few people gathered for a morning service. An elderly man in a simple suit approaches them, carrying a Bible and smiling warmly.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Shane Crawford",
+          "gender": "Male",
+          "description": "A 25-year-old university student who recently moved to Perth. He is curious and thoughtful, seeking a church that aligns with his values of authenticity and spiritual connection.; years old, Male, University student, 25 years old; Occupation: University student; Personality: Curious, Thoughtful, Eager, Introspective; Values: Spiritual connection, Authenticity, Community; Interests: Religion, Self-exploration, Friendship; Experiences: Newly arrived in Perth, Exploring different churches, Seeking faith identity, Adapting to cultural differences",
+          "position": "Sitting on a bench, engaged in conversation",
+          "states": "Nervous but open, curious about the man's presence",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Yuki Tanaka",
+          "gender": "Female",
+          "description": "Shane's close friend; Female; Age: 24; Occupation: Graphic designer; Personality: Observant, skeptical, supportive; Values: Personal freedom, thoughtful discussion; Interests: Art, secular philosophy; Experiences: Attended interfaith workshops, debated religion with Shane during long walks in the park, volunteered at a community art center.",
+          "position": "Sitting next to Shane, listening attentively",
+          "states": "Cautious but polite, trying to understand Shane's interest",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Pastor Thomas",
+          "gender": "Male",
+          "description": "An elderly, kind-faced man in his 60s who leads the small outdoor chapel; Male; Age: 68; Occupation: Pastor and part-time community counselor; Personality: Compassionate, patient, observant; Values: Faith, community, integrity; Interests: Gardening, reading theological writings, mentoring youth; Experiences: Served in the same church for over 30 years, helped many newcomers find a sense of belonging, survived personal loss that deepened his spiritual commitment.",
+          "position": "Standing near the bench, holding a Bible",
+          "states": "Approachable and friendly, sensing Shane's interest",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Pastor Thomas",
+          "character_id": 2,
+          "action": "greets Shane and Yuki",
+          "dialogue": "Good morning! I couldn't help but notice you two seemed interested in the chapel. Are you new to Perth?"
+        },
+        {
+          "action_id": 1,
+          "character": "Shane Crawford",
+          "character_id": 0,
+          "action": "responds with a mix of honesty and hope",
+          "dialogue": "Yes, I just moved here. I'm trying to find a church that feels right for me. I'm not sure what I'm looking for yet, but I know it's important to me."
+        },
+        {
+          "action_id": 2,
+          "character": "Yuki Tanaka",
+          "character_id": 1,
+          "action": "adds a cautious remark",
+          "dialogue": "I'm not really into religion, but I'm here to support my friend. I guess it's a journey for him."
+        },
+        {
+          "action_id": 3,
+          "character": "Pastor Thomas",
+          "character_id": 2,
+          "action": "invites them to the service",
+          "dialogue": "That's a great attitude, Shane. We have a small but welcoming community here. If you'd like, you're both welcome to join the service. No pressure, just a chance to see what we're all about."
+        },
+        {
+          "action_id": 4,
+          "character": "Shane Crawford",
+          "character_id": 0,
+          "action": "considers the invitation thoughtfully",
+          "dialogue": "I'd like that. It would be nice to experience something different and see if it resonates with me."
+        },
+        {
+          "action_id": 5,
+          "character": "Yuki Tanaka",
+          "character_id": 1,
+          "action": "nods in agreement",
+          "dialogue": "I'll be there. I want to understand better what you're going through, Shane."
+        }
+      ],
+      "plot": "Shane and Yuki are introduced to Pastor Thomas, who invites them to a small outdoor church service. This encounter marks the beginning of Shane's deeper exploration of faith in Perth, while Yuki remains a supportive but skeptical presence.",
+      "social_purpose": "To show Shane's openness to spiritual exploration and his desire for authentic community, while highlighting the supportive yet cautious role Yuki plays in his journey.",
+      "chunk": {
+        "id": 0,
+        "text": "Shane and Yuki, sitting near the chapel, are approached by Pastor Thomas. After a brief but meaningful conversation, they accept his invitation to the service, setting the stage for Shane's continued search for a spiritual home in Perth."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

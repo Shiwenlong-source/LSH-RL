@@ -1,0 +1,116 @@
+{
+  "title": "The Café Negotiation",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Meeting with a skeptical client",
+      "time": "10:30 AM",
+      "location": "Corner table at a bustling downtown café",
+      "description": "Maxwell Stone, a 30-year-old advertising sales specialist, sits across from Mike, a mid-40s business owner, with a tablet and a notebook. Molly, Maxwell’s composed and observant colleague, is seated nearby with a laptop, monitoring the conversation and occasionally offering subtle support. The atmosphere is professional yet casual, with the hum of conversation and the clinking of cups in the background.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Maxwell Stone",
+          "gender": "Male",
+          "description": "Experienced advertising salesperson with a calm and strategic demeanor. He is focused on building trust and maintaining professionalism.; Male, Professional, 30 years old; Occupation: Advertising Sales Specialist; Personality: Composed, Focused, Patient, Strategic; Values: Professionalism, Trust, Teamwork; Interests: Negotiation, Client Relationships, Creative Marketing; Experiences: Handling Skeptical Clients, Presenting Marketing Strategies, Working in High-pressure Environments",
+          "position": "Across from Mike",
+          "states": "Calm, focused, slightly tense due to Mike’s skepticism",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Mike",
+          "gender": "Male",
+          "description": "A mid-40s business owner who is skeptical of advertising; Male; Age: 45; Occupation: Owner of a local boutique marketing and PR firm; Personality: Cynical, detail-oriented, pragmatic; Values: Client trust, transparency, results; Interests: Reading industry journals, networking with other small business owners, coffee culture; Experiences: Lost business to aggressive advertising tactics in the past, successfully managed growth through word-of-mouth and referrals, navigated a major PR crisis without paid ads.",
+          "position": "Across from Maxwell",
+          "states": "Skeptical, guarded, analytical",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Molly",
+          "gender": "Female",
+          "description": "Maxwell’s composed and observant colleague; Female; Age: 28; Occupation: Advertising Account Coordinator; Personality: Analytical, empathetic, discreet; Values: Professional integrity, teamwork, client trust; Interests: Urban photography, journaling, indie music; Experiences: Managed high-stakes client negotiations, supported new hires in building confidence, worked in fast-paced media environments.",
+          "position": "Nearby, at a laptop",
+          "states": "Observant, supportive, focused",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Mike",
+          "character_id": 1,
+          "action": "Leans back and folds his arms",
+          "dialogue": "I don’t see how your ads will make a difference for my small business. I’ve been burned before."
+        },
+        {
+          "action_id": 1,
+          "character": "Maxwell Stone",
+          "character_id": 0,
+          "action": "Nods calmly and opens his tablet",
+          "dialogue": "I understand where you’re coming from, Mike. But let me ask you—have you ever noticed a local ad that made you want to try a new product or service?"
+        },
+        {
+          "action_id": 2,
+          "character": "Molly",
+          "character_id": 2,
+          "action": "Gives Maxwell a small nod of encouragement",
+          "dialogue": ""
+        },
+        {
+          "action_id": 3,
+          "character": "Mike",
+          "character_id": 1,
+          "action": "Frowns slightly and thinks",
+          "dialogue": "Well… I did see a campaign for a nearby café. It looked really professional."
+        },
+        {
+          "action_id": 4,
+          "character": "Maxwell Stone",
+          "character_id": 0,
+          "action": "Smiles slightly and leans forward",
+          "dialogue": "That was one of ours. We helped them increase foot traffic by 30% in just three months. The key is connecting with the right audience through the right message."
+        },
+        {
+          "action_id": 5,
+          "character": "Molly",
+          "character_id": 2,
+          "action": "Types something on her laptop, then hands Maxwell a note",
+          "dialogue": "Here’s a quick summary of the café campaign. It might help."
+        },
+        {
+          "action_id": 6,
+          "character": "Maxwell Stone",
+          "character_id": 0,
+          "action": "Reads the note and nods, then looks back at Mike",
+          "dialogue": "Our team is all about building trust through creative marketing and long-term client relationships. We don’t just sell ads—we create value."
+        },
+        {
+          "action_id": 7,
+          "character": "Mike",
+          "character_id": 1,
+          "action": "Unfolds his arms and looks intrigued",
+          "dialogue": "That does sound different. What would it look like for my business?"
+        },
+        {
+          "action_id": 8,
+          "character": "Maxwell Stone",
+          "character_id": 0,
+          "action": "Picks up his notebook and starts sketching an idea",
+          "dialogue": "Let’s brainstorm something tailored to your brand and goals. I think we can help you stand out."
+        }
+      ],
+      "plot": "Maxwell is trying to convince Mike, a skeptical business owner, of the value of their advertising services. He uses a composed and strategic approach, subtly referencing past successful campaigns to build trust. Molly supports the interaction from the background, helping to keep Maxwell grounded and focused.",
+      "social_purpose": "To demonstrate Maxwell’s professional composure, strategic thinking, and commitment to building trust and client relationships in a high-pressure negotiation setting.",
+      "chunk": {
+        "id": 0,
+        "text": "Maxwell Stone, a 30-year-old advertising sales specialist, sits across from Mike, a mid-40s business owner, with a tablet and a notebook. The atmosphere is professional yet casual, with the hum of conversation and the clinking of cups in the background. Mike is skeptical of advertising, crossing his arms and asking pointed questions. Molly, Maxwell’s composed and observant colleague, is seated nearby with a laptop, monitoring the conversation and occasionally offering subtle support. Maxwell’s strategy is to hint that the client may have already encountered their work, attempting to build trust without direct confrontation."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

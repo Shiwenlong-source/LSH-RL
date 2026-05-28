@@ -1,0 +1,95 @@
+{
+  "title": "The Final Decision",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Resignation meeting",
+      "time": "10:00 AM",
+      "location": "Company Conference Room",
+      "description": "Tony Harris sits across from his account manager, Jack Davis, with a firm expression. Olivia Miller, the administrative assistant, stands quietly at the side, holding a notebook. The air is thick with tension as Tony prepares to make a life-altering decision.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Tony Harris",
+          "gender": "Male",
+          "description": "Mid-level IT practitioner in his 36th year, visibly agitated yet rational. He is firm in his decision and focused on his personal values.; Male, Mid-level Employee, 36 years old; Occupation: IT Practitioner; Personality: Determined, Agitated, Rational; Values: Autonomy, Honesty, Career Development; Interests: Career Development, Problem Solving, Work-life Balance; Experiences: Working in a corporate environment, Experiencing job dissatisfaction, Making a major career decision",
+          "position": "Seated at the table",
+          "states": "Determined, Tense, Resolute",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Jack Davis",
+          "gender": "Male",
+          "description": "Account manager, mid-40s, experienced in corporate negotiations; Male; Age: 46; Occupation: Senior Account Manager at a multinational consulting firm; Personality: Calm, Concerned, Persistent, Charismatic, Analytical; Values: Loyalty, Professional Integrity, Work-Life Balance; Interests: Golf, Reading Business Strategy Books, Networking Events; Experiences: Successfully retained high-profile clients during economic downturns, Mediated difficult team conflicts in past roles, Managed a team of junior account managers for five years.",
+          "position": "Seated across from Tony",
+          "states": "Calm, Concerned, Persistent",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Olivia Miller",
+          "gender": "Female",
+          "description": "Administrative assistant in her late 20s. She is observant and discreet, taking notes as the conversation unfolds; Female; Age: 28; Occupation: Executive Administrative Assistant; Personality: Observant, Discreet, Empathetic, Composed, Detail-oriented; Values: Professional integrity, Loyalty, Respect for privacy; Interests: Organizing community events, Reading business strategy books, Practicing yoga; Experiences: Assisted in high-stakes corporate negotiations, Managed sensitive personnel matters with confidentiality, Witnessed multiple resignations and office transitions.",
+          "position": "Standing near the door",
+          "states": "Attentive, Discreet, Empathetic",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Tony Harris",
+          "character_id": 0,
+          "action": "Resignation announcement",
+          "dialogue": "Jack, I've made up my mind. I'm resigning. I can't continue in a job that doesn't respect my need for autonomy or provide opportunities for growth."
+        },
+        {
+          "action_id": 1,
+          "character": "Jack Davis",
+          "character_id": 1,
+          "action": "Attempts to persuade Tony",
+          "dialogue": "Tony, I understand your frustrations, but we can work on that. Your skills are valuable here. Let's find a solution together."
+        },
+        {
+          "action_id": 2,
+          "character": "Tony Harris",
+          "character_id": 0,
+          "action": "Reiterates his decision",
+          "dialogue": "I've thought about this a lot. I need to be in a position where I'm solving problems, not just managing them. This is the only way forward for me."
+        },
+        {
+          "action_id": 3,
+          "character": "Jack Davis",
+          "character_id": 1,
+          "action": "Expresses disappointment",
+          "dialogue": "This is a loss for the team. You've been reliable and skilled. Have you considered the impact this might have on your career development?"
+        },
+        {
+          "action_id": 4,
+          "character": "Tony Harris",
+          "character_id": 0,
+          "action": "Replies with honesty",
+          "dialogue": "I have. I'd rather take a risk now than stay unhappy for years. I'm ready for a change, even if it's uncomfortable."
+        },
+        {
+          "action_id": 5,
+          "character": "Olivia Miller",
+          "character_id": 2,
+          "action": "Observes and records the exchange",
+          "dialogue": "Nods silently, capturing key points in her notebook, aware of the emotional weight of the moment."
+        }
+      ],
+      "plot": "Tony is in a meeting with his account manager, Jack, to formally resign from his position. Jack tries to convince him otherwise, emphasizing the value of stability and the potential for growth within the company. Tony remains resolute, expressing his need for autonomy and dissatisfaction with the current environment. Olivia observes the interaction, noting the significance of the event.",
+      "social_purpose": "To explore the tension between job stability and personal fulfillment, and to showcase Tony's prioritization of autonomy and honesty over conventional career advancement.",
+      "chunk": {
+        "id": 0,
+        "text": "Tony's decision to resign creates a complex social dynamic. Jack, trying to maintain team cohesion, must balance empathy with professional responsibility. Olivia, as the observer, plays a subtle but important role in documenting the event, which may affect future workplace interactions."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

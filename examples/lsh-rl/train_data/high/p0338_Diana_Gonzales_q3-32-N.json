@@ -1,0 +1,109 @@
+{
+  "title": "Weekend Dilemma at the Prom Committee Meeting",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Prom Committee Meeting",
+      "time": "After school on Thursday, 3:30 PM",
+      "location": "School Auditorium",
+      "description": "Diana Gonzales sits at a table with her fellow prom committee members, Cici and Chen. They are finalizing the last details for the upcoming prom. Diana is visibly conflicted, as the EBN event is also happening that weekend, and she's unsure if she should prioritize it over her family responsibilities.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Diana Gonzales",
+          "gender": "Female",
+          "description": "A 17-year-old high school student who is enthusiastic about organizing events but often feels anxious about making the right choices. She is trying to balance her responsibilities to her family with her personal interests in social events.; Female, High School Student, 17 years old; Occupation: High School Student; Personality: Enthusiastic, Hesitant, Anxious, Anticipatory; Values: Social Engagement, Responsibility, Personal Meaning; Interests: Dancing, Organizing Events, Caring for Family, Faith Activities; Experiences: Attending EBN events, Organizing proms, Balancing academics and family responsibilities, Handling social affairs",
+          "position": "At the table, reviewing the schedule with a worried expression",
+          "states": "Hesitant, anxious, anticipatory",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Cici",
+          "gender": "Female",
+          "description": "Diana's close friend and fellow prom committee member; Female; Age: 17; Occupation: High school junior and part-time social media intern; Personality: Confident, empathetic, direct; Values: Loyalty, authenticity, empowerment; Interests: Event planning, photography, trending pop culture; Experiences: Organized a successful homecoming dance last year, helped Diana navigate a difficult friendship conflict, balances school and extracurriculars with a part-time job.",
+          "position": "Sitting across from Diana, looking at her with concern",
+          "states": "Supportive, concerned, direct",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Chen",
+          "gender": "Male",
+          "description": "Another prom committee member who is passionate about making EBN a memorable experience for everyone. He is empathetic but also firm in his belief that these events are important for personal growth and self-identity; Male; Age: 17; Occupation: High school junior and part-time photography intern; Personality: Enthusiastic, encouraging, sincere; Values: Community, personal growth, authenticity; Interests: Event planning, photography, music production; Experiences: Helped organize the school's homecoming last year, volunteered at a youth leadership camp, led a cultural exchange project with a local high school.",
+          "position": "Standing near the whiteboard, gesturing as he speaks",
+          "states": "Enthusiastic, encouraging, sincere",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Cici",
+          "character_id": 1,
+          "action": "Asks Diana directly about her weekend plans",
+          "dialogue": "Hey, Diana, you've been quiet all afternoon. What are you doing this weekend? You know we need your help with the final setup for the prom, right?"
+        },
+        {
+          "action_id": 1,
+          "character": "Diana Gonzales",
+          "character_id": 0,
+          "action": "Looks down, hesitates before responding",
+          "dialogue": "I... I'm not sure yet. I was invited to EBN, and it's a big deal for me. But my brother is sick, and my parents might need me to stay home."
+        },
+        {
+          "action_id": 2,
+          "character": "Chen",
+          "character_id": 2,
+          "action": "Reassures Diana that she can still help with the prom",
+          "dialogue": "You can still help out, Diana. We can adjust the schedule. EBN is a special night for you, and it's important to celebrate your passion. You deserve that."
+        },
+        {
+          "action_id": 3,
+          "character": "Cici",
+          "character_id": 1,
+          "action": "Challenges Diana to think about her priorities",
+          "dialogue": "But you also have to think about what's most important to you. If it's your family, then you should be there. If it's your own happiness, then go to EBN. You can't do it all, so what really matters?"
+        },
+        {
+          "action_id": 4,
+          "character": "Diana Gonzales",
+          "character_id": 0,
+          "action": "Looks up, visibly conflicted but thoughtful",
+          "dialogue": "I just don't want to let either of you down. Or my family. I feel like I have to choose between being responsible and being myself."
+        },
+        {
+          "action_id": 5,
+          "character": "Chen",
+          "character_id": 2,
+          "action": "Offers a compromise",
+          "dialogue": "What if you go to EBN but leave early if things get too overwhelming? We can handle the setup without you for a few hours. You need to take care of what gives you personal meaning, too."
+        },
+        {
+          "action_id": 6,
+          "character": "Cici",
+          "character_id": 1,
+          "action": "Agrees with Chen and adds a supportive comment",
+          "dialogue": "Yeah, and your family will understand if you explain it to them. You're not just a caretaker, Diana. You're a person with your own dreams and passions."
+        },
+        {
+          "action_id": 7,
+          "character": "Diana Gonzales",
+          "character_id": 0,
+          "action": "Nods slowly, showing a shift in her decision-making",
+          "dialogue": "I think I can do that. I'll talk to my parents and see if I can go to EBN for part of the night. Thank you both for helping me think this through."
+        }
+      ],
+      "plot": "Diana is struggling to decide between attending EBN, a night she's passionate about, and staying home to care for her younger brother. Her friends Cici and Chen support her in different ways, with Cici pushing her to clarify her priorities and Chen emphasizing the importance of personal meaning. Through their conversation, Diana begins to feel empowered to make a balanced decision.",
+      "social_purpose": "To explore the tension between personal identity and social responsibility in a high school setting, while highlighting the protagonist's values and interests through dialogue and actions.",
+      "chunk": {
+        "id": 0,
+        "text": "Diana Gonzales is trying to decide her weekend plans during a prom committee meeting. Her friends Cici and Chen offer different perspectives, helping her navigate the balance between family obligations and personal fulfillment."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

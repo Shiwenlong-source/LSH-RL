@@ -1,0 +1,119 @@
+{
+  "title": "The Fund Allocation Meeting",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Tense Meeting",
+      "time": "3:00 PM",
+      "location": "Shopmobility Community Center Conference Room",
+      "description": "Wyatt, the project coordinator, leads a meeting with key volunteers to discuss the allocation of a recent grant. The room is filled with tension as two volunteers, Hao and Chen, have opposing views on how the funds should be used. Wyatt must navigate the discussion carefully to ensure the project remains on track.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Wyatt Chavez",
+          "gender": "Male",
+          "description": "Wyatt is a 34-year-old project coordinator at Shopmobility. He is calm and analytical, trying to maintain fairness and team cohesion.; years old / Male / Project coordinator, 34 years old; Occupation: Shopmobility facility coordinator; Personality: Calm, Decisive, Compassionate, Analytical; Values: Fairness, Teamwork, Sustainability; Interests: Community development, Financial planning, Conflict mediation; Experiences: Leading volunteer teams, Managing budgets, Organizing fundraising events",
+          "position": "Project Coordinator",
+          "states": "Stressed but composed, trying to mediate the discussion",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Hao Lin",
+          "gender": "Male",
+          "description": "Hao is a 29-year-old volunteer who is passionate about the project's growth; Male; Age: 29; Occupation: Urban Accessibility Consultant; Personality: assertive, passionate, impatient; Values: community empowerment, innovation, efficiency; Interests: public policy, adaptive technology, mentorship; Experiences: led a successful campaign to install accessible ramps in a local district, managed a volunteer team during a city-wide disability awareness event, previously worked in nonprofit project management.",
+          "position": "Operations Volunteer",
+          "states": "Frustrated, advocating for more funds to expand the service",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Chen Patel",
+          "gender": "Female",
+          "description": "Chen is a 38-year-old experienced volunteer who values long-term sustainability over rapid growth; Female; Age: 38; Occupation: Urban planner; Personality: Diplomatic, patient, analytical; Values: Equity, community empowerment, environmental responsibility; Interests: Sustainable design, conflict resolution workshops, gardening; Experiences: Led neighborhood revitalization projects, mediated between stakeholders in city development plans, volunteered with disability access initiatives for over a decade.",
+          "position": "Sustainability Volunteer",
+          "states": "Calm, urging for a balanced approach",
+          "is_npc": true
+        },
+        {
+          "id": 3,
+          "name": "Lila Morgan",
+          "gender": "Female",
+          "description": "Lila is a 26-year-old new volunteer who is eager to contribute but hesitant to speak up; Female; Age: 26; Occupation: Social Work Intern; Personality: Empathetic, Analytical, Introverted; Values: Collaboration, Inclusivity, Responsibility; Interests: Reading nonfiction, Volunteering at community centers, Urban planning; Experiences: Assisted in organizing a local accessibility initiative, Completed a university internship focused on community outreach, Recently joined Shopmobility to gain hands-on experience in public service.",
+          "position": "Community Outreach Volunteer",
+          "states": "Nervous but attentive, occasionally offering small insights",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Wyatt Chavez",
+          "character_id": 0,
+          "action": "Opens the meeting with a structured agenda.",
+          "dialogue": "Thanks everyone for being here. Let’s start by reviewing the grant details and then move into how we can best allocate the funds to support our long-term goals."
+        },
+        {
+          "action_id": 1,
+          "character": "Hao Lin",
+          "character_id": 1,
+          "action": "Challenges the initial agenda item.",
+          "dialogue": "Wyatt, I think we should focus on expansion first. We need more mobility devices in high-traffic areas to meet demand."
+        },
+        {
+          "action_id": 2,
+          "character": "Chen Patel",
+          "character_id": 2,
+          "action": "Counters Hao’s proposal with a sustainability-focused argument.",
+          "dialogue": "I understand the urgency, Hao, but if we don’t invest in maintenance and staff training, we risk overextending our resources and harming our reputation."
+        },
+        {
+          "action_id": 3,
+          "character": "Wyatt Chavez",
+          "character_id": 0,
+          "action": "Intervenes to keep the discussion constructive.",
+          "dialogue": "Let’s both acknowledge the value in each of your points. Expansion is important, but so is ensuring we can sustain it. How about we explore a phased approach?"
+        },
+        {
+          "action_id": 4,
+          "character": "Lila Morgan",
+          "character_id": 3,
+          "action": "Offers a community development perspective.",
+          "dialogue": "Maybe we could start by adding devices in one new location and use the feedback to guide further decisions? That way, we’re building community trust while staying sustainable."
+        },
+        {
+          "action_id": 5,
+          "character": "Hao Lin",
+          "character_id": 1,
+          "action": "Expresses concern about the pace of progress.",
+          "dialogue": "But that might take too long. We need to act now to maximize the grant’s impact."
+        },
+        {
+          "action_id": 6,
+          "character": "Chen Patel",
+          "character_id": 2,
+          "action": "Suggests a compromise.",
+          "dialogue": "We could allocate part of the grant for expansion and another part for staff training. That way, we’re both growing and preparing for the future."
+        },
+        {
+          "action_id": 7,
+          "character": "Wyatt Chavez",
+          "character_id": 0,
+          "action": "Proposes a data-driven decision.",
+          "dialogue": "Let’s look at the usage data from our existing locations and model different scenarios. That way, we can make an informed and fair choice."
+        }
+      ],
+      "plot": "Wyatt leads a difficult meeting where volunteers are divided over how to use a new grant. He must balance the urgency of expansion with the need for sustainability and team harmony, using his experience in financial planning and conflict mediation to guide the discussion. The team agrees to a data-driven approach to find a middle ground.",
+      "social_purpose": "To showcase how Wyatt’s values of fairness and sustainability, along with his analytical and compassionate personality, help him mediate a conflict among volunteers. The scenario also highlights the importance of teamwork and community development in achieving shared goals.",
+      "chunk": {
+        "id": 0,
+        "text": "Wyatt opens the meeting with a structured agenda, emphasizing fairness and long-term goals. Hao pushes for immediate expansion, while Chen advocates for a sustainable, measured approach. Lila offers a community-focused suggestion. Wyatt proposes a data-driven method to find a balanced solution, demonstrating his analytical and compassionate leadership style."
+      },
+      "npcs": [
+        1,
+        2,
+        3
+      ]
+    }
+  ]
+}

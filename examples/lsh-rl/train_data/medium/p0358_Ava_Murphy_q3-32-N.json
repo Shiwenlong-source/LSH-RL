@@ -1,0 +1,102 @@
+{
+  "title": "Finding Balance in Faith and Work",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Church group meeting",
+      "time": "Saturday afternoon",
+      "location": "St. Mary's Church, small meeting room",
+      "description": "Ava sits in the corner of the church group meeting room, looking exhausted, while Tao and Mark sit nearby, waiting for the group to begin. The room is warm and filled with soft light from stained glass windows. A few other members of the group arrive, chatting quietly, and the atmosphere is one of gentle camaraderie.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Ava Murphy",
+          "gender": "Female",
+          "description": "Ava is a 26-year-old woman with a thoughtful and introspective demeanor. She wears a slightly rumpled blouse and looks as though she hasn't slept well. Her posture is tense but she is trying to appear composed.; 26-year-old / Female / Church group member, 24 years old; Occupation: Working in academia; Personality: Thoughtful, Introspective, Vulnerable, Resilient; Values: Faith, Community, Emotional sincerity, Inner peace; Interests: Spiritual reflection, Personal growth, Meaningful relationships; Experiences: Recent emotional distress, Seeking spiritual guidance, Experiencing group support, Balancing work and life, Sharing personal challenges",
+          "position": "Corner of the room",
+          "states": "Exhausted, conflicted, seeking support",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Tao Lin",
+          "gender": "Male",
+          "description": "Tao is in his mid-30s, a calm and patient presence with a quiet strength; Male; Age: 35; Occupation: High school history teacher and part-time youth group counselor at St. Mary's Church; Personality: Empathetic, composed, introspective; Values: Compassion, community, integrity; Interests: Reading theological and philosophical texts, gardening, quiet walks in nature; Experiences: Taught in underprivileged schools for five years, led a youth mentorship program through a local nonprofit, recently helped organize a community outreach initiative at the church.",
+          "position": "Next to Ava",
+          "states": "Observant, supportive, encouraging",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Mark Reynolds",
+          "gender": "Male",
+          "description": "Mark is a 28-year-old software developer who is open-hearted and quick to offer kindness; Male; Age: 28; Occupation: Church group facilitator and part-time tech consultant; Personality: Empathetic, attentive, ready to listen; Values: Community, personal growth, integrity; Interests: Reading theological and philosophical works, mentoring young people, photography; Experiences: Volunteered as a youth group leader for three years, helped develop a mobile app for church event coordination, overcame a period of personal burnout through spiritual reflection and support groups.",
+          "position": "Across from Ava",
+          "states": "Empathetic, attentive, ready to listen",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Tao Lin",
+          "character_id": 1,
+          "action": "Approaches Ava with a warm smile and a gentle question",
+          "dialogue": "Hey Ava, you look like you've had a tough week. Is everything okay?"
+        },
+        {
+          "action_id": 1,
+          "character": "Ava Murphy",
+          "character_id": 0,
+          "action": "Responds hesitantly and with a sigh",
+          "dialogue": "Honestly, Tao, I don't know. I've been feeling so torn between my work and my faith. I'm not sure how to find balance anymore."
+        },
+        {
+          "action_id": 2,
+          "character": "Mark Reynolds",
+          "character_id": 2,
+          "action": "Leans forward and shares his own experience",
+          "dialogue": "I get that. Sometimes I feel like I'm juggling so much, and my faith is the first thing to fall. But I've found that even small moments of reflection help me stay grounded."
+        },
+        {
+          "action_id": 3,
+          "character": "Ava Murphy",
+          "character_id": 0,
+          "action": "Nods slowly, showing vulnerability",
+          "dialogue": "That's what I'm afraid of—losing that connection. I want to grow, but I feel stuck in this cycle of work and stress."
+        },
+        {
+          "action_id": 4,
+          "character": "Tao Lin",
+          "character_id": 1,
+          "action": "Offers a thoughtful suggestion",
+          "dialogue": "Maybe it's time we set a small goal together, like a weekly spiritual reflection or a short prayer walk. Something that brings us peace and connects us as a group."
+        },
+        {
+          "action_id": 5,
+          "character": "Mark Reynolds",
+          "character_id": 2,
+          "action": "Supports Tao's idea with enthusiasm",
+          "dialogue": "I'm in! Let's start next week. We can even meet after this and plan it out."
+        },
+        {
+          "action_id": 6,
+          "character": "Ava Murphy",
+          "character_id": 0,
+          "action": "Considers the idea and shows a slight smile",
+          "dialogue": "I... I think I'd like that. Thank you both for being here for me."
+        }
+      ],
+      "plot": "Ava opens up to Tao and Mark about her struggles with balancing work and faith, and the two offer support and a shared goal of incorporating spiritual practices into their weekly routine. This interaction helps Ava feel less isolated and more hopeful about finding inner peace.",
+      "social_purpose": "To demonstrate how meaningful relationships and community can provide emotional support and a sense of direction during times of personal conflict and uncertainty.",
+      "chunk": {
+        "id": 0,
+        "text": "Ava sits in the corner of the church group meeting room, looking exhausted, while Tao and Mark sit nearby, waiting for the group to begin. The room is warm and filled with soft light from stained glass windows. A few other members of the group arrive, chatting quietly, and the atmosphere is one of gentle camaraderie. Tao notices Ava's discomfort and moves closer to her, asking if everything is okay. Ava responds with a sigh, expressing her struggle to balance work and faith. Mark leans forward and shares his own experience of feeling overwhelmed, suggesting small spiritual practices to stay grounded. Tao proposes a weekly reflection or prayer walk, and Mark enthusiastically supports the idea. Ava considers the suggestion and shows a slight smile, feeling a sense of relief and connection."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

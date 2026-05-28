@@ -1,0 +1,95 @@
+{
+  "title": "Security Protocol Debate",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Security meeting in the Green Zone command center",
+      "time": "Afternoon, 14:30",
+      "location": "Green Zone Command Center, Baghdad",
+      "description": "Levi Porter, the security officer in charge of the Green Zone, is leading a meeting to discuss the implementation of a new ID system. His colleagues, including Wang and Yife, are seated around the table, some with skeptical expressions. The room is dimly lit, with maps and security footage displayed on the walls.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Levi Porter",
+          "gender": "Male",
+          "description": "A 38-year-old security officer with a strong sense of duty and a deep commitment to security. He is confident and decisive, but his anxiety about potential threats often makes him push for immediate action.; Male / Security Officer, 38 years old; Occupation: Security Officer; Personality: Determined, Confident, Anxious, Decisive; Values: Security, Responsibility, Teamwork; Interests: Security Systems, Strategic Planning, Leadership; Experiences: Working in High-risk Areas, Designing Security Protocols, Leading Mission Deployments",
+          "position": "Security Officer in Charge of Green Zone",
+          "states": "Determined, assertive, slightly tense",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Wang",
+          "gender": "Male",
+          "description": "Wang; Male; Age: 42; Occupation: Senior Security Analyst; Personality: Cautious, skeptical, composed; Values: Efficiency, security, practicality; Interests: Strategic board games, reading geopolitical analysis, maintaining fitness; Experiences: Managed security operations during the 2003 Baghdad insurgency, evaluated multiple failed access control systems in conflict zones, trained local security personnel in counter-surveillance techniques.",
+          "position": "Security Analyst",
+          "states": "Cautious, skeptical, composed",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Yife",
+          "gender": "Female",
+          "description": "A 35-year-old strategic planner who prefers a balanced approach; Female; Age: 35; Occupation: Senior Security Policy Analyst; Personality: Thoughtful, supportive, diplomatic; Values: Collaboration, stability, ethical responsibility; Interests: Reading geopolitical strategy, practicing calligraphy, attending cultural diplomacy events; Experiences: Worked on post-conflict security reforms in the Middle East, led cross-cultural training programs for international peacekeeping missions, previously served in the Chinese Ministry of Foreign Affairs' crisis management division.",
+          "position": "Strategic Planner",
+          "states": "Thoughtful, supportive, diplomatic",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Levi Porter",
+          "character_id": 0,
+          "action": "Levi stands at the head of the table, holding a tablet with the new ID system proposal. He begins the meeting with a clear and confident tone.",
+          "dialogue": "Alright, everyone. I’ve reviewed the security risks, and I believe the new ID system is a must. It will significantly reduce the chances of unauthorized access. We can’t afford to wait."
+        },
+        {
+          "action_id": 1,
+          "character": "Wang",
+          "character_id": 1,
+          "action": "Wang leans forward, folding his arms as he voices his concerns.",
+          "dialogue": "Levi, I understand the intent, but we’re already understaffed. Adding a new system will require more manpower and training time. Are we ready for that?"
+        },
+        {
+          "action_id": 2,
+          "character": "Yife",
+          "character_id": 2,
+          "action": "Yife nods at Wang, then turns to Levi with a measured suggestion.",
+          "dialogue": "What if we propose a phased rollout? Start with the most critical areas and gradually expand. That way, we can manage the workload and still meet the security goals."
+        },
+        {
+          "action_id": 3,
+          "character": "Levi Porter",
+          "character_id": 0,
+          "action": "Levi exhales sharply, then nods, showing a mix of determination and willingness to consider alternatives.",
+          "dialogue": "I see your point, Yife. A phased approach might help. But I still think we need to move quickly. This is about responsibility to the people inside the Green Zone."
+        },
+        {
+          "action_id": 4,
+          "character": "Wang",
+          "character_id": 1,
+          "action": "Wang gestures toward the tablet, emphasizing the logistical issues.",
+          "dialogue": "I’m not against the system, but we have to be realistic. Without proper resources, it could create more problems than it solves. Teamwork is key, but we need a plan that works for all of us."
+        },
+        {
+          "action_id": 5,
+          "character": "Levi Porter",
+          "character_id": 0,
+          "action": "Levi looks at the group, his confidence wavering slightly as he considers the feedback.",
+          "dialogue": "Okay, let’s draft a phased proposal. I’ll include the security benefits and the need for headquarters support. I want to ensure we’re all on the same page."
+        }
+      ],
+      "plot": "Levi proposes a new ID system for the Green Zone, but faces resistance from Wang and Yife. Through a discussion, they explore a compromise involving a phased rollout and additional support from headquarters. Levi’s leadership is tested as he balances his determination with the practical concerns of his team.",
+      "social_purpose": "To demonstrate Levi’s values of security and responsibility, as well as his leadership and determination, while also showing how he collaborates with others who have different perspectives.",
+      "chunk": {
+        "id": 0,
+        "text": "Levi Porter, the security officer in charge of the Green Zone in Baghdad, is leading a meeting to discuss the implementation of a new ID system. His colleagues, including Wang and Yife, are seated around the table, some with skeptical expressions. The room is dimly lit, with maps and security footage displayed on the walls. Levi stands at the head of the table, holding a tablet with the new ID system proposal. He begins the meeting with a clear and confident tone. Wang leans forward, folding his arms as he voices his concerns. Yife nods at Wang, then turns to Levi with a measured suggestion. Levi exhales sharply, then nods, showing a mix of determination and willingness to consider alternatives. Wang gestures toward the tablet, emphasizing the logistical issues. Levi looks at the group, his confidence wavering slightly as he considers the feedback."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

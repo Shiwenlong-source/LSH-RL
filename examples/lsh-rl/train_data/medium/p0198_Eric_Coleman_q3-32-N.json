@@ -1,0 +1,88 @@
+{
+  "title": "A Supportive Café Conversation",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Eric discusses his upcoming PhD application with Lucas and Dr. Kim in a café.",
+      "time": "Afternoon",
+      "location": "A quiet corner in a local café",
+      "description": "Eric sits at a small table, nervously sipping his coffee as Lucas and Dr. Kim join him. The atmosphere is warm and calm, with soft music playing in the background. The three of them have met several times in the past to discuss academic goals, and this time is no different. Eric is visibly anxious about his upcoming PhD application, and the others are there to help him strategize and gain confidence.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Eric Coleman",
+          "gender": "Male",
+          "description": "A 28-year-old graduate student who is thoughtful, anxious, and determined. He has a history of academic challenges but is committed to personal growth.; years old, Male, Graduate Student, 28 years old; Occupation: Graduate Student; Personality: Anxious, Thoughtful, Determined; Values: Academic Success, Friendship, Self-Improvement; Interests: Research, Education, Mentoring Others; Experiences: Failed PhD Application Experience, Friendship with Lucas, Kim's Mentorship, Academic Challenges, Personal Growth",
+          "position": "Main Protagonist",
+          "states": "Anxious, Seeking reassurance, Determined to improve",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Lucas Ramirez",
+          "gender": "Male",
+          "description": "Lucas Ramirez; Male; Age: 28; Occupation: Graduate Teaching Assistant in Psychology; Personality: Supportive, Encouraging, Understanding; Values: Empathy, Academic Integrity, Friendship; Interests: Coffee culture, Mental health advocacy, Hiking; Experiences: Completed a master's thesis on peer support in graduate education, volunteered as a mentor for first-generation college students, collaborated with Eric on multiple academic projects during their undergraduate years.",
+          "position": "Supporting Character",
+          "states": "Supportive, Encouraging, Understanding",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Dr. Kim Lee",
+          "gender": "Female",
+          "description": "Eric's mentor and a seasoned academic; Female; Age: 52; Occupation: Professor of Cognitive Psychology; Personality: Calm, Analytical, Supportive; Values: Intellectual Growth, Mentorship; Interests: Reading scientific literature, Hiking, Classical music; Experiences: Guided numerous students through PhD applications, Conducted groundbreaking research in learning disabilities, Taught at the same university for over 20 years.",
+          "position": "Supporting Character",
+          "states": "Calm, Analytical, Supportive",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Eric Coleman",
+          "character_id": 0,
+          "action": "Expresses his doubts about the PhD application process.",
+          "dialogue": "I just don't know if I'm ready for this. Last time I applied, I didn't get in, and I'm scared I'll make the same mistakes again."
+        },
+        {
+          "action_id": 1,
+          "character": "Lucas Ramirez",
+          "character_id": 1,
+          "action": "Reassures Eric and encourages early preparation.",
+          "dialogue": "You're not the same person you were last time, Eric. You've grown a lot, and if you start preparing earlier, you'll have a much better shot."
+        },
+        {
+          "action_id": 2,
+          "character": "Dr. Kim Lee",
+          "character_id": 2,
+          "action": "Provides specific, strategic advice.",
+          "dialogue": "Let's take a step back and create a timeline. Start with refining your research proposal and reach out to potential advisors. I can help you review it."
+        },
+        {
+          "action_id": 3,
+          "character": "Eric Coleman",
+          "character_id": 0,
+          "action": "Shows signs of regaining confidence.",
+          "dialogue": "That actually makes sense. I've been so focused on the fear of failing again that I haven't thought about how much I've improved."
+        },
+        {
+          "action_id": 4,
+          "character": "Dr. Kim Lee",
+          "character_id": 2,
+          "action": "Offers a practical next step.",
+          "dialogue": "Let's meet next week to start drafting your proposal. You have the skills, and with the right strategy, you can achieve your goals."
+        }
+      ],
+      "plot": "Eric, struggling with anxiety over his upcoming PhD application, shares his concerns with his friend Lucas and mentor Dr. Kim. Lucas offers emotional support and encouragement, while Dr. Kim provides specific, actionable advice. Through their conversation, Eric begins to feel more confident and takes a step toward preparing for the application.",
+      "social_purpose": "To show how Eric's values of academic success and self-improvement are supported by his friendships and mentorship, and how these relationships help him overcome his anxiety and move forward.",
+      "chunk": {
+        "id": 0,
+        "text": "Eric sits at a small table, nervously sipping his coffee as Lucas and Dr. Kim join him. The atmosphere is warm and calm, with soft music playing in the background. The three of them have met several times in the past to discuss academic goals, and this time is no different. Eric is visibly anxious about his upcoming PhD application, and the others are there to help him strategize and gain confidence."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

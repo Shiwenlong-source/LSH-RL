@@ -1,0 +1,95 @@
+{
+  "title": "The Coffee Catch-Up",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Julia meets with Tiki and their mutual friend Marco at a local coffee shop to discuss a weekend trip plan, but the conversation turns into a deeper emotional check-in.",
+      "time": "Afternoon",
+      "location": "Local coffee shop",
+      "description": "Julia sits at a small table with Tiki and Marco, sipping a latte while nervously fidgeting with her phone. Tiki, seated across from her, is more relaxed and tries to ease the tension. Marco, sitting beside Tiki, is focused on the conversation and tries to keep it light. The atmosphere is calm but tinged with underlying anxiety from Julia.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Julia Hamilton",
+          "gender": "25-year-old female",
+          "description": "Julia is emotionally invested and sensitive, showing signs of anxiety and determination to understand her relationship with Leo.; 25-year-old female, in a relationship, 24 years old; Occupation: Graduate student; Personality: Emotional, Sensitive, Determined; Values: Honesty, Emotional connection, Commitment; Interests: Romantic relationships, Emotional introspection, Friendship; Experiences: Recent breakup, Ongoing emotional conflict, Supportive friendship",
+          "position": "Left side of the table",
+          "states": "Anxious, introspective, determined",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Tiki",
+          "gender": "26-year-old female",
+          "description": "Supportive and empathetic friend trying to ease Julia's tension during a coffee shop meeting; Female; Age: 26; Occupation: Counselor; Personality: Compassionate, patient, perceptive; Values: Emotional well-being, trust in relationships; Interests: Mindfulness practices, journaling, indie music; Experiences: Successfully helped friends through difficult breakups, volunteered at a mental health support group.",
+          "position": "Across from Julia",
+          "states": "Calm, concerned, reassuring",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Marco",
+          "gender": "27-year-old male",
+          "description": "Laid-back and observant friend who prefers to keep things light but is attentive to Julia's emotional state; Male; Age: 27; Occupation: Freelance graphic designer; Personality: Empathetic, easygoing, analytical; Values: Emotional honesty, loyalty, work-life balance; Interests: Urban photography, indie music, coffee culture; Experiences: Helped a close friend through a difficult breakup, worked remotely during the pandemic which deepened his appreciation for meaningful connections, recently moved to a new city and is still building a social circle.",
+          "position": "Right side of the table",
+          "states": "Neutral, attentive, slightly awkward",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Julia Hamilton",
+          "character_id": 0,
+          "action": "Expresses uncertainty about a weekend trip with Leo.",
+          "dialogue": "I just don’t know if Leo is really up for the trip this weekend. He said he’s ‘fine’ with it, but it felt so vague."
+        },
+        {
+          "action_id": 1,
+          "character": "Tiki",
+          "character_id": 1,
+          "action": "Encourages Julia to take a step back.",
+          "dialogue": "Maybe he just needs some space, Julia. You’ve been so focused on making things work lately."
+        },
+        {
+          "action_id": 2,
+          "character": "Marco",
+          "character_id": 2,
+          "action": "Suggests a compromise to ease Julia’s mind.",
+          "dialogue": "What if you just ask him to meet up for a casual dinner instead of the trip? That might give you a chance to talk things out."
+        },
+        {
+          "action_id": 3,
+          "character": "Julia Hamilton",
+          "character_id": 0,
+          "action": "Shows determination to confront her feelings.",
+          "dialogue": "I can’t keep second-guessing everything he says. I need to know where we stand, even if it’s uncomfortable."
+        },
+        {
+          "action_id": 4,
+          "character": "Tiki",
+          "character_id": 1,
+          "action": "Reassures Julia and offers support.",
+          "dialogue": "I get that, and I’m here for you. But maybe give him a bit of time first? I don’t want to see you hurt again."
+        },
+        {
+          "action_id": 5,
+          "character": "Marco",
+          "character_id": 2,
+          "action": "Changes the subject to lighten the mood.",
+          "dialogue": "Hey, speaking of dinners, did you hear about the new fusion restaurant downtown? We should check it out if you’re not going on the trip."
+        }
+      ],
+      "plot": "Julia is trying to decide whether to go through with a weekend trip with Leo, but her anxiety about their relationship is making it hard for her to focus. Tiki and Marco try to support her while also nudging her toward a more balanced perspective. The conversation reveals Julia’s emotional sensitivity and determination to maintain honesty in her relationship, as well as Tiki’s concern for her well-being and Marco’s attempt to keep things light.",
+      "social_purpose": "To explore Julia’s emotional conflict and her values of honesty and commitment in a relationship, while also showcasing the supportive dynamics of her friendship with Tiki and Marco.",
+      "chunk": {
+        "id": 0,
+        "text": "Julia, Tiki, and Marco are at a coffee shop discussing weekend plans. Julia is anxious about a recent phone call with her boyfriend, Leo, and is struggling to interpret his vague response. Tiki tries to calm her down and suggest stepping back, while Marco offers a more neutral and light-hearted solution. The scene highlights Julia’s emotional investment and the pressure she feels to maintain her relationship, while also showing the supportive role her friends play in her life."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

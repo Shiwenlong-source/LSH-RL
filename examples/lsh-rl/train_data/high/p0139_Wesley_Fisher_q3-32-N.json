@@ -1,0 +1,109 @@
+{
+  "title": "The Blogging Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Coffee shop meeting with friends and a reader",
+      "time": "Afternoon",
+      "location": "A cozy, independent coffee shop",
+      "description": "Wesley is sitting at a corner table with a notebook in front of him, sipping coffee and deep in thought. His longtime friend Simon is next to him, engaged in a casual conversation. Nearby, a reader named Leo approaches the table, visibly nervous but determined to speak with Wesley.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Wesley Fisher",
+          "gender": "male",
+          "description": "A 28-year-old blogger and writer with a sensitive and introspective demeanor. He wears a simple hoodie and glasses, and his eyes often betray his internal thoughts.; male, blogger, 28 years old; Occupation: Blogger and writer; Personality: Sensitive, Delicate, Introspective, Creative; Values: Authenticity, Privacy, Emotional connection; Interests: Writing, Storytelling, Personal reflection, Literature; Experiences: Anonymous blogging, Received reader feedback, Managing online identity, Exploring family history, Balancing public and private life",
+          "position": "Corner table, center",
+          "states": "Contemplative, slightly anxious",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Simon Carter",
+          "gender": "male",
+          "description": "Wesley's best friend, a laid-back and supportive graphic designer in his late 20s. He leans back in his chair, always ready to offer a listening ear or a witty comment; Male; Age: 28; Occupation: Freelance graphic designer and part-time illustration instructor; Personality: Easygoing, empathetic, humorous; Values: Creativity, loyalty, authenticity; Interests: Sketching in cafes, indie music, urban hiking; Experiences: Collaborated with Wesley on a successful independent zine project, worked remotely during the pandemic which deepened his appreciation for meaningful in-person connections, mentored several young artists in community workshops.",
+          "position": "Corner table, left of Wesley",
+          "states": "Relaxed, encouraging",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Leo Ramirez",
+          "gender": "male",
+          "description": "A 24-year-old reader of Wesley's blog, who recently sent a comment about the emotional depth of his writing and the significance of his name; male; Age: 24; Occupation: part-time college student and freelance graphic designer; Personality: introverted, empathetic, observant; Values: authenticity, intellectual growth, connection; Interests: creative writing, indie music, coffee culture; Experiences: struggled with self-expression in his youth, recently found inspiration in Wesley's blog, works on personal projects during late nights.",
+          "position": "Approaching the table, standing",
+          "states": "Nervous, earnest",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Simon Carter",
+          "character_id": 1,
+          "action": "Starts the conversation by asking about Wesley's blog post from yesterday.",
+          "dialogue": "Hey Wes, I read your latest post. It was really moving. You always write like you're opening up a part of your soul."
+        },
+        {
+          "action_id": 1,
+          "character": "Wesley Fisher",
+          "character_id": 0,
+          "action": "Smiles but looks pensive as he responds.",
+          "dialogue": "Thanks, Simon. It was tough to write. I'm just not sure how much more of myself I should put out there."
+        },
+        {
+          "action_id": 2,
+          "character": "Simon Carter",
+          "character_id": 1,
+          "action": "Reassures Wesley with a supportive tone.",
+          "dialogue": "Whatever you decide is fine, but I think people connect with you because you're real. Maybe it's time to be even more real."
+        },
+        {
+          "action_id": 3,
+          "character": "Leo Ramirez",
+          "character_id": 2,
+          "action": "Cautiously interrupts the conversation to address Wesley.",
+          "dialogue": "Excuse me, I'm a big fan of your blog. I just wanted to tell you that the story about your name really resonated with me."
+        },
+        {
+          "action_id": 4,
+          "character": "Wesley Fisher",
+          "character_id": 0,
+          "action": "Looks up, surprised but intrigued by Leo's comment.",
+          "dialogue": "That means a lot. I didn't expect people to care about the name I use. It's such a personal part of my identity."
+        },
+        {
+          "action_id": 5,
+          "character": "Leo Ramirez",
+          "character_id": 2,
+          "action": "Shares his own experience in a respectful tone.",
+          "dialogue": "I get that. I used to write under a pseudonym too, but when I finally used my real name, it felt like a weight was lifted. People connected with me more deeply."
+        },
+        {
+          "action_id": 6,
+          "character": "Simon Carter",
+          "character_id": 1,
+          "action": "Encourages Leo to share more.",
+          "dialogue": "That's a great point, Leo. Wes, maybe it's worth thinking about what you're holding back."
+        },
+        {
+          "action_id": 7,
+          "character": "Wesley Fisher",
+          "character_id": 0,
+          "action": "Nods slowly, deep in thought.",
+          "dialogue": "I know. My parents gave me this name with a lot of meaning. I just don't know if the world is ready for that part of me."
+        }
+      ],
+      "plot": "Wesley is considering whether to reveal his real name on his blog. Simon and Leo both offer their perspectives, emphasizing the value of authenticity while acknowledging the risks. Wesley's internal struggle is subtly revealed through his dialogue and body language.",
+      "social_purpose": "To explore the tension between maintaining privacy and fostering deeper emotional connections with readers, while highlighting Wesley's introspective and creative nature.",
+      "chunk": {
+        "id": 0,
+        "text": "Wesley's friends and a reader confront him with the idea of revealing his real name, prompting him to reflect on the emotional weight of his decision and the potential impact on his writing and relationships."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

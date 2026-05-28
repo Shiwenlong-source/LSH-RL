@@ -1,0 +1,109 @@
+{
+  "title": "Awakening at the Corner Table",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Friends attempt to connect with Grant about his recent lifestyle changes.",
+      "time": "Afternoon",
+      "location": "Local cafe, corner table near the window",
+      "description": "Grant is seated in the corner of a cozy, dimly lit cafe, sipping a cup of black coffee. His two friends, Lucy and Kong, sit across from him, trying to understand his recent transformation. The atmosphere is calm, with the soft hum of background music and the occasional clink of cups.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Grant Robertson",
+          "gender": "Adult Male, approx. 30 years old",
+          "description": "Grant is a 30-year-old actor who has recently undergone a spiritual awakening. He is now more introspective, detached from his former secular lifestyle, and focused on inner growth. He appears calm and centered, but his friends sense a subtle distance.; Adult Male, approx. years old, 30 years old; Occupation: Actor; Personality: Detached, Determined, Contemplative, Introspective; Values: Spiritual Growth, Inner Peace, True Self; Interests: Philosophy, Spiritual Exploration, Contemplation, Coffee Culture; Experiences: Recent faith awakening, Shifting from secular to spiritual life, Experiencing changes in friendships",
+          "position": "Corner seat, near the window",
+          "states": "Contemplative, detached, focused on inner peace",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Lucy Chen",
+          "gender": "Adult Female, approx. 30 years old",
+          "description": "Lucy is a vibrant, expressive friend of Grant's who remains rooted in the entertainment world; Female; Age: 30; Occupation: Talent agent and event coordinator for a boutique music and arts agency; Personality: Enthusiastic, empathetic, observant; Values: Connection, creativity, authenticity; Interests: Live music, indie films, people-watching; Experiences: Managed rising local artists before they went mainstream, organized a successful music festival in her early 20s, struggled with burnout from the fast-paced entertainment industry.",
+          "position": "Across from Grant, leaning in slightly",
+          "states": "Curious, concerned, trying to engage",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Kong Lee",
+          "gender": "Adult Male, approx. 30 years old",
+          "description": "Kong is a more analytical and direct friend who suspects Grant is avoiding something. He is trying to provoke deeper conversation and understanding; Adult Male; Age: 30; Occupation: Investigative Journalist; Personality: Analytical, blunt, persistent; Values: Truth, loyalty, intellectual honesty; Interests: Political theory, true crime podcasts, long-form storytelling; Experiences: Covered several high-profile scandals that required deep digging, lost a close source due to a story he published, worked with Grant on a community project years ago.",
+          "position": "To the left of Lucy, arms crossed",
+          "states": "Observant, skeptical, probing",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Lucy Chen",
+          "character_id": 1,
+          "action": "Initiates conversation with a lighthearted tone",
+          "dialogue": "Hey Grant, I heard the big Grammy announcement this morning. Did you catch it? It was wild!"
+        },
+        {
+          "action_id": 1,
+          "character": "Grant Robertson",
+          "character_id": 0,
+          "action": "Responds with calm detachment",
+          "dialogue": "I didn’t watch it. I’ve been focusing more on my meditation practice lately. The noise of the world just feels... unnecessary."
+        },
+        {
+          "action_id": 2,
+          "character": "Kong Lee",
+          "character_id": 2,
+          "action": "Challenges Grant’s new perspective",
+          "dialogue": "That’s cool, but don’t you miss the excitement? The shows, the parties, the creative energy? It feels like you’re hiding from it all."
+        },
+        {
+          "action_id": 3,
+          "character": "Grant Robertson",
+          "character_id": 0,
+          "action": "Reflects on his personal journey",
+          "dialogue": "I’m not hiding. I’m just listening to something deeper inside me. It’s about finding my true self and understanding the meaning of my work."
+        },
+        {
+          "action_id": 4,
+          "character": "Lucy Chen",
+          "character_id": 1,
+          "action": "Expresses concern and offers support",
+          "dialogue": "I get it, but we miss you. You used to love the buzz of it all. I hope you’re not doing this alone."
+        },
+        {
+          "action_id": 5,
+          "character": "Grant Robertson",
+          "character_id": 0,
+          "action": "Shares his recent spiritual experiences",
+          "dialogue": "I’m not alone in this. I’ve found a community that aligns with my values. It’s just different now. I’m more at peace with who I am."
+        },
+        {
+          "action_id": 6,
+          "character": "Kong Lee",
+          "character_id": 2,
+          "action": "Expresses skepticism but curiosity",
+          "dialogue": "Peace is great, but maybe you’re missing out on something real? I mean, life is about growth in all forms, right?"
+        },
+        {
+          "action_id": 7,
+          "character": "Grant Robertson",
+          "character_id": 0,
+          "action": "Reaffirms his commitment to spiritual growth",
+          "dialogue": "Growth is exactly what I’m after. I’m just choosing a different path now. One that leads to inner reflection rather than external validation."
+        }
+      ],
+      "plot": "Grant's friends, Lucy and Kong, attempt to bridge the growing gap between their secular lives and Grant's newfound spiritual focus. Through a conversation at a cafe, they explore his transformation and its impact on their relationships.",
+      "social_purpose": "To illustrate the challenges of maintaining relationships when one person undergoes a significant personal transformation. The dialogue reveals Grant's values, interests, and personality, while also showing how his friends are affected.",
+      "chunk": {
+        "id": 0,
+        "text": "Grant's friends try to understand his recent spiritual shift as they sit together at a cafe. Lucy attempts to engage him with news about the Grammys, while Kong questions whether Grant is avoiding something. Grant remains calm and focused on his journey of self-discovery, creating a subtle tension in the group."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

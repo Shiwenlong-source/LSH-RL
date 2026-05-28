@@ -1,0 +1,88 @@
+{
+  "title": "The Weekend Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Group Chat Discussion",
+      "time": "Friday Evening",
+      "location": "Levi's apartment",
+      "description": "Levi is sitting on his couch, phone in hand, scrolling through his messages. His original plan was to watch a movie alone, but Lucas and Angel have been nudging him to change it up. The group chat buzzes with their messages, making his decision harder.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Levi Black",
+          "gender": "Male",
+          "description": "A 25-year-old entry-level employee who is hesitant and socially sensitive. He is currently sitting on his couch, deep in thought.; 25-year-old male, 24 years old; Occupation: Entry-level Employee; Personality: Hesitant, Socially Sensitive, Introspective; Values: Friendship, Flexibility, Self-awareness; Interests: Movies, Coffee Culture, Social Gatherings; Experiences: Changing weekend plans, Giving in to peer pressure, Struggling with indecision, Taking friends' suggestions, Feeling social pressure",
+          "position": "Couch",
+          "states": "Hesitant, conflicted, introspective",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Lucas Morgan",
+          "gender": "Male",
+          "description": "Lucas is Levi's best friend, a laid-back and persuasive guy who enjoys coffee culture and hanging out with friends; Male; Age: 24; Occupation: Barista and part-time event planner; Personality: Charismatic, easygoing, optimistic; Values: Friendship, spontaneity, quality time; Interests: Specialty coffee brewing, urban exploration, music festivals; Experiences: Organized a successful local street fair, survived a cross-country road trip with Levi and Angel, worked at a popular downtown café for three years.",
+          "position": "Near Levi's phone",
+          "states": "Encouraging, playful, social",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Angel Reyes",
+          "gender": "Female",
+          "description": "Angel Reyes; Female; Age: 28; Occupation: Event Planner; Personality: Assertive, Spontaneous, Empathetic; Values: Connection, Adventure, Integrity; Interests: Trying new restaurants, DIY home projects, Social activism; Experiences: Organized a successful charity fundraiser last year, recently took a solo trip to Central America for inspiration, helped Levi navigate a tough career transition.",
+          "position": "In the group chat",
+          "states": "Urgent, supportive, socially aware",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Levi Black",
+          "character_id": 0,
+          "action": "Levi reads the group chat messages.",
+          "dialogue": "Levi: 'Lucas, I was planning to just watch a movie. Are we sure we should change it last minute?'"
+        },
+        {
+          "action_id": 1,
+          "character": "Lucas Morgan",
+          "character_id": 1,
+          "action": "Lucas replies in the chat, trying to convince Levi.",
+          "dialogue": "Lucas: 'Come on, Levi! We can grab coffee and maybe even catch a movie later. It'll be fun!'"
+        },
+        {
+          "action_id": 2,
+          "character": "Angel Reyes",
+          "character_id": 2,
+          "action": "Angel sends a message to the group chat, nudging Levi again.",
+          "dialogue": "Angel: 'Don't waste the weekend, Levi! You know we're all looking forward to seeing you!'"
+        },
+        {
+          "action_id": 3,
+          "character": "Levi Black",
+          "character_id": 0,
+          "action": "Levi responds to the chat, showing his internal conflict.",
+          "dialogue": "Levi: 'I know... I just feel like I should stick to my original plan. But I don't want to let you guys down.'"
+        },
+        {
+          "action_id": 4,
+          "character": "Lucas Morgan",
+          "character_id": 1,
+          "action": "Lucas replies with a light-hearted message to ease Levi's tension.",
+          "dialogue": "Lucas: 'Hey, no pressure! Just trying to make the most of the weekend. You decide!'"
+        }
+      ],
+      "plot": "Levi is trying to decide whether to change his weekend plans from watching a movie alone to joining Lucas and Angel at a coffee shop. His hesitation is evident as he weighs the comfort of his original plan against the social pressure and desire to connect with his friends. Lucas and Angel continue to nudge him toward a decision, highlighting the importance of friendship and flexibility in his values.",
+      "social_purpose": "To showcase Levi's struggle with indecision and his sensitivity to social dynamics, while also illustrating the influence of his friends and the value he places on friendship and flexibility.",
+      "chunk": {
+        "id": 0,
+        "text": "Levi's friends are trying to convince him to change his weekend plans from watching a movie alone to joining them at a coffee shop. He is hesitant, but their messages are starting to sway him. The group chat is filled with playful and supportive messages, making it hard for him to say no."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

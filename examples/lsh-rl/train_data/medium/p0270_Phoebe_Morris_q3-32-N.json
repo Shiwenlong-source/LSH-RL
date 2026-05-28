@@ -1,0 +1,126 @@
+{
+  "title": "A Midnight Rescue at the Venue",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Phoebe tries to convince Doherty to perform at an underground gig.",
+      "time": "10:30 PM",
+      "location": "The back room of a small music venue, cluttered with sound equipment and a few scattered chairs",
+      "description": "Phoebe stands in the dimly lit room, holding a paper with lyrics in her hand. She is nervous but resolute. Cici, her supportive but cautious friend, leans against a wall, watching the scene unfold. Lucas, a fellow musician and Doherty’s rival, stands with arms crossed, unimpressed. Doherty, slumped on a chair, is clearly under the influence of alcohol and seems detached from the world.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Phoebe Morris",
+          "gender": "22-year-old female, active in the music scene, 24 years old",
+          "description": "Phoebe is a passionate and idealistic musician who is deeply invested in the emotional and artistic integrity of her friends and their work. She is visibly anxious but holds onto her determination.; 22-year-old female, active in the music scene, 24 years old; Occupation: Libertines fan and independent musician; Personality: Determined, Compassionate, Anxious, Idealistic; Values: Artistic purity, Friendship, Emotional sincerity; Interests: Indie music, Rock culture, Personal expression; Experiences: Attending underground performances, Forming deep emotional connections with artists, Struggling with peer pressure",
+          "position": "Standing in front of Doherty",
+          "states": "Anxious, determined, hopeful",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Cici",
+          "gender": "23-year-old female",
+          "description": "Cici is Phoebe’s close friend and fellow musician; Female; Age: 23; Occupation: Aspiring singer-songwriter and part-time sound technician; Personality: Cautious, empathetic, approving, observant; Values: Loyalty, artistic integrity, safety; Interests: Writing introspective lyrics, live sound engineering, indie music scenes; Experiences: Played in local open mics and small venues, witnessed the pitfalls of substance abuse in the music industry, supported Phoebe through creative doubts and personal struggles.",
+          "position": "Leaning against the wall, slightly to the side",
+          "states": "Cautious, approving, empathetic",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Lucas",
+          "gender": "25-year-old male",
+          "description": "Lucas is a talented but cynical musician who has a complicated relationship with Doherty; Male; Age: 25; Occupation: Guitarist and session musician; Personality: Cynical, observant, reserved; Values: Artistic integrity, independence, authenticity; Interests: Improvisational jam sessions, vintage vinyl, obscure blues; Experiences: Played in underground music circuits since age 18, had a falling out with Doherty over a stolen solo in a live competition, secretly admires Phoebe’s raw, unfiltered creativity.",
+          "position": "Standing in the corner, arms crossed",
+          "states": "Cold, indifferent, observant",
+          "is_npc": true
+        },
+        {
+          "id": 3,
+          "name": "Doherty",
+          "gender": "26-year-old male",
+          "description": "Doherty is a once-promising musician who is now battling addiction and emotional withdrawal; Male; Age: 26; Occupation: Aspiring but fallen-out-of-grace indie folk musician; Personality: Cynical, introspective, stubborn; Values: Artistic integrity, personal freedom, authenticity; Interests: Acoustic guitar, vintage vinyl, whiskey; Experiences: A brief moment of fame in his early 20s, a public breakdown after a failed relationship and tour, years of self-imposed isolation and sporadic busking in the city.",
+          "position": "Slumped on a chair",
+          "states": "Detached, intoxicated, resistant",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Phoebe Morris",
+          "character_id": 0,
+          "action": "Approaching Doherty",
+          "dialogue": "Doherty, I know you don’t feel like it, but this gig means a lot. You’ve got something real in you, and I don’t want to see it disappear."
+        },
+        {
+          "action_id": 1,
+          "character": "Cici",
+          "character_id": 1,
+          "action": "Nodding in agreement",
+          "dialogue": "She’s right. You’ve been through a lot, but music is the one thing that’s always pulled you back up. Don’t let it go now."
+        },
+        {
+          "action_id": 2,
+          "character": "Lucas",
+          "character_id": 2,
+          "action": "Sneering",
+          "dialogue": "He’s not in any condition to perform. You’re just wasting your time, Phoebe."
+        },
+        {
+          "action_id": 3,
+          "character": "Doherty",
+          "character_id": 3,
+          "action": "Looking up with a slurred voice",
+          "dialogue": "What’s the point? It’s all just noise now. I can’t even feel it anymore."
+        },
+        {
+          "action_id": 4,
+          "character": "Phoebe Morris",
+          "character_id": 0,
+          "action": "Sitting beside Doherty",
+          "dialogue": "You can feel it again. I’ve seen it in your eyes when you play. That’s what matters. We’re not trying to save your career—we’re trying to save your soul."
+        },
+        {
+          "action_id": 5,
+          "character": "Cici",
+          "character_id": 1,
+          "action": "Softly speaking to Lucas",
+          "dialogue": "You don’t have to like it, but she’s trying to help. That’s not something to mock."
+        },
+        {
+          "action_id": 6,
+          "character": "Lucas",
+          "character_id": 2,
+          "action": "Sighing and looking away",
+          "dialogue": "..."
+        },
+        {
+          "action_id": 7,
+          "character": "Doherty",
+          "character_id": 3,
+          "action": "Taking a swig from his drink",
+          "dialogue": "Maybe I just don’t want to feel it anymore."
+        },
+        {
+          "action_id": 8,
+          "character": "Phoebe Morris",
+          "character_id": 0,
+          "action": "Putting a hand on Doherty’s shoulder",
+          "dialogue": "Then I’ll feel it for you. But I need you to try. Even if it’s just for one song."
+        }
+      ],
+      "plot": "Phoebe is trying to help Doherty reclaim his passion for music by convincing him to perform at an underground gig, despite his self-destructive tendencies and resistance to being helped. Cici supports her, while Lucas remains skeptical.",
+      "social_purpose": "To explore the protagonist’s values of friendship and artistic purity through a difficult but necessary social interaction, highlighting the tension between intervention and letting go in the face of personal struggle.",
+      "chunk": {
+        "id": 0,
+        "text": "Phoebe, driven by her deep respect for artistic expression and her loyalty to her friends, attempts to rally Doherty from his emotional and physical decline. The scene captures the fragile balance of encouragement and resistance in a community that values raw emotion and authenticity in music."
+      },
+      "npcs": [
+        1,
+        2,
+        3
+      ]
+    }
+  ]
+}

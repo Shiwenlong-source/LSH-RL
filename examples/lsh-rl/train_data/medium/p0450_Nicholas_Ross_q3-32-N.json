@@ -1,0 +1,102 @@
+{
+  "title": "Planning the Fair Vote Campaign",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Team Meeting",
+      "time": "4:00 PM, Thursday",
+      "location": "A community center in downtown",
+      "description": "Nicholas Ross and his team of young activists gather in a small meeting room to plan their upcoming campaign for fair voting practices. The room is filled with whiteboards, maps, and stacks of flyers, but the atmosphere is tense due to differing opinions on the best way to proceed.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Nicholas Ross",
+          "gender": "Male",
+          "description": "28-year-old political activist with a strong sense of idealism and passion for democratic reform. He is the leader of the group and is visibly stressed about the direction of the campaign.; 28-year-old /Male/Activist, 24 years old; Occupation: Political Activist; Personality: Determined, Idealistic, Passionate; Values: Fairness, Democracy, Civic Responsibility; Interests: Political Reform, Community Organizing, Public Speaking; Experiences: Participating in grassroots movements, Hosting community discussions, Facing peer skepticism",
+          "position": "Head of the meeting",
+          "states": "Determined but conflicted",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Chen Wei",
+          "gender": "Female",
+          "description": "25-year-old data analyst and campaign strategist who challenges Nicholas's idealism with a focus on measurable impact and targeted outreach; Female; Age: 25; Occupation: Data Analyst and Political Campaign Strategist; Personality: Analytical, Cautious, Pragmatic, Detail-oriented, Confident; Values: Accountability, Efficiency, Social Equity, Evidence-based Decision Making; Interests: Urban policy, Data visualization, Volunteer mentoring, Strategic board games; Experiences: Worked on a local mayoral campaign that used data to increase voter turnout, Analyzed social media trends to predict public sentiment shifts during a referendum, Volunteered with a non-profit focused on civic education in underserved communities.",
+          "position": "Sitting to Nicholas's left",
+          "states": "Cautious and analytical",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Lucy Carter",
+          "gender": "Female",
+          "description": "23-year-old communications intern and social media manager; Female; Age: 23; Occupation: Communications Intern and Social Media Manager; Personality: Supportive, pragmatic, organized; Values: Transparency, community empowerment, social justice; Interests: Digital storytelling, grassroots organizing, photography; Experiences: Volunteered in local voter registration drives, managed social media for a university student government campaign, interned with a nonpartisan civic engagement nonprofit.",
+          "position": "Sitting across from Nicholas",
+          "states": "Supportive and pragmatic",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Nicholas Ross",
+          "character_id": 0,
+          "action": "Presents the campaign's core mission",
+          "dialogue": "We can't just wait for the system to fix itself. If we don't act now, our votes won't count anymore. Our goal is to make sure every citizen's voice is heard in the next election."
+        },
+        {
+          "action_id": 1,
+          "character": "Chen Wei",
+          "character_id": 1,
+          "action": "Asks a critical question",
+          "dialogue": "But Nicholas, do you think we can realistically change the entire system in a few months? We need a concrete plan, not just ideals."
+        },
+        {
+          "action_id": 2,
+          "character": "Lucy Carter",
+          "character_id": 2,
+          "action": "Offers a practical suggestion",
+          "dialogue": "We should start by registering more people and using social media to spread the message. If we can get people to care, the rest will follow."
+        },
+        {
+          "action_id": 3,
+          "character": "Nicholas Ross",
+          "character_id": 0,
+          "action": "Defends his vision",
+          "dialogue": "I agree we need to start small, but we also have to be bold. If we only focus on registration, we're not addressing the deeper issues of voter suppression and fraud. We need to raise awareness and push for real reform."
+        },
+        {
+          "action_id": 4,
+          "character": "Chen Wei",
+          "character_id": 1,
+          "action": "Suggests a compromise",
+          "dialogue": "What if we do both? We can focus on registration as a starting point, but also incorporate policy advocacy into our messaging. That way, we build a foundation and raise awareness at the same time."
+        },
+        {
+          "action_id": 5,
+          "character": "Lucy Carter",
+          "character_id": 2,
+          "action": "Agrees with the compromise",
+          "dialogue": "That makes sense. We can create a campaign that's both practical and meaningful. It'll help us stay focused while also inspiring people to care about the bigger picture."
+        },
+        {
+          "action_id": 6,
+          "character": "Nicholas Ross",
+          "character_id": 0,
+          "action": "Nods and agrees",
+          "dialogue": "Okay, let's go with that. We need to make sure our message is clear, but also achievable. I'll work on the policy part, and Lucy, you can handle the outreach and registration plan. Chen, you'll help us measure our impact and adjust as needed."
+        }
+      ],
+      "plot": "Nicholas Ross leads a meeting with his team to plan a campaign for fair voting practices. While Chen questions the feasibility of their goals, Lucy offers practical solutions. Nicholas must find a balance between his idealism and the team's need for actionable steps.",
+      "social_purpose": "To demonstrate how differing values and approaches can lead to a compromise in a group setting focused on civic engagement and political reform.",
+      "chunk": {
+        "id": 0,
+        "text": "Nicholas Ross, a 28-year-old political activist, leads a team meeting to plan a campaign for fair voting practices. Chen Wei, a 25-year-old data analyst, challenges his idealism, while Lucy Carter, a 23-year-old communications intern, offers practical advice. The group agrees to a compromise, blending awareness and action."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

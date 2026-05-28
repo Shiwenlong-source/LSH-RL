@@ -1,0 +1,88 @@
+{
+  "title": "A Seat Change and Unspoken Feelings",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Classroom Seat Change",
+      "time": "Afternoon, 2:30 PM",
+      "location": "High School Classroom",
+      "description": "The classroom is quiet but tense as students prepare for a group study activity. The teacher announces a seat change, prompting subtle shifts in the students' body language and expressions. Evan, usually in the back row, is about to be seated next to Lili, the girl he admires from afar. Lucas, his classmate, is also moving closer to Lili, and his intentions are unclear to Evan.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Evan Bryant",
+          "gender": "Male",
+          "description": "A 16-year-old high school student who is anxious and introverted. He is emotionally invested in the situation and struggles to manage his feelings in public settings.; 16-year-old Adolescent Male, High School Student, 16 years old; Occupation: High School Student; Personality: Anxious, Determined, Introverted, Empathetic; Values: Persistence, Emotional Connection, Self-restraint; Interests: Academic Performance, Interpersonal Relationships, Emotional Well-being; Experiences: Coping with Illness, Handling Social Dynamics, Managing Personal Expectations, Struggling with Emotional Vulnerability",
+          "position": "Back row of the classroom, moving to the middle row",
+          "states": "Nervous, hopeful, self-restrained",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Lili Chen",
+          "gender": "Female",
+          "description": "A 16-year-old high school student who is focused and serious about her studies; Female; Age: 16; Occupation: High school student; Personality: Analytical, reserved, diligent; Values: Academic excellence, personal integrity, quiet determination; Interests: Mathematics, reading classical literature, organizing study schedules; Experiences: Consistently high performance in standardized tests, helping classmates with homework without seeking recognition, recently transferred from a competitive private school.",
+          "position": "Front row of the classroom, moving to the middle row",
+          "states": "Neutral, focused, unaware",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Lucas Grant",
+          "gender": "Male",
+          "description": "A 16-year-old high school student who is confident and socially active. He is attempting to approach Lili and is observant of others' reactions; Male; Age: 16; Occupation: High school student; Personality: Confident, calculating, slightly amused; Values: Social status, strategic advantage, charm; Interests: Networking, casual flirting, school politics; Experiences: Has successfully gained popularity through calculated social moves, recently started a student-led club to expand his influence, noticed Lili's quiet presence and is intrigued by her.",
+          "position": "Middle row of the classroom, moving to the front row",
+          "states": "Confident, calculating, slightly amused",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Evan Bryant",
+          "character_id": 0,
+          "action": "Evan slowly moves to his new seat next to Lili, keeping his eyes on the front of the classroom to avoid drawing attention.",
+          "dialogue": "Evan mutters to himself, 'Just stay calm. She doesn't know you exist.'"
+        },
+        {
+          "action_id": 1,
+          "character": "Lili Chen",
+          "character_id": 1,
+          "action": "Lili organizes her notebook and looks up briefly at Evan as he approaches.",
+          "dialogue": "Lili says, 'Hi, Evan. Did you need help with the math problems?'"
+        },
+        {
+          "action_id": 2,
+          "character": "Lucas Grant",
+          "character_id": 2,
+          "action": "Lucas walks past Evan with a smug smile and casually strikes up a conversation with Lili.",
+          "dialogue": "Lucas says, 'Hey Lili, you're the best at math. Can you help me with that problem too?'"
+        },
+        {
+          "action_id": 3,
+          "character": "Evan Bryant",
+          "character_id": 0,
+          "action": "Evan feels a pang of anxiety but decides to assert himself by offering to help Lili first.",
+          "dialogue": "Evan says, 'Actually, I was just about to ask if you wanted to work together. I think I understand the problem.'"
+        },
+        {
+          "action_id": 4,
+          "character": "Lili Chen",
+          "character_id": 1,
+          "action": "Lili nods at Evan and politely declines Lucas's offer.",
+          "dialogue": "Lili says, 'Sure, Evan. Lucas, I already had a question for Evan. I'll come back to you.'"
+        }
+      ],
+      "plot": "Evan's quiet determination to connect with Lili is tested when Lucas tries to interject. Through a subtle but concrete interaction, Evan asserts himself while managing his anxiety, allowing for a small but meaningful step toward building a connection.",
+      "social_purpose": "To explore how personal values like persistence and emotional connection can shape social interactions, especially in high-pressure or emotionally sensitive situations.",
+      "chunk": {
+        "id": 0,
+        "text": "Evan's heart raced as the teacher called out the new seating chart. He had been sitting in the back for months, carefully avoiding the attention he knew would come if anyone noticed him. Now, he was being asked to move next to Lili. He had watched her from afar, admiring her focus and quiet confidence. But she had never acknowledged him, and he wasn't sure how to act. Lucas, on the other hand, was clearly trying to make a move. Evan clenched his fists under the desk. This was his chance. He had to be the one to reach out first, even if it terrified him."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

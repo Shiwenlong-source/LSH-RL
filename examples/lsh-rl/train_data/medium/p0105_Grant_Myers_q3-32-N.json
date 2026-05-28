@@ -1,0 +1,102 @@
+{
+  "title": "The Cooking Show Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Grant invites Nora and Lily to a local cooking class inspired by a childhood favorite show.",
+      "time": "Saturday afternoon",
+      "location": "A community center kitchen in a quiet suburban neighborhood",
+      "description": "The room is warm and filled with the scent of herbs and spices. Grant is standing at the front, nervously holding a recipe card from a vintage cooking show. Nora and Lily are seated at a shared table, one of them already smirking at the nostalgic choice.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Grant Myers",
+          "gender": "Male",
+          "description": "28-year-old courier with a quiet intensity and a soft smile. He wears a worn-out apron and has a notebook tucked under his arm.; 28-year-old male, 28 years old; Occupation: Courier; Personality: Nostalgic, Thoughtful, Enthusiastic, Introspective; Values: Emotional Value, Family Connection, Personal Satisfaction; Interests: Cooking, Media Nostalgia, Self-reflection; Experiences: Watching cooking shows in childhood, Reconnecting with past interests, Weighing personal wishes against family advice",
+          "position": "Front of the room, near the instructor",
+          "states": "Nervous, determined, introspective",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Nora",
+          "gender": "Female",
+          "description": "Grant’s best friend since college, 29 years old; Female; Age: 29; Occupation: Event planner; Personality: Playfully skeptical, supportive, curious; Values: Loyalty, authenticity, humor in hardship; Interests: Trying new cuisines, vintage TV shows, supporting friends’ passions; Experiences: Attended countless weekend adventures with Grant, helped him through a difficult breakup, organized a surprise 30th birthday party for him.",
+          "position": "At the table with Lily",
+          "states": "Playfully skeptical, supportive, curious",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Lily",
+          "gender": "Female",
+          "description": "Grant’s mother, 55 years old. She is warm and nurturing, but has a no-nonsense attitude when it comes to life choices. She is seated with a faint smile on her face; Female; Age: 55; Occupation: Part-time school counselor and former home economics teacher; Personality: Compassionate, pragmatic, patient; Values: Family, personal growth, responsibility; Interests: Cooking, gardening, classic television; Experiences: Raised two children while managing a busy career, taught cooking classes for over 20 years, recently started reconnecting with old hobbies to support Grant’s emotional healing.",
+          "position": "At the table with Nora",
+          "states": "Worried, understanding, encouraging",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Grant Myers",
+          "character_id": 0,
+          "action": "Introduces the class to the instructor",
+          "dialogue": "Hi, I’m Grant. I’ve been following this show since I was a kid, and I wanted to try this recipe in person."
+        },
+        {
+          "action_id": 1,
+          "character": "Nora",
+          "character_id": 1,
+          "action": "Rolls her eyes and teases him",
+          "dialogue": "Oh, Grant, I knew it was about the food, but I didn’t expect you to take it this far."
+        },
+        {
+          "action_id": 2,
+          "character": "Lily",
+          "character_id": 2,
+          "action": "Offers a gentle but pointed comment",
+          "dialogue": "I hope this is more than just a trip down memory lane. What’s the point if it doesn’t lead to something practical?"
+        },
+        {
+          "action_id": 3,
+          "character": "Grant Myers",
+          "character_id": 0,
+          "action": "Responds thoughtfully",
+          "dialogue": "It’s not just about the food, Mom. It’s about connecting with the past and finding joy in something I love. Maybe it will lead to something, maybe not. But I needed this."
+        },
+        {
+          "action_id": 4,
+          "character": "Nora",
+          "character_id": 1,
+          "action": "Softens and offers encouragement",
+          "dialogue": "Okay, fair enough. I still think you could’ve picked a more modern show, but if it means this much to you, I’m here to taste-test the results."
+        },
+        {
+          "action_id": 5,
+          "character": "Lily",
+          "character_id": 2,
+          "action": "Smiles and adds a practical suggestion",
+          "dialogue": "Well, if you’re going to do this, make sure you share the recipe with the family. Maybe we can turn this into something that lasts."
+        },
+        {
+          "action_id": 6,
+          "character": "Grant Myers",
+          "character_id": 0,
+          "action": "Nods, feeling a mix of relief and resolve",
+          "dialogue": "You’re both right. I’ll take it seriously, but I’m not giving up on the memories either."
+        }
+      ],
+      "plot": "Grant brings his childhood passion for cooking into the present by enrolling in a class inspired by a nostalgic show. Nora and Lily challenge his choice, but through their interactions, Grant reaffirms the emotional and personal value of his decision while acknowledging the need for practicality.",
+      "social_purpose": "To explore the tension between personal passion and external expectations in a public setting, while highlighting the protagonist’s values and relationships.",
+      "chunk": {
+        "id": 0,
+        "text": "Grant stands in the kitchen, heart pounding with the mix of excitement and anxiety. Nora’s teasing and Lily’s concern echo in his mind, but he focuses on the task at hand, determined to prove that the past can still inspire the present."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

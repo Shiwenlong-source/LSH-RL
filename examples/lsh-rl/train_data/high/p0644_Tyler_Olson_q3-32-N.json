@@ -1,0 +1,95 @@
+{
+  "title": "The Confession at the Café",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Tyler meets with Luan and Henry at a local café to discuss a recent blog post that exposed Tyler's fake relationship with Luan.",
+      "time": "After school, 3:45 PM",
+      "location": "A cozy corner in a local coffee shop",
+      "description": "The café is softly lit with the hum of casual conversations. Tyler sits at a corner table, nervously fidgeting with a pen. Luan and Henry are seated across from him, both watching him intently. The tension is palpable as Tyler struggles to find the right words.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Tyler Olson",
+          "gender": "Male",
+          "description": "A 17-year-old middle school student who is sensitive and self-aware. He is conflicted about his past decisions and is determined to be honest.; Male / Middle School Student, 17 years old; Occupation: Middle School Student; Personality: Conflicted, Sensitive, Self-aware, Determined; Values: Honesty, Authenticity, Emotional Connection; Interests: Writing, Self-reflection, Digital Communication; Experiences: Fictional online relationship, Emotional deception, Friendship dilemmas, Journey of self-discovery",
+          "position": "Corner of the table, facing Luan and Henry",
+          "states": "Nervous, conflicted, determined",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Luan Chen",
+          "gender": "Female",
+          "description": "A 17-year-old middle school student and aspiring writer who recently exposed Tyler's fake relationship in a blog post; Female; Age: 17; Occupation: High school student and part-time blog contributor; Personality: intelligent, introspective, emotionally guarded; Values: honesty, artistic expression; Interests: creative writing, indie music, quiet observation; Experiences: navigating social media as a teen writer, being manipulated in a high school relationship, standing up for herself publicly through her blog.",
+          "position": "Across from Tyler, leaning slightly forward",
+          "states": "Curious, guarded, empathetic",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Henry Ramirez",
+          "gender": "Male",
+          "description": "A 17-year-old middle school student and Tyler's best friend; Male; Age: 17; Occupation: Student; Personality: Supportive, anxious, observant; Values: Loyalty, honesty; Interests: Writing short stories, playing chess, listening to indie music; Experiences: Publicly defending Tyler during a group argument, recently discovered online misinformation about his family, struggled with social anxiety in new environments.",
+          "position": "Sitting next to Luan, trying to mediate",
+          "states": "Supportive, anxious, observant",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Tyler Olson",
+          "character_id": 0,
+          "action": "Clears his throat and begins to speak.",
+          "dialogue": "Luan, I need to tell you the truth. The relationship we had online... it wasn't real. I was trying to hide my insecurities, and I let things get out of hand."
+        },
+        {
+          "action_id": 1,
+          "character": "Luan Chen",
+          "character_id": 1,
+          "action": "Leans back and crosses her arms, processing Tyler's words.",
+          "dialogue": "So, everything we talked about... the late-night messages, the support, the connection—it was all a lie?"
+        },
+        {
+          "action_id": 2,
+          "character": "Henry Ramirez",
+          "character_id": 2,
+          "action": "Places a hand on Tyler's shoulder to offer support.",
+          "dialogue": "Luan, Tyler's not trying to hurt you. He's just trying to be honest with himself and with you."
+        },
+        {
+          "action_id": 3,
+          "character": "Tyler Olson",
+          "character_id": 0,
+          "action": "Nods, looking down at his hands.",
+          "dialogue": "I know it sounds terrible. I didn't mean to deceive you, but I was scared. I didn't know how to be real with anyone."
+        },
+        {
+          "action_id": 4,
+          "character": "Luan Chen",
+          "character_id": 1,
+          "action": "Looks at Tyler with a mix of disappointment and understanding.",
+          "dialogue": "I can't pretend I'm not hurt. But I get it. People are complicated. What are you going to do now?"
+        },
+        {
+          "action_id": 5,
+          "character": "Tyler Olson",
+          "character_id": 0,
+          "action": "Looks up with a small, sincere smile.",
+          "dialogue": "I'm going to start being real. I don't know if we can be friends again, but I want to try. I owe it to myself and to you."
+        }
+      ],
+      "plot": "Tyler finally confesses to Luan and Henry that his online relationship was a lie. The conversation is emotional and tense, but Tyler's honesty marks the beginning of a new chapter in his journey of self-discovery.",
+      "social_purpose": "To explore Tyler's internal conflict and his values of honesty and authenticity through a public, vulnerable conversation with Luan and Henry.",
+      "chunk": {
+        "id": 0,
+        "text": "The café is softly lit with the hum of casual conversations. Tyler sits at a corner table, nervously fidgeting with a pen. Luan and Henry are seated across from him, both watching him intently. The tension is palpable as Tyler struggles to find the right words."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

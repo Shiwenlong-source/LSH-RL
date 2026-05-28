@@ -1,0 +1,95 @@
+{
+  "title": "Faith's Vision for Her Farewell",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Faith shares her funeral song list with friends at a café.",
+      "time": "Afternoon, 3:00 PM",
+      "location": "Local Café near the Equestrian Center",
+      "description": "Faith Mitchell, a 28-year-old equestrian athlete, is seated at a small table with her friends Yuna and Joy. The café is filled with soft background music, and Faith is animatedly describing her vision for her funeral. Yuna, a calm and artistic painter, listens intently, while Joy, a pragmatic and career-driven lawyer, raises skeptical questions.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Faith Mitchell",
+          "gender": "Female",
+          "description": "Enthusiastic and imaginative equestrian athlete, known for her strong emotional expression and love for meaningful rituals.; Female, 28, Equestrian, 28 years old; Occupation: Equestrian Athlete; Personality: Enthusiastic, Imaginative, Determined; Values: Personal Expression, Emotional Expression, Meaningful Rituals; Interests: Horse Riding, Music, Ritual Planning; Experiences: Attending moving funerals, Planning personal rituals, Discussing emotional topics with friends",
+          "position": "Seated at the center of the table, leaning forward with excitement.",
+          "states": "Engaged, passionate, determined",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Yuna",
+          "gender": "Female",
+          "description": "Artistic and empathetic painter who is supportive of creative expressions and personal rituals; Female; Age: 26; Occupation: Freelance mural artist and part-time art therapist; Personality: Thoughtful, observant, nurturing; Values: Emotional authenticity, artistic freedom, connection through creativity; Interests: Watercolor painting, mindfulness practices, visiting local galleries; Experiences: Worked with grief support groups through art, created a community mural inspired by personal loss, studied art therapy to help others process emotions.",
+          "position": "Seated to Faith's left, nodding and taking notes.",
+          "states": "Supportive, attentive, thoughtful",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Joy",
+          "gender": "Female",
+          "description": "Joy; Female; Age: 32; Occupation: Corporate Lawyer; Personality: Analytical, cautious, pragmatic; Values: Practicality, fairness, long-term security; Interests: Legal strategy, reading non-fiction, urban planning; Experiences: Handled high-stakes business litigation, advised startups on risk management, grew up in a family of engineers.",
+          "position": "Seated to Faith's right, arms crossed, slightly skeptical.",
+          "states": "Cautious, analytical, concerned",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Faith Mitchell",
+          "character_id": 0,
+          "action": "Faith begins the conversation by expressing her desire to plan a unique funeral.",
+          "dialogue": "I've been thinking a lot about how I want people to remember me, and I want my funeral to reflect who I really am. I want the songs I love most to be played—like 'Wild Horses' by Fleetwood Mac and 'Hooves' by my favorite indie band. It's important to me."
+        },
+        {
+          "action_id": 1,
+          "character": "Yuna",
+          "character_id": 1,
+          "action": "Yuna shows support and offers to help with arrangements.",
+          "dialogue": "That sounds beautiful, Faith. I’d be happy to help you plan it. Maybe I can even arrange for a local musician to perform live. What kind of setting do you imagine?"
+        },
+        {
+          "action_id": 2,
+          "character": "Joy",
+          "character_id": 2,
+          "action": "Joy questions the feasibility of the plan.",
+          "dialogue": "I get it, but are you sure you can actually find a singer who’s available on such short notice? And what if someone objects to the music choice? You need to consider logistics and social expectations too."
+        },
+        {
+          "action_id": 3,
+          "character": "Faith Mitchell",
+          "character_id": 0,
+          "action": "Faith reassures Joy and emphasizes the importance of her personal identity.",
+          "dialogue": "I know it sounds ambitious, but I've already made a list of people who might be willing to help. This isn’t just about the music—it’s about making sure my farewell is something that truly represents me. I’ve seen how powerful a well-planned ritual can be."
+        },
+        {
+          "action_id": 4,
+          "character": "Yuna",
+          "character_id": 1,
+          "action": "Yuna encourages Faith to share more details about the ritual.",
+          "dialogue": "Tell me more about how you want it to feel. Do you want it to be a celebration, or more somber and reflective?"
+        },
+        {
+          "action_id": 5,
+          "character": "Faith Mitchell",
+          "character_id": 0,
+          "action": "Faith explains her vision for the emotional tone of the event.",
+          "dialogue": "It should be a celebration, but also a moment to connect with people on a deeper level. I want the music to bring people together and express the emotions that words can't always say."
+        }
+      ],
+      "plot": "Faith Mitchell shares her detailed plan for her funeral with her friends Yuna and Joy. While Yuna is supportive and offers to help with the arrangements, Joy expresses concerns about the practicality and social implications of such a personal choice. Faith remains enthusiastic and determined to ensure her farewell reflects her true self.",
+      "social_purpose": "To explore Faith’s values of personal expression and meaningful rituals while showcasing the dynamics of support and skepticism in a close-knit group.",
+      "chunk": {
+        "id": 0,
+        "text": "Faith's Vision for Her Farewell"
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

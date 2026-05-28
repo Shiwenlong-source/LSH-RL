@@ -1,0 +1,123 @@
+{
+  "title": "First Steps to Homeownership",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Cafe meeting with a real estate agent",
+      "time": "10:30 AM",
+      "location": "Sunshine Cafe, downtown",
+      "description": "Jasper Holt, a 30-year-old first-time home buyer, meets with real estate agent Ella in a quiet corner of a local downtown cafe. He has a detailed checklist in hand and is carefully reviewing it. Nearby, a friend of Jasper’s, Maya, listens in and interjects with a skeptical comment about Ella’s experience in the apartment market. Jasper is visibly torn between trust and doubt.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Jasper Holt",
+          "gender": "male",
+          "description": "30-year-old first-time home buyer, detail-oriented and analytical, with a cautious and determined personality. He values professionalism, transparency, and accuracy.; male, First-time Home Buyer, 30 years old; Occupation: Young Professional; Personality: Detail-oriented, Analytical, Cautious, Determined; Values: Professionalism, Transparency, Accuracy, Trustworthiness; Interests: Real Estate, Planning, Research, Strategic Decision Making; Experiences: Buying a home for the first time, Market research, Agent interviews, Financial planning, Property evaluation",
+          "position": "At the table with Ella, facing her",
+          "states": "Torn between trust and doubt, focused on the checklist",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Ella",
+          "gender": "female",
+          "description": "Experienced real estate agent with a calm and professional demeanor, reviewing Jasper’s checklist and trying to establish a rapport with him; Female; Age: 35; Occupation: Real Estate Agent specializing in residential properties; Personality: Analytical, patient, observant; Values: Integrity, client satisfaction, community; Interests: Urban development, coffee culture, networking events; Experiences: Successfully guided over 50 first-time home buyers, navigated high-pressure market fluctuations, built a strong local referral network.",
+          "position": "Sitting across from Jasper, holding his checklist",
+          "states": "Serious, appreciative, slightly defensive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Maya",
+          "gender": "female",
+          "description": "Maya is Jasper’s friend and coworker, who is more skeptical and has a tendency to question authority; Female; Age: 28; Occupation: Urban planner; Personality: Analytical, independent, blunt; Values: Transparency, fairness, critical thinking; Interests: Sustainable architecture, investigative journalism, data analysis; Experiences: Witnessed misleading real estate practices in her neighborhood, worked on affordable housing projects, frequently collaborates with local government officials.",
+          "position": "At a nearby table, listening in",
+          "states": "Observant, skeptical, curious",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Jasper Holt",
+          "character_id": 0,
+          "action": "Reviewing the checklist",
+          "dialogue": "I’ve spent weeks preparing this checklist. It’s important to me that we don’t overlook anything. Let’s go through it together."
+        },
+        {
+          "action_id": 1,
+          "character": "Ella",
+          "character_id": 1,
+          "action": "Reading through the checklist",
+          "dialogue": "This is impressive, Jasper. It shows you’ve done your homework. I appreciate your attention to detail. Let’s see how I can help you meet all these requirements."
+        },
+        {
+          "action_id": 2,
+          "character": "Maya",
+          "character_id": 2,
+          "action": "Interrupting with a question",
+          "dialogue": "Ella, I just wanted to ask—how much experience do you have specifically with the downtown apartment market?"
+        },
+        {
+          "action_id": 3,
+          "character": "Jasper Holt",
+          "character_id": 0,
+          "action": "Pausing and looking at Ella",
+          "dialogue": "That’s a fair question, Maya. Ella, how would you answer that?"
+        },
+        {
+          "action_id": 4,
+          "character": "Ella",
+          "character_id": 1,
+          "action": "Defending her experience",
+          "dialogue": "I’ve been in the real estate field for five years, and while I’ve worked in multiple neighborhoods, I’ve recently focused on the downtown market. I can show you my portfolio of recent transactions if that would help."
+        },
+        {
+          "action_id": 5,
+          "character": "Jasper Holt",
+          "character_id": 0,
+          "action": "Nodding thoughtfully",
+          "dialogue": "I value accuracy and transparency, so it would be good to see that. I want to make sure I’m making the best decision for my future."
+        },
+        {
+          "action_id": 6,
+          "character": "Maya",
+          "character_id": 2,
+          "action": "Offering a suggestion",
+          "dialogue": "Jasper, maybe we should consider talking to another agent too. Just to compare, you know? It’s not that I don’t trust her, but it’s your first time buying a home—better safe than sorry."
+        },
+        {
+          "action_id": 7,
+          "character": "Jasper Holt",
+          "character_id": 0,
+          "action": "Considering Maya’s suggestion",
+          "dialogue": "I agree with you, Maya. I want to be thorough. Let’s schedule a second meeting with someone else and compare the options."
+        },
+        {
+          "action_id": 8,
+          "character": "Ella",
+          "character_id": 1,
+          "action": "Smiling professionally",
+          "dialogue": "I understand. I’ll be here if you need me, and I’ll follow up with those portfolio details."
+        },
+        {
+          "action_id": 9,
+          "character": "Maya",
+          "character_id": 2,
+          "action": "Leaning back, satisfied",
+          "dialogue": "That’s the way to do it. You’re not just buying a house, you’re building a future. Better make sure it’s solid."
+        }
+      ],
+      "plot": "Jasper is trying to decide whether to trust Ella as his real estate agent. He values professionalism and accuracy, but Maya’s skepticism makes him question her experience. The group agrees to explore multiple options to ensure a well-informed decision.",
+      "social_purpose": "To demonstrate Jasper’s cautious and analytical nature as he navigates the decision of choosing a real estate agent for his first home purchase, while showing how Maya’s presence influences his perception of trust and experience.",
+      "chunk": {
+        "id": 0,
+        "text": "Jasper, a detail-oriented first-time home buyer, is meeting with real estate agent Ella in a quiet downtown cafe. He has a comprehensive checklist ready and is reviewing it with her. Maya, his skeptical coworker, is at a nearby table and raises concerns about Ella’s experience in the apartment market. Jasper is torn between Ella’s professionalism and Maya’s doubts, and ultimately decides to seek a second opinion to ensure he makes the best decision for his future."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

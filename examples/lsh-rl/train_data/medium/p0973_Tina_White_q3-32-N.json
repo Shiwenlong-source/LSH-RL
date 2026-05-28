@@ -1,0 +1,95 @@
+{
+  "title": "The Office Café Incident",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Tina and her colleagues take a break at the office café.",
+      "time": "10:30 AM",
+      "location": "Office Café, International Bank Headquarters",
+      "description": "Tina, a temporary employee, sits at a small table in the office café with her colleagues, Emma and Olivia. The atmosphere is tense as they discuss the recent changes in the office, particularly the mysterious renaming of Tina's personal folder. Emma is cautious and observant, while Olivia tries to keep things light with her usual humor. The shared goal of the group is to understand what is happening and how to navigate the subtle power struggle at work.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Tina White",
+          "gender": "Female",
+          "description": "A sensitive and contemplative temporary office clerk in her late 20s, visibly uneasy and introspective.; Female/Temporary Employee, 26 years old; Occupation: Temporary Office Clerk; Personality: Sensitive, Contemplative, Creative; Values: Self-expression, Integrity, Clarity; Interests: Writing, Journaling, Narrative; Experiences: Childhood Memories, Workplace Surveillance, Emotional Introspection, Career Uncertainty, Personal Records",
+          "position": "Seated at the table, sipping coffee slowly",
+          "states": "Anxious, reflective, trying to remain composed",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Emma Carter",
+          "gender": "Female",
+          "description": "A seasoned permanent employee in her early 30s, known for her sharp intuition and cautious nature; Female; Age: 32; Occupation: Senior Compliance Officer; Personality: Analytical, loyal, empathetic; Values: Integrity, stability, teamwork; Interests: Solving puzzles, reading mystery novels, practicing yoga; Experiences: Navigated past office mergers with careful diplomacy, identified and reported a major compliance breach early in her career, mentored several junior employees through workplace challenges.",
+          "position": "Leaning forward, speaking with concern",
+          "states": "Alert, protective, trying to offer support",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Olivia Grant",
+          "gender": "Female",
+          "description": "A cheerful and witty permanent employee in her late 20s, often the office's social glue; Female; Age: 28; Occupation: Corporate Communications Specialist; Personality: Humorous, observant, subtly empathetic; Values: Team cohesion, professionalism, transparency; Interests: Writing short stories, office trivia, coffee culture; Experiences: Managed a high-profile internal rebranding campaign, helped mediate a workplace conflict between departments, has worked at the bank for four years navigating various management changes.",
+          "position": "Laughing slightly, trying to ease the mood",
+          "states": "Light-hearted, observant, subtly empathetic",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Tina White",
+          "character_id": 0,
+          "action": "Types a sentence on her phone",
+          "dialogue": "I just typed 'My story starts here'... I don’t know why, but it felt important."
+        },
+        {
+          "action_id": 1,
+          "character": "Emma Carter",
+          "character_id": 1,
+          "action": "Leans in and asks a question",
+          "dialogue": "That sounds like something from your journal. Are you trying to write your way through this?"
+        },
+        {
+          "action_id": 2,
+          "character": "Olivia Grant",
+          "character_id": 2,
+          "action": "Tries to lighten the mood with a joke",
+          "dialogue": "Maybe your folder just wanted to be more creative. I mean, it’s not like it’s hiding anything... or is it?"
+        },
+        {
+          "action_id": 3,
+          "character": "Tina White",
+          "character_id": 0,
+          "action": "Looks down, then back up with a quiet response",
+          "dialogue": "I don’t know. I just feel like I need to be clear about who I am here. I don’t want to disappear."
+        },
+        {
+          "action_id": 4,
+          "character": "Emma Carter",
+          "character_id": 1,
+          "action": "Nods and offers a piece of advice",
+          "dialogue": "Clarity is the best defense. If you’re being watched, being true to yourself is the only way to keep your integrity."
+        },
+        {
+          "action_id": 5,
+          "character": "Olivia Grant",
+          "character_id": 2,
+          "action": "Pats Tina’s hand and smiles",
+          "dialogue": "Then keep writing. We’ve got your back, even if the rest of the office is trying to rewrite your story."
+        }
+      ],
+      "plot": "Tina begins to process the unsettling event of her folder being renamed with the help of her colleagues. Emma encourages her to stay grounded in her values, while Olivia supports her with humor and reassurance. The conversation subtly reveals Tina’s creative and introspective nature, as well as her struggle for self-expression and stability in an uncertain work environment.",
+      "social_purpose": "To show how Tina’s traits and values emerge naturally in a supportive social setting, while also highlighting the dynamics of her relationships with Emma and Olivia.",
+      "chunk": {
+        "id": 0,
+        "text": "Tina sat at the café table, her fingers hovering over her phone as she stared into the distance. Emma, ever perceptive, noticed her distraction and asked gently, 'You okay, Tina?' Tina blinked and responded, 'I just typed 'My story starts here'... I don’t know why, but it felt important.' Olivia, sipping her latte, chimed in with a grin, 'Maybe your folder just wanted to be more creative. I mean, it’s not like it’s hiding anything... or is it?' The room fell silent for a moment. Emma leaned in, her voice low, 'That sounds like something from your journal. Are you trying to write your way through this?' Tina looked down, then back up, her voice barely above a whisper. 'I don’t know. I just feel like I need to be clear about who I am here. I don’t want to disappear.' Olivia patted her hand, her smile softening. 'Then keep writing. We’ve got your back, even if the rest of the office is trying to rewrite your story.'"
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

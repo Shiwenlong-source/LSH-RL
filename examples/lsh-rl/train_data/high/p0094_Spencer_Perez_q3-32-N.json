@@ -1,0 +1,88 @@
+{
+  "title": "A New Year's Choice",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Spencer is invited to a small New Year's Eve gathering.",
+      "time": "7:00 PM",
+      "location": "Spencer's apartment living room",
+      "description": "It's New Year's Eve, and the snow is gently falling outside. Spencer is sitting on the couch, staring at his phone, while Tao is at the door, trying to convince him to go out. Anna is in the kitchen, preparing a small snack for the evening.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Spencer Perez",
+          "gender": "Male",
+          "description": "26-year-old Software Development Engineer, indecisive and introspective, caught between staying in and stepping out into the world.; 26-year-old /Male/Son, 24 years old; Occupation: Software Development Engineer; Personality: Indecisive, Introspective, Empathetic; Values: Family, Self-reflection, Emotional Honesty; Interests: Self-exploration, Meaningful Conversation, Emotional Introspection; Experiences: Feeling lonely, Struggling with life choices, Receiving emotional support from family and friends",
+          "position": "Sitting on the couch",
+          "states": "Anxious, conflicted, hesitant",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Tao",
+          "gender": "Male",
+          "description": "Spencer's best friend, outgoing and persistent, always trying to pull Spencer out of his shell; Male; Age: 24; Occupation: Event planner; Personality: Energetic, optimistic, persuasive; Values: Friendship, spontaneity, personal growth; Interests: Hosting gatherings, winter sports, music festivals; Experiences: Organized a surprise birthday party for Spencer last year, spent a semester abroad in Japan during college, helped Spencer through a difficult breakup by dragging him to social events.",
+          "position": "Standing near the door",
+          "states": "Energetic, concerned, encouraging",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Anna Perez",
+          "gender": "Female",
+          "description": "Spencer's mother, warm and supportive, subtly nudging him toward emotional growth; Female; Age: 48; Occupation: School Counselor; Personality: Compassionate, patient, observant; Values: Family, personal growth, authenticity; Interests: Cooking, reading contemporary fiction, seasonal traditions; Experiences: Witnessed Spencer's struggles with social anxiety, hosted many family gatherings to encourage connection, worked with teens on emotional resilience.",
+          "position": "In the kitchen",
+          "states": "Calm, empathetic, watchful",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Tao",
+          "character_id": 1,
+          "action": "Tao enters the living room, holding a jacket and a key.",
+          "dialogue": "Spencer, come on! It's New Year's Eve, and someone is waiting for you. We all are. You don't have to be the life of the party, just show up. Please?"
+        },
+        {
+          "action_id": 1,
+          "character": "Spencer Perez",
+          "character_id": 0,
+          "action": "Spencer looks up, sighs, and avoids eye contact.",
+          "dialogue": "I don't know, Tao. I just... I don't want to be alone, but I also don't want to feel out of place. What if I say the wrong thing again?"
+        },
+        {
+          "action_id": 2,
+          "character": "Anna Perez",
+          "character_id": 2,
+          "action": "Anna walks into the living room, holding a plate of cookies.",
+          "dialogue": "Spencer, I made these for you. They're not much, but they're a reminder that sometimes, the hardest step is just leaving the house. You're not alone, no matter what you choose."
+        },
+        {
+          "action_id": 3,
+          "character": "Tao",
+          "character_id": 1,
+          "action": "Tao sits down next to Spencer and speaks softly.",
+          "dialogue": "You don't have to fix everything tonight. Just show up. Talk to one person. That's all. I'll be there with you."
+        },
+        {
+          "action_id": 4,
+          "character": "Spencer Perez",
+          "character_id": 0,
+          "action": "Spencer takes a deep breath and looks at Tao, then at his mother.",
+          "dialogue": "Okay. I'll go. But not because I want to. I want to see if I can. For me."
+        }
+      ],
+      "plot": "Spencer is caught between his fear of social discomfort and the emotional support from his mother and friend Tao. Tao's persistent encouragement and Anna's subtle reassurance push Spencer to confront his indecisiveness and take a small step toward connection.",
+      "social_purpose": "To explore Spencer's struggle with social anxiety and life choices, while showing the influence of family and friendship on his emotional state.",
+      "chunk": {
+        "id": 0,
+        "text": "Spencer's internal conflict is mirrored in the quiet tension between his reluctance and Tao's insistence, and his mother's quiet support. The scene sets up his eventual decision to attend the gathering, driven by a desire for self-reflection and emotional honesty."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

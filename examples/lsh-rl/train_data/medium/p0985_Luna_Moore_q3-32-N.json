@@ -1,0 +1,102 @@
+{
+  "title": "The Office Pantry Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Luna is caught between her diet and a tempting cookie in the office pantry.",
+      "time": "10:30 AM",
+      "location": "Office Break Room / Pantry",
+      "description": "Luna Moore stands near the pantry counter, holding a chocolate chip cookie in one hand and a bottle of water in the other. She looks conflicted, staring at the cookie. Nora Parker, a confident and slightly mischievous colleague, leans against the fridge, while Sophie Davis sits at the table, sipping coffee and watching Luna closely.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Luna Moore",
+          "gender": "Female",
+          "description": "A 25-year-old office worker who is determined to lose weight for her crush, Ryan, but is currently struggling with self-control.; Female, Office Worker, 25 years old; Occupation: Office Worker; Personality: Determined, Concerned about others' opinions, Empathetic; Values: Self-improvement, Appearance Management, Romantic Ideals; Interests: Healthy Living, Romantic Relationships, Gaining Validation from Others; Experiences: Dieting for a romantic interest, Peer pressure in the workplace, Struggling with self-control",
+          "position": "Near the pantry counter",
+          "states": "Tempted, anxious, conflicted",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Nora Parker",
+          "gender": "Female",
+          "description": "A 28-year-old colleague known for her laid-back attitude and tendency to encourage others to relax their rules; Female; Age: 28; Occupation: Marketing Coordinator; Personality: Playful, supportive, tempting; Values: Fun, loyalty, authenticity; Interests: Binge-watching true crime documentaries, trying new coffee shops, spontaneous road trips; Experiences: Survived a high-pressure product launch by keeping the team light-hearted, helped a stressed coworker through a difficult breakup with humor and kindness, once snuck into a client's event to dance in a flash mob.",
+          "position": "By the fridge",
+          "states": "Playful, supportive, tempting",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Sophie Davis",
+          "gender": "Female",
+          "description": "A 27-year-old office worker who values authenticity and is often the voice of reason among her peers; Female; Age: 27; Occupation: Office Administrator; Personality: Calm, empathetic, encouraging; Values: Honesty, work-life balance, emotional well-being; Interests: Reading self-help books, journaling, yoga; Experiences: Managed a team through a stressful project deadline, supported a friend through a difficult breakup, organized a company wellness initiative.",
+          "position": "At the table",
+          "states": "Calm, empathetic, encouraging",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Nora Parker",
+          "character_id": 1,
+          "action": "Approaches Luna with a smirk",
+          "dialogue": "Hey Luna, don’t worry about it. Indulge today and start fresh tomorrow. You’ve been working so hard lately."
+        },
+        {
+          "action_id": 1,
+          "character": "Luna Moore",
+          "character_id": 0,
+          "action": "Looks at the cookie, then at Nora",
+          "dialogue": "I just want to look good for Ryan. He’s coming over for dinner tonight."
+        },
+        {
+          "action_id": 2,
+          "character": "Sophie Davis",
+          "character_id": 2,
+          "action": "Calls out to Luna from the table",
+          "dialogue": "Luna, you’re already amazing. Ryan would be lucky to have you, no matter what you look like. Don’t let this cookie define your worth."
+        },
+        {
+          "action_id": 3,
+          "character": "Luna Moore",
+          "character_id": 0,
+          "action": "Hesitates and looks between the two colleagues",
+          "dialogue": "But what if I slip up and can’t get back on track? I don’t want to fail."
+        },
+        {
+          "action_id": 4,
+          "character": "Nora Parker",
+          "character_id": 1,
+          "action": "Nudges Luna playfully",
+          "dialogue": "You won’t fail, but you might regret not enjoying the moment. One cookie won’t break your diet."
+        },
+        {
+          "action_id": 5,
+          "character": "Sophie Davis",
+          "character_id": 2,
+          "action": "Stands up and walks over to Luna",
+          "dialogue": "Luna, I know how hard it is to balance what you want and what others expect. But you deserve to be proud of yourself, not just for Ryan."
+        },
+        {
+          "action_id": 6,
+          "character": "Luna Moore",
+          "character_id": 0,
+          "action": "Places the cookie back on the counter and takes a deep breath",
+          "dialogue": "You’re right, Sophie. I can’t keep letting my insecurities control me. I’ll stick to my plan."
+        }
+      ],
+      "plot": "Luna is trying to maintain her diet to look good for a date with her crush, Ryan, but is tempted by a cookie in the office pantry. Her colleagues, Nora and Sophie, offer conflicting advice, prompting Luna to reflect on her values and make a decision that aligns with her goals and self-respect.",
+      "social_purpose": "To explore the tension between self-improvement and social validation through a relatable workplace interaction. Luna’s decision reveals her determination and internal conflict, while the dialogue with her colleagues highlights peer influence and emotional support.",
+      "chunk": {
+        "id": 0,
+        "text": "Luna Moore stands near the pantry counter, holding a chocolate chip cookie in one hand and a bottle of water in the other. She looks conflicted, staring at the cookie. Nora Parker, a confident and slightly mischievous colleague, leans against the fridge, while Sophie Davis sits at the table, sipping coffee and watching Luna closely."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

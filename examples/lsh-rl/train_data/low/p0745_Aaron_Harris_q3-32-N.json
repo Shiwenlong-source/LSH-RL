@@ -1,0 +1,102 @@
+{
+  "title": "The Breakfast Pitch",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Aaron presents his new monthly billing concept to Lory and his mother at a local breakfast shop.",
+      "time": "9:30 AM",
+      "location": "A cozy, family-owned breakfast shop with soft lighting and a warm atmosphere.",
+      "description": "Aaron is seated at a small corner table with Lory, a seasoned investor, and his mother, who is clearly uneasy. The table is covered in napkins, coffee cups, and a whiteboard where Aaron has drawn a rough outline of his business model. The tension is palpable as Aaron tries to balance his ambition with his family's concerns.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Aaron Harris",
+          "gender": "Male",
+          "description": "A 27-year-old entrepreneur with a confident yet anxious demeanor. He is dressed in a smart-casual outfit, ready to pitch his idea.; Male, Entrepreneur, 27 years old; Occupation: Entrepreneur; Personality: Determined, Innovative, Anxious; Values: Ambition, Financial Independence, Family Care; Interests: Business Innovation, Financial Planning, Entrepreneurship; Experiences: Developing new business models, Pitching to investors, Balancing family expectations",
+          "position": "Presenter, center of the table",
+          "states": "Determined, nervous, passionate",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Lory",
+          "gender": "Female",
+          "description": "A mid-40s investor with a sharp eye for detail and a calm, inquisitive personality; Female; Age: 45; Occupation: Venture capitalist specializing in early-stage tech startups; Personality: Analytical, patient, observant; Values: Integrity, long-term growth, risk mitigation; Interests: Financial strategy, emerging technologies, fine coffee; Experiences: Funded several successful SaaS companies, navigated economic downturns with portfolio resilience, frequently consults with young entrepreneurs.",
+          "position": "Investor, to the left of Aaron",
+          "states": "Cautious, curious, analytical",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Mrs. Harris",
+          "gender": "Female",
+          "description": "Aaron's mother, in her late 50s, is a traditional, family-oriented woman. She wears a soft sweater and has a worried expression; Female; Age: 58; Occupation: Part-time school administrator and substitute teacher; Personality: Caring, cautious, nostalgic; Values: Family stability, hard work, financial security; Interests: Baking, gardening, old family recipes; Experiences: Managed household finances during Aaron's childhood, witnessed family members' business failures, supported Aaron through college while working multiple jobs.",
+          "position": "Family member, to the right of Aaron",
+          "states": "Worried, concerned, skeptical",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Aaron Harris",
+          "character_id": 0,
+          "action": "Presents the monthly billing concept",
+          "dialogue": "Lory, this model is designed to provide consistent revenue by shifting to a monthly subscription instead of one-time payments. It's all about building trust and long-term relationships with our customers."
+        },
+        {
+          "action_id": 1,
+          "character": "Lory",
+          "character_id": 1,
+          "action": "Asks a probing question",
+          "dialogue": "That's an interesting idea, Aaron. But how do you plan to ensure customers keep paying month after month? What if they lose interest?"
+        },
+        {
+          "action_id": 2,
+          "character": "Mrs. Harris",
+          "character_id": 2,
+          "action": "Expresses concern",
+          "dialogue": "Honey, I just don't see how this is a stable way to make a living. What if people stop paying and you're left with no income?"
+        },
+        {
+          "action_id": 3,
+          "character": "Aaron Harris",
+          "character_id": 0,
+          "action": "Defends his idea with passion",
+          "dialogue": "Mom, I understand your worries, but I believe this is the future of our industry. It's not just about money—it's about creating a system that benefits everyone involved."
+        },
+        {
+          "action_id": 4,
+          "character": "Lory",
+          "character_id": 1,
+          "action": "Shows slight intrigue",
+          "dialogue": "Your vision is clear, and the model is innovative. I'll need to review some numbers, but I can see the potential here."
+        },
+        {
+          "action_id": 5,
+          "character": "Mrs. Harris",
+          "character_id": 2,
+          "action": "Softens slightly but remains cautious",
+          "dialogue": "I just hope you're not chasing a dream that's going to leave you broke, sweetheart. I care about your future."
+        },
+        {
+          "action_id": 6,
+          "character": "Aaron Harris",
+          "character_id": 0,
+          "action": "Reassures his mother",
+          "dialogue": "I know, Mom. I've thought this through. I'm not just chasing a dream—I'm building a plan. And I'm doing it with the support of people like Lory who understand the risks and the rewards."
+        }
+      ],
+      "plot": "Aaron is trying to convince Lory and his mother of the viability of his new monthly billing concept. While Lory is intrigued and asks thoughtful questions, his mother is worried about the financial stability of such a venture. Aaron remains determined and passionate, trying to bridge the gap between his entrepreneurial vision and his family's concerns.",
+      "social_purpose": "To explore the protagonist's values of ambition and family care, as well as his innovative and anxious personality, through a realistic interaction with an investor and a family member.",
+      "chunk": {
+        "id": 0,
+        "text": "At the breakfast shop, Aaron sits at a small table, surrounded by Lory and his mother. He begins his pitch, explaining the monthly billing model. Lory listens intently, asking questions about customer retention, while his mother expresses worry about the financial risks. Aaron's determination and belief in his idea shine through as he tries to reassure both of them."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

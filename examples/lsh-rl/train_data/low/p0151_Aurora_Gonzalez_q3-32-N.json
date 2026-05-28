@@ -1,0 +1,105 @@
+{
+  "title": "The Family Ski Decision",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Family discussion at a ski resort rental shop",
+      "time": "Saturday morning, 10:30 AM",
+      "location": "Mountain Peak Ski Resort, Rental Gear Area",
+      "description": "Aurora is standing in the rental gear section of the ski resort with her children, Cici and Sun, and her husband, Luis. Cici is eager to try more advanced slopes, while Sun is excited to ski again. Aurora is weighing the financial implications of upgrading gear or continuing with second-hand equipment.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Aurora Gonzalez",
+          "gender": "Female",
+          "description": "A 34-year-old mother and florist owner who is trying to balance the family's entertainment budget while maintaining their skiing tradition.; years old / Female / Mother and Family Planner, 34 years old; Occupation: Florist Owner; Personality: Family-oriented, Pragmatic, Thoughtful, Optimistic; Values: Family Bond, Financial Responsibility, Encouraging Growth; Interests: Family Activities, Outdoor Sports, Budget Planning; Experiences: Taking children skiing for the first time, Buying second-hand gear, Balancing family entertainment and expenses",
+          "position": "Center, holding a list of gear prices",
+          "states": "Thoughtful, slightly worried, but optimistic",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Cici Gonzalez",
+          "gender": "Female",
+          "description": "Aurora's 10-year-old daughter who is eager to challenge steeper slopes and is passionate about improving her skiing skills; Female; Age: 10; Occupation: Student; Personality: Energetic, determined, enthusiastic, curious, confident; Values: Perseverance, family, growth; Interests: Skiing, outdoor adventures, sports challenges; Experiences: Took her first skiing lessons at age 6, successfully skied intermediate slopes last season, helped her younger sibling learn to ski.",
+          "position": "Standing next to Aurora, holding a pair of skis",
+          "states": "Energetic, determined, and enthusiastic",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Sun Gonzalez",
+          "gender": "Male",
+          "description": "Aurora's 8-year-old son who is full of anticipation for participating in skiing and looks up to his sister for guidance; Male; Age: 8; Occupation: Student; Personality: Energetic, optimistic, and imaginative; Values: Family, perseverance, and fun; Interests: Skiing, building snow forts, and superhero stories; Experiences: First successful ski trip with his family last winter, watching his older sister Cici excel in a ski race, helping his parents budget for family adventures.",
+          "position": "Beside Cici, holding a helmet",
+          "states": "Excited, curious, and supportive",
+          "is_npc": true
+        },
+        {
+          "id": 3,
+          "name": "Luis Gonzalez",
+          "gender": "Male",
+          "description": "Aurora's husband and a supportive father who enjoys outdoor activities and encourages family bonding; Male; Age: 38; Occupation: Outdoor Adventure Guide; Personality: Supportive, practical, calm; Values: Family, sustainability, financial responsibility; Interests: Skiing, hiking, gear maintenance; Experiences: Led family-friendly ski tours for five years, repaired and upgraded his own equipment during a season-long backpacking trip, helped Aurora budget for their children's first ski lessons.",
+          "position": "Nearby, looking at a gear catalog",
+          "states": "Supportive, practical, and calm",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Cici Gonzalez",
+          "character_id": 1,
+          "action": "Expresses her desire to try the advanced slopes.",
+          "dialogue": "Mama, I want to try the black diamond slopes this time. I’ve gotten really good, and I think I’m ready!"
+        },
+        {
+          "action_id": 1,
+          "character": "Sun Gonzalez",
+          "character_id": 2,
+          "action": "Supports his sister but asks about the gear.",
+          "dialogue": "Can I go with you, Cici? What if we need new skis for the harder slopes?"
+        },
+        {
+          "action_id": 2,
+          "character": "Aurora Gonzalez",
+          "character_id": 0,
+          "action": "Considers the financial impact of upgrading gear.",
+          "dialogue": "I know you both love skiing, and it’s a great way for us to bond. But the cost of new gear is high. Maybe we can find a way to make it work with what we have?"
+        },
+        {
+          "action_id": 3,
+          "character": "Luis Gonzalez",
+          "character_id": 3,
+          "action": "Offers to look for a compromise.",
+          "dialogue": "How about we rent a pair of better skis for Cici this time? It’s an investment in her growth, and it doesn’t have to break the bank."
+        },
+        {
+          "action_id": 4,
+          "character": "Aurora Gonzalez",
+          "character_id": 0,
+          "action": "Considers the suggestion and smiles.",
+          "dialogue": "That could work. I just want to make sure we’re still having fun and not stressing over the budget."
+        },
+        {
+          "action_id": 5,
+          "character": "Cici Gonzalez",
+          "character_id": 1,
+          "action": "Encourages Aurora to support her progress.",
+          "dialogue": "I promise I’ll be careful, and I’ll help Sun too! This could be a great day for all of us."
+        }
+      ],
+      "plot": "Aurora and her family are at a ski resort, where Cici wants to try more advanced slopes. Aurora is torn between supporting her daughter’s growth and keeping the family’s entertainment budget in check. Luis suggests a practical compromise by renting better skis for Cici, allowing her to progress while maintaining financial responsibility. Aurora considers the option and feels hopeful that skiing can continue as a cherished family tradition.",
+      "social_purpose": "To showcase Aurora’s internal conflict between financial responsibility and encouraging her children's growth, while also highlighting the importance of family bonding and shared experiences in a public setting.",
+      "chunk": {
+        "id": 0,
+        "text": "Aurora and her family are at the ski resort, discussing the possibility of Cici trying the black diamond slopes. Aurora is hesitant due to the potential costs, but Luis suggests a compromise by renting better gear. Aurora feels reassured and smiles, realizing that supporting her children’s interests can still be done thoughtfully within the family’s budget."
+      },
+      "npcs": [
+        1,
+        2,
+        3
+      ]
+    }
+  ]
+}

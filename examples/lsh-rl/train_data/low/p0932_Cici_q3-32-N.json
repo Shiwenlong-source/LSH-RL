@@ -1,0 +1,102 @@
+{
+  "title": "First Brew",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Opening Day at the Coffee Shop",
+      "time": "Morning",
+      "location": "Cozy Coffee Shop in New York",
+      "description": "Cici is standing behind the counter, adjusting the coffee machine, while her new colleagues Chloe and Angela greet her warmly. The shop is quiet, preparing for the morning rush, and the aroma of freshly ground coffee fills the air.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Cici",
+          "gender": "Female",
+          "description": "A 24-year-old actress, nervous but determined, starting her first day at the coffee shop.; Female, Professional, 24 years old; Occupation: Actress; Personality: Friendly, Nervous, Determined; Values: Balance, Ambition, Stability; Interests: Acting, Coffee Culture, New Experiences; Experiences: New job at a coffee shop, Transitioning to stable income, Early stages of an acting career",
+          "position": "Behind the counter",
+          "states": "Nervous, hopeful, focused",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Chloe",
+          "gender": "Female",
+          "description": "A seasoned barista in her late 30s with a warm and encouraging personality; Female; Age: 38; Occupation: Head Barista; Personality: Supportive, experienced, calm; Values: Community, craftsmanship, kindness; Interests: Coffee roasting, journaling, indie music; Experiences: Managed a popular Brooklyn café during the pandemic, trained dozens of new baristas, competed in regional barista championships.",
+          "position": "Near the counter",
+          "states": "Supportive, experienced, calm",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Angela",
+          "gender": "Female",
+          "description": "A young barista in her early 20s, energetic and quick to make friends; Female; Age: 22; Occupation: Barista and part-time barista trainer; Personality: Friendly, enthusiastic, helpful; Values: Community, kindness, quality; Interests: Coffee roasting, indie music, baking; Experiences: Worked at a popular Brooklyn café for two years, helped open a pop-up coffee cart, recently completed a barista skills certification.",
+          "position": "Behind the counter",
+          "states": "Friendly, enthusiastic, helpful",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Chloe",
+          "character_id": 1,
+          "action": "Welcomes Cici and reassures her",
+          "dialogue": "Hey, Cici! No need to worry, we’ve all been new once. Just follow the steps and ask if you need help."
+        },
+        {
+          "action_id": 1,
+          "character": "Angela",
+          "character_id": 2,
+          "action": "Offers to walk her through the process",
+          "dialogue": "I can show you how to use the espresso machine if you want. It’s easier than it looks!"
+        },
+        {
+          "action_id": 2,
+          "character": "Cici",
+          "character_id": 0,
+          "action": "Expresses gratitude and slight hesitation",
+          "dialogue": "Thanks, I really appreciate the help. I just hope I can keep up with everything."
+        },
+        {
+          "action_id": 3,
+          "character": "Chloe",
+          "character_id": 1,
+          "action": "Encourages Cici and shares her own experience",
+          "dialogue": "You’ll get the hang of it. I used to work as a waitress before I started here. It’s all about balance, right?"
+        },
+        {
+          "action_id": 4,
+          "character": "Cici",
+          "character_id": 0,
+          "action": "Reflects on her own goals",
+          "dialogue": "Exactly. I need this job to help me support my acting career, but I’m still figuring out how it all fits together."
+        },
+        {
+          "action_id": 5,
+          "character": "Angela",
+          "character_id": 2,
+          "action": "Shares an interest in coffee culture",
+          "dialogue": "Oh, I love how coffee shops bring people together. You might find some inspiration here too, you know?"
+        },
+        {
+          "action_id": 6,
+          "character": "Cici",
+          "character_id": 0,
+          "action": "Expresses hope for new experiences",
+          "dialogue": "I hope so. I’ve always been curious about coffee culture. Maybe I can learn something new here."
+        }
+      ],
+      "plot": "Cici starts her first day at the coffee shop, interacting with her new colleagues Chloe and Angela. Through their conversation, Cici’s determination to balance her acting career with her new job becomes evident, while Chloe and Angela provide support and encouragement.",
+      "social_purpose": "To introduce Cici’s background, values, and personality through a natural interaction with her colleagues, while exploring the theme of balancing ambition and stability.",
+      "chunk": {
+        "id": 0,
+        "text": "Cici stands behind the counter, adjusting the coffee machine as her new colleagues Chloe and Angela greet her. She’s nervous but hopeful that this job will help her support her acting career. Chloe reassures her that everyone starts somewhere, while Angela offers to teach her the ropes. Through their conversation, Cici shares her aspirations and her desire to find balance in her life. The trio works together to prepare for the morning rush, each contributing to a shared goal of serving customers and making the shop a welcoming place."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

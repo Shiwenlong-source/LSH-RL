@@ -1,0 +1,88 @@
+{
+  "title": "Church Backyard Crisis",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Counseling Session",
+      "time": "Afternoon",
+      "location": "Church backyard, picnic area",
+      "description": "Sofia Hicks is gathered with her friends, Lucy and White, in the shaded area of the church backyard. The group is tense as they try to help Lucy come up with a believable story to explain her recent absences to her parents.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Sofia Hicks",
+          "gender": "Female",
+          "description": "18-year-old with a calm and supportive demeanor. She is the group's coordinator and mediator, known for her rational and analytical approach to problem-solving.; 18-year-old /Female/Friend and Coordinator, 24 years old; Occupation: Community Volunteer; Personality: Calm, Rational, Analytical, Supportive; Values: Friendship, Honesty, Problem-solving; Interests: Social interaction, Planning, Mediation; Experiences: Organizing group activities, Handling family conflicts, Supporting friends in crisis",
+          "position": "Organizer and mediator",
+          "states": "Calm, focused, empathetic",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Lucy",
+          "gender": "Female",
+          "description": "20-year-old, visibly anxious and fearful; Female; Age: 20; Occupation: Part-time bookstore employee and student; Personality: empathetic, introverted, self-doubting; Values: family loyalty, honesty; Interests: reading literary fiction, journaling, quiet outdoor activities; Experiences: recently moved out to attend college, has a strained relationship with overbearing parents, once lied to them and felt extreme guilt afterward.",
+          "position": "Recipient of support",
+          "states": "Nervous, worried, seeking reassurance",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "White",
+          "gender": "Male",
+          "description": "White; Male; Age: 22; Occupation: Part-time youth group leader at the church; Personality: Confident, impulsive, enthusiastic, slightly overconfident, quick-witted; Values: Loyalty, spontaneity, community service, personal freedom; Interests: Public speaking, brainstorming creative solutions, outdoor activities, social events; Experiences: Organized several church youth retreats, helped friends navigate family conflicts, struggled with the consequences of a hasty decision during a group project in high school.",
+          "position": "Suggester and supporter",
+          "states": "Confident, eager, slightly overconfident",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Lucy",
+          "character_id": 1,
+          "action": "Expresses concern",
+          "dialogue": "What if they find out I've been lying? I can't face them if they know the truth."
+        },
+        {
+          "action_id": 1,
+          "character": "White",
+          "character_id": 2,
+          "action": "Suggests a solution",
+          "dialogue": "You can say you've been helping out at the church. Sofia can back you up with the event details."
+        },
+        {
+          "action_id": 2,
+          "character": "Sofia Hicks",
+          "character_id": 0,
+          "action": "Analyzes the suggestion",
+          "dialogue": "That's a good idea, White. But we need to make sure it's consistent and believable. We should check if the church has recent events we can reference."
+        },
+        {
+          "action_id": 3,
+          "character": "Lucy",
+          "character_id": 1,
+          "action": "Reacts to the suggestion",
+          "dialogue": "I don't want to lie, but I don't know what else to do. I just need to get through this."
+        },
+        {
+          "action_id": 4,
+          "character": "Sofia Hicks",
+          "character_id": 0,
+          "action": "Proposes a plan",
+          "dialogue": "Let's not call it a lie. We can say you've been helping with the youth outreach program. It's true, and we can back it up with details from the last meeting."
+        }
+      ],
+      "plot": "Sofia helps Lucy and White come up with a plausible story to explain her absence to her parents, balancing honesty and strategic support to avoid damaging trust.",
+      "social_purpose": "To demonstrate Sofia's leadership and problem-solving skills as she mediates and coordinates a solution for her friend in a public setting.",
+      "chunk": {
+        "id": 0,
+        "text": "Sofia, Lucy, and White sat on a picnic blanket in the church backyard, the sun casting warm shadows over the grass. Lucy twisted her hands anxiously, her eyes darting between her friends. 'What if they find out I've been lying? I can't face them if they know the truth,' she said, her voice barely above a whisper. White leaned forward, his tone more confident than usual. 'You can say you've been helping out at the church. Sofia can back you up with the event details.' Sofia nodded, her calm demeanor soothing the group. 'That's a good idea, White. But we need to make sure it's consistent and believable. We should check if the church has recent events we can reference.' Lucy looked up at Sofia, her eyes pleading. 'I don't want to lie, but I don't know what else to do. I just need to get through this.' Sofia's analytical side kicked in as she proposed a plan. 'Let's not call it a lie. We can say you've been helping with the youth outreach program. It's true, and we can back it up with details from the last meeting.'"
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

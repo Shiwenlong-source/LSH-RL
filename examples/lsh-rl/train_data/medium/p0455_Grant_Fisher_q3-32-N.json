@@ -1,0 +1,95 @@
+{
+  "title": "The Worm Rescue",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Grant helps earthworms after a rainstorm in the local park.",
+      "time": "Afternoon, 3:00 PM",
+      "location": "A small park with muddy paths and puddles",
+      "description": "Following a heavy rain, Grant Fisher is seen kneeling on a muddy path, gently picking up earthworms and placing them in the grass away from the puddles. A group of people, including his neighbor Yury and his younger brother Joy, approaches.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Grant Fisher",
+          "gender": "Male",
+          "description": "24-year-old, compassionate, thoughtful, and sensitive. He is dressed in a raincoat and holding a small container for the earthworms.; 28-year-old male, family member, 24 years old; Occupation: Part-time worker; Personality: Compassionate, Determined, Sensitive, Thoughtful; Values: Compassion, Respect for Life, Moral Responsibility; Interests: Nature, Animal Protection, Personal Rituals; Experiences: Growing up in a close family environment, Encountering social indifference, Developed a habit of helping small animals, Experienced brotherly interactions, Engaged in moral reflection",
+          "position": "Kneeling on the path",
+          "states": "Focused, determined, slightly out of breath",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Yury Petrov",
+          "gender": "Male",
+          "description": "35-year-old neighbor, practical and impatient; Male; Age: 35; Occupation: Project manager at a construction firm; Personality: Skeptical, uninterested, slightly annoyed; Values: Efficiency, professionalism, results; Interests: Golf, home improvement, financial planning; Experiences: Grew up in a strict, working-class household, managed high-stakes urban development projects, recently dealt with neighborhood disputes over park maintenance.",
+          "position": "Standing nearby, arms crossed",
+          "states": "Skeptical, uninterested, slightly annoyed",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Joy Fisher",
+          "gender": "Male",
+          "description": "Joy Fisher; Male; Age: 14; Occupation: Student; Personality: Playful, curious, mischievous; Values: Fun, family; Interests: Pranks, nature exploration; Experiences: Often teases Grant during his quiet moments, has joined a school science club focused on environmental studies",
+          "position": "Standing next to Yury",
+          "states": "Teasing, curious, lighthearted",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Joy Fisher",
+          "character_id": 2,
+          "action": "laughs and teases Grant",
+          "dialogue": "Dude, are you seriously saving worms? What are you, a superhero or something?"
+        },
+        {
+          "action_id": 1,
+          "character": "Grant Fisher",
+          "character_id": 0,
+          "action": "responds calmly and explains his actions",
+          "dialogue": "They’re just trying to survive, Joy. I don’t like seeing them drowned in puddles. It’s the right thing to do."
+        },
+        {
+          "action_id": 2,
+          "character": "Yury Petrov",
+          "character_id": 1,
+          "action": "comments with a hint of impatience",
+          "dialogue": "You’re wasting time. They’re just worms. It’s not like they matter to anyone else."
+        },
+        {
+          "action_id": 3,
+          "character": "Grant Fisher",
+          "character_id": 0,
+          "action": "pauses and looks up at Yury",
+          "dialogue": "Maybe not to you, but to me, every life is important. I grew up learning to care for small things, like this."
+        },
+        {
+          "action_id": 4,
+          "character": "Joy Fisher",
+          "character_id": 2,
+          "action": "rolls his eyes but asks a question",
+          "dialogue": "Okay, but why not just let them be? They’re not like pets or anything."
+        },
+        {
+          "action_id": 5,
+          "character": "Grant Fisher",
+          "character_id": 0,
+          "action": "smiles and continues his task",
+          "dialogue": "It’s a small way to make a difference. I’ve been doing this since I was a kid. It helps me feel connected to the world around me."
+        }
+      ],
+      "plot": "Grant’s act of compassion draws attention from his brother and neighbor, who initially react with indifference or mockery. Through a brief exchange, Grant explains his personal values and the meaning behind his actions, subtly challenging the others’ perspectives.",
+      "social_purpose": "To highlight Grant’s values of compassion and respect for life, while also showcasing the differences in values and attitudes between him and those around him.",
+      "chunk": {
+        "id": 0,
+        "text": "Grant’s small but meaningful act of saving earthworms sparks a conversation about the importance of life and moral responsibility, revealing his inner mission and the potential for social isolation despite his good intentions."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

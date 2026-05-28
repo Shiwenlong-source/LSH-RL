@@ -1,0 +1,88 @@
+{
+  "title": "Waiting at the Café",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Lily and her friends meet for coffee after school to talk about her recent conflict with her boyfriend Bob.",
+      "time": "3:30 PM",
+      "location": "A cozy local café",
+      "description": "Lily sits at a table with her sister, Emma, and her friend Momo. The atmosphere is warm, but Lily is visibly upset. Emma tries to comfort her, while Momo uses humor to lighten the mood. They are all waiting for Lily to make a decision about her relationship.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Lily Hughes",
+          "gender": "17-year-old female",
+          "description": "A sensitive and thoughtful high school student who is emotionally conflicted after a recent argument with her boyfriend.; 17-year-old female, High school student, 17 years old; Occupation: High school student; Personality: Emotional, Thoughtful, Sensitive; Values: Emotional honesty, Family advice, Friend support; Interests: Texting, Romantic relationships, Emotional reflection; Experiences: Recent breakup, Family guidance, Friend support, Emotional conflict",
+          "position": "Seated at the table, staring at her phone",
+          "states": "Emotionally vulnerable, conflicted, seeking clarity",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Emma Hughes",
+          "gender": "19-year-old female",
+          "description": "Emma Hughes; Female; Age: 19; Occupation: Part-time barista at a local bookstore café; Personality: Empathetic, thoughtful, patient; Values: Family, honesty, emotional well-being; Interests: Reading contemporary fiction, journaling, baking; Experiences: Navigated her own difficult breakup in high school, helped Lily through past emotional struggles, is currently balancing college and work to support her younger sister.",
+          "position": "Sitting across from Lily, gently watching her",
+          "states": "Calm, concerned, trying to be comforting",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Momo",
+          "gender": "17-year-old female",
+          "description": "Lily's best friend, known for her quick wit and ability to make people feel at ease with her humor; Female; Age: 17; Occupation: High school student and part-time barista at a local bookstore café; Personality: Playful, empathetic, optimistic; Values: Loyalty, joy in small things, emotional honesty; Interests: Stand-up comedy, baking, anime; Experiences: Helped a close friend through a difficult breakup, organized a surprise birthday event to lift someone's spirits, volunteers at a youth mentorship program.",
+          "position": "Sitting next to Lily, sipping her latte",
+          "states": "Playful, trying to distract Lily, emotionally supportive",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Lily Hughes",
+          "character_id": 0,
+          "action": "Lily looks at her phone and sighs.",
+          "dialogue": "I don’t know why he won’t even text me back. I just feel like I’m being ignored."
+        },
+        {
+          "action_id": 1,
+          "character": "Emma Hughes",
+          "character_id": 1,
+          "action": "Emma gently places a hand on Lily's shoulder.",
+          "dialogue": "You know, Mom just wants what's best for you, Lily. Maybe it's time to think about what you really want."
+        },
+        {
+          "action_id": 2,
+          "character": "Momo",
+          "character_id": 2,
+          "action": "Momo grins and says something light-hearted.",
+          "dialogue": "Maybe he’s just out getting a new phone. You know, in case he needs to text you more clearly."
+        },
+        {
+          "action_id": 3,
+          "character": "Lily Hughes",
+          "character_id": 0,
+          "action": "Lily looks up from her phone and smiles faintly at Momo’s joke.",
+          "dialogue": "You always know how to make me laugh, Momo. But I can’t keep pretending everything’s fine when it’s not."
+        },
+        {
+          "action_id": 4,
+          "character": "Emma Hughes",
+          "character_id": 1,
+          "action": "Emma nods, encouraging her.",
+          "dialogue": "It’s okay to feel confused, but you have to be honest with yourself and with him."
+        }
+      ],
+      "plot": "Lily is struggling with whether to reach out to Bob again or accept that their relationship might be over. Emma supports her emotionally and pushes her to consider her mother’s advice, while Momo tries to keep the mood light with her jokes. The interaction highlights Lily’s internal conflict and the influence of her values and relationships.",
+      "social_purpose": "To explore Lily's emotional state and the support system she relies on while dealing with a breakup. It shows how her values of emotional honesty and family advice are in tension with her personal feelings and the role of friend support in her decision-making process.",
+      "chunk": {
+        "id": 0,
+        "text": "Lily and her friends meet for coffee after school to talk about her recent conflict with her boyfriend Bob."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

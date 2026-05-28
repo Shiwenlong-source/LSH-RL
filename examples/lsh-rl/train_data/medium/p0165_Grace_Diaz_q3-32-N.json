@@ -1,0 +1,88 @@
+{
+  "title": "The Weight of Exams",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Grace's friends notice her exhaustion and try to connect",
+      "time": "3:00 PM",
+      "location": "Campus cafe",
+      "description": "Grace sits in a quiet corner of the campus cafe, hunched over a half-finished cup of coffee. Her eyes are bloodshot, and she looks disengaged from the world around her. Evan and Lila, her close friends, approach her table with concern.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Grace Diaz",
+          "gender": "Female",
+          "description": "A 22-year-old college student who appears mentally and physically exhausted. She is introspective and emotionally fragile, often seeking quiet solitude.; 22-year-old female college student, 22 years old; Occupation: College student; Personality: Overwhelmed, Introspective, Emotionally fragile; Values: Academic success, Friendship, Self-reflection; Interests: Studying, Coffee, Quiet solitude; Experiences: Academic pressure, Emotional breakdown, Friend support, Self-doubt, Feeling of isolation",
+          "position": "Corner table, looking down at her coffee",
+          "states": "Exhausted, withdrawn, emotionally fragile",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Evan Carter",
+          "gender": "Male",
+          "description": "Evan Carter; Male; Age: 22; Occupation: Psychology major and peer counselor at the campus wellness center; Personality: Empathetic, observant, responsible; Values: Compassion, loyalty, personal growth; Interests: Mental health advocacy, hiking, indie music; Experiences: Volunteered at a local crisis hotline, helped a close friend through a difficult breakup, recently completed training in active listening and emotional support techniques.",
+          "position": "Sitting to Grace's left",
+          "states": "Concerned, supportive, attentive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Lila Nguyen",
+          "gender": "Female",
+          "description": "Lila Nguyen; Female; Age: 22; Occupation: Psychology major and part-time campus library assistant; Personality: Empathetic, observant, introverted; Values: Loyalty, emotional well-being, academic integrity; Interests: Reading self-help books, journaling, volunteering at a local animal shelter; Experiences: Struggled with anxiety during her first year of college, supported a close friend through a difficult mental health crisis, recently completed a research project on peer support systems.",
+          "position": "Sitting to Grace's right",
+          "states": "Hesitant, caring, anxious",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Evan Carter",
+          "character_id": 1,
+          "action": "Asks Grace if she is too tired",
+          "dialogue": "Hey Grace, you look really worn out. Are you okay? You've been studying nonstop for days."
+        },
+        {
+          "action_id": 1,
+          "character": "Lila Nguyen",
+          "character_id": 2,
+          "action": "Offers to talk if Grace is open to it",
+          "dialogue": "If you need to talk about anything, I'm here. I know it's been a tough week."
+        },
+        {
+          "action_id": 2,
+          "character": "Grace Diaz",
+          "character_id": 0,
+          "action": "Responds hesitantly and reveals her confusion about the future",
+          "dialogue": "I don't know... I just feel like I'm not doing enough, like no matter how hard I try, it's never going to be enough. What if I'm not good enough for anything?"
+        },
+        {
+          "action_id": 3,
+          "character": "Evan Carter",
+          "character_id": 1,
+          "action": "Reassures Grace and suggests a break",
+          "dialogue": "You're doing so much already, Grace. Maybe we should take a walk or just get out of here for a bit. You don't have to do this alone."
+        },
+        {
+          "action_id": 4,
+          "character": "Lila Nguyen",
+          "character_id": 2,
+          "action": "Shares her own experience of feeling overwhelmed",
+          "dialogue": "I remember when I felt like that after my last major project. It's okay to not have everything figured out yet. We can help you sort through it."
+        }
+      ],
+      "plot": "Grace's emotional state is revealed through her interactions with Evan and Lila, who are both concerned and supportive. The friends attempt to encourage her to open up, but Grace remains hesitant, caught between her need for solitude and her values of friendship and self-reflection. The scene highlights the tension between Grace's withdrawal and the support offered by her friends.",
+      "social_purpose": "To showcase Grace's emotional fragility and academic pressure while demonstrating the supportive dynamics of her friendships and her internal struggle with self-doubt and isolation.",
+      "chunk": {
+        "id": 0,
+        "text": "Grace sat in the corner of the campus cafe, her coffee untouched as she stared blankly at the pages of her notes. The midday sun filtered through the windows, casting a warm glow over the otherwise lively space, but it did little to reach the shadows in her eyes. Evan and Lila exchanged worried glances as they sat down across from her. 'Hey Grace,' Evan said softly, 'you look really worn out. Are you okay? You've been studying nonstop for days.' Grace looked up briefly, then back down at her hands. 'I don't know... I just feel like I'm not doing enough, like no matter how hard I try, it's never going to be enough. What if I'm not good enough for anything?' Her voice was barely above a whisper. Lila leaned forward, her tone gentle. 'If you need to talk about anything, I'm here. I know it's been a tough week.' Evan nodded in agreement. 'You're doing so much already, Grace. Maybe we should take a walk or just get out of here for a bit. You don't have to do this alone.' Lila added, 'I remember when I felt like that after my last major project. It's okay to not have everything figured out yet. We can help you sort through it.' Grace hesitated, her fingers tightening around her coffee cup as if it were a lifeline. The choice to open up or retreat was clear, and the weight of it all pressed heavily on her shoulders."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

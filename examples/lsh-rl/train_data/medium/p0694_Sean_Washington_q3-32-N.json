@@ -1,0 +1,88 @@
+{
+  "title": "A Speech to Remember",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Sean is rehearsing his father's eulogy with his wife and sister in a quiet family room before a memorial service.",
+      "time": "Afternoon",
+      "location": "Home, Family Room",
+      "description": "The room is softly lit with sunlight streaming through the window. Sean sits at the kitchen table, nervously flipping through notes. His wife, Lora, sits beside him, offering quiet support, while his sister, Yury, perches on the couch, flipping through a photo album and trying to bring a smile to Sean's face.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Sean Washington",
+          "gender": "Male",
+          "description": "A 28-year-old early-stage entrepreneur, Sean is trying to balance his grief with humor in his eulogy. He is empathetic and considerate, showing deep care for his family.; Male, Deceased Father, 28 years old; Occupation: Early-stage Entrepreneur; Personality: Resilient, Empathetic, Considerate, Humorous; Values: Family, Sincerity, Emotional Connection; Interests: Public Speaking, Family Memories, Humor; Experiences: Preparing a eulogy, Processing grief, Maintaining family bonds, Balancing emotions in public, Honoring deceased loved ones",
+          "position": "Kitchen table",
+          "states": "Nervous, reflective, hopeful",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Lora Washington",
+          "gender": "Female",
+          "description": "Sean’s supportive and comforting wife, Lora is a nurse who brings calm and empathy to the room; Female; Age: 34; Occupation: Registered Nurse; Personality: Compassionate, patient, empathetic; Values: Family, service to others, emotional resilience; Interests: Reading memoirs, gardening, helping at the local community clinic; Experiences: Cared for Sean during a serious illness, worked in palliative care for five years, lost her own mother to a prolonged illness.",
+          "position": "Beside Sean",
+          "states": "Supportive, calm, attentive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Yury Washington",
+          "gender": "Female",
+          "description": "Sean’s older sister, Yury is a high school teacher with a warm and humorous personality. She is flipping through a photo album, trying to make Sean laugh and remember their father’s lighter moments; Female; Age: 38; Occupation: High school English teacher; Personality: Warm-hearted, witty, resilient; Values: Family, authenticity, emotional connection; Interests: Collecting vintage photographs, storytelling, baking comfort food; Experiences: Lost her father to illness, organized school memorial events, grew up in a close-knit family with a strong sense of humor.",
+          "position": "On the couch",
+          "states": "Playful, nostalgic, comforting",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Sean Washington",
+          "character_id": 0,
+          "action": "Reading from a notebook",
+          "dialogue": "I want to make sure I get this right. He was funny, but I don’t want to sound like I’m making light of his passing."
+        },
+        {
+          "action_id": 1,
+          "character": "Lora Washington",
+          "character_id": 1,
+          "action": "Placing a hand on Sean’s shoulder",
+          "dialogue": "You don’t have to be perfect. Just be you. That’s what he loved most."
+        },
+        {
+          "action_id": 2,
+          "character": "Yury Washington",
+          "character_id": 2,
+          "action": "Pointing to a photo of their father",
+          "dialogue": "Remember when he tried to teach us how to juggle? He dropped an orange on his foot and said, 'Well, that’s one less thing to worry about.'"
+        },
+        {
+          "action_id": 3,
+          "character": "Sean Washington",
+          "character_id": 0,
+          "action": "Smiling slightly",
+          "dialogue": "Yeah, that sounds like him. Maybe I can include that in the speech."
+        },
+        {
+          "action_id": 4,
+          "character": "Yury Washington",
+          "character_id": 2,
+          "action": "Encouragingly nodding",
+          "dialogue": "Exactly. It’ll remind everyone of how much he loved to laugh and make others laugh too."
+        }
+      ],
+      "plot": "Sean is trying to craft a eulogy that balances humor and sincerity for his father’s memorial. His wife and sister support him by sharing memories and offering emotional reassurance, helping him find the right tone for the speech.",
+      "social_purpose": "To show Sean’s values of family and sincerity, as well as his empathetic and humorous personality, through a shared goal of honoring his father with a heartfelt and engaging eulogy.",
+      "chunk": {
+        "id": 0,
+        "text": "Sean Washington sat at the kitchen table, his eyes scanning the words he had written for his father’s eulogy. Lora sat beside him, her hand resting lightly on his shoulder, while Yury flipped through a photo album on the couch. 'I want to make sure I get this right,' Sean said, voice tinged with uncertainty. 'He was funny, but I don’t want to sound like I’m making light of his passing.' Lora smiled gently. 'You don’t have to be perfect. Just be you. That’s what he loved most.' Yury chimed in, pointing to a photo of their father. 'Remember when he tried to teach us how to juggle? He dropped an orange on his foot and said, \"Well, that’s one less thing to worry about.\"' Sean chuckled, the tension in his shoulders easing. 'Yeah, that sounds like him. Maybe I can include that in the speech.' 'Exactly,' Yury said. 'It’ll remind everyone of how much he loved to laugh and make others laugh too.'"
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

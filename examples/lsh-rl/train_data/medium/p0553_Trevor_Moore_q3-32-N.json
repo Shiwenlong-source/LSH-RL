@@ -1,0 +1,102 @@
+{
+  "title": "The Blogging Breakdown",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Café Meeting",
+      "time": "Afternoon",
+      "location": "Local Café",
+      "description": "Trevor sits at a small table in a cozy café, sipping coffee with a look of deep contemplation. Lina, a close friend and fellow content creator, and Bob, a loyal fan who has followed Trevor for years, sit across from him. The atmosphere is calm, but the conversation is charged with tension as they discuss Trevor’s recent exhaustion and the possibility of a hiatus.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Trevor Moore",
+          "gender": "Male",
+          "description": "A 35-year-old blogger who has been active for years. He is visibly tired, with dark circles under his eyes, but remains composed and thoughtful.; Male / Online Content Creator, 35 years old; Occupation: Blogger; Personality: Exhausted, Thoughtful, Determined; Values: Self-care, Authenticity, Responsibility; Interests: Digital content creation, Online community interaction, Personal growth; Experiences: Long-term online activity, Handling public attention, Making decisions under pressure",
+          "position": "Center of the table",
+          "states": "Exhausted, Torn, Determined",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Lina",
+          "gender": "Female",
+          "description": "A 32-year-old content creator who understands the pressures of online work; Female; Age: 32; Occupation: Social media influencer and lifestyle blogger; Personality: Empathetic, Supportive, Analytical; Values: Authenticity, Mental health, Community; Interests: Coffee culture, photography, indie music; Experiences: Burnout from nonstop content creation, mentoring new creators, taking a short sabbatical to travel and reflect.",
+          "position": "Left of Trevor",
+          "states": "Supportive, Concerned, Reflective",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Bob",
+          "gender": "Male",
+          "description": "A 28-year-old fan who has followed Trevor’s blog since its early days; Male; Age: 28; Occupation: Social Media Coordinator; Personality: Analytical, Enthusiastic, Slightly Skeptical; Values: Loyalty, Transparency, Growth; Interests: Blogging, Technology, Coffee Culture; Experiences: Followed Trevor’s content through multiple career transitions, Attended a live Q&A event hosted by Trevor, Managed his own small tech review blog for three years.",
+          "position": "Right of Trevor",
+          "states": "Skeptical, Hopeful, Honest",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Trevor Moore",
+          "character_id": 0,
+          "action": "Expresses his exhaustion and need for a break.",
+          "dialogue": "I’ve been doing this for over a decade, and I can’t keep going like this. I need to step back for a while, even if it means disappointing some people."
+        },
+        {
+          "action_id": 1,
+          "character": "Lina",
+          "character_id": 1,
+          "action": "Offers support and shares her own experience.",
+          "dialogue": "I’ve been there, Trevor. Taking a break isn’t a failure—it’s a way to stay authentic and create better content in the long run."
+        },
+        {
+          "action_id": 2,
+          "character": "Bob",
+          "character_id": 2,
+          "action": "Expresses concern and asks a direct question.",
+          "dialogue": "But what about the people who rely on your posts? They’ll be confused. What if they think you’re giving up?"
+        },
+        {
+          "action_id": 3,
+          "character": "Trevor Moore",
+          "character_id": 0,
+          "action": "Reiterates his commitment to his audience but emphasizes personal health.",
+          "dialogue": "I’m not giving up. I’m doing this for my own health. If I burn out, I won’t be able to be responsible to anyone—not even myself."
+        },
+        {
+          "action_id": 4,
+          "character": "Lina",
+          "character_id": 1,
+          "action": "Encourages Trevor to be transparent with his audience.",
+          "dialogue": "You could write a post explaining it. People respect honesty, and it might even help others who are in the same boat."
+        },
+        {
+          "action_id": 5,
+          "character": "Bob",
+          "character_id": 2,
+          "action": "Offers to help manage expectations during the hiatus.",
+          "dialogue": "I can help spread the word in the fan groups. Let me know how you want to handle it."
+        },
+        {
+          "action_id": 6,
+          "character": "Trevor Moore",
+          "character_id": 0,
+          "action": "Shows appreciation and agrees to take the break.",
+          "dialogue": "Thanks, Bob. And Lina, I’ll take your advice. I just need to find the strength to do it."
+        }
+      ],
+      "plot": "Trevor is considering taking a temporary break from his blog to focus on his health, but he is worried about how his audience will react. Lina and Bob help him process the decision, with Lina advocating for self-care and Bob expressing concern for the community. Trevor ultimately decides to proceed with the break after receiving support and practical help from his friends.",
+      "social_purpose": "To show the internal conflict of a content creator who must balance personal well-being with public expectations, and how a supportive community can help facilitate that balance.",
+      "chunk": {
+        "id": 0,
+        "text": "Trevor, Lina, and Bob meet in a local café to discuss Trevor's potential hiatus. Trevor expresses his need for rest, Lina supports him, and Bob voices concern but offers help. The conversation helps Trevor feel more confident about his decision."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

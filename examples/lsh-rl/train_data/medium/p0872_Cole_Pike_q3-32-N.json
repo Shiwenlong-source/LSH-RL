@@ -1,0 +1,123 @@
+{
+  "title": "The Asylum Interview",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Immigration Interview",
+      "time": "Afternoon",
+      "location": "A quiet office in an immigration reception center",
+      "description": "Cole Pike, a 38-year-old former US soldier, sits across from an immigration officer, his wife Iris by his side. The room is sterile and dimly lit, with a desk separating them. Cole holds a worn folder of documents, his knuckles white from gripping it too tightly. Iris rests a hand on his arm, trying to calm his visible anxiety. The officer, a middle-aged woman with a calm and professional demeanor, leans forward slightly, waiting for Cole to begin.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Cole Pike",
+          "gender": "male",
+          "description": "A former US soldier with a weathered face and a quiet intensity. He is visibly nervous but trying to remain composed.; male, former military, 38 years old; Occupation: Former US soldier, asylum applicant; Personality: Determined, Anxious, Thoughtful, Resilient; Values: Honesty, Freedom, Family, Integrity; Interests: Reading, Writing, Political issues, Family time; Experiences: Military service, Deciding to leave the army, Applying for asylum process, Immigration interview, Family support",
+          "position": "Seated, facing the immigration officer",
+          "states": "Nervous, determined, anxious",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Iris Pike",
+          "gender": "female",
+          "description": "A supportive and empathetic woman in her late 30s; Female; Age: 38; Occupation: Social worker specializing in refugee and immigrant support; Personality: Compassionate, patient, intuitive; Values: Family unity, dignity, resilience; Interests: Volunteering at community centers, reading historical fiction, gardening; Experiences: Assisted numerous military families through resettlement, personally supported her husband through PTSD recovery, navigated complex immigration processes for close friends.",
+          "position": "Seated next to Cole, to his left",
+          "states": "Supportive, calm, concerned",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Officer Ramirez",
+          "gender": "female",
+          "description": "A professional and composed immigration officer in her 40s, with a clipboard and pen in hand; Female; Age: 44; Occupation: Senior Immigration Officer; Personality: Calm, focused, observant; Values: Integrity, fairness, duty; Interests: Reading legal journals, walking her German Shepherd, volunteering at a refugee support group; Experiences: Handled high-stress asylum cases during the height of the Syrian refugee crisis, previously worked in customs enforcement, has a daughter who was adopted from a foreign country.",
+          "position": "Seated across from Cole, behind the desk",
+          "states": "Calm, focused, observant",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Officer Ramirez",
+          "character_id": 2,
+          "action": "Greets the couple and begins the interview",
+          "dialogue": "Mr. Pike, thank you for coming in today. We’re here to help you with your asylum application. Let’s start with your background. Can you tell me about your time in the military?"
+        },
+        {
+          "action_id": 1,
+          "character": "Cole Pike",
+          "character_id": 0,
+          "action": "Answers the officer’s question with a thoughtful tone",
+          "dialogue": "Yes, I served in the US Army for eight years. Deployed twice to Afghanistan. I believed in the mission at first, but over time... I saw things that made me question the integrity of the system I was part of."
+        },
+        {
+          "action_id": 2,
+          "character": "Iris Pike",
+          "character_id": 1,
+          "action": "Supports Cole with a soft touch",
+          "dialogue": "He’s not afraid to speak the truth, even when it’s hard. That’s who he is."
+        },
+        {
+          "action_id": 3,
+          "character": "Officer Ramirez",
+          "character_id": 2,
+          "action": "Asks a follow-up question about his decision to leave the army",
+          "dialogue": "You mentioned you left the army. What led to that decision?"
+        },
+        {
+          "action_id": 4,
+          "character": "Cole Pike",
+          "character_id": 0,
+          "action": "Takes a deep breath and answers honestly",
+          "dialogue": "I couldn’t keep being part of something that didn’t align with my values anymore. I was ordered to do things I felt were unjust, and I refused. That’s when I knew I needed to leave."
+        },
+        {
+          "action_id": 5,
+          "character": "Iris Pike",
+          "character_id": 1,
+          "action": "Nods in agreement and adds her perspective",
+          "dialogue": "He made that choice for our family. We need to live in a place where we can be free and safe."
+        },
+        {
+          "action_id": 6,
+          "character": "Officer Ramirez",
+          "character_id": 2,
+          "action": "Takes notes and asks about their current situation",
+          "dialogue": "I see. And what are your current goals here in this country?"
+        },
+        {
+          "action_id": 7,
+          "character": "Cole Pike",
+          "character_id": 0,
+          "action": "Answers with sincerity and determination",
+          "dialogue": "To build a new life for my family. To be part of a community where honesty and integrity are valued. And to find peace after everything I’ve been through."
+        },
+        {
+          "action_id": 8,
+          "character": "Iris Pike",
+          "character_id": 1,
+          "action": "Reinforces Cole’s statement with a warm tone",
+          "dialogue": "He’s not just looking for safety. He wants to contribute, to help others who’ve been through similar things."
+        },
+        {
+          "action_id": 9,
+          "character": "Officer Ramirez",
+          "character_id": 2,
+          "action": "Closes the interview with a respectful nod",
+          "dialogue": "Thank you, Mr. and Mrs. Pike. We’ll review your application and get back to you as soon as we can."
+        }
+      ],
+      "plot": "Cole and Iris attend a crucial immigration interview to apply for asylum. Cole must explain his background and the reasons for seeking refuge, while Iris offers quiet support. The interaction reveals Cole’s internal conflict and values, and the officer assesses their case with a professional demeanor.",
+      "social_purpose": "To show how Cole’s values, personality, and past experiences shape his current actions and decisions, while also highlighting the role of family support and the formal process of seeking asylum.",
+      "chunk": {
+        "id": 0,
+        "text": "Cole Pike, a 38-year-old former US soldier, sits in a small, sterile office in an immigration reception center. The documents in his hands are a mix of hope and fear, and his eyes flicker with anxiety as he prepares to explain his past and his reasons for seeking asylum. His wife, Iris, sits beside him, her hand resting gently on his arm, offering silent reassurance. Across from them, Officer Ramirez, a calm and observant immigration officer, waits for Cole to begin."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

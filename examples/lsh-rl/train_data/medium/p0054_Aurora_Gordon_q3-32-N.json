@@ -1,0 +1,123 @@
+{
+  "title": "A Cup of Connection",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Aurora meets her old friend Anna at a local café.",
+      "time": "Afternoon",
+      "location": "A cozy corner of a community café",
+      "description": "Aurora sits alone in the corner of a quiet café, sipping on cold coffee. Anna, a more extroverted and empathetic friend, enters and notices her. She hesitates for a moment before approaching, sensing Aurora’s emotional state.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Aurora Gordon",
+          "gender": "Female",
+          "description": "Aurora is a 35-year-old woman who recently lost her job and moved to a new city. She is emotionally sensitive and introverted, often retreating into herself when overwhelmed. Her resilience is evident, but it is often hidden beneath a surface of disappointment.; Female, Unemployed, 35 years old; Occupation: Recently Unemployed; Personality: Emotionally Sensitive, Introverted, Resilient; Values: Friendship, Emotional Connection, Self-worth; Interests: Social Gatherings, Creative Activities, Personal Growth; Experiences: Recently unemployed, Moving house, Feeling socially isolated",
+          "position": "Corner table",
+          "states": "Lonely, guarded, hopeful",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Anna Thompson",
+          "gender": "Female",
+          "description": "Anna is Aurora’s childhood friend, now a graphic designer; Female; Age: 28; Occupation: Freelance graphic designer and part-time art instructor; Personality: Warm, observant, persistent; Values: Emotional authenticity, loyalty, creativity; Interests: Illustration, indie music, community events; Experiences: Grew up in a close-knit neighborhood, transitioned from corporate design to freelance for more personal fulfillment, recently helped a friend through a difficult emotional period.",
+          "position": "Approaching the table",
+          "states": "Caring, cautious, persistent",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Barista Jake",
+          "gender": "Male",
+          "description": "Jake is the barista at the café. He is friendly and observant, often engaging with regulars. He notices the tension between Aurora and Anna and offers subtle support; Male; Age: 28; Occupation: Barista and part-time community mediator; Personality: Observant, supportive, professional; Values: Empathy, community harmony, personal integrity; Interests: Coffee culture, people-watching, indie music; Experiences: Worked at the same café for five years, helped de-escalate conflicts between customers, studied psychology in college.",
+          "position": "Behind the counter",
+          "states": "Observant, supportive, professional",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Anna Thompson",
+          "character_id": 1,
+          "action": "Approaching Aurora",
+          "dialogue": "Hey, Aurora. I didn’t expect to see you here. Mind if I sit down for a minute?"
+        },
+        {
+          "action_id": 1,
+          "character": "Aurora Gordon",
+          "character_id": 0,
+          "action": "Responding with hesitation",
+          "dialogue": "Sure. I didn’t expect to see you either. It’s been a while."
+        },
+        {
+          "action_id": 2,
+          "character": "Anna Thompson",
+          "character_id": 1,
+          "action": "Trying to make small talk",
+          "dialogue": "I heard you moved here. How are you settling in?"
+        },
+        {
+          "action_id": 3,
+          "character": "Aurora Gordon",
+          "character_id": 0,
+          "action": "Expressing her struggles",
+          "dialogue": "It’s been tough. I miss the people I used to know. Everything feels so… new and cold."
+        },
+        {
+          "action_id": 4,
+          "character": "Anna Thompson",
+          "character_id": 1,
+          "action": "Offering support",
+          "dialogue": "I’m sorry, Aurora. I know it’s not easy. But I’m here if you need anything. Maybe we could go to that art exhibit this weekend? It’s one of your interests, right?"
+        },
+        {
+          "action_id": 5,
+          "character": "Aurora Gordon",
+          "character_id": 0,
+          "action": "Softening slightly",
+          "dialogue": "That sounds nice. I haven’t had time for anything creative lately. I miss that too."
+        },
+        {
+          "action_id": 6,
+          "character": "Barista Jake",
+          "character_id": 2,
+          "action": "Bringing a fresh cup of coffee",
+          "dialogue": "Here’s a fresh cup for you, Aurora. On the house today. I saw you here before and thought you looked like you needed a bit of warmth."
+        },
+        {
+          "action_id": 7,
+          "character": "Aurora Gordon",
+          "character_id": 0,
+          "action": "Expressing gratitude",
+          "dialogue": "Thank you, Jake. That’s really kind of you."
+        },
+        {
+          "action_id": 8,
+          "character": "Anna Thompson",
+          "character_id": 1,
+          "action": "Encouraging Aurora to open up",
+          "dialogue": "You know, you don’t have to go through this alone. I care about you, and I want to help."
+        },
+        {
+          "action_id": 9,
+          "character": "Aurora Gordon",
+          "character_id": 0,
+          "action": "Considering the offer",
+          "dialogue": "I’d like that. I’ve been feeling so... invisible lately. Maybe this is a start."
+        }
+      ],
+      "plot": "Aurora’s recent move and job loss have left her feeling socially isolated and emotionally vulnerable. Anna, her old friend, notices her and tries to reconnect, offering a shared activity to bring Aurora back into a social setting. Barista Jake adds a small but meaningful gesture, which helps Aurora feel seen. The interaction slowly breaks Aurora’s emotional barriers, allowing her to consider opening up again.",
+      "social_purpose": "To show Aurora’s struggle with loneliness and her desire for emotional connection, while highlighting how a supportive social interaction can begin to heal her sense of isolation.",
+      "chunk": {
+        "id": 0,
+        "text": "Aurora sits alone in the corner of a cozy café, her coffee long gone cold. Anna walks in and sees her, hesitating for a moment before approaching. Jake, the barista, notices the tension and brings Aurora a fresh cup of coffee. Anna gently tries to engage Aurora in conversation, offering to go to an art exhibit. Aurora, initially guarded, begins to soften as she feels seen and supported."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

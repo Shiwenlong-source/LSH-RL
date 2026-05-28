@@ -1,0 +1,95 @@
+{
+  "title": "The Farewell Coffee",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Leo's last day at Intel",
+      "time": "Afternoon",
+      "location": "Local coffee shop near the Intel office",
+      "description": "Leo Hughes, a 27-year-old software engineer and recent graduate, sits at a small table in a cozy coffee shop with his colleagues Mia and Ella. The atmosphere is warm but tinged with sadness as they share a final conversation before Leo leaves his stable job at Intel to pursue a more creative and innovative path.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Leo Hughes",
+          "gender": "Male",
+          "description": "A recent graduate and 27-year-old software engineer at Intel, known for his thoughtful and passionate approach to work. He is now leaving to pursue a more independent and creative career.; Male, Recent graduate, 27 years old; Occupation: Software Engineer; Personality: Determined, Thoughtful, Passionate; Values: Freedom, Innovation, Authenticity; Interests: Technology, Creative projects, Personal growth; Experiences: Working at Intel, Shifting to a new career path, Handling workplace relationships",
+          "position": "Main Protagonist",
+          "states": "Determined, Reflective, Grateful",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Mia Chen",
+          "gender": "Female",
+          "description": "A senior software engineer at Intel, practical and career-driven; Female; Age: 32; Occupation: Senior Software Engineer; Personality: Analytical, Empathetic, Resilient; Values: Stability, Professional Growth, Loyalty; Interests: Reading tech industry publications, hiking with her dog, mentoring young engineers; Experiences: Led multiple high-stakes software development projects at Intel, navigated corporate restructuring without compromising team morale, has supported several colleagues through career transitions.",
+          "position": "Supporting Character",
+          "states": "Supportive, Concerned, Thoughtful",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Ella Ramirez",
+          "gender": "Female",
+          "description": "A project manager at Intel, known for her leadership and stability; Female; Age: 34; Occupation: Senior Project Manager, Technology Integration; Personality: Analytical, Empathetic, Resilient; Values: Professional integrity, Team success, Work-life balance; Interests: Urban gardening, Classical music, Traveling to emerging tech hubs; Experiences: Led cross-functional teams through major product launches, Mentored young engineers including Leo, Navigated corporate restructuring with minimal team disruption.",
+          "position": "Supporting Character",
+          "states": "Proud, Worried, Encouraging",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Leo Hughes",
+          "character_id": 0,
+          "action": "Expresses gratitude",
+          "dialogue": "Thanks you both for everything. You've been amazing mentors and friends. This job gave me a solid foundation, but I feel like it's time to follow my own path now."
+        },
+        {
+          "action_id": 1,
+          "character": "Mia Chen",
+          "character_id": 1,
+          "action": "Expresses concern",
+          "dialogue": "I get it, Leo, but have you thought about the stability you're leaving behind? The tech industry is tough, especially when you're starting out."
+        },
+        {
+          "action_id": 2,
+          "character": "Ella Ramirez",
+          "character_id": 2,
+          "action": "Shares encouragement",
+          "dialogue": "I'm proud of you for taking this risk. I hope you find the innovation and freedom you're looking for. Just don't forget to keep in touch."
+        },
+        {
+          "action_id": 3,
+          "character": "Leo Hughes",
+          "character_id": 0,
+          "action": "Shares his vision",
+          "dialogue": "I know it's a big step, but I've been working on a few creative projects on the side, and I finally feel like I can focus on them. I believe in building something authentic, even if it's uncertain."
+        },
+        {
+          "action_id": 4,
+          "character": "Mia Chen",
+          "character_id": 1,
+          "action": "Offers support",
+          "dialogue": "If you ever need help or want to bounce ideas off someone, I'm here. Just promise me you'll be careful out there."
+        },
+        {
+          "action_id": 5,
+          "character": "Ella Ramirez",
+          "character_id": 2,
+          "action": "Expresses hope",
+          "dialogue": "I hope your journey brings you the personal growth you're after. You always had a unique perspective on technology, and I believe you'll do something great with it."
+        }
+      ],
+      "plot": "Leo shares his decision to leave Intel with his colleagues Mia and Ella, who are supportive but also express concern about the uncertainty of his new path. The conversation highlights Leo's values of freedom and innovation, while also showing the emotional impact of his choice on those around him.",
+      "social_purpose": "To explore the emotional and professional dynamics of leaving a stable job for a more personal and creative path, while showcasing the protagonist's personality and values through dialogue and interaction.",
+      "chunk": {
+        "id": 0,
+        "text": "Leo sits with Mia and Ella in a familiar coffee shop, the one they often visited during lunch breaks. The barista brings his usual order, a black coffee with a splash of almond milk, and he thanks them with a smile. Mia sips her latte slowly, while Ella keeps checking her phone, clearly preoccupied but trying to be present. The conversation flows naturally, with a mix of nostalgia, concern, and encouragement, setting the stage for a meaningful farewell."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

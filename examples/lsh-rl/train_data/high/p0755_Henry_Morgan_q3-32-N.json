@@ -1,0 +1,112 @@
+{
+  "title": "The Weight of a Decision",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Governor's Press Conference",
+      "time": "10:00 AM",
+      "location": "New Jersey State Capitol, Press Room",
+      "description": "Governor Henry Morgan stands in front of a crowd of reporters, flanked by his advisors Han and Joy. The tension is palpable as he prepares to address the recent scandal that has engulfed his administration. Han, a seasoned political strategist, leans toward the Governor with a note in hand, while Joy, a public policy expert, stands with a composed but concerned expression.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Henry Morgan",
+          "gender": "Male",
+          "description": "The Governor of New Jersey, in his 50s, appears visibly burdened by the weight of his decision. His posture is upright, but his eyes betray his inner turmoil.; Male / Political Leader, 50 years old; Occupation: Governor of New Jersey; Personality: Conflicted, Rational, Strong sense of responsibility; Values: Public service, Integrity, Political strategy; Interests: Leadership, Policy making, Crisis management; Experiences: Political career, Scandal management, Public speaking, Governance experience",
+          "position": "Governor of New Jersey",
+          "states": "Conflicted, Rational, Strong sense of responsibility",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Han Lee",
+          "gender": "Male",
+          "description": "A sharp-dressed political strategist in his 40s, Han is calm and calculated, always thinking several moves ahead; Male; Age: 46; Occupation: Chief of Staff to Governor Henry Morgan; Personality: Analytical, Discreet, Charismatic; Values: Loyalty, Integrity, Pragmatism; Interests: Chess, Historical Biographies, Urban Policy; Experiences: Managed crisis communications during a state budget impasse, Advised on successful re-election campaigns for two consecutive terms, Served in the New Jersey State Legislature as a policy aide for eight years.",
+          "position": "Chief Political Advisor",
+          "states": "Calm, Strategic, Persuasive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Joy Patel",
+          "gender": "Female",
+          "description": "A principled public policy advisor in her 30s, Joy is visibly frustrated with the Governor's indecision and the moral implications of his actions; Female; Age: 36; Occupation: Deputy Director of Public Policy for the New Jersey Governor’s Office; Personality: Analytical, empathetic, tenacious; Values: Integrity, social equity; Interests: Urban development, civic education, policy reform; Experiences: Worked on affordable housing initiatives in Newark, served as a legislative analyst during the state budget crisis, advocated for transparency in local government operations.",
+          "position": "Chief Ethics Advisor",
+          "states": "Concerned, Principled, Frustrated",
+          "is_npc": true
+        },
+        {
+          "id": 3,
+          "name": "Michael Carter",
+          "gender": "Male",
+          "description": "A veteran reporter for the New Jersey Daily News, Michael has covered the Governor for years and is known for his incisive questions; Male; Age: 52; Occupation: Investigative Journalist; Personality: Observant, Professional, Pressuring; Values: Integrity, Accountability; Interests: Political history, Long-form storytelling; Experiences: Exposed multiple corruption cases in state politics, Covered every gubernatorial election in New Jersey for the past two decades.",
+          "position": "Senior Political Correspondent",
+          "states": "Observant, Professional, Pressuring",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Michael Carter",
+          "character_id": 3,
+          "action": "Asks a direct question",
+          "dialogue": "Governor Morgan, have you made a decision about whether you will resign in light of the recent allegations?"
+        },
+        {
+          "action_id": 1,
+          "character": "Henry Morgan",
+          "character_id": 0,
+          "action": "Pauses and looks at his advisors",
+          "dialogue": "I’m not here to make excuses, but I believe the people of New Jersey deserve a full explanation before I make any final decisions."
+        },
+        {
+          "action_id": 2,
+          "character": "Han Lee",
+          "character_id": 1,
+          "action": "Whispers a suggestion",
+          "dialogue": "Governor, if you delay the resignation, we can control the narrative and avoid a chaotic special election."
+        },
+        {
+          "action_id": 3,
+          "character": "Joy Patel",
+          "character_id": 2,
+          "action": "Interjects firmly",
+          "dialogue": "And if we delay, we risk further eroding the public’s trust. Leadership is about doing what’s right, not just what’s convenient."
+        },
+        {
+          "action_id": 4,
+          "character": "Henry Morgan",
+          "character_id": 0,
+          "action": "Responds to the room",
+          "dialogue": "I hear both perspectives. I’ve spent my career serving this state, and I won’t make a decision without considering the full impact on New Jersey and its people."
+        },
+        {
+          "action_id": 5,
+          "character": "Michael Carter",
+          "character_id": 3,
+          "action": "Follows up with a pointed question",
+          "dialogue": "Governor, when will we get that explanation? And when will we know if you’re stepping down?"
+        },
+        {
+          "action_id": 6,
+          "character": "Henry Morgan",
+          "character_id": 0,
+          "action": "Answers with measured tone",
+          "dialogue": "I’ll release a full statement by the end of the day. Until then, I ask for your patience and understanding."
+        }
+      ],
+      "plot": "Governor Henry Morgan is under intense public and political pressure to resign after a recent scandal. His advisors Han and Joy present conflicting arguments: Han urges delay to maintain political control, while Joy insists on immediate action to preserve public trust. During a press conference, the Governor is forced to navigate the scrutiny of the media, particularly from veteran reporter Michael Carter, while weighing his personal guilt and political responsibility.",
+      "social_purpose": "To explore the Governor’s internal conflict and how his values and experiences influence his decision-making in a high-stakes public setting.",
+      "chunk": {
+        "id": 0,
+        "text": "The press conference was tense, with Governor Morgan caught between the demands of political strategy and the need to uphold integrity. Han’s quiet support for delay clashed with Joy’s insistence on moral clarity. As Michael Carter pressed for answers, the Governor’s rational, responsible nature shone through, but the conflict in his eyes revealed the heavy burden of his choice."
+      },
+      "npcs": [
+        1,
+        2,
+        3
+      ]
+    }
+  ]
+}

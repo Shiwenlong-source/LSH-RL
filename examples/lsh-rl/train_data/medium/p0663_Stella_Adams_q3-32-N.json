@@ -1,0 +1,102 @@
+{
+  "title": "The Offering Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Church Offering",
+      "time": "Sunday morning at 10:00 AM",
+      "location": "St. John's Community Church",
+      "description": "A quiet, intimate Sunday service is in full swing. The congregation is small but attentive. The time for the offering has arrived, and the collection plate is being passed down the aisle. Stella Adams, a 25-year-old hotel waitress, sits with her friend Gary and Pastor Johnson, who is delivering the sermon. The atmosphere is calm, but the tension in Stella's heart is palpable as she wrestles with her decision.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Stella Adams",
+          "gender": "Female",
+          "description": "A 25-year-old hotel waitress with a thoughtful and conflicted demeanor. She is trying to balance her financial responsibilities with her faith and sense of community.; 25-year-old female professional, 24 years old; Occupation: Hotel waitress; Personality: Conflicted, Thoughtful, Prone to guilt; Values: Faith, Financial responsibility, Community; Interests: Spiritual growth, Personal reflection, Financial planning; Experiences: Regularly attending church activities, Struggling with financial decisions, Seeking spiritual guidance",
+          "position": "Front row bench, second seat from the aisle",
+          "states": "Anxious, contemplative, guilty",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Gary Thompson",
+          "gender": "Male",
+          "description": "A 28-year-old community outreach volunteer and Stella's close friend; Male; Age: 28; Occupation: Youth Mentor and Volunteer Coordinator at a local nonprofit; Personality: Empathetic, patient, observant; Values: Compassion, community service, honesty; Interests: Organizing charity events, reading self-help books, hiking; Experiences: Grew up in a low-income neighborhood, volunteered during a homeless outreach initiative, supported Stella through a difficult personal loss.",
+          "position": "Front row bench, seat next to Stella",
+          "states": "Observant, concerned, supportive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Pastor Johnson",
+          "gender": "Male",
+          "description": "A 45-year-old pastor known for his compassionate sermons and deep understanding of personal struggles; Male; Age: 45; Occupation: Pastor at St. John's Community Church; Personality: Compassionate, empathetic, observant; Values: Faith, community service, integrity; Interests: Reading theological literature, mentoring young adults, gardening; Experiences: Pastoral care during a community crisis, personal journey through grief and redemption, leading small group Bible studies.",
+          "position": "Pulpit, center stage",
+          "states": "Solemn, encouraging, observant",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Stella Adams",
+          "character_id": 0,
+          "action": "Hesitates while holding a crumpled five-dollar bill in her hand.",
+          "dialogue": "I just don’t know if this is enough…"
+        },
+        {
+          "action_id": 1,
+          "character": "Gary Thompson",
+          "character_id": 1,
+          "action": "Notices Stella's hesitation and gently places a hand on her shoulder.",
+          "dialogue": "Hey, it’s okay. Your heart is in the right place. It’s not about the amount."
+        },
+        {
+          "action_id": 2,
+          "character": "Stella Adams",
+          "character_id": 0,
+          "action": "Looks down at the bill, then at the collection plate being passed.",
+          "dialogue": "But I feel like I should give more. I want to support the church, but I’m also trying to save for my future."
+        },
+        {
+          "action_id": 3,
+          "character": "Pastor Johnson",
+          "character_id": 2,
+          "action": "Pays attention to Stella from the pulpit and speaks directly to the congregation.",
+          "dialogue": "Faith is not about perfection, but about the steps we take with our hearts."
+        },
+        {
+          "action_id": 4,
+          "character": "Stella Adams",
+          "character_id": 0,
+          "action": "Takes a deep breath, then places the five-dollar bill on the bench next to her, not in the offering plate.",
+          "dialogue": "Maybe I need to talk to someone about this…"
+        },
+        {
+          "action_id": 5,
+          "character": "Gary Thompson",
+          "character_id": 1,
+          "action": "Nods and smiles reassuringly at Stella.",
+          "dialogue": "I’m here if you want to talk. We can figure it out together."
+        },
+        {
+          "action_id": 6,
+          "character": "Pastor Johnson",
+          "character_id": 2,
+          "action": "Continues the sermon, emphasizing the importance of personal growth and community support.",
+          "dialogue": "Let us be a community that lifts each other up, not one that burdens."
+        }
+      ],
+      "plot": "During the offering time at a Sunday service, Stella Adams is visibly conflicted about the amount she should give. Her friend Gary notices her distress and offers support, but Stella remains uneasy. As Pastor Johnson speaks, she decides not to put the money in the plate, instead placing it on the bench as a symbol of her unresolved tension between faith and financial responsibility.",
+      "social_purpose": "To explore how individuals navigate the intersection of faith, financial decisions, and community expectations, while highlighting the importance of empathy and support in such moments.",
+      "chunk": {
+        "id": 0,
+        "text": "Stella’s internal conflict is mirrored in her physical hesitation. The small, crumpled five-dollar bill becomes a focal point of her struggle, while Gary’s quiet reassurance and Pastor Johnson’s message offer a glimpse into the broader themes of faith and responsibility."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

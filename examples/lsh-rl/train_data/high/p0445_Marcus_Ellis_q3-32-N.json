@@ -1,0 +1,123 @@
+{
+  "title": "The Dilemma in the Lobby",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Marcus encounters his neighbor Bing and his son in the apartment building lobby, leading to an awkward confrontation.",
+      "time": "Evening, 7:30 PM",
+      "location": "Apartment Building Lobby",
+      "description": "Marcus is in the lobby of his apartment building, waiting for the elevator. Bing, his loud and often aggressive neighbor, is scolding his young son, who is visibly upset. The situation is tense, and Marcus is conflicted about whether to intervene.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Marcus Ellis",
+          "gender": "Male",
+          "description": "A 25-year-old office worker with a cautious and empathetic nature, visibly anxious and concerned.; Male in, apartment resident, 25 years old; Occupation: Young office worker; Personality: Cautious, Responsible, Empathetic, Anxious; Values: Responsibility, Empathy, Integrity; Interests: Listening to others, Helping others, Quiet environment; Experiences: Witnessing family conflict, Seeking emotional support, Struggling with moral choices",
+          "position": "Standing near the elevator",
+          "states": "Anxious, Observant, Concerned",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Bing",
+          "gender": "Male",
+          "description": "Loud, aggressive neighbor in his 40s, known for his temper, currently scolding his son; Male; Age: 45; Occupation: Former construction foreman, now part-time security guard; Personality: Short-tempered, controlling, defensive; Values: Authority, discipline, traditional family roles; Interests: Watching sports, tinkering with cars, grilling; Experiences: Laid off from construction during economic downturn, strict upbringing by his own father, recently dealing with his son’s rebellious behavior.",
+          "position": "By the entrance",
+          "states": "Angry, Loud, Domineering",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Young Boy",
+          "gender": "Male",
+          "description": "Young Boy; Male; Age: 7; Occupation: Student; Personality: Shy, sensitive, obedient; Values: Family, safety; Interests: Drawing, playing with toy cars; Experiences: Frequently reprimanded by his father in public, has learned to stay quiet to avoid conflict, recently had a toy taken away as a punishment.",
+          "position": "Standing beside Bing",
+          "states": "Upset, Timid, Submissive",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Bing",
+          "character_id": 1,
+          "action": "Shouting at his son",
+          "dialogue": "I told you not to make a mess again! What did I say? You're always causing trouble!"
+        },
+        {
+          "action_id": 1,
+          "character": "Young Boy",
+          "character_id": 2,
+          "action": "Looking down and quietly responding",
+          "dialogue": "I'm sorry, Dad. I didn't mean to."
+        },
+        {
+          "action_id": 2,
+          "character": "Marcus Ellis",
+          "character_id": 0,
+          "action": "Approaching cautiously",
+          "dialogue": "Uh, hi Bing. I just wanted to say I noticed the weather is really nice tonight."
+        },
+        {
+          "action_id": 3,
+          "character": "Bing",
+          "character_id": 1,
+          "action": "Glancing at Marcus with irritation",
+          "dialogue": "Yeah, yeah, thanks. You're not here to fix my problems, are you?"
+        },
+        {
+          "action_id": 4,
+          "character": "Marcus Ellis",
+          "character_id": 0,
+          "action": "Trying to change the subject",
+          "dialogue": "No, I was just thinking about taking a walk. It's been a long day at work."
+        },
+        {
+          "action_id": 5,
+          "character": "Young Boy",
+          "character_id": 2,
+          "action": "Looking at Marcus with hope",
+          "dialogue": "Can I go with you, sir?"
+        },
+        {
+          "action_id": 6,
+          "character": "Bing",
+          "character_id": 1,
+          "action": "Grabbing the boy's arm",
+          "dialogue": "You're not going anywhere, not after this!"
+        },
+        {
+          "action_id": 7,
+          "character": "Marcus Ellis",
+          "character_id": 0,
+          "action": "Intervening with a calm tone",
+          "dialogue": "Hey, it's okay. He just wants to enjoy the evening. Maybe he can join me after dinner?"
+        },
+        {
+          "action_id": 8,
+          "character": "Bing",
+          "character_id": 1,
+          "action": "Snorting with sarcasm",
+          "dialogue": "Sure, whatever. Just don't expect me to thank you."
+        },
+        {
+          "action_id": 9,
+          "character": "Marcus Ellis",
+          "character_id": 0,
+          "action": "Calling his sister discreetly",
+          "dialogue": "Hey Any, I need to talk to you about something... It's about the neighbor."
+        }
+      ],
+      "plot": "Marcus, torn between his sense of responsibility and his cautious nature, tries to defuse the tension in the lobby while also seeking advice from his sister. The encounter highlights his internal conflict and empathy for the child.",
+      "social_purpose": "To explore Marcus's values of responsibility and empathy in a public setting and demonstrate how his past experiences influence his actions.",
+      "chunk": {
+        "id": 0,
+        "text": "Marcus stands in the lobby, watching Bing shout at his son. He feels a deep sense of responsibility but is anxious about stepping in. After a tense exchange, he calls his sister to seek emotional support and guidance."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

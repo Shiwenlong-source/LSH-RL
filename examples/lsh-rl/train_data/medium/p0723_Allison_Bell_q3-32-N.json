@@ -1,0 +1,102 @@
+{
+  "title": "The ISCF Rally Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Allison is invited to the ISCF Rally by Sherly, and she is conflicted about attending.",
+      "time": "Afternoon",
+      "location": "College campus coffee shop",
+      "description": "Allison sits at a quiet table in the corner of the coffee shop, sipping her tea and reviewing her volunteer schedule. Sherly, a fellow ISCF volunteer, approaches to discuss an upcoming event. Joy, Allison's best friend, is nearby and overhears the conversation.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Allison Bell",
+          "gender": "Female",
+          "description": "A 20-year-old college student who is thoughtful, introverted, and responsible. She is experiencing social anxiety and a conflict between her desire to serve and her fear of public settings.; 20-year-old female college student, 20 years old; Occupation: College student; Personality: Thoughtful, Introverted, Responsible, Lacking confidence; Values: Responsibility, Self-reflection, Community service; Interests: Morning routine, Quiet environments, Personal growth; Experiences: Participating in ISCF volunteer activities, Social anxiety in new environments, Friendship with You Jingqiao, Faith-related activities, Academic study",
+          "position": "Table in the corner",
+          "states": "Hesitant, contemplative, anxious",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Sherly",
+          "gender": "Female",
+          "description": "A confident and outgoing ISCF volunteer who is passionate about community service and outreach; Female; Age: 23; Occupation: Political Science major and campus activist; Personality: Energetic, empathetic, persuasive; Values: Social justice, community empowerment, collaboration; Interests: Organizing campus events, volunteering at local shelters, debating public policy; Experiences: Led a successful voter registration drive on campus, coordinated a food donation initiative during finals week, mentored new volunteers in ISCF outreach programs.",
+          "position": "Approaching Allison's table",
+          "states": "Enthusiastic, encouraging, friendly",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Joy",
+          "gender": "Female",
+          "description": "Allison's best friend, who is extroverted and supportive; Female; Age: 20; Occupation: Psychology major and part-time campus counselor intern; Personality: Empathetic, enthusiastic, loyal; Values: Personal growth, friendship, authenticity; Interests: Volunteering, music festivals, journaling; Experiences: Organized a campus mental health awareness week, helped a close friend through a difficult transition, regularly attends student-led community events.",
+          "position": "Nearby table, listening in",
+          "states": "Supportive, observant, eager",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Sherly",
+          "character_id": 1,
+          "action": "Approaches and sits with Allison",
+          "dialogue": "Hi Allison! I was wondering if you'd be interested in joining me at the ISCF Rally next week. It's a great event to share our mission and connect with the community."
+        },
+        {
+          "action_id": 1,
+          "character": "Allison Bell",
+          "character_id": 0,
+          "action": "Looks down, hesitant",
+          "dialogue": "I... I don't know, Sherly. I've been invited before, but I get really nervous in big groups. I don't want to let the team down, though."
+        },
+        {
+          "action_id": 2,
+          "character": "Joy",
+          "character_id": 2,
+          "action": "Joins the conversation",
+          "dialogue": "Hey, I overheard that! Allison, you've been doing such a good job with your volunteer work. The rally is a chance to grow and meet people who share your values. What's one day for personal growth?"
+        },
+        {
+          "action_id": 3,
+          "character": "Allison Bell",
+          "character_id": 0,
+          "action": "Sighs and considers",
+          "dialogue": "I guess I do care about community service. But I'm not sure I can handle the attention or the noise of a rally. I like quiet environments and morning routines, not big events."
+        },
+        {
+          "action_id": 4,
+          "character": "Sherly",
+          "character_id": 1,
+          "action": "Reassures Allison",
+          "dialogue": "I understand. It's okay to feel that way. But you're thoughtful and responsible—those are exactly the qualities we need to make a difference. You don't have to be the center of attention; just being there helps."
+        },
+        {
+          "action_id": 5,
+          "character": "Joy",
+          "character_id": 2,
+          "action": "Encourages further",
+          "dialogue": "Exactly! You don't have to speak to everyone. Just being you, and being there, is enough. I'll even come with you if that helps!"
+        },
+        {
+          "action_id": 6,
+          "character": "Allison Bell",
+          "character_id": 0,
+          "action": "Nods slowly, showing internal conflict",
+          "dialogue": "I... I do want to be part of something bigger. Maybe I can try it this time. I just need to prepare myself."
+        }
+      ],
+      "plot": "Allison is invited to the ISCF Rally by Sherly, a fellow volunteer. She is initially hesitant due to her introverted nature and social anxiety but is encouraged by her best friend Joy and Sherly's reassurance. The conversation reveals her values of responsibility and community service, as well as her personal growth goals.",
+      "social_purpose": "Allison is presented with a social challenge that aligns with her values and interests. The interaction helps her consider stepping out of her comfort zone while staying true to her personality traits.",
+      "chunk": {
+        "id": 0,
+        "text": "Allison is invited to the ISCF Rally by Sherly, a fellow volunteer. She is initially hesitant due to her introverted nature and social anxiety but is encouraged by her best friend Joy and Sherly's reassurance. The conversation reveals her values of responsibility and community service, as well as her personal growth goals."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

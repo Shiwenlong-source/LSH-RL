@@ -1,0 +1,109 @@
+{
+  "title": "The Unspoken Meal",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "A group lunch with friends",
+      "time": "Saturday, 12:30 PM",
+      "location": "A cozy, quiet bistro in the city center",
+      "description": "Daniel, Cici, and Yang sit in a small booth near the window, the midday sun casting a warm glow over the table. The restaurant is filled with the soft hum of conversation and the clinking of cutlery. Daniel is trying to keep up with the conversation, but his eyes often drift to the window. Cici seems distracted, occasionally looking at Daniel before quickly looking away. Yang, seated between them, is attempting to keep the mood light.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Daniel Tucker",
+          "gender": "Male",
+          "description": "A 25-year-old captain in the navy, Daniel is visibly weary and tense. He is trying to feign relaxation as he sits across from his ex-girlfriend, Cici, and their mutual friend, Yang.; Male in his, former couple, 25 years old; Occupation: Captain; Values: Emotional honesty, Friendship, Self-reflection; Interests: Social gatherings, Romantic relationships, Emotional growth; Experiences: Recent breakup, Awkward social interactions, Emotional conversations",
+          "position": "Left side of the booth",
+          "states": "Weary, Tense, Feigning relaxation",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Cici Lin",
+          "gender": "Female",
+          "description": "Cici is a 24-year-old graphic designer. Her body language is hesitant and closed off, with frequent glances at Daniel and averted eyes; Female; Age: 24; Occupation: Freelance graphic designer specializing in branding and digital illustrations; Personality: Sensitive, creative, introspective; Values: Loyalty, authenticity, emotional honesty; Interests: Watercolor painting, indie music, journaling; Experiences: A past romantic relationship with Daniel that ended ambiguously, ongoing friendship complicated by unresolved feelings, recent professional success that hasn't brought personal fulfillment.",
+          "position": "Right side of the booth",
+          "states": "Hesitant, Emotional, Averting gaze",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Yang Chen",
+          "gender": "Male",
+          "description": "Yang is a 27-year-old social worker; Male; Age: 27; Occupation: Social Worker; Personality: Calm, Empathetic, Diplomatic; Values: Compassion, Balance, Community; Interests: People-watching, Reading self-help books, Exploring local cafes; Experiences: Mediated community disputes during a neighborhood revitalization project, Provided support to youth in a transitional housing program.",
+          "position": "Between Daniel and Cici",
+          "states": "Calm, Mediating, Empathetic",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Yang Chen",
+          "character_id": 2,
+          "action": "Yang tries to make small talk to break the tension.",
+          "dialogue": "Hey, Daniel, how's the new project going at work? You mentioned it was a big one."
+        },
+        {
+          "action_id": 1,
+          "character": "Daniel Tucker",
+          "character_id": 0,
+          "action": "Daniel responds with a forced smile, showing his weariness.",
+          "dialogue": "It's going okay, I guess. It's been a lot, but I'm used to that kind of thing now."
+        },
+        {
+          "action_id": 2,
+          "character": "Cici Lin",
+          "character_id": 1,
+          "action": "Cici hesitates before answering, revealing her internal conflict.",
+          "dialogue": "Yeah, Daniel has always been good at handling pressure. I remember when he was training for the navy."
+        },
+        {
+          "action_id": 3,
+          "character": "Daniel Tucker",
+          "character_id": 0,
+          "action": "Daniel's tone softens slightly as he reflects on their past.",
+          "dialogue": "We had some good times back then. It was a big change for both of us."
+        },
+        {
+          "action_id": 4,
+          "character": "Yang Chen",
+          "character_id": 2,
+          "action": "Yang shifts the topic to avoid further emotional tension.",
+          "dialogue": "That's true. So, Cici, how's the new design project coming along? You were excited about it, right?"
+        },
+        {
+          "action_id": 5,
+          "character": "Cici Lin",
+          "character_id": 1,
+          "action": "Cici responds briefly, showing her emotional distance.",
+          "dialogue": "It's... fine. I've been busy."
+        },
+        {
+          "action_id": 6,
+          "character": "Daniel Tucker",
+          "character_id": 0,
+          "action": "Daniel admits to not being fully over the breakup, showing emotional honesty.",
+          "dialogue": "Honestly, I'm not used to this yet. It's weird being here with both of you."
+        },
+        {
+          "action_id": 7,
+          "character": "Yang Chen",
+          "character_id": 2,
+          "action": "Yang reassures Daniel and shows his support.",
+          "dialogue": "I get that. It's not easy, but we're here to help. That's what friends do."
+        }
+      ],
+      "plot": "Daniel, Cici, and Yang meet for lunch in an attempt to maintain their friendship after Daniel's recent breakup with Cici. The conversation is strained at first, but as the meal progresses, Daniel opens up about his struggles with emotional growth and the awkwardness of their new dynamic. Yang helps mediate the discussion, while Cici remains emotionally reserved, hinting at her own unresolved feelings.",
+      "social_purpose": "To explore the emotional growth of the protagonist through a shared goal of maintaining friendship and navigating post-breakup dynamics.",
+      "chunk": {
+        "id": 0,
+        "text": "Daniel, Cici, and Yang meet for lunch in an attempt to maintain their friendship after Daniel's recent breakup with Cici. The conversation is strained at first, but as the meal progresses, Daniel opens up about his struggles with emotional growth and the awkwardness of their new dynamic. Yang helps mediate the discussion, while Cici remains emotionally reserved, hinting at her own unresolved feelings."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

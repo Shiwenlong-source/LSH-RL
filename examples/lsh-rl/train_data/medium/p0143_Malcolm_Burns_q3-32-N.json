@@ -1,0 +1,105 @@
+{
+  "title": "The Family Business Meeting",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Family Business Strategy Meeting",
+      "time": "Afternoon",
+      "location": "Burns & Sons Office Conference Room",
+      "description": "Malcolm is preparing for a family business meeting with his father, Peter, and his uncle, Thomas. The meeting is about assigning new responsibilities for the upcoming quarter, and Malcolm is eager to show he is ready for more. His mother, Clara, sits quietly in the corner, watching him closely.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Malcolm Burns",
+          "gender": "Male",
+          "description": "25-year-old heir to the family business, ambitious but hesitant, and self-conscious about his performance.; Early /Male/Family Member, 25 years old; Occupation: Heir to family business; Personality: Hesitant, Ambitious, Self-conscious; Values: Hard Work, Gaining Recognition, Respecting Family; Interests: Earning rewards, Proving oneself, Learning new tasks; Experiences: Recently started working for his father, Struggling with self-confidence, Closely observing family relationships",
+          "position": "Seated at the table, slightly nervous",
+          "states": "Anticipating, self-doubting, determined",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Peter Burns",
+          "gender": "Male",
+          "description": "Peter Burns; Male; Age: 58; Occupation: Owner and CEO of Burns & Sons, a mid-sized manufacturing and distribution company; Personality: Observant, critical, encouraging; Values: Excellence, family legacy, loyalty; Interests: Business strategy, classic cars, golf; Experiences: Built Burns & Sons from a small workshop into a regional powerhouse, mentored several successful executives, weathered a major financial downturn in the early 2000s.",
+          "position": "At the head of the table, composed and authoritative",
+          "states": "Observant, critical, encouraging",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Clara Burns",
+          "gender": "Female",
+          "description": "Clara is Malcolm's mother, a quiet but perceptive figure who supports him from the sidelines; Female; Age: 52; Occupation: Corporate Counsel at Burns & Sons; Personality: Observant, empathetic, reserved; Values: Family loyalty, integrity, quiet strength; Interests: Reading classic literature, gardening, listening to chamber music; Experiences: Navigated high-stakes business negotiations during a family crisis, mentored several junior executives in the company, supported her husband through a major corporate restructuring.",
+          "position": "In a corner, sipping tea",
+          "states": "Supportive, watchful, subtle",
+          "is_npc": true
+        },
+        {
+          "id": 3,
+          "name": "Thomas Burns",
+          "gender": "Male",
+          "description": "Thomas Burns; Male; Age: 58; Occupation: Senior Partner and Operations Director at Burns & Sons; Personality: Calm, experienced, slightly amused; Values: Integrity, family legacy, efficiency; Interests: Classic cars, whiskey tasting, strategic board games; Experiences: Survived the 2008 financial crisis by restructuring the company, mentored multiple family members into leadership roles, negotiated key long-term supplier contracts that stabilized the business.",
+          "position": "Seated next to Peter, relaxed",
+          "states": "Calm, experienced, slightly amused",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Malcolm Burns",
+          "character_id": 0,
+          "action": "Clears throat and speaks",
+          "dialogue": "Dad, I was wondering if there are any new tasks you think I could take on this quarter. I want to prove I can handle more responsibility."
+        },
+        {
+          "action_id": 1,
+          "character": "Peter Burns",
+          "character_id": 1,
+          "action": "Leans forward, considering",
+          "dialogue": "You've been doing well, Malcolm. But I want to be sure you're ready. What areas interest you the most?"
+        },
+        {
+          "action_id": 2,
+          "character": "Clara Burns",
+          "character_id": 2,
+          "action": "Gives a subtle nod to Malcolm",
+          "dialogue": ""
+        },
+        {
+          "action_id": 3,
+          "character": "Thomas Burns",
+          "character_id": 3,
+          "action": "Smiles and offers input",
+          "dialogue": "Malcolm's been asking about the logistics side. He's been studying it on his own. Maybe start there."
+        },
+        {
+          "action_id": 4,
+          "character": "Malcolm Burns",
+          "character_id": 0,
+          "action": "Nods in agreement",
+          "dialogue": "Yes, I've been reading up on it. I think I can help streamline some of the processes."
+        },
+        {
+          "action_id": 5,
+          "character": "Peter Burns",
+          "character_id": 1,
+          "action": "Picks up a folder and hands it to Malcolm",
+          "dialogue": "Alright, take a look at this. If you can come up with a plan by next week, we'll discuss it."
+        }
+      ],
+      "plot": "Malcolm takes a bold step by directly asking his father for more tasks in the family business. Peter, impressed by his initiative, gives him a project to work on. Thomas and Clara subtly support Malcolm, showing the family's dynamics and Malcolm's growth in confidence.",
+      "social_purpose": "To demonstrate Malcolm's ambition and self-doubt in a public family setting, while showing how his values and experiences influence his actions and how others in the family respond.",
+      "chunk": {
+        "id": 0,
+        "text": "Malcolm takes a deep breath and speaks up, his voice steady but his hands slightly trembling. His father's eyes narrow slightly, assessing him, while his uncle offers quiet encouragement. His mother, though silent, gives him a small but meaningful nod. This moment is a turning point in Malcolm's journey to prove himself in the family business."
+      },
+      "npcs": [
+        1,
+        2,
+        3
+      ]
+    }
+  ]
+}

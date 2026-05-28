@@ -1,0 +1,102 @@
+{
+  "title": "The Choice in the Hallway",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Rory is considering skipping class.",
+      "time": "Afternoon, 2:30 PM",
+      "location": "School hallway during a break between classes",
+      "description": "The hallway is quiet, save for the distant hum of the classroom next door. Rory stands near the door, arms crossed, looking conflicted. His friend Jim approaches, concerned, while Peter, his more distant roommate, leans against the wall with a smug expression.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Rory Mason",
+          "gender": "Male",
+          "description": "A 16-year-old high school student who is restless and conflicted. He is often seen questioning authority and seeking independence.; Teenager / Male / Student, 16 years old; Occupation: High School Student; Personality: Restless, Conflicted, Impatient; Values: Autonomy, Honesty, Individuality; Interests: Independence, Challenging Authority, Self-reflection; Experiences: Feeling Bored at School, Academic Pressure, Questioning Social Expectations",
+          "position": "Near the classroom door",
+          "states": "Worried, indecisive, tense",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Jim Carter",
+          "gender": "Male",
+          "description": "Rory's close friend and classmate; Male; Age: 16; Occupation: High school student; Personality: Responsible, level-headed, empathetic; Values: Honesty, loyalty, academic integrity; Interests: Debate club, reading non-fiction, helping others; Experiences: Helped Rory study through a tough academic slump, stood up for him during a social conflict, volunteers at a local community center on weekends.",
+          "position": "Approaching Rory from the hallway",
+          "states": "Concerned, earnest, supportive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Peter Lang",
+          "gender": "Male",
+          "description": "Peter Lang; Male; Age: 20; Occupation: Part-time barista and psychology student; Personality: Sarcastic, indifferent, observant; Values: Intellectual independence, efficiency, minimal emotional entanglement; Interests: Reading existential philosophy, playing chess, collecting vintage vinyl records; Experiences: Grew up in a high-pressure academic household, witnessed a close friend drop out of college due to burnout, worked multiple part-time jobs to support himself through school.",
+          "position": "Leaning against the wall",
+          "states": "Sarcastic, indifferent, observant",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Rory Mason",
+          "character_id": 0,
+          "action": "Looking at the classroom door with hesitation",
+          "dialogue": "I can't do it. I'm just going to walk out of there and never look back."
+        },
+        {
+          "action_id": 1,
+          "character": "Jim Carter",
+          "character_id": 1,
+          "action": "Trying to reason with Rory",
+          "dialogue": "Rory, you know the teacher will report you. If you keep skipping, your grades will drop, and your parents will find out. Think about what you're doing."
+        },
+        {
+          "action_id": 2,
+          "character": "Peter Lang",
+          "character_id": 2,
+          "action": "Mocking Rory's indecision",
+          "dialogue": "Wow, you're really torn between freedom and being a good little student, aren't you? Just go already, man. What's the worst that could happen?"
+        },
+        {
+          "action_id": 3,
+          "character": "Rory Mason",
+          "character_id": 0,
+          "action": "Sighs and turns to face his friends",
+          "dialogue": "It's not just about skipping. I'm tired of pretending I care about this stuff. I feel like I'm wasting my time."
+        },
+        {
+          "action_id": 4,
+          "character": "Jim Carter",
+          "character_id": 1,
+          "action": "Trying to understand Rory's perspective",
+          "dialogue": "I get that you're bored, but there's a reason we're here. You can't just ditch your responsibilities every time you feel restless."
+        },
+        {
+          "action_id": 5,
+          "character": "Peter Lang",
+          "character_id": 2,
+          "action": "Laughing cynically",
+          "dialogue": "Responsibilities? That's just what they want us to say. I say do what feels right. Even if it's dumb."
+        },
+        {
+          "action_id": 6,
+          "character": "Rory Mason",
+          "character_id": 0,
+          "action": "Shrugs and leans against the wall",
+          "dialogue": "Maybe it's not dumb. Maybe I just don't want to be here. Maybe I want to be myself, not some version of me they expect."
+        }
+      ],
+      "plot": "Rory is struggling with the pressure to conform to school expectations and is considering skipping class. His friend Jim tries to convince him to stay, emphasizing the consequences, while his roommate Peter mocks the idea of staying and encourages Rory to follow his own path. Through their interaction, Rory's inner conflict is revealed as he weighs his desire for autonomy against the need to maintain his academic standing and relationships.",
+      "social_purpose": "To explore Rory's values of autonomy and individuality in a setting where social and academic pressure is high. The interaction also highlights the differences in how close and distant friends respond to his need for self-expression.",
+      "chunk": {
+        "id": 0,
+        "text": "Rory stands at the classroom door, arms crossed, looking conflicted. Jim approaches, concerned, while Peter leans against the wall with a smug expression. Rory considers skipping class, and the friends engage in a debate about responsibility, freedom, and what it means to be true to oneself."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

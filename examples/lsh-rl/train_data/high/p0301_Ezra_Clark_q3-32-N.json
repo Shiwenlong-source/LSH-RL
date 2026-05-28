@@ -1,0 +1,109 @@
+{
+  "title": "The Party Choice",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "A college party at a friend's off-campus apartment",
+      "time": "Saturday night",
+      "location": "Living room of a cozy two-bedroom apartment",
+      "description": "Ezra Clark, a 17-year-old college freshman, arrives at a party hosted by his friend Jack. The room is filled with music, laughter, and the clinking of glasses. Jack and Rose, the other two main characters, are already mingling with a group of students. Ezra is thoughtful and principled, maintaining his personal boundaries while navigating the social pressure around him.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Ezra Clark",
+          "gender": "Male",
+          "description": "A 17-year-old college freshman with strong self-awareness and a principled stance on personal choices. He is introspective and values meaningful conversation over superficial interactions.; years old / Male / College Student, 17 years old; Occupation: College Student; Personality: Determined, Strong Self-Awareness, Thoughtful, Principled; Values: Integrity, Self-Respect, Individuality; Interests: Introspection, Meaningful Conversation, Personal Growth; Experiences: Just starting college life, Coping with social pressure, Maintaining personal boundaries",
+          "position": "Near the snack table, holding a soda",
+          "states": "Observant, calm, slightly tense due to social pressure",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Jack",
+          "gender": "Male",
+          "description": "Ezra's outgoing and charismatic friend, who is eager to fit in with the college party scene; Male; Age: 18; Occupation: College freshman, part-time barista; Personality: Confident, teasing, competitive; Values: Social acceptance, fun over responsibility; Interests: Party games, meeting new people, casual drinking; Experiences: Hosted several house parties in high school, known for pranks and social challenges, recently started a fraternity recruitment campaign.",
+          "position": "By the drink table, holding a beer",
+          "states": "Confident, teasing, trying to influence Ezra",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Rose",
+          "gender": "Female",
+          "description": "Rose is Jack's roommate and a thoughtful, empathetic presence; Female; Age: 22; Occupation: Psychology major and part-time campus counselor; Personality: Compassionate, perceptive, diplomatic; Values: Empathy, respect for autonomy, emotional well-being; Interests: Reading self-help books, yoga, indie music; Experiences: Mediated conflicts in a campus peer support group, helped a close friend through a difficult breakup with patience and care, volunteered at a local mental health outreach program.",
+          "position": "Sitting on the couch, sipping a mocktail",
+          "states": "Supportive, observant, trying to ease the tension",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Jack",
+          "character_id": 1,
+          "action": "Approaches Ezra with a beer in hand",
+          "dialogue": "Hey, Ezra, you're not even drinking yet. What's up? Scared to have fun?"
+        },
+        {
+          "action_id": 1,
+          "character": "Ezra Clark",
+          "character_id": 0,
+          "action": "Takes a steady sip of his soda and replies calmly",
+          "dialogue": "I'm just not into alcohol. I have my reasons, and I'm comfortable with my choice."
+        },
+        {
+          "action_id": 2,
+          "character": "Rose",
+          "character_id": 2,
+          "action": "Steps in to support Ezra and defuse the situation",
+          "dialogue": "Hey, Jack, let's not make a big deal out of it. Ezra's being true to himself, and that's admirable."
+        },
+        {
+          "action_id": 3,
+          "character": "Jack",
+          "character_id": 1,
+          "action": "Sneers slightly but keeps his tone light",
+          "dialogue": "Okay, but you're missing out. What if you're the only one who doesn't drink? You'll never fit in."
+        },
+        {
+          "action_id": 4,
+          "character": "Ezra Clark",
+          "character_id": 0,
+          "action": "Leans in, showing determination and self-respect",
+          "dialogue": "I don't need to fit in by doing something I don't believe in. I'm here to enjoy time with friends and stay grounded."
+        },
+        {
+          "action_id": 5,
+          "character": "Rose",
+          "character_id": 2,
+          "action": "Changes the subject to focus on shared interests",
+          "dialogue": "Hey, Ezra, I heard you're into personal growth stuff. What's your favorite way to reflect on your day?"
+        },
+        {
+          "action_id": 6,
+          "character": "Ezra Clark",
+          "character_id": 0,
+          "action": "Smiles and responds thoughtfully",
+          "dialogue": "I like journaling. It helps me stay in touch with who I am and what matters to me."
+        },
+        {
+          "action_id": 7,
+          "character": "Jack",
+          "character_id": 1,
+          "action": "Looks intrigued but still skeptical",
+          "dialogue": "Journaling? That's kind of deep for a party, but I guess it works for you."
+        }
+      ],
+      "plot": "Ezra is at a college party where alcohol is the central focus. Jack tries to pressure him into drinking, while Rose supports his decision and redirects the conversation to his values and interests. Ezra's principled response subtly shifts the group dynamic, prompting Jack to reconsider his stance and Rose to reflect on her own approach to social interactions.",
+      "social_purpose": "To explore the tension between social acceptance and personal values, showcasing how Ezra's principled choice influences his friends' perspectives and interactions.",
+      "chunk": {
+        "id": 0,
+        "text": "Ezra Clark arrives at a party hosted by his friend Jack, where alcohol is the main attraction. Jack teases Ezra for not drinking, trying to push him to conform to the social norm. Rose, Jack's roommate, steps in to support Ezra's decision, acknowledging the importance of personal boundaries. Ezra explains his choice with calm determination, emphasizing his values of integrity and self-respect. Jack is challenged to reconsider his assumptions, while Rose feels a shift in the group dynamic as she observes Ezra's authenticity."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

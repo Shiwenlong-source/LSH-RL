@@ -1,0 +1,102 @@
+{
+  "title": "The Restaurant Concept Debate",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Concept Planning Meeting",
+      "time": "10:00 AM",
+      "location": "Urban Bistro, Downtown Café",
+      "description": "The three partners meet for a planning session in a cozy downtown café, each bringing their own perspective on the restaurant’s menu and branding strategy.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Cole Scott",
+          "gender": "Male",
+          "description": "Cole is the proposer of the restaurant concept, insisting on featuring classic comfort food. He is determined and visionary, but also pragmatic in his approach.; Male, Entrepreneur, 30 years old; Occupation: Restaurant Concept Planner; Personality: Determined, Visionary, Pragmatic; Values: Stability, Innovation, Teamwork; Interests: Dining Trends, Business Strategy, Urban Development; Experiences: Concept Development, Team Collaboration, Market Analysis",
+          "position": "Concept Proposer",
+          "states": "Confident, Focused, Slightly Defensive",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Silas Morgan",
+          "gender": "Male",
+          "description": "Silas is a health-conscious chef who believes the modern market demands more nutritious and sustainable options; Male; Age: 38; Occupation: Culinary Consultant and Menu Developer; Personality: Analytical, Forward-thinking, Skeptical; Values: Sustainability, Innovation, Integrity; Interests: Farm-to-table sourcing, Experimental cooking techniques, Urban gardening; Experiences: Ran a successful farm-to-fork pop-up restaurant, Collaborated with nutritionists to create balanced menus, Worked in high-end urban kitchens with a focus on plant-based cuisine.",
+          "position": "Menu Consultant",
+          "states": "Calm, Thoughtful, Skeptical",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Tyler Adams",
+          "gender": "",
+          "description": "Tyler is a financial analyst who is focused on cost control and brand positioning; Male; Age: 34; Occupation: Restaurant Business Consultant; Personality: Cautious, Analytical, Strategic; Values: Efficiency, Professionalism, Long-term Growth; Interests: Urban development, Sustainable business practices; Experiences: Managed budget overhauls for mid-sized restaurants, Advised startups on brand positioning in competitive markets",
+          "position": "Financial Advisor",
+          "states": "Cautious, Questioning, Calculating",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Cole Scott",
+          "character_id": 0,
+          "action": "Presenting his concept",
+          "dialogue": "Guys, I’ve been thinking about this for months. Classic comfort food is what we should go with. It’s stable, relatable, and has proven appeal across demographics."
+        },
+        {
+          "action_id": 1,
+          "character": "Silas Morgan",
+          "character_id": 1,
+          "action": "Offering a counterpoint",
+          "dialogue": "I get the appeal, Cole, but we can’t ignore the shift in consumer habits. People are looking for healthier, more sustainable choices. We should integrate those into the menu."
+        },
+        {
+          "action_id": 2,
+          "character": "Tyler Adams",
+          "character_id": 2,
+          "action": "Raising concerns",
+          "dialogue": "And even if we do, we need to think about cost and how it affects our brand. If we go too healthy, we might price ourselves out of the comfort food niche we’re trying to target."
+        },
+        {
+          "action_id": 3,
+          "character": "Cole Scott",
+          "character_id": 0,
+          "action": "Defending his stance",
+          "dialogue": "I’m not saying we ignore trends, but we need to anchor ourselves in something solid. Comfort food is a timeless base. We can innovate on top of it, not abandon it."
+        },
+        {
+          "action_id": 4,
+          "character": "Silas Morgan",
+          "character_id": 1,
+          "action": "Suggesting compromise",
+          "dialogue": "What if we create a ‘comfort with conscience’ section? Offer lighter versions of classics. That way, we stay true to the core but also adapt."
+        },
+        {
+          "action_id": 5,
+          "character": "Tyler Adams",
+          "character_id": 2,
+          "action": "Analyzing the idea",
+          "dialogue": "That might work. We can do a cost analysis on those lighter options and see if they fit within our margins. But we need to make sure the branding is clear—don’t want to confuse the target audience."
+        },
+        {
+          "action_id": 6,
+          "character": "Cole Scott",
+          "character_id": 0,
+          "action": "Considering the feedback",
+          "dialogue": "Alright, I can work with that. Let’s do some market research and see what the data says. But I’m not giving up on the comfort food angle."
+        }
+      ],
+      "plot": "Cole, Silas, and Tyler meet to finalize the restaurant’s concept. Cole is passionate about classic comfort food, while Silas and Tyler raise concerns about health trends and cost control. A compromise is suggested, and the team agrees to gather data before making a final decision.",
+      "social_purpose": "To explore the tension between Cole’s vision for comfort food and the practical concerns of his partners, showcasing his determination, pragmatism, and willingness to collaborate.",
+      "chunk": {
+        "id": 0,
+        "text": "Cole, Silas, and Tyler meet for a planning session in a downtown café to finalize the restaurant’s concept. Cole presents his idea of classic comfort food as the core offering, but Silas and Tyler express reservations. Silas suggests integrating healthier options, while Tyler focuses on cost and brand positioning. After a spirited discussion, they agree to a compromise and gather more data to support their decision."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

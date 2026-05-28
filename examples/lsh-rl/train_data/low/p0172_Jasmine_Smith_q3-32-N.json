@@ -1,0 +1,102 @@
+{
+  "title": "A New Seat at the Table",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Jasmine approaches Henry and Lucas to sit with them at lunch",
+      "time": "12:00 PM",
+      "location": "Cafeteria, high school",
+      "description": "Jasmine, a high school sophomore with social anxiety, is standing near the table of Henry and Lucas, two popular students known for being friendly and open. The cafeteria is filled with chatter and the clinking of trays, but Jasmine's heart is pounding as she prepares to ask if she can join them.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Jasmine Smith",
+          "gender": "Female",
+          "description": "A 17-year-old high school student who is introverted and determined to become more extroverted. She has a small group of close friends but has been eyeing Henry and Lucas for a while.; years old / Female / High school student, 17 years old; Occupation: High school student; Personality: Introverted, Determined, Nervous, Optimistic; Values: Self-improvement, Friendship, Courage; Interests: Socializing, Personal growth, Campus activities; Experiences: Has social anxiety, Recently decided to become extroverted, Has a small group of close friends",
+          "position": "Standing near the table",
+          "states": "Nervous, hopeful, determined",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Henry Ramirez",
+          "gender": "Male",
+          "description": "Outgoing and friendly 17-year-old high school junior who is part of a tight-knit social group and known for his kindness and willingness to include others; Male; Age: 17; Occupation: Student; Personality: Kind, approachable, empathetic; Values: Inclusivity, loyalty, respect; Interests: Playing basketball, listening to indie music, making people laugh; Experiences: Organized a school-wide kindness campaign, helped a shy freshman integrate into the group last year, volunteered at a community youth center.",
+          "position": "Sitting at the table",
+          "states": "Curious, welcoming, relaxed",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Lucas Chen",
+          "gender": "Male",
+          "description": "A laid-back and humorous 17-year-old high school junior who is part of Henry's group; Male; Age: 17; Occupation: Student; Personality: Charismatic, empathetic, witty; Values: Friendship, inclusivity, authenticity; Interests: Stand-up comedy, video games, helping others; Experiences: Volunteered at a youth mentorship program, organized a school-wide kindness week, has a history of befriending shy or new students.",
+          "position": "Sitting at the table",
+          "states": "Amused, supportive, open",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Jasmine Smith",
+          "character_id": 0,
+          "action": "approaches the table",
+          "dialogue": "Um... hi, I'm Jasmine. Do you mind if I sit here? I've seen you guys before and I thought it'd be nice to get to know you."
+        },
+        {
+          "action_id": 1,
+          "character": "Henry Ramirez",
+          "character_id": 1,
+          "action": "smiles and gestures to an empty seat",
+          "dialogue": "Hey, Jasmine! Of course, we don't mind at all. Please, sit down."
+        },
+        {
+          "action_id": 2,
+          "character": "Lucas Chen",
+          "character_id": 2,
+          "action": "jokes to lighten the mood",
+          "dialogue": "You're not trying to steal our fries, are you? Kidding, kidding! We're just glad to have you here."
+        },
+        {
+          "action_id": 3,
+          "character": "Jasmine Smith",
+          "character_id": 0,
+          "action": "sits down and tries to join the conversation",
+          "dialogue": "Thanks, I really appreciate it. I've been trying to get more involved in school this year, so this is a big step for me."
+        },
+        {
+          "action_id": 4,
+          "character": "Henry Ramirez",
+          "character_id": 1,
+          "action": "asks a question to encourage conversation",
+          "dialogue": "That's awesome! What kind of activities are you interested in?"
+        },
+        {
+          "action_id": 5,
+          "character": "Lucas Chen",
+          "character_id": 2,
+          "action": "adds a comment to support Jasmine",
+          "dialogue": "Yeah, I'm always up for trying new clubs or events. What's on your list?"
+        },
+        {
+          "action_id": 6,
+          "character": "Jasmine Smith",
+          "character_id": 0,
+          "action": "responds with enthusiasm",
+          "dialogue": "I really want to join the debate team, and maybe the environmental club. I think it would help me grow and meet more people."
+        }
+      ],
+      "plot": "Jasmine nervously approaches Henry and Lucas at lunch and asks if she can sit with them. They welcome her warmly and engage in a conversation about school activities and personal interests. Jasmine shares her goals of joining the debate team and environmental club, showing her determination and optimism. The interaction helps her feel more confident and accepted.",
+      "social_purpose": "To show Jasmine's proactive step toward expanding her social circle, while naturally revealing her values of self-improvement and friendship, and her traits of being determined, nervous, and optimistic.",
+      "chunk": {
+        "id": 0,
+        "text": "Jasmine, a 17-year-old high school sophomore, stood near the table of Henry and Lucas in the cafeteria, her heart racing. She had always admired their easygoing camaraderie from afar but had never had the courage to approach them. Today, however, was different. Taking a deep breath, she asked if she could sit with them. Henry smiled and welcomed her with open arms, while Lucas added a lighthearted joke to ease the tension. Jasmine, feeling a mix of nervousness and excitement, shared her aspirations to join the debate team and environmental club, showing her determination to grow and connect. The experience was a significant milestone for her, offering a glimpse of the possibilities that lay beyond her comfort zone."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

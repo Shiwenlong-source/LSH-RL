@@ -1,0 +1,102 @@
+{
+  "title": "Rebuilding on the Rink",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Elena's first team training session after surgery",
+      "time": "Afternoon",
+      "location": "Ice hockey rink, locker room and training field",
+      "description": "Elena Perry, a 26-year-old ice hockey player, is preparing for her first team training session after a recent surgery. Her friend Sun and teammate Alice are present, offering their perspectives on her readiness for the session.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Elena Perry",
+          "gender": "Female",
+          "description": "A determined and ambitious ice hockey player who is in the early stages of post-surgery recovery. She is introspective and wrestling with the balance between perseverance and caution.; Female/Athlete, 26 years old; Occupation: Ice Hockey Player; Personality: Determined, Ambitious, Introspective; Values: Perseverance, Teamwork, Self-improvement; Interests: Sports, Physical Training, Goal Setting; Experiences: Recent surgery, Post-surgery recovery, Team training, Friendship interactions, Performance pressure",
+          "position": "Training field",
+          "states": "Nervous but focused",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Sun",
+          "gender": "Female",
+          "description": "Elena's close friend and emotional supporter; Female; Age: 27; Occupation: Sports therapist; Personality: Empathetic, encouraging, observant; Values: Compassion, perseverance, trust; Interests: Fitness, mindfulness practices, team-building activities; Experiences: Rehabilitating athletes after injuries, supporting Elena through her recovery process, participating in amateur ice hockey leagues.",
+          "position": "Locker room",
+          "states": "Supportive and reassuring",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Alice",
+          "gender": "Female",
+          "description": "Alice; Female; Age: 28; Occupation: Professional ice hockey player and team captain; Personality: assertive, competitive, supportive; Values: teamwork, perseverance, integrity; Interests: strategy games, fitness training, mentoring younger athletes; Experiences: led her team to a national championship, recovered from a major knee injury, has trained with athletes of various skill levels.",
+          "position": "Training field",
+          "states": "Encouraging and challenging",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Sun",
+          "character_id": 1,
+          "action": "Approaches Elena in the locker room",
+          "dialogue": "Hey, you look like you're ready to take this on. Just remember, you're not alone in this, okay?"
+        },
+        {
+          "action_id": 1,
+          "character": "Elena Perry",
+          "character_id": 0,
+          "action": "Smiles weakly but nods",
+          "dialogue": "Thanks, Sun. I just hope I can keep up with the rest of the team."
+        },
+        {
+          "action_id": 2,
+          "character": "Alice",
+          "character_id": 2,
+          "action": "Joins them and claps Elena on the back",
+          "dialogue": "You can do it, Elena. We all know you're stronger than you think. Let's push harder than ever today."
+        },
+        {
+          "action_id": 3,
+          "character": "Elena Perry",
+          "character_id": 0,
+          "action": "Looks at Alice with a mix of determination and hesitation",
+          "dialogue": "I want to, but I'm still figuring out my limits. I don't want to overdo it and set myself back."
+        },
+        {
+          "action_id": 4,
+          "character": "Sun",
+          "character_id": 1,
+          "action": "Places a hand on Elena's shoulder",
+          "dialogue": "That's okay. We all have to take it step by step. Just listen to your body, and we'll be here for you."
+        },
+        {
+          "action_id": 5,
+          "character": "Alice",
+          "character_id": 2,
+          "action": "Suggests a training plan",
+          "dialogue": "What if we start with some light drills and then work our way up? I can keep an eye on you and make sure you don't push too hard too soon."
+        },
+        {
+          "action_id": 6,
+          "character": "Elena Perry",
+          "character_id": 0,
+          "action": "Considers the suggestion and agrees",
+          "dialogue": "That sounds like a good idea. I want to get back to my best, but I also need to be smart about it."
+        }
+      ],
+      "plot": "Elena is preparing for her first team training session after surgery. Her friend Sun reassures her while her teammate Alice proposes a training plan that balances challenge with caution. Elena agrees to proceed gradually, showing her introspective nature and commitment to self-improvement.",
+      "social_purpose": "To showcase Elena's struggle to balance her ambition with her physical limitations, while also highlighting the supportive and competitive dynamics in her relationships with Sun and Alice.",
+      "chunk": {
+        "id": 0,
+        "text": "Elena, Sun, and Alice are preparing for the training session. The team is counting on her, and she is determined to prove she can still contribute. Sun's emotional support and Alice's competitive encouragement create a complex but supportive environment for Elena's return to the sport she loves."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

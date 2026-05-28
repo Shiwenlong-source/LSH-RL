@@ -1,0 +1,102 @@
+{
+  "title": "A New Rhythm to Follow",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Lucy and her friends discussing festival plans at a local coffee shop",
+      "time": "Afternoon",
+      "location": "A cozy corner in a local café",
+      "description": "Lucy, Anna, and Jisoo sit in a small booth, sipping their drinks and discussing the cancellation of Lollapalooza. The mood is a mix of disappointment and cautious optimism as they explore other options.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Lucy Robertson",
+          "gender": "female",
+          "description": "Lucy is a passionate and imaginative young woman who is visibly upset about the festival cancellation. She clings to the idea of finding a new event that can match her excitement.; female, early, 25 years old; Occupation: Part-time worker; Personality: Optimistic, Imaginative, Emotional; Values: Passion for music, Friendship, Open-mindedness; Interests: Music festivals, Creative imagination, Companionship; Experiences: Attending music events, Caring for imaginary pets, Making impromptu plans",
+          "position": "Seated in the middle",
+          "states": "Disappointed, hopeful, emotional",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Anna Thompson",
+          "gender": "female",
+          "description": "Anna is Lucy's optimistic and energetic best friend; Female; Age: 23; Occupation: Event Coordinator; Personality: Enthusiastic, encouraging, supportive; Values: Friendship, creativity, adaptability; Interests: Music festivals, DIY crafts, exploring new local businesses; Experiences: Organized a successful college festival, helped friends plan surprise events, bounced back from a major event cancellation last year.",
+          "position": "Seated to Lucy's left",
+          "states": "Enthusiastic, encouraging, supportive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Jisoo Kim",
+          "gender": "female",
+          "description": "Jisoo is Lucy's pragmatic and cautious roommate; Female; Age: 23; Occupation: Part-time marketing assistant and freelance graphic designer; Personality: Analytical, empathetic, risk-averse; Values: Financial responsibility, stability, loyalty; Interests: Thrift shopping, indie music, journaling; Experiences: Worked multiple jobs to support herself through college, had a friend lose money in a failed event investment, prefers low-stress weekend activities.",
+          "position": "Seated to Lucy's right",
+          "states": "Cautious, thoughtful, concerned",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Lucy Robertson",
+          "character_id": 0,
+          "action": "Expresses disappointment and uncertainty",
+          "dialogue": "I can't believe Lollapalooza got canceled. I was so excited for it... What if nothing else feels the same?"
+        },
+        {
+          "action_id": 1,
+          "character": "Anna Thompson",
+          "character_id": 1,
+          "action": "Offers a hopeful suggestion",
+          "dialogue": "Hey, don't lose hope! I heard about this new festival called Curiosa. It's not as big, but they're doing some really creative things with music and art. We could go!"
+        },
+        {
+          "action_id": 2,
+          "character": "Jisoo Kim",
+          "character_id": 2,
+          "action": "Voices concerns about the decision",
+          "dialogue": "I get it, but Curiosa is in a different city and the lineup isn't as clear. Are we sure it's worth the time and money?"
+        },
+        {
+          "action_id": 3,
+          "character": "Lucy Robertson",
+          "character_id": 0,
+          "action": "Considers the alternative with curiosity",
+          "dialogue": "I haven't heard of it before... But I do love discovering new music and art. Maybe it could be something special?"
+        },
+        {
+          "action_id": 4,
+          "character": "Anna Thompson",
+          "character_id": 1,
+          "action": "Shares more details to build excitement",
+          "dialogue": "There's a mix of indie and electronic acts, and they're doing interactive installations. It's definitely different from the usual big stages!"
+        },
+        {
+          "action_id": 5,
+          "character": "Jisoo Kim",
+          "character_id": 2,
+          "action": "Suggests a compromise to address Lucy's emotions",
+          "dialogue": "How about we look into it a bit more? If it looks good, we can go, but let's make sure it's worth the effort for you, Lucy."
+        },
+        {
+          "action_id": 6,
+          "character": "Lucy Robertson",
+          "character_id": 0,
+          "action": "Shows tentative agreement and hope",
+          "dialogue": "Okay, I'll check it out. I just don't want to be let down again. But maybe it's time for something new?"
+        }
+      ],
+      "plot": "Lucy is disappointed about the cancellation of Lollapalooza and is struggling to move forward. Her friend Anna suggests the Curiosa festival as an alternative, while her roommate Jisoo remains cautious. Through their conversation, Lucy begins to consider the possibility of attending Curiosa, balancing her emotional needs with practical concerns.",
+      "social_purpose": "To explore how Lucy's values of passion for music and friendship influence her decision-making when faced with disappointment, and how her personality traits of optimism and imagination help her consider new opportunities.",
+      "chunk": {
+        "id": 0,
+        "text": "Lucy and her friends are at a local café when she learns that Lollapalooza has been canceled. Anna suggests the Curiosa festival, but Jisoo is hesitant. Lucy is caught between her disappointment and her desire to stay open-minded and find a new way to enjoy music with her friends."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

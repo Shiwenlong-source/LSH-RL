@@ -1,0 +1,102 @@
+{
+  "title": "Evening Prayer Ministry",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Phoebe decides to join the evening prayer ministry for the first time.",
+      "time": "6:30 PM",
+      "location": "Prayer room at St. John's Church",
+      "description": "Phoebe stands at the entrance of the prayer room, hesitating before stepping inside. Inside, Yuki and Lora are seated, deep in quiet reflection. The atmosphere is calm and expectant as the group prepares for their evening prayer session.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Phoebe Henderson",
+          "gender": "Female",
+          "description": "A 25-year-old new believer with a thoughtful and determined personality. She is eager to grow in her faith and contribute to the church community.; 25-year-old / Female / New believer, 24 years old; Occupation: New believer active in church ministry; Personality: Enthusiastic, Thoughtful, Determined; Values: Faith, Community service, Spiritual growth; Interests: Prayer, Church activities, Spiritual reflection; Experiences: First time participating in church ministry, Attending evening prayer sessions, Engaging in faith discussions",
+          "position": "At the door",
+          "states": "Nervous, determined",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Yuki Tanaka",
+          "gender": "Female",
+          "description": "A 32-year-old experienced prayer ministry leader who is patient and supportive; Female; Age: 32; Occupation: Prayer Ministry Coordinator and Bible Study Facilitator; Personality: Compassionate, empathetic, spiritually grounded; Values: Community, faith, inner peace; Interests: Reading theological literature, journaling personal reflections, gardening; Experiences: Led weekly prayer groups for five years, mentored new volunteers in spiritual practices, organized interfaith outreach programs.",
+          "position": "Sitting at the front",
+          "states": "Calm, encouraging",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Lora Mitchell",
+          "gender": "Female",
+          "description": "A 28-year-old member of the church who questions the impact of individual actions on the community; Female; Age: 28; Occupation: Social worker; Personality: Analytical, introspective, empathetic; Values: Integrity, communal harmony; Interests: Ethical philosophy, journaling, community service; Experiences: Volunteered in underserved neighborhoods, attended a theological debate that sparked her doubts, recently lost a close friend to a preventable tragedy.",
+          "position": "Sitting beside Yuki",
+          "states": "Curious, questioning",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Phoebe Henderson",
+          "character_id": 0,
+          "action": "enters the room",
+          "dialogue": "Phoebe takes a deep breath and walks into the prayer room, her eyes scanning the small group gathered."
+        },
+        {
+          "action_id": 1,
+          "character": "Yuki Tanaka",
+          "character_id": 1,
+          "action": "greets Phoebe",
+          "dialogue": "Yuki notices Phoebe and smiles warmly. 'Phoebe, we're glad you're here! Are you feeling ready to join us tonight?'"
+        },
+        {
+          "action_id": 2,
+          "character": "Phoebe Henderson",
+          "character_id": 0,
+          "action": "responds with hesitation",
+          "dialogue": "Phoebe nods, but her voice wavers slightly. 'I am, but I'm still learning. I don't know if I can pray in front of others yet.'"
+        },
+        {
+          "action_id": 3,
+          "character": "Lora Mitchell",
+          "character_id": 2,
+          "action": "asks a challenging question",
+          "dialogue": "Lora looks up. 'But isn't every prayer we offer important, even if it's just one voice? What if our prayers together can truly change the atmosphere of our church?'"
+        },
+        {
+          "action_id": 4,
+          "character": "Phoebe Henderson",
+          "character_id": 0,
+          "action": "reflects on Lora's words",
+          "dialogue": "Phoebe sits down and looks thoughtful. 'I guess I just want to make sure I'm doing it right. I don't want to feel like I'm holding the group back.'"
+        },
+        {
+          "action_id": 5,
+          "character": "Yuki Tanaka",
+          "character_id": 1,
+          "action": "reassures Phoebe",
+          "dialogue": "Yuki gently places a hand on Phoebe's shoulder. 'Your heart is what matters most. We're all learning together. Just showing up is a step of faith.'"
+        },
+        {
+          "action_id": 6,
+          "character": "Phoebe Henderson",
+          "character_id": 0,
+          "action": "decides to participate",
+          "dialogue": "Phoebe smiles slightly, her resolve strengthening. 'Okay, I'll try. I want to grow in my faith and be part of this community.'"
+        }
+      ],
+      "plot": "Phoebe, a new believer, faces her hesitation in joining the evening prayer ministry. Through encouragement from Yuki and a challenge from Lora, she decides to take part in the session, affirming her commitment to her faith and the church community.",
+      "social_purpose": "To demonstrate how personal growth and community contribution can be supported through faith discussions and shared goals.",
+      "chunk": {
+        "id": 0,
+        "text": "Phoebe, a 25-year-old new believer, steps into the prayer room and is greeted by Yuki, an experienced prayer leader. Lora, a thoughtful member, questions the impact of individual prayer on the community. Through dialogue and reflection, Phoebe decides to participate, showing her determination and desire for spiritual growth."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "title": "The Bachelorette Party Fire Hazard",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Bachelorette Party",
+      "time": "Evening",
+      "location": "A local bar hosting the bachelorette party",
+      "description": "Caitlin, the bride, is at her bachelorette party with friends Yong and Dubby. The group is enjoying the festivities when Caitlin notices a trash bag smoldering with smoke in the corner of the room. The others are distracted by the party, but Caitlin's firefighter instincts kick in.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Caitlin Evans",
+          "gender": "Female",
+          "description": "The bride, a 28-year-old firefighter with a calm and composed demeanor. She is responsible, decisive, and focused on safety.; 28-year-old female, Bride, 28 years old; Occupation: Firefighter; Personality: Composed, Calm, Responsible, Decisive; Values: Safety, Leadership, Responsibility; Interests: Wedding Planning, Event Coordination, Problem Solving; Experiences: Organizing events, Handling emergencies, Wedding preparation",
+          "position": "Near the trash bag",
+          "states": "Alert, composed, ready to act",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Yong",
+          "gender": "Male",
+          "description": "A close friend of Caitlin's, in his late 20s. He tends to panic in unexpected situations; Male; Age: 28; Occupation: Social media manager; Personality: enthusiastic, loyal, easily distracted; Values: friendship, spontaneity, humor; Interests: photography, urban exploring, trying new cocktails; Experiences: survived a minor office fire years ago, frequently attends Caitlin's impromptu gatherings, once got lost during a solo backpacking trip in Southeast Asia.",
+          "position": "By the bar",
+          "states": "Excited, then panicky when the issue is raised",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Dubby",
+          "gender": "Male",
+          "description": "Lighthearted and joke-making; Male; Age: 28; Occupation: Stand-up comedian; Personality: Witty, easygoing, loyal; Values: Friendship, humor in hardship; Interests: Improv nights, comedy clubs, storytelling; Experiences: Open mic circuit in college, survived a disastrous first performance, once helped organize a charity event with Caitlin.",
+          "position": "In the middle of the dance floor",
+          "states": "Lighthearted, making jokes",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Caitlin Evans",
+          "character_id": 0,
+          "action": "Noticing the smoking trash bag",
+          "dialogue": "I think that trash bag is on fire."
+        },
+        {
+          "action_id": 1,
+          "character": "Yong",
+          "character_id": 1,
+          "action": "Reacting in panic",
+          "dialogue": "What?! We need to get that out of here now!"
+        },
+        {
+          "action_id": 2,
+          "character": "Dubby",
+          "character_id": 2,
+          "action": "Making a joke",
+          "dialogue": "Relax, it's just a unique wedding tradition. I'm sure the venue knew what they were doing."
+        },
+        {
+          "action_id": 3,
+          "character": "Caitlin Evans",
+          "character_id": 0,
+          "action": "Taking charge and dragging the trash bag out",
+          "dialogue": "I'm going to take care of it. Yong, grab the fire extinguisher just in case."
+        },
+        {
+          "action_id": 4,
+          "character": "Yong",
+          "character_id": 1,
+          "action": "Following instructions",
+          "dialogue": "On it, right away!"
+        },
+        {
+          "action_id": 5,
+          "character": "Dubby",
+          "character_id": 2,
+          "action": "Changing tone to be more serious",
+          "dialogue": "You're right, Caitlin. I didn't think about that. Thanks for being on top of it."
+        }
+      ],
+      "plot": "Caitlin notices a potential fire hazard at the bachelorette party and calmly takes action to resolve it, showcasing her leadership and responsibility. Yong's panicked reaction and Dubby's initial dismissal highlight the contrast in the group's approaches to crisis. The incident tests the group's ability to collaborate and respond to unexpected situations.",
+      "social_purpose": "To demonstrate Caitlin's traits of composure, leadership, and responsibility through a real-life scenario, while also illustrating the dynamics of group behavior in a crisis.",
+      "chunk": {
+        "id": 0,
+        "text": "At the bachelorette party, Caitlin keenly noticed a smoking trash bag in the corner and quickly judged the potential fire risk. She calmly pointed out the problem and prepared to drag the trash bag out, forming a sharp contrast with Yong, who rushed forward to help in a panic, and Dubby, who joked that it was a 'unique wedding tradition.' Caitlin's composed reaction highlighted her leadership and sense of responsibility in a crisis, while the different attitudes of the others reflected the group's emotional tension in sudden situations. Although this small incident did not cause serious consequences, it tested the team's collaboration ability and Caitlin's ability to handle emergencies."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

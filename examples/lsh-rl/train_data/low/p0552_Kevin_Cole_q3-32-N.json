@@ -1,0 +1,102 @@
+{
+  "title": "The Open Comment Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Coffee shop discussion",
+      "time": "Afternoon",
+      "location": "Local coffee shop",
+      "description": "Kevin sits at a corner table with his laptop, sipping coffee and deep in thought. His friends Joe and Lay are seated across from him, engaged in a conversation about the recent changes Kevin made to his blog comment system.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Kevin Cole",
+          "gender": "Male",
+          "description": "A 48-year-old mathematics professor and academic blogger, Kevin is thoughtful and rational but also prone to hesitation and laziness.; 48-year-old male, Academic blogger, 48 years old; Occupation: Mathematics Professor; Personality: Rational, Hesitant, Lazy, Reflective; Values: Rational discourse, Autonomy, Quality first; Interests: Digital discussion, Academic writing, Technology, Social dynamics; Experiences: Blog writing, Academic research, Digital platform management, Online community interaction, Making decisions under uncertainty",
+          "position": "Corner table, central to the conversation",
+          "states": "Thoughtful, slightly anxious, sipping coffee",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Joe",
+          "gender": "Male",
+          "description": "A long-time friend and fellow blogger, Joe is pragmatic and cautious; Male; Age: 34; Occupation: Digital Marketing Consultant; Personality: Analytical, empathetic, reserved; Values: Integrity, responsibility, reliability; Interests: Blogging trends, data analytics, indie music; Experiences: Managed a popular tech blog that was targeted by trolls, advised small businesses on online reputation management, witnessed the fallout from poorly moderated online communities.",
+          "position": "Across from Kevin",
+          "states": "Concerned, leaning forward, gesturing with hands",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Lay",
+          "gender": "Non-binary",
+          "description": "An active netizen and digital community enthusiast, Lay is optimistic and values diverse opinions; Non-binary; Age: 26; Occupation: Social media strategist; Personality: Enthusiastic, curious, empathetic; Values: Inclusivity, free expression, collaboration; Interests: Online forum culture, digital art, tech gadgets; Experiences: Managed a popular indie game community on Reddit, volunteered for a local LGBTQ+ digital advocacy group, organized virtual panel discussions on internet ethics.",
+          "position": "Next to Joe",
+          "states": "Enthusiastic, animated, smiling",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Kevin Cole",
+          "character_id": 0,
+          "action": "Expresses his thoughts on the new comment settings",
+          "dialogue": "I just opened up the comments to anyone, but I'm not sure if it's the right move. I want to encourage discussion, but I also don't want to lose control of the quality."
+        },
+        {
+          "action_id": 1,
+          "character": "Joe",
+          "character_id": 1,
+          "action": "Shares his concerns",
+          "dialogue": "You're going to get spam and trolls for sure. I've seen it happen to other blogs. It's not worth the hassle if you're not prepared to moderate it."
+        },
+        {
+          "action_id": 2,
+          "character": "Lay",
+          "character_id": 2,
+          "action": "Encourages Kevin to take a risk",
+          "dialogue": "But that's the whole point, isn't it? If you're looking for rational exchange, you have to be open to clashing viewpoints. The noise can be a part of the process."
+        },
+        {
+          "action_id": 3,
+          "character": "Kevin Cole",
+          "character_id": 0,
+          "action": "Considers the feedback and responds with hesitation",
+          "dialogue": "I know what you're saying, Lay. I do want to keep things open, but I'm not sure I have the energy to clean up after it if it goes south."
+        },
+        {
+          "action_id": 4,
+          "character": "Joe",
+          "character_id": 1,
+          "action": "Offers a compromise",
+          "dialogue": "Maybe start with a trial period and set some basic rules. That way, you can see how it goes without jumping in too deep."
+        },
+        {
+          "action_id": 5,
+          "character": "Lay",
+          "character_id": 2,
+          "action": "Supports the idea of a trial",
+          "dialogue": "That's a good idea. Moderation doesn't have to be constant, just enough to keep things on track. You're not alone in this, Kevin."
+        },
+        {
+          "action_id": 6,
+          "character": "Kevin Cole",
+          "character_id": 0,
+          "action": "Agrees to the compromise",
+          "dialogue": "Alright, maybe a trial period is the way to go. I don't want to compromise the quality of the discourse, but I also don't want to shut people out."
+        }
+      ],
+      "plot": "Kevin, a mathematics professor and academic blogger, is considering the consequences of opening up his blog comments to the public. His friend Joe warns him of potential spam and chaos, while Lay encourages him to embrace diverse opinions. Kevin ultimately decides to try a trial period to balance openness and quality in his online community.",
+      "social_purpose": "This scene explores the tension between openness and control in digital spaces through a realistic social interaction. It highlights Kevin's values of rational discourse and autonomy, as well as his personality traits of hesitation and laziness. The scenario also showcases the importance of community feedback and compromise in decision-making.",
+      "chunk": {
+        "id": 0,
+        "text": "Kevin, a mathematics professor and academic blogger, is considering the consequences of opening up his blog comments to the public. His friend Joe warns him of potential spam and chaos, while Lay encourages him to embrace diverse opinions. Kevin ultimately decides to try a trial period to balance openness and quality in his online community."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

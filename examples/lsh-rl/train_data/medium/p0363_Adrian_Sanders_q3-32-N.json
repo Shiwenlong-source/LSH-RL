@@ -1,0 +1,119 @@
+{
+  "title": "The Final Decision",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "A coffee meetup to discuss the Alaska trip",
+      "time": "Evening",
+      "location": "A cozy local café",
+      "description": "Adrian sits at a corner table, sipping a black coffee, while his mother, Lora, and a close friend named Marcus join him. The atmosphere is warm but tense, as the group discusses Adrian's decision to move to Alaska and start a new chapter in his life.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Adrian Sanders",
+          "gender": "Male",
+          "description": "24-year-old blogger, recently broken up, introspective and empathetic, seeking independence and personal growth.; 24-year-old /male/blogger, 24 years old; Occupation: Blogger; Personality: Ambitious, Introspective, Empathetic; Values: Independence, Growth, Authenticity; Interests: Travel, Self-reflection, Digital content creation; Experiences: Recently went through a breakup, Moving to a new city, Having supportive friends, Family concerns, Finding meaning in life",
+          "position": "Corner table, center seat",
+          "states": "Thoughtful, conflicted, but determined",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Lora Bennett",
+          "gender": "Female",
+          "description": "Lora Bennett; Female; Age: 26; Occupation: Marketing Specialist; Personality: Supportive, adventurous, empathetic; Values: Friendship, personal growth, authenticity; Interests: Travel planning, indie music, outdoor photography; Experiences: Traveled extensively across North America with Adrian, helped him through a career crossroads, recently moved to a new city for a job promotion.",
+          "position": "Across from Adrian",
+          "states": "Encouraging, concerned, but optimistic",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Marcus Chen",
+          "gender": "Male",
+          "description": "Marcus Chen; Male; Age: 30; Occupation: Financial Analyst; Personality: Cautious, analytical, protective; Values: Stability, responsibility, family; Interests: Long-term financial planning, outdoor photography, reading biographies; Experiences: Helped manage family finances after his father's early retirement, advised Adrian through past financial missteps, witnessed the consequences of impulsive life decisions in his youth.",
+          "position": "Next to Lora",
+          "states": "Cautious, analytical, and protective",
+          "is_npc": true
+        },
+        {
+          "id": 3,
+          "name": "Mrs. Sanders",
+          "gender": "Female",
+          "description": "Adrian's mother, Mrs. Sanders; Female; Age: 52; Occupation: High school English teacher; Personality: Caring, overprotective, empathetic; Values: Family, safety, personal growth; Interests: Reading classic literature, gardening, baking; Experiences: Lost her husband to a sudden illness, watched Adrian struggle with self-doubt after college, recently helped care for a neighbor who moved to a remote area and faced isolation.",
+          "position": "Beside Adrian",
+          "states": "Nervous, loving, and hesitant",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Adrian Sanders",
+          "character_id": 0,
+          "action": "Shares his travel plans and aspirations",
+          "dialogue": "I've been thinking a lot about this, and I really believe moving to Alaska is the best step for me. It's time to grow, to create something real from my blog, and to find myself again."
+        },
+        {
+          "action_id": 1,
+          "character": "Lora Bennett",
+          "character_id": 1,
+          "action": "Expresses support and excitement",
+          "dialogue": "That sounds amazing, Adrian! I've always loved your passion for travel and self-reflection. This is exactly the kind of change you need."
+        },
+        {
+          "action_id": 2,
+          "character": "Marcus Chen",
+          "character_id": 2,
+          "action": "Raises concerns about practicality",
+          "dialogue": "I get it, but have you thought about the logistics? The cost of living there, the job market, and how you'll sustain your blog? You can't just run on passion alone."
+        },
+        {
+          "action_id": 3,
+          "character": "Mrs. Sanders",
+          "character_id": 3,
+          "action": "Voices emotional concerns",
+          "dialogue": "I just worry about you being alone, Adrian. After your breakup, I don't want you to feel even more isolated. But if this is what you truly want, I'll support you."
+        },
+        {
+          "action_id": 4,
+          "character": "Adrian Sanders",
+          "character_id": 0,
+          "action": "Reassures his mother and addresses Marcus's concerns",
+          "dialogue": "Mom, I know it's scary, but I need this for my growth. And Marcus, I've done some research. I'm not going blindly. I'll start with a freelance contract and build up the blog gradually."
+        },
+        {
+          "action_id": 5,
+          "character": "Lora Bennett",
+          "character_id": 1,
+          "action": "Suggests a way to stay connected",
+          "dialogue": "Why don't you do a vlog series about your journey? I can help you edit and share it with your audience. It'll help you stay grounded and connected to us."
+        },
+        {
+          "action_id": 6,
+          "character": "Marcus Chen",
+          "character_id": 2,
+          "action": "Offers to help with budget planning",
+          "dialogue": "I can help you create a realistic budget. Maybe it's not the most exciting part, but it's essential for your independence."
+        },
+        {
+          "action_id": 7,
+          "character": "Adrian Sanders",
+          "character_id": 0,
+          "action": "Expresses gratitude and resolves to move forward",
+          "dialogue": "Thank you both for being here and helping me think this through. I know it's not just about me. This is about finding authenticity and meaning for myself."
+        }
+      ],
+      "plot": "Adrian is at a critical juncture in his life, deciding whether to move to Alaska to pursue his passion for travel and blogging. His mother is worried about his independence, while his friend Lora encourages the move and offers support. His cousin Marcus, though well-meaning, is more cautious and raises practical concerns. Through a heartfelt conversation at a café, Adrian finds the courage to pursue his dreams, with the help of his loved ones.",
+      "social_purpose": "To explore the protagonist's internal conflict and how his values of independence, growth, and authenticity are influenced by the perspectives of his family and friends.",
+      "chunk": {
+        "id": 0,
+        "text": "Adrian's decision to move to Alaska is a turning point in his life. The supportive dialogue with Lora and the practical advice from Marcus and his mother help him clarify his thoughts and strengthen his resolve to pursue a more authentic and meaningful path."
+      },
+      "npcs": [
+        1,
+        2,
+        3
+      ]
+    }
+  ]
+}

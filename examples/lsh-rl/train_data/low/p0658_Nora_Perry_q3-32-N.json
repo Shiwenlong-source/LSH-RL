@@ -1,0 +1,74 @@
+{
+  "title": "A Night to Remember",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Memorial Service Speech",
+      "time": "Evening",
+      "location": "Community Center Auditorium",
+      "description": "Nora Perry stands at the edge of the stage, clutching her speech script, as friends Yuki and Yong offer support and encouragement in the audience.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Nora Perry",
+          "gender": "Female",
+          "description": "A 26-year-old musical theater actor who is struggling with stage fright and grief.; Female, Community Event Participant, 26 years old; Occupation: Musical Theater Actor; Personality: Sensitive, Determined, Thoughtful; Values: Friendship, Self-growth, Respect; Interests: Music, Performance, Creative Expression; Experiences: Deep relationship with a deceased best friend, Organizing community events, Overcoming stage fright",
+          "position": "Stage Edge",
+          "states": "Nervous, Thoughtful",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Yuki Tanaka",
+          "gender": "Female",
+          "description": "Yuki Tanaka; Female; Age: 32; Occupation: Counselor at a local community mental health center; Personality: Compassionate, patient, observant; Values: Empathy, integrity, emotional well-being; Interests: Mindfulness practices, reading memoirs, helping others heal; Experiences: Provided grief counseling after a school tragedy, volunteered at a bereavement support group, lost a close friend to illness and helped others through similar losses.",
+          "position": "First Row, Audience",
+          "states": "Encouraging, Calm",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Yong Kim",
+          "gender": "Male",
+          "description": "A lighthearted and energetic friend who helps Nora overcome her anxieties through humor; Male; Age: 28; Occupation: High school theater teacher; Personality: Encouraging, witty, empathetic; Values: Loyalty, resilience, joy in everyday moments; Interests: Stand-up comedy, storytelling, community events; Experiences: Organized a school talent show that boosted a shy student's confidence, attended multiple friends' public speaking milestones and offered support.",
+          "position": "First Row, Audience",
+          "states": "Playful, Supportive",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Yuki Tanaka",
+          "character_id": 1,
+          "action": "Reassures Nora",
+          "dialogue": "Nora, you're doing great. Mona would be so proud of you right now. Just breathe and let the words come naturally."
+        },
+        {
+          "action_id": 1,
+          "character": "Yong Kim",
+          "character_id": 2,
+          "action": "Shares a memory",
+          "dialogue": "Remember the time we all tried to sing Mona's favorite Broadway song at karaoke? She made us all feel like stars, even when we sounded like cats in a blender."
+        },
+        {
+          "action_id": 2,
+          "character": "Nora Perry",
+          "character_id": 0,
+          "action": "Takes a deep breath",
+          "dialogue": "You're right, Yuki. And Yong, that memory always makes me smile. She had a way of turning everything into a celebration."
+        }
+      ],
+      "plot": "Nora is about to give a speech at her best friend Mona's memorial service, but is overwhelmed by grief and stage fright. Her friends Yuki and Yong are in the audience, trying to support her through shared memories and encouragement.",
+      "social_purpose": "To show how Nora's values of friendship and self-growth are tested as she tries to honor her friend while overcoming her personal fears.",
+      "chunk": {
+        "id": 0,
+        "text": "Nora Perry stood at the edge of the stage, her heart pounding in her chest. The auditorium was filled with people who had loved Mona, and now they were all waiting for her to speak. She glanced at the front row, where Yuki and Yong sat with encouraging smiles. Yuki gave her a thumbs-up, while Yong whispered, 'Remember, we're all here for you.' Nora took a deep breath, her sensitive nature making the moment feel both sacred and overwhelming. 'You're doing great,' Yuki said gently. 'Mona would be so proud of you right now. Just breathe and let the words come naturally.' Yong added, 'And if you need a reminder of how to make people laugh, just think back to the time we all tried to sing Mona's favorite Broadway song at karaoke. She made us all feel like stars, even when we sounded like cats in a blender.' Nora smiled, her determination shining through the tears in her eyes. 'You're right, Yuki. And Yong, that memory always makes me smile. She had a way of turning everything into a celebration.' As she stepped onto the stage, the spotlight felt like Mona's presence, and she began to speak, her voice trembling but full of love and respect."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

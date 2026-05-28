@@ -1,0 +1,95 @@
+{
+  "title": "A Moment of Escape",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Ella meets Tina at a local café for a break from wedding planning",
+      "time": "3:00 PM",
+      "location": "Sunset Café, a cozy and quiet spot in the city",
+      "description": "Ella sits at a corner table, sipping a cup of tea while her best friend Tina gently encourages her to take a break from the wedding chaos. Bob, her fiancé, joins them briefly before returning to work, showing his concern but also his understanding. The shared goal is to help Ella regain her composure and energy for the final wedding preparations.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Ella Marshall",
+          "gender": "female",
+          "description": "On the verge of an emotional breakdown from wedding planning stress. She is grateful for her friends' support but feels overwhelmed.; female, fiancée, 26 years old; Occupation: Bank clerk; Personality: Anxious, Grateful, Exhausted, Resilient; Values: Interpersonal relationships, Self-care, Commitment; Interests: Wedding planning, Friendship, Relaxation; Experiences: Planning a wedding, Dealing with family pressure, Seeking emotional relief",
+          "position": "seated at the table, clutching her tea",
+          "states": "Anxious, Grateful, Exhausted",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Tina Carter",
+          "gender": "female",
+          "description": "Ella's best friend and the one who suggested the break; Female; Age: 29; Occupation: Event planner; Personality: Empathetic, supportive, optimistic; Values: Friendship, balance, emotional well-being; Interests: Baking, journaling, indie films; Experiences: Helped plan a close friend’s stressful wedding and learned the importance of self-care, volunteered at a mental health awareness nonprofit.",
+          "position": "sitting across from Ella, gently speaking",
+          "states": "Supportive, Concerned, Encouraging",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Bob Reynolds",
+          "gender": "male",
+          "description": "Ella's fiancé, trying to be supportive but also busy with work; Male; Age: 29; Occupation: Senior Project Manager at a tech startup; Personality: Caring, Responsible, Thoughtful; Values: Commitment, Work-life balance, Empathy; Interests: Urban hiking, Technology, Cooking; Experiences: Managed high-pressure projects while supporting long-distance relationships, Recently navigated a demanding work merger while planning a wedding.",
+          "position": "sitting next to Ella briefly, then leaving",
+          "states": "Supportive, Understanding, Slightly Worried",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Tina Carter",
+          "character_id": 1,
+          "action": "comforts Ella",
+          "dialogue": "Hey, you don’t have to handle everything right now. Just take a breath and let yourself relax for a bit."
+        },
+        {
+          "action_id": 1,
+          "character": "Ella Marshall",
+          "character_id": 0,
+          "action": "expresses gratitude",
+          "dialogue": "Thank you, Tina. I just feel like I’m drowning in all of this. I don’t know if I’m being fair to Bob or my family."
+        },
+        {
+          "action_id": 2,
+          "character": "Bob Reynolds",
+          "character_id": 2,
+          "action": "joins the conversation",
+          "dialogue": "Hey, I just wanted to check in. I know things are hectic, but I’m here for you, always."
+        },
+        {
+          "action_id": 3,
+          "character": "Ella Marshall",
+          "character_id": 0,
+          "action": "shares her feelings",
+          "dialogue": "I love him and I love my family, but I need a moment to just breathe. I’m trying to be committed and strong, but it’s hard."
+        },
+        {
+          "action_id": 4,
+          "character": "Tina Carter",
+          "character_id": 1,
+          "action": "reassures Ella",
+          "dialogue": "You’re doing the best you can, and that’s what matters. Taking care of yourself is part of being committed, not the opposite."
+        },
+        {
+          "action_id": 5,
+          "character": "Bob Reynolds",
+          "character_id": 2,
+          "action": "leaves to return to work",
+          "dialogue": "I’m going to head back to the office, but I’ll be thinking about you. Take your time, okay?"
+        }
+      ],
+      "plot": "Ella is overwhelmed by the pressures of wedding planning and agrees to take a break with her best friend Tina. Bob shows his support but respects her need for space, allowing her to focus on self-care.",
+      "social_purpose": "To demonstrate Ella’s emotional state and how her values of interpersonal relationships and self-care are reflected in her interactions with Tina and Bob.",
+      "chunk": {
+        "id": 0,
+        "text": "Ella sat at the table, her hands wrapped around the warm cup of chamomile tea. The café was just the kind of place she needed—quiet, with soft jazz playing in the background and the scent of fresh pastries filling the air. Tina leaned forward, her voice gentle but firm. 'You don’t have to handle everything at once, Ella. You’re doing great, but you need to breathe.' Ella looked up, her eyes red but her smile grateful. 'I just feel like I’m failing everyone. Bob is trying so hard, and my family is breathing down my neck.' Bob, who had just joined them, placed a hand on her shoulder. 'I know it’s tough, but I’m here for you. You don’t have to do this alone.' Ella nodded, her exhaustion evident. 'I love you both. I just need this break. I’ll come back stronger.' Tina squeezed her hand. 'That’s all I ask for.' Bob stood, giving her a kiss on the forehead. 'I’ll be back soon. Take care of her, Tina.' As Bob left, Ella exhaled, feeling a small but real sense of relief."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

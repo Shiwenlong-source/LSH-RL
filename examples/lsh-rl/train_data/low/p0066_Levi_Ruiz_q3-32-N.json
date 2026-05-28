@@ -1,0 +1,102 @@
+{
+  "title": "Typhoon Delays and Decisions",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Waiting for flight updates due to typhoon",
+      "time": "Evening, 7:00 PM",
+      "location": "Hiroshima Airport Terminal",
+      "description": "Levi Ruiz and his friends are waiting for the delayed flight to leave for Tokyo. The airport is broadcasting updates about the typhoon, and the crowd is growing restless. Levi is trying to figure out the best course of action while considering the needs of the group.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Levi Ruiz",
+          "gender": "Male",
+          "description": "A rational and pragmatic international student from the U.S., studying in Japan. He is calm and analytical, often seen as the problem-solver in the group.; years old, male, international student, 25 years old; Occupation: International student; Personality: Rational, Pragmatic, Calm, Analytical; Values: Responsibility, Efficiency, Teamwork; Interests: Travel, Planning, Problem-solving; Experiences: Studying abroad in Japan, Handling travel delays, Managing team relationships, Coping with stressful situations",
+          "position": "Near the departure gate",
+          "states": "Calm, focused, slightly tense due to the delay",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Bob Johnson",
+          "gender": "Male",
+          "description": "Levi’s friend and travel companion; Male; Age: 32; Occupation: Freelance graphic designer; Personality: Impulsive, easily stressed, optimistic; Values: Responsibility, punctuality, group harmony; Interests: Video games, coffee culture, weather tracking; Experiences: Lost a client due to a missed deadline once, survived a close call during a past natural disaster in the Philippines, frequently travels for work and collaborates with Japanese clients.",
+          "position": "Levi’s side",
+          "states": "Anxious, impatient, looking for reassurance",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Maya Tanaka",
+          "gender": "Female",
+          "description": "A local Japanese student and Levi’s acquaintance. She is helpful and empathetic, trying to support the group with her knowledge of the airport and local transportation; Female; Age: 21; Occupation: International Relations Student; Personality: Compassionate, detail-oriented, patient; Values: Community, reliability, cultural understanding; Interests: Travel, weather patterns, language exchange; Experiences: Assisted international students during typhoon evacuations, volunteered at a local disaster relief center, frequently uses public transportation for weekend trips to Tokyo.",
+          "position": "Near the information desk",
+          "states": "Calm, helpful, slightly concerned for Bob",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Bob Johnson",
+          "character_id": 1,
+          "action": "Expresses frustration",
+          "dialogue": "This is ridiculous! We were supposed to be in Tokyo by now. I have a shift tomorrow at 8 AM, and I can't afford to miss it."
+        },
+        {
+          "action_id": 1,
+          "character": "Levi Ruiz",
+          "character_id": 0,
+          "action": "Replies with a logical tone",
+          "dialogue": "I know it's frustrating, Bob. Let's look at the options. We can either wait here, which might cost us a night in a hotel, or we can try an earlier flight out of a different airport. I'll check the alternatives."
+        },
+        {
+          "action_id": 2,
+          "character": "Maya Tanaka",
+          "character_id": 2,
+          "action": "Offers assistance",
+          "dialogue": "I can help you find another flight. There's a bus to Kure Port from here, and maybe a ferry to Hiroshima City that connects to a train. It might be faster and cheaper than a hotel."
+        },
+        {
+          "action_id": 3,
+          "character": "Levi Ruiz",
+          "character_id": 0,
+          "action": "Thinks and responds",
+          "dialogue": "That sounds like a viable option. I'll compare the time and cost for both. We need to be efficient and responsible for your schedule, Bob, but also for our group’s trust in each other."
+        },
+        {
+          "action_id": 4,
+          "character": "Bob Johnson",
+          "character_id": 1,
+          "action": "Relaxes slightly",
+          "dialogue": "Okay, just tell me what we're doing. I trust you to figure it out."
+        },
+        {
+          "action_id": 5,
+          "character": "Levi Ruiz",
+          "character_id": 0,
+          "action": "Pulls out phone and starts researching",
+          "dialogue": "Let me get the ferry and train schedules. If the typhoon moves as they predict, we might be able to make it out by morning."
+        },
+        {
+          "action_id": 6,
+          "character": "Maya Tanaka",
+          "character_id": 2,
+          "action": "Nods and offers to help",
+          "dialogue": "I'll help you check the ferry availability. I know a few places where we can get updates quickly."
+        }
+      ],
+      "plot": "Levi Ruiz, a pragmatic and analytical international student, is faced with a flight delay caused by a typhoon. His friend Bob is stressed about missing work the next day, and Levi must find a solution that balances Bob’s needs with the group’s resources and trust. With the help of Maya, a local student, Levi explores alternative travel options, demonstrating his values of responsibility, efficiency, and teamwork.",
+      "social_purpose": "To show how Levi’s personality traits and values influence his decision-making in a stressful situation, while also highlighting the dynamics of teamwork and trust among friends.",
+      "chunk": {
+        "id": 0,
+        "text": "Levi Ruiz and his friends are stranded at Hiroshima Airport due to a typhoon. The group is tense, but Levi remains calm, assessing their options. Bob is anxious about missing work, and Maya offers local knowledge to help them find an alternative route. Levi’s rational and responsible nature is on display as he weighs the best course of action for the group."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

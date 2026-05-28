@@ -1,0 +1,88 @@
+{
+  "title": "A Prayer Circle Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Joseph Hill is at a crossroads about attending a prayer circle with friends.",
+      "time": "Saturday Afternoon",
+      "location": "Outside John's house",
+      "description": "Joseph stands at the edge of the sidewalk, hesitating whether to knock on the door. Kiki and Cici are already waiting inside, but he's torn between joining the group activity and his personal need for reflection.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Joseph Hill",
+          "gender": "Male",
+          "description": "22-year-old artist, thoughtful and faith-oriented, standing outside John's house, deep in contemplation.; 22-year-old /Male/Social and Faith Activity Participant, 24 years old; Occupation: Artist; Personality: Thoughtful, Social, Faith-oriented, Introspective; Values: Self-reflection, Friendship, Spiritual Growth; Interests: Social Gatherings, Spiritual Exploration, Meaningful Conversation; Experiences: Participating in group activities, Conducting personal reflection, Weighing social vs. faith choices",
+          "position": "On the sidewalk",
+          "states": "Hesitant, introspective, conflicted",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Kiki",
+          "gender": "Female",
+          "description": "24-year-old, enthusiastic and outgoing, waiting inside John's house with Cici, eager for Joseph to join the prayer circle; Female; Age: 24; Occupation: Youth Ministry Coordinator; Personality: Eager, encouraging, optimistic, compassionate, energetic; Values: Community, faith, perseverance; Interests: Organizing prayer groups, mentoring young people, playing worship music; Experiences: Led a community outreach program during college, helped several friends through difficult life transitions, recently started a weekly prayer circle to foster spiritual growth.",
+          "position": "Inside the living room",
+          "states": "Eager, encouraging, optimistic",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Cici",
+          "gender": "Female",
+          "description": "Calm and thoughtful, sitting on the couch with Kiki, advising Joseph to take his time and not rush; Female; Age: 25; Occupation: Part-time counselor and community outreach worker at a local faith-based youth center; Personality: Empathetic, patient, introspective; Values: Compassion, spiritual growth, authenticity; Interests: Reading self-help and theological books, journaling, nature walks; Experiences: Volunteered in grief support groups, helped organize youth prayer and meditation sessions, navigated her own period of spiritual questioning a few years ago.",
+          "position": "Inside the living room",
+          "states": "Calm, considerate, supportive",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Joseph Hill",
+          "character_id": 0,
+          "action": "Looks at the house with a conflicted expression",
+          "dialogue": "I just need a little more time to think about it. I don’t want to let you guys down, but I also need to be sure I’m in the right headspace for this."
+        },
+        {
+          "action_id": 1,
+          "character": "Kiki",
+          "character_id": 1,
+          "action": "Peeks out the door and calls to Joseph",
+          "dialogue": "Joseph! Come on in, we’re just getting started. It’s going to be a great time—full of meaningful conversation and spiritual connection!"
+        },
+        {
+          "action_id": 2,
+          "character": "Cici",
+          "character_id": 2,
+          "action": "Nods in agreement and adds a gentle suggestion",
+          "dialogue": "It’s okay if you need more time. We understand. Just make sure it’s what you feel is right for you."
+        },
+        {
+          "action_id": 3,
+          "character": "Joseph Hill",
+          "character_id": 0,
+          "action": "Sighs and walks closer to the door",
+          "dialogue": "I appreciate you both being so understanding. I’ll come in, but I want to be honest about what I need."
+        },
+        {
+          "action_id": 4,
+          "character": "Kiki",
+          "character_id": 1,
+          "action": "Smiles and opens the door wider",
+          "dialogue": "We’re glad you’re here, Joseph. Let’s make it a space where everyone can grow and feel comfortable."
+        }
+      ],
+      "plot": "Joseph is invited to a prayer circle by his friends Kiki and Cici. He's caught between his desire to be social and his need for personal reflection. The group's dynamics and Joseph's decision will influence their shared spiritual and social goals.",
+      "social_purpose": "To explore Joseph's internal conflict between social engagement and spiritual reflection, while showcasing the supportive nature of his friendships and their shared values.",
+      "chunk": {
+        "id": 0,
+        "text": "Joseph stood outside John's house, the afternoon sun casting long shadows across the sidewalk. He had just received a text from Kiki, inviting him to the prayer circle, and now he was here, torn between two parts of himself. He loved being with his friends, especially in moments of meaningful connection, but he also valued the quiet time he often spent reflecting on his own faith and art. As Kiki and Cici called to him from inside, he felt the weight of their expectations and his own need for clarity. Taking a deep breath, he knocked on the door."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

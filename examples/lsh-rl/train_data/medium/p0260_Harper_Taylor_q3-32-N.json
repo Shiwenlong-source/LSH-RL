@@ -1,0 +1,95 @@
+{
+  "title": "The Thesis Decision",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Waiting for advisor's feedback",
+      "time": "Afternoon",
+      "location": "University Library, Thesis Review Waiting Area",
+      "description": "Harper sits in the library's quiet waiting area, nervously tapping her pen against her notebook. Ava is seated beside her, trying to keep her calm. Tang, the advisor's assistant, approaches from the hallway, hesitating before entering the space.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Harper Taylor",
+          "gender": "Female",
+          "description": "A graduate student in her final semester, anxious and impatient as she awaits feedback on her thesis.; Female, Graduate Student, 25 years old; Occupation: Graduate Student; Personality: Anxious, Determined, Impulsive; Values: Academic Success, Independence, Clarity; Interests: Research, Higher Education, Personal Growth; Experiences: Final stages of graduate school, Waiting for critical academic feedback, Facing a difficult choice",
+          "position": "Seated at a table",
+          "states": "Anxious, Focused, Impatient",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Ava Morgan",
+          "gender": "Female",
+          "description": "Harper's close friend and fellow graduate student, who is supportive and empathetic; Female; Age: 26; Occupation: Master's student in Environmental Science; Personality: Calm, Concerned, Supportive; Values: Loyalty, Academic integrity, Sustainability; Interests: Volunteering for local conservation projects, Reading literary fiction, Hiking; Experiences: Successfully defended her own thesis last semester, Supported Harper through personal and academic challenges, Participated in multiple research fieldwork trips.",
+          "position": "Seated beside Harper",
+          "states": "Calm, Concerned, Supportive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Tang Lin",
+          "gender": "Male",
+          "description": "Tang Lin; Male; Age: 26; Occupation: Graduate Research Assistant in the Department of Environmental Science; Personality: Analytical, Introverted, Empathetic; Values: Academic Integrity, Loyalty to Mentors, Responsibility; Interests: Reading scientific journals, Birdwatching, Quiet photography; Experiences: Assisted in a high-profile research project that faced ethical scrutiny, Witnessed a colleague lose credibility due to data misrepresentation, Recently discovered a critical issue in the advisor's current thesis evaluations",
+          "position": "Standing near the entrance of the waiting area",
+          "states": "Hesitant, Observant, Tense",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Harper Taylor",
+          "character_id": 0,
+          "action": "Looks at the clock repeatedly",
+          "dialogue": "Why is it taking so long? I've been waiting for hours."
+        },
+        {
+          "action_id": 1,
+          "character": "Ava Morgan",
+          "character_id": 1,
+          "action": "Places a hand on Harper's arm",
+          "dialogue": "Harper, you need to breathe. It's not going to change just because you're anxious about it."
+        },
+        {
+          "action_id": 2,
+          "character": "Harper Taylor",
+          "character_id": 0,
+          "action": "Sighs and leans back in her chair",
+          "dialogue": "I just want clarity. This waiting is killing me."
+        },
+        {
+          "action_id": 3,
+          "character": "Tang Lin",
+          "character_id": 2,
+          "action": "Clears his throat and steps forward",
+          "dialogue": "Ms. Taylor... I have a message from Dr. Ellis regarding your thesis. Would you like to hear it now?"
+        },
+        {
+          "action_id": 4,
+          "character": "Harper Taylor",
+          "character_id": 0,
+          "action": "Stands up abruptly",
+          "dialogue": "Yes, of course. What is it?"
+        },
+        {
+          "action_id": 5,
+          "character": "Ava Morgan",
+          "character_id": 1,
+          "action": "Gently pulls Harper back down",
+          "dialogue": "Take a moment, Harper. You don't want to rush into something you might regret later."
+        }
+      ],
+      "plot": "Harper is waiting for her advisor's feedback on her thesis, which will determine whether she can proceed to defend it or must revise it. Her impatience and anxiety are evident as she struggles to sit still. Ava, her friend, tries to provide emotional support and remind Harper to be mindful of her decisions. Tang, the advisor's assistant, finally approaches with the message, but Harper's impulsive nature causes her to react before fully considering the consequences.",
+      "social_purpose": "To illustrate Harper's internal conflict between her desire for academic success and her fear of failure, while showcasing her personality traits of anxiety, determination, and impulsiveness through interactions with Ava and Tang.",
+      "chunk": {
+        "id": 0,
+        "text": "The waiting area is quiet, save for the soft hum of the library's air conditioning. Harper's eyes dart between the clock and the hallway, her mind racing with possibilities. Ava tries to distract her with small talk, but Harper can't focus. Tang's arrival brings a mix of hope and dread. Harper's determination to succeed is clear, but her anxiety and impulsive behavior threaten to undermine her carefully planned future."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

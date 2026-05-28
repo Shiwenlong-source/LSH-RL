@@ -1,0 +1,74 @@
+{
+  "title": "The Fight for Mr. Decker",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Planning a protest against the school board's decision",
+      "time": "After school, 3:30 PM",
+      "location": "The school library, secluded study area",
+      "description": "Sean and his classmates are gathered in a quiet corner of the library, discussing how to respond to the school board's decision to suspend Mr. Decker for a controversial but justified classroom debate. Sean is passionate and ready to take action, while Mike and Joy offer different perspectives.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Sean Harris",
+          "gender": "Male",
+          "description": "A determined and impulsive high school sophomore, Sean is known for his leadership and strong opinions. He is driven by a sense of justice and is willing to act boldly.; years old, Male, High School Student, 17 years old; Occupation: High School Student; Personality: Determined, Impulsive, Passionate, Confident; Values: Justice, Solidarity, Integrity; Interests: Activism, Education Reform, Team Leadership; Experiences: Organizing Student Discussions, Initiating Protests, Speaking Up for Teachers' Rights",
+          "position": "Leader of the group",
+          "states": "Angry, focused, and eager to make a change",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Mike Thompson",
+          "gender": "Male",
+          "description": "A cautious and thoughtful classmate of Sean's, Mike is a natural mediator. He supports Sean's cause but prefers to plan carefully and avoid unnecessary risks; Male; Age: 17; Occupation: High school junior and student council member; Personality: Analytical, empathetic, responsible; Values: Fairness, community, long-term impact; Interests: Political science, reading nonfiction, strategic board games; Experiences: Organized a peaceful student walkout for climate awareness, mediated a conflict between rival student groups, had a parent involved in local activism.",
+          "position": "Supportive but cautious",
+          "states": "Calm, analytical, and concerned about the consequences",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Joy Patel",
+          "gender": "Female",
+          "description": "Skeptical and pragmatic thinker; Female; Age: 17; Occupation: High school junior and student council member; Personality: Analytical, empathetic, cautious; Values: Justice, critical thinking, community impact; Interests: Reading about political theory, organizing community service events, debating current issues; Experiences: Led a campaign to improve school diversity initiatives, witnessed the consequences of poorly planned student activism, participated in a Model UN program focused on human rights.",
+          "position": "Skeptic in the group",
+          "states": "Cautious, questioning, and trying to understand the bigger picture",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Sean Harris",
+          "character_id": 0,
+          "action": "Proposes attending the school board meeting",
+          "dialogue": "We can't just sit here and do nothing. We need to show up at the school board meeting and demand they reconsider their decision on Mr. Decker. This is about justice, and we can't let them silence him like this."
+        },
+        {
+          "action_id": 1,
+          "character": "Mike Thompson",
+          "character_id": 1,
+          "action": "Supports the idea but warns about the risks",
+          "dialogue": "I agree with you, Sean. Mr. Decker deserves better. But we need to be careful. If we show up unprepared, the board might dismiss us as just a bunch of angry kids. We should plan a strategy and maybe get some teachers on our side."
+        },
+        {
+          "action_id": 2,
+          "character": "Joy Patel",
+          "character_id": 2,
+          "action": "Expresses doubt about the effectiveness of the plan",
+          "dialogue": "I get it, but will this even make a difference? The board doesn't usually listen to students. What if we end up wasting our time and energy instead of actually helping Mr. Decker?"
+        }
+      ],
+      "plot": "Sean is determined to take action against the school board's unfair treatment of Mr. Decker, a respected teacher who was suspended for defending controversial topics in class. Mike supports the idea but urges the group to be strategic, while Joy questions the feasibility of their plan. Their conversation sets the stage for a potential protest and highlights the tension between passion and practicality.",
+      "social_purpose": "To demonstrate Sean's leadership, impulsive nature, and commitment to justice, while also showing the group's dynamic and the challenges of balancing action with strategy in a social cause.",
+      "chunk": {
+        "id": 0,
+        "text": "Sean, Mike, and Joy are in the library, discussing their next steps. Sean is pacing, clearly agitated by the decision. Mike is seated at a table, calmly taking notes, and Joy is leaning against the bookshelf, arms crossed in contemplation."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

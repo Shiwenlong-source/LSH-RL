@@ -1,0 +1,123 @@
+{
+  "title": "Data Loss Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Ethan, Luna, and King meet at a local co-working space to brainstorm data recovery solutions.",
+      "time": "3:00 PM",
+      "location": "A co-working space with open workstations and a communal lounge area",
+      "description": "Ethan is visibly stressed, sitting at a table with his laptop and a few external hard drives. Luna, his close friend and a graphic designer, is seated beside him with a calm and supportive demeanor. King, a pragmatic IT professional and Ethan’s colleague, is across the table, taking notes on a tablet. The atmosphere is tense but collaborative as they discuss how to recover Ethan’s lost data.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Ethan",
+          "gender": "Male",
+          "description": "A 30-year-old software developer and music producer who is deeply invested in technology and his creative projects. He is analytical and persistent, but his anxiety is high due to the recent data loss.; Male, Tech enthusiast, 30 years old; Occupation: Software developer; Personality: Analytical, Persistent, Anxious, Creative; Values: Technology, Data integrity, Creativity, Friendship; Interests: Software development, Music production, Problem-solving, Digital tools; Experiences: Troubleshooting system failures, Attempting data recovery, Collaborating with friends, Creative work blocked",
+          "position": "Seated at the table, laptop open",
+          "states": "Stressed, determined, anxious",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Luna",
+          "gender": "Female",
+          "description": "Luna is Ethan’s close friend and a graphic designer; Female; Age: 28; Occupation: Freelance Graphic Designer and UX Artist; Personality: Empathetic, creative, patient; Values: Collaboration, emotional well-being, artistic integrity; Interests: Digital art, indie music, journaling; Experiences: Helped friends recover from personal and professional setbacks through creative problem-solving, worked on cross-disciplinary projects with IT teams to improve user interface designs.",
+          "position": "Beside Ethan, holding a notebook",
+          "states": "Supportive, calm, encouraging",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "King",
+          "gender": "Male",
+          "description": "Ethan’s pragmatic and resourceful colleague in the tech industry. He is experienced in troubleshooting and prefers structured solutions; Male; Age: 34; Occupation: IT Systems Engineer; Personality: Analytical, patient, methodical; Values: Reliability, collaboration, efficiency; Interests: Cybersecurity forums, puzzle games, minimalist design; Experiences: Managed data recovery for a mid-sized firm after a ransomware attack, led a team in implementing disaster recovery protocols, frequently mentors junior IT staff.",
+          "position": "Across the table, using a tablet",
+          "states": "Focused, logical, helpful",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Ethan",
+          "character_id": 0,
+          "action": "Ethan sighs and opens a file recovery tool on his laptop.",
+          "dialogue": "I’ve tried everything I know. I just don’t want to lose all my music projects."
+        },
+        {
+          "action_id": 1,
+          "character": "Luna",
+          "character_id": 1,
+          "action": "Luna gently places a hand on Ethan’s shoulder.",
+          "dialogue": "Hey, we’ll figure this out. Take it one step at a time, okay?"
+        },
+        {
+          "action_id": 2,
+          "character": "King",
+          "character_id": 2,
+          "action": "King taps on his tablet and looks up at Ethan.",
+          "dialogue": "You should reach out to Apple support. They might have a way to recover your data, especially if you used iCloud."
+        },
+        {
+          "action_id": 3,
+          "character": "Ethan",
+          "character_id": 0,
+          "action": "Ethan nods slowly, still visibly worried.",
+          "dialogue": "Yeah, I know. But I’ve already tried the standard tools. What if they can’t help?"
+        },
+        {
+          "action_id": 4,
+          "character": "Luna",
+          "character_id": 1,
+          "action": "Luna offers a suggestion while sketching on her notebook.",
+          "dialogue": "Maybe we can use a third-party recovery tool. I’ve heard of some that work well for system resets."
+        },
+        {
+          "action_id": 5,
+          "character": "King",
+          "character_id": 2,
+          "action": "King leans forward and opens a browser to search for recovery tools.",
+          "dialogue": "Let me look up the most reliable ones. We can start with a few options and see what works."
+        },
+        {
+          "action_id": 6,
+          "character": "Ethan",
+          "character_id": 0,
+          "action": "Ethan watches as King searches, then speaks up.",
+          "dialogue": "I just feel like all my progress is gone. It’s not just the files—it’s the memories and the work I put into them."
+        },
+        {
+          "action_id": 7,
+          "character": "Luna",
+          "character_id": 1,
+          "action": "Luna nods empathetically and shares a memory.",
+          "dialogue": "Remember when you spent weeks working on that synth track? It was a huge breakthrough for you. We’ll get it back, I promise."
+        },
+        {
+          "action_id": 8,
+          "character": "King",
+          "character_id": 2,
+          "action": "King shares the search results on the table’s screen and summarizes.",
+          "dialogue": "Here are some top-rated tools. We can try Recuva first. If it doesn’t work, we’ll go to Apple support and see what they can do."
+        },
+        {
+          "action_id": 9,
+          "character": "Ethan",
+          "character_id": 0,
+          "action": "Ethan takes a deep breath and agrees.",
+          "dialogue": "Okay, let’s start with that. I just need to remember to back up everything properly from now on."
+        }
+      ],
+      "plot": "Ethan is trying to recover his data after a system reset. His friends Luna and King help him brainstorm and suggest practical steps. The group works together to find a solution, balancing Ethan’s emotional concerns with technical options.",
+      "social_purpose": "Demonstrate Ethan’s values of creativity and data integrity, as well as his traits of anxiety and persistence, through a collaborative effort with his friend and colleague.",
+      "chunk": {
+        "id": 0,
+        "text": "Ethan, Luna, and King meet at a co-working space to address Ethan’s recent data loss after a system reset. Ethan is anxious and stressed, while Luna offers emotional support and King provides technical guidance. Together, they explore recovery tools and consider contacting Apple support, highlighting Ethan’s dedication to his creative work and the importance of data in his life."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

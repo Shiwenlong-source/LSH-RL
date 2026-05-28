@@ -1,0 +1,95 @@
+{
+  "title": "The Wedding Planning Café",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Wedding planning meeting",
+      "time": "3:00 PM",
+      "location": "A cozy local café",
+      "description": "Victoria, Mike, and Angel are seated in a quiet corner of the café, going over the wedding venue options. Victoria is holding a menu in one hand and a folder of venue contracts in the other, her posture tense and her voice quieter than usual. Mike is leaning forward, clearly frustrated, while Angel remains calm and supportive.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Victoria Ross",
+          "gender": "Female",
+          "description": "Victoria is a 32-year-old chemical researcher preparing for her wedding. She is anxious, introverted, and firm in her decisions, but visibly strained by the pressure of planning and concealing her health issues.; Female, about to get married, 32 years old; Occupation: Chemical Researcher; Personality: Anxious, Firm, Introverted; Values: Commitment, Appearance, Harmony; Interests: Wedding Planning, Planning, Social Gatherings; Experiences: About to get married, Health issues, Close friendship, Family expectations, Decision-making pressure",
+          "position": "Seated at the table, center",
+          "states": "Stressed, avoiding eye contact, clutching the folder",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Mike Thompson",
+          "gender": "Male",
+          "description": "Mike is Victoria's fiancé, a pragmatic and direct man who is growing impatient with her indecisiveness and avoidance of important conversations; Male; Age: 32; Occupation: Project Manager at a construction firm; Personality: Pragmatic, impatient, straightforward; Values: Commitment, efficiency, practicality; Interests: Home improvement, sports, and strategic board games; Experiences: Managed high-stakes projects with tight deadlines, proposed to Victoria two years ago after a long courtship, recently dealt with family pressure to settle down.",
+          "position": "Seated at the table, left side",
+          "states": "Frustrated, leaning forward, tapping the table",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Angel Chen",
+          "gender": "Female",
+          "description": "Angel is Victoria's best friend, a warm and empathetic person who tries to mediate between Victoria and Mike while offering gentle support and encouragement; Female; Age: 28; Occupation: Event Planner; Personality: Compassionate, patient, diplomatic; Values: Loyalty, harmony, authenticity; Interests: Wedding planning, tea culture, journaling; Experiences: Organized her own sister's wedding, helped plan several friends' events, worked as a coordinator for community gatherings.",
+          "position": "Seated at the table, right side",
+          "states": "Calm, attentive, sipping coffee",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Mike Thompson",
+          "character_id": 1,
+          "action": "Express frustration",
+          "dialogue": "Victoria, we’ve been going over this for weeks. You still haven’t decided on a venue. It’s not that hard, and we’re running out of time."
+        },
+        {
+          "action_id": 1,
+          "character": "Victoria Ross",
+          "character_id": 0,
+          "action": "Deflect with a joke",
+          "dialogue": "Maybe if I had a little more time, I could also solve world hunger while I’m at it. Priorities, Mike."
+        },
+        {
+          "action_id": 2,
+          "character": "Angel Chen",
+          "character_id": 2,
+          "action": "Attempt to mediate",
+          "dialogue": "Hey, relax. Victoria’s doing her best. Let’s just pick one and move forward. We can tweak the details later."
+        },
+        {
+          "action_id": 3,
+          "character": "Victoria Ross",
+          "character_id": 0,
+          "action": "Change the subject",
+          "dialogue": "Actually, I was thinking we should focus on the guest list first. It’s important that we keep things harmonious."
+        },
+        {
+          "action_id": 4,
+          "character": "Mike Thompson",
+          "character_id": 1,
+          "action": "Push back",
+          "dialogue": "Harmony won’t matter if we don’t have a place to host the wedding. You need to make a decision, Victoria. It’s not just about you anymore."
+        },
+        {
+          "action_id": 5,
+          "character": "Angel Chen",
+          "character_id": 2,
+          "action": "Offer support",
+          "dialogue": "Mike, it’s not fair to say it’s not about her. She’s under a lot of pressure. Let’s just take it one step at a time."
+        }
+      ],
+      "plot": "The trio is trying to finalize details for Victoria’s upcoming wedding, but Mike’s impatience and Victoria’s anxiety are creating tension. Victoria’s firmness in her decision-making is evident, but her introverted nature and avoidance of health-related topics make it difficult to address deeper concerns. Angel tries to keep the conversation constructive and supportive, highlighting the importance of harmony and Victoria’s well-being.",
+      "social_purpose": "To explore the dynamics of commitment, pressure, and the importance of maintaining harmony in a group setting. Victoria’s reluctance to share her health issues reflects her internal struggle between her own well-being and her desire to meet others’ expectations.",
+      "chunk": {
+        "id": 0,
+        "text": "Victoria, Mike, and Angel are seated in a quiet corner of the café, going over the wedding venue options. Victoria is holding a menu in one hand and a folder of venue contracts in the other, her posture tense and her voice quieter than usual. Mike is leaning forward, clearly frustrated, while Angel remains calm and supportive."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

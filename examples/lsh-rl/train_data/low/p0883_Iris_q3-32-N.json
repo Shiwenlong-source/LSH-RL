@@ -1,0 +1,102 @@
+{
+  "title": "Voices for Equality",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Iris and classmates discussing a response to discriminatory campus advertisements",
+      "time": "3:00 PM",
+      "location": "University Library, Study Room 2B",
+      "description": "Iris, Lila, and Lucas are seated around a table in a quiet study room, reviewing the controversial advertisements that have appeared on campus. The group is trying to decide how to respond to the issue, with Iris leading the discussion.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Iris",
+          "gender": "Female",
+          "description": "A graduate student in science, known for her proactive and idealistic nature. She is visibly anxious but resolute.; Female, Graduate Student, 28 years old; Occupation: Graduate Student in Science; Personality: Proactive, Idealistic, Determined, Anxious; Values: Justice, Equality, Academic Integrity; Interests: Scientific Research, Advocacy, Writing; Experiences: Excellent Academic Record, Experiencing Gender Discrimination, Defending Rights in Academic Settings",
+          "position": "Seated at the head of the table, holding a printed ad",
+          "states": "Determined, anxious, passionate",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Lila",
+          "gender": "Female",
+          "description": "Iris's classmate; Female; Age: 20; Occupation: Political Science major and campus debate team member; Personality: Analytical, empathetic, reserved; Values: Equity, thoughtful discourse, community harmony; Interests: Reading political theory, attending student council meetings, writing opinion pieces for the campus newspaper; Experiences: Organized a peaceful protest against biased campus policies, mediated a conflict between student groups with opposing views, grew up in a multicultural household that emphasized respectful dialogue.",
+          "position": "Sitting to Iris's left, sipping from her coffee",
+          "states": "Thoughtful, concerned, diplomatic",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Lucas",
+          "gender": "Male",
+          "description": "A pragmatic and skeptical classmate who prefers data-driven approaches over emotional arguments; Male; Age: 21; Occupation: Political Science major; Personality: Analytical, indifferent, skeptical, logical, reserved; Values: Objectivity, efficiency, fairness; Interests: Researching policy impacts, debating current events, data analysis; Experiences: Volunteered for a nonpartisan voter education campaign, witnessed ineffective activism in high school, frequently engages in academic discussions on social issues.",
+          "position": "Sitting to Iris's right, flipping through his notebook",
+          "states": "Skeptical, analytical, indifferent",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Iris",
+          "character_id": 0,
+          "action": "Iris speaks up about the discriminatory ad she just saw on campus.",
+          "dialogue": "This ad is not just offensive; it's undermining the values of our university. We can't stay silent about this."
+        },
+        {
+          "action_id": 1,
+          "character": "Lila",
+          "character_id": 1,
+          "action": "Lila expresses concern about the approach.",
+          "dialogue": "I agree it's wrong, but should we write to JRD Tata? It might come off as aggressive rather than constructive."
+        },
+        {
+          "action_id": 2,
+          "character": "Iris",
+          "character_id": 0,
+          "action": "Iris explains her motivation for taking action.",
+          "dialogue": "It's not about being aggressive. It's about standing up for justice and equality. I've seen how these ads make others feel, and I can't ignore it."
+        },
+        {
+          "action_id": 3,
+          "character": "Lucas",
+          "character_id": 2,
+          "action": "Lucas questions the effectiveness of a short letter.",
+          "dialogue": "A short letter might not even get read. We need something more substantial, like a petition with data and real evidence."
+        },
+        {
+          "action_id": 4,
+          "character": "Iris",
+          "character_id": 0,
+          "action": "Iris suggests combining both emotional and factual arguments.",
+          "dialogue": "We can write a letter that's respectful but clear, and include the petition and data to back it up. It's about making our voices heard and showing that we care about academic integrity."
+        },
+        {
+          "action_id": 5,
+          "character": "Lila",
+          "character_id": 1,
+          "action": "Lila agrees to help draft the letter.",
+          "dialogue": "Okay, I'll help you write it. But we need to make sure it's professional and well-reasoned."
+        },
+        {
+          "action_id": 6,
+          "character": "Lucas",
+          "character_id": 2,
+          "action": "Lucas offers to gather data for the petition.",
+          "dialogue": "I can look into the university's past policies and find some statistics on campus climate. That should help strengthen the case."
+        }
+      ],
+      "plot": "Iris, Lila, and Lucas are discussing how to respond to discriminatory advertisements on campus. Iris is determined to take action, while Lila is cautious about the tone and Lucas is skeptical of the impact. Through dialogue, Iris's idealism and commitment to justice are revealed, and the group agrees to combine a respectful letter with a data-backed petition to address the issue.",
+      "social_purpose": "The scenario highlights the struggle to balance idealism with practicality in advocating for equality and justice in academic settings. It also showcases how collaboration and diverse perspectives can lead to a more effective response.",
+      "chunk": {
+        "id": 0,
+        "text": "In the library, Iris, Lila, and Lucas are discussing the recent discriminatory advertisements on campus. Iris is determined to take action, but Lila and Lucas are hesitant. Through their conversation, Iris's proactive and idealistic nature shines through as she argues for a respectful yet firm response. Lila and Lucas contribute their own perspectives, with Lila emphasizing diplomacy and Lucas suggesting a data-driven approach. Ultimately, they agree to collaborate on a letter and a petition to address the issue."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

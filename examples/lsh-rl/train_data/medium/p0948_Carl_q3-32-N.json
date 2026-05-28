@@ -1,0 +1,88 @@
+{
+  "title": "After Work Coffee Break",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Colleagues sharing a coffee break and discussing the upcoming team project deadline",
+      "time": "4:00 PM",
+      "location": "Company break room",
+      "description": "Carl, Colin, and Owen are in the break room during their coffee break. The atmosphere is calm but tense due to the looming project deadline. Carl sits quietly, sipping his coffee slowly, while Colin and Owen try to engage him in conversation.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Carl",
+          "gender": "Male",
+          "description": "Middle-aged office clerk, visibly exhausted and withdrawn, struggling with recent emotional turmoil.; Male Employee, 45 years old; Occupation: Office Clerk; Personality: Moody, Vulnerable, Exhausted; Values: Loyalty, Privacy, Resilience; Interests: Family, Work-Life Balance, Mental Health; Experiences: Recent family member departure, High-pressure work environment, Emotional breakdown",
+          "position": "Near the window, sitting at the table",
+          "states": "Fatigued, emotionally fragile, quiet",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Colin",
+          "gender": "Male",
+          "description": "Supportive and talkative colleague, trying to connect with Carl and ease the tension; Male; Age: 32; Occupation: Project Coordinator; Personality: Empathetic, optimistic, persistent; Values: Team collaboration, work-life balance, reliability; Interests: Networking events, outdoor photography, coffee culture; Experiences: Successfully led a cross-departmental team through a tight deadline, mentored new hires during company onboarding, navigated workplace conflicts in previous roles.",
+          "position": "Across from Carl, holding a coffee cup",
+          "states": "Concerned, determined to help",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Owen",
+          "gender": "Male",
+          "description": "Younger, cautious colleague who notices Carl's emotional state but is unsure how to approach it; Male; Age: 26; Occupation: Junior Project Coordinator; Personality: Observant, empathetic, hesitant; Values: Team harmony, personal growth; Interests: Reading self-help books, photography, long walks; Experiences: Struggled with imposter syndrome in his first year at the company, successfully led a small internal team on a tight deadline.",
+          "position": "Next to Colin, sipping his tea",
+          "states": "Observant, empathetic, hesitant",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Colin",
+          "character_id": 1,
+          "action": "Attempts to lighten the mood",
+          "dialogue": "Hey, Carl, I know the deadline is tight, but we’ve got this. Owen and I are happy to pitch in if you need a hand with anything."
+        },
+        {
+          "action_id": 1,
+          "character": "Carl",
+          "character_id": 0,
+          "action": "Responds with a strained smile",
+          "dialogue": "Thanks, Colin. I’ve just been... a bit out of it lately. I’ll manage."
+        },
+        {
+          "action_id": 2,
+          "character": "Owen",
+          "character_id": 2,
+          "action": "Tries to show concern without being intrusive",
+          "dialogue": "If you ever want to talk about it, I’m here. I know things can get overwhelming sometimes."
+        },
+        {
+          "action_id": 3,
+          "character": "Carl",
+          "character_id": 0,
+          "action": "Avoids direct conversation",
+          "dialogue": "I appreciate that, Owen. But I think I just need some time alone to sort things out."
+        },
+        {
+          "action_id": 4,
+          "character": "Colin",
+          "character_id": 1,
+          "action": "Acknowledges Carl’s need for privacy",
+          "dialogue": "Of course, man. We all need space sometimes. Just don’t shut us out completely, okay?"
+        }
+      ],
+      "plot": "Carl is trying to cope with the stress of the project deadline while dealing with his recent emotional struggles. Colin and Owen, both concerned, attempt to support him in their own ways. Carl’s reluctance to open up highlights his need for privacy and emotional recovery.",
+      "social_purpose": "To explore Carl's emotional vulnerability and the dynamics of workplace support through a casual but meaningful interaction.",
+      "chunk": {
+        "id": 0,
+        "text": "Carl sits at the table, staring out the window as he sips his coffee. Colin and Owen exchange a glance, sensing the weight in the air. Owen hesitantly speaks up, offering his support, while Colin tries to reassure Carl that they’re a team. Carl’s quiet response shows his internal struggle, and the conversation ends with a subtle acknowledgment of his need for solitude."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

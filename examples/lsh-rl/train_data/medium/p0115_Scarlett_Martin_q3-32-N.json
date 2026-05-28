@@ -1,0 +1,102 @@
+{
+  "title": "A Day at the Park with Gigi",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Scarlett brings Gigi to a local park to find a safe place for the bird while deciding on the best care plan.",
+      "time": "Afternoon",
+      "location": "A quiet corner of Riverside Park",
+      "description": "Scarlett sits on a bench with a small box containing the injured nestling bird, Gigi. Her friend Selina is nearby, holding a notebook and looking concerned, while Jisoo leans against a tree, quietly observing. A group of people walks by, casting curious glances.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Scarlett Martin",
+          "gender": "Female",
+          "description": "A 30-year-old veterinarian, compassionate and determined, who is caring for Gigi, a fallen bird.; 30-year-old Female, 30 years old; Occupation: Veterinarian; Personality: Compassionate, Responsible, Determined; Values: Life, Responsibility, Empathy; Interests: Animal Care, Nature, Helping Others; Experiences: Caring for stray animals, Balancing personal and social responsibilities, Receiving friend support",
+          "position": "On the bench with the box",
+          "states": "Focused, slightly anxious, but resolute",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Selina",
+          "gender": "Female",
+          "description": "A 28-year-old teacher and Scarlett’s close friend, who is naturally empathetic but worries about Scarlett’s well-being; Female; Age: 28; Occupation: High school English teacher; Personality: Compassionate, observant, responsible; Values: Empathy, loyalty, the well-being of others; Interests: Birdwatching, journaling, community volunteering; Experiences: Volunteered at a local animal shelter during college, mentored at-risk students, helped Scarlett through a difficult personal loss a few years ago.",
+          "position": "Sitting on the bench beside Scarlett",
+          "states": "Cautious, supportive, and concerned",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Jisoo",
+          "gender": "Female",
+          "description": "A 31-year-old graphic designer and friend of Scarlett, who is calm and observant, offering emotional support; Female; Age: 31; Occupation: Freelance wildlife sanctuary volunteer; Personality: Calm, attentive, empathetic; Values: Compassion, mindfulness, community; Interests: Nature photography, sketching animals, birdwatching; Experiences: Volunteered at a local wildlife rehabilitation center, helped design educational materials for environmental nonprofits, lost a pet bird as a teenager which sparked her passion for animal care.",
+          "position": "Leaning against a tree a few feet away",
+          "states": "Calm, attentive, and comforting",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Scarlett Martin",
+          "character_id": 0,
+          "action": "Carefully opens the box and checks on Gigi.",
+          "dialogue": "She’s a little wobbly, but she seems to be getting stronger. I just need to make sure she’s safe until I can take her home."
+        },
+        {
+          "action_id": 1,
+          "character": "Selina",
+          "character_id": 1,
+          "action": "Leans in and gently touches Scarlett’s arm.",
+          "dialogue": "Scarlett, I know you care deeply, but you’ve been up all night. You need to take care of yourself too."
+        },
+        {
+          "action_id": 2,
+          "character": "Jisoo",
+          "character_id": 2,
+          "action": "Approaches the bench and sits down.",
+          "dialogue": "I brought some tea. Let’s take a break and talk about this. You don’t have to do everything alone."
+        },
+        {
+          "action_id": 3,
+          "character": "Scarlett Martin",
+          "character_id": 0,
+          "action": "Sips the tea and smiles gratefully.",
+          "dialogue": "Thanks, Jisoo. I know you’re both worried, but I can’t just leave her here. It’s who I am."
+        },
+        {
+          "action_id": 4,
+          "character": "Selina",
+          "character_id": 1,
+          "action": "Nods and opens her notebook.",
+          "dialogue": "Well, let’s make a plan. I can help you research the best way to care for her, and maybe we can reach out to a local wildlife rescue group."
+        },
+        {
+          "action_id": 5,
+          "character": "Jisoo",
+          "character_id": 2,
+          "action": "Picks up a small blanket and folds it over the box.",
+          "dialogue": "She looks like she’s resting now. Let’s make sure she’s comfortable while we work out the next steps."
+        },
+        {
+          "action_id": 6,
+          "character": "Scarlett Martin",
+          "character_id": 0,
+          "action": "Gently touches the box and looks at her friends.",
+          "dialogue": "You guys are the best. I know I can count on you. This might be a small thing, but it means a lot to me."
+        }
+      ],
+      "plot": "Scarlett, a compassionate veterinarian, is determined to care for Gigi, a fallen bird, and brings her to the park for a safe temporary placement. Her friends Selina and Jisoo support her, but express concerns about her overextending herself. Together, they begin to formulate a plan to ensure Gigi gets the best care while also taking care of Scarlett’s needs.",
+      "social_purpose": "To explore themes of compassion, shared responsibility, and the importance of balancing personal care with helping others, while highlighting the protagonist’s traits and values through supportive dialogue and actions.",
+      "chunk": {
+        "id": 0,
+        "text": "Scarlett carefully opens the box and checks on Gigi. 'She’s a little wobbly, but she seems to be getting stronger. I just need to make sure she’s safe until I can take her home.' Selina leans in and gently touches Scarlett’s arm. 'Scarlett, I know you care deeply, but you’ve been up all night. You need to take care of yourself too.' Jisoo approaches the bench and sits down. 'I brought some tea. Let’s take a break and talk about this. You don’t have to do everything alone.' Scarlett sips the tea and smiles gratefully. 'Thanks, Jisoo. I know you’re both worried, but I can’t just leave her here. It’s who I am.' Selina nods and opens her notebook. 'Well, let’s make a plan. I can help you research the best way to care for her, and maybe we can reach out to a local wildlife rescue group.' Jisoo picks up a small blanket and folds it over the box. 'She looks like she’s resting now. Let’s make sure she’s comfortable while we work out the next steps.' Scarlett gently touches the box and looks at her friends. 'You guys are the best. I know I can count on you. This might be a small thing, but it means a lot to me.'"
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

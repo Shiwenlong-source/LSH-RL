@@ -1,0 +1,95 @@
+{
+  "title": "The Recommendation Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "After-dinner hallway conversation",
+      "time": "6:45 PM",
+      "location": "School hallway after a faculty dinner",
+      "description": "Hailey stands in the hallway, flanked by Cici, a bright and ambitious student, and Hailey's mother, who is quietly observing the exchange. The atmosphere is tense but calm, as Hailey weighs her recommendation decision carefully.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Hailey Romero",
+          "gender": "Female",
+          "description": "A senior academic advisor in her 40s, known for her meticulous and empathetic approach to education and mentoring. She carries herself with a composed but thoughtful demeanor.; years old / Female / Educator, 40 years old; Occupation: Senior Academic Advisor; Personality: Careful, Empathetic, Analytical; Values: Integrity, Fairness, Supporting growth; Interests: Education reform, Mentoring students, Historical research; Experiences: Discovering family history, Mentoring independent research students, Navigating institutional politics, Balancing personal and professional relationships, Facilitating difficult conversations",
+          "position": "Standing near the hallway window, facing Cici and her mother",
+          "states": "Torn, composed, analytical",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Cici Lin",
+          "gender": "Female",
+          "description": "Cici is a bright and ambitious student; Female; Age: 19; Occupation: High school senior and aspiring policy researcher; Personality: Analytical, determined, empathetic; Values: Equity in education, perseverance, intellectual integrity; Interests: Writing policy papers, mentoring younger students, volunteering in community literacy programs; Experiences: Organized a student-led debate on school funding reform, tutored underprivileged children in after-school programs, recently applied for a national scholarship to study social policy.",
+          "position": "Standing slightly to Hailey's right, holding her notebook",
+          "states": "Anxious, hopeful, attentive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Mrs. Romero",
+          "gender": "Female",
+          "description": "Hailey's mother, in her late 60s, with a deep understanding of the weight of decisions and the importance of family legacy; Female; Age: 68; Occupation: Retired high school history teacher; Personality: Analytical, empathetic, patient; Values: Integrity, family, mentorship; Interests: Reading biographies, gardening, attending school events; Experiences: Witnessed the impact of strong mentorship on her own children, navigated difficult career choices in education, supported her husband through a political scandal that shaped her views on integrity.",
+          "position": "Standing slightly behind Hailey, to the left",
+          "states": "Cautious, concerned, supportive",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Cici Lin",
+          "character_id": 1,
+          "action": "Asks Hailey for her recommendation decision",
+          "dialogue": "Ms. Romero, I know this is a big decision, but I really need to know if you're going to support my application for the scholarship. It means everything to me."
+        },
+        {
+          "action_id": 1,
+          "character": "Hailey Romero",
+          "character_id": 0,
+          "action": "Pauses thoughtfully and responds with care",
+          "dialogue": "Cici, your work on the education reform project has been exceptional, and I truly believe in your potential. But I also want to make sure this recommendation is something I can stand behind with complete integrity."
+        },
+        {
+          "action_id": 2,
+          "character": "Mrs. Romero",
+          "character_id": 2,
+          "action": "Intervenes gently to express concern",
+          "dialogue": "Hailey, I just worry about the pressure this might bring. You've always been careful, and I know you'll do the right thing."
+        },
+        {
+          "action_id": 3,
+          "character": "Hailey Romero",
+          "character_id": 0,
+          "action": "Reassures her mother and continues the conversation",
+          "dialogue": "Mom, I appreciate your concern. This is about Cici's future and my responsibility as an educator. I want to support her growth, but I also need to be fair."
+        },
+        {
+          "action_id": 4,
+          "character": "Cici Lin",
+          "character_id": 1,
+          "action": "Expresses understanding and respect",
+          "dialogue": "I get it. You're not just recommending a student—you're upholding your values and the standards of our school. I respect that."
+        },
+        {
+          "action_id": 5,
+          "character": "Hailey Romero",
+          "character_id": 0,
+          "action": "Decides to give a conditional recommendation",
+          "dialogue": "Cici, I will write a strong recommendation for you, but I expect you to continue demonstrating the same level of dedication and integrity in your independent research. That's part of what makes you stand out."
+        }
+      ],
+      "plot": "Hailey is asked by Cici for a recommendation decision regarding a prestigious scholarship. Her mother, aware of Hailey's careful and empathetic nature, gently reminds her of the emotional stakes involved. Hailey, drawing on her experiences in mentoring and balancing relationships, decides to support Cici conditionally, ensuring her growth and maintaining her own standards of fairness and integrity.",
+      "social_purpose": "To demonstrate Hailey's values of integrity and supporting growth, while also showing her ability to navigate complex interpersonal dynamics and make decisions that honor both her professional and personal responsibilities.",
+      "chunk": {
+        "id": 0,
+        "text": "The small group in the hallway represents a microcosm of the larger challenges Hailey faces in her role as an educator. Her decision to recommend Cici is not just a professional one but a deeply personal one, influenced by her empathy for students and her sensitivity to family expectations."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

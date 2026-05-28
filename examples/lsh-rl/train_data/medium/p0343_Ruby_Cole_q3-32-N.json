@@ -1,0 +1,95 @@
+{
+  "title": "Pizza Night Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Group discussion about covering the cost of pizza",
+      "time": "Evening, 7:00 PM",
+      "location": "Living room of a shared apartment",
+      "description": "A group of friends are gathered in a living room, waiting for their pizza to arrive. The conversation turns to the financial dilemma of not having enough money for the order.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Ruby Cole",
+          "gender": "Female",
+          "description": "The emotional core of the group, calm and empathetic. She is sitting on the couch, trying to keep the mood light despite the tension.; 20-year-old /Female/Core of social group, 24 years old; Occupation: College student; Personality: Calm, Empathetic, Occasionally impulsive; Values: Friendship, Emotional support, Honesty; Interests: Parties, Music, Entertainment; Experiences: Handling group dynamics, Financial decisions, Resolving emotional conflicts",
+          "position": "Couch, center",
+          "states": "Hesitant, worried, trying to be supportive",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Hong",
+          "gender": "",
+          "description": "Practical and confident, Hong is lounging in an armchair, suggesting solutions; Male; Age: 26; Occupation: Freelance software developer; Personality: resourceful, easygoing, pragmatic; Values: financial independence, efficiency, fairness; Interests: budgeting, gaming, tech gadgets; Experiences: managed to save money during a lean project period, organized a successful group fundraiser for a friend's startup, frequently hosts game nights with friends on a tight budget.",
+          "position": "Armchair, left",
+          "states": "Casual, relaxed, slightly dismissive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Joy",
+          "gender": "",
+          "description": "Playful and sarcastic, Joy is sitting on the floor with a phone, joking to lighten the mood; Female; Age: 24; Occupation: Freelance graphic designer; Personality: Witty, optimistic, impulsive; Values: Friendship, creativity, spontaneity; Interests: Streaming design tutorials, thrift store shopping, making memes; Experiences: Worked part-time at a comedy café in college, helped friends pull off a surprise birthday once with little notice, struggled with irregular income as a freelancer.",
+          "position": "Floor, right",
+          "states": "Teasing, lighthearted, unaware of the emotional weight",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Hong",
+          "character_id": 1,
+          "action": "Suggests a solution",
+          "dialogue": "No problem, we can just order first and pay later. The delivery guy won't care."
+        },
+        {
+          "action_id": 1,
+          "character": "Joy",
+          "character_id": 2,
+          "action": "Makes a joke",
+          "dialogue": "Or we could go out and start a GoFundMe for pizza. Beg if we have to!"
+        },
+        {
+          "action_id": 2,
+          "character": "Ruby Cole",
+          "character_id": 0,
+          "action": "Takes charge",
+          "dialogue": "I can just cover the difference. It's fine, really."
+        },
+        {
+          "action_id": 3,
+          "character": "Hong",
+          "character_id": 1,
+          "action": "Expresses surprise",
+          "dialogue": "Wait, you're just going to pay for it? That's a lot."
+        },
+        {
+          "action_id": 4,
+          "character": "Joy",
+          "character_id": 2,
+          "action": "Reacts with guilt",
+          "dialogue": "Oh no, Ruby, you don't have to do that. We can split it or something."
+        },
+        {
+          "action_id": 5,
+          "character": "Ruby Cole",
+          "character_id": 0,
+          "action": "Reassures the group",
+          "dialogue": "Don't worry about it. I want us to have a good night. Let's just enjoy the pizza."
+        }
+      ],
+      "plot": "Ruby, the emotional core of the group, decides to cover the cost of the pizza to avoid conflict and ensure her friends enjoy the night. Her decision reveals her empathy and occasional impulsiveness, while Hong and Joy react with concern and guilt.",
+      "social_purpose": "To explore the dynamics of friendship, the value of emotional support, and the subtle tensions that arise from financial decisions in a group setting.",
+      "chunk": {
+        "id": 0,
+        "text": "As the friends wait for their pizza, the conversation turns to the cost. Hong suggests ordering first and paying later, while Joy makes a joke about begging. Ruby, despite her own concerns, decides to cover the difference, reinforcing her role as the group's emotional anchor."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

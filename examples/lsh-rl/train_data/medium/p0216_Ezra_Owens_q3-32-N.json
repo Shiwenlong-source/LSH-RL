@@ -1,0 +1,116 @@
+{
+  "title": "The Café Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Ezra Owens meets with Yuki and Cici at a local café to discuss his MBA program decision.",
+      "time": "3:00 PM on a sunny Saturday afternoon",
+      "location": "Corner table at Brew Haven Café, a cozy spot near the university campus",
+      "description": "The café is bustling with students and professionals. Ezra is seated with his laptop open, surrounded by printed brochures from NITIE and XLRI. Yuki and Cici are across from him, sipping their coffees, ready to help him make a decision.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Ezra Owens",
+          "gender": "Male",
+          "description": "A 28-year-old graduate student with a thoughtful and analytical demeanor, currently torn between two prestigious MBA programs.; years old, Male, Graduate student, 28 years old; Occupation: MBA Applicant; Personality: Thoughtful, Analytical, Hesitant; Values: Academic excellence, Practicality, Peer support; Interests: Business strategy, Education, Decision making; Experiences: Attending top MBA interviews, Receiving multiple offers, Seeking peer advice, Comparing academic programs, Weighing priorities",
+          "position": "Center of the table",
+          "states": "Nervous, contemplative, seeking validation",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Yuki Tanaka",
+          "gender": "Female",
+          "description": "A confident and persuasive classmate of Ezra, who strongly advocates for XLRI due to its global reputation and strong alumni network; Female; Age: 23; Occupation: Aspiring Management Consultant; Personality: Energetic, assertive, encouraging; Values: Ambition, Networking, Excellence; Interests: Business strategy, international travel, coffee culture; Experiences: Interned at a top consulting firm in Mumbai, studied abroad in Singapore for a semester, actively involved in campus leadership roles.",
+          "position": "Left side of the table",
+          "states": "Energetic, assertive, encouraging",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Cici Liu",
+          "gender": "Female",
+          "description": "A pragmatic and level-headed classmate who prefers to approach decisions with a structured and objective analysis; Female; Age: 23; Occupation: Management consultant intern; Personality: Analytical, empathetic, detail-oriented; Values: Rationality, collaboration, personal growth; Interests: Data-driven decision-making, urban planning, coffee culture; Experiences: Assisted a nonprofit in optimizing its operations through strategic planning, studied abroad in Singapore during her undergraduate studies, led a student mentorship program at her university.",
+          "position": "Right side of the table",
+          "states": "Calm, logical, supportive",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Ezra Owens",
+          "character_id": 0,
+          "action": "Ezra opens the conversation by expressing his uncertainty.",
+          "dialogue": "Guys, I've been staring at these brochures for hours. I can't decide between NITIE and XLRI. Both have great reputations, but I'm not sure what's best for me."
+        },
+        {
+          "action_id": 1,
+          "character": "Yuki Tanaka",
+          "character_id": 1,
+          "action": "Yuki passionately argues in favor of XLRI.",
+          "dialogue": "Ezra, don't overthink it. XLRI is the best choice. It's one of the top schools globally, and the opportunities you'll get there are unmatched. You'll be in a network that can launch your career anywhere."
+        },
+        {
+          "action_id": 2,
+          "character": "Cici Liu",
+          "character_id": 2,
+          "action": "Cici suggests a more objective approach.",
+          "dialogue": "I get where Yuki is coming from, but maybe we should break it down. Let's list out the pros and cons of each school based on what's important to you—like academic focus, campus culture, and career outcomes."
+        },
+        {
+          "action_id": 3,
+          "character": "Ezra Owens",
+          "character_id": 0,
+          "action": "Ezra appreciates the input and starts listing his priorities.",
+          "dialogue": "You're right, Cici. I need to think about what I want long-term. I value academic excellence, but I also want something practical. XLRI has the global angle, and NITIE is strong in operations and supply chain. It's hard to choose."
+        },
+        {
+          "action_id": 4,
+          "character": "Yuki Tanaka",
+          "character_id": 1,
+          "action": "Yuki adds more emotional appeal to her argument.",
+          "dialogue": "And think about the exposure, Ezra. XLRI's campus is in Jamshedpur, which is an amazing place to learn and grow. You'll be challenged every day, and that's what you need to become a real leader."
+        },
+        {
+          "action_id": 5,
+          "character": "Cici Liu",
+          "character_id": 2,
+          "action": "Cici provides a structured comparison.",
+          "dialogue": "Let me put it this way: if you're aiming for a global corporate role, XLRI is better. If you're leaning toward a more specialized, operations-heavy career, NITIE might be the fit. What's your end goal?"
+        },
+        {
+          "action_id": 6,
+          "character": "Ezra Owens",
+          "character_id": 0,
+          "action": "Ezra reflects and asks for their honest opinions.",
+          "dialogue": "I guess I'm trying to find a balance. I want to be challenged, but also get skills that are immediately applicable. What do you think is more important for someone like me?"
+        },
+        {
+          "action_id": 7,
+          "character": "Yuki Tanaka",
+          "character_id": 1,
+          "action": "Yuki reassures Ezra and encourages him to follow his gut.",
+          "dialogue": "If I were in your shoes, I'd go with XLRI. It's a chance to grow beyond what you imagine. Trust your instincts, and don't let doubt hold you back."
+        },
+        {
+          "action_id": 8,
+          "character": "Cici Liu",
+          "character_id": 2,
+          "action": "Cici offers a final piece of advice based on Ezra's traits.",
+          "dialogue": "Your analytical side will help you thrive in either program, but your hesitation means you need a clear structure. Maybe a week of weighing the options with a checklist will help."
+        }
+      ],
+      "plot": "Ezra is struggling to choose between two MBA programs and turns to his classmates Yuki and Cici for help. Yuki encourages him to go with XLRI, emphasizing its global reputation, while Cici suggests a more structured, objective analysis of the options. Ezra, being thoughtful and analytical, takes their input seriously and begins to clarify his priorities with their help.",
+      "social_purpose": "To explore Ezra's decision-making process and his values of academic excellence and practicality, while showcasing the contrasting personalities of Yuki and Cici in their support for him.",
+      "chunk": {
+        "id": 0,
+        "text": "Ezra Owens meets with Yuki and Cici at a local café to discuss his MBA program decision. The café is bustling with students and professionals. Ezra is seated with his laptop open, surrounded by printed brochures from NITIE and XLRI. Yuki and Cici are across from him, sipping their coffees, ready to help him make a decision. Ezra opens the conversation by expressing his uncertainty. Yuki passionately argues in favor of XLRI. Cici suggests a more objective approach. Ezra appreciates the input and starts listing his priorities. Yuki adds more emotional appeal to her argument. Cici provides a structured comparison. Ezra reflects and asks for their honest opinions. Yuki reassures Ezra and encourages him to follow his gut. Cici offers a final piece of advice based on Ezra's traits."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

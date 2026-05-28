@@ -1,0 +1,102 @@
+{
+  "title": "A Crossroads in the Corridor",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Aria's decision moment between Thomas and David",
+      "time": "11:30 PM",
+      "location": "A dimly lit corridor at the Orlando Youth Conference",
+      "description": "Aria stands at the end of a long hallway, deep in thought, as Thomas and David wait a few feet away. The hum of the conference still lingers in the background, but the corridor is quiet and intimate. Aria's heart is pounding as the weight of her choice becomes palpable.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Aria Myers",
+          "gender": "18-year-old female",
+          "description": "An enthusiastic and cheerful college student, currently wrestling with emotional conflict and uncertainty.; 18-year-old female, Conference Participant, 24 years old; Occupation: College Student; Personality: Enthusiastic, Cheerful, Understanding, Insecure; Values: Emotional Sincerity, Friendship, Self-exploration; Interests: Youth Gatherings, Late-night Heart-to-hearts, Emotional Exchange; Experiences: Attending Youth Conference, Experiencing First Love, Choosing between Friendship and Romance",
+          "position": "center",
+          "states": "conflicted, contemplative, hopeful",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Thomas Carter",
+          "gender": "24-year-old male",
+          "description": "Aria's close friend and romantic interest, who is hesitant and cautious in their relationship; Male; Age: 24; Occupation: Youth mentor and part-time counselor at a community outreach program; Personality: empathetic, introverted, loyal; Values: emotional honesty, personal growth, trust; Interests: reading self-help books, listening to indie folk music, long walks in nature; Experiences: past heartbreak due to impulsive decisions, recent personal therapy for anxiety, has supported Aria through a major life transition.",
+          "position": "left",
+          "states": "nervous, supportive, uncertain",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "David Kim",
+          "gender": "19-year-old male",
+          "description": "Aria's loyal and secure friend who offers unwavering support and a contrasting dynamic to Thomas; Male; Age: 19; Occupation: High school student and volunteer youth mentor at a local community center; Personality: empathetic, patient, self-assured; Values: trust, loyalty, personal growth; Interests: photography, volunteering, indie music; Experiences: helped organize a youth mental health workshop, supported Aria through a difficult family situation, recently started leading small group discussions at the community center.",
+          "position": "right",
+          "states": "calm, encouraging, attentive",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Aria Myers",
+          "character_id": 0,
+          "action": "Looks between Thomas and David, her hands fidgeting with her conference badge.",
+          "dialogue": "I just... I don’t know what to do. You both mean so much to me, but I feel like I'm stuck between two paths."
+        },
+        {
+          "action_id": 1,
+          "character": "Thomas Carter",
+          "character_id": 1,
+          "action": "Steps forward, gently placing a hand on her shoulder.",
+          "dialogue": "Aria, I want things to be right between us. If waiting is what you need, I’ll be here."
+        },
+        {
+          "action_id": 2,
+          "character": "David Kim",
+          "character_id": 2,
+          "action": "Nods with a soft smile, staying a respectful distance.",
+          "dialogue": "Whatever you choose, I’ll support you. Just don’t rush it."
+        },
+        {
+          "action_id": 3,
+          "character": "Aria Myers",
+          "character_id": 0,
+          "action": "Takes a deep breath, looking at Thomas with a mix of longing and fear.",
+          "dialogue": "I’ve never felt this way before. It’s like I’m trying to be true to my feelings, but I’m scared of what it might mean for everything else."
+        },
+        {
+          "action_id": 4,
+          "character": "Thomas Carter",
+          "character_id": 1,
+          "action": "Moves closer, his voice low and sincere.",
+          "dialogue": "I know this is your first love, and I don’t want to pressure you. Just know I’m not going anywhere."
+        },
+        {
+          "action_id": 5,
+          "character": "David Kim",
+          "character_id": 2,
+          "action": "Steps closer to Aria, offering a reassuring presence.",
+          "dialogue": "You don’t have to decide tonight. Let’s just sit and talk for a while, like we always do."
+        },
+        {
+          "action_id": 6,
+          "character": "Aria Myers",
+          "character_id": 0,
+          "action": "Smiles slightly at David, then looks back at Thomas with a quiet resolve.",
+          "dialogue": "Maybe I need to figure out what I really want. Thank you both for being here for me."
+        }
+      ],
+      "plot": "Aria is faced with a decision between her growing romantic feelings for Thomas and the secure, loyal friendship with David. In a quiet moment at the conference, the two men express their support in different ways, allowing Aria to reflect on her values and emotions.",
+      "social_purpose": "To explore Aria's internal conflict and the dynamics of her relationships with Thomas and David, showcasing her traits of sincerity, understanding, and insecurity through dialogue and action.",
+      "chunk": {
+        "id": 0,
+        "text": "Aria stands in the corridor, caught between two people who care for her. Thomas offers the possibility of love but hesitates, while David provides stability and friendship. Aria’s emotional sincerity and need for self-exploration are evident as she weighs her options."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

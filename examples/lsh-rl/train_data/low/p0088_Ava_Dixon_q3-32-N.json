@@ -1,0 +1,112 @@
+{
+  "title": "A Quiet Afternoon at the Park",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Ava and Jack meet up with friends at a park for a casual afternoon.",
+      "time": "Afternoon",
+      "location": "Local Park, near a small playground and picnic area",
+      "description": "Ava, still feeling the weight of recent setbacks, sits on a bench with his nephew Jack. They are joined by two of Ava’s old college friends, Emma and Ryan. Emma is an active and energetic teacher who has always been supportive of Ava’s ventures, while Ryan is a laid-back IT professional who prefers quiet routines. The group shares a picnic and tries to help Ava reconnect with the joy of simple moments.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Ava Dixon",
+          "gender": "Male",
+          "description": "Ava is a 30-year-old man who recently went through a series of failures in his entrepreneurial journey. He appears tired but is making an effort to be present for his nephew Jack.; Around, Male, Adult, 30 years old; Occupation: Failed Entrepreneur; Personality: Exhausted, Empathetic, Passive; Values: Family, Simplicity, Connection; Interests: Childhood memories, Relaxation, Emotional healing; Experiences: Recent setbacks, Emotional exhaustion, Family interaction",
+          "position": "On the bench, eating quietly",
+          "states": "Exhausted, reflective, slightly hopeful",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Jack Thompson",
+          "gender": "Male",
+          "description": "Jack is a 6-year-old boy full of energy and curiosity; Male; Age: 6; Occupation: Student; Personality: Energetic, cheerful, playful; Values: Friendship, adventure, honesty; Interests: Playing on the playground, collecting bugs, storytelling; Experiences: Attending kindergarten for the first time, visiting the zoo with his family, helping his aunt Ava with small creative projects.",
+          "position": "Running around the playground, occasionally returning to the bench",
+          "states": "Energetic, cheerful, playful",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Emma Carter",
+          "gender": "Female",
+          "description": "Emma Carter; Female; Age: 32; Occupation: Elementary School Teacher; Personality: Supportive, encouraging, attentive; Values: Empathy, personal growth, community; Interests: Outdoor activities, reading educational literature, baking; Experiences: Mentored several struggling students throughout her career, supported Ava through a difficult career transition, organized community events to bring people together.",
+          "position": "On the bench, engaging in conversation",
+          "states": "Supportive, encouraging, attentive",
+          "is_npc": true
+        },
+        {
+          "id": 3,
+          "name": "Ryan Miller",
+          "gender": "",
+          "description": "Ryan is a 34-year-old IT professional who is easygoing and prefers low-stress environments; Male; Age: 34; Occupation: Systems Analyst at a mid-sized tech firm; Personality: Calm, empathetic, patient; Values: Balance, authenticity, reliability; Interests: Board games, hiking, tech podcasts; Experiences: Managed a major company IT transition during the pandemic, fostered a remote team culture that prioritized well-being, recently helped a close friend through a career change with quiet encouragement.",
+          "position": "On the bench, quietly observing and participating in the conversation",
+          "states": "Relaxed, observant, thoughtful",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Jack Thompson",
+          "character_id": 1,
+          "action": "Jack runs to Ava and hands him a toy car.",
+          "dialogue": "Uncle Ava, you have to race with me! Let’s see who can go the fastest!"
+        },
+        {
+          "action_id": 1,
+          "character": "Ava Dixon",
+          "character_id": 0,
+          "action": "Ava takes the toy car and smiles faintly, trying to match Jack’s enthusiasm.",
+          "dialogue": "Okay, buddy. But you have to promise to let me win at least once."
+        },
+        {
+          "action_id": 2,
+          "character": "Emma Carter",
+          "character_id": 2,
+          "action": "Emma notices Ava’s subdued mood and gently intervenes.",
+          "dialogue": "Hey, Ava, you know what you used to say when we were kids? That life is like a game of pretend. You can always start over. I think Jack might be reminding you of that."
+        },
+        {
+          "action_id": 3,
+          "character": "Ryan Miller",
+          "character_id": 3,
+          "action": "Ryan offers a sandwich to Ava and adds a quiet comment.",
+          "dialogue": "You look like you could use this. And maybe a break from the noise of everything else."
+        },
+        {
+          "action_id": 4,
+          "character": "Ava Dixon",
+          "character_id": 0,
+          "action": "Ava accepts the sandwich and the conversation shifts to shared memories.",
+          "dialogue": "I remember when we used to race toy cars in the garage. It felt like the whole world was in that tiny space. Maybe it’s time I remembered that again."
+        },
+        {
+          "action_id": 5,
+          "character": "Jack Thompson",
+          "character_id": 1,
+          "action": "Jack excitedly suggests an idea to make the game more fun.",
+          "dialogue": "Let’s build a track! I have some blocks and paper I can use to make a map for the cars."
+        },
+        {
+          "action_id": 6,
+          "character": "Ava Dixon",
+          "character_id": 0,
+          "action": "Ava helps Jack build the track, slowly regaining a sense of purpose.",
+          "dialogue": "That’s a great idea, Jack. Let’s make it the best track ever."
+        }
+      ],
+      "plot": "Ava, struggling with recent setbacks, is invited by Jack to join a casual park outing with friends. Through a shared activity of building a toy car track, the group helps Ava reconnect with the simplicity and joy of being present in the moment, reminding him of the value of family and human connection.",
+      "social_purpose": "To show how small interactions and the presence of loved ones can help someone in emotional distress rediscover hope and meaning in life.",
+      "chunk": {
+        "id": 0,
+        "text": "Ava sat on the bench, staring at the ground as Jack darted around with his toy cars. Emma and Ryan joined them with a picnic basket, and the group settled into a warm, quiet afternoon. Jack’s excitement for the simple game slowly pulled Ava out of his thoughts, and as he helped build the track, a small smile returned to his face. Emma’s words and Ryan’s calm presence reminded Ava of the importance of slowing down and appreciating the people and moments that matter most."
+      },
+      "npcs": [
+        1,
+        2,
+        3
+      ]
+    }
+  ]
+}

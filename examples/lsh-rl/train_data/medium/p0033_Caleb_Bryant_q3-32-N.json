@@ -1,0 +1,112 @@
+{
+  "title": "The Fare Dispute",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Caleb disputes a fare with a taxi driver",
+      "time": "4:15 PM",
+      "location": "A busy street in Quezon City, Philippines",
+      "description": "Caleb Bryant, a 25-year-old construction worker, exits a taxi with a 50-peso bill clenched in his hand, visibly upset. The driver, a middle-aged man, is standing by the curb, arms crossed and unapologetic. Ryan, Caleb’s 26-year-old friend, tries to calm the situation from a few feet away. Two other passengers, a young woman and an elderly man, observe silently from a nearby bus stop.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Caleb Bryant",
+          "gender": "Male",
+          "description": "A 25-year-old construction worker with a short temper and a strong sense of fairness. He is visibly agitated and defensive.; 25-year-old male passenger, 24 years old; Occupation: Construction worker; Personality: Angry, Emotional, Defensive; Values: Fairness, Dignity; Interests: Transportation, Personal rights; Experiences: Public transport disputes, Social pressure, Emotional conflict",
+          "position": "Near the taxi",
+          "states": "Angry, emotional, defensive",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Ryan Delgado",
+          "gender": "Male",
+          "description": "Ryan Delgado; Male; Age: 26; Occupation: Social worker; Personality: Calm, empathetic, patient; Values: Fairness, loyalty, community; Interests: Mediation workshops, urban hiking, indie music; Experiences: De-escalated a community protest over housing rights, helped Caleb resolve a labor dispute at his construction site, frequently volunteers at a local youth center.",
+          "position": "Standing beside Caleb",
+          "states": "Concerned, trying to de-escalate",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Mr. Dela Cruz",
+          "gender": "Male",
+          "description": "A 55-year-old taxi driver with a stern demeanor; Male; Age: 55; Occupation: Taxi Driver; Personality: Defensive, unapologetic, stubborn, practical; Values: Fairness, independence, hard work; Interests: Listening to old OPM music, reading the news, tinkering with cars; Experiences: Frequently deals with fare disputes, worked in the city for over 20 years, lost a close friend to a robbery in a taxi.",
+          "position": "By the taxi",
+          "states": "Defensive, unapologetic",
+          "is_npc": true
+        },
+        {
+          "id": 3,
+          "name": "Maria Santos",
+          "gender": "Female",
+          "description": "A 22-year-old college student who witnessed the dispute; Female; Age: 22; Occupation: Political Science major; Personality: Analytical, introverted, empathetic; Values: Justice, education, community; Interests: Reading about local politics, taking photos of city life, volunteering; Experiences: Participated in a student-led advocacy for fair transportation pricing, grew up in a family that emphasized civic responsibility, frequently rides public transport due to financial constraints.",
+          "position": "At the bus stop",
+          "states": "Observing, cautious",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Caleb Bryant",
+          "character_id": 0,
+          "action": "Yelling at the driver",
+          "dialogue": "You just overcharged me! I told you the fare was 45 pesos, not 50! What, do you think I'm stupid?"
+        },
+        {
+          "action_id": 1,
+          "character": "Ryan Delgado",
+          "character_id": 1,
+          "action": "Trying to mediate",
+          "dialogue": "Caleb, let's just walk away. It's not worth it. You're not wrong, but let's not make this a bigger mess."
+        },
+        {
+          "action_id": 2,
+          "character": "Mr. Dela Cruz",
+          "character_id": 2,
+          "action": "Defending his charge",
+          "dialogue": "You said it was 45, but I added the toll fee. That's 50. If you don't like it, don't ride with me."
+        },
+        {
+          "action_id": 3,
+          "character": "Caleb Bryant",
+          "character_id": 0,
+          "action": "Clutching the bill tighter",
+          "dialogue": "You're trying to take advantage of me! I work hard for every peso I have, and I won’t be treated like this."
+        },
+        {
+          "action_id": 4,
+          "character": "Ryan Delgado",
+          "character_id": 1,
+          "action": "Sighing in frustration",
+          "dialogue": "Caleb, I get it. You want to be treated fairly. But this isn't the place to make a scene. Come on, let's go."
+        },
+        {
+          "action_id": 5,
+          "character": "Mr. Dela Cruz",
+          "character_id": 2,
+          "action": "Turning to leave",
+          "dialogue": "You're wasting my time. Either pay up or get out of my way."
+        },
+        {
+          "action_id": 6,
+          "character": "Maria Santos",
+          "character_id": 3,
+          "action": "Observing the exchange",
+          "dialogue": "..."
+        }
+      ],
+      "plot": "Caleb is visibly upset after being overcharged by a taxi driver. Ryan tries to calm him down and prevent the situation from escalating, but Caleb is too emotional and defensive to back off. The driver, Mr. Dela Cruz, is unapologetic and insists on the fare. The public setting adds pressure, with bystanders watching closely and the potential for a larger conflict.",
+      "social_purpose": "Highlight the tension between personal dignity and public order in a real-world dispute. Show how individual values like fairness can clash with social norms and power dynamics.",
+      "chunk": {
+        "id": 0,
+        "text": "Caleb stands by the taxi, his face flushed with anger. He clutches the 50-peso bill like it's a symbol of his worth. Ryan steps in, trying to pull him back, but Caleb is too emotionally charged. Mr. Dela Cruz, the driver, is unmoved by the argument and insists on his side. The two passengers nearby remain silent, aware of the potential for the situation to turn volatile. Caleb's outburst reflects his deep-seated belief in fairness and his refusal to be disrespected, even in a minor dispute."
+      },
+      "npcs": [
+        1,
+        2,
+        3
+      ]
+    }
+  ]
+}

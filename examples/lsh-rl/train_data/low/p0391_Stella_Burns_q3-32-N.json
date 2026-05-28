@@ -1,0 +1,95 @@
+{
+  "title": "Waiting for a Reply",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Stella and Xixi are at a local café, waiting for their friend Bing to join them for lunch.",
+      "time": "Afternoon",
+      "location": "Café",
+      "description": "Stella sits at a small table with Xixi, who is engrossed in preparing a shared order of sushi. Stella keeps checking her phone, her posture showing signs of nervousness and longing. The café is quiet, with soft background music and the occasional clink of cups.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Stella Burns",
+          "gender": "Female",
+          "description": "A 23-year-old freelancer who is sensitive and thoughtful. She is visibly anxious, her eyes darting between her phone and Xixi.; 23-year-old / Female / Social Individual, 24 years old; Occupation: Freelancer; Personality: Sensitive, Thoughtful, Empathetic; Values: Friendship, Validation, Emotional Connection; Interests: Casual Socializing, Gaming, Technology; Experiences: Recent Social Conflict, Unanswered Invitations, Emotional Self-Reflection",
+          "position": "Sitting at the table",
+          "states": "Anxious, hopeful, introspective",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Xixi Chen",
+          "gender": "Female",
+          "description": "A 24-year-old culinary student who is cheerful and focused on her food; Female; Age: 24; Occupation: Culinary Student; Personality: Enthusiastic, detail-oriented, sociable; Values: Creativity, friendship, craftsmanship; Interests: Cooking, Japanese culture, café environments; Experiences: Interned at a Michelin-starred restaurant, studied abroad in Kyoto, organized a student food festival.",
+          "position": "Sitting at the table",
+          "states": "Calm, engaged, unaware",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Bing Lin",
+          "gender": "Male",
+          "description": "Bing Lin; Male; Age: 24; Occupation: Software Developer; Personality: Thoughtful, introverted, dependable; Values: Responsibility, loyalty, punctuality; Interests: Coding, indie music, hiking; Experiences: Worked remotely during the pandemic, recently started a new job with a demanding project deadline, has been a close friend to Stella since college.",
+          "position": "En route to the café",
+          "states": "Delayed, preoccupied, unaware of the emotional impact of his silence",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Stella Burns",
+          "character_id": 0,
+          "action": "Checks her phone",
+          "dialogue": "I don’t know if he’s just busy or if he’s avoiding me..."
+        },
+        {
+          "action_id": 1,
+          "character": "Xixi Chen",
+          "character_id": 1,
+          "action": "Places a plate of sushi in front of Stella",
+          "dialogue": "Here you go, your favorite! He’ll be here soon, I’m sure."
+        },
+        {
+          "action_id": 2,
+          "character": "Stella Burns",
+          "character_id": 0,
+          "action": "Leans back and sighs",
+          "dialogue": "I just feel like I’m reaching out and it’s like I’m not even there..."
+        },
+        {
+          "action_id": 3,
+          "character": "Xixi Chen",
+          "character_id": 1,
+          "action": "Picks up her chopsticks",
+          "dialogue": "Maybe he’s stuck in traffic. You know how bad it gets this time of day."
+        },
+        {
+          "action_id": 4,
+          "character": "Stella Burns",
+          "character_id": 0,
+          "action": "Eats a piece of sushi slowly",
+          "dialogue": "I hope you’re right. I just don’t want to come off as too desperate."
+        },
+        {
+          "action_id": 5,
+          "character": "Xixi Chen",
+          "character_id": 1,
+          "action": "Smiles reassuringly",
+          "dialogue": "You’re not desperate, Stella. You’re just a good friend. He’ll come around."
+        }
+      ],
+      "plot": "Stella and Xixi are waiting for Bing at a café for lunch. Stella is emotionally conflicted about his lack of response, while Xixi is more focused on their shared meal and the situation at hand. Their conversation reveals the importance Stella places on emotional connection and validation within her friendships.",
+      "social_purpose": "To explore the dynamics of friendship, emotional sensitivity, and the need for validation in a public social setting.",
+      "chunk": {
+        "id": 0,
+        "text": "Stella and Xixi sit in a quiet café, waiting for their friend Bing. Stella is anxious and repeatedly checks her phone, hoping for a reply. Xixi, focused on their shared lunch, tries to reassure her. The scene highlights Stella's internal struggle with being ignored and her desire for emotional connection."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "title": "Preparing for Hurricane Charlie",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Neighbors discussing hurricane preparations in a local park",
+      "time": "Afternoon, 2 days before Hurricane Charlie's projected arrival",
+      "location": "Tampa Bay Community Park",
+      "description": "Julia Price, a 34-year-old community planner, sits on a bench with her two neighbors, Yuri and Jason, discussing how to prepare for Hurricane Charlie. The atmosphere is tense but cooperative, as the storm's path grows closer.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Julia Price",
+          "gender": "Female",
+          "description": "34-year-old community planner, anxious but practical. She is flipping through a notebook filled with emergency plans and resource lists.; years old, Female, Tampa Bay Resident, 34 years old; Occupation: Community Planner; Personality: Anxious, Practical, Responsible; Values: Family safety, Community preparedness, Resource utilization; Interests: Weather monitoring, Emergency planning, Neighborhood coordination; Experiences: Living in a hurricane-prone area, Organizing community activities, Managing household logistics",
+          "position": "Sitting on the bench, central",
+          "states": "Anxious, focused, determined",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Yuri Petrov",
+          "gender": "Male",
+          "description": "A 50-year-old retired carpenter who is concerned about the old tree in his yard that could fall during the storm; Male; Age: 50; Occupation: Retired Carpentry Contractor; Personality: Cautious, helpful, pragmatic; Values: Safety, community, hard work; Interests: Gardening, DIY home repairs, weather tracking; Experiences: Survived Hurricane Ivan in 2004, worked on rebuilding homes in the aftermath of storms, raised two children during multiple hurricane seasons.",
+          "position": "Sitting to Julia's left",
+          "states": "Urgent, cautious, helpful",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Jason Moore",
+          "gender": "Male",
+          "description": "A 38-year-old data analyst who has been tracking the hurricane's path; Male; Age: 38; Occupation: Data Analyst; Personality: Calm, analytical, concerned; Values: Preparedness, community safety, accuracy; Interests: Weather modeling, hiking, technology; Experiences: Survived Hurricane Irma in 2017, volunteered in disaster response coordination, worked on emergency management data systems.",
+          "position": "Sitting to Julia's right",
+          "states": "Calm, analytical, concerned",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Julia Price",
+          "character_id": 0,
+          "action": "Expresses concern about the tree",
+          "dialogue": "Yuri, I know you're worried about the tree, but we need to be careful not to overreact. We should evaluate the risks and decide what’s safest for everyone in the neighborhood."
+        },
+        {
+          "action_id": 1,
+          "character": "Yuri Petrov",
+          "character_id": 1,
+          "action": "Insists on immediate action",
+          "dialogue": "Julia, that tree is a hazard. It’s old and leaning, and I don’t want it falling on my house or anyone else’s. We should call someone to cut it down now."
+        },
+        {
+          "action_id": 2,
+          "character": "Jason Moore",
+          "character_id": 2,
+          "action": "Shares hurricane tracking data",
+          "dialogue": "I’ve been following the models, and it looks like the storm is going to pass a bit closer than previously thought. We need to be ready for the worst-case scenario."
+        },
+        {
+          "action_id": 3,
+          "character": "Julia Price",
+          "character_id": 0,
+          "action": "Suggests a community meeting",
+          "dialogue": "Let’s organize a quick neighborhood meeting this evening. We can coordinate supplies, check on vulnerable homes, and decide on the tree together. It’s important we act as a community, not just individually."
+        },
+        {
+          "action_id": 4,
+          "character": "Yuri Petrov",
+          "character_id": 1,
+          "action": "Agrees reluctantly",
+          "dialogue": "Alright, but I’m not waiting until the last minute. If we don’t get that tree down, I’ll do it myself."
+        },
+        {
+          "action_id": 5,
+          "character": "Jason Moore",
+          "character_id": 2,
+          "action": "Offers to help with logistics",
+          "dialogue": "I can help draft a message for the neighborhood group and get a meeting time set. I’ll also bring the tracking data to the meeting so we can make informed decisions."
+        }
+      ],
+      "plot": "As Hurricane Charlie approaches, Julia Price, a community planner, coordinates with her neighbors Yuri and Jason to assess and mitigate risks. Yuri is worried about a dangerous tree in his yard, while Jason is analyzing the storm’s path. Julia proposes a community meeting to ensure everyone is prepared and to make collective decisions about safety measures.",
+      "social_purpose": "To demonstrate how individuals with different priorities and concerns can come together to achieve a common goal of community safety. It highlights Julia’s practical and responsible nature, her commitment to family and community, and the value of coordination and shared decision-making.",
+      "chunk": {
+        "id": 0,
+        "text": "Julia Price, a 34-year-old community planner, sits on a bench in Tampa Bay Community Park with her neighbors Yuri and Jason. The three are discussing the impending Hurricane Charlie, trying to balance immediate concerns with long-term planning. Yuri, a retired carpenter, is worried about an old tree in his yard that could fall during the storm. Jason, a data analyst, is focused on tracking the hurricane’s path and sharing his findings. Julia, trying to remain practical and responsible, suggests organizing a community meeting to coordinate efforts. Tension is evident in Yuri’s insistence on immediate action, while Jason provides a more measured perspective. Julia’s anxiety is clear, but she is determined to ensure the safety of her family and neighbors."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

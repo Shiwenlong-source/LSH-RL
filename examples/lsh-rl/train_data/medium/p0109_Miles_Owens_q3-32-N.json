@@ -1,0 +1,95 @@
+{
+  "title": "A Quiet Night of Reflection",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Miles attends a community volunteer fair.",
+      "time": "Evening, 6:30 PM",
+      "location": "Community Center, downtown area",
+      "description": "Miles walks through the volunteer fair, which is filled with booths from local churches, shelters, and community groups. He is drawn to a booth offering spiritual mentorship and career guidance for young adults. Alice and Yan Qianqian, both volunteering at the event, approach him.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Miles Owens",
+          "gender": "Male",
+          "description": "A 26-year-old man in a simple t-shirt and jeans, carrying a Hillsong playlist in his phone, looking thoughtful and introspective.; 26-year-old, Male, seeking new direction in life, 24 years old; Occupation: Recently submitted resume to Canadian Tire, in career transition; Personality: Hopeful, Thoughtful, Devout, Independent; Values: Faith, Self-reflection, Inner Peace; Interests: Worship Music, Spiritual Growth, Career Development; Experiences: Recent job applications, Life transition period, Personal worship practices, Friendship with Yan Qianqian, Seeking spiritual connection",
+          "position": "Near the spiritual mentorship booth",
+          "states": "Curious, contemplative, slightly hesitant",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Alice Chen",
+          "gender": "Female",
+          "description": "Alice Chen; Female; Age: 27; Occupation: Career Counselor and Part-Time Volunteer Coordinator; Personality: Empathetic, supportive, observant; Values: Personal growth, community service, integrity; Interests: Mentoring young adults, spiritual development, networking; Experiences: Worked with at-risk youth in career transition programs, volunteered at a local homeless shelter during college, recently co-founded a career mentorship initiative at the community center.",
+          "position": "At the spiritual mentorship booth",
+          "states": "Approachable, concerned, encouraging",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Yan Qianqian",
+          "gender": "Female",
+          "description": "A 25-year-old community volunteer and Miles' friend, with a warm and observant personality; Female; Age: 25; Occupation: Social worker in training at a local non-profit organization; Personality: Empathetic, analytical, encouraging; Values: Compassion, personal growth, community empowerment; Interests: Spiritual discussions, mentoring youth, urban gardening; Experiences: Organized a neighborhood tutoring program, volunteered at a homeless shelter during college, led a small group for career development at a youth outreach center.",
+          "position": "Near Alice",
+          "states": "Observant, supportive, curious",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Alice Chen",
+          "character_id": 1,
+          "action": "Approaches Miles",
+          "dialogue": "Hey Miles! I didn’t expect to see you here. You usually prefer your quiet worship time at home, right?"
+        },
+        {
+          "action_id": 1,
+          "character": "Miles Owens",
+          "character_id": 0,
+          "action": "Nods thoughtfully",
+          "dialogue": "Yeah, I usually do. But I’m in a transition period, and I thought maybe I could find some direction here. I’ve been thinking about how my faith and career can align."
+        },
+        {
+          "action_id": 2,
+          "character": "Yan Qianqian",
+          "character_id": 2,
+          "action": "Joins the conversation",
+          "dialogue": "That’s great, Miles! I’ve been helping out with this booth, and we actually have some programs that focus on spiritual growth and career development. You might find it interesting."
+        },
+        {
+          "action_id": 3,
+          "character": "Miles Owens",
+          "character_id": 0,
+          "action": "Looks intrigued",
+          "dialogue": "Spiritual growth and career development? That sounds like exactly what I need. I’ve been applying for jobs, but I feel like I need more clarity on what I’m really meant to do."
+        },
+        {
+          "action_id": 4,
+          "character": "Alice Chen",
+          "character_id": 1,
+          "action": "Smiles and gestures to the booth",
+          "dialogue": "Then this is the place to start. Yan can walk you through the details. I think it would be good for you to connect with others too, even while staying true to your personal journey."
+        },
+        {
+          "action_id": 5,
+          "character": "Yan Qianqian",
+          "character_id": 2,
+          "action": "Leads Miles to the booth",
+          "dialogue": "Let me show you what we have. It’s all about helping people like you find purpose through faith and community. You don’t have to do everything alone, you know."
+        }
+      ],
+      "plot": "Miles is at a volunteer fair, seeking ways to align his spiritual growth with his career development. His friends Alice and Yan Qianqian approach him and guide him to a booth that offers mentorship in both areas, challenging him to consider community involvement as part of his journey.",
+      "social_purpose": "To showcase Miles' values of faith and self-reflection, his personality of being thoughtful and independent, and his current experiences of career transition and seeking spiritual connection, while introducing him to a potential new path through social interaction.",
+      "chunk": {
+        "id": 0,
+        "text": "Miles is at a volunteer fair, seeking ways to align his spiritual growth with his career development. His friends Alice and Yan Qianqian approach him and guide him to a booth that offers mentorship in both areas, challenging him to consider community involvement as part of his journey."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

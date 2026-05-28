@@ -1,0 +1,102 @@
+{
+  "title": "The Final Decision",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Meeting to discuss program changes",
+      "time": "Afternoon",
+      "location": "Club L.I.T. office conference room",
+      "description": "Sam, the L.I.T. program leader, is in a tense meeting with his colleagues Chuck and Louis. The room is dimly lit, and the whiteboard is filled with proposed changes to the program that Sam strongly disagrees with. The atmosphere is heavy with unspoken frustrations.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Sam",
+          "gender": "Male",
+          "description": "A passionate but disheartened project leader in his early 30s, visibly worn down by years of institutional challenges and compromises.; Male / Project Leader, 36 years old; Occupation: Children's Organization L.I.T. Project Leader; Personality: Passionate, Disheartened, Determined; Values: Child Welfare, Integrity, Fairness; Interests: Education Reform, Youth Development, Moral Leadership; Experiences: Working in education, Leading community projects, Facing institutional challenges",
+          "position": "L.I.T. Project Leader",
+          "states": "Determined, conflicted, exhausted",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Chuck",
+          "gender": "Male",
+          "description": "A pragmatic and supportive colleague in his late 30s, who has been working alongside Sam for years and respects his values; Male; Age: 38; Occupation: Program Coordinator for youth mentorship initiatives; Personality: Analytical, patient, diplomatic; Values: Team collaboration, integrity, youth empowerment; Interests: Urban gardening, jazz music, strategic board games; Experiences: Led a successful community outreach project, mediated a conflict between program staff and local authorities, co-developed the original L.I.T. curriculum.",
+          "position": "Program Coordinator",
+          "states": "Concerned, empathetic, persuasive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Louis",
+          "gender": "Male",
+          "description": "A younger, idealistic team member in his mid-20s, who believes the organization can change and is trying to convince Sam to stay and help it evolve; Male; Age: 26; Occupation: Program Coordinator for Youth Outreach; Personality: Optimistic, earnest, hopeful; Values: Growth through change, collaboration, integrity; Interests: Community development, public speaking, indie music; Experiences: Volunteer work with at-risk youth, recent leadership training, witnessed the program’s positive impact firsthand.",
+          "position": "Youth Mentor",
+          "states": "Optimistic, earnest, hopeful",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Sam",
+          "character_id": 0,
+          "action": "Leans forward, voice firm",
+          "dialogue": "I can't keep doing this, Chuck. The changes they want to make compromise everything we stand for. Child welfare and integrity can't be sacrificed for bureaucracy."
+        },
+        {
+          "action_id": 1,
+          "character": "Chuck",
+          "character_id": 1,
+          "action": "Leans in, trying to reason",
+          "dialogue": "I know it's tough, Sam, but we've come a long way. If you leave, the program loses its strongest advocate. Let's find a way to make it work."
+        },
+        {
+          "action_id": 2,
+          "character": "Louis",
+          "character_id": 2,
+          "action": "Eagerly interjects",
+          "dialogue": "You're right, Sam. But maybe we can push back and show them that fairness and youth development go hand in hand. You've led community projects before—this is just another challenge."
+        },
+        {
+          "action_id": 3,
+          "character": "Sam",
+          "character_id": 0,
+          "action": "Shakes his head, looking out the window",
+          "dialogue": "I used to believe in education reform. I still do. But this institution isn't interested in reform—it's interested in control. I can't be part of that anymore."
+        },
+        {
+          "action_id": 4,
+          "character": "Chuck",
+          "character_id": 1,
+          "action": "Sighs, rubbing his temples",
+          "dialogue": "I just don't want to see you burn out completely. You've given so much to this mission. Maybe we can find a middle ground."
+        },
+        {
+          "action_id": 5,
+          "character": "Louis",
+          "character_id": 2,
+          "action": "Looks at Sam with admiration",
+          "dialogue": "You always stood up for what's right, Sam. I hope you find a new path that aligns with your values. Just know we'll miss you."
+        },
+        {
+          "action_id": 6,
+          "character": "Sam",
+          "character_id": 0,
+          "action": "Nods slowly, voice softer",
+          "dialogue": "Thanks, Louis. And I hope you keep fighting for the kids. That's what this is all about, right?"
+        }
+      ],
+      "plot": "Sam is in a meeting with his colleagues Chuck and Louis, where they try to convince him to stay and continue leading the L.I.T. program despite the organization's recent compromises. Sam is torn but ultimately determined to resign, as he can no longer align with the institution's direction.",
+      "social_purpose": "To explore the internal conflict of a leader facing institutional challenges and to highlight the differing approaches to change among colleagues, while naturally revealing Sam's values, personality, and experiences.",
+      "chunk": {
+        "id": 0,
+        "text": "Sam, the L.I.T. project leader, is in a meeting with his colleagues Chuck and Louis, where they attempt to persuade him to stay with the program. Sam is visibly conflicted and exhausted, but his determination to uphold his values becomes clear as he refuses to compromise."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

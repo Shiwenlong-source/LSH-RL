@@ -1,0 +1,119 @@
+{
+  "title": "The Subway Pitch",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Matthew pitches his subway business alliance plan to a group of street vendors.",
+      "time": "11:00 AM",
+      "location": "Near the entrance of a busy subway station in downtown New York City",
+      "description": "Matthew Adams, a bold and charismatic 35-year-old street entrepreneur, steps into the crowd of vendors and passengers at the subway station. He holds a small, hand-drawn map in one hand and a folder of notes in the other. Around him, Han, a 50-year-old seasoned hot dog vendor, watches with a skeptical expression, while Mike, a 28-year-old sneaker reseller, crosses his arms and smirks. A young intern, Sarah, sits on a bench nearby, quietly observing.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Matthew Adams",
+          "gender": "Male",
+          "description": "A confident and ambitious street entrepreneur with a strong belief in cooperation and innovation.; Male, Street entrepreneur, 35 years old; Occupation: Street entrepreneur; Personality: Ambitious, Confident, Determined, Charismatic; Values: Cooperation, Innovation, Fairness; Interests: Business development, Urban economy, Community building; Experiences: Selling goods on the street, Organizing informal business groups, Pitching ideas to strangers",
+          "position": "Center of the group, standing",
+          "states": "Energetic, persuasive, determined",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Han",
+          "gender": "Male",
+          "description": "A 50-year-old hot dog vendor with decades of experience and a deep understanding of the challenges of street business; Male; Age: 50; Occupation: Street food vendor specializing in hot dogs; Personality: Cautious, skeptical, experienced; Values: Independence, reliability, hard work; Interests: Reading the financial news, tinkering with his cart's mechanics; Experiences: Survived the 2008 financial crisis without going out of business, dealt with aggressive city inspectors and permit changes over the years.",
+          "position": "Near the hot dog cart, standing",
+          "states": "Skeptical, cautious, experienced",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Mike",
+          "gender": "Male",
+          "description": "Mike; Male; Age: 28; Occupation: Sneaker reseller; Personality: Sarcastic, dismissive, streetwise; Values: Profit, independence, authenticity; Interests: Street fashion, urban culture, hustle tactics; Experiences: Built his sneaker resale business from the ground up in Brooklyn, survived the cutthroat world of limited-edition drops and scalping, often collaborates with local artists for custom kicks.",
+          "position": "By the steps, leaning against the wall",
+          "states": "Sarcastic, dismissive, streetwise",
+          "is_npc": true
+        },
+        {
+          "id": 3,
+          "name": "Sarah",
+          "gender": "Female",
+          "description": "A 22-year-old intern with a passion for urban economics and community development; Female; Age: 22; Occupation: Urban Policy Intern; Personality: Observant, curious, open-minded; Values: Equity, innovation; Interests: Public transportation systems, local economic empowerment; Experiences: Volunteered with a nonprofit focused on supporting small businesses in underserved neighborhoods, conducted research on the socioeconomic impact of street vendors in major cities, recently moved to New York City to pursue a master’s in urban planning.",
+          "position": "On a bench nearby, sitting",
+          "states": "Observant, curious, open-minded",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Matthew Adams",
+          "character_id": 0,
+          "action": "Matthew steps forward and begins his pitch.",
+          "dialogue": "Hey everyone, I’ve got an idea that can change the game for all of us. If we form a subway business alliance, we can share resources, split costs, and increase our visibility. This isn’t just about making more money—it’s about building a stronger community."
+        },
+        {
+          "action_id": 1,
+          "character": "Han",
+          "character_id": 1,
+          "action": "Han raises an eyebrow and challenges Matthew’s idea.",
+          "dialogue": "That sounds good on paper, but have you ever seen two vendors get along for more than a week without trying to out-sell each other? You think cooperation is easy, but I’ve seen too many business conflicts on this street."
+        },
+        {
+          "action_id": 2,
+          "character": "Mike",
+          "character_id": 2,
+          "action": "Mike scoffs and questions the fairness of the plan.",
+          "dialogue": "And what about the benefits? Who gets what? I don’t need another guy trying to take my cut for some idealistic dream."
+        },
+        {
+          "action_id": 3,
+          "character": "Matthew Adams",
+          "character_id": 0,
+          "action": "Matthew responds with calm determination.",
+          "dialogue": "I understand your concerns, but I’ve organized informal business groups before. We can set up a fair system where everyone has a voice and a share. This isn’t just about me—it’s about us all working together for a sustainable future."
+        },
+        {
+          "action_id": 4,
+          "character": "Sarah",
+          "character_id": 3,
+          "action": "Sarah speaks up, showing her interest in community building.",
+          "dialogue": "I’ve been studying urban economies, and I think this kind of cooperative model could really work. It’s not just about fairness, but also about leveraging our collective strength."
+        },
+        {
+          "action_id": 5,
+          "character": "Matthew Adams",
+          "character_id": 0,
+          "action": "Matthew distributes his notes and map to the group.",
+          "dialogue": "Here’s my plan. We can rotate prime spots, share supplies, and even cross-promote each other’s businesses. Think of it as a network instead of a competition."
+        },
+        {
+          "action_id": 6,
+          "character": "Han",
+          "character_id": 1,
+          "action": "Han takes the map and reads it carefully.",
+          "dialogue": "Hmm… maybe there’s something here. But you’ll have to convince me it’s not just another scheme."
+        },
+        {
+          "action_id": 7,
+          "character": "Mike",
+          "character_id": 2,
+          "action": "Mike remains skeptical but listens more closely.",
+          "dialogue": "Alright, let’s hear it out. But if this is a waste of time, I’m gone."
+        }
+      ],
+      "plot": "Matthew attempts to rally the vendors around his subway business alliance plan, facing immediate resistance from experienced vendor Han and street-smart Mike. A young intern, Sarah, offers support and insight, potentially helping Matthew gain traction.",
+      "social_purpose": "To explore the tension between idealism and pragmatism in a public setting, while showcasing Matthew’s values of cooperation, innovation, and fairness.",
+      "chunk": {
+        "id": 0,
+        "text": "Matthew steps forward and begins his pitch. 'Hey everyone, I’ve got an idea that can change the game for all of us. If we form a subway business alliance, we can share resources, split costs, and increase our visibility. This isn’t just about making more money—it’s about building a stronger community.'"
+      },
+      "npcs": [
+        1,
+        2,
+        3
+      ]
+    }
+  ]
+}

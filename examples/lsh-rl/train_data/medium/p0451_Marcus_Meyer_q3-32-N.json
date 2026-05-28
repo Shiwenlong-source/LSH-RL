@@ -1,0 +1,95 @@
+{
+  "title": "A New Path for the Community",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Community meeting at the local park pavilion",
+      "time": "Afternoon, 3:00 PM",
+      "location": "Maplewood Park, Community Pavilion",
+      "description": "Marcus Meyer, the 34-year-old community leader of Vine & Branches, is hosting a meeting to discuss a proposal for moving their faith gatherings into a more public setting. The small group includes Marcus, Tiki, a long-time member who values tradition and home-based gatherings, and Hao, a younger member who supports cautious experimentation. The discussion is lively but respectful, with Marcus striving to balance his passion for progress with the community's need for stability.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Marcus Meyer",
+          "gender": "Male",
+          "description": "34-year-old community leader, passionate about bringing the Vine & Branches community into a more public setting to grow and share their faith more widely.; years old / Male / Community Leader, 34 years old; Occupation: Faith Community Leader; Personality: Determined, Thoughtful, Passionate; Values: Community, Faith, Progress; Interests: Spirituality, Leadership, Group Dynamics; Experiences: Leading religious groups, Organizing community events, Facilitating discussions",
+          "position": "Community Leader",
+          "states": "Determined, thoughtful, and slightly anxious about the outcome of the discussion.",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Tiki",
+          "gender": "Female",
+          "description": "Tiki is a long-time member of Vine & Branches, deeply committed to the traditional model of home-based gatherings and cautious about publicizing their faith in a new way; Female; Age: 52; Occupation: Elementary school librarian; Personality: Thoughtful, loyal, and diplomatic; Values: Community cohesion, tradition, and spiritual humility; Interests: Reading historical fiction, gardening, and organizing small faith-based study groups; Experiences: Led weekly Bible studies in her home for over 20 years, helped integrate new members through mentorship, and witnessed the community's growth through personal, private connections rather than public outreach.",
+          "position": "Traditionalist Member",
+          "states": "Cautious, respectful, and focused on preserving the community's core values.",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Hao",
+          "gender": "Male",
+          "description": "A younger, open-minded member of the community who is supportive of trying new approaches, such as a one-month trial for public gatherings; Male; Age: 26; Occupation: Community outreach coordinator for a local nonprofit; Personality: Curious, adaptable, empathetic; Values: Growth through change, inclusivity, collaboration; Interests: Urban planning, social innovation, photography; Experiences: Volunteered in youth mentorship programs, led a successful initiative to create a community garden in a neglected neighborhood, recently moved to the area and is eager to build connections.",
+          "position": "Progressive Member",
+          "states": "Supportive, curious, and willing to experiment for the sake of growth.",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Marcus Meyer",
+          "character_id": 0,
+          "action": "Proposes a new direction for the community's gatherings",
+          "dialogue": "I’ve been thinking about how we can grow and share our faith more openly. I’m proposing we try holding one of our gatherings in the park pavilion this summer. It could be a great way to invite others into our community."
+        },
+        {
+          "action_id": 1,
+          "character": "Tiki",
+          "character_id": 1,
+          "action": "Expresses concern about moving away from home gatherings",
+          "dialogue": "Marcus, I understand your vision, but our home gatherings are the heart of what we do. They create a safe, intimate space for sharing faith. I worry that moving to a public setting might lose that warmth and connection."
+        },
+        {
+          "action_id": 2,
+          "character": "Hao",
+          "character_id": 2,
+          "action": "Suggests a trial period to test the new idea",
+          "dialogue": "What if we try it for a month? We can see how it goes and whether people feel comfortable. That way, we’re not making a big commitment without knowing the outcome."
+        },
+        {
+          "action_id": 3,
+          "character": "Marcus Meyer",
+          "character_id": 0,
+          "action": "Reassures the group about the intent behind the proposal",
+          "dialogue": "I agree, a trial makes sense. I’m not trying to push us into something drastic. I just think there’s an opportunity to show our faith in a new way and invite others to join us."
+        },
+        {
+          "action_id": 4,
+          "character": "Tiki",
+          "character_id": 1,
+          "action": "Offers to help maintain the traditional values during the trial",
+          "dialogue": "If we do this, I’d be happy to help ensure that the core of our gatherings—our faith and community—remains intact. We can bring the same spirit to a new space."
+        },
+        {
+          "action_id": 5,
+          "character": "Hao",
+          "character_id": 2,
+          "action": "Expresses enthusiasm for the trial",
+          "dialogue": "That’s a great idea, Tiki. I think we can blend tradition with a bit of progress. Let’s give it a shot and see what happens."
+        }
+      ],
+      "plot": "Marcus proposes a trial of public gatherings in the park to the Vine & Branches community. Tiki expresses concern about losing the intimacy of home-based meetings, while Hao suggests a one-month trial to test the idea. Marcus reassures the group of his intent, and Tiki offers to help preserve the community's values during the transition. The group agrees to move forward with the trial, showing a balance between tradition and progress.",
+      "social_purpose": "To explore the community's values and willingness to adapt while maintaining its identity, Marcus’s proposal serves as a catalyst for dialogue that reflects his determination and passion for progress. Tiki and Hao represent the tension between tradition and change, allowing Marcus's traits and motivations to emerge naturally through their interactions.",
+      "chunk": {
+        "id": 0,
+        "text": "Marcus Meyer, the 34-year-old community leader of Vine & Branches, is hosting a meeting to discuss a proposal for moving their faith gatherings into a more public setting. The small group includes Marcus, Tiki, a long-time member who values tradition and home-based gatherings, and Hao, a younger member who supports cautious experimentation. The discussion is lively but respectful, with Marcus striving to balance his passion for progress with the community's need for stability."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

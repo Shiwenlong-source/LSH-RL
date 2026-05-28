@@ -1,0 +1,119 @@
+{
+  "title": "The Surprise at the Park",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Planning a birthday picnic in the park",
+      "time": "Saturday afternoon, 3:00 PM",
+      "location": "A quiet corner of Maplewood Park",
+      "description": "Madison has organized a small birthday picnic for her mother Anna and younger sister Cici. She has invited a few close friends to help set up the scene. The park is filled with sunlight and soft music from a nearby bandstand, creating a warm and inviting atmosphere. Anna is distracted by her phone, while Cici is excitedly running around, not yet aware of the surprise.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Madison Henderson",
+          "gender": "16-year-old female",
+          "description": "Determined and empathetic, Madison is setting up the picnic while managing the surprise with her friends.; 16-year-old female, 16 years old; Occupation: Middle school student; Personality: Attentive, Creative, Empathetic, Optimistic; Values: Emotional connection, Gratitude, Family bonds; Interests: Blog design, Emotional expression, Relationship building; Experiences: Planning surprise events, Handling family relationships, Expressing emotions through creativity",
+          "position": "Near the blanket and picnic basket",
+          "states": "Anxious but hopeful",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Anna Henderson",
+          "gender": "38-year-old female",
+          "description": "Madison's mother, who is often forgetful and distant due to work stress, is unaware of the surprise; Female; Age: 38; Occupation: Senior project manager at a marketing firm; Personality: Ambitious, overworked, well-meaning; Values: Family, professional success, reliability; Interests: Networking events, weekend gardening, coffee culture; Experiences: Missed several of Madison's school events due to deadlines, recently started therapy to manage stress, has a demanding boss who values results over work-life balance.",
+          "position": "Sitting on a bench, checking her phone",
+          "states": "Tired, slightly guilty",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Cici Henderson",
+          "gender": "10-year-old female",
+          "description": "Cici Henderson; Female; Age: 10; Occupation: Elementary School Student; Personality: Energetic, playful, imaginative; Values: Family, fun, honesty; Interests: Drawing, outdoor games, collecting pretty stones; Experiences: Attended several family picnics, recently started learning to ride a bike, loves helping with small chores at home.",
+          "position": "Running around with other children",
+          "states": "Joyful, curious",
+          "is_npc": true
+        },
+        {
+          "id": 3,
+          "name": "Lila Chen",
+          "gender": "16-year-old female",
+          "description": "Lila Chen; Female; Age: 16; Occupation: High school student and part-time volunteer at the local community center; Personality: Playful, supportive, creative; Values: Loyalty, kindness, spontaneity; Interests: Outdoor adventures, baking, music; Experiences: Organized a successful charity bake sale, helped plan a family reunion, has a history of surprising friends with thoughtful gestures.",
+          "position": "Near the children, chatting with Cici",
+          "states": "Playful, supportive",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Madison Henderson",
+          "character_id": 0,
+          "action": "Checking the setup one last time",
+          "dialogue": "Okay, everything's in place. Just need to make sure Anna doesn't notice anything."
+        },
+        {
+          "action_id": 1,
+          "character": "Lila Chen",
+          "character_id": 3,
+          "action": "Calling out to Cici to keep her engaged",
+          "dialogue": "Hey Cici, let's see who can climb the slide the fastest!"
+        },
+        {
+          "action_id": 2,
+          "character": "Anna Henderson",
+          "character_id": 1,
+          "action": "Looking up from her phone, slightly confused",
+          "dialogue": "Wait, why is the park so quiet today? I thought it was just a regular Saturday."
+        },
+        {
+          "action_id": 3,
+          "character": "Madison Henderson",
+          "character_id": 0,
+          "action": "Approaching Anna with a smile",
+          "dialogue": "It's not just a regular Saturday, Mom. It's Cici's birthday. I hope you're ready for a surprise."
+        },
+        {
+          "action_id": 4,
+          "character": "Anna Henderson",
+          "character_id": 1,
+          "action": "Looking surprised and emotional",
+          "dialogue": "Oh my gosh, Madison. I'm so sorry I forgot. I didn't mean to miss this."
+        },
+        {
+          "action_id": 5,
+          "character": "Cici Henderson",
+          "character_id": 2,
+          "action": "Running over, curious and excited",
+          "dialogue": "What's going on? Why is everyone here?"
+        },
+        {
+          "action_id": 6,
+          "character": "Madison Henderson",
+          "character_id": 0,
+          "action": "Gently guiding Cici to the picnic blanket",
+          "dialogue": "It's your birthday, silly! We're celebrating you today."
+        },
+        {
+          "action_id": 7,
+          "character": "Anna Henderson",
+          "character_id": 1,
+          "action": "Putting her phone away and kneeling to hug Cici",
+          "dialogue": "You're right, Cici. I'm so proud of you. Thank you, Madison, for reminding me what's important."
+        }
+      ],
+      "plot": "Madison organizes a surprise birthday picnic for her mother and sister in the park, hoping to rekindle emotional bonds and show her family the importance of gratitude and connection.",
+      "social_purpose": "To demonstrate Madison's values of emotional connection, family bonds, and gratitude through a public, shared event where her actions and dialogue reveal her personality and motivations.",
+      "chunk": {
+        "id": 0,
+        "text": "Madison, with the help of her friends, has arranged a small birthday picnic in the park for her mother and sister. Anna, who is often wrapped up in her work, is initially unaware of the occasion. As the surprise unfolds, the emotional dynamics between the three shift, with Anna expressing guilt and Cici showing joy and surprise. Madison's efforts to create a meaningful moment for her family are evident in her careful planning and empathetic actions."
+      },
+      "npcs": [
+        1,
+        2,
+        3
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "title": "The Jersey Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Shopping for a basketball jersey",
+      "time": "Afternoon",
+      "location": "A local sports store in the city center",
+      "description": "Ella Turner, a 25-year-old part-time worker, stands in a small jersey store with his friends Yuna and Hao. The shop is cozy, with a few racks of sports gear and a counter where a cashier is scanning items. Ella is holding a basketball jersey with the local team's logo, looking conflicted. Yuna and Hao are nearby, scanning other items on the shelves.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Ella Turner",
+          "gender": "Male",
+          "description": "A pragmatic and supportive young man in his early 25s, wearing a plain T-shirt and jeans. He is holding a jersey and appears to be weighing his options carefully.; male, early, 25 years old; Occupation: Part-time worker; Personality: Pragmatic, Helpful, Decisive, Supportive; Values: Friendship, Fairness, Practicality; Interests: Basketball, Shopping, Group activities; Experiences: Shopping with friends, Making group decisions, Balancing personal and social needs",
+          "position": "Near the center of the store, by the jersey rack",
+          "states": "Hesitant, thoughtful, and empathetic",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Yuna",
+          "gender": "Female",
+          "description": "A 23-year-old college student, wearing a hoodie and sneakers. She is clearly frustrated and pointing at the price tag of the jersey Ella is holding; Female; Age: 23; Occupation: Part-time barista and full-time marketing student; Personality: blunt, practical, easily impatient; Values: frugality, honesty, loyalty; Interests: following local sports teams, thrift shopping, casual gaming; Experiences: worked multiple part-time jobs to support her education, helped her brother through financial struggles, often gives advice to friends about budgeting.",
+          "position": "Standing next to Ella, gesturing at the jersey",
+          "states": "Annoyed, budget-conscious, and outspoken",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Hao",
+          "gender": "Male",
+          "description": "A 26-year-old freelance designer, wearing a graphic tee and jeans, scanning the store with a calm but calculating look; Male; Age: 26; Occupation: Freelance graphic designer; Personality: Analytical, cost-conscious, helpful; Values: Practicality, efficiency, collaboration; Interests: Basketball, fashion design, budget-friendly shopping; Experiences: Worked on local team branding projects, managed personal finances through freelancing, helped friends with design choices for events.",
+          "position": "Near the store entrance, looking at other racks",
+          "states": "Analytical, cost-conscious, and helpful",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Yuna",
+          "character_id": 1,
+          "action": "Complains about the price of the jersey",
+          "dialogue": "Ella, this is way too expensive for a single jersey. I can't even afford this on my student budget!"
+        },
+        {
+          "action_id": 1,
+          "character": "Ella Turner",
+          "character_id": 0,
+          "action": "Looks at the jersey with hesitation",
+          "dialogue": "I know, I know. It's a local store, and I really wanted to support them, but I don't want to push it if it's not worth it for everyone."
+        },
+        {
+          "action_id": 2,
+          "character": "Hao",
+          "character_id": 2,
+          "action": "Suggests looking elsewhere",
+          "dialogue": "How about we check out some of the stores in the next district? They usually have similar stuff but at a better price."
+        },
+        {
+          "action_id": 3,
+          "character": "Ella Turner",
+          "character_id": 0,
+          "action": "Agrees to consider other options",
+          "dialogue": "That's probably the best idea. I'll put this jersey back and we can look around. I just wanted to make sure we all had a say in this."
+        }
+      ],
+      "plot": "Ella is trying to decide whether to buy a jersey from a local store for a group basketball event, but his friends Yuna and Hao are concerned about the cost. Ella's helpful and pragmatic nature comes through as he tries to balance his support for the local business with his friends' financial limitations. The group decides to look for cheaper options elsewhere, easing the tension but possibly leading to future discussions about shared values and spending.",
+      "social_purpose": "To demonstrate how personal values like supporting local businesses can clash with the group's practical and financial needs, and how a protagonist can navigate such a situation while maintaining harmony.",
+      "chunk": {
+        "id": 0,
+        "text": "Ella, Yuna, and Hao were in the middle of planning a casual basketball game with other friends when they realized they needed matching jerseys. Ella, being the supportive and decisive one in the group, suggested they buy them from a local store he had heard about. The store was small, but the jerseys were made in the city and had the team's logo, which appealed to Ella's love for the sport and local culture. However, when he picked up one to examine, the price tag caught his attention. It was higher than he expected, and he noticed Yuna's face drop in disappointment. Hao, ever the practical thinker, suggested looking elsewhere. Ella, after a brief internal debate, agreed to put the jersey back and explore other options, showing his commitment to fairness and group harmony."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

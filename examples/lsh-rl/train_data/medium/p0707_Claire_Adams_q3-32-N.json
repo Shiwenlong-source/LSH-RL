@@ -1,0 +1,102 @@
+{
+  "title": "Voices for Change at the Faith Rally",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Faith Rally for Social Justice",
+      "time": "Saturday afternoon",
+      "location": "Community Center, downtown neighborhood",
+      "description": "Claire Adams, a passionate and determined single mother and activist, is preparing to give a speech at a faith-based rally for social justice. The event brings together community members, religious leaders, and local activists to discuss pressing social issues. Claire is joined by her friend Chen, who is more reserved and skeptical about political engagement, and Angel, a young activist who admires Claire's courage and vision.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Claire Adams",
+          "gender": "Female",
+          "description": "A 35-year-old single mother and social activist, Claire is transitioning into political participation. She is compassionate, deliberate, and driven by a strong sense of social justice and faith.; Female, Single Mother and Activist, 35 years old; Occupation: Social Activist; Personality: Compassionate, Determined, Deliberate, Passionate; Values: Social Justice, Community Empowerment, Faith-driven Action; Interests: Public Speaking, Social Reform, Faith Activities; Experiences: Transition from non-political to political activism, Raising a child as a single mother, Organizing community events",
+          "position": "Main Stage, center",
+          "states": "Nervous but focused, ready to speak",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Chen",
+          "gender": "Male",
+          "description": "A longtime friend of Claire’s, leaning against the wall, arms crossed, watching intently; Male; Age: 42; Occupation: Community Center Social Worker; Personality: Pragmatic, Cautious, Observant; Values: Stability, Practical Solutions, Personal Responsibility; Interests: Urban policy discussions, Classic detective novels, Coffee shop culture; Experiences: Witnessed the negative impacts of radical activism in his youth, Worked with at-risk youth in the neighborhood for over a decade, Navigated political tensions while maintaining neutral professional relationships.",
+          "position": "Behind Claire, near the back of the stage",
+          "states": "Leaning against the wall, arms crossed, watching intently",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Angel",
+          "gender": "Female",
+          "description": "A young and enthusiastic activist in her early 20s, Angel is a strong supporter of Claire’s new path; Female; Age: 22; Occupation: Youth Outreach Coordinator at a local non-profit focused on education and empowerment; Personality: Energetic, optimistic, charismatic; Values: Equity, hope, collective action; Interests: Organizing community workshops, social media advocacy, urban gardening; Experiences: Volunteered in after-school programs for at-risk youth, participated in youth-led climate strikes, helped establish a neighborhood mutual aid network during the pandemic.",
+          "position": "Front row of the audience, holding a sign",
+          "states": "Excited, clapping at key moments, ready to respond",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Angel",
+          "character_id": 2,
+          "action": "Clapping and cheering",
+          "dialogue": "Go, Claire! We believe in you!"
+        },
+        {
+          "action_id": 1,
+          "character": "Claire Adams",
+          "character_id": 0,
+          "action": "Speaking passionately",
+          "dialogue": "We must use our faith to drive action, not just comfort. Our community deserves justice, and it starts with us standing up for one another."
+        },
+        {
+          "action_id": 2,
+          "character": "Chen",
+          "character_id": 1,
+          "action": "Sighing and murmuring to himself",
+          "dialogue": "This is going to divide more than unite…"
+        },
+        {
+          "action_id": 3,
+          "character": "Claire Adams",
+          "character_id": 0,
+          "action": "Making eye contact with Angel",
+          "dialogue": "Angel, your energy reminds me why I started this journey. We are stronger together."
+        },
+        {
+          "action_id": 4,
+          "character": "Chen",
+          "character_id": 1,
+          "action": "Approaching Claire after the speech",
+          "dialogue": "I didn’t like the part where you said we should pressure the politicians. That’s not how change works, Claire."
+        },
+        {
+          "action_id": 5,
+          "character": "Claire Adams",
+          "character_id": 0,
+          "action": "Reassuring Chen",
+          "dialogue": "I know it’s new, Chen, but if we don’t use our voices, who will? We can’t ignore the injustice around us."
+        },
+        {
+          "action_id": 6,
+          "character": "Angel",
+          "character_id": 2,
+          "action": "Approaching Claire and Chen",
+          "dialogue": "Chen, you might not like politics, but Claire’s right—our faith needs to move us to act."
+        }
+      ],
+      "plot": "Claire gives a speech at a faith rally, advocating for political engagement to address social injustice. Her friend Chen expresses skepticism, while Angel, a young activist, supports her. The interaction highlights Claire’s transition into political activism and the differing perspectives of those around her.",
+      "social_purpose": "To explore the tensions and support within a community as an individual takes a bold step into political activism, reflecting themes of social justice, faith-driven action, and community empowerment.",
+      "chunk": {
+        "id": 0,
+        "text": "Claire steps onto the stage, her hands slightly trembling but her voice steady. The crowd begins to quiet as she addresses the audience. Angel, in the front row, can’t help but smile and cheer, while Chen, watching from the back, remains doubtful. As the speech progresses, Claire’s passion for social justice and faith-driven action becomes evident. Angel’s enthusiasm contrasts with Chen’s skepticism, setting the stage for a deeper conversation about the role of activism in their community."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "title": "The Office Emergency",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Annie insists on working while unwell, and her colleagues attempt to convince her to seek medical help.",
+      "time": "10:30 AM",
+      "location": "Open office space at a tech startup",
+      "description": "Annie is slumped at her desk, typing slowly, her face pale and her eyes tired. Nina, a more experienced and caring colleague, approaches her with concern. Jack, a quiet but observant team member, is nearby and notices Annie's discomfort.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Annie Hughes",
+          "gender": "female",
+          "description": "New employee, stubborn and independent, appears unwell but is trying to hide it.; female, new to the workforce, 23 years old; Occupation: New Company Employee; Personality: Stubborn, Independent, Reluctant to Trouble Others; Values: Self-Reliance, Avoiding Causing Trouble for Others; Interests: Work Dedication, Personal Persistence; Experiences: Just Started Job, Persisting in Working While Unwell, Receiving Colleague Concern, Hesitating to Accept Help, Working Under Pressure",
+          "position": "At her desk",
+          "states": "Unwell, determined to work, reluctant to accept help",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Nina Parker",
+          "gender": "female",
+          "description": "Experienced colleague, compassionate and assertive, insists Annie take care of herself; Female; Age: 32; Occupation: Senior Software Engineer; Personality: Empathetic, responsible, no-nonsense; Values: Team well-being, work-life balance, integrity; Interests: Mentoring junior developers, hiking, reading leadership books; Experiences: Managed high-pressure projects during health crises, previously dealt with a team member's burnout situation, values self-care after overcoming her own long-term illness.",
+          "position": "Standing next to Annie",
+          "states": "Concerned, determined to help",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Jack Bennett",
+          "gender": "male",
+          "description": "Colleague who is observant and willing to assist, but prefers to act subtly; Male; Age: 29; Occupation: Senior Software Engineer; Personality: Analytical, empathetic, reserved; Values: Team well-being, discretion, work-life balance; Interests: Solving complex coding challenges, reading mystery novels, hiking on weekends; Experiences: Managed high-pressure project deadlines while supporting a team member with health issues, volunteered for internal mentorship programs, observed workplace burnout in previous roles.",
+          "position": "Nearby at his desk",
+          "states": "Observant, ready to help, discreet",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Nina Parker",
+          "character_id": 1,
+          "action": "Approaches Annie and speaks up",
+          "dialogue": "Annie, are you okay? You look really pale. Maybe you should take a break or go see a doctor."
+        },
+        {
+          "action_id": 1,
+          "character": "Annie Hughes",
+          "character_id": 0,
+          "action": "Shakes her head and replies with determination",
+          "dialogue": "I’m fine, Nina. I just have a bit of a cold. I can’t afford to fall behind on my tasks, especially not on my first month here."
+        },
+        {
+          "action_id": 2,
+          "character": "Nina Parker",
+          "character_id": 1,
+          "action": "Crosses her arms and insists",
+          "dialogue": "You don’t have to prove anything to anyone. Your health is more important than work. I’ll help you if you need it."
+        },
+        {
+          "action_id": 3,
+          "character": "Annie Hughes",
+          "character_id": 0,
+          "action": "Looks away, fidgeting with her keyboard",
+          "dialogue": "I don’t want to trouble anyone. I’ve been managing on my own so far, and I don’t want to start now."
+        },
+        {
+          "action_id": 4,
+          "character": "Jack Bennett",
+          "character_id": 2,
+          "action": "Leans over slightly to Nina and whispers",
+          "dialogue": "I can call the clinic and book her an appointment if she’s not going to listen to us."
+        }
+      ],
+      "plot": "Annie's colleagues notice her unwell condition and try to persuade her to take a break or seek medical help. Despite their concern, Annie resists, valuing her independence and not wanting to appear burdensome. Jack, however, silently offers to assist, showing the underlying support and care among the team.",
+      "social_purpose": "To highlight the tension between self-reliance and accepting help in a workplace setting, while demonstrating subtle forms of support and concern among colleagues.",
+      "chunk": {
+        "id": 0,
+        "text": "Annie's colleagues notice her unwell condition and try to persuade her to take a break or seek medical help. Despite their concern, Annie resists, valuing her independence and not wanting to appear burdensome. Jack, however, silently offers to assist, showing the underlying support and care among the team."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

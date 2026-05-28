@@ -1,0 +1,123 @@
+{
+  "title": "Choosing the Right Advisor",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Julian's first meeting with two financial advisors",
+      "time": "10:00 AM",
+      "location": "Financial Planning Center, University City",
+      "description": "Julian Porter, a 28-year-old PhD student, sits in a quiet consultation room with a financial advisor, Zoe. The atmosphere is professional but feels a bit cold to Julian, who was expecting more warmth and connection. Henry, another advisor, enters and joins the meeting, bringing a more personable energy.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Julian Porter",
+          "gender": "Male",
+          "description": "28-year-old PhD student who is seeking financial advice. He is rational and empathetic but feels anxious and cautious in this situation.; 28-year-old Male Student, 28 years old; Occupation: PhD Student; Personality: Rational, Anxious, Cautious, Empathetic; Values: Emotional Connection, Professionalism, Trust; Interests: Financial Planning, Personal Development, Relationship Building; Experiences: Seeking Financial Advice, Experiencing Professional Services, Balancing Logic and Emotion",
+          "position": "Seated at the table, slightly hunched forward",
+          "states": "Anxious, Cautious, Observant",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Zoe",
+          "gender": "Female",
+          "description": "A seasoned financial advisor known for her analytical and emotionless approach; Female; Age: 36; Occupation: Senior Financial Advisor; Personality: Calm, Confident, Focused; Values: Precision, Long-term Security, Professionalism; Interests: Data Analysis, Minimalist Interior Design, Classical Music; Experiences: Managed high-profile investment portfolios during the 2008 financial crisis, Transitioned from academia to finance after realizing the instability of academic funding, Advised several young professionals on financial independence strategies.",
+          "position": "Sitting across from Julian, holding a tablet",
+          "states": "Calm, Confident, Focused",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Henry",
+          "gender": "Male",
+          "description": "A newer but more personable financial advisor who emphasizes building trust and rapport with clients; Male; Age: 34; Occupation: Financial Advisor; Personality: Warm, Empathetic, Analytical; Values: Trust, Long-term relationships, Financial empowerment; Interests: Reading personal development books, Hiking, Volunteering at community centers; Experiences: Previously worked as a counselor in a nonprofit helping young adults with financial literacy, recently transitioned to private financial advising to combine empathy with expertise, mentors new advisors on client communication skills.",
+          "position": "Standing near the door, then sitting beside Zoe",
+          "states": "Warm, Engaging, Observant",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Julian Porter",
+          "character_id": 0,
+          "action": "Expresses his concerns about financial planning",
+          "dialogue": "I'm worried about making the right decisions, especially since I'm still in school and not sure about my long-term financial goals. I want to feel confident, but I also want to feel heard."
+        },
+        {
+          "action_id": 1,
+          "character": "Zoe",
+          "character_id": 1,
+          "action": "Responds with a purely analytical perspective",
+          "dialogue": "Your concerns are valid, but we need to focus on the numbers. Emotional attachment to decisions can cloud judgment. Let's start by looking at your current expenses and projected income."
+        },
+        {
+          "action_id": 2,
+          "character": "Julian Porter",
+          "character_id": 0,
+          "action": "Shows visible discomfort with Zoe's approach",
+          "dialogue": "I understand the importance of numbers, but I also want to feel like this is a partnership. I don't just want data—I want to understand how I can grow both financially and personally."
+        },
+        {
+          "action_id": 3,
+          "character": "Henry",
+          "character_id": 2,
+          "action": "Enters the room and offers a more empathetic perspective",
+          "dialogue": "Hi Julian, I heard you're looking for someone who can help you feel more confident and supported in your financial journey. That's what I aim to do. Let's talk about your goals, your values, and how we can align them with your financial plan."
+        },
+        {
+          "action_id": 4,
+          "character": "Julian Porter",
+          "character_id": 0,
+          "action": "Shifts his attention to Henry, visibly more at ease",
+          "dialogue": "That sounds more like what I was hoping for. I want to make sure I'm not just crunching numbers but also feeling like I'm in a good place mentally."
+        },
+        {
+          "action_id": 5,
+          "character": "Zoe",
+          "character_id": 1,
+          "action": "Attempts to reassure Julian with logic",
+          "dialogue": "I'm not saying emotions don't matter, but the foundation of sound financial planning is objective data. Without it, you can't make informed decisions."
+        },
+        {
+          "action_id": 6,
+          "character": "Henry",
+          "character_id": 2,
+          "action": "Encourages Julian to share more about his personal values",
+          "dialogue": "Let's start with what's important to you. For example, do you see yourself investing for the long term, or are you more focused on short-term stability and growth?"
+        },
+        {
+          "action_id": 7,
+          "character": "Julian Porter",
+          "character_id": 0,
+          "action": "Shares his priorities with Henry",
+          "dialogue": "I'm in a PhD program, so I'm not sure about my income for the next few years. I need a plan that's flexible, but I also want to feel like I'm not just a case number to you."
+        },
+        {
+          "action_id": 8,
+          "character": "Zoe",
+          "character_id": 1,
+          "action": "Offers a structured plan based on data",
+          "dialogue": "I can provide you with a comprehensive financial model that adapts to your projected income and expenses. It's all in the analysis."
+        },
+        {
+          "action_id": 9,
+          "character": "Henry",
+          "character_id": 2,
+          "action": "Suggests a collaborative approach",
+          "dialogue": "I can help you build a plan that's as dynamic as you are. We can revisit it every few months and adjust as needed, and I'll be here to support you through the process."
+        }
+      ],
+      "plot": "Julian is trying to decide between two financial advisors—Zoe, who is highly logical and data-driven, and Henry, who is warm and focuses on personal connection. As the meeting progresses, Julian feels more comfortable with Henry's approach but remains cautious and analytical in his decision-making.",
+      "social_purpose": "To explore Julian's values of emotional connection and trust in contrast with the two advisors' differing styles, and to show how he navigates between logic and emotion in making a decision.",
+      "chunk": {
+        "id": 0,
+        "text": "Julian's first meeting with two financial advisors"
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

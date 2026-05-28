@@ -1,0 +1,95 @@
+{
+  "title": "Beach Wedding Brainstorm",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Planning a beach wedding",
+      "time": "Saturday afternoon",
+      "location": "Cozy outdoor café near the beach",
+      "description": "Sienna, Yan Duo, and Tao are seated at a small table with a view of the ocean. They are sipping coffee and reviewing wedding venue options, with a focus on a beach setting. Yan Duo is enthusiastic and sketching ideas on a napkin, while Tao is flipping through a budget spreadsheet on his phone. Sienna is thoughtfully listening and occasionally adding her own thoughts.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Sienna Evans",
+          "gender": "Female",
+          "description": "A pragmatic and independent professional in her early thirties, Sienna is passionate about meaningful celebrations and simplicity. She is currently considering a beach wedding and is trying to balance her personal happiness with practical concerns.; Early / Female / Professional, 35 years old; Occupation: Head of Product Promotion; Personality: Independent, Pragmatic, Contemplative; Values: Simplicity, Happiness, Friendship; Interests: Wedding planning, Relaxed environments, Meaningful celebrations; Experiences: Attending traditional weddings, Recently started considering marriage, Discussing personal goals with close friends",
+          "position": "Head of table, looking out at the ocean",
+          "states": "Thoughtful, engaged, slightly conflicted",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Yan Duo",
+          "gender": "Male",
+          "description": "Yan Duo is Sienna’s close friend and a creative, expressive individual; Male; Age: 28; Occupation: Event Designer; Personality: Enthusiastic, supportive, animated; Values: Creativity, friendship, authenticity; Interests: Beach photography, sketching event concepts, tropical cuisine; Experiences: Designed a destination wedding in Bali, organized a surprise beach party for a close friend’s anniversary, volunteered for a local arts festival.",
+          "position": "To Sienna’s left, gesturing with his hands and drawing on a napkin",
+          "states": "Enthusiastic, supportive, animated",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Tao",
+          "gender": "Male",
+          "description": "Tao is Sienna’s pragmatic and detail-oriented colleague; Male; Age: 32; Occupation: Event Logistics Coordinator; Personality: Analytical, cautious, focused; Values: Efficiency, reliability, fiscal responsibility; Interests: Spreadsheet optimization, urban planning, minimalist design; Experiences: Managed a high-profile corporate beach retreat, coordinated a multicultural wedding for a client, worked in event planning during the pandemic.",
+          "position": "To Sienna’s right, using a tablet to check details",
+          "states": "Analytical, cautious, focused",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Sienna Evans",
+          "character_id": 0,
+          "action": "Expresses her dream for a relaxed beach wedding",
+          "dialogue": "I really want something simple and meaningful. A beach wedding feels perfect, you know? Just the sun, the sand, and our closest friends and family."
+        },
+        {
+          "action_id": 1,
+          "character": "Yan Duo",
+          "character_id": 1,
+          "action": "Suggests a creative idea to enhance the theme",
+          "dialogue": "What if we have a sunset ceremony followed by a bonfire and live music? It could be magical, Sienna. I can even help design the invitations to match the vibe."
+        },
+        {
+          "action_id": 2,
+          "character": "Tao",
+          "character_id": 2,
+          "action": "Raises a concern about logistics",
+          "dialogue": "That sounds beautiful, but we need to consider the weather and the cost of a bonfire permit. Also, not all guests might be comfortable with sand or walking long distances."
+        },
+        {
+          "action_id": 3,
+          "character": "Sienna Evans",
+          "character_id": 0,
+          "action": "Reflects on the balance between vision and practicality",
+          "dialogue": "I see your point, Tao. I don’t want to make it complicated, but I also want people to feel comfortable. Maybe we can find a sheltered area for the ceremony and keep the bonfire smaller?"
+        },
+        {
+          "action_id": 4,
+          "character": "Yan Duo",
+          "character_id": 1,
+          "action": "Encourages compromise while keeping the dream alive",
+          "dialogue": "Exactly! We can still keep the spirit of the beach without overdoing it. Let’s make it about the memories, not the stress."
+        },
+        {
+          "action_id": 5,
+          "character": "Tao",
+          "character_id": 2,
+          "action": "Agrees to a modified plan with conditions",
+          "dialogue": "Okay, if we keep the numbers low and choose a venue with amenities nearby, it can work. I’ll help you track the budget and ensure everything is covered."
+        }
+      ],
+      "plot": "Sienna is planning a beach wedding and is trying to balance her vision with practical concerns. Yan Duo is supportive and offers creative ideas, while Tao raises logistical issues. Through their discussion, Sienna begins to see a way to merge both perspectives into a cohesive and meaningful plan.",
+      "social_purpose": "Explore how Sienna navigates between her personal values (simplicity, happiness) and external expectations (practicality, guest comfort) while receiving input from a supportive friend and a pragmatic colleague.",
+      "chunk": {
+        "id": 0,
+        "text": "Sienna, Yan Duo, and Tao are discussing the details of a beach wedding at a café. Yan Duo suggests a sunset ceremony and bonfire, which excites Sienna but worries Tao about logistics and budget. Sienna considers their input and begins to adjust her plan to be more practical while still keeping the celebration meaningful and relaxed."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

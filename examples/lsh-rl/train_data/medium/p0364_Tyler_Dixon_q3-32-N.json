@@ -1,0 +1,88 @@
+{
+  "title": "The Last Call",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "A group of friends discussing weekend plans at a late-night diner.",
+      "time": "11:30 PM",
+      "location": "Corner Diner, a small, dimly lit restaurant with a retro vibe and a few scattered customers.",
+      "description": "The group of friends—Tyler, Chen, and Aja—sit in a booth near the back of the diner. The hum of the neon sign outside and the clink of coffee cups in the background create a quiet but tense atmosphere. Tyler, who has been leaning against the wall pretending to watch a game on his phone, is clearly distracted by the conversation between Chen and Aja. He shifts in his seat, trying to hide his weariness but still feeling the pull of social obligation.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Tyler Dixon",
+          "gender": "male",
+          "description": "Early 25s, part-time worker, visibly tired but trying to stay engaged. Leans against the wall, holding his phone like it's a lifeline.; male, early, 25 years old; Occupation: Part-time worker; Personality: Restless, Observant, Pragmatic, Introverted; Values: Friendship, Balance, Efficiency; Interests: Video games, Casual socializing, Event planning; Experiences: Attending parties, Feeling tired of daily activities, Handling group dynamics, Struggling with choices",
+          "position": "Leaning against the wall, slightly apart from the booth",
+          "states": "Restless, observant, introverted, conflicted",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Chen Li",
+          "gender": "male",
+          "description": "Chen Li; Male; Age: 29; Occupation: Marketing Coordinator; Personality: Ambitious, charismatic, detail-oriented; Values: Professional growth, loyalty, creativity; Interests: Networking events, urban exploration, retro pop culture; Experiences: Successfully launched a viral social media campaign for a local startup, recently promoted after three years at his company, frequently socializes with colleagues at after-work gatherings.",
+          "position": "Sitting in the middle of the booth",
+          "states": "Energetic, focused, organized",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Aja Thompson",
+          "gender": "female",
+          "description": "Aja Thompson; Female; Age: 27; Occupation: Freelance graphic designer; Personality: Calm, friendly, perceptive; Values: Creativity, authenticity, work-life balance; Interests: Vintage fashion, indie music, urban sketching; Experiences: Worked remotely from coffee shops and diners for years, recently ended a long-distance relationship that strained her social life, values deep connections over superficial interactions.",
+          "position": "Across from Chen in the booth",
+          "states": "Calm, friendly, perceptive",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Chen Li",
+          "character_id": 1,
+          "action": "Suggests a plan for the upcoming weekend event.",
+          "dialogue": "So, what do you think, Aja? We could do a small meet-up at the park. It's low-key but still gives people a chance to connect. Tyler, you in?"
+        },
+        {
+          "action_id": 1,
+          "character": "Aja Thompson",
+          "character_id": 2,
+          "action": "Agrees with Chen's suggestion and looks to Tyler for a response.",
+          "dialogue": "That sounds like a good idea, Chen. It's not too much, but it's still fun. Tyler, you've been quiet—what do you say?"
+        },
+        {
+          "action_id": 2,
+          "character": "Tyler Dixon",
+          "character_id": 0,
+          "action": "Interrupts with a hint of impatience, trying to keep the conversation moving.",
+          "dialogue": "I don't know, man. I've been running on fumes all week. But if it's just a casual thing, I can probably make it."
+        },
+        {
+          "action_id": 3,
+          "character": "Chen Li",
+          "character_id": 1,
+          "action": "Nods and suggests setting a date, showing his pragmatic side.",
+          "dialogue": "Alright, let's plan for Saturday then. I'll send out the details. It's not a big deal, just a few people, nothing too intense."
+        },
+        {
+          "action_id": 4,
+          "character": "Aja Thompson",
+          "character_id": 2,
+          "action": "Reassures Tyler, emphasizing their shared value of balance.",
+          "dialogue": "You don't have to do anything you don't want to, Tyler. We just thought it'd be nice to get together. No pressure."
+        }
+      ],
+      "plot": "As the conversation unfolds, Tyler struggles with his internal conflict between wanting to maintain friendships and his growing fatigue. Chen and Aja, both more extroverted and socially engaged, push for a plan that includes Tyler, but he feels the weight of their expectations. The late-night setting adds to the tension, with Tyler's restlessness and Chen's efficiency clashing subtly. Aja serves as the mediator, trying to balance the group dynamics and ensure no one feels overwhelmed.",
+      "social_purpose": "To explore Tyler's personality traits and values—particularly his restlessness, introversion, and desire for balance—through a casual yet meaningful social interaction. The scene also highlights the group's shared goal of maintaining a connection while acknowledging individual needs.",
+      "chunk": {
+        "id": 0,
+        "text": "Chen proposed the weekend meet-up, and Aja supported it. Tyler, though reluctant, tried to appear interested and agreeable. As Chen sent a message to confirm the details, Tyler glanced at his phone, already thinking about how much he wanted to just go home and rest."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "title": "Study Break at the Campus Café",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Study Break",
+      "time": "Afternoon",
+      "location": "Campus Café",
+      "description": "Matthew, a 20-year-old college student, is sitting at a small table with his laptop, surrounded by books and notes. He's clearly stressed but trying to focus. His friend Coco, a lively and outgoing junior, approaches with a tray of snacks and drinks. Another friend, Alex, a calm and organized senior, joins them a few minutes later.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Matthew Gutierrez",
+          "gender": "Male",
+          "description": "Matthew is a 20-year-old college student who is anxious and introspective. He is responsible and hesitant to share his personal struggles. He is currently overwhelmed with academic work and feels torn between studying and socializing.; Around, Male, College Student, 20 years old; Occupation: College Student; Personality: Anxious, Introspective, Responsible, Hesitant; Values: Family, Academic Success, Friendship; Interests: Studying, Socializing, Photography, Comic Con; Experiences: Academic Pressure, Parental Expectations, Friendship Conflicts, Late-night Studying, Social Media Interaction",
+          "position": "Seated at a table with his laptop and notes",
+          "states": "Stressed, trying to focus, conflicted",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Coco Ramirez",
+          "gender": "Female",
+          "description": "Coco is a junior with a vibrant personality; Female; Age: 19; Occupation: Psychology major and part-time campus event coordinator; Personality: Energetic, empathetic, cheerful; Values: Friendship, mental well-being, inclusivity; Interests: Organizing social events, trying new foods, dancing; Experiences: Led a peer support group during her sophomore year, coordinated a successful campus stress-relief week, struggled with her own anxiety in high school.",
+          "position": "Standing next to Matthew's table with a tray of snacks and drinks",
+          "states": "Energetic, concerned, cheerful",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Alex Chen",
+          "gender": "Male",
+          "description": "Alex is a senior who is calm, organized, and empathetic; Male; Age: 22; Occupation: Psychology major and campus peer counseling mentor; Personality: Analytical, patient, reliable; Values: Balance, empathy, academic integrity; Interests: Reading self-help books, hiking, and helping others; Experiences: Mediated group projects in college, volunteered at a youth mentorship program, maintained a 3.8 GPA while leading a student organization.",
+          "position": "Approaching the table and sitting down with a notebook",
+          "states": "Calm, empathetic, focused",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Coco Ramirez",
+          "character_id": 1,
+          "action": "Approaches Matthew with a tray of snacks and drinks.",
+          "dialogue": "Hey Matt! I brought you some cookies and coffee. You look like you could use a break. What's going on?"
+        },
+        {
+          "action_id": 1,
+          "character": "Matthew Gutierrez",
+          "character_id": 0,
+          "action": "Looks up from his laptop, hesitates, and forces a smile.",
+          "dialogue": "Thanks, Coco. I just have a lot of work to do. Finals are coming up."
+        },
+        {
+          "action_id": 2,
+          "character": "Alex Chen",
+          "character_id": 2,
+          "action": "Sits down and opens his notebook, speaking softly.",
+          "dialogue": "Hey, we all get stressed before finals. It's important to take a breath and not burn out. What's the plan for your study sessions?"
+        },
+        {
+          "action_id": 3,
+          "character": "Matthew Gutierrez",
+          "character_id": 0,
+          "action": "Looks at his friends, then back at his laptop, clearly conflicted.",
+          "dialogue": "I just... I want to make my mom proud. She’s always been so supportive, but I feel like I have to prove myself. I can’t mess up."
+        },
+        {
+          "action_id": 4,
+          "character": "Coco Ramirez",
+          "character_id": 1,
+          "action": "Places a hand on Matthew's shoulder, speaking with genuine concern.",
+          "dialogue": "You know we're all here for you, right? You don’t have to do this alone. We can help you study if you want."
+        },
+        {
+          "action_id": 5,
+          "character": "Alex Chen",
+          "character_id": 2,
+          "action": "Nods in agreement and offers a practical suggestion.",
+          "dialogue": "I’ve been through this before. Maybe we can set up a study group tonight? It’ll be more fun with everyone together."
+        },
+        {
+          "action_id": 6,
+          "character": "Matthew Gutierrez",
+          "character_id": 0,
+          "action": "Considers the offer, then slowly smiles, showing some relief.",
+          "dialogue": "That sounds good. I just need to make sure I can balance it with everything else. I don’t want to let anyone down."
+        }
+      ],
+      "plot": "Matthew is trying to manage his academic workload while being pulled between his mother’s expectations and his friends' desire for social interaction. Coco and Alex offer support in the form of a study group, helping him find a balance between studying and connecting with others.",
+      "social_purpose": "To explore how Matthew navigates the tension between his personal goals, family expectations, and friendships, while also showing the support of his friends in a realistic public setting.",
+      "chunk": {
+        "id": 0,
+        "text": "Matthew, a 20-year-old college student, is at the campus café with his laptop and books, trying to focus on his studies. His friend Coco approaches with snacks and drinks, and Alex joins them. They offer to help him study in a group, which eases his stress and helps him feel more connected without compromising his academic goals."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

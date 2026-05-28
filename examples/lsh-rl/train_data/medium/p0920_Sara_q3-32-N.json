@@ -1,0 +1,126 @@
+{
+  "title": "The Tough Decision",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Sara is about to deliver the news to the top candidate for the Assistant Marketing Manager position in a small meeting room at the office.",
+      "time": "10:30 AM",
+      "location": "Office Conference Room",
+      "description": "The room is quiet, with only the soft hum of the air conditioner. Sara sits at the head of the table, her hands folded, trying to appear calm. Mark, her colleague, leans against the wall, clearly uneasy. Coco, the office’s HR representative, stands in the corner, arms crossed, her expression unreadable. Across from Sara, the candidate, Jordan, waits nervously, clutching a notebook.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Sara",
+          "gender": "Female",
+          "description": "Marketing Director in her mid-30s, known for her analytical and empathetic nature. She is conflicted about delivering this news.; Female, Marketing Director, 35 years old; Occupation: Marketing Director; Personality: Responsible, Empathetic, Analytical, Ambivalent; Values: Professionalism, Fairness, Team Harmony; Interests: Strategic Planning, Team Development, Work-Life Balance; Experiences: Leading marketing campaigns, Handling team conflicts, Making difficult personnel decisions",
+          "position": "Head of the table",
+          "states": "Nervous, responsible, empathetic",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Mark",
+          "gender": "Male",
+          "description": "Sara’s supportive but concerned colleague; Male; Age: 32; Occupation: Senior Project Coordinator; Personality: Observant, empathetic, reserved; Values: Team harmony, integrity, loyalty; Interests: Coffee culture, urban hiking, classic rock; Experiences: Led cross-departmental projects during company restructures, witnessed past employee mismanagement issues, mentored new hires for three years.",
+          "position": "Leaning against the wall",
+          "states": "Supportive, confused, anxious",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Coco",
+          "gender": "Female",
+          "description": "Cold, provocative, and professional HR representative; Female; Age: 34; Occupation: Senior HR Business Partner; Personality: Calculating, composed, assertive; Values: Professionalism, efficiency, confidentiality; Interests: Networking, high-end fashion, strategic board games; Experiences: Managed high-stakes hiring decisions, handled sensitive employee terminations, led company-wide diversity and inclusion initiatives.",
+          "position": "Standing in the corner",
+          "states": "Cold, provocative, professional",
+          "is_npc": true
+        },
+        {
+          "id": 3,
+          "name": "Jordan",
+          "gender": "Non-binary",
+          "description": "Jordan; Non-binary; Age: 28; Occupation: Marketing Coordinator; Personality: Analytical, empathetic, driven; Values: Innovation, integrity, work-life balance; Interests: Graphic design, social media strategy, indie music; Experiences: Managed successful local campaign for a startup, led a team of interns during a product launch, recently applied for several leadership roles in the industry.",
+          "position": "Across from Sara",
+          "states": "Nervous, hopeful, attentive",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Sara",
+          "character_id": 0,
+          "action": "Sara begins the meeting by thanking Jordan for their time.",
+          "dialogue": "Thank you for coming in today, Jordan. We really appreciate your time and effort."
+        },
+        {
+          "action_id": 1,
+          "character": "Jordan",
+          "character_id": 3,
+          "action": "Jordan smiles, clearly pleased.",
+          "dialogue": "Thank you, Sara. I’ve been really looking forward to this opportunity."
+        },
+        {
+          "action_id": 2,
+          "character": "Sara",
+          "character_id": 0,
+          "action": "Sara hesitates, then speaks with a measured tone.",
+          "dialogue": "We’ve had a lot of great candidates, and it was a tough decision. Unfortunately, we’ve decided to go in a different direction."
+        },
+        {
+          "action_id": 3,
+          "character": "Jordan",
+          "character_id": 3,
+          "action": "Jordan’s smile fades, and they sit back, surprised.",
+          "dialogue": "Oh. I... I see. Is there any feedback you can give me?"
+        },
+        {
+          "action_id": 4,
+          "character": "Sara",
+          "character_id": 0,
+          "action": "Sara nods, offering constructive feedback to maintain professionalism.",
+          "dialogue": "You did well in the interview, but we were looking for a candidate with more experience in digital analytics. I think you have a lot of potential, and we’d be happy to keep your application on file for future roles."
+        },
+        {
+          "action_id": 5,
+          "character": "Mark",
+          "character_id": 1,
+          "action": "Mark steps forward, trying to soften the blow.",
+          "dialogue": "We really enjoyed your insights, Jordan. You’ll find the right place for your talents."
+        },
+        {
+          "action_id": 6,
+          "character": "Coco",
+          "character_id": 2,
+          "action": "Coco remains silent but watches the interaction closely, her expression unreadable.",
+          "dialogue": ""
+        },
+        {
+          "action_id": 7,
+          "character": "Jordan",
+          "character_id": 3,
+          "action": "Jordan nods, trying to remain composed.",
+          "dialogue": "Thank you for the feedback. I’ll keep that in mind for future opportunities."
+        },
+        {
+          "action_id": 8,
+          "character": "Sara",
+          "character_id": 0,
+          "action": "Sara offers a final word to preserve team harmony and professionalism.",
+          "dialogue": "We wish you all the best, Jordan. Please don’t hesitate to reach out if you have any questions."
+        }
+      ],
+      "plot": "Sara, as the Marketing Director, must deliver the news that the top candidate for an important position has not been selected. She is supported by Mark, who is visibly uneasy about the situation, and watched closely by Coco, whose cold demeanor adds to the tension. Jordan, the candidate, remains hopeful and professional despite the rejection.",
+      "social_purpose": "To demonstrate Sara’s struggle between professionalism and empathy, while also highlighting the dynamics of workplace relationships and the potential for conflict with Coco’s presence.",
+      "chunk": {
+        "id": 0,
+        "text": "Sara sits at the head of the table, her hands folded, trying to appear calm. Mark, her colleague, leans against the wall, clearly uneasy. Coco, the office’s HR representative, stands in the corner, arms crossed, her expression unreadable. Across from Sara, the candidate, Jordan, waits nervously, clutching a notebook."
+      },
+      "npcs": [
+        1,
+        2,
+        3
+      ]
+    }
+  ]
+}

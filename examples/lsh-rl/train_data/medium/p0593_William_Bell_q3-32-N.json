@@ -1,0 +1,95 @@
+{
+  "title": "The Rose Code",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "William arranges a symbolic gesture to express his feelings to Yury through a public online event",
+      "time": "Evening",
+      "location": "University campus courtyard",
+      "description": "William is nervously seated at a bench near a fountain, watching a group of students set up a small, interactive online event in the courtyard. The event is a live stream for a gaming charity marathon, and William has arranged a symbolic gesture of red roses in the background to catch Yury’s attention when she logs in.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "William Bell",
+          "gender": "male",
+          "description": "An early 25-year-old college student, visibly anxious but determined. He wears a hoodie and has a small notebook with scribbled notes on how to handle the situation.; male, early, 25 years old; Occupation: College Student; Personality: Anxious, Sensitive, Empathetic, Reserved; Values: Friendship, Emotional sincerity, Trust; Interests: Online communication, Gaming, Romantic gestures; Experiences: Dealing with unrequited feelings, Planning symbolic gestures, Waiting for emotional response",
+          "position": "Bench near fountain",
+          "states": "Nervous, hopeful, observant",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Yury Kim",
+          "gender": "female",
+          "description": "A 24-year-old fellow student and William’s close friend. She’s known for her sharp wit and love for online gaming. She enters the courtyard, scanning the setup with curiosity; Female; Age: 24; Occupation: Game design major; Personality: Curious, friendly, witty, empathetic, observant; Values: Honesty, creativity, loyalty; Interests: Online multiplayer games, indie music, digital art; Experiences: Participated in a university game jam, volunteered for a gaming charity stream, formed a close-knit group of friends through online role-playing games.",
+          "position": "Approaching the fountain",
+          "states": "Curious, friendly, intrigued",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Lina Ting",
+          "gender": "female",
+          "description": "A 23-year-old William’s confidante and fellow student. She’s tech-savvy and organized, helping William coordinate the event setup and ensuring the roses are visible in the stream; Female; Age: 23; Occupation: Computer Science student and part-time social media manager for campus events; Personality: Analytical, empathetic, proactive; Values: Honesty, collaboration, creative expression; Interests: Event planning, streaming technology, indie music; Experiences: Organized a successful campus hackathon, volunteered for a digital outreach campaign for a local charity, helped friends execute surprise proposals through social media.",
+          "position": "Near the streaming equipment",
+          "states": "Supportive, focused, encouraging",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "William Bell",
+          "character_id": 0,
+          "action": "Nervously checks his phone for messages",
+          "dialogue": "I just hope she logs in soon. I don’t want to wait too long and have the stream go live without her seeing it."
+        },
+        {
+          "action_id": 1,
+          "character": "Lina Ting",
+          "character_id": 2,
+          "action": "Approaches William and reassures him",
+          "dialogue": "You did everything right, William. She’ll see the roses. Just take a deep breath and remember why you care about her."
+        },
+        {
+          "action_id": 2,
+          "character": "Yury Kim",
+          "character_id": 1,
+          "action": "Notices the roses and approaches William with a smile",
+          "dialogue": "William, what’s this? The roses are beautiful. Is this for the stream?"
+        },
+        {
+          "action_id": 3,
+          "character": "William Bell",
+          "character_id": 0,
+          "action": "Looks up, slightly flustered, and nods",
+          "dialogue": "Yeah, I thought it would be a nice way to add a personal touch. I mean, we’ve been friends for so long, and I just wanted to show it somehow."
+        },
+        {
+          "action_id": 4,
+          "character": "Yury Kim",
+          "character_id": 1,
+          "action": "Examines the roses and smiles knowingly",
+          "dialogue": "You always were the sentimental one. I get it, William. This is beautiful. I’ll make sure to log in early and catch the moment."
+        },
+        {
+          "action_id": 5,
+          "character": "Lina Ting",
+          "character_id": 2,
+          "action": "Gives William a thumbs-up from the side",
+          "dialogue": "She gets it. You’re a good friend, and this is just part of who you are."
+        }
+      ],
+      "plot": "William arranges a symbolic gesture of red roses for a live stream event, hoping Yury will see and understand his feelings. Lina supports him, and Yury’s reaction is warm and understanding, affirming their friendship and giving William hope.",
+      "social_purpose": "Show William’s values of friendship and emotional sincerity through his symbolic gesture. Demonstrate his personality traits (anxious, sensitive, empathetic) and his reliance on Lina for validation.",
+      "chunk": {
+        "id": 0,
+        "text": "William nervously checks his phone while Lina helps prepare the stream setup. Yury arrives, notices the roses, and engages William in a friendly conversation about their meaning. William’s anxiety is evident, but his sincerity shines through as he shares his intentions."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

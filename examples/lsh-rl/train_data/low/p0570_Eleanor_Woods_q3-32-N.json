@@ -1,0 +1,102 @@
+{
+  "title": "Comment Section Conflict",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Moderating a heated comment thread",
+      "time": "Afternoon",
+      "location": "Eleanor's home office",
+      "description": "Eleanor Woods is sitting at her desk, eyes squinting at her computer screen. The comment section of a recent blog post on D/s ethics is filled with passionate debates, some of which have veered into religious territory. She is joined by two regular contributors to the blog, Yuna and Chen, who are curious about her recent strict moderation of such content.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Eleanor Woods",
+          "gender": "Female",
+          "description": "A 30-year-old blog administrator who is firm in her decision-making but feels anxious about the potential fallout from her choices. She is analytical and principled, always trying to balance freedom of expression with the blog's thematic focus.; Female, Blog Administrator, 30 years old; Occupation: Blog Administrator and Content Moderator; Personality: Firm, Analytical, Principled, Anxious; Values: Freedom of Expression, Thematic Integrity, Respecting Boundaries; Interests: Online Community Management, D/s Culture, Ethical Discussions; Experiences: Managing Online Discussions, Handling Controversial Topics, Maintaining Blog Standards",
+          "position": "Moderator",
+          "states": "Tense, thoughtful, slightly defensive",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Yuna",
+          "gender": "Female",
+          "description": "Yuna is a 28-year-old content writer and frequent contributor to the blog; Female; Age: 28; Occupation: Content Writer and Freelance Editor; Personality: Curious, calm, supportive; Values: Open-mindedness, empathy, intellectual honesty; Interests: Exploring philosophical debates, attending cultural festivals, reading poetry; Experiences: Moderated online communities for a digital magazine, participated in interfaith dialogue workshops, collaborated with Eleanor on multiple thought-provoking blog series.",
+          "position": "Content Writer",
+          "states": "Curious, calm, supportive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Chen",
+          "gender": "Male",
+          "description": "A 35-year-old community manager who often mediates discussions on the blog; Male; Age: 35; Occupation: Online Community Manager and Conflict Resolution Consultant; Personality: Observant, diplomatic, probing; Values: Respect, inclusivity, intellectual integrity; Interests: Ethical philosophy, digital culture, board games; Experiences: Moderated high-traffic forums during polarizing political events, facilitated interfaith dialogue panels in online spaces, navigated corporate pushback while enforcing inclusive content policies.",
+          "position": "Community Manager",
+          "states": "Observant, diplomatic, probing",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Eleanor Woods",
+          "character_id": 0,
+          "action": "Eleanor clicks on a comment flagged for religious content and reads it aloud.",
+          "dialogue": "‘This post is about power dynamics in D/s relationships, and the user is comparing it to divine submission in their faith. I’m not sure how to respond without shutting down a valid perspective, but I can’t let this drift off-topic.’"
+        },
+        {
+          "action_id": 1,
+          "character": "Yuna",
+          "character_id": 1,
+          "action": "Yuna leans forward, intrigued by the flagged comment.",
+          "dialogue": "‘I see your point, Eleanor, but isn’t part of the blog’s strength that it invites diverse interpretations? Maybe we can redirect the conversation instead of deleting it?’"
+        },
+        {
+          "action_id": 2,
+          "character": "Chen",
+          "character_id": 2,
+          "action": "Chen nods and offers a suggestion.",
+          "dialogue": "‘Agreed. We could add a note encouraging users to keep religious references focused on how they relate to D/s themes. That way, we’re respecting boundaries while maintaining thematic integrity.’"
+        },
+        {
+          "action_id": 3,
+          "character": "Eleanor Woods",
+          "character_id": 0,
+          "action": "Eleanor sighs, her anxiety showing as she considers the idea.",
+          "dialogue": "‘I’ve always wanted to ensure the blog stays focused, but I also value freedom of expression. I just don’t want the discussion to become exclusionary or divisive. What if we create a moderation guideline that addresses this?’"
+        },
+        {
+          "action_id": 4,
+          "character": "Yuna",
+          "character_id": 1,
+          "action": "Yuna smiles and agrees to help.",
+          "dialogue": "‘That sounds like a good approach. I can draft some sample guidelines based on previous posts and community feedback. We can make it clear what’s acceptable and what’s not.’"
+        },
+        {
+          "action_id": 5,
+          "character": "Chen",
+          "character_id": 2,
+          "action": "Chen offers to test the guidelines on a small group of commenters.",
+          "dialogue": "‘I can reach out to a few of our more vocal users and get their input before we roll it out. It’ll help us avoid unintended backlash.’"
+        },
+        {
+          "action_id": 6,
+          "character": "Eleanor Woods",
+          "character_id": 0,
+          "action": "Eleanor nods, relieved at the collaborative plan.",
+          "dialogue": "‘Thanks, both of you. I didn’t want to make a unilateral decision. This way, we’re respecting the community and keeping the blog’s focus intact.’"
+        }
+      ],
+      "plot": "Eleanor is struggling to moderate a comment section where religious content is becoming a distraction from the D/s themes of the blog. Yuna and Chen, as trusted members of the blog team, offer suggestions to help her maintain the blog's focus while still allowing for diverse perspectives. Through their discussion, Eleanor decides to create clear moderation guidelines to address the issue collaboratively.",
+      "social_purpose": "To explore Eleanor’s internal conflict between maintaining thematic integrity and respecting freedom of expression, while showing how she navigates this through collaboration with others.",
+      "chunk": {
+        "id": 0,
+        "text": "Eleanor, Yuna, and Chen are discussing the recent influx of religious content in the comment section of the blog. Eleanor is firm in her stance but reveals her anxiety about the blog's direction. Yuna and Chen offer alternative solutions that respect diverse views and help maintain the blog's focus on D/s themes. Eleanor agrees to draft new guidelines with their help."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

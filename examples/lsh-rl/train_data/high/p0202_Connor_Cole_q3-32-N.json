@@ -1,0 +1,102 @@
+{
+  "title": "The Crossroads of Commitment",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Afternoon coffee break",
+      "time": "3:00 PM",
+      "location": "Campus Café",
+      "description": "Connor sits at a table by the window, staring at his untouched coffee as he flips through his notebook. Around him, students chat and relax, but he remains absorbed in his thoughts. Luna approaches, carrying a tray with two pastries and a coffee. She sits across from him, sensing his inner turmoil.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Connor Cole",
+          "gender": "Male",
+          "description": "20-year-old college student with a deep passion for music, caught between two clubs. He is hesitant and introspective, often lost in thought.; 20-year-old /Male/Student, 24 years old; Occupation: College Student; Personality: Passionate, Hesitant, Introspective; Values: Commitment, Balance, Self-expression; Interests: Music, Writing, Reflection; Experiences: Participating in Multiple Music Clubs, Facing Time Management Challenges, Experiencing Personal Decision Dilemmas",
+          "position": "Seated by the window, notebook in hand",
+          "states": "Tense, anxious, conflicted",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Luna Reyes",
+          "gender": "Female",
+          "description": "22-year-old music major and Connor’s close friend; Female; Age: 22; Occupation: Campus music club co-president; Personality: empathetic, confident, observant; Values: loyalty, authenticity, emotional well-being; Interests: live music, journaling, indie films; Experiences: helped a friend through a career crossroads, performed in a student-led concert, studied abroad for a semester in a culturally rich music environment.",
+          "position": "Seated across from Connor, tray in hand",
+          "states": "Concerned but calm",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Mr. Bennett",
+          "gender": "Male",
+          "description": "35-year-old Wind Ensemble instructor; Male; Age: 35; Occupation: Music Professor; Personality: Kind, firm, observant; Values: Commitment, discipline, mentorship; Interests: Classical music composition, afternoon coffee breaks, student progress; Experiences: Led his first university ensemble to a national competition, mentored a struggling student who later won a prestigious music scholarship, served as a guest conductor at a regional music festival.",
+          "position": "Walking past the table, hears Luna’s mention of Connor",
+          "states": "Curious, approachable",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Luna Reyes",
+          "character_id": 1,
+          "action": "Noticing Connor’s distress",
+          "dialogue": "Hey, Connor. You’ve been quiet all week. Is everything okay?"
+        },
+        {
+          "action_id": 1,
+          "character": "Connor Cole",
+          "character_id": 0,
+          "action": "Avoiding eye contact",
+          "dialogue": "I’m just… trying to figure some things out. It’s been a rough week."
+        },
+        {
+          "action_id": 2,
+          "character": "Luna Reyes",
+          "character_id": 1,
+          "action": "Offering support",
+          "dialogue": "You know, if it’s about the Wind Ensemble and the Guitar Club, I get it. It’s hard to balance both when they mean so much to you."
+        },
+        {
+          "action_id": 3,
+          "character": "Connor Cole",
+          "character_id": 0,
+          "action": "Expressing his inner conflict",
+          "dialogue": "I don’t want to let anyone down. The Wind Ensemble has been a big part of my life, but the Guitar Club is also where I feel most like myself. I’m scared of making the wrong choice."
+        },
+        {
+          "action_id": 4,
+          "character": "Luna Reyes",
+          "character_id": 1,
+          "action": "Encouraging open communication",
+          "dialogue": "Maybe you should talk to Mr. Bennett. He’s been through this with students before. He might help you find a way to make it work."
+        },
+        {
+          "action_id": 5,
+          "character": "Mr. Bennett",
+          "character_id": 2,
+          "action": "Approaching the table",
+          "dialogue": "Connor, I heard you were having some trouble deciding on your schedule. If you need to talk, I’m always here."
+        },
+        {
+          "action_id": 6,
+          "character": "Connor Cole",
+          "character_id": 0,
+          "action": "Remaining silent",
+          "dialogue": ""
+        }
+      ],
+      "plot": "Connor is struggling with a decision about his time commitments between the Wind Ensemble and the Guitar Club. Luna, his friend, tries to encourage him to talk to Mr. Bennett, but Connor remains hesitant and introspective, unable to voice his concerns directly.",
+      "social_purpose": "To explore Connor’s internal conflict and the social dynamics of support and decision-making, while highlighting his traits of passion, hesitation, and introspection.",
+      "chunk": {
+        "id": 0,
+        "text": "Connor sits at a table in the Campus Café, staring out the window, his notebook open but untouched. Luna approaches, sensing his unease. As she sits down and offers words of encouragement, Mr. Bennett overhears and steps in, adding another layer of pressure to Connor’s decision."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

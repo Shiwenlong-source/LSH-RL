@@ -1,0 +1,95 @@
+{
+  "title": "Rekindling the Code",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "LUG Meeting",
+      "time": "Afternoon",
+      "location": "Local Community Center, Meeting Room",
+      "description": "The room is filled with the low hum of conversation and the aroma of freshly brewed coffee. Shane Morales, a 30-year-old Open Source Culture Manager, stands by the coffee corner, looking out the window. Julia, a former partner and Linux enthusiast, walks in. Bin, a longtime friend and fellow Linux user, notices the tension and steps in.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Shane Morales",
+          "gender": "Male",
+          "description": "A 30-year-old Open Source Culture Manager with a quiet intensity. His eyes flicker with nostalgia as he sees Julia again.; Male, LUG Meeting Participant, 30 years old; Occupation: Open Source Culture Manager; Personality: Nostalgic, Rational, Empathetic, Introspective; Values: Open source culture, Honest communication, Emotional connection; Interests: Linux desktop environments, Debate, Coffee culture, Reunions; Experiences: Had a romantic relationship with Julia, Broke up due to technical disagreements, Attending LUG meetings, Experiencing emotional conflict, Reliving shared memories",
+          "position": "By the coffee corner, near the window",
+          "states": "Nostalgic, conflicted, introspective",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Julia",
+          "gender": "Female",
+          "description": "Julia, a former romantic partner of Shane, now a Linux developer; Female; Age: 28; Occupation: Open Source Software Developer; Personality: Analytical, empathetic, nostalgic; Values: Collaboration, integrity, lifelong learning; Interests: Coding in Rust, vintage computing hardware, indie folk music; Experiences: Co-founded a small open source project that gained community traction, briefly lived abroad to study decentralized systems, ended a meaningful relationship with Shane due to diverging life paths.",
+          "position": "Entering the room, heading to the coffee table",
+          "states": "Calm, composed, nostalgic",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Bin",
+          "gender": "Male",
+          "description": "Bin; Male; Age: 28; Occupation: Systems Administrator; Personality: Playful, observant, curious; Values: Community, knowledge-sharing, humor in hardship; Interests: Open-source software, retro gaming, coffee culture; Experiences: Organized several local Linux User Group meetups, troubleshooted major server outages with minimal downtime, mentored new developers in collaborative coding practices.",
+          "position": "Approaching the coffee corner from the side",
+          "states": "Playful, observant, curious",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Shane Morales",
+          "character_id": 0,
+          "action": "Freezes in place and stares out the window",
+          "dialogue": ""
+        },
+        {
+          "action_id": 1,
+          "character": "Julia",
+          "character_id": 1,
+          "action": "Smiles and nods at Shane",
+          "dialogue": "Hey Shane. Still brewing your own coffee, I see."
+        },
+        {
+          "action_id": 2,
+          "character": "Shane Morales",
+          "character_id": 0,
+          "action": "Nods slowly, trying to find words",
+          "dialogue": "Yeah, it's one of the few things I haven't changed since... you know."
+        },
+        {
+          "action_id": 3,
+          "character": "Bin",
+          "character_id": 2,
+          "action": "Chuckles and joins the conversation",
+          "dialogue": "Well, if you two can't talk about coffee, maybe we can debate desktop environments again? KDE vs. Gnome, round two!"
+        },
+        {
+          "action_id": 4,
+          "character": "Julia",
+          "character_id": 1,
+          "action": "Laughs softly, clearly at ease",
+          "dialogue": "Still not my favorite topic, but I'm willing to listen if you are."
+        },
+        {
+          "action_id": 5,
+          "character": "Shane Morales",
+          "character_id": 0,
+          "action": "Exhales and smiles, a hint of vulnerability showing",
+          "dialogue": "I think I'd rather talk about the past... and maybe where we go from here."
+        }
+      ],
+      "plot": "Shane and Julia reunite at a LUG meeting after a breakup rooted in technical disagreements. Bin, their mutual friend, teases them about the old debates, creating a subtle tension. Shane must decide whether to confront the past or let it fade.",
+      "social_purpose": "To explore emotional connection, shared values, and the challenge of reconciling past conflicts with present opportunities in a public setting.",
+      "chunk": {
+        "id": 0,
+        "text": "Shane and Julia stand in the coffee corner of the LUG meeting, their shared history simmering beneath the surface. Bin's playful comment about KDE vs. Gnome brings the tension to a head, forcing Shane to confront his feelings and the values he holds dear. The scene ends with Shane choosing to open up, signaling a potential step toward healing and connection."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

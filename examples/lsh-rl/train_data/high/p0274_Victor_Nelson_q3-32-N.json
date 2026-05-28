@@ -1,0 +1,88 @@
+{
+  "title": "Lunchtime Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Lunch at a local café",
+      "time": "12:30 PM",
+      "location": "A cozy vegetarian café in the city center",
+      "description": "Victor, Ella, and Jacky meet for lunch at a vegetarian café. Victor has recently committed to a meat-free lifestyle as part of his spiritual journey. The group is trying to find a shared meal option that everyone can enjoy, but their differing opinions on the matter create tension.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Victor Nelson",
+          "gender": "male",
+          "description": "24-year-old Project Manager who recently committed to a meat-free diet as a step of faith. He is thoughtful, introspective, and determined to stay true to his values.; 23-year-old /male/member of social and faith groups, 24 years old; Occupation: Project Manager; Personality: Thoughtful, Introspective, Sensitive, Determined; Values: Spiritual growth, Authenticity, Personal integrity; Interests: Faith exploration, Healthy living, Social gatherings; Experiences: Recent faith commitment, Dietary changes, Friendship dynamics, Group discussions, Self-reflection",
+          "position": "Center of the table",
+          "states": "Nervous, but resolute",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Ella Martinez",
+          "gender": "female",
+          "description": "Victor's close friend and coworker. She is supportive of his dietary change and values authenticity and personal growth; Female; Age: 29; Occupation: Health and Wellness Coach; Personality: Compassionate, optimistic, observant; Values: Empathy, self-improvement, sustainability; Interests: Plant-based cooking, mindfulness practices, community gardening; Experiences: Led a group workshop on ethical eating, helped friends navigate major lifestyle changes, grew up in a family that prioritized healthy living.",
+          "position": "To Victor's left",
+          "states": "Encouraging, empathetic",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Jacky Lee",
+          "gender": "male",
+          "description": "Jacky Lee is a disapproving and dismissive coworker and friend of Victor; Male; Age: 32; Occupation: Senior Marketing Manager; Personality: pragmatic, conventional, impatient; Values: tradition, social harmony, professional success; Interests: networking events, sports, gourmet dining; Experiences: worked in corporate environments for over a decade, grew up in a family that emphasized stability and routine, has never fully embraced lifestyle changes that deviate from mainstream norms.",
+          "position": "To Victor's right",
+          "states": "Disapproving, dismissive",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Victor Nelson",
+          "character_id": 0,
+          "action": "Orders a salad and explains his choice",
+          "dialogue": "I’ve been thinking a lot about my faith lately, and I feel like this is a step towards living more authentically. I don’t think it’s a big deal, but it matters to me."
+        },
+        {
+          "action_id": 1,
+          "character": "Ella Martinez",
+          "character_id": 1,
+          "action": "Nods in agreement and encourages Victor",
+          "dialogue": "That’s great, Victor. I admire how you’re being true to yourself and your beliefs. It takes a lot of courage to make a change like that."
+        },
+        {
+          "action_id": 2,
+          "character": "Jacky Lee",
+          "character_id": 2,
+          "action": "Laughs and questions Victor’s decision",
+          "dialogue": "Seriously? You’re giving up meat for this? I don’t get it. It’s just food, man. You’re making a mountain out of a molehill."
+        },
+        {
+          "action_id": 3,
+          "character": "Victor Nelson",
+          "character_id": 0,
+          "action": "Responds calmly and thoughtfully",
+          "dialogue": "It’s not just about food for me. It’s about aligning my life with what I believe is right. I know it might seem small, but it’s a step of faith and integrity."
+        },
+        {
+          "action_id": 4,
+          "character": "Ella Martinez",
+          "character_id": 1,
+          "action": "Changes the subject to find common ground",
+          "dialogue": "Well, I’m glad we’re all here. What about the new project we’re working on? I think it’s going to be really exciting."
+        }
+      ],
+      "plot": "Victor’s recent decision to stop eating meat has become a point of tension during a lunch with friends. Ella supports his choice, while Jacky mocks it. Victor remains determined to explain his decision with patience and clarity, seeking to maintain authenticity in his relationships.",
+      "social_purpose": "To explore the protagonist’s values of spiritual growth, authenticity, and personal integrity through a real-world social challenge. The interaction highlights how personal decisions can influence group dynamics and social expectations.",
+      "chunk": {
+        "id": 0,
+        "text": "Victor orders a salad and explains his new meat-free lifestyle. Ella supports him, while Jacky questions his decision. Victor remains calm and resolute, emphasizing the importance of living according to his beliefs. The group shifts the conversation to work, but the underlying tension remains."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

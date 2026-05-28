@@ -1,0 +1,88 @@
+{
+  "title": "Coffee Shop Decision",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Julian meets King and Kiki for a coffee to discuss his course load",
+      "time": "Afternoon",
+      "location": "Local Coffee Shop",
+      "description": "Julian sits at a cozy corner table in a local coffee shop, sipping a latte while King and Kiki argue over his course choices. King leans forward, gesturing with his hands, while Kiki sits calmly, occasionally interjecting with a thoughtful comment. Julian is visibly conflicted, his fingers tapping the table in a nervous rhythm.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Julian Alexander",
+          "gender": "Male",
+          "description": "A 25-year-old architecture student with a deep inner conflict about his academic path. He is analytical and thoughtful, but also anxious and ambitious.; years old, Male, Architecture Student, 25 years old; Occupation: Architecture Student; Personality: Analytical, Ambitious, Anxious, Thoughtful; Values: Academic Achievement, Family Support, Personal Growth; Interests: Architecture, Math, Planning, Problem Solving; Experiences: Studying for an Architecture Degree, Balancing Academics and Life, Receiving Advice from Friends and Family, Making Difficult Decisions, Managing Stress",
+          "position": "Corner table, central figure",
+          "states": "Nervous, conflicted, attentive",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "King",
+          "gender": "Male",
+          "description": "A laid-back friend of Julian's who often encourages him to take the easy route and prioritize his well-being; Male; Age: 22; Occupation: Part-time barista and full-time philosophy student; Personality: easygoing, empathetic, persuasive; Values: balance, self-care, authenticity; Interests: coffee culture, hiking, indie music; Experiences: dropped out of a competitive engineering program to pursue a more fulfilling lifestyle, volunteered at a mindfulness retreat, helped a close friend through burnout.",
+          "position": "To Julian's left",
+          "states": "Animated, supportive, concerned",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Kiki",
+          "gender": "Female",
+          "description": "Julian's older sister, a pragmatic and driven professional who believes in long-term planning and academic rigor; Female; Age: 28; Occupation: Senior Academic Advisor at a local university; Personality: Analytical, patient, supportive; Values: Education, responsibility, future security; Interests: Strategic board games, educational policy discussions, coffee culture; Experiences: Helped Julian navigate high school academics, worked with students to balance work and study for over a decade, studied economics in college to optimize her career path.",
+          "position": "To Julian's right",
+          "states": "Calm, logical, encouraging",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "King",
+          "character_id": 1,
+          "action": "Leans in and speaks with enthusiasm",
+          "dialogue": "Look, Julian, you're burning out. Why not take some lighter courses this semester? You can always come back to the hard stuff later."
+        },
+        {
+          "action_id": 1,
+          "character": "Kiki",
+          "character_id": 2,
+          "action": "Sips her tea and counters King's point",
+          "dialogue": "King, I understand the stress, but skipping math classes now will only make things harder later. Architecture is built on precision and logic."
+        },
+        {
+          "action_id": 2,
+          "character": "Julian Alexander",
+          "character_id": 0,
+          "action": "Looks down and frowns slightly",
+          "dialogue": "I just don't know... I want to do well, but I'm worried I can't handle it all. I don't want to let anyone down."
+        },
+        {
+          "action_id": 3,
+          "character": "King",
+          "character_id": 1,
+          "action": "Pats Julian's shoulder reassuringly",
+          "dialogue": "You're not letting anyone down, man. You need to take care of yourself. You can't build a house if the foundation cracks."
+        },
+        {
+          "action_id": 4,
+          "character": "Kiki",
+          "character_id": 2,
+          "action": "Nods and speaks softly",
+          "dialogue": "I know it's hard, but you're capable. Maybe find a balance? Take one math class and lighten the rest of your load. That way, you're still growing academically, but not overwhelmed."
+        }
+      ],
+      "plot": "Julian is caught between the advice of his sister and his friend about his upcoming course load. King encourages him to take an easier path to avoid burnout, while Kiki pushes for academic rigor and long-term success. Julian is anxious and thoughtful, weighing the merits of both perspectives and seeking approval from those he trusts.",
+      "social_purpose": "To explore Julian's internal conflict and his values of academic achievement, family support, and personal growth through dialogue with two supportive but opposing figures in his life.",
+      "chunk": {
+        "id": 0,
+        "text": "Julian, King, and Kiki are in a coffee shop discussing Julian's course load for the next semester. King suggests taking lighter courses to avoid stress, while Kiki argues for the importance of math in architecture. Julian is visibly torn between the two opinions, showing his anxiety and need for approval."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

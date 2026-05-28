@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.pyright/
+.ruff_cache/
+
+# Environments and local caches
+.venv/
+venv/
+env/
+.cache/
+.cache_uv/
+.cache_xdg/
+
+# LSH-RL runtime artifacts
+examples/lsh-rl/logs/
+examples/lsh-rl/records/
+examples/lsh-rl/checkpoints/
+examples/lsh-rl/tensorboard_log/
+examples/lsh-rl/.cache_uv/
+examples/lsh-rl/.cache_xdg/
+
+# Training outputs
+checkpoints/
+tensorboard_log/
+wandb/
+*.log
+
+# Build artifacts
+build/
+dist/
+site/
+*.whl
+
+# Local editor/system files
+.DS_Store
+.vscode/
+.idea/
+*~

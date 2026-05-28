@@ -1,0 +1,88 @@
+{
+  "title": "Voices for Every Child",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Town Hall Meeting for Child Health Advocacy",
+      "time": "3:00 PM",
+      "location": "Community Center, Room B",
+      "description": "A small group of volunteers is preparing for a public speaking event to raise awareness and funding for children's health programs. Naomi Jones, the protagonist, is visibly nervous but also determined as she practices her speech with the support of two other volunteers, Joy and Tao.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Naomi Jones",
+          "gender": "Female",
+          "description": "A 38-year-old mother and child health advocate, struggling with public speaking but driven by her son's health issues.; Female, years old, Mother, 38 years old; Occupation: Child Health Advocate; Personality: Anxious, Determined, Compassionate, Self-doubting; Values: Family, Community Support, Child Welfare; Interests: Parenting Advocacy, Public Speaking, Health Awareness; Experiences: Overcoming Personal Fears, Organizing Community Activities, Raising a Child with Health Issues",
+          "position": "Front of the room, practicing her speech",
+          "states": "Nervous, determined, focused",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Joy Carter",
+          "gender": "Female",
+          "description": "A warm and encouraging volunteer who has organized multiple community events and is passionate about child welfare; Female; Age: 48; Occupation: School Counselor; Personality: Supportive, patient, empathetic; Values: Community, compassion, equity; Interests: Organizing charity events, reading children's literature, gardening; Experiences: Led a successful campaign to improve school nutrition programs, volunteered at a local children's hospital, trained new volunteers in public speaking and event planning.",
+          "position": "Sitting beside Naomi, offering support",
+          "states": "Supportive, patient, empathetic",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Tao Lin",
+          "gender": "Male",
+          "description": "A calm and analytical volunteer with a background in public speaking and health awareness campaigns; Male; Age: 34; Occupation: Health Education Coordinator; Personality: Observant, thoughtful, confident; Values: Community well-being, equity in healthcare, lifelong learning; Interests: Public speaking, urban gardening, documentary filmmaking; Experiences: Led a regional campaign on childhood nutrition, trained teachers in health literacy, organized a successful charity health fair.",
+          "position": "Standing at the back, taking notes",
+          "states": "Observant, thoughtful, confident",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Naomi Jones",
+          "character_id": 0,
+          "action": "practicing her speech",
+          "dialogue": "I just don’t know if I can do this. What if I freeze up and no one takes me seriously?"
+        },
+        {
+          "action_id": 1,
+          "character": "Joy Carter",
+          "character_id": 1,
+          "action": "comforting Naomi",
+          "dialogue": "You’ve already come so far, Naomi. You’ve raised awareness in our community, and now you’re here to make it bigger. That’s courage."
+        },
+        {
+          "action_id": 2,
+          "character": "Tao Lin",
+          "character_id": 2,
+          "action": "offering advice",
+          "dialogue": "When I speak, I focus on the cause, not myself. Remember, this isn’t about you—it’s about the children and families who need your voice."
+        },
+        {
+          "action_id": 3,
+          "character": "Naomi Jones",
+          "character_id": 0,
+          "action": "responding to Tao",
+          "dialogue": "You’re right. It’s about my son and others like him. I just need to believe I can make a difference."
+        },
+        {
+          "action_id": 4,
+          "character": "Joy Carter",
+          "character_id": 1,
+          "action": "encouraging the group",
+          "dialogue": "We’re all here to support each other. Let’s make sure the town knows we’re not backing down from this."
+        }
+      ],
+      "plot": "Naomi is preparing to speak at a town hall meeting to advocate for better funding for children's health programs. Her fear of public speaking is evident, but the encouragement from Joy and Tao helps her gain confidence. The group works together to ensure the message is clear and impactful, with Naomi’s personal story at the center.",
+      "social_purpose": "To demonstrate the importance of community support in advocating for child welfare, while showing how personal growth and shared goals can be achieved through collaboration and encouragement.",
+      "chunk": {
+        "id": 0,
+        "text": "Naomi, with her trembling voice, practiced her speech under the watchful eyes of Joy and Tao. Joy offered comforting words, while Tao gave practical advice. Naomi’s determination grew as she realized the impact her voice could have on the cause she cared deeply about."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

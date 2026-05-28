@@ -1,0 +1,98 @@
+{
+  "title": "A New Beginning",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Faith gathering at a local church",
+      "time": "Saturday evening, 7:00 PM",
+      "location": "Community hall of a small neighborhood church",
+      "description": "Maxwell sits in a circle with a group of young adults, all gathered for a weekly faith and support meeting. The room is warm and filled with soft lighting, with a few potted plants and a small table in the center holding snacks and water. The atmosphere is calm and welcoming, with participants sharing stories of their struggles and triumphs.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Maxwell Flores",
+          "gender": "Male",
+          "description": "A thoughtful and resilient 25-year-old student who recently faced setbacks in job interviews and is seeking spiritual guidance to rebuild his confidence.; Male student in his, 25 years old; Occupation: Student; Personality: Resilient, Thoughtful, Faith-driven; Values: Faith, Community, Self-improvement; Interests: Spiritual growth, Personal development, Education; Experiences: Recent interview failures, Weekly faith gatherings, Decision to return to school, Received peer support, Searching for meaning in life",
+          "position": "Seated in the circle, slightly hunched forward, showing vulnerability yet determination.",
+          "states": "Nervous but resolved to share his story.",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Joe Thompson",
+          "gender": "Male",
+          "description": "A laid-back and supportive community leader in his late 30s, known for his kindness and ability to uplift others; Male; Age: 38; Occupation: Youth Pastor and Community Outreach Coordinator; Personality: Compassionate, patient, encouraging; Values: Faith, unity, personal growth; Interests: Leading small group discussions, gardening, playing acoustic guitar; Experiences: Organized youth mentorship programs in underserved neighborhoods, led recovery groups for young adults facing addiction, served as a volunteer counselor during a local crisis.",
+          "position": "Sitting to Maxwell's left, smiling and nodding in encouragement.",
+          "states": "Attentive and empathetic.",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Jennie Carter",
+          "gender": "",
+          "description": "A passionate and articulate young woman in her early 20s, deeply committed to her faith and community service; Female; Age: 22; Occupation: Youth Ministry Coordinator; Personality: Thoughtful, empathetic, charismatic; Values: Compassion, spiritual growth, community; Interests: Bible study, journaling, mentoring; Experiences: Led a youth outreach program in an underserved area, volunteered at a local homeless shelter, organized interfaith youth dialogues.",
+          "position": "Sitting to Maxwell's right, with a Bible in her lap.",
+          "states": "Thoughtful and ready to offer spiritual insight.",
+          "is_npc": true
+        },
+        {
+          "id": 3,
+          "name": "Lena Patel",
+          "gender": "Female",
+          "description": "A 24-year-old graduate student and active member of the group, known for her quiet strength and encouraging nature; Female; Age: 24; Occupation: Theology and Social Work double major; Personality: Compassionate, introspective, empathetic; Values: Community, spiritual growth, resilience; Interests: Reading religious philosophy, journaling, helping others through mentorship; Experiences: Volunteered at a local youth outreach program, survived a personal loss that deepened her faith, led a small Bible study group.",
+          "position": "Across from Maxwell, listening intently.",
+          "states": "Supportive and reflective.",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Maxwell Flores",
+          "character_id": 0,
+          "action": "Shares his recent struggles with job interviews and his decision to return to school.",
+          "dialogue": "I’ve had three job interviews recently, and they all went south. I felt like giving up, but I realized I need to return to school to grow stronger. I’m not sure where God is leading me, but I want to trust the journey."
+        },
+        {
+          "action_id": 1,
+          "character": "Joe Thompson",
+          "character_id": 1,
+          "action": "Listens and offers encouragement.",
+          "dialogue": "Maxwell, I want you to know that you’re not alone. I’ve been in similar situations, and it’s okay to feel uncertain. What matters is that you’re still showing up and trusting the process."
+        },
+        {
+          "action_id": 2,
+          "character": "Jennie Carter",
+          "character_id": 2,
+          "action": "Quotes a Bible verse and relates it to Maxwell’s experience.",
+          "dialogue": "I love how you’re leaning into faith, Maxwell. Proverbs 3:5-6 says, 'Trust in the Lord with all your heart and lean not on your own understanding.' I believe He’s preparing you for something bigger."
+        },
+        {
+          "action_id": 3,
+          "character": "Lena Patel",
+          "character_id": 3,
+          "action": "Shares a personal experience to connect with Maxwell.",
+          "dialogue": "I remember when I felt stuck in my own path, and returning to school was the best decision I ever made. It gave me clarity and purpose. I think you’re on the right track, Maxwell."
+        },
+        {
+          "action_id": 4,
+          "character": "Maxwell Flores",
+          "character_id": 0,
+          "action": "Expresses gratitude and shares a renewed sense of hope.",
+          "dialogue": "Thank you, everyone. I didn’t expect such a warm response. I’m going to take this as a sign to keep pushing forward. I believe this is just the beginning of something new."
+        }
+      ],
+      "plot": "Maxwell shares his recent setbacks and decision to return to school at a faith gathering. His openness is met with encouragement and spiritual support from Joe, Jennie, and Lena, who affirm his choice and offer hope for his future. The interaction strengthens Maxwell’s resolve and inspires others in the group.",
+      "social_purpose": "To show how Maxwell’s vulnerability and faith-driven nature lead to a supportive community interaction, reinforcing his values and providing a shared goal of personal and spiritual growth.",
+      "chunk": {
+        "id": 0,
+        "text": "Maxwell sits in a circle with a group of young adults, all gathered for a weekly faith and support meeting. The room is warm and filled with soft lighting, with a few potted plants and a small table in the center holding snacks and water. The atmosphere is calm and welcoming, with participants sharing stories of their struggles and triumphs. Maxwell shares his recent struggles with job interviews and his decision to return to school. Joe listens and offers encouragement, while Jennie quotes a Bible verse to affirm Maxwell's faith. Lena shares her own experience to connect with him. Maxwell expresses gratitude and a renewed sense of hope, feeling supported by the group."
+      },
+      "npcs": [
+        1,
+        2,
+        3
+      ]
+    }
+  ]
+}

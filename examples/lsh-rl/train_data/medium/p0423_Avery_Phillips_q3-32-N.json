@@ -1,0 +1,88 @@
+{
+  "title": "The Bus Stop Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Avery, Yuna, and Loe meet at a bus stop to head to a group project meeting.",
+      "time": "Afternoon",
+      "location": "City bus stop, near a quiet park",
+      "description": "Avery stands at the bus stop, her headphones on and eyes fixed on her phone. Yuna and Loe arrive, clearly expecting to engage her in conversation, but Avery remains distant. The bus is delayed, and the awkward silence grows. Yuna tries to bridge the gap, while Loe remains observant and quiet.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Avery Phillips",
+          "gender": "Female",
+          "description": "A 17-year-old college student with a reserved demeanor. She is sensitive and often feels overwhelmed in social settings.; Female, years old, Student, 17 years old; Occupation: College Student; Personality: Introverted, Sensitive, Resilient, Guarded; Values: Independence, Self-worth, Emotional Authenticity; Interests: Reading, Music, Solitude, Self-reflection; Experiences: Academic Pressure, Friendship Conflict, Emotional Loneliness, Difficulty with Self-expression, Social Anxiety",
+          "position": "Standing near the end of the bus stop bench",
+          "states": "Tense, guarded, emotionally distant",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Yuna Kim",
+          "gender": "Female",
+          "description": "Avery's close friend who is outgoing and empathetic; Female; Age: 19; Occupation: Psychology major and part-time volunteer counselor at a youth support center; Personality: Outgoing, persistent, supportive; Values: Empathy, loyalty, personal growth; Interests: Listening to music, helping others, outdoor walks; Experiences: Navigated personal loss in high school, led peer support group discussions, worked on a mental health awareness campaign.",
+          "position": "Standing next to Avery, trying to make eye contact",
+          "states": "Concerned, persistent, supportive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Loe Chen",
+          "gender": "Male",
+          "description": "A quiet and observant classmate who often acts as a mediator between Avery and others; Male; Age: 17; Occupation: High school student; Personality: Analytical, empathetic, reserved; Values: Harmony, responsibility, honesty; Interests: Reading psychology books, listening to instrumental music, journaling; Experiences: Successfully mediated a conflict between friends in the past, struggled with social anxiety in middle school, recently started taking leadership roles in class discussions.",
+          "position": "Leaning against the bus stop sign",
+          "states": "Observant, patient, slightly anxious",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Yuna Kim",
+          "character_id": 1,
+          "action": "Attempt to initiate conversation",
+          "dialogue": "Hey Avery, we're almost late for the group meeting. You okay?"
+        },
+        {
+          "action_id": 1,
+          "character": "Avery Phillips",
+          "character_id": 0,
+          "action": "Respond with minimal engagement",
+          "dialogue": "I'm fine. Just tired."
+        },
+        {
+          "action_id": 2,
+          "character": "Loe Chen",
+          "character_id": 2,
+          "action": "Offer support and suggest a compromise",
+          "dialogue": "We can wait a few minutes and maybe grab a coffee on the way. It's not a big deal."
+        },
+        {
+          "action_id": 3,
+          "character": "Avery Phillips",
+          "character_id": 0,
+          "action": "Withdraw further and make a decision",
+          "dialogue": "I think I'll just stay home. I need to focus on my own work."
+        },
+        {
+          "action_id": 4,
+          "character": "Yuna Kim",
+          "character_id": 1,
+          "action": "React with disappointment and try to reason",
+          "dialogue": "Avery, we're all in this together. You don't have to do everything alone."
+        }
+      ],
+      "plot": "Avery's reluctance to join her friends for a group project meeting highlights her internal struggle with independence and social anxiety. Yuna's attempts to reach out and Loe's calm suggestion for a compromise show the group's desire to support Avery, but her guarded response reinforces the emotional distance between them.",
+      "social_purpose": "To explore Avery's traits of independence, sensitivity, and emotional fragility in a public setting, while showcasing the friends' efforts to maintain the relationship.",
+      "chunk": {
+        "id": 0,
+        "text": "Avery stands at the bus stop, her headphones on and eyes fixed on her phone. Yuna and Loe arrive, clearly expecting to engage her in conversation, but Avery remains distant. The bus is delayed, and the awkward silence grows. Yuna tries to bridge the gap, while Loe remains observant and quiet."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

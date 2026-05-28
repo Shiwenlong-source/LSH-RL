@@ -1,0 +1,123 @@
+{
+  "title": "Lunch with a Disney Insider",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Leo meets with Will and Eli for lunch to discuss job opportunities at Disney",
+      "time": "12:30 PM",
+      "location": "A quiet corner of a downtown Los Angeles café",
+      "description": "Leo, a 27-year-old young professional, sits across from Will, a 35-year-old marketing manager at Disney, and next to Eli, a 29-year-old colleague who has known Will for years. The three are having a business lunch, with Leo nervously preparing to ask about internships and entry-level roles.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Leo Fox",
+          "gender": "Male",
+          "description": "A young professional in his early 20s, seeking creative and challenging job opportunities. He is enthusiastic and proactive, but also shows signs of nervousness.; Male, professional, 27 years old; Occupation: Looking for more creative and challenging work; Personality: Enthusiastic, Proactive, Nervous, Confident; Values: Ambition, Career growth, Opportunity; Interests: Career development, Creative work, Networking; Experiences: Preparing for career transition, Meeting with industry insiders, Seeking internships or entry-level positions",
+          "position": "Guest",
+          "states": "Nervous, hopeful, attentive",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Will",
+          "gender": "Male",
+          "description": "A mid-career marketing professional at Disney with a calm and straightforward demeanor; Male; Age: 35; Occupation: Senior Marketing Manager, Disney; Personality: Calm, professional, engaged; Values: Integrity, collaboration, creativity; Interests: Urban exploration, film photography, curated craft beer; Experiences: Led a successful rebranding campaign for a Disney theme park, mentored multiple junior marketers who have since advanced in their careers, has a decade of experience in entertainment marketing.",
+          "position": "Host",
+          "states": "Calm, professional, engaged",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Eli",
+          "gender": "Male",
+          "description": "A supportive colleague of Leo who is quietly confident and has a good rapport with Will; Male; Age: 29; Occupation: Creative Project Coordinator at a boutique entertainment marketing firm; Personality: Calm, empathetic, perceptive; Values: Professional integrity, collaboration, work-life balance; Interests: Urban hiking, indie music, coffee culture; Experiences: Managed cross-departmental campaigns for A-list entertainment clients, mentored new hires in media relations, attended several Disney industry events as a guest speaker.",
+          "position": "Supporting Guest",
+          "states": "Supportive, observant, relaxed",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Leo Fox",
+          "character_id": 0,
+          "action": "greets Will and Eli",
+          "dialogue": "Hey, guys! Thanks for meeting up. I really appreciate the chance to talk with you both."
+        },
+        {
+          "action_id": 1,
+          "character": "Will",
+          "character_id": 1,
+          "action": "responds warmly",
+          "dialogue": "Of course, Leo. We're happy to help. Eli tells me you're looking to make a career move. That’s great to hear."
+        },
+        {
+          "action_id": 2,
+          "character": "Eli",
+          "character_id": 2,
+          "action": "adds a reassuring comment",
+          "dialogue": "Yeah, Will’s always been open to helping people out. Don’t be shy to ask anything."
+        },
+        {
+          "action_id": 3,
+          "character": "Leo Fox",
+          "character_id": 0,
+          "action": "asks about opportunities at Disney",
+          "dialogue": "I’ve been really interested in the creative side of marketing, and Disney seems like the perfect place to explore that. I was wondering if you know of any internships or entry-level roles that might be a good fit for someone like me?"
+        },
+        {
+          "action_id": 4,
+          "character": "Will",
+          "character_id": 1,
+          "action": "provides helpful information",
+          "dialogue": "Absolutely. We actually have a few openings in our creative marketing team. I can forward you the details after lunch. What kind of experience do you have in that area?"
+        },
+        {
+          "action_id": 5,
+          "character": "Leo Fox",
+          "character_id": 0,
+          "action": "explains his background",
+          "dialogue": "Well, I’ve worked in digital marketing for the past two years, but I’m looking to get into more creative roles. I’ve also taken some design courses and worked on a few personal projects that I’d love to show you if you’re interested."
+        },
+        {
+          "action_id": 6,
+          "character": "Eli",
+          "character_id": 2,
+          "action": "encourages Leo",
+          "dialogue": "That sounds awesome, Leo. You should definitely share those projects. Will loves seeing initiative and creativity in new talent."
+        },
+        {
+          "action_id": 7,
+          "character": "Will",
+          "character_id": 1,
+          "action": "acknowledges Leo's enthusiasm",
+          "dialogue": "I can tell you're passionate about this. That’s one of the things we look for in our team. If you can show that you’re not only skilled but also driven, you’ll have a strong case."
+        },
+        {
+          "action_id": 8,
+          "character": "Leo Fox",
+          "character_id": 0,
+          "action": "expresses gratitude and determination",
+          "dialogue": "Thanks, Will. I really want to grow in my career and take on more creative challenges. I’ll follow up with my portfolio and some more questions later this week."
+        },
+        {
+          "action_id": 9,
+          "character": "Will",
+          "character_id": 1,
+          "action": "agrees to stay in touch",
+          "dialogue": "Sounds good. I’ll make sure to pass it along to the right people. Keep me posted on how it goes, okay?"
+        }
+      ],
+      "plot": "Leo Fox, eager to transition into a more creative role, meets with Will and Eli for lunch to explore potential opportunities at Disney. Despite his nerves, Leo manages to ask thoughtful questions and share his background. Will, being professional and straightforward, provides valuable insight and agrees to forward job details to Leo. Eli supports Leo throughout the conversation, helping him feel more at ease. The lunch ends on a positive note, with Leo feeling hopeful about the next steps.",
+      "social_purpose": "Leo aims to gather information about job openings at Disney while showcasing his ambition, creativity, and proactive nature. The interaction with Will and Eli allows him to do so in a natural and supportive setting.",
+      "chunk": {
+        "id": 0,
+        "text": "Leo Fox, a 27-year-old young professional, meets with Will, a Disney marketing manager, and Eli, a supportive colleague, for lunch in a downtown Los Angeles café. The meeting is a critical step in Leo's career development as he seeks to transition into a more creative and challenging role. Will, known for his honest and professional demeanor, is open to discussing opportunities, while Eli quietly reassures Leo throughout the conversation. The lunch provides a platform for Leo to express his values of ambition and career growth, as well as his interest in creative work and networking. The outcome is uncertain, but the interaction is a valuable experience in itself."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

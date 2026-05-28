@@ -1,0 +1,88 @@
+{
+  "title": "The Dance Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "School Cafeteria Lunch",
+      "time": "Afternoon",
+      "location": "School Cafeteria",
+      "description": "Maxwell sits at a table in the cafeteria, still feeling the weight of his poor performance in broadcasting class. Tao approaches, excited about the upcoming dance and hoping Maxwell will go with him. Meanwhile, Jack, seated nearby, watches and makes a sarcastic comment about Maxwell’s broadcasting mishap.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Maxwell Snyder",
+          "gender": "Male",
+          "description": "An 18-year-old high school student who is currently feeling anxious and confused after a broadcasting class. He values friendship and self-reflection and is trying to decide whether to accept Tao’s invitation to a dance.; Male, High School Student, 18 years old; Occupation: High School Student; Personality: Anxious, Confused, Thoughtful; Values: Friendship, Self-reflection; Interests: Broadcasting, Social Activities, Introspection; Experiences: Poor Performance in Broadcasting Class, Receiving Differing Advice from Peers, Experiencing Emotional Fluctuations",
+          "position": "Main table",
+          "states": "Anxious, Confused, Thoughtful",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Tao Li",
+          "gender": "Male",
+          "description": "A supportive and optimistic friend of Maxwell; Male; Age: 17; Occupation: High school student and part-time photography intern; Personality: Encouraging, enthusiastic, loyal; Values: Friendship, perseverance, positivity; Interests: Photography, school events, helping others; Experiences: Assisted Maxwell through past academic setbacks, organized a successful school photo exhibition, participated in multiple school dances.",
+          "position": "Beside Maxwell",
+          "states": "Encouraging, Excited",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Jack Reynolds",
+          "gender": "Male",
+          "description": "Jack Reynolds; Male; Age: 16; Occupation: High School Student; Personality: Sarcastic, Observant, Manipulative; Values: Popularity, Superiority, Control; Interests: Mocking others, Gossip, Pranks; Experiences: Publicly embarrassed classmates in the past, Struggled with academic pressure himself, Often seeks attention through negative behavior.",
+          "position": "Across the cafeteria",
+          "states": "Mocking, Observant",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Tao Li",
+          "character_id": 1,
+          "action": "Approaching and sitting down",
+          "dialogue": "Hey, Max! I was just thinking, the dance is this weekend. You wanna go with me? It could be fun, and I’d really like to have you there."
+        },
+        {
+          "action_id": 1,
+          "character": "Maxwell Snyder",
+          "character_id": 0,
+          "action": "Looking down and hesitating",
+          "dialogue": "I don’t know, Tao. I still feel kind of down after class today. I’m not sure if I’m ready to go out and be around people."
+        },
+        {
+          "action_id": 2,
+          "character": "Jack Reynolds",
+          "character_id": 2,
+          "action": "Calling out sarcastically",
+          "dialogue": "Yeah, Max, you definitely don’t want to be around people after that disaster in class. Maybe just stay home and practice being invisible."
+        },
+        {
+          "action_id": 3,
+          "character": "Tao Li",
+          "character_id": 1,
+          "action": "Reassuring and defending",
+          "dialogue": "Jack, that’s not fair. Everyone has off days. Come on, Max. I believe in you, and the dance is a chance to just have fun and forget about all that for a while."
+        },
+        {
+          "action_id": 4,
+          "character": "Maxwell Snyder",
+          "character_id": 0,
+          "action": "Looking up with a thoughtful expression",
+          "dialogue": "You think it would help? I just don’t want to make things worse for myself. I feel like I’m not good at anything lately."
+        }
+      ],
+      "plot": "Maxwell is caught between Tao's genuine encouragement and Jack's harsh teasing, struggling with his self-worth and whether to attend the dance. His inner conflict is evident as he weighs the social pressure and his desire for acceptance.",
+      "social_purpose": "To explore Maxwell's emotional struggle and his need for peer approval, as well as the contrasting social dynamics between supportive and mocking peers.",
+      "chunk": {
+        "id": 0,
+        "text": "Maxwell is at a crossroads. Tao's invitation to the dance represents a chance to reconnect and feel accepted, while Jack's comment deepens his self-doubt. The cafeteria scene highlights the social tension and Maxwell's internal battle between fear and hope."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

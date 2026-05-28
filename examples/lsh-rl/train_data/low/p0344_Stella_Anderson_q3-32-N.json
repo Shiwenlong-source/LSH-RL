@@ -1,0 +1,95 @@
+{
+  "title": "Rediscovering Purpose",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Stella meets her friends at a local park to celebrate her graduation, but feels uncertain about her future.",
+      "time": "Afternoon",
+      "location": "Local park playground",
+      "description": "Stella sits on a bench by the playground, scrolling through graduation photos on her phone. Lili and Bob are nearby, Lili on a swing and Bob tossing a ball to a group of kids. The atmosphere is warm and cheerful, but Stella feels a mix of anxiety and hope as she weighs her next steps.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Stella Anderson",
+          "gender": "Female",
+          "description": "A 25-year-old recent college graduate who is feeling lost and uncertain about her future. She is introspective and values authenticity and self-improvement.; Female in, recently graduated, 25 years old; Occupation: College graduate; Personality: Anxious, Contemplative, Desiring change; Values: Self-improvement, Friendship, Authenticity; Interests: Self-reflection, Fitness, Photography; Experiences: College graduation, Self-image struggles, Support from close friends",
+          "position": "Bench by the playground",
+          "states": "Anxious, contemplative, hesitant",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Lili Chen",
+          "gender": "Female",
+          "description": "Stella's close friend, known for her empathetic nature and gentle encouragement; Female; Age: 29; Occupation: Community art teacher; Personality: Compassionate, optimistic, observant; Values: Creativity, connection, personal growth; Interests: Painting murals, organizing art workshops for children, exploring local parks; Experiences: Supported Stella through college challenges, recently helped her design a mural for her graduation project, volunteers at a community center for underprivileged youth.",
+          "position": "On a swing near the bench",
+          "states": "Supportive, curious",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Bob Martin",
+          "gender": "Male",
+          "description": "Another close friend of Stella's, a fitness instructor in his mid-20s. He is active, optimistic, and always ready to take action; Male; Age: 25; Occupation: Personal Fitness Trainer and Youth Sports Coach; Personality: Energetic, supportive, enthusiastic; Values: Health and wellness, community, perseverance; Interests: Outdoor activities, nutrition, mentoring young athletes; Experiences: Organized charity runs, coached a local youth soccer team to a championship, helped friends achieve their fitness goals through motivation and guidance.",
+          "position": "Playing catch with children",
+          "states": "Enthusiastic, encouraging",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Lili Chen",
+          "character_id": 1,
+          "action": "Approaches Stella and sits beside her on the bench.",
+          "dialogue": "Hey, you okay? You look like you're thinking a lot. You've been through so much, and I just want to say I'm proud of you."
+        },
+        {
+          "action_id": 1,
+          "character": "Stella Anderson",
+          "character_id": 0,
+          "action": "Nods slowly and responds with a mix of gratitude and uncertainty.",
+          "dialogue": "Thanks, Lili. I just feel like I'm standing at a crossroads. I graduated, but I'm not sure who I am now. It's like I lost part of myself along the way."
+        },
+        {
+          "action_id": 2,
+          "character": "Bob Martin",
+          "character_id": 2,
+          "action": "Walks over, still holding a ball, and joins the conversation.",
+          "dialogue": "Hey, Stella. I know you're feeling lost, but you don't have to figure it all out alone. What if we start small? Maybe you could take up photography again or even join me for a fitness class. I'd be happy to help you get back on your feet."
+        },
+        {
+          "action_id": 3,
+          "character": "Stella Anderson",
+          "character_id": 0,
+          "action": "Looks at Bob, touched by his offer but unsure.",
+          "dialogue": "That sounds nice, really. I used to love photography, and I did enjoy fitness in college. But what if I'm not ready to take the first step yet?"
+        },
+        {
+          "action_id": 4,
+          "character": "Lili Chen",
+          "character_id": 1,
+          "action": "Places a hand on Stella's shoulder and smiles warmly.",
+          "dialogue": "That's okay, Stella. It's not about rushing. It's about rediscovering who you are. We're here for you, no matter how long it takes."
+        },
+        {
+          "action_id": 5,
+          "character": "Bob Martin",
+          "character_id": 2,
+          "action": "Nods in agreement and suggests a practical next step.",
+          "dialogue": "Exactly. And if you ever feel ready, I'm just a text away. Let's take it one day at a time."
+        }
+      ],
+      "plot": "Stella is struggling with her post-graduation identity and the pressure to move forward. Her friends Lili and Bob notice her anxiety and offer their support. Lili provides emotional reassurance, while Bob suggests practical activities like fitness and photography to help Stella reconnect with her passions. Stella is moved by their care but remains hesitant to commit to any action.",
+      "social_purpose": "To show how close friendships can provide both emotional and practical support in times of uncertainty. It also highlights the protagonist's internal struggle between her desire for change and her fear of taking steps toward it.",
+      "chunk": {
+        "id": 0,
+        "text": "Stella sat on the bench, staring at the photos on her phone. The bright smiles and confetti of her graduation day felt distant now. Lili approached and sat beside her, offering a gentle presence. Bob, ever the action-oriented friend, suggested ways to help her rediscover her spark. Their support filled her with warmth, but the fear of the unknown still lingered."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

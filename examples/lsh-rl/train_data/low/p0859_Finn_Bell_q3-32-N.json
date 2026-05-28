@@ -1,0 +1,95 @@
+{
+  "title": "The Critical Email",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Finn hesitates to send a critical email in a tense office meeting.",
+      "time": "Afternoon",
+      "location": "Office of Finn Bell Investigations",
+      "description": "Finn stands at his desk, staring at the screen, his hand hovering over the keyboard. The room is quiet, save for the low hum of the air conditioner. Zoe and Gavin are seated across from him, waiting for his decision. The email contains sensitive information that could either advance the investigation or put them all in danger.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Finn Bell",
+          "gender": "Male",
+          "description": "A 36-year-old private investigator with a sharp mind and a volatile emotional state. He is deeply committed to uncovering the truth, but his determination often clashes with his inner doubts.; Male, Investigator, 36 years old; Occupation: Private Investigator; Personality: Analytical, Emotional, Determined; Values: Truth, Integrity, Risk-taking; Interests: Investigation, Technology, Urban Exploration; Experiences: Tracking high-profile cases, Working with unreliable informants, Handling high-pressure situations",
+          "position": "Standing at his desk",
+          "states": "Tense, contemplative, conflicted",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Zoe Ramirez",
+          "gender": "Female",
+          "description": "Finn's calm and composed assistant; Female; Age: 29; Occupation: Senior Case Coordinator at Finn Bell Investigations; Personality: Analytical, empathetic, patient; Values: Integrity, teamwork, discretion; Interests: Reading true crime, yoga, urban hiking; Experiences: Managed high-stakes cases involving corporate espionage, helped de-escalate tense client confrontations, worked closely with law enforcement on a major investigation.",
+          "position": "Seated at the table",
+          "states": "Calm, confident, reassuring",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Gavin Cole",
+          "gender": "Male",
+          "description": "Finn's younger, more anxious assistant. He tends to overthink and is often preoccupied with worst-case scenarios; Male; Age: 26; Occupation: Junior Investigator at Finn Bell Investigations; Personality: Anxious, detail-oriented, loyal; Values: Safety, integrity, trust; Interests: True crime podcasts, cybersecurity, journaling; Experiences: Witnessed a botched investigation that led to legal consequences for the team, once accidentally leaked confidential information during a college internship, grew up in a high-stakes legal environment due to a parent’s profession",
+          "position": "Seated at the table",
+          "states": "Nervous, fidgety, cautious",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Finn Bell",
+          "character_id": 0,
+          "action": "Looks at the screen, then at Zoe and Gavin",
+          "dialogue": "I don’t know if I should send this. If we’re wrong, it could blow everything up."
+        },
+        {
+          "action_id": 1,
+          "character": "Zoe Ramirez",
+          "character_id": 1,
+          "action": "Leans forward, speaking firmly",
+          "dialogue": "The signal is stable, and the data checks out. If we don’t act now, we might lose our only lead."
+        },
+        {
+          "action_id": 2,
+          "character": "Gavin Cole",
+          "character_id": 2,
+          "action": "Taps his fingers on the table, looking worried",
+          "dialogue": "But what if we don’t get a response at all? What if they’re already watching us?"
+        },
+        {
+          "action_id": 3,
+          "character": "Finn Bell",
+          "character_id": 0,
+          "action": "Takes a deep breath and types quickly",
+          "dialogue": "You’re both right. This is about more than just risk—it’s about integrity. If we don’t do what’s right, what’s the point of chasing the truth?"
+        },
+        {
+          "action_id": 4,
+          "character": "Zoe Ramirez",
+          "character_id": 1,
+          "action": "Nods, relieved",
+          "dialogue": "You’re making the right call, Finn. Let’s just hope it pays off."
+        },
+        {
+          "action_id": 5,
+          "character": "Gavin Cole",
+          "character_id": 2,
+          "action": "Looks at the clock, visibly anxious",
+          "dialogue": "We’ll have to be ready for anything. I’ll set up the tracking software just in case."
+        }
+      ],
+      "plot": "Finn is at a crossroads in the investigation. The email he is about to send could either confirm a critical lead or expose the team to unknown dangers. His assistants, Zoe and Gavin, represent two sides of the coin—Zoe encourages action based on stable data, while Gavin warns against the risks of silence or retaliation. Finn’s decision to send the email, driven by his commitment to truth and integrity, sets the investigation on a new path.",
+      "social_purpose": "To explore the tension between action and caution in a high-stakes investigation, while revealing Finn’s dedication to his values and the dynamics of his team.",
+      "chunk": {
+        "id": 0,
+        "text": "Finn hesitates to send a critical email in a tense office meeting. His assistants Zoe and Gavin offer contrasting perspectives, reflecting his inner conflict and the weight of the decision."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

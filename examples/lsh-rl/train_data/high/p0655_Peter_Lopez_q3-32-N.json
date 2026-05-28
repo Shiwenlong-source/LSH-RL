@@ -1,0 +1,95 @@
+{
+  "title": "A Step of Faith",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Small Group Bible Study",
+      "time": "Saturday evening at 7:00 PM",
+      "location": "Community Room at Grace Fellowship Church",
+      "description": "Peter Lopez, a 33-year-old writer and church member, is preparing to share a personal reflection during a small group Bible study. His speech impediment and recent struggles with self-doubt make the moment challenging, but he is determined to speak. His friend Sun supports him quietly, while Pastor Mike encourages the group to listen with open hearts.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Peter Lopez",
+          "gender": "Male",
+          "description": "A thoughtful and determined writer who is part of the church community. He is working through self-doubt and anxiety about public speaking.; Male / Church Member, 33 years old; Occupation: Writer; Personality: Determined, Introspective, Empathetic; Values: Faith, Community, Self-improvement; Interests: Writing, Spiritual Growth, Public Speaking; Experiences: Overcoming language anxiety, Participating in church leadership, Finding direction in life",
+          "position": "Seated at the table, holding a Bible and a notebook",
+          "states": "Nervous, focused, hopeful",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Sun Kim",
+          "gender": "Female",
+          "description": "A supportive and kind-hearted member of the church who often helps Peter with his insecurities; Female; Age: 42; Occupation: Counselor and part-time youth group leader; Personality: Empathetic, patient, perceptive; Values: Compassion, faith, community; Interests: Reading Christian literature, gardening, mentoring young people; Experiences: Overcame her own public speaking anxiety in her twenties, worked with individuals struggling with self-esteem and personal growth.",
+          "position": "Sitting next to Peter, offering subtle encouragement",
+          "states": "Calm, reassuring, attentive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Pastor Mike",
+          "gender": "Male",
+          "description": "A compassionate and experienced leader who values authenticity and growth in his congregation; Male; Age: 48; Occupation: Pastor and youth counselor; Personality: Encouraging, patient, observant; Values: Integrity, community, spiritual growth; Interests: Reading theological literature, mentoring young people, hiking; Experiences: Led a church through a period of significant community outreach, guided several individuals through personal crises, overcame his own early struggles with public speaking.",
+          "position": "Standing at the front of the room, leading the discussion",
+          "states": "Encouraging, patient, observant",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Pastor Mike",
+          "character_id": 2,
+          "action": "Opening the small group Bible study",
+          "dialogue": "Good evening, everyone. We're here to grow closer in our faith and support one another. Tonight, we'd love to hear from Peter as he shares a reflection on his journey."
+        },
+        {
+          "action_id": 1,
+          "character": "Peter Lopez",
+          "character_id": 0,
+          "action": "Expressing hesitation",
+          "dialogue": "Thank you, Pastor Mike. I'm a bit nervous, but I'll try. I've been thinking a lot about how our faith community helps us face our fears."
+        },
+        {
+          "action_id": 2,
+          "character": "Sun Kim",
+          "character_id": 1,
+          "action": "Gently nodding and smiling",
+          "dialogue": "You've got this, Peter. Your words always touch people, even if it's hard for you to see it."
+        },
+        {
+          "action_id": 3,
+          "character": "Peter Lopez",
+          "character_id": 0,
+          "action": "Sharing his story",
+          "dialogue": "I've struggled with speaking up in public for a long time. I remember once, I couldn't even say the word 'congregation' without stumbling. But with time, and with the support of this group, I've learned that it's not about perfection—it's about showing up and trusting in the grace we receive."
+        },
+        {
+          "action_id": 4,
+          "character": "Pastor Mike",
+          "character_id": 2,
+          "action": "Responding with affirmation",
+          "dialogue": "That's beautiful, Peter. Faith is about taking steps, even when they feel small. Your vulnerability inspires others to do the same."
+        },
+        {
+          "action_id": 5,
+          "character": "Peter Lopez",
+          "character_id": 0,
+          "action": "Expressing gratitude",
+          "dialogue": "Thank you, Pastor Mike. And thank you, Sun, for always being there for me. It means more than I can say."
+        }
+      ],
+      "plot": "Peter shares his personal journey of overcoming language anxiety and self-doubt in a small group Bible study, with support from his friend Sun and encouragement from Pastor Mike. The group listens attentively, and Peter's openness helps others see the value of vulnerability and courage in leadership.",
+      "social_purpose": "To show how a supportive community can help an individual overcome personal challenges and how sharing one's struggles can deepen connections and inspire others.",
+      "chunk": {
+        "id": 0,
+        "text": "The evening air was warm, and the soft glow of the overhead lights in the community room created a welcoming atmosphere. Peter sat at the table, his notebook slightly open, fingers tracing the edges of the paper. He looked up at the group, his eyes flicking toward Sun, who gave him a quiet smile. Pastor Mike stood at the front, his voice calm and steady, inviting Peter to share. Taking a deep breath, Peter began, his voice trembling at first but growing stronger as he spoke. The group listened with rapt attention, and when he finished, there was a moment of silence before Pastor Mike offered heartfelt praise. Peter felt the weight of his anxiety lift, replaced by a sense of belonging and purpose."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

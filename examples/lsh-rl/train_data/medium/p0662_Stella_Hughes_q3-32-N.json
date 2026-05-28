@@ -1,0 +1,95 @@
+{
+  "title": "First Choir Performance",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Choir Rehearsal Before Sunday Service",
+      "time": "Saturday Afternoon, 3:30 PM",
+      "location": "St. John's Church, Singapore",
+      "description": "Stella Hughes, a 31-year-old actress and new choir member, is backstage in the small, dimly lit rehearsal room of St. John's Church. She clutches the lyrics sheet to her chest and nervously flips through the pages. Jim, the Creative Arts Minister, and Tina, a longtime choir volunteer, approach her to offer support and encouragement.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Stella Hughes",
+          "gender": "Female",
+          "description": "A self-conscious and artistic 31-year-old Christian from the West, adjusting to Singapore's cultural context. She recently joined the church choir and is feeling anxious about her first performance.; Female / Church member, 31 years old; Occupation: Actor; Personality: Self-conscious, Artistic, Cautious, Empathetic; Values: Community, Artistic expression, Faith; Interests: Music, Theater, Worship, Cultural integration; Experiences: First choir performance, Cross-cultural adaptation, Participating in church service, Volunteer work",
+          "position": "Backstage in the rehearsal room",
+          "states": "Nervous, cautious, seeking reassurance",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Jim Tan",
+          "gender": "Male",
+          "description": "The church's Creative Arts Minister, experienced and warm; Male; Age: 48; Occupation: Music Director and Worship Leader; Personality: Compassionate, patient, enthusiastic; Values: Community, spiritual growth, inclusivity; Interests: Choral music, mentoring young talent, exploring different worship styles; Experiences: Led youth worship teams for over 20 years, organized multiple church music retreats, trained and supported numerous new choir members.",
+          "position": "Approaching Stella from the left",
+          "states": "Supportive, encouraging, calm",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Tina Lim",
+          "gender": "Female",
+          "description": "A longtime choir volunteer and worship leader in the church, empathetic and observant, often stepping in to help those who feel out of place; Female; Age: 48; Occupation: Primary School Music Teacher; Personality: Compassionate, understanding, reassuring; Values: Community, faith, kindness; Interests: Vocal coaching, reading spiritual biographies, gardening; Experiences: Led a youth choir for over a decade, helped several shy members gain confidence, organized church music outreach programs.",
+          "position": "Approaching Stella from the right",
+          "states": "Compassionate, understanding, reassuring",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Jim Tan",
+          "character_id": 1,
+          "action": "Walks up to Stella with a warm smile and a folder of music.",
+          "dialogue": "Hey, Stella! I just wanted to let you know how much your voice adds to the choir. You're doing great, and we're all here to support you."
+        },
+        {
+          "action_id": 1,
+          "character": "Tina Lim",
+          "character_id": 2,
+          "action": "Places a gentle hand on Stella's shoulder and leans in to speak softly.",
+          "dialogue": "I remember my first time too. It felt like the whole world was watching, but once we started singing, it all came together. You're part of something beautiful here."
+        },
+        {
+          "action_id": 2,
+          "character": "Stella Hughes",
+          "character_id": 0,
+          "action": "Looks up at Jim and Tina, her face a mix of gratitude and anxiety.",
+          "dialogue": "Thank you both. I just... I'm not used to performing in front of a large group like this. I want to contribute, but I'm afraid I'll mess up."
+        },
+        {
+          "action_id": 3,
+          "character": "Jim Tan",
+          "character_id": 1,
+          "action": "Sits beside Stella and opens the lyrics sheet with her.",
+          "dialogue": "That's completely normal. You're in a new place, new culture, and stepping into something you care about. That takes courage."
+        },
+        {
+          "action_id": 4,
+          "character": "Tina Lim",
+          "character_id": 2,
+          "action": "Sings a small part of the song softly to demonstrate.",
+          "dialogue": "Let's go through this part again. Just take a deep breath and follow my lead. You don't have to be perfect, just be present."
+        },
+        {
+          "action_id": 5,
+          "character": "Stella Hughes",
+          "character_id": 0,
+          "action": "Sings along hesitantly, her voice wavering but determined.",
+          "dialogue": "Okay... I'll try."
+        }
+      ],
+      "plot": "Stella is preparing for her first choir performance in her new church in Singapore. Despite her artistic background and love for music, she is anxious due to cultural differences and the pressure of performing. Jim and Tina, two supportive members of the church community, help her gain confidence by offering encouragement and walking her through the song. Their interaction allows Stella to feel more accepted and to take a small step toward embracing her role in the church.",
+      "social_purpose": "To illustrate Stella's internal conflict and her desire to contribute to the church while navigating cultural and personal insecurities. The scene also highlights the supportive role of the community in helping her integrate and feel valued.",
+      "chunk": {
+        "id": 0,
+        "text": "Stella stands backstage, her hands trembling as she clutches the lyrics sheet. Jim and Tina approach her, each offering a different form of reassurance. Jim speaks to her about the importance of courage and presence, while Tina gently guides her through the song. As they rehearse, Stella begins to feel a sense of belonging and purpose, despite her lingering doubts."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

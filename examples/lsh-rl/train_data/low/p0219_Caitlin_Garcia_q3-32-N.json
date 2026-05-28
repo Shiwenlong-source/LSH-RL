@@ -1,0 +1,88 @@
+{
+  "title": "The Algebra After-School Club",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Caitlin visits the after-school algebra club in hopes of getting help and support from others.",
+      "time": "3:15 PM",
+      "location": "High school library, algebra club meeting room",
+      "description": "The library is quiet, save for the soft hum of the algebra club. A few students sit around a table covered with graph paper and calculators. Caitlin enters, looking around nervously. She is hoping to find a supportive environment to improve her math skills.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Caitlin Garcia",
+          "gender": "Female",
+          "description": "A 16-year-old high school student who is emotionally sensitive and determined to improve her algebra grade after scoring 43%. She is anxious about her current situation but hopeful for a better outcome.; Female, Student, 16 years old; Occupation: High school student; Personality: Sensitive, Determined, Anxious, Hopeful; Values: Understanding, Progress, Validation; Interests: Academic success, Emotional validation, Problem-solving; Experiences: Academic difficulties, Seeking teacher support, Peer criticism, Emotional stress, Classroom anxiety",
+          "position": "Near the entrance, hesitant to approach the table",
+          "states": "Nervous, hopeful, determined",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Jordan Lee",
+          "gender": "Male",
+          "description": "A calm and patient 17-year-old who is a member of the algebra club and helps others with math; Male; Age: 17; Occupation: High school student; Personality: Analytical, empathetic, methodical; Values: Academic excellence, collaboration, perseverance; Interests: Tutoring peers, solving complex equations, reading science fiction; Experiences: Volunteered as a peer tutor for struggling students, placed in the top 10% of his class in regional math competitions, led small group study sessions during exam periods.",
+          "position": "At the table, organizing graph paper and a whiteboard marker",
+          "states": "Calm, attentive, welcoming",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Lili Chen",
+          "gender": "Female",
+          "description": "A sarcastic and confident 16-year-old who also attends the algebra club; Female; Age: 16; Occupation: High school student; Personality: Sarcastic, dismissive, observant, intelligent, competitive; Values: Academic excellence, independence, honesty; Interests: Solving complex math problems, debating, watching horror movies; Experiences: Frequently outperforms peers in math class, has a history of criticizing Caitlin in class, led a group project that won a regional math competition.",
+          "position": "At the table, scrolling through her phone with a dismissive attitude",
+          "states": "Sarcastic, dismissive, observant",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Caitlin Garcia",
+          "character_id": 0,
+          "action": "Enters the room and hesitantly approaches the table.",
+          "dialogue": "Hi, I'm Caitlin. I'm new here. I was wondering if I could join the club to get some extra help with algebra."
+        },
+        {
+          "action_id": 1,
+          "character": "Jordan Lee",
+          "character_id": 1,
+          "action": "Smiles and gestures for Caitlin to sit down.",
+          "dialogue": "Of course, Caitlin. We're always happy to have more people. What topics are you struggling with the most?"
+        },
+        {
+          "action_id": 2,
+          "character": "Lili Chen",
+          "character_id": 2,
+          "action": "Rolls her eyes and mutters sarcastically.",
+          "dialogue": "Great, another person who thinks they can just catch up by showing up to a club. But sure, why not."
+        },
+        {
+          "action_id": 3,
+          "character": "Caitlin Garcia",
+          "character_id": 0,
+          "action": "Takes a deep breath and sits down, determined to make the most of this opportunity.",
+          "dialogue": "I’m having trouble with linear equations and word problems. I really want to understand them better and improve my grade."
+        },
+        {
+          "action_id": 4,
+          "character": "Jordan Lee",
+          "character_id": 1,
+          "action": "Picks up a pencil and starts writing an example problem on the whiteboard.",
+          "dialogue": "Let's start with a simple one. If you can follow this step-by-step, it might help you feel more confident."
+        }
+      ],
+      "plot": "Caitlin joins the algebra club and tries to find help with her struggles, despite Lili's dismissive attitude. Jordan offers her support and begins to guide her through a problem, giving her hope that she can still improve her grade.",
+      "social_purpose": "To showcase Caitlin's determination and emotional sensitivity in a setting where she seeks academic support and validation. The interaction reveals the contrast in peer reactions (supportive vs. dismissive) and highlights the importance of a supportive learning environment.",
+      "chunk": {
+        "id": 0,
+        "text": "Caitlin enters the algebra club room, heart pounding with a mix of hope and anxiety. She notices Jordan at the table, looking up with a friendly smile, and Lili, who is clearly unimpressed. Despite Lili's sarcastic remark, Caitlin sits down, determined to focus on the problem at hand. Jordan begins to explain a linear equation, breaking it down into manageable steps. Caitlin listens intently, her sensitive nature making her acutely aware of the tension in the room, but her hopeful and determined spirit pushes her to engage. The shared goal of improving their algebra skills brings them together, even if only for a moment, and Caitlin feels a small flicker of confidence return."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

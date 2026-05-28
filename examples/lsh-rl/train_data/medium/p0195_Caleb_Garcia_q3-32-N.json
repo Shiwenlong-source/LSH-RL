@@ -1,0 +1,88 @@
+{
+  "title": "The Melody of Distraction",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Caleb and his roommates meet at a campus coffee shop to study for an upcoming exam.",
+      "time": "3:00 PM on a rainy Thursday afternoon",
+      "location": "Corner of a small campus coffee shop with a few tables and a quiet atmosphere",
+      "description": "Caleb Garcia sits at a table with his roommates Mike and Jack, surrounded by textbooks and laptops. A portable keyboard rests beside his untouched coffee, and he continuously plays the same melody from 'Yue Lan An' under his breath. The soft hum of the music blends with the quiet background chatter of the coffee shop, but his roommates are visibly frustrated by the distraction.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Caleb Garcia",
+          "gender": "Male",
+          "description": "17-year-old college student, deeply emotional and introspective, with a tendency to become obsessive about things that matter to him. He is currently fixated on a particular melody, which is evident in his furrowed brow and repetitive actions.; years old / Male / College Student, 17 years old; Occupation: College Student; Personality: Obsessive, Emotional, Determined, Introspective; Values: Emotional Expression, Personal Connection, Self-Reflection; Interests: Music, Emotional Exploration, Solitude; Experiences: Recent Emotional Distress, Close Friendships, Academic Pressure, Habitual Music Listening, Struggles with Focus",
+          "position": "Main Protagonist",
+          "states": "Anxious, focused, emotionally withdrawn",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Mike Thompson",
+          "gender": "Male",
+          "description": "Caleb's roommate and a pragmatic, level-headed college student; Male; Age: 20; Occupation: Computer Science major; Personality: Analytical, patient, observant; Values: Academic success, responsibility, teamwork; Interests: Coding, board games, instrumental music; Experiences: Completed an internship at a local tech startup, helped tutor younger students in STEM subjects, struggled with balancing social life and coursework during his first year.",
+          "position": "Supporting Character",
+          "states": "Frustrated, direct, worried",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Jack Ramirez",
+          "gender": "Male",
+          "description": "Jack Ramirez; Male; Age: 22; Occupation: Psychology major with a minor in music therapy; Personality: Playful, empathetic, charismatic; Values: Community, emotional well-being, balance; Interests: Music, social events, helping others; Experiences: Volunteered at a youth counseling center, organized campus study breaks, dealt with a stressed roommate during finals season.",
+          "position": "Supporting Character",
+          "states": "Playful, empathetic, trying to mediate",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Mike Thompson",
+          "character_id": 1,
+          "action": "interrupts Caleb's focus",
+          "dialogue": "Caleb, you’ve been playing that same song for the last hour. We need to focus on the exam, not the piano."
+        },
+        {
+          "action_id": 1,
+          "character": "Jack Ramirez",
+          "character_id": 2,
+          "action": "attempts to lighten the mood",
+          "dialogue": "Hey, why don’t you try playing something new? I just downloaded this epic orchestral track—might inspire you to study with flair."
+        },
+        {
+          "action_id": 2,
+          "character": "Caleb Garcia",
+          "character_id": 0,
+          "action": "responds with tension",
+          "dialogue": "I can’t stop. This song—it just feels right. I need to get it out."
+        },
+        {
+          "action_id": 3,
+          "character": "Mike Thompson",
+          "character_id": 1,
+          "action": "tries to understand the deeper issue",
+          "dialogue": "Is this about something else? You’ve been quiet and distracted all week. We’re here for you, you know."
+        },
+        {
+          "action_id": 4,
+          "character": "Caleb Garcia",
+          "character_id": 0,
+          "action": "shows vulnerability",
+          "dialogue": "It’s not just about the music. It’s… it’s the only thing that makes sense right now."
+        }
+      ],
+      "plot": "Caleb's roommates are trying to get him to focus on studying for an upcoming exam, but his obsession with playing 'Yue Lan An' is causing tension. Mike confronts him directly about the distraction, while Jack attempts to draw him out with a new piece of music. Caleb’s emotional struggle becomes evident as he reveals that the song is more than just a hobby—it's a coping mechanism for his recent emotional distress.",
+      "social_purpose": "To explore Caleb's emotional state and his tendency to retreat into music as a form of self-reflection and emotional expression, while also highlighting the dynamics of his close friendships and the challenges of balancing personal needs with shared goals.",
+      "chunk": {
+        "id": 0,
+        "text": "Caleb Garcia sits at a table in a quiet coffee shop with his roommates, Mike and Jack, attempting to study for an upcoming exam. However, his focus is repeatedly broken as he plays the same melody from 'Yue Lan An' on his portable keyboard. Mike, growing frustrated, reminds Caleb that they have limited time to prepare, while Jack tries to distract him with a new, more upbeat song. Caleb, visibly anxious and emotionally withdrawn, responds with a mix of determination and vulnerability, revealing the deeper significance of the music in his life."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

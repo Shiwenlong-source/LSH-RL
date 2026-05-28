@@ -1,0 +1,78 @@
+{
+  "title": "The Protest Decision",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Elliott considers joining a late-night protest while his roommate Henry sleeps.",
+      "time": "10:30 PM",
+      "location": "College dorm room",
+      "description": "Elliott sits at his desk, staring at his laptop, surrounded by stacks of books and half-written essays. His roommate, Henry, lies on his bed, snoring softly. Outside, the distant sounds of a protest echo faintly through the window. Elliott wrestles with the choice between rest and civic duty.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Elliott Walker",
+          "gender": "Male",
+          "description": "A 22-year-old college student with a quiet intensity and a deep sense of responsibility. He is visibly tired but restless, his eyes reflecting a mix of exhaustion and determination.; Male / Student, 22 years old; Occupation: College student; Personality: Determined, Introspective, Idealistic, Resilient; Values: Social justice, Civic responsibility, Self-reflection; Interests: Political participation, Community activities, Personal growth; Experiences: Academic pressure, Political awakening, Late-night solitude, Friendship with Henry",
+          "position": "At his desk",
+          "states": "Tired, conflicted, determined",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Henry Ramirez",
+          "gender": "Male",
+          "description": "Elliott’s laid-back roommate, who prioritizes sleep and personal comfort; Male; Age: 20; Occupation: Undeclared college student; Personality: Lazy, indifferent, easygoing; Values: Comfort, routine, personal peace; Interests: Video games, streaming shows, sleeping; Experiences: Grew up in a stable suburban environment, has never attended a protest, often avoids stress-inducing situations.",
+          "position": "On his bed",
+          "states": "Asleep, unaware",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Elliott Walker",
+          "character_id": 0,
+          "action": "Looks out the window, listening to the protest.",
+          "dialogue": "Maybe I should go out there. I feel like I owe it to myself to be part of something bigger than my grades."
+        },
+        {
+          "action_id": 1,
+          "character": "Elliott Walker",
+          "character_id": 0,
+          "action": "Paces the room, trying to decide.",
+          "dialogue": "But if I don’t sleep, I won’t be able to do well on the presentation tomorrow. I’ve been so focused on my responsibilities, but what if I’m just avoiding something more important?"
+        },
+        {
+          "action_id": 2,
+          "character": "Henry Ramirez",
+          "character_id": 1,
+          "action": "Mumbles in his sleep, startling Elliott.",
+          "dialogue": "Eh? What? No, I’m not going out there again… too much yelling."
+        },
+        {
+          "action_id": 3,
+          "character": "Elliott Walker",
+          "character_id": 0,
+          "action": "Pauses, reflecting on Henry’s words.",
+          "dialogue": "He’s right, it’s loud and tiring. But maybe that’s the point. Maybe I need to be there, to see it for myself."
+        },
+        {
+          "action_id": 4,
+          "character": "Elliott Walker",
+          "character_id": 0,
+          "action": "Packs a small bag with essentials and grabs a jacket.",
+          "dialogue": "I’ll go. Just for a while. I need to remember why I started caring in the first place."
+        }
+      ],
+      "plot": "Elliott is torn between his academic responsibilities and his desire to participate in a late-night protest. After a moment of introspection and a brief interaction with his roommate, he decides to go out and engage in the event.",
+      "social_purpose": "Elliott’s decision to join the protest highlights his values of civic responsibility and social justice, while also showcasing his personality traits of determination and idealism. The interaction with Henry adds a layer of contrast and prompts self-reflection.",
+      "chunk": {
+        "id": 0,
+        "text": "Elliott sits at his desk, staring at his laptop, surrounded by stacks of books and half-written essays. His roommate, Henry, lies on his bed, snoring softly. Outside, the distant sounds of a protest echo faintly through the window. Elliott wrestles with the choice between rest and civic duty."
+      },
+      "npcs": [
+        1
+      ]
+    }
+  ]
+}

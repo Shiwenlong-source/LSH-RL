@@ -1,0 +1,95 @@
+{
+  "title": "The Cordless Phone Hunt",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Searching for a cordless phone in a mall electronics store",
+      "time": "Saturday afternoon, 3:15 PM",
+      "location": "Electronics department of a large mall",
+      "description": "Kayla and her mother, Chou, are in a crowded electronics store, searching for a discounted cordless phone. Kayla is moving quickly from shelf to shelf, her phone pressed to her ear as she listens to Kevin's instructions. Chou walks quietly behind her, occasionally offering subtle reminders to stay calm and take her time.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Kayla Ellis",
+          "gender": "Female",
+          "description": "Vibrant, slightly anxious, and decisive young woman in her early 20s. She wears a casual outfit and carries a shopping bag.; Female / Daughter, 25 years old; Occupation: College student; Personality: Determined, Anxious, Decisive; Values: Pragmatism, Responsibility, Friendship; Interests: Shopping, Tech products, Family time; Experiences: Shopping with family, Making decisions under pressure, Balancing others' expectations",
+          "position": "Near the center of the store, scanning shelves",
+          "states": "Anxious, determined, overwhelmed",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Chou Ellis",
+          "gender": "Female",
+          "description": "Calm, composed, and supportive mother in her 50s; Female; Age: 54; Occupation: School Counselor; Personality: Empathetic, patient, observant; Values: Family, practicality, integrity; Interests: Gardening, reading self-help books, volunteering at community events; Experiences: Helped her daughter navigate high school and college decisions, managed family finances during economic downturns, frequently shops for electronics to support her family's needs.",
+          "position": "Behind Kayla, watching her carefully",
+          "states": "Calm, concerned, patient",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Kevin",
+          "gender": "Male",
+          "description": "Friendly but high-energy college friend on the phone with Kayla; Male; Age: 25; Occupation: Part-time tech support at a local electronics store; Personality: Energetic, insistent, encouraging; Values: Efficiency, helpfulness, staying connected; Interests: Bargain hunting, gadgets, sports; Experiences: Helped Kayla shop for electronics in the past, frequently gives tech advice over the phone, used to juggling school and part-time work.",
+          "position": "Calling from outside the store",
+          "states": "Energetic, insistent, encouraging",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Kayla Ellis",
+          "character_id": 0,
+          "action": "Answers Kevin's call while scanning a display of cordless phones",
+          "dialogue": "Kevin, I'm still looking for the model you mentioned. I found a couple of cheaper ones, but they don't have all the features you said we needed."
+        },
+        {
+          "action_id": 1,
+          "character": "Kevin",
+          "character_id": 2,
+          "action": "Speaks over the phone, urging Kayla to find the specific model",
+          "dialogue": "Just make sure it's the same one. The discount only lasts a few more hours, and I really think it's worth the wait. Don't just pick the first thing you see, okay?"
+        },
+        {
+          "action_id": 2,
+          "character": "Chou Ellis",
+          "character_id": 1,
+          "action": "Gently touches Kayla's arm to get her attention",
+          "dialogue": "Kayla, maybe take a breath. You're doing fine. Let's look together if you need help."
+        },
+        {
+          "action_id": 3,
+          "character": "Kayla Ellis",
+          "character_id": 0,
+          "action": "Exhales sharply and responds to Kevin with a hint of frustration",
+          "dialogue": "I know, I know. I'm trying. But there are so many options, and I'm tired of looking. I just want to make the right choice without blowing my budget."
+        },
+        {
+          "action_id": 4,
+          "character": "Kevin",
+          "character_id": 2,
+          "action": "Offers a suggestion while still pushing for the discounted model",
+          "dialogue": "What if we compromise? If you can't find the one I mentioned, maybe look for a slightly pricier one with a warranty. You don't want to regret this later, right?"
+        },
+        {
+          "action_id": 5,
+          "character": "Kayla Ellis",
+          "character_id": 0,
+          "action": "Nods slowly and speaks with more resolve",
+          "dialogue": "I know, Kevin. I'm trying to balance your expectations and my budget. I just want to make sure I'm being responsible here."
+        }
+      ],
+      "plot": "Kayla is on a mission to find a specific discounted cordless phone for her and Kevin, who is urging her over the phone to hurry. Her mother, Chou, is there to support her but notices Kayla's growing anxiety. The pressure from Kevin and the overwhelming number of options in the store push Kayla to make a decision while also trying to stay pragmatic and responsible.",
+      "social_purpose": "To illustrate how personal values like responsibility and pragmatism can influence decision-making in a social setting, while also showing the emotional toll of balancing others' expectations.",
+      "chunk": {
+        "id": 0,
+        "text": "Kayla finally spots the discounted phone and rushes to grab it, feeling a mix of relief and exhaustion. She turns to Chou with a small smile and says, 'I found it. I think this is the one we need.' Chou nods in approval, and Kayla calls Kevin to confirm her choice, her voice now steadier and more confident."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

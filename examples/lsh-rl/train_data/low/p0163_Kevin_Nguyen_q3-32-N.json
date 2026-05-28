@@ -1,0 +1,95 @@
+{
+  "title": "First Steps in the Newsroom",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Kevin is invited to join a small group discussion about a potential article idea.",
+      "time": "After school on a rainy Thursday afternoon",
+      "location": "The high school newspaper newsroom",
+      "description": "Kevin stands at the entrance of the newsroom, clutching a notebook to her chest. The room is buzzing with students typing and chatting. Kiki, a cheerful and outgoing editor, notices Kevin's hesitation and waves her in. Mona, a more experienced and reserved writer, watches from a desk in the corner with a skeptical expression. The shared goal is to brainstorm ideas for the school’s next issue.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Kevin Nguyen",
+          "gender": "Female",
+          "description": "A 16-year-old high school student who is naturally talented at writing but lacks confidence in expressing herself in public. She is sensitive to others' reactions and values authenticity and growth.; 16-year-old female, high school student, 16 years old; Occupation: High school student; Personality: Independent, Sensitive, Hesitant, Talented; Values: Self-expression, Growth, Authenticity; Interests: Writing, Literature, Self-reflection; Experiences: Participated in academic competitions, First contact with a newsroom, Lack of confidence",
+          "position": "Near the entrance of the newsroom",
+          "states": "Nervous, thoughtful, hopeful",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Kiki Ramirez",
+          "gender": "Female",
+          "description": "A 17-year-old editor of the school newspaper known for her warm and encouraging personality; Female; Age: 17; Occupation: High school newspaper editor; Personality: Enthusiastic, empathetic, charismatic; Values: Collaboration, truth-telling, youth empowerment; Interests: Journalism, creative writing, indie music; Experiences: Led a team to win a regional scholastic press award, organized a student-led interview with a local activist, recovered from a period of self-doubt that inspired her to mentor others.",
+          "position": "At the main desk",
+          "states": "Friendly, enthusiastic, welcoming",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Mona Patel",
+          "gender": "Female",
+          "description": "A 17-year-old senior writer with a cool and composed demeanor. She is talented and experienced but often appears indifferent to others. She values professionalism and precision in writing; Female; Age: 17; Occupation: High school newspaper staff writer; Personality: Analytical, reserved, perfectionistic; Values: Professionalism, integrity, efficiency; Interests: Journalism, classic literature, debate; Experiences: Published multiple award-nominated articles, led a school-wide investigative project on student mental health, served as a writing mentor for underclassmen.",
+          "position": "In the corner of the room, typing on her laptop",
+          "states": "Cautious, analytical, slightly dismissive",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Kiki Ramirez",
+          "character_id": 1,
+          "action": "Waves at Kevin and smiles warmly",
+          "dialogue": "Hey, Kevin! Come on in—we’re just brainstorming ideas for the next issue. I think you’d have some great thoughts to share."
+        },
+        {
+          "action_id": 1,
+          "character": "Kevin Nguyen",
+          "character_id": 0,
+          "action": "Takes a deep breath and enters the room",
+          "dialogue": "Um, thanks... I wasn’t sure if I should be here, but I really like writing. I guess I can try."
+        },
+        {
+          "action_id": 2,
+          "character": "Mona Patel",
+          "character_id": 2,
+          "action": "Looks up from her laptop and speaks with a calm tone",
+          "dialogue": "If you’re here, you might as well stay. We need fresh perspectives, but make sure you’re ready to put in the work."
+        },
+        {
+          "action_id": 3,
+          "character": "Kevin Nguyen",
+          "character_id": 0,
+          "action": "Sits down at a nearby desk and opens her notebook",
+          "dialogue": "I’ve written a few short stories and essays in class. I just... I don’t know if I’m good enough for a real article."
+        },
+        {
+          "action_id": 4,
+          "character": "Kiki Ramirez",
+          "character_id": 1,
+          "action": "Nods encouragingly and responds with support",
+          "dialogue": "That’s what we’re here for—to help each other grow. You don’t have to be perfect, just honest and ready to learn."
+        },
+        {
+          "action_id": 5,
+          "character": "Mona Patel",
+          "character_id": 2,
+          "action": "Adds a comment with a slight smirk",
+          "dialogue": "And don’t be afraid to challenge yourself. Writing isn’t just about words—it’s about perspective."
+        }
+      ],
+      "plot": "Kevin is invited into the newsroom by Kiki and is initially hesitant due to her lack of confidence. Mona’s presence adds a subtle tension, but her comment about perspective encourages Kevin to open up. Kiki reassures her and helps her feel more comfortable. Kevin begins to consider taking on a writing assignment for the school paper, which could mark a turning point in her journey as a writer.",
+      "social_purpose": "To show Kevin's internal conflict and how the reactions of others influence her decision to pursue writing more seriously. It also demonstrates the dynamics between experienced and new members of a creative team.",
+      "chunk": {
+        "id": 0,
+        "text": "Kevin stands at the entrance of the newsroom, clutching a notebook to her chest. The room is buzzing with students typing and chatting. Kiki, a cheerful and outgoing editor, notices Kevin's hesitation and waves her in. Mona, a more experienced and reserved writer, watches from a desk in the corner with a skeptical expression. The shared goal is to brainstorm ideas for the school’s next issue."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "title": "The Textbook Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Classroom Discussion on Textbook Solutions",
+      "time": "Afternoon",
+      "location": "University Classroom, Room 205",
+      "description": "The class is engaged in a heated but respectful debate over the best way to handle the missing textbooks for their upcoming project. Henry Cooper has proposed an alternative solution, but not everyone agrees. Amelia and James are actively participating, and Luby unexpectedly enters the room, causing a shift in the atmosphere.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Henry Cooper",
+          "gender": "Male",
+          "description": "A 24-year-old male college student who is decisive, responsible, and a good communicator. He is passionate about saving money and solving problems.; 20-year-old /Male/Student, 24 years old; Occupation: College Student; Personality: Decisive, Responsible, Good Communicator; Values: Pragmatic, Teamwork, Sense of Responsibility; Interests: Problem Solving, Saving Money, Class Participation; Experiences: Leading Group Discussions, Finding Financial Resources, Handling Classroom Conflicts",
+          "position": "Front of the classroom",
+          "states": "Confident, focused",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Amelia Grant",
+          "gender": "Female",
+          "description": "Amelia Grant; Female; Age: 22; Occupation: Undergraduate Student, Majoring in Political Science; Personality: Diplomatic, Analytical, Empathetic; Values: Collaboration, Fairness, Intellectual Curiosity; Interests: Debate clubs, Reading contemporary fiction, Volunteering for community mediation programs; Experiences: Led a successful peer mediation in a group project conflict last semester, Actively participated in a student government initiative to improve campus resources, Organized a book donation drive after noticing classmates struggling with access to course materials.",
+          "position": "Near the center",
+          "states": "Calm, thoughtful",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "James Carter",
+          "gender": "Male",
+          "description": "A 23-year-old male student who is skeptical of unconventional ideas. He questions Henry's proposal but is open to discussion; Male; Age: 23; Occupation: Undergraduate student, majoring in Political Science; Personality: Analytical, reserved, skeptical; Values: Critical thinking, fairness, practicality; Interests: Debating, reading historical non-fiction, following current events; Experiences: Led a student committee on policy reform, had a project fail due to overly ambitious planning, frequently challenges authority in academic settings.",
+          "position": "Back of the classroom",
+          "states": "Skeptical, curious",
+          "is_npc": true
+        },
+        {
+          "id": 3,
+          "name": "Luby Morgan",
+          "gender": "Female",
+          "description": "Luby Morgan; Female; Age: 25; Occupation: Graduate Teaching Assistant in Education; Personality: Playful, observant, charismatic, impulsive, confident; Values: Spontaneity, intellectual curiosity, fairness; Interests: Debating educational policies, collecting vintage stationery, improvisational theater; Experiences: Led a student protest that successfully delayed a controversial textbook adoption, co-authored a paper on collaborative learning strategies, frequently challenges professors to rethink traditional classroom dynamics.",
+          "position": "Doorway",
+          "states": "Playful, observant",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Henry Cooper",
+          "character_id": 0,
+          "action": "Proposes a solution",
+          "dialogue": "We could order cheaper textbooks from Amazon. It's a practical way to solve the problem without waiting for the administration to respond."
+        },
+        {
+          "action_id": 1,
+          "character": "James Carter",
+          "character_id": 2,
+          "action": "Raises a concern",
+          "dialogue": "But what if the books don't arrive in time or are not the right edition? That could cause more problems than it solves."
+        },
+        {
+          "action_id": 2,
+          "character": "Amelia Grant",
+          "character_id": 1,
+          "action": "Mediates the discussion",
+          "dialogue": "Maybe we can look into both options. Henry, could you check if the Amazon books are the correct edition and share the links with the group? James, we can also see if the administration has a backup plan."
+        },
+        {
+          "action_id": 3,
+          "character": "Luby Morgan",
+          "character_id": 3,
+          "action": "Enters and comments",
+          "dialogue": "What's all the fuss about? I just got an email from the professor saying the books will be available at the campus store next week. Maybe we should focus on that instead of going rogue?"
+        }
+      ],
+      "plot": "Henry proposes a cost-effective solution to the missing textbooks, but faces skepticism from James. Amelia tries to find a middle ground, while Luby's sudden entrance introduces an alternative perspective. The group must decide on a path forward while balancing responsibility, teamwork, and pragmatism.",
+      "social_purpose": "To demonstrate how differing values and personalities can shape a group's decision-making process around a shared goal. Henry's proactive and responsible nature is contrasted with James's skepticism and Luby's disruptive charm, while Amelia's mediation highlights the importance of teamwork and communication.",
+      "chunk": {
+        "id": 0,
+        "text": "Henry stood at the front of the classroom, his voice clear and confident. 'We could order cheaper textbooks from Amazon. It's a practical way to solve the problem without waiting for the administration to respond.' He had already done some research and knew the average price difference was significant, but he could see the hesitation in his classmates' faces. James, who was seated in the back, raised his hand. 'But what if the books don't arrive in time or are not the right edition? That could cause more problems than it solves.' Amelia, who had been listening quietly, interjected with her usual calm demeanor. 'Maybe we can look into both options. Henry, could you check if the Amazon books are the correct edition and share the links with the group? James, we can also see if the administration has a backup plan.' Just then, the classroom door opened, and Luby walked in, her presence instantly shifting the atmosphere. 'What's all the fuss about?' she asked. 'I just got an email from the professor saying the books will be available at the campus store next week. Maybe we should focus on that instead of going rogue?' The group turned to her, and the discussion took a new turn as they considered the unexpected update."
+      },
+      "npcs": [
+        1,
+        2,
+        3
+      ]
+    }
+  ]
+}

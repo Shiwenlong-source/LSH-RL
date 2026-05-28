@@ -1,0 +1,112 @@
+{
+  "title": "The Ripple of Silence",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Adrian witnesses a senior bullying a junior and debates whether to intervene.",
+      "time": "Afternoon",
+      "location": "Middle school hallway during lunch break",
+      "description": "Adrian stands near the hallway exit, watching as a senior student, Ethan, knocks a younger student, Maya, to the ground. Ethan laughs and walks away, while Maya scrambles to gather her scattered belongings. Adrian's friends, James and Lina, approach him, clearly agitated by the incident. The hallway buzzes with the usual lunch chatter, but the tension from the event is palpable.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Adrian Hunter",
+          "gender": "15-year-old male",
+          "description": "A sensitive and introspective student who is deeply empathetic but cautious about how he reacts to social situations.; 15-year-old male / Student, 16 years old; Occupation: Middle school student; Personality: Sensitive, Empathetic, Cautious, Introspective; Values: Fairness, Empathy, Responsibility; Interests: Analyzing social relationships, Thinking about consequences, Observing human behavior; Experiences: Witnessing conflict at school, Struggling with moral choices, Dealing with peer pressure",
+          "position": "Standing near the hallway exit, observing the scene",
+          "states": "Torn between action and inaction, anxious about consequences",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "James",
+          "gender": "15-year-old male",
+          "description": "Adrian's close friend, known for his bold and outspoken nature. He often encourages Adrian to take a stand; Male; Age: 15; Occupation: 8th grade student; Personality: assertive, impulsive, loyal; Values: justice, loyalty, courage; Interests: sports, debate club, standing up for others; Experiences: stood up to a bully in 7th grade, got into a few hallway confrontations over unfair treatment, has a strong sense of right and wrong from growing up with an older sibling who was a victim of bullying.",
+          "position": "Standing next to Adrian, arms crossed",
+          "states": "Angry and ready to confront Ethan",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Lina",
+          "gender": "15-year-old female",
+          "description": "Adrian's other close friend, more level-headed and diplomatic; Female; Age: 15; Occupation: Student; Personality: Thoughtful, empathetic, diplomatic; Values: Fairness, respect for others; Interests: Reading, debate club, journaling; Experiences: Witnessed past bullying incidents and advocated for the victim through school channels, resolved conflicts between classmates as a peer mediator.",
+          "position": "Standing beside James, looking at Adrian with concern",
+          "states": "Supportive but urging caution",
+          "is_npc": true
+        },
+        {
+          "id": 3,
+          "name": "Maya",
+          "gender": "13-year-old female",
+          "description": "Maya is a junior student who was just knocked down by Ethan; Female; Age: 13; Occupation: 8th-grade student; Personality: shy, kind-hearted, resilient; Values: respect, fairness, friendship; Interests: reading, art, writing in her journal; Experiences: frequently overlooked in class, once stood up for a friend who was bullied, struggles with self-confidence in social situations.",
+          "position": "Kneeling on the floor, gathering her books",
+          "states": "Nervous, embarrassed, and in need of support",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "James",
+          "character_id": 1,
+          "action": "Confronting",
+          "dialogue": "We can't just let that happen, Adrian! That was totally wrong. We should report it!"
+        },
+        {
+          "action_id": 1,
+          "character": "Lina",
+          "character_id": 2,
+          "action": "Calmly suggesting",
+          "dialogue": "Maybe we should check if Maya's okay first. Let's see if she wants to talk to a teacher."
+        },
+        {
+          "action_id": 2,
+          "character": "Adrian Hunter",
+          "character_id": 0,
+          "action": "Hesitating",
+          "dialogue": "I... I don't know. If we do something, what if it backfires? What if Ethan gets angry at us?"
+        },
+        {
+          "action_id": 3,
+          "character": "Maya",
+          "character_id": 3,
+          "action": "Appealing for help",
+          "dialogue": "Please, I just want to go to class. I don't want any trouble."
+        },
+        {
+          "action_id": 4,
+          "character": "Lina",
+          "character_id": 2,
+          "action": "Comforting",
+          "dialogue": "It's okay, Maya. We're here if you need anything. Just let us know."
+        },
+        {
+          "action_id": 5,
+          "character": "James",
+          "character_id": 1,
+          "action": "Encouraging",
+          "dialogue": "Adrian, we're not just going to stand by and do nothing. You know that."
+        },
+        {
+          "action_id": 6,
+          "character": "Adrian Hunter",
+          "character_id": 0,
+          "action": "Deciding to help",
+          "dialogue": "Right. I'll help her gather her stuff. If she wants to report it, we can support her."
+        }
+      ],
+      "plot": "Adrian is faced with a moral dilemma when he witnesses a senior bullying a junior in the hallway. His friends James and Lina react differently—James is ready to confront the bully, while Lina advocates for a more thoughtful approach. Adrian, being sensitive and cautious, initially hesitates but eventually decides to help Maya and support her if she chooses to report the incident.",
+      "social_purpose": "To explore how empathy, caution, and peer influence shape a student's decision to act in a social conflict. Adrian's choice reflects his values of fairness and responsibility, while also highlighting his introspective nature.",
+      "chunk": {
+        "id": 0,
+        "text": "Adrian stands frozen, watching as Maya scrambles to gather her things. James steps forward, clearly ready to act, but Lina holds him back. 'Let's just help her first,' she says. Adrian nods slowly, stepping closer to Maya. 'Hey, I'm Adrian. I saw what happened. Are you okay?'"
+      },
+      "npcs": [
+        1,
+        2,
+        3
+      ]
+    }
+  ]
+}

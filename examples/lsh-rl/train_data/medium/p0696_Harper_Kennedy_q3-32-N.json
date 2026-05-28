@@ -1,0 +1,116 @@
+{
+  "title": "The Wedding Dress Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Choosing a Wedding Guest Dress",
+      "time": "Afternoon",
+      "location": "Fashion Boutique Fitting Room",
+      "description": "Harper stands in the fitting room, staring at her reflection in the full-length mirror. She’s trying on her third dress for the wedding, and each time she steps out, her mother’s critical voice and her friend Yury’s encouraging tone clash in her mind. Outside the boutique, the sun is setting, and Harper feels the pressure of time and expectations.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Harper Kennedy",
+          "gender": "Female",
+          "description": "25-year-old fashion blogger, anxious and self-conscious, trying to choose a wedding dress that balances comfort and appearance.; 25-year-old Female, Blogger, 25 years old; Occupation: Fashion Blogger; Personality: Anxious, Self-conscious, Thoughtful; Values: Appearance, Social Acceptance, Comfort; Interests: Fashion, Self-improvement, Social Media; Experiences: Preparing for social events, Dealing with body image anxiety, Receiving friend support",
+          "position": "Inside the Fitting Room",
+          "states": "Anxious, indecisive, conflicted",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Yury Chen",
+          "gender": "Female",
+          "description": "Harper’s best friend, supportive and laid-back, who believes confidence is more important than perfection; Female; Age: 24; Occupation: Freelance graphic designer; Personality: Supportive, patient, empathetic; Values: Self-expression, authenticity, friendship; Interests: Vintage fashion, coffee shop culture, indie music; Experiences: Helped Harper through a difficult breakup, co-founded a small creative collective, attended multiple weddings where she prioritized comfort over conformity.",
+          "position": "Outside the Fitting Room",
+          "states": "Supportive, patient, empathetic",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Maggie Kennedy",
+          "gender": "Female",
+          "description": "Harper’s mother, traditional and focused on appearances, who insists Harper must look her best at the wedding; Female; Age: 52; Occupation: High school English teacher and part-time wedding planner; Personality: Perfectionist, assertive, nostalgic; Values: Family reputation, elegance, tradition; Interests: Vintage fashion, social events, mentoring young women; Experiences: Organized her own daughter’s quinceañera, helped plan several neighborhood weddings, grew up in a family that valued formal social etiquette.",
+          "position": "Outside the Fitting Room",
+          "states": "Critical, concerned, authoritative",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Maggie Kennedy",
+          "character_id": 2,
+          "action": "Calls out to Harper",
+          "dialogue": "Harper, you’ve been in there for ten minutes. Hurry up! The last dress you tried was too plain."
+        },
+        {
+          "action_id": 1,
+          "character": "Yury Chen",
+          "character_id": 1,
+          "action": "Replies to Maggie",
+          "dialogue": "Hey, let her take her time. It’s not like the world is ending. She’s doing her best."
+        },
+        {
+          "action_id": 2,
+          "character": "Harper Kennedy",
+          "character_id": 0,
+          "action": "Emerges from the fitting room",
+          "dialogue": "You don’t like this one either, do you?"
+        },
+        {
+          "action_id": 3,
+          "character": "Maggie Kennedy",
+          "character_id": 2,
+          "action": "Examines the dress",
+          "dialogue": "It’s nice, but it’s not showing off your figure. You need something that will make people talk."
+        },
+        {
+          "action_id": 4,
+          "character": "Yury Chen",
+          "character_id": 1,
+          "action": "Approaches Harper",
+          "dialogue": "You look comfortable and happy in this one. That’s what matters, not the dress."
+        },
+        {
+          "action_id": 5,
+          "character": "Harper Kennedy",
+          "character_id": 0,
+          "action": "Looks at the mirror thoughtfully",
+          "dialogue": "I just want to feel good. I don’t want to be the one who stands out for the wrong reasons."
+        },
+        {
+          "action_id": 6,
+          "character": "Yury Chen",
+          "character_id": 1,
+          "action": "Suggests a compromise",
+          "dialogue": "How about we try the last one you liked? The one with the floral pattern. It was cute and you said it felt like you."
+        },
+        {
+          "action_id": 7,
+          "character": "Maggie Kennedy",
+          "character_id": 2,
+          "action": "Sighs and softens her tone",
+          "dialogue": "Well, if you’re sure it’s the one that makes you feel like yourself, then I suppose it’s fine."
+        },
+        {
+          "action_id": 8,
+          "character": "Harper Kennedy",
+          "character_id": 0,
+          "action": "Returns to the fitting room",
+          "dialogue": "Thanks, Yury. I think I’ll go with that one. I just need to feel like me, not someone else’s idea of perfect."
+        }
+      ],
+      "plot": "Harper is struggling to choose a wedding dress that satisfies both her mother's expectations and her own values of comfort and self-acceptance. Her best friend Yury supports her in making a choice that aligns with her personality, while her mother insists on a more traditional and attention-grabbing look. Harper ultimately decides to prioritize her own comfort and confidence, realizing that authenticity is more important than perfection.",
+      "social_purpose": "To explore the tension between external expectations and personal values in a social setting, and to show how supportive relationships can help in making authentic decisions.",
+      "chunk": {
+        "id": 0,
+        "text": "Harper stands in the fitting room, staring at her reflection in the full-length mirror. She’s trying on her third dress for the wedding, and each time she steps out, her mother’s critical voice and her friend Yury’s encouraging tone clash in her mind. Outside the boutique, the sun is setting, and Harper feels the pressure of time and expectations."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

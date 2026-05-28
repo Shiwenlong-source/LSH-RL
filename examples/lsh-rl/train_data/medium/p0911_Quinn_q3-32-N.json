@@ -1,0 +1,95 @@
+{
+  "title": "Security Duty Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Security briefing for the Super Bowl",
+      "time": "Afternoon",
+      "location": "Conference room at the city's security headquarters",
+      "description": "Quinn sits at a long table with her colleagues, Marcos and Zane. The room is filled with maps, security plans, and a sense of urgency as they prepare for the high-profile event. Marcos leans back casually, while Zane sits rigidly, focused on the task at hand. Quinn is visibly conflicted, her fingers tapping rhythmically on the table as she listens to the briefing.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Quinn",
+          "gender": "Female",
+          "description": "A 30-year-old security officer known for her rational and reliable nature, but currently facing internal conflict about joining the Super Bowl mission.; Female, Security officer, 30 years old; Occupation: Security officer; Personality: Rational, Reliable, Deliberate, Conflicted; Values: Teamwork, Sense of responsibility, Professional growth; Interests: Event security, Team collaboration, Problem-solving; Experiences: Working in high-pressure environments, Participating in event security, Balancing personal and professional needs",
+          "position": "Security Officer",
+          "states": "Conflicted, thoughtful",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Marcos",
+          "gender": "Male",
+          "description": "A seasoned security officer with a relaxed and easygoing attitude; Male; Age: 42; Occupation: Senior Security Coordinator for Major Events; Personality: Calm, supportive, observant; Values: Teamwork, integrity, preparedness; Interests: Classic cars, Brazilian jiu-jitsu, storytelling; Experiences: Led security for the last three Super Bowls, survived a high-profile stadium evacuation during a false bomb threat, trained in counterterrorism with the FBI.",
+          "position": "Security Officer",
+          "states": "Calm, supportive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Zane",
+          "gender": "Male",
+          "description": "Zane is a strict and driven security officer who prioritizes team needs over personal ones; Male; Age: 42; Occupation: Senior Security Operations Coordinator; Personality: Disciplined, no-nonsense, loyal; Values: Duty, integrity, team cohesion; Interests: Tactical training, urban survival scenarios, military history; Experiences: Led security for the last three major international sporting events, survived a high-stakes hostage negotiation in a high-rise, served in the military during a peacekeeping mission in a conflict zone.",
+          "position": "Security Officer",
+          "states": "Determined, assertive",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Zane",
+          "character_id": 2,
+          "action": "Zane speaks directly to Quinn, emphasizing the importance of the mission.",
+          "dialogue": "Quinn, this is a once-in-a-lifetime opportunity. The team needs you. You've trained for this."
+        },
+        {
+          "action_id": 1,
+          "character": "Marcos",
+          "character_id": 1,
+          "action": "Marcos leans forward and offers a more casual perspective.",
+          "dialogue": "I get it, Quinn. It's a big commitment, but we're all in this together. You won't be alone."
+        },
+        {
+          "action_id": 2,
+          "character": "Quinn",
+          "character_id": 0,
+          "action": "Quinn responds with a thoughtful tone, showing her internal struggle.",
+          "dialogue": "I know it's important. I just need to make sure I can balance it with my personal plans. It's not easy."
+        },
+        {
+          "action_id": 3,
+          "character": "Zane",
+          "character_id": 2,
+          "action": "Zane counters with a focus on team responsibility.",
+          "dialogue": "We all have personal lives, but when the team needs you, you step up. That's what being reliable means."
+        },
+        {
+          "action_id": 4,
+          "character": "Marcos",
+          "character_id": 1,
+          "action": "Marcos offers a personal example to ease Quinn's tension.",
+          "dialogue": "Remember when I had to cancel my vacation last year for the World Cup? I wasn't happy, but the team needed me. And it paid off."
+        },
+        {
+          "action_id": 5,
+          "character": "Quinn",
+          "character_id": 0,
+          "action": "Quinn nods slowly, showing she is considering their points.",
+          "dialogue": "You're both right. I want to grow professionally, and this is a big step. I just need time to make sure I can commit."
+        }
+      ],
+      "plot": "Quinn is encouraged by her colleagues Marcos and Zane to join the Super Bowl security mission, but she remains conflicted about balancing it with her personal plans. The dialogue highlights her values of teamwork and responsibility, while also revealing her deliberate nature and the tension between personal and professional commitments.",
+      "social_purpose": "To showcase Quinn's internal conflict and how her values and personality traits influence her decision-making process in a team-oriented setting.",
+      "chunk": {
+        "id": 0,
+        "text": "Quinn is encouraged by her colleagues Marcos and Zane to join the Super Bowl security mission, but she remains conflicted about balancing it with her personal plans. The dialogue highlights her values of teamwork and responsibility, while also revealing her deliberate nature and the tension between personal and professional commitments."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

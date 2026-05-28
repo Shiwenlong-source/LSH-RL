@@ -1,0 +1,102 @@
+{
+  "title": "The Budget Dilemma at the Café",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Robert and his friends meet at a local café to discuss weekend plans.",
+      "time": "Saturday afternoon, 3:00 PM",
+      "location": "A cozy, bustling café near the university campus.",
+      "description": "Robert sits at a small table with his friends, Han and Emily, sipping a black coffee. The atmosphere is warm and casual, with soft music playing in the background. They are debating whether to go to a party or stay in and study for an upcoming health policy seminar.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Robert Simpson",
+          "gender": "Male",
+          "description": "A 24-year-old health policy student who is sociable and thoughtful but also anxious about his financial situation. He recently returned from a short holiday and is trying to balance his need for social connection with financial responsibility.; 20-year-old /Male/Health Policy Student, 24 years old; Occupation: Health Policy Student; Personality: Sociable, Reflective, Anxious, Thoughtful; Values: Financial Responsibility, Friendship, Self-improvement; Interests: Parties, Health Policy, Self-reflection; Experiences: Recent Short Holiday, College Memories, Awareness of Financial Pressure, Friendship Interaction, Attempting Self-discipline",
+          "position": "Seated at the table, holding a coffee cup",
+          "states": "Reflective, slightly anxious, trying to stay composed",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Han Lee",
+          "gender": "Male",
+          "description": "A laid-back and supportive friend of Robert's, who is more carefree with money; Male; Age: 22; Occupation: Psychology major with a part-time job at a campus bookstore; Personality: Optimistic, easygoing, empathetic; Values: Friendship, personal happiness, intellectual curiosity; Interests: Music festivals, hiking, casual board game nights; Experiences: Volunteered at a mental health outreach program, spontaneously road-tripped with friends over winter break, frequently balances social life with academic responsibilities.",
+          "position": "Leaning back in his chair, grinning",
+          "states": "Relaxed, cheerful, encouraging",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Emily Carter",
+          "gender": "Female",
+          "description": "A pragmatic and organized economics student who often acts as the voice of reason; Female; Age: 21; Occupation: Part-time research assistant at the university economics department; Personality: Thoughtful, analytical, diplomatic; Values: Responsibility, intellectual growth, financial independence; Interests: Reading economic journals, budgeting and personal finance, attending academic lectures; Experiences: Volunteered for a student-led economic policy think tank, interned at a local financial planning firm during summer break, helped organize a campus economics conference.",
+          "position": "Sitting upright, looking between Robert and Han",
+          "states": "Thoughtful, analytical, diplomatic",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Han Lee",
+          "character_id": 1,
+          "action": "suggests going to a party",
+          "dialogue": "Come on, Robert, it's been a while since we had a good time. You don't have to worry about it so much—life's too short!"
+        },
+        {
+          "action_id": 1,
+          "character": "Robert Simpson",
+          "character_id": 0,
+          "action": "expresses hesitation",
+          "dialogue": "I know, but I just got back from a holiday and my budget is already tight. I don't want to overspend."
+        },
+        {
+          "action_id": 2,
+          "character": "Emily Carter",
+          "character_id": 2,
+          "action": "offers a compromise",
+          "dialogue": "What if we do something low-key? Maybe a study group first, then a casual dinner? It can still be fun without breaking the bank."
+        },
+        {
+          "action_id": 3,
+          "character": "Robert Simpson",
+          "character_id": 0,
+          "action": "considers the option",
+          "dialogue": "That might work. I want to be there for you guys, but I also need to be responsible."
+        },
+        {
+          "action_id": 4,
+          "character": "Han Lee",
+          "character_id": 1,
+          "action": "teases Robert lightly",
+          "dialogue": "You're turning into such a grown-up, Robert. I miss the old you who didn't care about budgets."
+        },
+        {
+          "action_id": 5,
+          "character": "Robert Simpson",
+          "character_id": 0,
+          "action": "reflects on his recent experiences",
+          "dialogue": "I just realized that being responsible doesn't mean I have to be alone. I can still enjoy time with friends, but I need to find a balance."
+        },
+        {
+          "action_id": 6,
+          "character": "Emily Carter",
+          "character_id": 2,
+          "action": "agrees and encourages",
+          "dialogue": "Exactly! It's about making smart choices. I'm proud of you for thinking this through."
+        }
+      ],
+      "plot": "Robert is trying to decide whether to join his friends for a party or prioritize his financial responsibility by staying in. His friends Han and Emily offer different perspectives—Han encourages spontaneity while Emily suggests a balanced approach. Robert ultimately decides to compromise, showing his growth and commitment to self-improvement.",
+      "social_purpose": "To explore the tension between social enjoyment and financial responsibility, and to demonstrate the protagonist's internal conflict and decision-making process through natural dialogue and interaction.",
+      "chunk": {
+        "id": 0,
+        "text": "Robert is trying to decide whether to join his friends for a party or prioritize his financial responsibility by staying in. His friends Han and Emily offer different perspectives—Han encourages spontaneity while Emily suggests a balanced approach. Robert ultimately decides to compromise, showing his growth and commitment to self-improvement."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

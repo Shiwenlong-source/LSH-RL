@@ -1,0 +1,102 @@
+{
+  "title": "A Confession at City Hall",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "A public gathering of friends at City Hall for a community event",
+      "time": "Afternoon",
+      "location": "City Hall Steps",
+      "description": "Kayla stands on the steps of City Hall, gripping Zoe's hand tightly. A small crowd of attendees has gathered for the event, and Tina, a close friend, approaches from the side with a curious and watchful expression. Zoe's demeanor is unusually serious, and Kayla feels the weight of the moment as she senses something significant is about to happen.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Kayla King",
+          "gender": "Female",
+          "description": "A 22-year-old college student with a thoughtful and empathetic nature. She is sensitive to emotions and values deep connections and authenticity in her relationships.; 22-year-old /Female/Social Event Participant, 24 years old; Occupation: College Student; Personality: Thoughtful, Empathetic, Sensitive, Curious; Values: Emotional Sincerity, Trust, Connection, Authenticity; Interests: Music, Deep Conversation, Romantic Expression, Introspection; Experiences: Attending concerts, Experiencing emotional tension, Receiving sincere confessions, Being observed during private moments",
+          "position": "Standing on the steps, holding Zoe's hand",
+          "states": "Anticipatory, emotionally tense, curious",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Zoe Ramirez",
+          "gender": "Female",
+          "description": "A 24-year-old musician and Kayla's close friend; Female; Age: 24; Occupation: Aspiring jazz saxophonist and music teacher; Personality: Confident, expressive, empathetic; Values: Loyalty, authenticity, artistic integrity; Interests: Live performances, vintage fashion, urban exploration; Experiences: Played in local street bands to build her reputation, recently opened up about personal struggles in a private jam session, helped Kayla through a difficult career decision.",
+          "position": "Standing beside Kayla, holding her hand",
+          "states": "Determined, anxious, sincere",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Tina Chen",
+          "gender": "Female",
+          "description": "A 23-year-old community organizer and Kayla's best friend; Female; Age: 23; Occupation: Urban Youth Outreach Coordinator; Personality: Empathetic, analytical, loyal; Values: Equity, trust, collective action; Interests: Social justice documentaries, local grassroots organizing, indie music festivals; Experiences: Led a neighborhood clean-up initiative that brought together diverse groups, mediated a conflict between two rival community leaders, volunteered at a youth mentorship program during college.",
+          "position": "Approaching from the side, standing slightly behind Kayla",
+          "states": "Curious, supportive, cautious",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Tina Chen",
+          "character_id": 2,
+          "action": "Approaches Kayla and Zoe",
+          "dialogue": "Hey, you two look like you're about to start a musical number or something. What's going on?"
+        },
+        {
+          "action_id": 1,
+          "character": "Zoe Ramirez",
+          "character_id": 1,
+          "action": "Looks at Kayla with a mix of hope and fear",
+          "dialogue": "I need to say something, Kayla. Something important."
+        },
+        {
+          "action_id": 2,
+          "character": "Kayla King",
+          "character_id": 0,
+          "action": "Squeezes Zoe's hand and replies softly",
+          "dialogue": "Okay... I'm listening. What is it?"
+        },
+        {
+          "action_id": 3,
+          "character": "Zoe Ramirez",
+          "character_id": 1,
+          "action": "Takes a deep breath and speaks",
+          "dialogue": "I've been thinking a lot about us... about how we've grown closer over time. I really care about you, Kayla. More than I've ever cared about anyone before."
+        },
+        {
+          "action_id": 4,
+          "character": "Kayla King",
+          "character_id": 0,
+          "action": "Looks down, then back at Zoe with a thoughtful expression",
+          "dialogue": "Zoe... I don't know what to say. I care about you too, but I'm not sure how to move forward with this."
+        },
+        {
+          "action_id": 5,
+          "character": "Tina Chen",
+          "character_id": 2,
+          "action": "Steps closer and offers reassurance",
+          "dialogue": "Whatever you need, Kayla, I'm here. Just be honest with her."
+        },
+        {
+          "action_id": 6,
+          "character": "Zoe Ramirez",
+          "character_id": 1,
+          "action": "Nods understandingly",
+          "dialogue": "I just needed you to know. I'll wait for your answer, no matter how long it takes."
+        }
+      ],
+      "plot": "Zoe, a musician and Kayla's close friend, confronts her feelings for Kayla in a public setting. Kayla, who values emotional sincerity and connection, is caught off guard but responds with thoughtfulness and honesty. Tina, their mutual friend, acts as a supportive observer, encouraging Kayla to be authentic.",
+      "social_purpose": "To explore the dynamics of a close friendship turning into a potential romantic relationship, while emphasizing the importance of emotional honesty and the role of a trusted friend in such moments.",
+      "chunk": {
+        "id": 0,
+        "text": "Zoe, a musician and Kayla's close friend, confronts her feelings for Kayla in a public setting. Kayla, who values emotional sincerity and connection, is caught off guard but responds with thoughtfulness and honesty. Tina, their mutual friend, acts as a supportive observer, encouraging Kayla to be authentic."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

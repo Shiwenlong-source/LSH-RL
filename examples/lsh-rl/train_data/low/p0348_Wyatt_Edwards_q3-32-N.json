@@ -1,0 +1,88 @@
+{
+  "title": "Choosing the Right Lens",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Wyatt is trying to decide whether to buy a black-and-white or a color camera.",
+      "time": "Saturday afternoon",
+      "location": "A camera store in the city",
+      "description": "Wyatt stands in the middle of the camera store, surrounded by displays of different models. He holds two cameras in his hands, a sleek black-and-white one and a vibrant color model. Cici and Lay are nearby, each offering their own opinion.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Wyatt Edwards",
+          "gender": "Male",
+          "description": "24-year-old photography enthusiast, thoughtful and open to suggestions, but conflicted in making a decision.; Male/Photography enthusiast, 24 years old; Occupation: Novice photographer; Personality: Creative, Thoughtful, Open; Values: Artistic expression, Friendship, Authenticity; Interests: Photography, Artistic exploration, Social gatherings; Experiences: Learning photography basics, Visiting art exhibitions, Participating in creative projects",
+          "position": "Center of the store",
+          "states": "excited, hesitant, contemplative",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Cici",
+          "gender": "Female",
+          "description": "Cici; Female; Age: 24; Occupation: Freelance Photographer; Personality: Enthusiastic, Persuasive, Playful; Values: Creativity, Friendship, Joy in the Everyday; Interests: Shopping, Capturing vibrant moments, Trying new cafes and restaurants; Experiences: Won a local photography contest for her colorful street portraits, Helped Wyatt with his first photography project, Often documents her travels in vivid detail",
+          "position": "To Wyatt's right",
+          "states": "enthusiastic, persuasive, playful",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Lay",
+          "gender": "Male",
+          "description": "Wyatt's neighbor and aspiring artist, who values black-and-white photography for its artistic depth; Male; Age: 28; Occupation: Freelance graphic designer and part-time photography instructor; Personality: calm, analytical, encouraging; Values: artistic integrity, simplicity, mentorship; Interests: black-and-white film photography, urban landscapes, teaching creative workshops; Experiences: won a local photography award for a monochrome series, taught a community class on composition in black-and-white photography, frequently collaborates with Wyatt on creative projects.",
+          "position": "To Wyatt's left",
+          "states": "calm, analytical, encouraging",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Cici",
+          "character_id": 1,
+          "action": "points to the color camera",
+          "dialogue": "Wyatt, you have to get this one! It's perfect for capturing our shopping trips and all the little colorful details in life."
+        },
+        {
+          "action_id": 1,
+          "character": "Wyatt Edwards",
+          "character_id": 0,
+          "action": "looks at the color camera with interest",
+          "dialogue": "Yeah, I like the idea of preserving those moments... but I also want to create something more artistic."
+        },
+        {
+          "action_id": 2,
+          "character": "Lay",
+          "character_id": 2,
+          "action": "picks up the black-and-white camera",
+          "dialogue": "This one is all about emotion and contrast. You don’t need color to make a powerful image. Think about how you want to be remembered as an artist."
+        },
+        {
+          "action_id": 3,
+          "character": "Wyatt Edwards",
+          "character_id": 0,
+          "action": "nods slowly",
+          "dialogue": "I’ve seen some amazing black-and-white photos at exhibitions. They really tell a story... but I don’t want to ignore the joy of color either."
+        },
+        {
+          "action_id": 4,
+          "character": "Cici",
+          "character_id": 1,
+          "action": "leans in with a smile",
+          "dialogue": "You can always take both! Why choose when you can have the best of both worlds?"
+        }
+      ],
+      "plot": "Wyatt is torn between the artistic appeal of a black-and-white camera and the practicality of a color one. His friend Cici and neighbor Lay offer contrasting advice based on their own values and interests. Cici wants to preserve shared moments, while Lay pushes for a more artistic approach. The conversation reflects Wyatt's internal struggle to balance personal creativity with social connection.",
+      "social_purpose": "To explore how personal values and social relationships influence decision-making in a public setting.",
+      "chunk": {
+        "id": 0,
+        "text": "Wyatt is trying to decide whether to buy a black-and-white or a color camera. Cici and Lay are both eager to give their opinions, each rooted in their own perspectives. The interaction highlights Wyatt’s desire to be both an artist and a good friend, while also revealing his tendency to seek validation from others in important choices."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

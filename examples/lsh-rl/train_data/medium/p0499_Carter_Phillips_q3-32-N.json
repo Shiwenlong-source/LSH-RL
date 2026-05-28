@@ -1,0 +1,133 @@
+{
+  "title": "The Unemployment Hearing",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Carter Phillips attends a meeting at the community service center to discuss his eligibility for unemployment benefits.",
+      "time": "10:00 AM on a rainy Thursday",
+      "location": "Community Service Center, Room 205",
+      "description": "Carter sits across from two staff members, Ms. Ramirez and Mr. Jenkins, who are reviewing his case. His former colleague, Lucy, is also present, which adds to the tension in the room. The atmosphere is formal but charged with emotion as Carter tries to convince the staff that his resignation from Stream Company was due to workplace injustice.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Carter Phillips",
+          "gender": "Male",
+          "description": "A 30-year-old former employee of Stream Company, Carter is visibly angry and anxious. He is determined to prove that his resignation was involuntary and is fighting for his financial stability and professional reputation.; Male, years old, Former Employee, 30 years old; Occupation: Former Employee at Stream Company; Personality: Angry, Determined, Anxious, Resilient; Values: Fairness, Integrity, Self-esteem; Interests: Defending Workplace Rights, Personal Growth, Financial Stability; Experiences: Worked at Stream Company, Experienced Workplace Injustice, Resigned, Applying for Unemployment Benefits, Handling Administrative Processes",
+          "position": "Applicant for Unemployment Benefits",
+          "states": "Angry, Anxious, Resilient",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Lucy Chen",
+          "gender": "Female",
+          "description": "A 28-year-old former coworker of Carter at Stream Company, Lucy is supportive but hesitant; Female; Age: 28; Occupation: Human Resources Coordinator at a local non-profit organization; Personality: empathetic, analytical, introverted; Values: fairness, loyalty, personal growth; Interests: journaling, volunteer work, independent films; Experiences: witnessed workplace discrimination at Stream Company, recently transitioned to a more mission-driven job, struggled with speaking up in professional settings due to fear of retaliation.",
+          "position": "Witness",
+          "states": "Supportive, Hesitant, Nervous",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Ms. Ramirez",
+          "gender": "Female",
+          "description": "A 45-year-old administrative staff member at the community service center, Ms. Ramirez is professional and neutral; Female; Age: 45; Occupation: Case Review Coordinator; Personality: Analytical, Composed, Detail-Oriented; Values: Fairness, Integrity, Efficiency; Interests: Reading legal journals, Solving puzzles, Birdwatching; Experiences: Managed multiple workplace dispute cases, Trained new staff in policy compliance, Volunteered at a legal aid clinic.",
+          "position": "Case Reviewer",
+          "states": "Professional, Neutral, Analytical",
+          "is_npc": true
+        },
+        {
+          "id": 3,
+          "name": "Mr. Jenkins",
+          "gender": "Male",
+          "description": "A 50-year-old senior staff member at the community service center, Mr. Jenkins is experienced and skeptical; Male; Age: 50; Occupation: Unemployment Benefits Case Reviewer; Personality: Analytical, Fair-minded, Cautious; Values: Integrity, Procedural Justice; Interests: Reading legal journals, Classic detective novels; Experiences: Investigated numerous disputed unemployment claims over 20 years, Mediated conflicts between employees and employers in past roles.",
+          "position": "Case Reviewer",
+          "states": "Skeptical, Experienced, Fair-minded",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Carter Phillips",
+          "character_id": 0,
+          "action": "Sits down and clears his throat, preparing to explain his situation.",
+          "dialogue": "I didn’t quit because I wanted to. I was pushed out. My manager made it clear I had no future there after I raised concerns about the unfair treatment of employees."
+        },
+        {
+          "action_id": 1,
+          "character": "Ms. Ramirez",
+          "character_id": 2,
+          "action": "Takes notes and asks a follow-up question.",
+          "dialogue": "Can you explain what exactly happened that led to your decision to resign?"
+        },
+        {
+          "action_id": 2,
+          "character": "Carter Phillips",
+          "character_id": 0,
+          "action": "Leans forward, showing determination.",
+          "dialogue": "I tried to work it out, but the harassment continued. I wasn’t given a choice. I had to protect my self-esteem and my values. That’s what this is about."
+        },
+        {
+          "action_id": 3,
+          "character": "Lucy Chen",
+          "character_id": 1,
+          "action": "Looks at Carter, then speaks hesitantly.",
+          "dialogue": "I... I can confirm that Carter raised valid concerns. But I’m not sure how much I should say."
+        },
+        {
+          "action_id": 4,
+          "character": "Mr. Jenkins",
+          "character_id": 3,
+          "action": "Crosses his arms and questions Carter’s claim.",
+          "dialogue": "But technically, you resigned. The burden of proof is on you to show it was involuntary. Do you have any documentation to back up your claim?"
+        },
+        {
+          "action_id": 5,
+          "character": "Carter Phillips",
+          "character_id": 0,
+          "action": "Reaches into his folder and pulls out a document.",
+          "dialogue": "Yes, I have emails and a performance review that contradicts what the company claims. I’ve been handling this process with integrity, and I’m not backing down now."
+        },
+        {
+          "action_id": 6,
+          "character": "Lucy Chen",
+          "character_id": 1,
+          "action": "Finally speaks up with more conviction.",
+          "dialogue": "I think it’s important to mention that Carter’s concerns were about workplace rights. He was trying to defend what’s fair, and I respect that."
+        },
+        {
+          "action_id": 7,
+          "character": "Ms. Ramirez",
+          "character_id": 2,
+          "action": "Nods and asks a final question.",
+          "dialogue": "Thank you both for your statements. We’ll review the documents and get back to you. In the meantime, can you both confirm that this was a difficult decision for Carter?"
+        },
+        {
+          "action_id": 8,
+          "character": "Carter Phillips",
+          "character_id": 0,
+          "action": "Nods firmly, showing resilience.",
+          "dialogue": "Yes. It was. But I had to do what was right for myself and for others who might be in the same situation."
+        },
+        {
+          "action_id": 9,
+          "character": "Lucy Chen",
+          "character_id": 1,
+          "action": "Nods in agreement.",
+          "dialogue": "He did the right thing. I hope you see that."
+        }
+      ],
+      "plot": "Carter Phillips is in a tense meeting with two staff members at the community service center, trying to convince them that his resignation from Stream Company was due to workplace injustice. His former colleague, Lucy, is present as a witness and her hesitant support complicates the situation. Carter must present his case with determination and resilience while maintaining his integrity and defending his values.",
+      "social_purpose": "To explore the protagonist’s background, values, and experiences in a public setting where he must advocate for himself and navigate interpersonal dynamics. The scenario highlights themes of fairness, workplace rights, and the importance of professional reputation.",
+      "chunk": {
+        "id": 0,
+        "text": "Carter Phillips, 30, sits in a small meeting room at the community service center, determined to make his case for unemployment benefits. His former colleague, Lucy Chen, is also present, but her hesitant support adds to the tension. The staff, Ms. Ramirez and Mr. Jenkins, listen carefully as Carter explains the unfair treatment he faced at Stream Company and how it led to his resignation. As the discussion unfolds, Carter’s anger and anxiety are evident, but his resilience and commitment to fairness shine through. Lucy’s eventual confirmation of Carter’s account provides a small but crucial moment of validation."
+      },
+      "npcs": [
+        1,
+        2,
+        3
+      ]
+    }
+  ]
+}

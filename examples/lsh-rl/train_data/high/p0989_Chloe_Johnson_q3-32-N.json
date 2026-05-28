@@ -1,0 +1,95 @@
+{
+  "title": "The Last Shift",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Chloe announces her resignation to Ryan and Emma in the restaurant pantry.",
+      "time": "7:30 PM",
+      "location": "Pantry of a busy restaurant",
+      "description": "The pantry is dimly lit and quiet, offering a rare moment of calm in the otherwise hectic environment of the restaurant. Chloe stands by the shelves, clutching her phone. Ryan is organizing tableware nearby, while Emma enters with a warm smile and a tray of coffee mugs.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Chloe Johnson",
+          "gender": "Female",
+          "description": "A 26-year-old restaurant employee at a crossroads in her life, visibly anxious and introspective.; Female, Restaurant Employee, 26 years old; Occupation: Restaurant Employee; Personality: Anxious, Introspective, Determined; Values: Self-esteem, Mental Health, Autonomy; Interests: Personal Reflection, Friendship, Work-life Balance; Experiences: Working in a high-pressure environment, Experiencing emotional stress, Considering major life changes",
+          "position": "Near the shelves",
+          "states": "Lowering her head, clutching her phone, waiting for validation",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Ryan Brown",
+          "gender": "Male",
+          "description": "A quiet and observant colleague who has worked with Chloe for years and is concerned about her well-being; Male; Age: 32; Occupation: Line Cook; Personality: Thoughtful, loyal, reserved; Values: Teamwork, integrity, stability; Interests: Reading true crime, amateur photography, home cooking; Experiences: Survived a kitchen fire that nearly closed the restaurant, mentored new staff for three years.",
+          "position": "Organizing tableware",
+          "states": "Hesitant, showing concern through subtle gestures",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Emma Wilson",
+          "gender": "Female",
+          "description": "Chloe's good friend and coworker, empathetic and supportive, trying to understand and help; Female; Age: 28; Occupation: Line Cook; Personality: Compassionate, observant, optimistic; Values: Loyalty, kindness, work-life balance; Interests: Baking, indie music, journaling; Experiences: Survived a high-pressure kitchen opening, supported a friend through a career crisis, volunteers at a local food bank on weekends.",
+          "position": "Entering with a tray of mugs",
+          "states": "Warm, trying to bridge the distance, offering comfort",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Chloe Johnson",
+          "character_id": 0,
+          "action": "Looks up at Ryan and Emma with a shaky voice.",
+          "dialogue": "I... I’ve decided to resign. I just need to take a step back and figure out what I really want."
+        },
+        {
+          "action_id": 1,
+          "character": "Ryan Brown",
+          "character_id": 1,
+          "action": "Pauses and looks at Chloe with a mix of surprise and concern.",
+          "dialogue": "Are you sure? This is a big decision. It’s not easy to leave something like this behind."
+        },
+        {
+          "action_id": 2,
+          "character": "Emma Wilson",
+          "character_id": 2,
+          "action": "Approaches Chloe and gently places a hand on her shoulder.",
+          "dialogue": "I’m proud of you for doing what’s right for your mental health. You’ve been working so hard, and it’s okay to take a break."
+        },
+        {
+          "action_id": 3,
+          "character": "Chloe Johnson",
+          "character_id": 0,
+          "action": "Takes a deep breath and nods slowly.",
+          "dialogue": "I know it’s not the easiest choice. I just can’t keep pretending this job is what defines me. I need to find my own path."
+        },
+        {
+          "action_id": 4,
+          "character": "Ryan Brown",
+          "character_id": 1,
+          "action": "Moves to the counter and offers her a mug.",
+          "dialogue": "Here. Maybe it’s time for something new, and I’ll be here to help you through it."
+        },
+        {
+          "action_id": 5,
+          "character": "Emma Wilson",
+          "character_id": 2,
+          "action": "Sits down next to Chloe and opens a conversation about her future.",
+          "dialogue": "What have you been thinking about doing next? We can help brainstorm if you want."
+        }
+      ],
+      "plot": "Chloe finally takes the step to resign from her high-pressure job, with Ryan and Emma offering support and trying to understand her decision.",
+      "social_purpose": "To show Chloe’s internal struggle and how her decision is influenced by her values of mental health and autonomy, while also highlighting the impact of her relationships with Ryan and Emma.",
+      "chunk": {
+        "id": 0,
+        "text": "Chloe Johnson, a 26-year-old restaurant employee, finds herself in a quiet pantry at the end of a long shift. The dim light and silence contrast with the usual chaos of the kitchen. She is anxious and introspective, holding her phone as if it might offer answers. Her colleague Ryan Brown is nearby, organizing tableware, his eyes betraying his concern for Chloe’s recent behavior. Emma Wilson, her close friend, enters the room with a tray of mugs, trying to create a sense of normalcy and comfort. Chloe’s decision to leave her job is not just about the work itself, but about redefining her self-worth and finding a better work-life balance. As the three of them interact, the shared goal of understanding and supporting her decision becomes clear."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

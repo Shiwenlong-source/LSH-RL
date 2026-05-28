@@ -1,0 +1,102 @@
+{
+  "title": "The Team's Last Chance",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Team meeting at the office pantry",
+      "time": "Afternoon, 3:15 PM",
+      "location": "Company pantry room",
+      "description": "The team is gathered in the pantry for a quick meeting after the lunch break. Sean stands near the counter, sipping coffee while Silas and Zane press him for his opinion on a project. The room is quiet, with only the hum of the fridge and the clink of cups.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Sean",
+          "gender": "Male",
+          "description": "A 34-year-old office worker with a contemplative and cautious demeanor, recently disillusioned by internal conflicts in the team.; Male, Office Worker, 34 years old; Occupation: Company Team Member; Personality: Disappointed, Cautious, Firm, Contemplative; Values: Integrity, Teamwork, Honesty; Interests: Problem Solving, Reflection, Quiet Environments; Experiences: Working in a competitive workplace, Experiencing team conflict, Facing ethical dilemmas, Seeking personal clarity",
+          "position": "Near the counter",
+          "states": "Exhausted, conflicted",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Silas",
+          "gender": "Male",
+          "description": "Caring and persistent; Male; Age: 34; Occupation: Senior Project Coordinator; Personality: Empathetic, patient, diplomatic; Values: Team cohesion, reliability, mutual respect; Interests: Reading leadership books, baking homemade treats, mentoring junior staff; Experiences: Managed a high-stress project through a team conflict, organized a company wellness initiative, worked remotely during a global lockdown maintaining team morale.",
+          "position": "Standing next to Sean",
+          "states": "Caring, persistent",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Zane",
+          "gender": "Male",
+          "description": "Direct and assertive team member who thrives in competitive environments; Male; Age: 32; Occupation: Senior Project Manager; Personality: Ambitious, impulsive, confident; Values: Results, authority, efficiency; Interests: Competitive sports, strategic board games, stock market speculation; Experiences: Led a high-pressure startup team to a successful acquisition, frequently clashes with colleagues over decision-making styles, recently promoted after outperforming peers in a company-wide performance review.",
+          "position": "Leaning against the fridge",
+          "states": "Interruptive, ambitious",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Silas",
+          "character_id": 1,
+          "action": "Offers candy",
+          "dialogue": "Hey Sean, you look like you could use something sweet. Here, take a piece. You’ve been working too hard lately."
+        },
+        {
+          "action_id": 1,
+          "character": "Sean",
+          "character_id": 0,
+          "action": "Takes the candy slowly",
+          "dialogue": "Thanks, Silas. I just need to think about a few things before the meeting."
+        },
+        {
+          "action_id": 2,
+          "character": "Zane",
+          "character_id": 2,
+          "action": "Interrupts conversation",
+          "dialogue": "Look, we don’t have time for thinking. The project is due in two days, and we need to move forward. Sean, just say what you think."
+        },
+        {
+          "action_id": 3,
+          "character": "Sean",
+          "character_id": 0,
+          "action": "Responds with caution",
+          "dialogue": "I believe in teamwork and honesty, but we’ve been so focused on individual gain that I’m not sure what’s best for the team."
+        },
+        {
+          "action_id": 4,
+          "character": "Silas",
+          "character_id": 1,
+          "action": "Reassures Sean",
+          "dialogue": "We’re here to support you, Sean. You don’t have to carry this alone."
+        },
+        {
+          "action_id": 5,
+          "character": "Zane",
+          "character_id": 2,
+          "action": "Pushes for action",
+          "dialogue": "Support is great, but we need a plan. You’ve always been good at problem-solving, so what’s the move?"
+        },
+        {
+          "action_id": 6,
+          "character": "Sean",
+          "character_id": 0,
+          "action": "Considers his response",
+          "dialogue": "I want to do what’s right, but I’ve seen what happens when people don’t play fair. I need to be sure."
+        }
+      ],
+      "plot": "Sean is caught between his colleagues Silas and Zane during a team meeting in the pantry. Silas tries to be supportive, while Zane demands a clear decision. Sean’s cautious and contemplative nature is on display as he weighs the ethical implications of the project and the potential fallout from his choice.",
+      "social_purpose": "To explore Sean’s values of integrity and honesty while showcasing his struggle with team dynamics and his desire for personal clarity in a competitive work environment.",
+      "chunk": {
+        "id": 0,
+        "text": "Sean stands near the counter, sipping coffee while Silas and Zane press him for his opinion on a project. Silas offers candy as a gesture of concern, but Zane interrupts, urging Sean to make a decision. Sean’s cautious and contemplative nature is on display as he weighs the ethical implications of the project and the potential fallout from his choice."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

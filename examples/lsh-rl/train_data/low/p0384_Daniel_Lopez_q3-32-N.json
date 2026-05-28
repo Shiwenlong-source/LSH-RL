@@ -1,0 +1,95 @@
+{
+  "title": "The Graduation Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Graduation Ceremony Setup",
+      "time": "Afternoon",
+      "location": "Mosque School Courtyard",
+      "description": "Daniel Lopez, the audiovisual lead, is finishing up the setup for the graduation ceremony. The courtyard is buzzing with activity as volunteers prepare the stage, chairs, and decorations. Chen, his close friend and fellow volunteer, is waiting for a reply to a message asking Daniel to attend a surprise party later. Tang, a more experienced volunteer, notices Daniel's exhaustion and intervenes.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Daniel Lopez",
+          "gender": "male",
+          "description": "A 22-year-old college student who is responsible and thoughtful, but visibly tense. He is currently working on the audiovisual setup for the graduation.; male, College student, 22 years old; Occupation: Audiovisual lead at a mosque school; Personality: Responsible, Thoughtful, Tense; Values: Duty, Friendship, Integrity; Interests: Event planning, Technology, Community service; Experiences: Organizing school events, Volunteering at religious institutions, Balancing time between duty and personal life",
+          "position": "Near the audio equipment",
+          "states": "Exhausted, anxious, focused",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Chen",
+          "gender": "male",
+          "description": "Chen is a 21-year-old college student and Daniel’s close friend. He is visibly anxious and hopeful while waiting for a reply to a message about a surprise party. Male; Age: 21; Occupation: Communications major; Personality: Energetic, optimistic, impulsive; Values: Friendship, loyalty, perseverance; Interests: Event planning, photography, music; Experiences: Organized a successful campus cultural fair, struggled with academic pressure during his first year, worked as a part-time social media intern.",
+          "position": "By the entrance of the courtyard",
+          "states": "Anxious, hopeful, waiting",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Tang",
+          "gender": "male",
+          "description": "A 24-year-old volunteer with experience in event planning and community service; Male; Age: 24; Occupation: Community Outreach Coordinator; Personality: Observant, supportive, approachable; Values: Compassion, responsibility, teamwork; Interests: Photography, cultural festivals, mentoring; Experiences: Organized a local charity fundraiser, assisted in planning school cultural events, volunteered for interfaith community initiatives.",
+          "position": "Walking toward Daniel",
+          "states": "Observant, supportive, approachable",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Tang",
+          "character_id": 2,
+          "action": "Approaches Daniel and notices his exhaustion",
+          "dialogue": "Hey Daniel, you look wiped out. Take a break for a few minutes. The ceremony can wait a little."
+        },
+        {
+          "action_id": 1,
+          "character": "Daniel Lopez",
+          "character_id": 0,
+          "action": "Looks up and thanks Tang",
+          "dialogue": "Thanks, Tang. I just want to make sure everything is perfect for the students and their families. It means a lot to me."
+        },
+        {
+          "action_id": 2,
+          "character": "Chen",
+          "character_id": 1,
+          "action": "Approaches the pair and asks for a response",
+          "dialogue": "Hey guys, Daniel, I just wanted to make sure you’re coming to the party later. You know it’s for you, right?"
+        },
+        {
+          "action_id": 3,
+          "character": "Daniel Lopez",
+          "character_id": 0,
+          "action": "Pauses and replies thoughtfully",
+          "dialogue": "I really want to be there, Chen. I’ve been working nonstop today, but I’ll try to make it. It’s just that I have to finish this setup and check the sound system again."
+        },
+        {
+          "action_id": 4,
+          "character": "Tang",
+          "character_id": 2,
+          "action": "Nods in understanding and offers help",
+          "dialogue": "You can count on me to cover for you if you need a hand after the ceremony. Just don’t overdo it."
+        },
+        {
+          "action_id": 5,
+          "character": "Chen",
+          "character_id": 1,
+          "action": "Smiles and reassures Daniel",
+          "dialogue": "That’s all I needed to hear. We’ll save a seat for you. You’ve earned this, my friend."
+        }
+      ],
+      "plot": "Daniel is caught between his duty to ensure the graduation ceremony runs smoothly and his desire to attend a surprise party for his friend Chen. His internal struggle is eased when Tang offers to help him out, allowing Daniel to consider attending the party without compromising his responsibilities.",
+      "social_purpose": "To demonstrate how Daniel’s values of duty and friendship influence his decision-making and how his thoughtful nature allows him to balance personal and professional obligations.",
+      "chunk": {
+        "id": 0,
+        "text": "Daniel Lopez, the audiovisual lead at the mosque school, is exhausted after setting up for the graduation. His friend Chen is waiting for a reply to a party invitation, and Tang, a fellow volunteer, steps in to support him. Through this interaction, Daniel’s sense of duty and his appreciation for friendship are revealed as he weighs his options."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

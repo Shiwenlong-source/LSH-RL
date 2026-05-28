@@ -1,0 +1,88 @@
+{
+  "title": "Morning Run and Spiritual Dialogue",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Group Morning Run and Book Discussion",
+      "time": "7:30 AM",
+      "location": "City Park Entrance",
+      "description": "Isaac Webb, a 25-year-old psychologist seeking spiritual clarity, stands at the park entrance, feeling the morning sun. He is joined by Tiki, a vibrant and energetic community leader, and Lora, a curious and open-minded reader. The group is preparing for a morning run and a short book discussion. Tension and curiosity hang in the air as Isaac struggles to connect his inner turmoil with the outward energy of the group.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Isaac Webb",
+          "gender": "Male",
+          "description": "A thoughtful and introspective young psychologist in the early stages of his spiritual journey, Isaac is quietly observing the world around him, seeking clarity and connection.; Male, Early, Seeking spiritual clarity, 25 years old; Occupation: Psychologist; Personality: Introspective, Thoughtful, Sensitive; Values: Self-reflection, Spiritual Growth, Authenticity; Interests: Philosophy, Reading, Morning Routines; Experiences: Spiritual crisis, Group social activities, Morning exercise",
+          "position": "Near the park entrance, leaning against a tree",
+          "states": "Contemplative, slightly hesitant, open to interaction",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Tiki",
+          "gender": "Female",
+          "description": "A community-spirited and outgoing woman in her late 20s; Female; Age: 28; Occupation: Community Outreach Coordinator; Personality: Energetic, encouraging, attentive; Values: Connection, personal growth, inclusivity; Interests: Organizing group fitness events, reading self-help and spiritual books, meeting new people; Experiences: Led a successful neighborhood wellness initiative, facilitated a post-pandemic social reintegration program, recently started a book club focused on mindfulness and emotional well-being.",
+          "position": "Standing at the center of the group, holding a water bottle",
+          "states": "Energetic, encouraging, attentive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Lora",
+          "gender": "Female",
+          "description": "A reflective and curious reader in her early 30s, Lora is interested in philosophical and spiritual topics and often asks thought-provoking questions; Female; Age: 31; Occupation: Philosophy Teacher at a local community college; Personality: Inquisitive, supportive, observant, empathetic, introspective; Values: Intellectual growth, compassion, authenticity, connection; Interests: Reading existential and spiritual literature, journaling, yoga, and engaging in meaningful conversations; Experiences: Spent a year volunteering at a meditation retreat in Nepal, led a book club focused on modern spirituality, recently started exploring running as a meditative practice.",
+          "position": "Beside Tiki, holding a copy of the book",
+          "states": "Inquisitive, supportive, observant",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Tiki",
+          "character_id": 1,
+          "action": "Greets the group and calls for the morning run",
+          "dialogue": "Hey everyone, the sun’s out and the air’s fresh—let’s get this run started! Isaac, how are you feeling about the new book we’re reading this week?"
+        },
+        {
+          "action_id": 1,
+          "character": "Isaac Webb",
+          "character_id": 0,
+          "action": "Responds thoughtfully to Tiki's question",
+          "dialogue": "Honestly, I’ve been struggling with some of the ideas in it. I’ve been going through a spiritual crisis lately, and it’s hard to find clarity in anything right now."
+        },
+        {
+          "action_id": 2,
+          "character": "Lora",
+          "character_id": 2,
+          "action": "Expresses interest in Isaac's experience",
+          "dialogue": "I can relate to that. The title of the book made me curious too. Maybe we can talk more about it after the run. What parts confuse you the most?"
+        },
+        {
+          "action_id": 3,
+          "character": "Isaac Webb",
+          "character_id": 0,
+          "action": "Nods and decides to join the group for the run",
+          "dialogue": "I’d like that. I think moving and being with others helps me process things. Let’s go."
+        },
+        {
+          "action_id": 4,
+          "character": "Tiki",
+          "character_id": 1,
+          "action": "Starts the group running toward the park trail",
+          "dialogue": "Great! Let’s head down the trail. Keep the pace steady, and we’ll talk more later."
+        }
+      ],
+      "plot": "Isaac is drawn into a group run and discussion by Tiki and Lora. Through their conversation, he shares his recent spiritual struggles and is met with curiosity and support. He tentatively joins the group, showing a step toward community and self-acceptance.",
+      "social_purpose": "To explore Isaac’s internal conflict through dialogue and shared activity, while showing the group’s support and interest in his journey.",
+      "chunk": {
+        "id": 0,
+        "text": "Isaac Webb, a 25-year-old psychologist seeking spiritual clarity, stands at the park entrance, feeling the morning sun. He is joined by Tiki, a vibrant and energetic community leader, and Lora, a curious and open-minded reader. The group is preparing for a morning run and a short book discussion. Tension and curiosity hang in the air as Isaac struggles to connect his inner turmoil with the outward energy of the group."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

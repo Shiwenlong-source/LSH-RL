@@ -1,0 +1,109 @@
+{
+  "title": "On-Camera Advice",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Team meeting to discuss Leo's television debut",
+      "time": "10:00 AM, Wednesday",
+      "location": "Studio 5, MediaWorks TV, lounge area",
+      "description": "Leo is sitting at a small table in the studio lounge with Shary and Gary, sipping coffee. The mood is casual but focused as they review his upcoming on-camera segments. Shary, a seasoned TV producer, and Gary, a veteran camera operator, are both looking at him with concern and suggestions about his appearance.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Leo Long",
+          "gender": "35-year-old male",
+          "description": "35-year-old media practitioner transitioning from radio to television. He has a thoughtful and anxious demeanor, and is curious about adapting to new professional standards.; 35-year-old male, media practitioner, 35 years old; Occupation: Host transitioning from radio to television; Personality: Anxious, Curious, Thoughtful; Values: Professionalism, Adaptability, Authenticity; Interests: Media Production, Self-improvement, Career Development; Experiences: Long-term radio hosting experience, Transitioning to television, Collaborative work environment, Public speaking, Media industry challenges",
+          "position": "Seated at the table, holding a coffee mug",
+          "states": "Anxious, curious, slightly defensive",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Shary",
+          "gender": "Female",
+          "description": "A 40-year-old TV producer with a strong eye for detail and a supportive yet direct personality; Female; Age: 40; Occupation: Senior Television Producer; Personality: Analytical, empathetic, driven; Values: Professionalism, growth, integrity; Interests: Storytelling, mentoring emerging talent, coffee culture; Experiences: Produced award-winning documentaries, guided several newcomers to successful TV careers, led high-pressure live broadcast events.",
+          "position": "Sitting across from Leo, holding a tablet with notes",
+          "states": "Concerned, professional, encouraging",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Gary",
+          "gender": "Male",
+          "description": "A 50-year-old camera operator with decades of experience; Male; Age: 50; Occupation: Veteran Camera Operator; Personality: Thoughtful, blunt, supportive; Values: Authenticity, professionalism, teamwork; Interests: Classic film photography, coffee culture, vintage tech; Experiences: Worked on multiple award-winning documentaries, trained new camera crews, has a reputation for capturing raw, genuine moments on film.",
+          "position": "Leaning forward, hands on the table",
+          "states": "Thoughtful, blunt, supportive",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Shary",
+          "character_id": 1,
+          "action": "mentions the importance of on-camera appearance",
+          "dialogue": "Leo, we all love your voice and your content, but on television, people see a lot more than just your words. Your smile is a big part of that. I’ve noticed some viewers have commented on your teeth in a few test clips."
+        },
+        {
+          "action_id": 1,
+          "character": "Gary",
+          "character_id": 2,
+          "action": "adds his perspective from the camera’s view",
+          "dialogue": "Yeah, from the camera’s angle, it’s a bit distracting. It’s not about hiding who you are, but making sure your image supports your message."
+        },
+        {
+          "action_id": 2,
+          "character": "Leo Long",
+          "character_id": 0,
+          "action": "responds with hesitation",
+          "dialogue": "I’ve never had to worry about that on radio. I just focus on the words and the tone. I don’t know if I want to change who I am for the camera."
+        },
+        {
+          "action_id": 3,
+          "character": "Shary",
+          "character_id": 1,
+          "action": "acknowledges his point and offers a solution",
+          "dialogue": "We’re not asking you to change who you are, Leo. Just a few adjustments—like maybe some dental work or a better lighting setup—could make a big difference. It’s about helping your authenticity shine through the screen."
+        },
+        {
+          "action_id": 4,
+          "character": "Gary",
+          "character_id": 2,
+          "action": "suggests a practical solution",
+          "dialogue": "I can adjust the lighting during the shoot to minimize the issue, but it’s not a long-term fix. You’ll want to look and feel confident in front of the camera."
+        },
+        {
+          "action_id": 5,
+          "character": "Leo Long",
+          "character_id": 0,
+          "action": "considers the feedback thoughtfully",
+          "dialogue": "I get what you’re saying. It’s just that I’ve built my whole identity around the radio. I guess I need to find a way to carry that over without losing myself."
+        },
+        {
+          "action_id": 6,
+          "character": "Shary",
+          "character_id": 1,
+          "action": "encourages him to take the next step",
+          "dialogue": "Maybe start with a few small changes. We can work with you to find a balance between professionalism and authenticity. It’s part of the industry’s evolution, and so are you."
+        },
+        {
+          "action_id": 7,
+          "character": "Leo Long",
+          "character_id": 0,
+          "action": "shows slight openness to the idea",
+          "dialogue": "Alright, I’ll think about it. I want to succeed here, and I guess adaptability is part of that. But I need to make sure it still feels like me."
+        }
+      ],
+      "plot": "Leo is advised by his colleagues to consider changes to his on-camera appearance, particularly regarding his teeth. He is initially resistant but begins to reflect on the importance of adapting to new media standards while maintaining his authenticity.",
+      "social_purpose": "To explore the tension between Leo's established professional identity and the new demands of transitioning to television, while showcasing his values of professionalism, adaptability, and authenticity.",
+      "chunk": {
+        "id": 0,
+        "text": "In the lounge of Studio 5, Leo sits with Shary and Gary, who are both offering feedback on his on-camera presence. The conversation revolves around the importance of his appearance, especially his teeth, in the visual medium of television. Shary and Gary suggest practical and professional adjustments, while Leo wrestles with the idea of changing aspects of himself for the sake of the camera. The scene highlights his internal conflict and curiosity about how to evolve while staying true to his identity."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

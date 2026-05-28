@@ -1,0 +1,102 @@
+{
+  "title": "The Torn Decision",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Coffee Shop Conversation",
+      "time": "Afternoon",
+      "location": "Local Coffee Shop",
+      "description": "Daniel sits at a small table with his friends Loe and Nini, reviewing the Grampians itinerary while Loe expresses disappointment about missing the rugby match.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Daniel Reynolds",
+          "gender": "Male",
+          "description": "A 22-year-old college student, rational yet hesitant, with a thoughtful and anxious demeanor. He is conflicted about his holiday plans.; 22-year-old /Male/College Student, 24 years old; Occupation: College Student; Personality: Rational, Hesitant, Anxious, Thoughtful; Values: Friendship, Balance, Personal Satisfaction; Interests: Sports, Travel Planning, Decision Making; Experiences: Planning Group Trips, Attending Sports Events, Dealing with Social Expectations",
+          "position": "Main Protagonist",
+          "states": "Anxious, indecisive",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Loe",
+          "gender": "Male",
+          "description": "A sports enthusiast and Daniel's close friend, who is disappointed about missing the rugby match due to limited tickets; Male; Age: 28; Occupation: Personal Trainer; Personality: Loyal, Competitive, Easygoing; Values: Friendship, Fair Play; Interests: Rugby, Outdoor Activities, Fitness; Experiences: Played semi-professional rugby in his early twenties, Helped Daniel train for a marathon last year",
+          "position": "Supporting Character",
+          "states": "Disappointed, concerned",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Nini",
+          "gender": "Female",
+          "description": "A calm and supportive friend who values group harmony and gently encourages Daniel to consider the Grampians trip; Female; Age: 24; Occupation: Social worker; Personality: Empathetic, diplomatic, observant; Values: Community, kindness, balance; Interests: Hiking, reading self-help books, community volunteering; Experiences: Organized a successful group retreat for youth at risk, worked with families in crisis to maintain emotional stability, grew up in a close-knit family that prioritized shared experiences.",
+          "position": "Supporting Character",
+          "states": "Supportive, patient",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Loe",
+          "character_id": 1,
+          "action": "Expresses disappointment",
+          "dialogue": "Man, I can't believe we missed out on the rugby tickets. That was supposed to be the highlight of the trip."
+        },
+        {
+          "action_id": 1,
+          "character": "Daniel Reynolds",
+          "character_id": 0,
+          "action": "Looks at the map anxiously",
+          "dialogue": "I know, but the Grampians trip is something we've all been talking about for months. I just don't want to make the wrong choice."
+        },
+        {
+          "action_id": 2,
+          "character": "Nini",
+          "character_id": 2,
+          "action": "Comforts Daniel",
+          "dialogue": "Daniel, it's okay to prioritize something that brings us all together. You're not letting anyone down by choosing the Grampians."
+        },
+        {
+          "action_id": 3,
+          "character": "Daniel Reynolds",
+          "character_id": 0,
+          "action": "Voices internal conflict",
+          "dialogue": "I just feel like if I choose the trip over the match, it might make me seem selfish. But I also don't want to miss out on something I've been looking forward to."
+        },
+        {
+          "action_id": 4,
+          "character": "Loe",
+          "character_id": 1,
+          "action": "Reassures Daniel",
+          "dialogue": "You're not selfish, man. We all understand. But I do hope you'll be okay with missing the game."
+        },
+        {
+          "action_id": 5,
+          "character": "Nini",
+          "character_id": 2,
+          "action": "Encourages group bonding",
+          "dialogue": "The Grampians is a once-in-a-lifetime adventure. It's about balance, Daniel. You're already doing the right thing by thinking it through."
+        },
+        {
+          "action_id": 6,
+          "character": "Daniel Reynolds",
+          "character_id": 0,
+          "action": "Considers their input",
+          "dialogue": "Thanks, both of you. I'll keep thinking it over. It's not just about me, it's about how this affects everyone."
+        }
+      ],
+      "plot": "Daniel is trying to decide whether to attend a rugby match or join his friends on a trip to the Grampians. His friends Loe and Nini express their views and feelings, helping Daniel weigh the emotional and social impact of his choice.",
+      "social_purpose": "Elicits Daniel's values of balance and friendship, while showcasing his personality traits of rationality, hesitation, and anxiety through a natural group conversation.",
+      "chunk": {
+        "id": 0,
+        "text": "Daniel sat at the corner table of the cozy coffee shop, his fingers tracing the edge of the Grampians itinerary. Loe, his friend and fellow sports lover, leaned back in his chair, clearly frustrated. 'Man, I can't believe we missed out on the rugby tickets. That was supposed to be the highlight of the trip.' Nini, ever the calm voice, reached across the table and touched Daniel's hand gently. 'Daniel, it's okay to prioritize something that brings us all together. You're not letting anyone down by choosing the Grampians.' Daniel looked up, his eyes betraying his inner turmoil. 'I know, but the Grampians trip is something we've all been talking about for months. I just don't want to make the wrong choice.' Loe sighed and leaned forward. 'You're not selfish, man. We all understand. But I do hope you'll be okay with missing the game.' Daniel nodded slowly, his thoughtful nature taking over. 'Thanks, both of you. I'll keep thinking it over. It's not just about me, it's about how this affects everyone.' Nini smiled. 'That's what makes you a great friend, Daniel. It's about balance.'"
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

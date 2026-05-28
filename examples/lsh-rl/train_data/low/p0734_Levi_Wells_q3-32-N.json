@@ -1,0 +1,102 @@
+{
+  "title": "Last-Minute Shoe Crisis",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Wedding Preparation Meeting",
+      "time": "2:00 PM",
+      "location": "The Wedding Venue - Dressing Room",
+      "description": "Levi Wells, one of the groomsmen, is pacing in the dressing room, wringing his hands and looking increasingly agitated. The other groomsmen, Joe the groom and Lucy the bride, are preparing for the big event. Levi’s dress shoes, which he ordered online, haven’t arrived, and he’s worried it will affect the wedding’s flow.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Levi Wells",
+          "gender": "Male",
+          "description": "A 30-year-old office worker and wedding groomsman. He is anxious, responsible, and tense due to the missing shoes.; Male, Wedding Groomsman, 30 years old; Occupation: Office Worker; Personality: Anxious, Determined, Responsible, Tense; Values: Responsibility, Punctuality, Reliability; Interests: Wedding Planning, Problem Solving, Social Events; Experiences: Organizing events, Handling service issues, Dealing with sudden crises, Working under pressure",
+          "position": "Near the entrance of the dressing room",
+          "states": "Anxious, Tense, Worried",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Joe",
+          "gender": "Male",
+          "description": "The groom, a laid-back and organized man who is confident and focused on making the wedding run smoothly; Male; Age: 30; Occupation: Event Planner; Personality: Calm, Responsible, Empathetic; Values: Tradition, Teamwork, Commitment; Interests: Wedding design, Golf, Classic cars; Experiences: Planned several family events, managed last-minute crises at a friend’s wedding, proposed to Lucy during a romantic trip to Napa Valley.",
+          "position": "Sitting at a table arranging his boutonniere",
+          "states": "Calm, Concerned, Supportive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Lucy",
+          "gender": "Female",
+          "description": "The bride, a compassionate and detail-oriented woman who notices when others are struggling and wants to help; Female; Age: 28; Occupation: Event Planner; Personality: Observant, Empathetic, Calm, Thoughtful, Supportive; Values: Compassion, Perseverance, Honesty; Interests: Interior design, Wedding planning, Journaling, Volunteering; Experiences: Organized her own sister’s wedding, Volunteered at a community crisis center, Overcame a last-minute venue change for a client event.",
+          "position": "Standing near the mirror, adjusting her veil",
+          "states": "Observant, Empathetic, Calm",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Levi Wells",
+          "character_id": 0,
+          "action": "Approaches Joe and Lucy",
+          "dialogue": "Hey, guys... I need your help. My dress shoes never arrived, and I don’t have a backup. I feel awful for not being prepared."
+        },
+        {
+          "action_id": 1,
+          "character": "Joe",
+          "character_id": 1,
+          "action": "Looks up and reassures Levi",
+          "dialogue": "Levi, don’t panic. We’ll figure something out. What time were they supposed to be delivered?"
+        },
+        {
+          "action_id": 2,
+          "character": "Levi Wells",
+          "character_id": 0,
+          "action": "Checks his phone and replies",
+          "dialogue": "They were supposed to be here by noon. I’ve called the store three times, and no one is answering. I’m just... I’m not used to things going wrong like this."
+        },
+        {
+          "action_id": 3,
+          "character": "Lucy",
+          "character_id": 2,
+          "action": "Steps forward and offers support",
+          "dialogue": "Levi, you’ve always been so reliable and responsible. We can’t let this get to you. Let’s brainstorm solutions."
+        },
+        {
+          "action_id": 4,
+          "character": "Joe",
+          "character_id": 1,
+          "action": "Suggests a solution",
+          "dialogue": "Maybe we can call the venue and see if they have a pair we can borrow. I know they keep spares for emergencies."
+        },
+        {
+          "action_id": 5,
+          "character": "Levi Wells",
+          "character_id": 0,
+          "action": "Considers the suggestion",
+          "dialogue": "That might work. I just feel so unprepared. I’ve handled event crises before, but this is personal now. I don’t want to mess up."
+        },
+        {
+          "action_id": 6,
+          "character": "Lucy",
+          "character_id": 2,
+          "action": "Reassures and encourages",
+          "dialogue": "You’re doing everything you can. That’s what matters. Let’s go find those shoes before the ceremony starts."
+        }
+      ],
+      "plot": "Levi’s missing dress shoes create a last-minute crisis during the wedding preparations. His anxiety and sense of responsibility drive him to seek help from the groom and bride, who support him in finding a solution to ensure the wedding runs smoothly.",
+      "social_purpose": "To demonstrate Levi’s traits of anxiety, responsibility, and determination in a high-pressure social setting while showing how the group works together to solve a problem.",
+      "chunk": {
+        "id": 0,
+        "text": "Levi Wells, one of the groomsmen, is pacing in the dressing room, wringing his hands and looking increasingly agitated. The other groomsmen, Joe the groom and Lucy the bride, are preparing for the big event. Levi’s dress shoes, which he ordered online, haven’t arrived, and he’s worried it will affect the wedding’s flow."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

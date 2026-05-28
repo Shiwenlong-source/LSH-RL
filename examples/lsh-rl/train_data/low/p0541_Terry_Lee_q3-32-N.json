@@ -1,0 +1,81 @@
+{
+  "title": "The Coffee Shop Confession",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Terry and his friends meet at a local coffee shop to support his writing journey.",
+      "time": "7:30 PM",
+      "location": "A cozy corner of a neighborhood coffee shop with soft lighting and a view of the city skyline",
+      "description": "Terry sits at a small round table, nervously clutching a notebook. His two friends, Cici and Mike, are seated across from him, each with a drink in hand. The atmosphere is warm and inviting, but Terry's internal conflict is palpable as he weighs the decision to share his writing with them.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Terry Lee",
+          "gender": "Male",
+          "description": "A 26-year-old tennis player who is also a sensitive and introspective writer. He is wearing a hoodie and is fidgeting with his pen.; 26-year-old / Male / Athlete, 24 years old; Occupation: Tennis Player; Personality: Introspective, Sensitive, Thoughtful, Emotional; Values: Self-exploration, Authenticity, Emotional honesty; Interests: Writing, Self-reflection, Literature, Coffee culture; Experiences: Late-night writing, Emotional conversations with friends, Finding meaning in life, Facing uncertainty",
+          "position": "At the table",
+          "states": "Nervous, hopeful, conflicted",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Cici",
+          "gender": "Female",
+          "description": "Terry's close friend and a literature student. She is empathetic and always encourages Terry to express himself. She wears a scarf and is smiling warmly; Female; Age: 23; Occupation: Part-time bookseller at a local independent bookstore; Personality: Empathetic, optimistic, observant; Values: Creativity, loyalty, authenticity; Interests: Reading contemporary poetry, journaling, visiting art galleries; Experiences: Helped a close friend through a creative crisis, organized a small literary zine with classmates, spent a semester abroad studying narrative traditions in urban cultures.",
+          "position": "Across from Terry",
+          "states": "Supportive, patient, attentive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Mike",
+          "gender": "Male",
+          "description": "Terry's tennis coach and mentor, who often gives him advice about life and emotional growth; Male; Age: 38; Occupation: High school tennis coach and part-time writing tutor; Personality: Encouraging, understanding, calm; Values: Growth through vulnerability, perseverance, authenticity; Interests: Coaching young athletes, creative writing, urban photography; Experiences: Overcame a personal career-ending injury by transitioning into coaching, helped several students publish their first short stories, recently started a community writing workshop at the local library.",
+          "position": "Next to Cici",
+          "states": "Encouraging, understanding, calm",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Cici",
+          "character_id": 1,
+          "action": "Encourages Terry to share his writing",
+          "dialogue": "Terry, you've been working on that story for weeks. I'd love to hear what you've written. We're here to support you."
+        },
+        {
+          "action_id": 1,
+          "character": "Terry Lee",
+          "character_id": 0,
+          "action": "Expresses his fear of vulnerability",
+          "dialogue": "I'm not sure if it's ready. I mean, it's really personal, and I don't want to sound weak or overemotional."
+        },
+        {
+          "action_id": 2,
+          "character": "Mike",
+          "character_id": 2,
+          "action": "Shares his perspective on emotional honesty",
+          "dialogue": "Terry, vulnerability isn't weakness. It's courage. If your writing touches others, it's because you're being real. That's what makes it powerful."
+        },
+        {
+          "action_id": 3,
+          "character": "Terry Lee",
+          "character_id": 0,
+          "action": "Decides to read a passage aloud",
+          "dialogue": "Okay, I'll try. Here's a part I wrote last night..."
+        }
+      ],
+      "plot": "Terry, after a long period of internal struggle, is finally encouraged by his friends to share his writing. Cici and Mike support him, and he reads a passage from his latest piece, which is a reflection on his journey as an athlete and the emotional void he feels. The friends listen intently and respond with understanding, helping Terry feel more confident in his self-expression.",
+      "social_purpose": "To show how Terry's values of authenticity and emotional honesty are supported by his friends, and how their interaction helps him take a step forward in his writing journey.",
+      "chunk": {
+        "id": 0,
+        "text": "Terry, with his notebook open and trembling hands, reads a passage about his childhood and the pressure to succeed in tennis. His voice is soft but steady as he describes the loneliness he felt on the court and the desire to find meaning beyond the game. Cici nods, her eyes glistening, while Mike offers a thoughtful comment about how Terry's honesty could resonate with others. As the night progresses, the group continues to discuss literature and personal growth, with Terry feeling a sense of connection and relief for the first time in a while."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "title": "Wedding Dress Decision",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Stella shares her wedding dress choice with her friends and fiancé at a bridal boutique.",
+      "time": "Afternoon",
+      "location": "Bridal Boutique, downtown",
+      "description": "Stella is standing in front of a full-length mirror, wearing a simple yet elegant wedding dress. Her friend Jolin is seated nearby, sipping a latte and watching with amusement, while Jack, her fiancé, paces nervously by the entrance of the boutique.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Stella Lee",
+          "gender": "Female",
+          "description": "Bride-to-be, confident, and decisive. She is excited about her wedding and has already made a clear choice for her dress.; Female, Bride-to-be, 28 years old; Occupation: Resigned, Former Food Service Server; Personality: Confident, Enthusiastic, Decisive; Values: Personal Style, Honesty, Friendship; Interests: Wedding Planning, Fashion, Social Gatherings; Experiences: Planning a wedding, Trying on wedding dresses, Receiving feedback from friends",
+          "position": "Center of the room, in front of the mirror",
+          "states": "Happy, determined, slightly amused",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Jolin",
+          "gender": "Female",
+          "description": "Jolin; Female; Age: 29; Occupation: Fashion blogger and stylist; Personality: Playfully curious, relaxed, humorous; Values: Self-expression, friendship, authenticity; Interests: Curating unique fashion trends, attending local art exhibitions, sipping specialty coffee; Experiences: Assisted friends with wedding dress selections, collaborated with bridal boutiques for style content, organized a citywide fashion pop-up event.",
+          "position": "Near the boutique counter, sitting",
+          "states": "Playfully curious, relaxed, smiling",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Jack",
+          "gender": "Male",
+          "description": "Stella's fiancé, anxious about the wedding process but trying to appear calm; Male; Age: 29; Occupation: Financial Analyst; Personality: Nervous, composed, indecisive; Values: Stability, honesty, commitment; Interests: Reading, hiking, sports; Experiences: Proposing to Stella after a two-year relationship, managing a long-distance relationship while in graduate school, recently promoted at work but still feels the pressure of adult responsibilities.",
+          "position": "By the entrance, pacing",
+          "states": "Nervous, trying to stay composed, slightly overwhelmed",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Stella Lee",
+          "character_id": 0,
+          "action": "Strikes a pose in front of the mirror and turns to her friends.",
+          "dialogue": "Jack, I know you're not a fan of big decisions, but I really think this one is perfect. It's simple, but it still feels like me. No frills, no fuss."
+        },
+        {
+          "action_id": 1,
+          "character": "Jolin",
+          "character_id": 1,
+          "action": "Sets down her latte and raises an eyebrow.",
+          "dialogue": "Oh, so you're just going to pick one and leave the rest of us in suspense? I thought we were going to spend all day debating lace vs. satin!"
+        },
+        {
+          "action_id": 2,
+          "character": "Jack",
+          "character_id": 2,
+          "action": "Forces a smile and walks over to Stella, pretending to inspect the dress.",
+          "dialogue": "It's... nice, Stella. I mean, if this is what you want, I trust you. I just hope it's not too... simple for the venue."
+        },
+        {
+          "action_id": 3,
+          "character": "Stella Lee",
+          "character_id": 0,
+          "action": "Crosses her arms and looks at Jack with a playful challenge.",
+          "dialogue": "Jack, you know I've tried on over 20 dresses this season. I've taken feedback from friends, checked the budget, and this one feels right. I don’t need a big production to feel like a bride."
+        },
+        {
+          "action_id": 4,
+          "character": "Jolin",
+          "character_id": 1,
+          "action": "Laughs and claps Stella on the shoulder.",
+          "dialogue": "Okay, I’ll admit, that one is stunning. And I love how you're staying true to your style, Stella. But Jack, you better get used to this, because she's not changing her mind now."
+        }
+      ],
+      "plot": "Stella confidently reveals her chosen wedding dress to her friends and fiancé, who are at the boutique. Jack is visibly uneasy, while Jolin is amused by the situation and the speed of Stella's decision. Stella's choice sparks a brief but meaningful interaction where her values of personal style and honesty are demonstrated, and her friends' roles in the process are acknowledged.",
+      "social_purpose": "To showcase Stella's confidence and decisiveness in her wedding planning while highlighting the dynamics of her relationships with her fiancé and friends.",
+      "chunk": {
+        "id": 0,
+        "text": "Stella is excited to share her wedding dress choice with her friends and fiancé at the bridal boutique. Her confidence in her decision is met with playful curiosity from Jolin and subtle anxiety from Jack. Through their interaction, Stella reaffirms her commitment to personal style and honesty, while also navigating the expectations of her friends and partner."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

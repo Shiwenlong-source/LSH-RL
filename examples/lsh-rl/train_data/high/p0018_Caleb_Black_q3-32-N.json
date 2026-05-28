@@ -1,0 +1,102 @@
+{
+  "title": "The Phone Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Caleb Black is deciding between two smartphones at a tech store.",
+      "time": "Afternoon",
+      "location": "Digital City, a shopping mall",
+      "description": "Caleb stands in the middle of the LG and Samsung phone sections, looking at the latest models. His friend Selina is to his right, animated and excited, while his colleague Adam is to his left, calm and analytical. A few other shoppers pass by, occasionally glancing at the group.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Caleb Black",
+          "gender": "25-year-old male",
+          "description": "Caleb is a 24-year-old bank clerk who is indecisive and often torn between logic and impulse. He is looking for a new phone and is influenced by both his friend and colleague.; 25-year-old male / Consumer, 24 years old; Occupation: Bank clerk; Personality: Hesitant, Rational, Impulsive, Concerned about others' opinions; Values: Value for money, Others' approval, Instant gratification; Interests: Tech products, Shopping, Social validation; Experiences: Making consumer decisions, Taking friends' advice, Feeling social pressure",
+          "position": "Center",
+          "states": "Torn, anxious, curious",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Selina",
+          "gender": "23-year-old female",
+          "description": "Selina is Caleb's close friend and a tech enthusiast. She is energetic and always eager to share her latest gadget finds; Female; Age: 23; Occupation: Social media influencer and tech reviewer; Personality: Enthusiastic, persuasive, supportive; Values: Innovation, authenticity, community; Interests: Smartphones, emerging technology, photography; Experiences: Attended major tech conferences like CES and MWC, collaborated with multiple phone brands on product launches, helped friends troubleshoot and choose devices for years.",
+          "position": "Right",
+          "states": "Enthusiastic, persuasive, supportive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Adam",
+          "gender": "26-year-old male",
+          "description": "Adam is Caleb's colleague and a pragmatic thinker. He is more reserved and tends to question decisions based on logic and cost-effectiveness; Male; Age: 26; Occupation: IT Project Manager; Personality: Analytical, reserved, detail-oriented; Values: Efficiency, rationality, reliability; Interests: Technology reviews, budgeting and finance, problem-solving; Experiences: Managed a software implementation that failed due to poor cost analysis, frequently advises friends and colleagues on tech purchases, worked in a high-pressure corporate environment that emphasized results over emotion.",
+          "position": "Left",
+          "states": "Calm, questioning, analytical",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Selina",
+          "character_id": 1,
+          "action": "Excitedly grabs Caleb's attention",
+          "dialogue": "Caleb, you have to see this LG phone! It has a curved display and a 120Hz refresh rate. It's the future, I swear!"
+        },
+        {
+          "action_id": 1,
+          "character": "Caleb Black",
+          "character_id": 0,
+          "action": "Looks at the LG phone, then back at Selina",
+          "dialogue": "It does look cool, but I was also thinking about the Samsung. They have better customer support, right?"
+        },
+        {
+          "action_id": 2,
+          "character": "Adam",
+          "character_id": 2,
+          "action": "Steps in with a measured tone",
+          "dialogue": "I get the appeal, but do you really need a 120Hz screen for what you use your phone for? Samsung might be more reliable long-term."
+        },
+        {
+          "action_id": 3,
+          "character": "Caleb Black",
+          "character_id": 0,
+          "action": "Shifts uncomfortably, considering both opinions",
+          "dialogue": "I don’t want to regret my choice later... but the LG feels more exciting somehow."
+        },
+        {
+          "action_id": 4,
+          "character": "Selina",
+          "character_id": 1,
+          "action": "Nudges Caleb playfully",
+          "dialogue": "You always say you want to try new things. This is a chance to stand out, not just save money."
+        },
+        {
+          "action_id": 5,
+          "character": "Adam",
+          "character_id": 2,
+          "action": "Points out the price difference",
+          "dialogue": "The LG is $200 more. If you’re not using the extra features, is it worth the cost?"
+        },
+        {
+          "action_id": 6,
+          "character": "Caleb Black",
+          "character_id": 0,
+          "action": "Pauses, then smiles awkwardly",
+          "dialogue": "Yeah... I guess I just want to feel like I'm getting something good for my money. And not look like I made a dumb choice."
+        }
+      ],
+      "plot": "Caleb is torn between choosing a new LG phone recommended by his friend Selina and sticking with Samsung, which his colleague Adam believes is a better choice. The decision becomes a test of his values between instant gratification and long-term value, as well as how he wants to be perceived by others.",
+      "social_purpose": "To explore Caleb's internal conflict between rationality and impulsiveness, and how his social relationships influence his decision-making.",
+      "chunk": {
+        "id": 0,
+        "text": "Caleb is torn between choosing a new LG phone recommended by his friend Selina and sticking with Samsung, which his colleague Adam believes is a better choice. The decision becomes a test of his values between instant gratification and long-term value, as well as how he wants to be perceived by others."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "title": "The Sunset Meeting",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Student Council Meeting",
+      "time": "5:30 PM",
+      "location": "Student Council Meeting Room, Campus Center",
+      "description": "As the sun sets, casting a warm glow across the room, Audrey Hicks, the 24-year-old student council president, sits quietly by the window. Her two colleagues, Tang and Angel, are preparing for the upcoming cultural exchange event. Audrey's gaze is distant, betraying her internal struggle between her responsibilities and her longing for her family.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Audrey Hicks",
+          "gender": "Female",
+          "description": "A thoughtful and empathetic 24-year-old who is the Student Council President. She is currently studying abroad and is dealing with the emotional weight of being away from her family.; 19-year-old /Female/Student Council President, 24 years old; Occupation: Student Council President; Personality: Thoughtful, Empathetic, Determined; Values: Family, Responsibility, Emotional authenticity; Interests: Leadership, Introspection, Cultural exchange; Experiences: Studying abroad, Student leadership, Emotional separation, Team collaboration, Public speaking",
+          "position": "President of the Student Council",
+          "states": "Distracted, emotionally conflicted, yet determined to fulfill her responsibilities.",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Tang",
+          "gender": "Male",
+          "description": "A 22-year-old member of the student council with a calm and supportive demeanor; Male; Age: 22; Occupation: Student Council Vice President; Personality: Observant, empathetic, analytical; Values: Responsibility, harmony, loyalty; Interests: Reading political theory, urban planning, and helping peers resolve conflicts; Experiences: Mediated a successful resolution to a dormitory dispute, organized a community outreach program for underprivileged students, and served as a mentor for first-year council members.",
+          "position": "Vice President of the Student Council",
+          "states": "Observant, concerned, and trying to offer comfort.",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Angel",
+          "gender": "Female",
+          "description": "A 21-year-old student council member with a cheerful and energetic personality; Female; Age: 21; Occupation: Event Planning Assistant for the Student Council; Personality: Perceptive, empathetic, encouraging; Values: Community, collaboration, integrity; Interests: Organizing social events, creative writing, campus gardening; Experiences: Led the successful planning of a multicultural festival last semester, volunteered at a local youth mentorship program during high school, helped mediate a conflict between student groups to promote unity.",
+          "position": "Event Coordinator of the Student Council",
+          "states": "Perceptive, empathetic, and encouraging.",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Tang",
+          "character_id": 1,
+          "action": "Approaching Audrey",
+          "dialogue": "Hey, Audrey, are you okay? You've been quiet all afternoon."
+        },
+        {
+          "action_id": 1,
+          "character": "Audrey Hicks",
+          "character_id": 0,
+          "action": "Responding with a sigh",
+          "dialogue": "I'm fine, Tang. Just... thinking about home, I guess."
+        },
+        {
+          "action_id": 2,
+          "character": "Angel",
+          "character_id": 2,
+          "action": "Changing the subject",
+          "dialogue": "We need to finalize the venue for the cultural exchange event. Did you get a response from the auditorium?"
+        },
+        {
+          "action_id": 3,
+          "character": "Audrey Hicks",
+          "character_id": 0,
+          "action": "Focusing on the task",
+          "dialogue": "Yes, they confirmed. It's all set for next week. I'll send out the final email to everyone by tomorrow."
+        },
+        {
+          "action_id": 4,
+          "character": "Tang",
+          "character_id": 1,
+          "action": "Offering support",
+          "dialogue": "You're doing a great job, Audrey. We're all in this together."
+        },
+        {
+          "action_id": 5,
+          "character": "Angel",
+          "character_id": 2,
+          "action": "Encouraging emotional authenticity",
+          "dialogue": "We get it, missing home is tough. But you're not alone in this. Let's get through the meeting, and maybe after, we can grab a coffee and talk?"
+        },
+        {
+          "action_id": 6,
+          "character": "Audrey Hicks",
+          "character_id": 0,
+          "action": "Softly agreeing",
+          "dialogue": "That would be nice. Thank you both for understanding."
+        }
+      ],
+      "plot": "Audrey is struggling with homesickness during a student council meeting. Her colleagues, Tang and Angel, notice her emotional state and try to support her while ensuring the meeting's goals are met. Through their interaction, the team works toward organizing a cultural exchange event, and Audrey finds a moment of emotional relief in the support of her peers.",
+      "social_purpose": "To showcase the protagonist's emotional authenticity and the supportive dynamics within a team, while highlighting her sense of responsibility and the shared goal of organizing a successful event.",
+      "chunk": {
+        "id": 0,
+        "text": "As the sun dipped below the horizon, casting a golden hue across the room, Audrey Hicks sat by the window, her thoughts drifting to her family in another country. Tang, her vice president, approached her with a gentle concern, while Angel, the event coordinator, tried to steer the conversation back to the task at hand. Their support reminded Audrey of her values of responsibility and emotional authenticity, and she found strength in their presence as she prepared to lead the meeting."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

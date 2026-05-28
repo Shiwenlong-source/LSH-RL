@@ -1,0 +1,133 @@
+{
+  "title": "The Awkward Birthday Party",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Birthday Party",
+      "time": "7:00 PM",
+      "location": "A local café with a private event room",
+      "description": "Harrison has organized a small birthday party for his friend Yuki at a cozy café. The room is decorated with balloons and a banner, but the mood is tense due to a recent disagreement between Harrison and Yuki. Harrison is visibly anxious, trying to keep the party going while Yuki sits in a corner, cold and unresponsive. Mike, Harrison's outgoing friend, and Lena, a quiet but perceptive observer, are present.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Harrison Tucker",
+          "gender": "Male",
+          "description": "24-year-old student, party organizer, and mediator. He is empathetic but feels anxious and conflicted about the situation with Yuki.; 20-year-old /Male/Party organizer, 24 years old; Occupation: Student; Personality: Straightforward, Empathetic, Anxious, Persistent; Values: Friendship, Harmony, Emotional sincerity; Interests: Social gatherings, Video games, Mediating conflicts; Experiences: Recent dispute with a close friend, Organizing social activities, Handling interpersonal tension",
+          "position": "Near the center of the room, trying to engage guests",
+          "states": "Anxious, persistent, empathetic",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Yuki Nakamura",
+          "gender": "Female",
+          "description": "Yuki Nakamura; Female; Age: 22; Occupation: Art student; Personality: Warm-hearted, introverted, loyal; Values: Honesty, personal integrity; Interests: Painting, classical music, quiet evenings with close friends; Experiences: Recently moved to a new city for college, has a long-standing friendship with Harrison that has been strained by a recent argument, often uses art to express emotions she struggles to voice aloud.",
+          "position": "In a corner, sipping coffee and avoiding eye contact",
+          "states": "Cold, distant, emotionally reserved",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Mike Reynolds",
+          "gender": "Male",
+          "description": "23-year-old student and Harrison's friend; Male; Age: 23; Occupation: Part-time barista at a local coffee shop; Personality: Outgoing, optimistic, slightly awkward; Values: Friendship, humor, loyalty; Interests: Board games, stand-up comedy, casual sports; Experiences: Organized a few small social gatherings to help friends bond, struggled to mediate a past conflict between two close friends, recently started learning basic conflict resolution techniques in college.",
+          "position": "Next to Harrison, attempting to break the tension",
+          "states": "Lively, optimistic, slightly awkward",
+          "is_npc": true
+        },
+        {
+          "id": 3,
+          "name": "Lena Kim",
+          "gender": "Female",
+          "description": "21-year-old student and a friend of both Harrison and Yuki; Female; Age: 21; Occupation: Part-time barista and full-time psychology student; Personality: Observant, empathetic, thoughtful; Values: Loyalty, emotional honesty, understanding; Interests: People-watching, journaling, indie music; Experiences: Mediated conflicts between friends in the past, has a close-knit group of college friends, volunteers at a community mental health center.",
+          "position": "Near the table, observing the situation quietly",
+          "states": "Observant, empathetic, thoughtful",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Harrison Tucker",
+          "character_id": 0,
+          "action": "Approaches Yuki",
+          "dialogue": "Hey Yuki, can we talk for a minute? I really want this party to work out for you."
+        },
+        {
+          "action_id": 1,
+          "character": "Yuki Nakamura",
+          "character_id": 1,
+          "action": "Avoids eye contact",
+          "dialogue": "Not now, Harrison. I’m fine."
+        },
+        {
+          "action_id": 2,
+          "character": "Mike Reynolds",
+          "character_id": 2,
+          "action": "Suggests a game",
+          "dialogue": "Hey, let’s play a quick game to lighten the mood! Who wants to try ‘Two Truths and a Lie’?"
+        },
+        {
+          "action_id": 3,
+          "character": "Lena Kim",
+          "character_id": 3,
+          "action": "Observes the group",
+          "dialogue": "I think Harrison really wants to make this work. It’s clear he values our friendship."
+        },
+        {
+          "action_id": 4,
+          "character": "Harrison Tucker",
+          "character_id": 0,
+          "action": "Tries to bridge the gap",
+          "dialogue": "Yuki, I know we had an argument, but I don’t want it to ruin your party. Can we just move past it?"
+        },
+        {
+          "action_id": 5,
+          "character": "Yuki Nakamura",
+          "character_id": 1,
+          "action": "Sighs and responds",
+          "dialogue": "I just need some space, Harrison. I didn’t come here to talk about it."
+        },
+        {
+          "action_id": 6,
+          "character": "Mike Reynolds",
+          "character_id": 2,
+          "action": "Attempts to redirect",
+          "dialogue": "Okay, maybe not the best time. Let’s just enjoy the food and drinks for now."
+        },
+        {
+          "action_id": 7,
+          "character": "Harrison Tucker",
+          "character_id": 0,
+          "action": "Reflects on his approach",
+          "dialogue": "I need to be more patient. Maybe she needs time to cool off before we can talk properly."
+        },
+        {
+          "action_id": 8,
+          "character": "Lena Kim",
+          "character_id": 3,
+          "action": "Approaches Yuki",
+          "dialogue": "Yuki, I know you and Harrison have your differences, but this party is about celebrating you. Maybe give him a chance to apologize?"
+        },
+        {
+          "action_id": 9,
+          "character": "Yuki Nakamura",
+          "character_id": 1,
+          "action": "Softens slightly",
+          "dialogue": "I know... I just need to process it first. I’ll talk to him later."
+        }
+      ],
+      "plot": "Harrison is trying to salvage a birthday party for Yuki, who is upset with him. Despite his empathetic and persistent nature, Yuki’s emotional distance makes it difficult for him to mend things. Mike and Lena attempt to ease the tension, and Lena’s quiet encouragement helps Yuki begin to consider reconciliation. Harrison’s inner conflict and commitment to friendship are evident as he balances his pride with the need to fix the situation.",
+      "social_purpose": "To demonstrate Harrison’s values of friendship and emotional sincerity, as well as his experiences in managing interpersonal tension and organizing social events. The scenario also highlights the importance of communication and patience in resolving conflicts.",
+      "chunk": {
+        "id": 0,
+        "text": "Harrison Tucker is trying to save his friend Yuki’s birthday party from becoming a disaster after a recent argument. The café is filled with people, but the atmosphere is strained due to Yuki’s cold behavior. Harrison’s persistent and empathetic nature leads him to approach Yuki, but she remains emotionally distant. Mike tries to lighten the mood with a game, while Lena quietly observes and later encourages Yuki to consider Harrison’s efforts. Harrison reflects on his actions, showing his anxiety and inner struggle between pride and the need for reconciliation."
+      },
+      "npcs": [
+        1,
+        2,
+        3
+      ]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "title": "The Roommate Dilemma at the Café",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Benjamin meets Kevin and James at a local café to discuss the roommate situation.",
+      "time": "Afternoon",
+      "location": "Local Coffee Shop",
+      "description": "Benjamin, Kevin, and James are seated at a small table in a cozy corner of a bustling café. The atmosphere is warm, with the sound of soft music and the occasional clink of cups. They are discussing the possibility of James moving in with Benjamin, which has caused tension between Benjamin and Kevin.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Benjamin Sullivan",
+          "gender": "Male",
+          "description": "26-year-old bar singer with a thoughtful and empathetic demeanor. He is visibly conflicted and trying to maintain emotional honesty.; 26-year-old /Male/Roommate, 24 years old; Occupation: Bar Singer; Personality: Thoughtful, Loyal, Conflicted, Empathetic; Values: Friendship, Financial Instability, Emotional Honesty; Interests: Team Sports, Social Life, Personal Growth; Experiences: Recent band rehearsals, Roommate relationships, Financial pressure, Decision-making under pressure, Support from others",
+          "position": "Center",
+          "states": "Tense, thoughtful, empathetic",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Kevin",
+          "gender": "Male",
+          "description": "Kevin; Male; Age: 24; Occupation: Psychology major with a part-time job at a campus counseling center; Personality: Anxious, loyal, defensive; Values: Stability, trust, personal space; Interests: Reading self-help books, collecting vintage vinyl records, journaling; Experiences: Grew up in a chaotic household, which made him value calm and structured environments, recently helped a friend through a mental health crisis, reinforcing his desire to support others in need.",
+          "position": "Left",
+          "states": "Anxious, loyal, defensive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "James",
+          "gender": "Male",
+          "description": "25-year-old aspiring musician and potential new roommate. He is calm, supportive, and trying to ease the tension; Male; Age: 25; Occupation: Part-time music teacher and session musician; Personality: Empathetic, optimistic, patient; Values: Honesty, creativity, mutual respect; Interests: Playing guitar, open mic nights, indie films; Experiences: Shared living in a music-focused co-op, mediated conflicts between bandmates, performed at local venues.",
+          "position": "Right",
+          "states": "Supportive, confident, reassuring",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Kevin",
+          "character_id": 1,
+          "action": "Leans forward and speaks hesitantly",
+          "dialogue": "Ben, I get that things are tight, but I just don’t want this to change everything we’ve built. You know I’ve always been there for you."
+        },
+        {
+          "action_id": 1,
+          "character": "Benjamin Sullivan",
+          "character_id": 0,
+          "action": "Sighs and looks between Kevin and James",
+          "dialogue": "I know, Kevin. That’s why I’m struggling with this. James is offering to help out financially, and I can’t ignore that. But I also don’t want to lose our bond."
+        },
+        {
+          "action_id": 2,
+          "character": "James",
+          "character_id": 2,
+          "action": "Nods and speaks calmly",
+          "dialogue": "I understand the concern, and I promise I’ll do my part. I just want to help out and maybe even jam together sometimes. We can all grow from this."
+        },
+        {
+          "action_id": 3,
+          "character": "Kevin",
+          "character_id": 1,
+          "action": "Crosses arms and frowns slightly",
+          "dialogue": "It’s not just about the money, Ben. It’s about trust and space. You know how I feel about that."
+        },
+        {
+          "action_id": 4,
+          "character": "Benjamin Sullivan",
+          "character_id": 0,
+          "action": "Pauses and takes a deep breath",
+          "dialogue": "I’ve been thinking a lot about this. I value our friendship, but I’m also trying to find a way to be more stable. Maybe this is a step in the right direction?"
+        }
+      ],
+      "plot": "Benjamin is trying to navigate the decision of whether to accept James's offer to move in together. Kevin is worried about the impact on their friendship and shared space, while James is trying to reassure them both. The conversation is a test of Benjamin's ability to balance financial needs with emotional loyalty.",
+      "social_purpose": "To explore the protagonist’s values and personality through a realistic interaction involving a shared goal. This scene highlights the tension between financial stability and emotional honesty, as well as the importance of friendship and personal growth.",
+      "chunk": {
+        "id": 0,
+        "text": "Benjamin is trying to navigate the decision of whether to accept James's offer to move in together. Kevin is worried about the impact on their friendship and shared space, while James is trying to reassure them both. The conversation is a test of Benjamin's ability to balance financial needs with emotional loyalty."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

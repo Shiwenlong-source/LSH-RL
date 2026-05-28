@@ -1,0 +1,98 @@
+{
+  "title": "A Biology Study Group",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Theodore joins a study group for the upcoming biology test.",
+      "time": "After school, 3:30 PM",
+      "location": "School library",
+      "description": "Theodore hesitates outside the library, where his friend Amy and two other classmates, Jordan and Lisa, are already gathered. They are reviewing notes for the upcoming biology test, and Theodore is unsure if he should join them due to his history of poor grades. Amy notices him and waves him over, giving him a reassuring smile.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Theodore Gonzales",
+          "gender": "Male",
+          "description": "A 17-year-old high school student who is thoughtful, determined, and self-reflective. He is trying to improve his biology grades with the support of his friends.; Late Adolescence/Male/Student, 17 years old; Occupation: High School Student; Personality: Thoughtful, Determined, Self-reflective; Values: Persistence, Trust, Personal growth; Interests: Biology, Academic progress, Friendship; Experiences: Past poor grades, Recent improvement, Support from good friends, Making decisions under pressure, Overcoming self-doubt",
+          "position": "Outside the library, near the entrance",
+          "states": "Nervous, hopeful, determined",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Amy Chen",
+          "gender": "Female",
+          "description": "Theodore's close friend who is encouraging and supportive; Female; Age: 16; Occupation: High school student; Personality: Empathetic, optimistic, determined; Values: Friendship, perseverance, academic integrity; Interests: Studying science, mentoring others, participating in debate club; Experiences: Helped several classmates improve their grades through study sessions, overcame her own academic challenges through consistent effort, organized a peer tutoring initiative at school.",
+          "position": "Inside the library, seated at a table",
+          "states": "Reassuring, focused, friendly",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Jordan Lee",
+          "gender": "Male",
+          "description": "A biology enthusiast and classmate of Theodore and Amy; Male; Age: 17; Occupation: High school junior; Personality: Analytical, patient, helpful; Values: Knowledge, teamwork, perseverance; Interests: Studying ecosystems, mentoring others, outdoor exploration; Experiences: Participated in regional science fair, tutored younger students in biology, collaborated with peers on research projects.",
+          "position": "Inside the library, seated at a table",
+          "states": "Engaged, patient, helpful",
+          "is_npc": true
+        },
+        {
+          "id": 3,
+          "name": "Lisa Nguyen",
+          "gender": "Female",
+          "description": "Another classmate in the study group. She is quiet but observant and often offers insightful questions during discussions; Female; Age: 16; Occupation: High school junior; Personality: Analytical, empathetic, reserved; Values: Academic integrity, kindness, collaboration; Interests: Reading scientific articles, sketching plants and animals, helping others understand complex concepts; Experiences: Participated in a regional science fair, tutored younger students in biology, struggled with self-confidence in group settings.",
+          "position": "Inside the library, seated at a table",
+          "states": "Observant, thoughtful, supportive",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Amy Chen",
+          "character_id": 1,
+          "action": "Waves to Theodore and calls him over",
+          "dialogue": "Hey Theo! Come on in, we're just going over the cell cycle. You're welcome to join us."
+        },
+        {
+          "action_id": 1,
+          "character": "Theodore Gonzales",
+          "character_id": 0,
+          "action": "Enters the library and approaches the table",
+          "dialogue": "Thanks, Amy. I wasn't sure if I should come, but I really want to do better in this class."
+        },
+        {
+          "action_id": 2,
+          "character": "Jordan Lee",
+          "character_id": 2,
+          "action": "Offers to explain a concept",
+          "dialogue": "No worries, Theo. We're all here to help each other. Let me go over mitosis with you again."
+        },
+        {
+          "action_id": 3,
+          "character": "Lisa Nguyen",
+          "character_id": 3,
+          "action": "Asks a question to engage Theodore",
+          "dialogue": "Theo, what do you think is the most important phase of the cell cycle for preventing errors?"
+        },
+        {
+          "action_id": 4,
+          "character": "Theodore Gonzales",
+          "character_id": 0,
+          "action": "Answers thoughtfully",
+          "dialogue": "I think it's the G2 phase, because that's when the cell checks for errors before dividing."
+        }
+      ],
+      "plot": "Theodore joins a study group in the library for the upcoming biology test. Despite his initial hesitation due to his past poor grades, he is welcomed and supported by his friends Amy, Jordan, and Lisa. They work together to review the material, and Theodore contributes his thoughts, showing his recent progress and growing confidence.",
+      "social_purpose": "To demonstrate Theodore's personal growth, his determination to improve in biology, and the importance of trust and friendship in achieving shared academic goals.",
+      "chunk": {
+        "id": 0,
+        "text": "Theodore hesitates outside the library, where his friend Amy and two other classmates, Jordan and Lisa, are already gathered. They are reviewing notes for the upcoming biology test, and Theodore is unsure if he should join them due to his history of poor grades. Amy notices him and waves him over, giving him a reassuring smile."
+      },
+      "npcs": [
+        1,
+        2,
+        3
+      ]
+    }
+  ]
+}

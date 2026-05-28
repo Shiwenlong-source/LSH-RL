@@ -1,0 +1,123 @@
+{
+  "title": "Final Alliance",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Zara must choose between two potential partners for the final challenge.",
+      "time": "Afternoon",
+      "location": "Survival Competition Campfire Circle",
+      "description": "The group has gathered for the final alliance announcement. The fire crackles in the center as Zara stands at the edge, scanning the faces of her fellow contestants. Theo and Kyle approach her, both eager to convince her to join forces.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Zara King",
+          "gender": "female",
+          "description": "A 25-year-old contestant with a calm and analytical demeanor, currently at a crossroads in the competition.; female, Survival competition contestant, 25 years old; Occupation: Survival competition contestant; Personality: Decisive, Confident, Analytical, Firm; Values: Strategic thinking, Teamwork, Resilience, Leadership; Interests: Challenges, Decision-making, Competition, Team dynamics; Experiences: Participating in survival games, Leading group decisions, Facing high-pressure scenarios, Collaborating with diverse personalities",
+          "position": "Center of the circle",
+          "states": "Cautious, focused, weighing her options",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Theo Grant",
+          "gender": "male",
+          "description": "A 28-year-old contestant known for his bold decisions and strong individual performance in the game; Male; Age: 28; Occupation: Corporate strategist; Personality: Confident, assertive, charismatic; Values: Ambition, self-reliance, decisiveness; Interests: Competitive games, leadership challenges, public speaking; Experiences: Managed high-stakes business negotiations, led a team in a military-style survival training, won a televised trivia competition.",
+          "position": "To Zara's left",
+          "states": "Confident, assertive, trying to impress",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Kyle Morgan",
+          "gender": "male",
+          "description": "A 30-year-old contestant with a quiet but persistent nature, often overlooked but reliable in tough situations; Male; Age: 30; Occupation: Structural Engineer; Personality: Analytical, loyal, introverted; Values: Integrity, perseverance, teamwork; Interests: Problem-solving, camping, reading survival manuals; Experiences: Survived a hiking accident in the Rockies, worked in disaster relief construction, competed in multiple outdoor endurance challenges.",
+          "position": "To Zara's right",
+          "states": "Determined, earnest, seeking validation",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Theo Grant",
+          "character_id": 1,
+          "action": "Approaches Zara and speaks first",
+          "dialogue": "Zara, I’ve proven time and again that I can outthink and outlast anyone here. You need someone who can lead, not just follow. Choose me."
+        },
+        {
+          "action_id": 1,
+          "character": "Kyle Morgan",
+          "character_id": 2,
+          "action": "Steps forward and counters Theo’s claim",
+          "dialogue": "I get it, Theo. You're good at the game, but it's not just about being the best. It's about sticking it out together, no matter what. I’ve got your back, Zara."
+        },
+        {
+          "action_id": 2,
+          "character": "Zara King",
+          "character_id": 0,
+          "action": "Pauses and then addresses both men",
+          "dialogue": "You're both right in your own ways. Theo, your confidence is impressive, and Kyle, your persistence is admirable. But I need more than just skills—I need trust and chemistry. And I need to make a decision now."
+        },
+        {
+          "action_id": 3,
+          "character": "Theo Grant",
+          "character_id": 1,
+          "action": "Crosses arms and looks skeptical",
+          "dialogue": "So what, you're just going to pick the one you 'like' the most? That’s not strategic thinking."
+        },
+        {
+          "action_id": 4,
+          "character": "Zara King",
+          "character_id": 0,
+          "action": "Maintains eye contact and responds firmly",
+          "dialogue": "Actually, Theo, that *is* strategic. Team fit and trust can mean the difference between winning and losing. I’ve led teams before, and I know how important it is to work well with others."
+        },
+        {
+          "action_id": 5,
+          "character": "Kyle Morgan",
+          "character_id": 2,
+          "action": "Nods and adds his perspective",
+          "dialogue": "I’ve been through the worst with this group and still came out fighting. That’s not just persistence, it’s loyalty."
+        },
+        {
+          "action_id": 6,
+          "character": "Zara King",
+          "character_id": 0,
+          "action": "Takes a deep breath and makes her choice",
+          "dialogue": "Alright. I’ve made my decision. Kyle, I appreciate your persistence and steady presence. I’m choosing to partner with you for the final challenge."
+        },
+        {
+          "action_id": 7,
+          "character": "Theo Grant",
+          "character_id": 1,
+          "action": "Looks disappointed but composed",
+          "dialogue": "Fair enough. I hope you win, Zara. You deserve it."
+        },
+        {
+          "action_id": 8,
+          "character": "Kyle Morgan",
+          "character_id": 2,
+          "action": "Smiles and extends a hand",
+          "dialogue": "Let’s make this work. Together."
+        },
+        {
+          "action_id": 9,
+          "character": "Zara King",
+          "character_id": 0,
+          "action": "Shakes Kyle’s hand and nods",
+          "dialogue": "Together. That’s exactly what I want."
+        }
+      ],
+      "plot": "Zara is forced to make a difficult decision between two strong candidates for her final alliance in the survival competition. Through a tense but respectful interaction, she weighs their strengths and values, ultimately choosing Kyle for his team fit and reliability.",
+      "social_purpose": "To demonstrate Zara’s leadership style, her emphasis on teamwork and resilience, and how she processes high-pressure decisions while interacting with diverse personalities.",
+      "chunk": {
+        "id": 0,
+        "text": "At the campfire circle, Zara stands between Theo and Kyle, each trying to convince her of their worth. Theo's boldness clashes with Kyle's quiet determination. Through this interaction, Zara reveals her strategic and analytical nature, ultimately choosing Kyle for his reliability and team fit, showing her commitment to collaboration over individual brilliance."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

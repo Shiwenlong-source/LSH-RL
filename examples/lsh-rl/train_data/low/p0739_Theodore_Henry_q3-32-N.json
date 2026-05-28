@@ -1,0 +1,102 @@
+{
+  "title": "The Last-Minute Fix",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Wedding Planning Meeting",
+      "time": "Afternoon",
+      "location": "Sara and Theodore's favorite café, a quiet corner table",
+      "description": "Theodore Henry, a 33-year-old wedding planner, is meeting with his bride-to-be client, Sara, and a vendor representative, Anna, to finalize the proposal for the floral arrangements. The atmosphere is tense as Sara expresses her concerns about past delays.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Theodore Henry",
+          "gender": "Male",
+          "description": "A confident and composed wedding planner who is used to managing high-pressure situations. He sits upright, hands folded, and speaks with authority.; Male, Wedding Planner, 33 years old; Occupation: Wedding Planner; Personality: Confident, Composed, Decisive; Values: Control, Reliability, Professionalism; Interests: Event Coordination, Client Management, Problem Solving; Experiences: Organizing weddings, Managing vendor teams, Handling client expectations",
+          "position": "Wedding Planner",
+          "states": "Confident, in control, slightly stressed",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Sara",
+          "gender": "Female",
+          "description": "The bride-to-be, elegant and detail-oriented, frowns slightly as she voices lingering doubts about the vendor's reliability; Female; Age: 28; Occupation: Senior Marketing Manager; Personality: Perfectionist, empathetic, anxious; Values: Commitment, authenticity, quality; Interests: Interior design, journaling, artisanal crafts; Experiences: Organized a successful sister’s wedding, faced disappointment with unreliable vendors in the past, recently engaged to a long-time partner.",
+          "position": "Client",
+          "states": "Concerned, skeptical, eager for reassurance",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Anna",
+          "gender": "Female",
+          "description": "A vendor representative with a soft-spoken demeanor; Female; Age: 28; Occupation: Floral Designer and Vendor Representative; Personality: detail-oriented, anxious, courteous; Values: reliability, professionalism, customer satisfaction; Interests: gardening, interior design, journaling; Experiences: faced last-minute client cancellations due to miscommunication, recently promoted to lead vendor liaison for a boutique floral company, works with high-profile events to build her portfolio.",
+          "position": "Vendor Representative",
+          "states": "Nervous, hesitant, professional",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Theodore Henry",
+          "character_id": 0,
+          "action": "Reassures the bride",
+          "dialogue": "Sara, I understand your concerns, but let me assure you—this time, everything will go according to plan. Anna is aware of the timeline, and we've already adjusted the schedule to accommodate any last-minute issues."
+        },
+        {
+          "action_id": 1,
+          "character": "Sara",
+          "character_id": 1,
+          "action": "Expresses doubt",
+          "dialogue": "I hope so, Theodore. Last time, the flowers were late, and it threw off the whole ceremony setup. I can't afford another mishap."
+        },
+        {
+          "action_id": 2,
+          "character": "Anna",
+          "character_id": 2,
+          "action": "Responds hesitantly",
+          "dialogue": "We're doing everything we can to make sure it's ready on time. The design is finalized, and the team is already prepping the order. But there are always unforeseen challenges with deliveries."
+        },
+        {
+          "action_id": 3,
+          "character": "Theodore Henry",
+          "character_id": 0,
+          "action": "Proposes a solution",
+          "dialogue": "Anna, let's discuss a backup plan. If the main delivery is delayed, we'll use the second florist as a contingency. I'll handle the coordination, so you can focus on the quality of the main order."
+        },
+        {
+          "action_id": 4,
+          "character": "Anna",
+          "character_id": 2,
+          "action": "Agrees reluctantly",
+          "dialogue": "That sounds reasonable. I'll make sure to flag the order for priority handling and keep you updated every step of the way."
+        },
+        {
+          "action_id": 5,
+          "character": "Sara",
+          "character_id": 1,
+          "action": "Shows slight relief",
+          "dialogue": "Okay... I appreciate the plan. Just please, don't let it slip through the cracks again."
+        },
+        {
+          "action_id": 6,
+          "character": "Theodore Henry",
+          "character_id": 0,
+          "action": "Reaffirms commitment",
+          "dialogue": "You have my word, Sara. This is what I do best—problem-solving and ensuring everything runs smoothly. I won't let you down."
+        }
+      ],
+      "plot": "Theodore Henry is trying to secure the floral arrangements for Sara's wedding. Sara is skeptical due to previous delays, and Anna, the vendor, is uneasy about meeting the deadline. Theodore proposes a backup plan to alleviate concerns and maintain professionalism.",
+      "social_purpose": "To demonstrate Theodore's ability to manage client expectations and vendor teams while showing his core values of control, reliability, and professionalism. The interaction also highlights the importance of trust and problem-solving in a collaborative setting.",
+      "chunk": {
+        "id": 0,
+        "text": "Theodore Henry, a wedding planner, confidently assures Sara that the vendor will submit the proposal on time. Sara frowns, showing her lingering doubts. Anna, the vendor, is visibly uneasy. Theodore proposes a backup plan to ensure the flowers are delivered on time, which helps ease the tension. The group agrees to move forward with the plan."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

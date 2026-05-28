@@ -1,0 +1,102 @@
+{
+  "title": "Last-Minute Wedding Fix",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Wedding Dress Fitting Crisis",
+      "time": "Afternoon",
+      "location": "Bridal Salon, downtown",
+      "description": "Claire is in the final fitting for her wedding dress. The zipper on the back of the dress is stuck, and the seamstress is unable to fix it quickly. Her two best friends, Henry and Yuna, are with her, trying to help her stay calm and focused.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Claire Wright",
+          "gender": "Female",
+          "description": "25-year-old bride-to-be, fashion blogger, visibly anxious and emotional.; Female, Bride-to-be, 25 years old; Occupation: Fashion Blogger; Personality: Anxious, Firm, Emotional; Values: Commitment, Self-improvement, Friendship; Interests: Weddings, Fashion, Health and Fitness; Experiences: Planning a wedding, Dealing with body anxiety, Receiving friend support",
+          "position": "Center of the salon, in the dress with the stuck zipper",
+          "states": "Anxious, pale, tense",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Henry Kim",
+          "gender": "Male",
+          "description": "Laid-back and humorous graphic designer; Male; Age: 28; Occupation: Freelance graphic designer and part-time wedding planner assistant; Personality: Optimistic, patient, witty; Values: Friendship, authenticity, creativity; Interests: Sketching, comedy shows, vintage fashion; Experiences: Helped plan his sister's wedding, designed several bridal invitations, once fixed a stuck zipper on a friend's prom dress with duct tape.",
+          "position": "Next to Claire, trying to lighten the mood",
+          "states": "Calm, cheerful, supportive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Yuna Lee",
+          "gender": "Female",
+          "description": "Claire's best friend, a fitness instructor who is practical and direct; Female; Age: 28; Occupation: Personal Trainer and Yoga Instructor; Personality: Empathetic, level-headed, determined; Values: Loyalty, reliability, self-care; Interests: Outdoor activities, healthy cooking, mindfulness practices; Experiences: Helped Claire through several life transitions, including her engagement and wedding planning, once fixed a torn wedding dress for a client using basic sewing skills during an emergency, has a strong support network of friends who value balance and authenticity.",
+          "position": "Near the mirror, giving Claire advice",
+          "states": "Concerned, firm, empathetic",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Claire Wright",
+          "character_id": 0,
+          "action": "Claire tries to fix the zipper herself, but it doesn't work.",
+          "dialogue": "No, no, no! This can't be happening. I can't wear this on my wedding day!"
+        },
+        {
+          "action_id": 1,
+          "character": "Henry Kim",
+          "character_id": 1,
+          "action": "Henry jokes about the situation to make Claire laugh.",
+          "dialogue": "Well, at least the zipper won't come undone during the vows. You'll definitely make an impression!"
+        },
+        {
+          "action_id": 2,
+          "character": "Yuna Lee",
+          "character_id": 2,
+          "action": "Yuna suggests a solution based on her fitness knowledge.",
+          "dialogue": "Claire, I know this is stressful, but maybe you can just do a quick fast before the wedding. I can help you if you want."
+        },
+        {
+          "action_id": 3,
+          "character": "Claire Wright",
+          "character_id": 0,
+          "action": "Claire reacts emotionally to the idea of a last-minute diet.",
+          "dialogue": "A diet? Now? I already feel awful about my body as it is. This is my wedding day, not a photo shoot!"
+        },
+        {
+          "action_id": 4,
+          "character": "Henry Kim",
+          "character_id": 1,
+          "action": "Henry reassures Claire and tries to redirect the focus.",
+          "dialogue": "You're beautiful, Claire. This is about love, not about your dress or your body. We'll figure it out."
+        },
+        {
+          "action_id": 5,
+          "character": "Yuna Lee",
+          "character_id": 2,
+          "action": "Yuna offers a more realistic solution.",
+          "dialogue": "I'm sorry, Claire. I just want you to feel confident. What if we call the designer? Maybe they can send a seamstress to the venue."
+        },
+        {
+          "action_id": 6,
+          "character": "Claire Wright",
+          "character_id": 0,
+          "action": "Claire makes a firm decision to call the designer.",
+          "dialogue": "You're right, Yuna. I can't waste time on this. Let's call them and get it sorted. I need to be ready for tomorrow."
+        }
+      ],
+      "plot": "Claire is struggling with the stuck zipper on her wedding dress, which causes her to become emotional and anxious. Her friends, Henry and Yuna, try to help her in different ways—Henry with humor and Yuna with practical advice. Claire eventually makes a firm decision to call the designer for help, showing her commitment to her wedding and the support of her friendships.",
+      "social_purpose": "To explore Claire's emotional state, her values of commitment and self-improvement, and the role of friendship in helping her through a crisis. The scenario also highlights her interest in fashion and the pressures she faces as a bride.",
+      "chunk": {
+        "id": 0,
+        "text": "Claire Wright, a 25-year-old fashion blogger and bride-to-be, is in a bridal salon for her final dress fitting. The zipper on her wedding dress is stuck, and the seamstress is unable to fix it quickly. Claire becomes visibly anxious and pale, struggling to manage her emotions. Henry Kim, her humorous and supportive friend, tries to lighten the mood with jokes, while Yuna Lee, a fitness instructor and Claire's other best friend, suggests a short-term fast. Claire reacts emotionally but eventually makes a firm decision to call the designer for help, showing her commitment to her wedding and the strength of her friendships."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

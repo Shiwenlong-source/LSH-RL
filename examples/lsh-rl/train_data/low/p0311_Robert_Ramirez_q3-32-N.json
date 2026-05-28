@@ -1,0 +1,88 @@
+{
+  "title": "A Note of Courage",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Midsummer Night Music Salon",
+      "time": "7:30 PM",
+      "location": "A cozy outdoor music venue in a park",
+      "description": "The evening air is warm, and a small crowd has gathered around a makeshift stage. A group of friends, including Robert Ramirez, Fiona, and Lucy, are seated near the front. Robert is holding a guitar, visibly fidgeting with the strap, while Fiona gives him an encouraging smile and Lucy leans forward with curiosity. A local musician just finished a set, and the host invites Robert to share a personal story about music.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Robert Ramirez",
+          "gender": "Male",
+          "description": "A 24-year-old independent musician with a self-reflective and empathetic nature. He is visibly nervous but determined to share a part of himself he once hid.; 24-year-old Male, 23 years old; Occupation: Independent Musician; Personality: Self-reflective, Nervous, Determined, Empathetic; Values: Authenticity, Connection, Growth; Interests: Music, Self-exploration, Storytelling; Experiences: Overcoming past shame, Attending music events, Sharing personal stories",
+          "position": "On the stage, center",
+          "states": "Nervous, determined, hopeful",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Fiona",
+          "gender": "Female",
+          "description": "Robert's supportive and outgoing best friend; Female; Age: 24; Occupation: Music teacher and part-time event coordinator; Personality: enthusiastic, empathetic, optimistic; Values: friendship, creativity, authenticity; Interests: live music, storytelling, indie films; Experiences: organized a community music festival last summer, played in a college band, helped several students win local music competitions.",
+          "position": "Front row, left side",
+          "states": "Supportive, encouraging, attentive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Lucy",
+          "gender": "Female",
+          "description": "A curious and open-minded friend who has always admired Robert's music but is eager to hear his personal story; Female; Age: 28; Occupation: Music therapist; Personality: Inquisitive, compassionate, supportive; Values: Emotional connection, authenticity, growth through art; Interests: Attending local music events, reading biographies of famous musicians, exploring the healing power of sound; Experiences: Volunteered at a community music outreach program, attended a music festival where she met a mentor who inspired her career, recently helped a patient through music-based therapy that deepened her appreciation for personal musical journeys.",
+          "position": "Front row, right side",
+          "states": "Curious, empathetic, expectant",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Fiona",
+          "character_id": 1,
+          "action": "Encourages Robert to speak",
+          "dialogue": "Hey, Robert, it's your turn now! We're all here to listen. Just take a deep breath and start with what's on your heart."
+        },
+        {
+          "action_id": 1,
+          "character": "Robert Ramirez",
+          "character_id": 0,
+          "action": "Takes a deep breath and begins to speak",
+          "dialogue": "There was a time I was ashamed of the music I loved. I used to hide my Elton John posters, but now I realize that music is about connection, not judgment. Today, I want to share why Elton John means so much to me."
+        },
+        {
+          "action_id": 2,
+          "character": "Lucy",
+          "character_id": 2,
+          "action": "Listens intently and nods",
+          "dialogue": "I can see how important this is for you. Thank you for being brave enough to share it with us."
+        },
+        {
+          "action_id": 3,
+          "character": "Robert Ramirez",
+          "character_id": 0,
+          "action": "Plays a short melody on his guitar",
+          "dialogue": "This is a song I wrote after coming to terms with who I am. It's a tribute to Elton John and to every part of me that I once tried to hide."
+        },
+        {
+          "action_id": 4,
+          "character": "Fiona",
+          "character_id": 1,
+          "action": "Applauds and shares a personal story",
+          "dialogue": "That was beautiful. You know, I used to be afraid of showing my vulnerability too. But hearing you do it makes me want to open up more too."
+        }
+      ],
+      "plot": "Robert is invited to share a personal story about his relationship with music at a music salon. With the support of his friends, he overcomes his fear of self-disclosure and opens up about his past shame of loving Elton John. His vulnerability inspires others to reflect on their own experiences, creating a deeper sense of connection among the group.",
+      "social_purpose": "To demonstrate the importance of authenticity and connection in building meaningful relationships, and how sharing personal stories can lead to personal and collective growth.",
+      "chunk": {
+        "id": 0,
+        "text": "Robert Ramirez, an independent musician, is invited to share a personal memory at a music salon. His friends Fiona and Lucy support him, and through their encouragement, he decides to open up about his journey with Elton John's music. This moment of vulnerability not only helps Robert accept himself but also fosters a sense of unity and trust in the group."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

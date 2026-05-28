@@ -1,0 +1,88 @@
+{
+  "title": "Choosing a Path",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Waiting for a response from Professor Leo",
+      "time": "Afternoon",
+      "location": "University Library",
+      "description": "Victor sits on a library sofa, nervously checking his phone for a reply from Professor Leo. His friend Kimi is nearby, sitting on a chair beside him, while his roommate Jack leans against a nearby bookshelf. The atmosphere is tense as Victor's indecision about his major weighs on the conversation.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Victor Kim",
+          "gender": "Male",
+          "description": "A 17-year-old college sophomore who is deeply contemplative and anxious about his future. He is torn between Mathematics and Finance as possible majors.; years old / Male / College Student, 17 years old; Occupation: Undergraduate; Personality: Hesitant, Contemplative, Anxious, Curious; Values: Academic Success, Clear Direction, Friendship; Interests: Mathematics, Finance, Career Planning; Experiences: Hesitating in Major Choice, Seeking Mentor Advice, Seeking Academic Recognition",
+          "position": "Sitting on a library sofa",
+          "states": "Nervous, waiting, indecisive",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Kimi",
+          "gender": "Female",
+          "description": "Victor's close friend who is optimistic and action-oriented; Female; Age: 20; Occupation: Psychology major and part-time campus counselor intern; Personality: Energetic, empathetic, determined; Values: Personal growth, loyalty, decisiveness; Interests: Mental health advocacy, hiking, true crime podcasts; Experiences: Volunteered at a youth mentorship program, declared her major at 18 after extensive research, recently helped Victor navigate academic stress.",
+          "position": "Sitting beside Victor on the chair",
+          "states": "Eager, supportive, curious",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Jack",
+          "gender": "Male",
+          "description": "Victor's roommate who is pragmatic and prefers direct communication; Male; Age: 21; Occupation: Computer Science major; Personality: Calm, direct, encouraging; Values: Efficiency, honesty, personal responsibility; Interests: Coding, problem-solving, fitness; Experiences: Helped Victor navigate academic decisions in the past, worked part-time as a tutor for introductory programming courses.",
+          "position": "Leaning against a bookshelf",
+          "states": "Calm, direct, encouraging",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Kimi",
+          "character_id": 1,
+          "action": "Asks about the professor's reply",
+          "dialogue": "Hey Victor, do you think Professor Leo will reply soon? You seem really anxious."
+        },
+        {
+          "action_id": 1,
+          "character": "Victor Kim",
+          "character_id": 0,
+          "action": "Expresses hesitation",
+          "dialogue": "I don’t know. I hope he does. I just… I’m not sure which major I should go for. Both Math and Finance seem so different."
+        },
+        {
+          "action_id": 2,
+          "character": "Jack",
+          "character_id": 2,
+          "action": "Suggests face-to-face communication",
+          "dialogue": "Why don’t you just go to his office and talk to him in person? Sometimes you need to take the initiative to get the clarity you're looking for."
+        },
+        {
+          "action_id": 3,
+          "character": "Victor Kim",
+          "character_id": 0,
+          "action": "Considers the suggestion",
+          "dialogue": "That’s not a bad idea, Jack. I just don’t want to seem unsure to him. I want to make the right decision, you know?"
+        },
+        {
+          "action_id": 4,
+          "character": "Kimi",
+          "character_id": 1,
+          "action": "Reassures and encourages",
+          "dialogue": "You don’t have to have it all figured out, Victor. Professors are used to students being uncertain. What matters is that you’re trying to find your direction."
+        }
+      ],
+      "plot": "Victor is waiting for a reply from Professor Leo about a potential mentorship opportunity. His friends, Kimi and Jack, notice his anxiety and offer advice. Kimi encourages him to accept that uncertainty is normal, while Jack pushes for a more proactive approach. Victor begins to consider visiting the professor in person to discuss his major decision, which could lead to a breakthrough in his academic planning.",
+      "social_purpose": "To explore Victor’s internal struggle about choosing a major and how his values of academic success and clear direction influence his decision-making. His interactions with Kimi and Jack reveal his personality traits of hesitation and curiosity, as well as his reliance on friendship for support.",
+      "chunk": {
+        "id": 0,
+        "text": "Victor is waiting for a reply from Professor Leo about a potential mentorship opportunity. His friends, Kimi and Jack, notice his anxiety and offer advice. Kimi encourages him to accept that uncertainty is normal, while Jack pushes for a more proactive approach. Victor begins to consider visiting the professor in person to discuss his major decision, which could lead to a breakthrough in his academic planning."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

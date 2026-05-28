@@ -1,0 +1,98 @@
+{
+  "title": "The Toast at the Wedding",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Wedding Reception",
+      "time": "Evening",
+      "location": "A backyard wedding venue with string lights and a long dinner table",
+      "description": "The wedding reception is in full swing, with music playing softly in the background and guests mingling. The couple, Sun and Joy, sit at the head of the table, smiling and exchanging glances. Jackson Mills, the groom's best friend, is seated at the table with the rest of the groomsmen, clearly agitated after being asked to give a toast at the last minute. The host, a mutual friend named Emily, approaches the table to confirm the next steps for the toast.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Jackson Mills",
+          "gender": "Male",
+          "description": "Jackson is visibly nervous, fidgeting with his napkin and avoiding eye contact. He is 28 years old, an office worker known for his humor and easy-going nature, but this public speaking task is daunting for him.; Male / Friend of the Couple, 28 years old; Occupation: Office Worker; Personality: Humorous, Easy-going, Reluctant Public Speaker, Considerate; Values: Friendship, Sincerity, Responsibility; Interests: Social Gatherings, Humor, Personal Growth; Experiences: Met Sun in college, Asked to give a toast last-minute, Close relationship with the couple, Adapting to informal occasions",
+          "position": "Seated at the dinner table",
+          "states": "Nervous, hesitant, considerate",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Sun Li",
+          "gender": "Male",
+          "description": "Sun is the groom, calm and confident. He is encouraging Jackson with a lighthearted tone, trying to ease his anxiety; Male; Age: 29; Occupation: Event Planner; Personality: Optimistic, patient, charismatic; Values: Loyalty, authenticity, joy in life's moments; Interests: Hosting gatherings, photography, travel; Experiences: Organized his sister's surprise engagement party, planned a successful corporate gala under tight deadlines, proposed to his fiancée during a sunset hike.",
+          "position": "Head of the table",
+          "states": "Supportive, lighthearted, confident",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Joy Chen",
+          "gender": "Female",
+          "description": "Joy is the bride, warm and sincere; Female; Age: 28; Occupation: Event Planner; Personality: Compassionate, empathetic, optimistic; Values: Love, authenticity, community; Interests: Floral arrangements, storytelling, cultural traditions; Experiences: Organized her own wedding with meticulous care, supported a close friend through a difficult breakup before the engagement, grew up in a family that valued togetherness and celebration.",
+          "position": "Head of the table",
+          "states": "Gentle, sincere, supportive",
+          "is_npc": true
+        },
+        {
+          "id": 3,
+          "name": "Emily Wong",
+          "gender": "Female",
+          "description": "Emily is a mutual friend of the couple and the event host. She is organized and kind, helping coordinate the flow of the evening; Female; Age: 32; Occupation: Event Planner; Personality: Compassionate, detail-oriented, charismatic; Values: Community, authenticity, reliability; Interests: Wedding planning, photography, gardening; Experiences: Hosted multiple backyard weddings, planned her best friend's elopement, managed a surprise engagement party for a client.",
+          "position": "Standing near the table",
+          "states": "Supportive, professional, encouraging",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Sun Li",
+          "character_id": 1,
+          "action": "Reassures Jackson",
+          "dialogue": "Hey, Jackson, you got this. Just say what's in your heart. I've got your back."
+        },
+        {
+          "action_id": 1,
+          "character": "Joy Chen",
+          "character_id": 2,
+          "action": "Gently reminds Jackson",
+          "dialogue": "This is a big moment for us, and your words would really mean a lot to both of us. You're a good friend, and we trust you."
+        },
+        {
+          "action_id": 2,
+          "character": "Jackson Mills",
+          "character_id": 0,
+          "action": "Expresses hesitation",
+          "dialogue": "I'm sorry, guys. I wasn't expecting this. I'm not exactly a public speaker, but I'll try to make it work."
+        },
+        {
+          "action_id": 3,
+          "character": "Emily Wong",
+          "character_id": 3,
+          "action": "Encourages Jackson to step up",
+          "dialogue": "We're all rooting for you, Jackson. You can take the stage when we're ready for the toast. Just take a deep breath and be yourself."
+        },
+        {
+          "action_id": 4,
+          "character": "Jackson Mills",
+          "character_id": 0,
+          "action": "Decides to give the toast",
+          "dialogue": "Alright, I guess it's time to grow a little. I'll do it for you two and for me."
+        }
+      ],
+      "plot": "Jackson is asked to give a toast at the wedding, a task that makes him visibly nervous due to his reluctance to speak in public. His close friends Sun and Joy, along with the host Emily, encourage him to embrace the moment. Through their support, Jackson decides to step out of his comfort zone and deliver a heartfelt speech, reflecting his personal growth and commitment to the couple's happiness.",
+      "social_purpose": "To showcase how a shared goal (delivering a meaningful toast) brings out the protagonist's values of responsibility and sincerity, while also highlighting his growth in overcoming his fear of public speaking.",
+      "chunk": {
+        "id": 0,
+        "text": "Jackson is asked to give a toast at the wedding, a task that makes him visibly nervous due to his reluctance to speak in public. His close friends Sun and Joy, along with the host Emily, encourage him to embrace the moment. Through their support, Jackson decides to step out of his comfort zone and deliver a heartfelt speech, reflecting his personal growth and commitment to the couple's happiness."
+      },
+      "npcs": [
+        1,
+        2,
+        3
+      ]
+    }
+  ]
+}

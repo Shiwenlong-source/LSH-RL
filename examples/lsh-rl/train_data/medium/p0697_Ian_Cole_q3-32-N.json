@@ -1,0 +1,119 @@
+{
+  "title": "The Funeral Discussion at the Café",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Ian and his family meet at a local café to discuss the funeral of a former president they recently watched on live broadcast.",
+      "time": "Afternoon",
+      "location": "A quiet corner of a neighborhood café",
+      "description": "The family is seated at a small table by the window. A TV in the corner plays a muted news recap of the funeral. The atmosphere is contemplative but open for discussion.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Ian Cole",
+          "gender": "Male",
+          "description": "An 18-year-old high school student with a thoughtful and curious demeanor. He is eager to understand the intersection of politics and religion in public events.; 18-year-old Male, High School Student, 18 years old; Occupation: High School Student; Personality: Thoughtful, Curious, Enthusiastic, Critical; Values: Respect for Authority, Independent Thinking, Fairness; Interests: Political Analysis, Media Criticism, Historical Comparison; Experiences: Participating in family political discussions, Watching political live streams, Questioning social norms",
+          "position": "Main Protagonist",
+          "states": "Engaged in conversation, internally conflicted, respectful but critical",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "David Cole",
+          "gender": "Male",
+          "description": "Ian's father, a former history teacher with a deep respect for political figures and their legacies; Male; Age: 62; Occupation: Retired school administrator; Personality: Thoughtful, diplomatic, patient; Values: Integrity, historical legacy, family unity; Interests: Political biographies, classical music, civil discourse; Experiences: Taught high school history for 30 years, served on a local school board, attended presidential debates as a student in the 1970s.",
+          "position": "Supporting Character",
+          "states": "Observant, reflective, offering insights",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Lena Cole",
+          "gender": "Female",
+          "description": "Ian's mother, a nurse who values fairness and encourages open-minded dialogue; Female; Age: 48; Occupation: Registered Nurse at a community hospital; Personality: Empathetic, patient, diplomatic; Values: Compassion, justice, family unity; Interests: Reading historical biographies, gardening, community volunteer work; Experiences: Worked during a pandemic surge, mediated a heated political debate between colleagues, lost a close friend to a terminal illness.",
+          "position": "Supporting Character",
+          "states": "Supportive, encouraging, balanced",
+          "is_npc": true
+        },
+        {
+          "id": 3,
+          "name": "Ethan Cole",
+          "gender": "Male",
+          "description": "Ethan Cole; Male; Age: 15; Occupation: High school student; Personality: Casual, disinterested, interjecting; Values: Freedom, personal comfort; Interests: Video games, skateboarding, pop culture; Experiences: Attended a few political family gatherings, watched the funeral on live broadcast with minimal engagement, often feels out of place during serious discussions.",
+          "position": "Supporting Character",
+          "states": "Casual, disinterested, interjecting",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Ian Cole",
+          "character_id": 0,
+          "action": "Asks a question about the funeral's simplicity.",
+          "dialogue": "Dad, I just don't get it. Nixon's funeral was so low-key compared to Reagan's. Why the difference? Was it because of his policies or the media's portrayal of him?"
+        },
+        {
+          "action_id": 1,
+          "character": "David Cole",
+          "character_id": 1,
+          "action": "Provides historical context about the former president's funeral.",
+          "dialogue": "Good question, Ian. Nixon's funeral was more subdued because his legacy was complicated. The media and public opinion play a big role in how these events are handled."
+        },
+        {
+          "action_id": 2,
+          "character": "Lena Cole",
+          "character_id": 2,
+          "action": "Encourages Ian to explore the topic further.",
+          "dialogue": "Ian, it's great that you're thinking about this. Maybe you can write an essay or do a presentation on it. It's important to understand different perspectives."
+        },
+        {
+          "action_id": 3,
+          "character": "Ethan Cole",
+          "character_id": 3,
+          "action": "Makes a dismissive comment.",
+          "dialogue": "Ugh, why does it even matter? They're all dead now. It's not like they care."
+        },
+        {
+          "action_id": 4,
+          "character": "Ian Cole",
+          "character_id": 0,
+          "action": "Responds with frustration but tries to stay respectful.",
+          "dialogue": "That's not fair, Ethan. Funerals are about how people are remembered. It's part of history and how we shape our understanding of the past."
+        },
+        {
+          "action_id": 5,
+          "character": "David Cole",
+          "character_id": 1,
+          "action": "Agrees with Ian and adds another perspective.",
+          "dialogue": "Exactly, Ian. It's also about the families and the values they want to highlight. Reagan's funeral was more grand because it was about unity and healing."
+        },
+        {
+          "action_id": 6,
+          "character": "Lena Cole",
+          "character_id": 2,
+          "action": "Changes the subject to a lighter topic.",
+          "dialogue": "Let's talk about something else for a bit. Ian, how's your history class going?"
+        },
+        {
+          "action_id": 7,
+          "character": "Ian Cole",
+          "character_id": 0,
+          "action": "Shares his experience with political discussions in class.",
+          "dialogue": "It's interesting. We had a debate about how much media influences public perception. I think it's a huge factor in shaping history."
+        }
+      ],
+      "plot": "Ian struggles to reconcile the differences between the funerals of two former presidents while navigating his family's contrasting views. His father provides historical insight, his mother encourages independent thinking, and his brother's casual remarks add tension. Ian's curiosity and critical thinking lead him to engage in a meaningful discussion about media influence and political legacy.",
+      "social_purpose": "To explore the influence of media and politics on public memory through a family discussion, while showcasing Ian's values of independent thinking and respect for authority.",
+      "chunk": {
+        "id": 0,
+        "text": "Ian and his family are seated at a small table in a quiet café, discussing the recent live broadcast of a former president's funeral. Ian's curiosity about the differences in funeral styles between leaders leads to a deeper conversation about politics, media, and legacy. His father shares historical insights, his mother supports Ian's independent thinking, and his younger brother's offhand comments create a contrast in the discussion."
+      },
+      "npcs": [
+        1,
+        2,
+        3
+      ]
+    }
+  ]
+}

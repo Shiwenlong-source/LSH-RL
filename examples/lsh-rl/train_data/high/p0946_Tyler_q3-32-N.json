@@ -1,0 +1,95 @@
+{
+  "title": "The Goal Wall Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Team Goal Setting Session",
+      "time": "10:00 AM",
+      "location": "Office Break Room",
+      "description": "The break room is filled with colleagues gathered around a whiteboard labeled 'Team Goals for the Quarter.' The atmosphere is a mix of excitement and casual banter as people write down their goals. Tyler stands near the board, hesitating to write his own while his coworkers, Sunny and Jacob, wait for him to participate.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Tyler",
+          "gender": "Male",
+          "description": "A 32-year-old office clerk who is thoughtful and self-reflective but also anxious about being judged. He is trying to stay true to his values while improving his communication skills.; Male, Company Employee, 32 years old; Occupation: Office Clerk; Personality: Thoughtful, Self-reflective, Anxious, Ambitious; Values: Authenticity, Personal Growth, Sense of Belonging; Interests: Self-improvement, Social Relationships, Workplace Culture; Experiences: Just started trying self-reflection, Facing peer pressure, Hoping to improve communication skills",
+          "position": "Near the whiteboard",
+          "states": "Hesitant, conflicted",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Sunny",
+          "gender": "Female",
+          "description": "A laid-back and supportive coworker who encourages others to express themselves freely; Female; Age: 28; Occupation: Project Coordinator; Personality: Empathetic, optimistic, patient; Values: Collaboration, work-life balance, personal growth; Interests: Yoga, indie music, baking; Experiences: Led a successful team through a major product launch, helped mediate conflicts in a high-stress department, recently completed a certification in mindfulness at work.",
+          "position": "Standing next to Tyler",
+          "states": "Relaxed, encouraging",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Jacob",
+          "gender": "Male",
+          "description": "A sarcastic and competitive coworker who often jokes about others' goals; Male; Age: 32; Occupation: Senior Project Manager; Personality: Sarcastic, impatient, ambitious, critical; Values: Performance, success, efficiency; Interests: Golf, high-end gadgets, business strategy podcasts; Experiences: Led a team through a high-pressure product launch, frequently clashes with less driven colleagues during performance reviews, has a reputation for being the first to meet quarterly targets.",
+          "position": "Leaning against the counter",
+          "states": "Sarcastic, impatient",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Sunny",
+          "character_id": 1,
+          "action": "Encourages Tyler",
+          "dialogue": "Hey Tyler, don't let the board intimidate you! Just write something that means something to you. We're all in this together."
+        },
+        {
+          "action_id": 1,
+          "character": "Jacob",
+          "character_id": 2,
+          "action": "Teases Tyler",
+          "dialogue": "What's the hold-up, Tyler? Are you going to write 'Don't cry at my desk' or something?"
+        },
+        {
+          "action_id": 2,
+          "character": "Tyler",
+          "character_id": 0,
+          "action": "Takes a deep breath and responds",
+          "dialogue": "I'm just trying to make sure my goal is something I can be proud of, not just what others expect."
+        },
+        {
+          "action_id": 3,
+          "character": "Sunny",
+          "character_id": 1,
+          "action": "Reassures Tyler",
+          "dialogue": "That's exactly the right approach. It's your goal, not a popularity contest."
+        },
+        {
+          "action_id": 4,
+          "character": "Jacob",
+          "character_id": 2,
+          "action": "Says something dismissive",
+          "dialogue": "Yeah, yeah. Just pick something. I'm going to write 'Double my sales.'"
+        },
+        {
+          "action_id": 5,
+          "character": "Tyler",
+          "character_id": 0,
+          "action": "Writes his goal",
+          "dialogue": "Okay, I'll do it. I'm going to write 'Improve communication skills and build stronger relationships at work.'"
+        }
+      ],
+      "plot": "During a team goal-setting session, Tyler is caught between the pressure to conform and his desire to express his authentic self. Sunny supports him, while Jacob mocks his hesitation. Tyler ultimately writes a goal that aligns with his personal values and interests, showing his growth and commitment to self-improvement.",
+      "social_purpose": "To explore Tyler's internal conflict between authenticity and peer pressure while showcasing his interest in self-improvement and social relationships in the workplace.",
+      "chunk": {
+        "id": 0,
+        "text": "The Goal Wall Dilemma"
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

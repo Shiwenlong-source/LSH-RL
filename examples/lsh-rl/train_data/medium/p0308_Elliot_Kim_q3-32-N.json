@@ -1,0 +1,91 @@
+{
+  "title": "Elliot's Faith Crossroads",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Coffee Shop Gathering",
+      "time": "Afternoon",
+      "location": "Local Café near campus",
+      "description": "Elliot sits with Jay and Zoe at a small café, trying to decide which church group to join. Joy is nearby, observing quietly.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Elliot Kim",
+          "gender": "Male",
+          "description": "21-year-old college student and church worship leader, thoughtful and internally conflicted.; 21-year-old / Male / Faith Explorer, 24 years old; Occupation: College Student and Church Worship Leader; Personality: Thoughtful, Compassionate, Enthusiastic, Internally Conflicted; Values: Faith, Community, Integrity, Harmony; Interests: Music, Spiritual Growth, Teamwork, Youth Ministry; Experiences: Participating in church worship team, Leading Bible study groups, Facing major life choices, Handling group relationships, Exploring self-identity in faith",
+          "position": "Seated at the table, sipping coffee, looking contemplative",
+          "states": "Torn, empathetic, attentive",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Jay",
+          "gender": "Male",
+          "description": "Campus evangelism team leader, calm and persuasive; Male; Age: 22; Occupation: Part-time Youth Ministry Coordinator and Full-time Theology Student; Personality: Compassionate, patient, empathetic; Values: Faith, community, integrity; Interests: Small group discussions, coffee culture, urban outreach; Experiences: Led campus-wide Bible studies, organized interfaith dialogues, mentored new converts.",
+          "position": "Sitting across from Elliot, leaning forward slightly",
+          "states": "Supportive, encouraging, sincere",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Zoe",
+          "gender": "Female",
+          "description": "Youth for Christ group leader, enthusiastic and passionate; Female; Age: 22; Occupation: Part-time youth ministry coordinator and student at a local seminary; Personality: Energetic, hopeful, persuasive, empathetic, creative; Values: Community, faith, personal growth, authenticity; Interests: Organizing outreach events, playing acoustic guitar, mentoring teens, and exploring indie music venues; Experiences: Led a youth retreat that helped several students reconnect with their faith, volunteered at a homeless shelter during college, and recently started a campus worship night at the café.",
+          "position": "Sitting beside Elliot, animated and expressive",
+          "states": "Energetic, hopeful, persuasive",
+          "is_npc": true
+        },
+        {
+          "id": 3,
+          "name": "Joy",
+          "gender": "Female",
+          "description": "Observant church member, perceptive and quiet; Female; Age: 32; Occupation: Campus Counselor; Personality: Compassionate, introspective, patient; Values: Community, spiritual growth, kindness; Interests: Listening to students, reading theological journals, journaling; Experiences: Worked with youth groups for 8 years, recovered from a personal loss through faith, mentors new volunteers at the church.",
+          "position": "Seated at a nearby table, sipping tea and watching the conversation",
+          "states": "Observant, empathetic, supportive",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Jay",
+          "character_id": 1,
+          "action": "Shares a story about the campus evangelism team",
+          "dialogue": "Elliot, I remember when I first joined the team. It changed my perspective on how we can reach people right here on campus. You have a gift for connecting with others, and I think this is where you can use it the most."
+        },
+        {
+          "action_id": 1,
+          "character": "Zoe",
+          "character_id": 2,
+          "action": "Expresses excitement about Youth for Christ",
+          "dialogue": "Elliot, you're so passionate and creative! The Youth for Christ group is all about bringing that energy to the community. We have outreach events, music nights, and it's such a great way to grow in faith while impacting others."
+        },
+        {
+          "action_id": 2,
+          "character": "Elliot Kim",
+          "character_id": 0,
+          "action": "Responds thoughtfully, showing internal conflict",
+          "dialogue": "I really appreciate both of your invitations. I want to grow in my faith and help others, but I'm just not sure which path is the right one for me. I don't want to hurt anyone's feelings or make the wrong choice."
+        },
+        {
+          "action_id": 3,
+          "character": "Joy",
+          "character_id": 3,
+          "action": "Observes and listens, offering subtle support",
+          "dialogue": "I see how much this means to you both. Elliot, I believe your heart for community and integrity will guide you in the right direction. Just take your time and trust your discernment."
+        }
+      ],
+      "plot": "Elliot is invited to join two different church groups by Jay and Zoe. He struggles to choose between them, wanting to honor both but also remain true to his own calling. Joy watches and offers quiet encouragement.",
+      "social_purpose": "To explore Elliot's values, personality, and experiences as he navigates a decision that impacts his faith journey and relationships.",
+      "chunk": {
+        "id": 0,
+        "text": "Elliot finds himself at a small café, surrounded by friends who care deeply about his spiritual path. Jay and Zoe each present compelling reasons for him to join their respective groups, while Joy offers a more reflective presence. The dialogue reveals Elliot's compassionate and thoughtful nature as he weighs his options with care."
+      },
+      "npcs": [
+        1,
+        2,
+        3
+      ]
+    }
+  ]
+}

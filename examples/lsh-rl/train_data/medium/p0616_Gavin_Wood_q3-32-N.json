@@ -1,0 +1,109 @@
+{
+  "title": "The Coffee Shop Deadline",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Gavin is trying to finish a humorous article for a deadline while being supported and nudged by his friends.",
+      "time": "Afternoon",
+      "location": "A cozy local coffee shop",
+      "description": "Gavin is seated at a small corner table with his laptop, surrounded by half-empty coffee cups and scribbled notes. Mona and Zoe sit across from him, occasionally sipping their drinks and watching him intently. The atmosphere is warm and quiet, but the pressure is palpable as the deadline looms.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Gavin Wood",
+          "gender": "Male",
+          "description": "A 27-year-old freelance creator with a casual and self-deprecating demeanor. He's trying to write a humorous piece but is visibly anxious.; 27-year-old male, Freelance creator, 27 years old; Occupation: Freelance creator; Personality: Casual, Self-deprecating, Creative, Anxious; Values: Humor, Authenticity, Friendship; Interests: Writing, Observing daily life, Internet culture; Experiences: Experiencing writer's block, Facing public expectations, Creating humorous content, Balancing personal and professional needs",
+          "position": "Corner table, typing on laptop",
+          "states": "Anxious, focused, slightly overwhelmed",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Mona",
+          "gender": "Female",
+          "description": "Mona is Gavin's close friend and a supportive presence; Female; Age: 28; Occupation: Freelance graphic designer; Personality: Supportive, patient, observant; Values: Creativity, loyalty, work-life balance; Interests: Illustration, indie music, cozy café culture; Experiences: Collaborated with Gavin on several creative projects, helped him through a difficult career transition, has a history of supporting friends during crunch deadlines.",
+          "position": "Across from Gavin, sipping a latte",
+          "states": "Supportive, patient, observant",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Zoe",
+          "gender": "Female",
+          "description": "Gavin's other close friend, a social media manager with a sharp wit and a tendency to push boundaries; Female; Age: 28; Occupation: Social Media Strategist for a boutique marketing firm; Personality: Energetic, playful, slightly impatient; Values: Creativity, authenticity, connection; Interests: Viral content trends, stand-up comedy, urban exploration; Experiences: Successfully rebranded a struggling local business, frequently collaborates with emerging artists on promotional campaigns, once accidentally went viral for a controversial post that sparked a citywide debate.",
+          "position": "Sitting next to Mona, scrolling on her phone",
+          "states": "Energetic, playful, slightly impatient",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Gavin Wood",
+          "character_id": 0,
+          "action": "Typing on his laptop with a frustrated sigh",
+          "dialogue": "Ugh, I can’t even write a funny sentence about my own life anymore. I’m basically a human-sized blank page with a caffeine addiction."
+        },
+        {
+          "action_id": 1,
+          "character": "Mona",
+          "character_id": 1,
+          "action": "Smiles and leans forward",
+          "dialogue": "You’ve always been able to find humor in the mundane, Gavin. Maybe you just need to relax and let it come naturally."
+        },
+        {
+          "action_id": 2,
+          "character": "Zoe",
+          "character_id": 2,
+          "action": "Chuckles and gestures with her phone",
+          "dialogue": "I’m telling you, the world needs your take on why my cat looks like it’s judging me right now. That’s gold."
+        },
+        {
+          "action_id": 3,
+          "character": "Gavin Wood",
+          "character_id": 0,
+          "action": "Looks at the cat on Zoe's phone and laughs",
+          "dialogue": "Okay, fair. But I can’t just write about your cat. I need to make it funny and also… authentic, I guess."
+        },
+        {
+          "action_id": 4,
+          "character": "Mona",
+          "character_id": 1,
+          "action": "Offers a suggestion",
+          "dialogue": "What if you start with something small, like the time you tripped over your own shoelaces on a live stream? That was hilarious and true to you."
+        },
+        {
+          "action_id": 5,
+          "character": "Gavin Wood",
+          "character_id": 0,
+          "action": "Pauses and considers the suggestion",
+          "dialogue": "Yeah… I mean, it was pretty embarrassing, but I guess it’s a start. I just don’t want it to feel like I’m making excuses for my clumsiness."
+        },
+        {
+          "action_id": 6,
+          "character": "Zoe",
+          "character_id": 2,
+          "action": "Encourages him with a grin",
+          "dialogue": "That’s the Gavin we all love! Just go with it. And if you need more ideas, I’ll bring my cat tomorrow for a writing session."
+        },
+        {
+          "action_id": 7,
+          "character": "Gavin Wood",
+          "character_id": 0,
+          "action": "Nods and starts typing again",
+          "dialogue": "Alright, alright. I’ll try. But if this ends up being the worst article ever, I’m blaming both of you."
+        }
+      ],
+      "plot": "Gavin struggles with writer’s block while trying to finish a humorous article. His friends Mona and Zoe support him by offering ideas and light-hearted encouragement, helping him to loosen up and consider using trivial, self-deprecating moments as inspiration. Despite his initial hesitation, Gavin begins to type, showing a small shift in his creative confidence.",
+      "social_purpose": "To show how Gavin's relationships with Mona and Zoe influence his creative process, particularly through their contrasting approaches—Mona’s calm support and Zoe’s playful push. This highlights his values of authenticity and humor, as well as his anxiety and reliance on friends to navigate creative pressure.",
+      "chunk": {
+        "id": 0,
+        "text": "Gavin is at a coffee shop with Mona and Zoe, trying to finish a humorous article. He’s struggling with writer’s block and is using self-deprecating humor to cope. Mona offers a calming suggestion, while Zoe teases him with a cat photo, pushing him to embrace the absurd. Their presence helps Gavin consider using personal, trivial moments to ease the pressure and find his voice again."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

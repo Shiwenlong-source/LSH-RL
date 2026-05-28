@@ -1,0 +1,95 @@
+{
+  "title": "The Crossroads of Support",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Patrick is approached by his friend Yury at a local café.",
+      "time": "Afternoon",
+      "location": "A quiet corner of a downtown café",
+      "description": "Patrick, still visibly recovering from a recent illness, sits at a table sipping tea. His friend Yury, a passionate and impulsive man, walks in and joins him. Across the room, Cici, a calm and perceptive coworker, watches the interaction unfold.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Patrick King",
+          "gender": "Male",
+          "description": "A 47-year-old lawyer who recently recovered from an illness. He is conflicted and cautious, with a deep sense of empathy and loyalty.; 38-year-old male, recently recovered from illness, 47 years old; Occupation: Lawyer; Personality: Conflicted, Cautious, Empathetic; Values: Loyalty, Family, Caution; Interests: Maintaining peace, Supporting friends, Family happiness; Experiences: Recent illness, Friendship with Yuan Duoqin, Parental responsibilities, Emotional conflict, Decision-making under pressure",
+          "position": "At the table, sipping tea",
+          "states": "Fatigued, conflicted, empathetic",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Yury",
+          "gender": "Male",
+          "description": "Yury; Male; Age: 34; Occupation: Freelance Photographer; Personality: Passionate, impulsive, loyal; Values: Honesty, loyalty, artistic integrity; Interests: Street photography, urban exploration, indie music; Experiences: Lost a close family member to illness, worked on a documentary project that took a personal toll, has a long-standing friendship with Patrick rooted in shared struggles.",
+          "position": "Sitting across from Patrick",
+          "states": "Angry, determined, impatient",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Cici",
+          "gender": "Female",
+          "description": "Cici; Female; Age: 32; Occupation: Senior Project Manager at a tech startup; Personality: Observant, empathetic, analytical; Values: Professional integrity, work-life balance, quiet support; Interests: Reading psychological thrillers, practicing mindfulness meditation, exploring local art galleries; Experiences: Managed high-stress product launches, supported a colleague through a health crisis, transitioned from individual contributor to leadership role.",
+          "position": "Across the room, at a nearby table",
+          "states": "Observant, concerned, calm",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Yury",
+          "character_id": 1,
+          "action": "Demands Patrick's help",
+          "dialogue": "Patrick, I need your support on this case. It's not just about me—it's about justice. You can't back out now."
+        },
+        {
+          "action_id": 1,
+          "character": "Patrick King",
+          "character_id": 0,
+          "action": "Expresses hesitation",
+          "dialogue": "Yury, I want to help, but I'm not sure I'm in the right state. I've just come out of a long illness and don't want to push myself."
+        },
+        {
+          "action_id": 2,
+          "character": "Yury",
+          "character_id": 1,
+          "action": "Shows frustration",
+          "dialogue": "You always say that! You're afraid of making a choice, but this is important. You owe it to me and to yourself."
+        },
+        {
+          "action_id": 3,
+          "character": "Patrick King",
+          "character_id": 0,
+          "action": "Mentions his daughter",
+          "dialogue": "I just got a message from Lena. She's worried about me, and I don't want to let her down. I need to be careful."
+        },
+        {
+          "action_id": 4,
+          "character": "Cici",
+          "character_id": 2,
+          "action": "Intervenes with a reminder",
+          "dialogue": "Patrick, I know you care deeply about both your family and your friends. But don't forget to care for yourself first."
+        },
+        {
+          "action_id": 5,
+          "character": "Patrick King",
+          "character_id": 0,
+          "action": "Considers his options",
+          "dialogue": "I understand what you're saying, Cici. It's just... I'm not sure I can do this without risking my health and my family's peace."
+        }
+      ],
+      "plot": "Patrick is caught between his friend Yury's urgent request for legal help and his recent illness and family responsibilities. Cici's intervention adds a layer of concern for his well-being, highlighting his internal conflict and the weight of his decisions.",
+      "social_purpose": "To demonstrate Patrick's struggle between loyalty to his friend and the need to protect his health and family, while showing how others in his life influence his choices.",
+      "chunk": {
+        "id": 0,
+        "text": "Patrick sits at the café table, sipping tea slowly as Yury's words hang in the air. His eyes drift to his phone, where Lena's message waits. Cici watches from across the room, silently acknowledging the tension. The three are bound by a shared goal—justice for Yury's case—but Patrick's recent illness and his role as a father create a barrier to immediate action. The scene captures the complexity of his decision-making under pressure, as he weighs loyalty against his own well-being."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "title": "Wedding Cake Conundrum",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Wedding planning meeting",
+      "time": "Afternoon, 3:15 PM",
+      "location": "Café near Gary's bakery",
+      "description": "James and Nancy are seated at a small table in a cozy café, across from Gary, the cake chef. James is flipping through a binder of design ideas, Nancy is sipping a latte, and Gary is leaning forward with a sketchpad in hand. The atmosphere is warm, but James occasionally glances at his phone, showing his tendency to be distracted.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "James Harrison",
+          "gender": "Male",
+          "description": "A detail-oriented and enthusiastic project manager who is also cautious and humorous. He is focused on the wedding planning but easily distracted by external interruptions.; Male, 30 years old; Occupation: Project Manager; Personality: Detail-oriented, Enthusiastic, Cautious, Humorous; Values: Creativity, Collaboration, Aesthetic Quality; Interests: Wedding Planning, Gourmet, Design; Experiences: Planning personal events, Collaborating with vendors, Joint decision-making",
+          "position": "Seated at the table with the binder open",
+          "states": "Engaged, slightly distracted, analytical",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Nancy Whitaker",
+          "gender": "Female",
+          "description": "Nancy Whitaker; Female; Age: 29; Occupation: Interior Designer; Personality: Supportive, empathetic, imaginative; Values: Creativity, partnership, authenticity; Interests: Artisanal coffee, home décor, collaborative projects; Experiences: Co-designed a community art space, helped several friends plan their weddings, recently moved to the city for her career.",
+          "position": "Seated next to James, sipping her latte",
+          "states": "Supportive, engaged, thoughtful",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Gary Mitchell",
+          "gender": "Male",
+          "description": "A passionate and experienced cake chef with a flair for design, eager to showcase his creativity but also sensitive to budget concerns; Male; Age: 34; Occupation: Owner and lead pastry chef of \"Mitchell's Delight,\" a boutique bakery specializing in custom wedding cakes; Personality: Detail-oriented, enthusiastic, and empathetic; Values: Artistic integrity, customer satisfaction, and fiscal responsibility; Interests: Vintage car restoration, baking competitions, and local art events; Experiences: Designed the cake for a celebrity wedding that gained national attention, successfully managed a high-profile but low-budget charity wedding cake, and launched a community cake-decorating workshop for aspiring bakers.",
+          "position": "Seated across from the couple, holding a sketchpad",
+          "states": "Creative, professional, slightly concerned",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "James Harrison",
+          "character_id": 0,
+          "action": "Opens the binder and points to a design",
+          "dialogue": "Gary, I really like the idea of the three-tiered cake with the floral accents. But I need to make sure it fits within our budget. What's the cost difference between that and a simpler design?"
+        },
+        {
+          "action_id": 1,
+          "character": "Gary Mitchell",
+          "character_id": 2,
+          "action": "Looks at the sketch and responds thoughtfully",
+          "dialogue": "The floral design is definitely more intricate, so it would add about 20% to the base price. But I can simplify the top tiers while keeping the bottom one as detailed as you'd like. That way, it still looks impressive without going overboard."
+        },
+        {
+          "action_id": 2,
+          "character": "Nancy Whitaker",
+          "character_id": 1,
+          "action": "Nods and adds a suggestion",
+          "dialogue": "That sounds like a good compromise. James, remember we talked about keeping the overall style elegant but not too extravagant. Gary, could you maybe suggest a color palette that matches our venue's aesthetic?"
+        },
+        {
+          "action_id": 3,
+          "character": "James Harrison",
+          "character_id": 0,
+          "action": "Smirks and checks his phone",
+          "dialogue": "I'm all for elegance, but I also want something that screams 'us'—like maybe a hidden layer with our favorite dessert?"
+        },
+        {
+          "action_id": 4,
+          "character": "Gary Mitchell",
+          "character_id": 2,
+          "action": "Laughs and flips through his sketchbook",
+          "dialogue": "I can definitely work that in. How about a surprise layer of chocolate lava cake in the middle? It's a classic and something your guests will remember."
+        }
+      ],
+      "plot": "James, Nancy, and Gary are discussing the design and cost of the wedding cake. James is eager for a creative and unique design but is cautious about the budget. Gary offers a compromise by simplifying the top tiers and adding a surprise dessert layer. Nancy supports the idea and helps facilitate the decision-making process.",
+      "social_purpose": "This scene illustrates how James balances his enthusiasm for creativity with his cautious approach to budgeting. It also highlights the collaborative dynamic between James and Nancy, as well as Gary's role as a professional who is sensitive to the couple's needs and values.",
+      "chunk": {
+        "id": 0,
+        "text": "James, Nancy, and Gary are discussing the design and cost of the wedding cake. James is eager for a creative and unique design but is cautious about the budget. Gary offers a compromise by simplifying the top tiers and adding a surprise dessert layer. Nancy supports the idea and helps facilitate the decision-making process."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

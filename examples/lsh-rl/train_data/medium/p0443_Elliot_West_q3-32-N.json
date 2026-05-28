@@ -1,0 +1,102 @@
+{
+  "title": "Community Meeting Tensions",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Community meeting to discuss expansion",
+      "time": "6:30 PM",
+      "location": "Local Community Center, Conference Room A",
+      "description": "The room is filled with a mix of residents and community advocates. Elliot West, the host, stands at the front, attempting to calm the room as the discussion about the community's growth becomes heated.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Elliot West",
+          "gender": "Male",
+          "description": "Elliot is in his element, standing at the podium with a thoughtful expression. He's trying to maintain a balance between honesty and diplomacy.; Early /Male/Community Organizer, 35 years old; Occupation: Property Management Team Leader; Personality: Sensitive, Determined, Anxious, Thoughtful; Values: Community integrity, Open dialogue, Inclusivity; Interests: Social engagement, Public speaking, Relationship building; Experiences: Initiating community organization, Hosting public events, Dealing with public attention",
+          "position": "Host",
+          "states": "Cautious, composed, but visibly anxious",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Tina Moore",
+          "gender": "Female",
+          "description": "Tina is a passionate advocate for the community, seated near the front with folded arms and a skeptical look; Female; Age: 42; Occupation: Urban Planner; Personality: Analytical, impatient, assertive, principled; Values: Equity, transparency, sustainability; Interests: Public policy, neighborhood revitalization, data-driven solutions; Experiences: Led a successful campaign to preserve green spaces in her neighborhood, worked on city projects that faced backlash from residents due to lack of communication, served on the local housing authority board.",
+          "position": "Community Advocate",
+          "states": "Firm, assertive, impatient",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Marcus Chen",
+          "gender": "Male",
+          "description": "Marcus is a new member of the community, quietly observing and occasionally interjecting with questions; Male; Age: 34; Occupation: Urban planner; Personality: Analytical, introverted, empathetic; Values: Sustainability, community cohesion; Interests: Architecture, local history; Experiences: Worked on revitalization projects in underserved neighborhoods, recently relocated from a larger city seeking a more connected environment.",
+          "position": "New Member",
+          "states": "Curious, reserved, attentive",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Elliot West",
+          "character_id": 0,
+          "action": "Opening the meeting and setting the tone",
+          "dialogue": "Thank you all for coming tonight. I know many of you are concerned about our growth and influence. Let's focus on what brought us together in the first place—our shared values and the kind of community we want to build."
+        },
+        {
+          "action_id": 1,
+          "character": "Tina Moore",
+          "character_id": 1,
+          "action": "Challenging the approach",
+          "dialogue": "Elliot, we all respect your vision, but we need to be realistic. If we don't show measurable growth, we'll lose the support of the city council and local businesses."
+        },
+        {
+          "action_id": 2,
+          "character": "Elliot West",
+          "character_id": 0,
+          "action": "Responding with sensitivity",
+          "dialogue": "I understand your concerns, Tina. But if we chase numbers without maintaining our integrity, we risk losing the essence of what makes this community special."
+        },
+        {
+          "action_id": 3,
+          "character": "Marcus Chen",
+          "character_id": 2,
+          "action": "Asking a clarifying question",
+          "dialogue": "What do you mean by 'integrity'? I'm new here, and I want to understand how we can grow while staying true to our values."
+        },
+        {
+          "action_id": 4,
+          "character": "Elliot West",
+          "character_id": 0,
+          "action": "Providing a thoughtful explanation",
+          "dialogue": "Great question, Marcus. For me, community integrity means inclusivity, open dialogue, and making sure everyone feels heard and respected. Growth should never come at the cost of those values."
+        },
+        {
+          "action_id": 5,
+          "character": "Tina Moore",
+          "character_id": 1,
+          "action": "Offering a compromise",
+          "dialogue": "I agree with the values, but we need to present a united front to the outside world. Maybe we can set some clear, value-driven goals for growth and report on them transparently."
+        },
+        {
+          "action_id": 6,
+          "character": "Elliot West",
+          "character_id": 0,
+          "action": "Considering the suggestion",
+          "dialogue": "That's a good idea, Tina. If we can define what growth looks like in a way that aligns with our mission, it might help bridge the gap between our internal values and external expectations."
+        }
+      ],
+      "plot": "Elliot hosts a community meeting where members debate the balance between growth and integrity. Despite tensions, especially with Tina's push for measurable results, Elliot manages to redirect the conversation toward values, allowing Marcus to engage and ask thoughtful questions. The dialogue ends with a tentative compromise that could strengthen the community's direction.",
+      "social_purpose": "To showcase Elliot's leadership style and values while exploring the dynamics between different community perspectives.",
+      "chunk": {
+        "id": 0,
+        "text": "The meeting begins with Elliot setting a tone of unity and reflection. Tina challenges him, pushing for tangible growth metrics. Marcus, as a new member, asks questions that reveal his interest in the community's values. Elliot's responses highlight his sensitivity and determination to protect the group's integrity, while also seeking common ground. The interaction demonstrates the complexity of community leadership and the importance of open dialogue in maintaining inclusivity."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "title": "The Website Redesign Proposal",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Alumni Association Meeting",
+      "time": "3:00 PM",
+      "location": "Conference Room at the University Alumni Center",
+      "description": "Caitlin is invited to a meeting with the incoming President of the Alumni Association, Tao, and her old friend Henry. The room is modestly furnished with a long table, chairs, and a projector. The agenda is to discuss a proposal for redesigning the MDC website, and Caitlin is being considered for the position of Vice President to lead the initiative. Tao is calm and persuasive, Henry is observant and supportive, and Caitlin is analytical and conflicted.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Caitlin Sanders",
+          "gender": "Female",
+          "description": "A 30-year-old technical engineer and candidate for Vice President of the Alumni Association. She is rational, ambitious, and self-aware, with a deep interest in digital project management and website development.; Female / Alumna, 30 years old; Occupation: Technical Engineer, Candidate for Vice President of the Alumni Association; Personality: Rational, Ambitious, Analytical, Self-aware; Values: Self-actualization, Career Growth, Friendship, Integrity; Interests: Website Development, Strategic Planning, Social Networking, Creative Problem Solving; Experiences: Recent participation in alumni events, Leadership training, Digital project management, Team collaboration",
+          "position": "Candidate for Vice President",
+          "states": "Hesitant, self-aware, analytical",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Tao Lin",
+          "gender": "Male",
+          "description": "The incoming President of the Alumni Association; Male; Age: 42; Occupation: Digital Marketing Consultant; Personality: Confident, persuasive, focused; Values: Integrity, collaboration, innovation; Interests: Strategic planning, public speaking, technology trends; Experiences: Led alumni engagement campaigns for a national university network, managed a team to revamp a nonprofit’s online presence, served on the Alumni Association board for three years.",
+          "position": "Incoming President of the Alumni Association",
+          "states": "Confident, persuasive, focused",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Henry Cho",
+          "gender": "Male",
+          "description": "Caitlin’s old friend and a quiet supporter; Male; Age: 32; Occupation: Digital Marketing Specialist; Personality: Observant, supportive, neutral; Values: Loyalty, innovation, integrity; Interests: Social networking, user experience design, photography; Experiences: Collaborated on campus event promotions during college, worked on nonprofit outreach campaigns, recently led a website redesign project for a local business.",
+          "position": "Supporting Friend and Digital Strategist",
+          "states": "Observant, supportive, neutral",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Tao Lin",
+          "character_id": 1,
+          "action": "Presenting the proposal",
+          "dialogue": "Caitlin, I believe your background in website development and your analytical approach will be vital in leading the MDC website redesign. This is a chance to grow your career and make a real impact."
+        },
+        {
+          "action_id": 1,
+          "character": "Caitlin Sanders",
+          "character_id": 0,
+          "action": "Listening and reacting",
+          "dialogue": "I appreciate the confidence in my skills, Tao, but I’m also concerned about the time commitment. I want to make sure I can do this role justice without neglecting my personal life."
+        },
+        {
+          "action_id": 2,
+          "character": "Henry Cho",
+          "character_id": 2,
+          "action": "Observing and recording",
+          "dialogue": ""
+        },
+        {
+          "action_id": 3,
+          "character": "Tao Lin",
+          "character_id": 1,
+          "action": "Reassuring and encouraging",
+          "dialogue": "I understand your concerns, Caitlin. We can build a team to share the load, and your leadership would provide the MDC with the direction it needs. It’s not just about career growth—it’s about making a difference."
+        },
+        {
+          "action_id": 4,
+          "character": "Caitlin Sanders",
+          "character_id": 0,
+          "action": "Considering the offer",
+          "dialogue": "I’ve been part of recent alumni events and seen how outdated the site is. If I can help bring it into the modern era while maintaining my integrity, it might be worth it."
+        },
+        {
+          "action_id": 5,
+          "character": "Henry Cho",
+          "character_id": 2,
+          "action": "Offering support",
+          "dialogue": "If you take it, I’ll be here to help with the strategy and creative direction. We can make this work for you and the MDC."
+        },
+        {
+          "action_id": 6,
+          "character": "Caitlin Sanders",
+          "character_id": 0,
+          "action": "Making a decision",
+          "dialogue": "Okay, I’ll accept the position. I want to challenge myself and see if I can balance this with my life. But I need to know that I won’t be overcommitted."
+        }
+      ],
+      "plot": "Caitlin is offered the role of Vice President of the Alumni Association to lead the redesign of the MDC website. She is torn between her ambition and her need for balance in life. Tao presents the opportunity as a chance for growth and impact, while Henry silently supports her and offers to help with the project. After some thoughtful consideration, Caitlin agrees to take on the role, but makes it clear that she needs support to avoid overcommitment.",
+      "social_purpose": "To explore Caitlin’s internal conflict between career growth and personal life, while showcasing her analytical and ambitious nature. The interaction also highlights her friendship with Henry and her alignment with the MDC’s need for modernization.",
+      "chunk": {
+        "id": 0,
+        "text": "Caitlin is offered the role of Vice President of the Alumni Association to lead the redesign of the MDC website. She is torn between her ambition and her need for balance in life. Tao presents the opportunity as a chance for growth and impact, while Henry silently supports her and offers to help with the project. After some thoughtful consideration, Caitlin agrees to take on the role, but makes it clear that she needs support to avoid overcommitment."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

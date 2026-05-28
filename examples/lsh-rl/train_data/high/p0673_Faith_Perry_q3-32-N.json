@@ -1,0 +1,109 @@
+{
+  "title": "The Wedding Invitation Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Family Gathering at a Café",
+      "time": "Afternoon",
+      "location": "A cozy local café",
+      "description": "Faith Perry sits at a corner table, sipping her coffee and staring at her phone. The café is filled with the soft hum of conversation and the clinking of cups. Her younger cousin, Lory, is seated across from her, beaming with excitement. Tao, a 17-year-old family friend, leans against the table, scrolling through his phone and muttering about the noise and the lack of free Wi-Fi. Faith's internal conflict about attending Lory's wedding is subtly revealed through her silence and the weight of the invitation on the screen.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Faith Perry",
+          "gender": "Female",
+          "description": "Around thirty, emotionally complex, and pensive. Faith is trying to process her feelings about Lory's wedding invitation.; Around 30 / Female / Family Member, 30 years old; Occupation: Administrator; Personality: Hesitant, Pensive, Emotionally Complex; Values: Personal Relationships, Authenticity, Family; Interests: Reading, Technology, Family Time; Experiences: Receiving a Wedding Invitation, Experiencing Emotional Estrangement, Interacting with Younger Family Members",
+          "position": "Corner table",
+          "states": "Contemplative, conflicted, slightly irritated",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Lory",
+          "gender": "Female",
+          "description": "Cheerful and eager to share her wedding plans; Female; Age: 23; Occupation: Event planner assistant; Personality: Optimistic, persuasive, sentimental; Values: Family, commitment, joy in life’s milestones; Interests: Planning social events, baking wedding cakes, romantic comedies; Experiences: Organized her sister’s engagement party, helped plan several local weddings, recently proposed to her long-term partner",
+          "position": "Across from Faith",
+          "states": "Excited, hopeful, a bit anxious",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Tao",
+          "gender": "Male",
+          "description": "Tao; Male; Age: 17; Occupation: High school student and part-time tech support for local small businesses; Personality: Bored, impatient, sarcastic, witty, observant; Values: Efficiency, honesty, individuality; Interests: Coding, gaming, meme culture, hacking (for fun and learning); Experiences: Helped set up a family member’s online store during the pandemic, often serves as the go-to person for tech issues at gatherings, grew up in a blended family dynamic that made him adept at navigating different generations.",
+          "position": "Leaning against the table",
+          "states": "Bored, impatient, sarcastic",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Lory",
+          "character_id": 1,
+          "action": "Shows excitement",
+          "dialogue": "Faith, I can't believe you haven't opened the invitation yet! We've been planning this for months, and I really want you to be there."
+        },
+        {
+          "action_id": 1,
+          "character": "Faith Perry",
+          "character_id": 0,
+          "action": "Avoids eye contact",
+          "dialogue": "I just need some time to think about it, Lory. It's not that simple."
+        },
+        {
+          "action_id": 2,
+          "character": "Tao",
+          "character_id": 2,
+          "action": "Complains about the café",
+          "dialogue": "Why do we always have to meet in places like this? I can't even get a signal. This is so inconvenient."
+        },
+        {
+          "action_id": 3,
+          "character": "Lory",
+          "character_id": 1,
+          "action": "Persuades Faith",
+          "dialogue": "But Faith, this is my wedding. It's important to me. I don't want you to feel left out because of what happened before."
+        },
+        {
+          "action_id": 4,
+          "character": "Faith Perry",
+          "character_id": 0,
+          "action": "Reflects on the past",
+          "dialogue": "It's not about being left out. It's about being honest with myself and with you. I'm not sure I can be there without pretending I'm okay with everything."
+        },
+        {
+          "action_id": 5,
+          "character": "Tao",
+          "character_id": 2,
+          "action": "Suggests a compromise",
+          "dialogue": "Maybe she can just come for the reception. It's way shorter and way more fun. I mean, I wouldn't miss it for the world."
+        },
+        {
+          "action_id": 6,
+          "character": "Faith Perry",
+          "character_id": 0,
+          "action": "Considers the suggestion",
+          "dialogue": "That's not a bad idea, actually. I might be able to handle the reception. But I need to make sure I'm not there just to please you or my family."
+        },
+        {
+          "action_id": 7,
+          "character": "Lory",
+          "character_id": 1,
+          "action": "Reassures Faith",
+          "dialogue": "I want you to be there for you, Faith. I know things have changed, but I still care about you. We all do."
+        }
+      ],
+      "plot": "Faith is struggling with whether to attend her estranged friend Lory's wedding. The conversation at the café reveals her internal conflict, the pressure from family expectations, and the generational differences Tao represents. Lory's hope for reconciliation and Tao's practical suggestion help Faith consider a compromise that aligns with her values of authenticity and personal relationships.",
+      "social_purpose": "To explore Faith's emotional complexity, her values of authenticity and family, and her hesitation in the context of a wedding invitation and generational differences.",
+      "chunk": {
+        "id": 0,
+        "text": "Faith Perry sat in the café, the wedding invitation glowing on her phone. Lory's excitement was palpable, but Faith's hesitation was just as real. Tao's presence, with his complaints and youthful energy, only added to the tension. The group's shared goal of attending the wedding brought out the subtle pressures of family and the weight of past relationships."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

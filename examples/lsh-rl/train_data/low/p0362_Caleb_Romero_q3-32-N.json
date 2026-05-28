@@ -1,0 +1,74 @@
+{
+  "title": "The Weekend Game Night",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Caleb receives a message from Jack inviting him to a weekend game night at a local board game café.",
+      "time": "Friday evening",
+      "location": "Caleb's apartment",
+      "description": "Caleb is sitting in his dimly lit apartment, surrounded by game consoles and stacks of books. He stares at his phone, hesitating to respond to Jack's message. The message reads: 'Hey man, Jacob and I are hosting a game night this weekend. You in?'",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Caleb Romero",
+          "gender": "male",
+          "description": "A 29-year-old tech magazine editor who has been withdrawing from social interactions after a recent setback. He's thoughtful and analytical but struggles to take action in social situations.; male, editor, 29 years old; Occupation: Tech magazine editor; Personality: Introspective, Analytical, Enthusiastic; Values: Friendship, Self-improvement, Creativity; Interests: Video games, Music, Technology; Experiences: Recent social setback, Working in media, Deeply immersed in hobbies",
+          "position": "Sitting on the couch",
+          "states": "Anxious, hesitant, introspective",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Jack",
+          "gender": "male",
+          "description": "Caleb's close friend and coworker. Jack is optimistic and persistent, always trying to bring people together; male; Age: 28; Occupation: Video game tester; Personality: Enthusiastic, supportive, social; Values: Friendship, creativity, perseverance; Interests: Board games, retro gaming, storytelling; Experiences: Organized multiple game nights to bond with coworkers, helped Caleb through a difficult project deadline, grew up playing tabletop games with his siblings.",
+          "position": "Not present, but mentioned via text",
+          "states": "Hopeful, encouraging",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Jacob",
+          "gender": "male",
+          "description": "Another friend of Caleb's, more laid-back and practical; male; Age: 28; Occupation: HVAC technician; Personality: easygoing, analytical, loyal; Values: reliability, friendship, simplicity; Interests: board games, classic video games, DIY home projects; Experiences: worked in the same trade as Caleb for five years, co-hosted game nights with Jack and Caleb for years, recently moved into a new apartment and is still settling in.",
+          "position": "Not present, but mentioned via text",
+          "states": "Uncertain, realistic",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Caleb Romero",
+          "character_id": 0,
+          "action": "reads the message from Jack",
+          "dialogue": "Caleb: (to himself) 'I should go... but what if I mess up again?'"
+        },
+        {
+          "action_id": 1,
+          "character": "Caleb Romero",
+          "character_id": 0,
+          "action": "considers his recent social setback",
+          "dialogue": "Caleb: (to himself) 'Maybe this is a step toward getting back out there.'"
+        },
+        {
+          "action_id": 2,
+          "character": "Caleb Romero",
+          "character_id": 0,
+          "action": "types a reply to Jack",
+          "dialogue": "Caleb: 'Yeah, I'll be there. What time should I come?'"
+        }
+      ],
+      "plot": "Caleb is invited to a weekend game night by his friend Jack. After some internal conflict, he decides to accept the invitation, which marks a small but significant step in his journey to reconnect with others.",
+      "social_purpose": "To show Caleb's struggle with social withdrawal and his eventual decision to engage, driven by his values of friendship and self-improvement.",
+      "chunk": {
+        "id": 0,
+        "text": "Caleb sat on the edge of his couch, the glow of his game console casting a soft light across the room. His phone buzzed again, and he picked it up, eyes scanning the message from Jack. He had been avoiding people since the incident at the office party, but the idea of playing board games with friends stirred something in him. Taking a deep breath, he typed a reply, fingers trembling slightly. 'Yeah, I'll be there. What time should I come?' The message sent, and he felt a flicker of hope mixed with anxiety."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

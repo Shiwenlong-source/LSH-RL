@@ -1,0 +1,95 @@
+{
+  "title": "The Wedding Planning Lunch",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Lunch meeting to discuss wedding plans",
+      "time": "12:30 PM, Saturday",
+      "location": "Café Lumière, downtown",
+      "description": "Naomi and Lina meet at a quiet café to discuss the upcoming wedding. Naomi is trying to remain composed while Lina is calm but evasive. Another friend, Molly, joins them, sensing the tension and attempting to mediate.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Naomi Meyer",
+          "gender": "Female",
+          "description": "A 28-year-old administrative staff member who values trust and emotional clarity. She is cautious and analytical, often overthinking social situations.; Female, Lina's friend, 28 years old; Occupation: Administrative staff; Personality: Cautious, Rational, Sensitive, Analytical; Values: Trust, Honesty, Emotional boundaries; Interests: Friendship dynamics, Emotional clarity, Personal integrity; Experiences: Close friendship with Lina, Experiencing relationship tension, Resolving emotional conflicts",
+          "position": "Seated at a corner table with her phone on the table, waiting for Lina to arrive",
+          "states": "Anxious, observant, trying to stay rational",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Lina Carter",
+          "gender": "Female",
+          "description": "Calm on the surface but evasive when questioned about personal matters; Female; Age: 35; Occupation: Corporate Lawyer; Personality: Analytical, reserved, responsible; Values: Professional integrity, family loyalty; Interests: Classical music, curated art exhibitions; Experiences: Recently promoted to senior partner, navigating a high-stakes merger case, caring for aging parents while planning her wedding.",
+          "position": "Sitting across from Naomi, sipping a latte with a faint smile",
+          "states": "Distant, composed, slightly guarded",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Molly Chen",
+          "gender": "Female",
+          "description": "A 29-year-old event planner and mutual friend of Naomi and Lina. She is empathetic and observant, often stepping in to help resolve conflicts; Female; Age: 29; Occupation: Event Planner; Personality: Empathetic, observant, diplomatic; Values: Harmony, loyalty, authenticity; Interests: Wedding trends, interior design, people-watching; Experiences: Organized multiple weddings for friends, helped mediate a falling-out between two co-workers during a high-stakes event, planned a surprise engagement party for a close friend.",
+          "position": "Sitting beside Naomi, leaning forward to listen attentively",
+          "states": "Concerned, trying to be supportive, curious about the dynamic",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Naomi Meyer",
+          "character_id": 0,
+          "action": "Asks a direct question about the wedding plans",
+          "dialogue": "I just want to make sure we’re on the same page, Lina. You said you wanted me to help with the guest list, but you haven’t given me any details yet. What’s going on?"
+        },
+        {
+          "action_id": 1,
+          "character": "Lina Carter",
+          "character_id": 1,
+          "action": "Avoids the question and changes the subject",
+          "dialogue": "Oh, right, the guest list. I’ll get that to you soon. I’ve been so busy with the venue and the caterer. It’s been a whirlwind."
+        },
+        {
+          "action_id": 2,
+          "character": "Molly Chen",
+          "character_id": 2,
+          "action": "Attempts to mediate and ease the tension",
+          "dialogue": "Hey, you two. Maybe we can start with the venue details and work from there. I can help cross-check the guest list once we have a headcount."
+        },
+        {
+          "action_id": 3,
+          "character": "Naomi Meyer",
+          "character_id": 0,
+          "action": "Expresses her need for honesty",
+          "dialogue": "Molly, I appreciate that, but I’m not here just to help with logistics. I’m here because I care about our friendship, and I feel like we’re not being honest with each other."
+        },
+        {
+          "action_id": 4,
+          "character": "Lina Carter",
+          "character_id": 1,
+          "action": "Responds with mild defensiveness",
+          "dialogue": "I’m being honest. I just don’t want to overcomplicate things. This is supposed to be a happy time."
+        },
+        {
+          "action_id": 5,
+          "character": "Molly Chen",
+          "character_id": 2,
+          "action": "Tries to redirect the conversation to a shared interest",
+          "dialogue": "I think it’s great that you’re both focused on the bigger picture. Maybe we can talk about the theme of the wedding? Naomi, you mentioned a rustic vibe last time. What do you think, Lina?"
+        }
+      ],
+      "plot": "Naomi and Lina meet for a lunch to discuss wedding planning, but the conversation quickly becomes strained as Naomi seeks clarity and Lina remains evasive. Molly, noticing the tension, tries to mediate by redirecting the conversation to more neutral topics. The shared goal of helping with the wedding becomes a platform for uncovering deeper emotional concerns and values.",
+      "social_purpose": "To explore the dynamics of friendship, the need for emotional honesty, and the challenges of maintaining personal integrity in emotionally charged situations.",
+      "chunk": {
+        "id": 0,
+        "text": "Naomi and Lina sit across from each other at Café Lumière, sipping their coffees. Lina’s calm demeanor masks a subtle distance, while Naomi’s analytical mind is on high alert, picking up on every evasion. Molly arrives and joins them, sensing the tension and attempting to steer the conversation toward a shared goal. The dialogue reveals underlying values and the struggle to maintain trust and emotional boundaries."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

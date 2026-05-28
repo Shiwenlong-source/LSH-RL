@@ -1,0 +1,95 @@
+{
+  "title": "Final Rehearsal Tensions",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Chloe and Molly are rehearsing for an upcoming performance while Coach Grace observes.",
+      "time": "6:30 PM",
+      "location": "University Dance Studio 3",
+      "description": "The studio is dimly lit with mirrors lining the walls. Chloe and Molly are in the center, going through a complex routine. Coach Grace stands nearby, watching closely.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Chloe Ramirez",
+          "gender": "20-year-old female, student, 20 years old",
+          "description": "Chloe is a passionate and driven dance student, visibly exhausted but focused. She wears a leotard and is holding a water bottle.; 20-year-old female, student, 20 years old; Occupation: Dance performance student; Personality: Passionate, Determined, Empathetic, Driven; Values: Dedication, Teamwork, Artistic excellence; Interests: Dance, Performing, Creative expression, Physical training; Experiences: High-intensity dance training, Preparing for stage performances, Collaborating with dance partners, Balancing physical and mental limits",
+          "position": "Center of the studio",
+          "states": "Exhausted, determined, empathetic",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Molly Chen",
+          "gender": "21-year-old female, student, 21 years old",
+          "description": "Slightly out of breath and wincing after a particularly difficult move; Female; Age: 21; Occupation: Dance major and part-time dance instructor; Personality: Determined, empathetic, perfectionistic; Values: Dedication, teamwork, authenticity; Interests: Contemporary dance, music production, yoga; Experiences: Competed in regional dance championships, led a university dance workshop, suffered a minor ankle injury during a performance.",
+          "position": "Partner to Chloe",
+          "states": "Painful, fatigued, committed",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Coach Grace",
+          "gender": "35-year-old female, professional dancer and instructor, 35 years old",
+          "description": "Coach Grace is experienced and observant, with a clipboard in hand and a calm but firm demeanor; Female; Age: 35; Occupation: Professional dancer and dance instructor; Personality: Supportive, patient, detail-oriented; Values: Dedication, integrity, student growth; Interests: Contemporary dance, choreography, mentoring young artists; Experiences: Competed in national dance competitions, taught at prestigious performing arts schools, choreographed for university productions.",
+          "position": "Near the studio entrance",
+          "states": "Supportive, concerned, professional",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Chloe Ramirez",
+          "character_id": 0,
+          "action": "Chloe finishes a difficult sequence and turns to Molly, catching her wince.",
+          "dialogue": "Molly, are you okay? That last move looked tough on your knee."
+        },
+        {
+          "action_id": 1,
+          "character": "Molly Chen",
+          "character_id": 1,
+          "action": "Molly wipes her brow and forces a smile.",
+          "dialogue": "I'm fine, really. Just a little sore. We can't stop now, not when the performance is so close."
+        },
+        {
+          "action_id": 2,
+          "character": "Coach Grace",
+          "character_id": 2,
+          "action": "Coach Grace approaches and speaks gently but firmly.",
+          "dialogue": "You two have worked hard, but I can see the fatigue. Do you need to take a break or adjust the routine?"
+        },
+        {
+          "action_id": 3,
+          "character": "Chloe Ramirez",
+          "character_id": 0,
+          "action": "Chloe looks between Coach Grace and Molly, then nods slowly.",
+          "dialogue": "Maybe we could take 10 minutes to rest and reassess. I don’t want to risk either of us getting hurt before the show."
+        },
+        {
+          "action_id": 4,
+          "character": "Molly Chen",
+          "character_id": 1,
+          "action": "Molly nods in relief and sits on the floor, stretching her leg.",
+          "dialogue": "Thanks, Chloe. I appreciate you looking out for me."
+        },
+        {
+          "action_id": 5,
+          "character": "Coach Grace",
+          "character_id": 2,
+          "action": "Coach Grace smiles in approval and walks over to the pair.",
+          "dialogue": "That’s the spirit of a great team. Let’s take a short break and come back stronger."
+        }
+      ],
+      "plot": "Chloe and Molly are rehearsing for an upcoming performance when Chloe notices Molly's discomfort. She advocates for a short break, showing her empathetic nature, while Coach Grace supports the decision, emphasizing the importance of teamwork and preparation over pushing through pain.",
+      "social_purpose": "To demonstrate Chloe's values of dedication, teamwork, and artistic excellence, while also showing her empathetic and driven personality through her concern for Molly and decision to prioritize rest.",
+      "chunk": {
+        "id": 0,
+        "text": "Chloe and Molly are rehearsing for an upcoming performance when Chloe notices Molly's discomfort. She advocates for a short break, showing her empathetic nature, while Coach Grace supports the decision, emphasizing the importance of teamwork and preparation over pushing through pain."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

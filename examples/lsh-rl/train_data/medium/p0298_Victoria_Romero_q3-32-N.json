@@ -1,0 +1,109 @@
+{
+  "title": "A New Path",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Victoria invites her close friends Leo and Lora to a quiet café to share a significant personal decision.",
+      "time": "Afternoon",
+      "location": "A cozy, local café with soft lighting and a calm atmosphere",
+      "description": "Victoria sits across from her friends, her hands folded on the table as she prepares to speak. The café is filled with the faint hum of conversation and the aroma of freshly brewed coffee. She has chosen this place for its quiet, hoping it will provide a calm backdrop for a difficult but important conversation.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Victoria Romero",
+          "gender": "female",
+          "description": "A former professional volleyball player in her mid-20s, Victoria is introspective and sincere. Her recent faith awakening has brought a sense of purpose to her life, but also uncertainty in her relationships.; female, Former athlete, 25 years old; Occupation: Former professional volleyball player; Personality: Determined, Sincere, Introspective, Resilient; Values: Faith, Authenticity, Friendship; Interests: Sports, Spirituality, Deep conversations; Experiences: Professional volleyball career, Recent faith awakening, Close circle of friends",
+          "position": "Seated at the center of the table",
+          "states": "Anxious yet determined, with a quiet intensity",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Leo Martinez",
+          "gender": "male",
+          "description": "Victoria's long-time friend and former teammate, Leo is supportive and easygoing; Male; Age: 28; Occupation: Physical education teacher and part-time personal trainer; Personality: Loyal, patient, and pragmatic; Values: Teamwork, health and well-being, honesty; Interests: Basketball, hiking, and watching sports documentaries; Experiences: Played college basketball, helped Victoria through a difficult recovery after an injury, and recently started mentoring youth athletes.",
+          "position": "Seated to Victoria's left",
+          "states": "Relaxed, attentive, and empathetic",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Lora Chen",
+          "gender": "female",
+          "description": "A thoughtful and inquisitive friend who values personal growth but often questions it; Female; Age: 28; Occupation: Clinical Psychologist; Personality: Analytical, empathetic, skeptical; Values: Intellectual honesty, emotional well-being, authenticity; Interests: Philosophy, journaling, indie music; Experiences: Navigated a close friendship that changed due to a life-altering career shift, worked with clients on identity and self-discovery, recently attended a workshop on ethical decision-making in personal and professional life.",
+          "position": "Seated to Victoria's right",
+          "states": "Curious, slightly skeptical, and analytical",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Victoria Romero",
+          "character_id": 0,
+          "action": "Taking a deep breath and beginning the conversation",
+          "dialogue": "I’ve been meaning to talk to you both for a while now. I’ve gone through a lot of changes recently, and I think it’s time I shared what’s been going on with me."
+        },
+        {
+          "action_id": 1,
+          "character": "Leo Martinez",
+          "character_id": 1,
+          "action": "Nodding in encouragement",
+          "dialogue": "Of course, Vicky. We’re here for you. What’s on your mind?"
+        },
+        {
+          "action_id": 2,
+          "character": "Victoria Romero",
+          "character_id": 0,
+          "action": "Expressing her new focus",
+          "dialogue": "I’ve decided to step away from competitive sports and focus on deepening my faith. It’s not something I took lightly, but I feel it’s where I need to be right now."
+        },
+        {
+          "action_id": 3,
+          "character": "Lora Chen",
+          "character_id": 2,
+          "action": "Leaning forward, intrigued",
+          "dialogue": "That’s a big shift. I get that you’ve been through a lot, but how do you see this changing your life?"
+        },
+        {
+          "action_id": 4,
+          "character": "Victoria Romero",
+          "character_id": 0,
+          "action": "Explaining her motivations",
+          "dialogue": "It’s not just about changing my career path. It’s about aligning my life with something deeper. I’ve always valued authenticity, and this feels like the most honest version of myself right now."
+        },
+        {
+          "action_id": 5,
+          "character": "Leo Martinez",
+          "character_id": 1,
+          "action": "Reassuring her of his support",
+          "dialogue": "I’m proud of you for being so clear about what you want. We’ll still be here for you, even if your path is different now."
+        },
+        {
+          "action_id": 6,
+          "character": "Lora Chen",
+          "character_id": 2,
+          "action": "Voicing her concerns",
+          "dialogue": "I hope you know that change can be hard on friendships. I just don’t want this to push us apart."
+        },
+        {
+          "action_id": 7,
+          "character": "Victoria Romero",
+          "character_id": 0,
+          "action": "Reassuring her friends",
+          "dialogue": "I know it might feel strange at first, but I want to grow while still being true to the friendship we’ve built. I’m counting on both of you to help me navigate this."
+        }
+      ],
+      "plot": "Victoria shares her decision to leave sports and embrace a life centered around faith. While Leo is supportive, Lora expresses concern about how this change will affect their friendship. Victoria reassures them that she values their presence and wants to remain connected.",
+      "social_purpose": "To explore the impact of personal transformation on close relationships and to show how differing perspectives can coexist within a supportive dynamic.",
+      "chunk": {
+        "id": 0,
+        "text": "Victoria’s announcement begins a conversation that will test the strength of her friendships and her own resilience in a new chapter of her life."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "title": "A Divorce at City Hall",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Waiting in line for a divorce filing",
+      "time": "10:30 AM",
+      "location": "San Francisco City Hall, 1 Dr. Carlton B. Goodlett Place",
+      "description": "Luke Washington stands in a long line at the San Francisco City Hall, clutching divorce papers, filled with regret and anxiety. His best friend Miles and his sister Yuna are by his side, trying to offer support and persuasion. Miles questions whether this is the only option, hinting at the possibility of reconciliation, while Yuna reminds him of lessons about love from his childhood. Luke's emotional fluctuations reflect the deep contradiction between his desire for resolution and his hesitation. The waiting crowd and bureaucratic environment intensify the tension. His choice today will not only affect his own life but also impact those who care about him.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Luke Washington",
+          "gender": "Male",
+          "description": "A 35-year-old real estate manager preparing to file for divorce. He is emotionally conflicted, impulsive, and seeking resolution.; Male, Married preparing for divorce, 35 years old; Occupation: San Francisco Real Estate Manager; Personality: Impulsive, Emotional, Conflicted; Values: Family, Truth, Resolution; Interests: Real Estate, Parties, Emotional Reflection; Experiences: Impulsive marriage, Discovering the truth about marriage, Emotional breakdown, Support from friends and family, Legal proceedings",
+          "position": "Middle of the line",
+          "states": "Anxious, contemplative, hesitant",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Miles Carter",
+          "gender": "Male",
+          "description": "Miles Carter; Male; Age: 34; Occupation: Social worker; Personality: Supportive, pragmatic, empathetic; Values: Loyalty, redemption, emotional well-being; Interests: Volunteering at community centers, jazz music, hiking; Experiences: Navigated a difficult divorce in his early 30s, worked with families in crisis for over a decade, helped friends and clients through major life transitions.",
+          "position": "Standing to Luke's left",
+          "states": "Encouraging, concerned, patient",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Yuna Washington",
+          "gender": "Female",
+          "description": "Luke's younger sister; Female; Age: 22; Occupation: Social worker; Personality: Empathetic, introspective, compassionate; Values: Family unity, emotional honesty; Interests: Reading self-help books, journaling, volunteering at community centers; Experiences: Witnessed her parents' long-term marriage, helped Luke through past heartbreaks, recently counseled friends through relationship issues.",
+          "position": "Standing to Luke's right",
+          "states": "Supportive, reflective, calm",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Miles Carter",
+          "character_id": 1,
+          "action": "Asks Luke if he's sure about proceeding",
+          "dialogue": "Luke, are you sure about this? You've been through a lot, but maybe there's still a chance to work things out."
+        },
+        {
+          "action_id": 1,
+          "character": "Luke Washington",
+          "character_id": 0,
+          "action": "Responds with uncertainty",
+          "dialogue": "I don't know, Miles. I just can't keep pretending anymore. Every time I try, I feel like I'm lying to myself."
+        },
+        {
+          "action_id": 2,
+          "character": "Yuna Washington",
+          "character_id": 2,
+          "action": "Shares a memory with Luke",
+          "dialogue": "Remember when we used to play house as kids, and you said that love was about always coming back to each other? I still believe that, even now."
+        },
+        {
+          "action_id": 3,
+          "character": "Luke Washington",
+          "character_id": 0,
+          "action": "Looks down at the papers, emotional",
+          "dialogue": "I used to believe that too, Yuna. But I don't think I can keep going like this. I need truth, even if it hurts."
+        },
+        {
+          "action_id": 4,
+          "character": "Miles Carter",
+          "character_id": 1,
+          "action": "Offers an alternative",
+          "dialogue": "Maybe counseling? Or just a break from the routine? Sometimes people forget how to talk, not how to love."
+        },
+        {
+          "action_id": 5,
+          "character": "Luke Washington",
+          "character_id": 0,
+          "action": "Considers the suggestion",
+          "dialogue": "I thought about that... but every time I try to reach out, it feels like it's too late. I need resolution, not more time to feel stuck."
+        },
+        {
+          "action_id": 6,
+          "character": "Yuna Washington",
+          "character_id": 2,
+          "action": "Places a hand on Luke's shoulder",
+          "dialogue": "Whatever you decide, I'm here for you. Just don't forget who you are in the process."
+        },
+        {
+          "action_id": 7,
+          "character": "Luke Washington",
+          "character_id": 0,
+          "action": "Nods slowly",
+          "dialogue": "I won't. Thank you both for being here. I just... I need to do this for me."
+        }
+      ],
+      "plot": "Luke is preparing to file for divorce at City Hall, supported by his best friend Miles and his sister Yuna. Their conversation reveals Luke's internal conflict, his need for truth and resolution, and the emotional weight of his decision. Miles and Yuna offer different perspectives, with Miles encouraging reconciliation and Yuna emphasizing the importance of remembering the lessons of love and family.",
+      "social_purpose": "To explore the protagonist's values, personality, and experiences through a realistic and emotionally charged social interaction in a public setting.",
+      "chunk": {
+        "id": 0,
+        "text": "As the line slowly moves forward, Luke's hand trembles slightly as he clutches the papers. Miles and Yuna remain by his side, each offering a different kind of support. The atmosphere in the building is quiet but tense, filled with people going through similar moments of life-changing decisions. Luke's voice is low and steady as he speaks, revealing the depth of his emotions and the weight of his past. The dialogue highlights the contrast between Luke's need for resolution and the emotional encouragement from his loved ones, all while the bureaucratic process looms ahead."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

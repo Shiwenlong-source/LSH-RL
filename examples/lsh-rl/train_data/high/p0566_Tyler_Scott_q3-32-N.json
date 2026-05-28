@@ -1,0 +1,88 @@
+{
+  "title": "The Coffee Shop Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Coffee Shop Discussion",
+      "time": "Saturday morning, 10:30 AM",
+      "location": "A cozy local coffee shop",
+      "description": "Tyler is sitting at a corner table with his laptop, visibly anxious. Yuna and Chen approach him, both concerned about the recent controversy. They gather around the table to discuss what Tyler should do next.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Tyler Scott",
+          "gender": "Male",
+          "description": "A 26-year-old social media content creator who is now in a moral and emotional dilemma after his post caused unintended backlash.; Male, 26 years old; Occupation: Social Media Content Creator; Personality: Anxious, Thoughtful, Self-reflective; Values: Authenticity, Integrity, Family; Interests: Social Media, Self-expression, Digital Communication; Experiences: Posting social media content, Public controversy, Friendship conflict, Family discussion, Personal reflection",
+          "position": "Corner table, laptop open",
+          "states": "Anxious, thoughtful",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Yuna Kim",
+          "gender": "Female",
+          "description": "A pragmatic and socially aware friend of Tyler who is concerned about the public perception of his actions; Female; Age: 27; Occupation: Social media strategist; Personality: Analytical, empathetic, determined; Values: Integrity, community impact, loyalty; Interests: Urban culture, documentary filmmaking, coffee roasting; Experiences: Managed crisis PR for a local nonprofit, organized a successful social media campaign for a friend’s art exhibit, volunteered in youth mentorship programs.",
+          "position": "Sitting to Tyler's left",
+          "states": "Concerned, assertive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Chen Scott",
+          "gender": "Female",
+          "description": "Chen Scott; Female; Age: 28; Occupation: Social media strategist and content consultant; Personality: Analytical, empathetic, composed; Values: Authenticity, integrity, accountability; Interests: Journalism, indie music, community organizing; Experiences: Managed a viral campaign for a local activist group, navigated public relations during a misinformation crisis, mentored young content creators on ethical communication.",
+          "position": "Sitting to Tyler's right",
+          "states": "Calm, supportive",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Yuna Kim",
+          "character_id": 1,
+          "action": "Suggests a solution",
+          "dialogue": "Tyler, I know you didn't mean to cause a stir, but this post is getting out of hand. You should either delete it or issue a clarification. Your audience needs to know where you stand."
+        },
+        {
+          "action_id": 1,
+          "character": "Tyler Scott",
+          "character_id": 0,
+          "action": "Expresses internal conflict",
+          "dialogue": "I get that, Yuna. But if I delete it, people might think I'm hiding or being fake. I value authenticity, but I also don't want to lose my family's support over this."
+        },
+        {
+          "action_id": 2,
+          "character": "Chen Scott",
+          "character_id": 2,
+          "action": "Offers perspective",
+          "dialogue": "I understand both sides, Tyler. But remember, being authentic doesn't mean being careless. If you issue a thoughtful clarification, it shows integrity. And I'm here for you no matter what."
+        },
+        {
+          "action_id": 3,
+          "character": "Tyler Scott",
+          "character_id": 0,
+          "action": "Reflects on the situation",
+          "dialogue": "You're right, Chen. I just need to figure out how to say it without sounding defensive. I want to stay true to myself, but this is bigger than me now."
+        },
+        {
+          "action_id": 4,
+          "character": "Yuna Kim",
+          "character_id": 1,
+          "action": "Encourages action",
+          "dialogue": "How about we help you draft a response? You don't have to do this alone. Let's make sure it reflects your values and your voice."
+        }
+      ],
+      "plot": "Tyler is caught in a moral and emotional conflict after a controversial social media post. His friend Yuna and his sister Chen offer different perspectives on how he should address the situation. Tyler struggles to balance authenticity with the potential consequences of his actions.",
+      "social_purpose": "To explore the tension between personal authenticity and public accountability, while highlighting Tyler's internal conflict and the support he receives from his friends and family.",
+      "chunk": {
+        "id": 0,
+        "text": "The conversation at the coffee shop begins to unfold as Tyler's laptop screen reflects the tension in the room. Yuna's direct advice contrasts with Chen's more reflective approach, pushing Tyler to confront his values and the impact of his online presence. Through their dialogue, Tyler begins to see that his actions, while rooted in self-expression, also carry weight in how others perceive him. The shared goal of resolving the situation becomes a test of Tyler's integrity and his commitment to his family and friends."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

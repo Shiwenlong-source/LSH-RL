@@ -1,0 +1,102 @@
+{
+  "title": "Phone Bank Tensions",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Phone Bank Volunteer Shift",
+      "time": "Afternoon",
+      "location": "Campaign Office Call Center",
+      "description": "Leo, Hua, and Kong are working a phone shift in a local campaign office, calling voters to encourage support for Kerry. The atmosphere is tense but focused, with volunteers trying to meet their call quotas.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Leo Cooper",
+          "gender": "Male",
+          "description": "27-year-old political volunteer with a strong belief in efficiency and pragmatism. He is eager to win and often speaks his mind without hesitation.; Male / Political Volunteer, 27 years old; Occupation: Political Campaign Volunteer; Personality: Enthusiastic, Impatient, Determined, Argumentative; Values: Efficiency, Pragmatism, Political Engagement; Interests: Political Activism, Debate, Campaign Work; Experiences: Participating in political volunteering, Engaging in political discussions, Team collaboration",
+          "position": "Phone Bank Volunteer",
+          "states": "Enthusiastic, Argumentative",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Hua Chen",
+          "gender": "Female",
+          "description": "32-year-old volunteer who supports third-party candidates and believes in the importance of representation and diversity in political discourse; Female; Age: 32; Occupation: Community Organizer and Nonprofit Program Coordinator; Personality: Calm, Analytical, Empathetic; Values: Equity, Civic Engagement, Inclusivity; Interests: Political strategy, grassroots activism, reading about social justice; Experiences: Organized voter registration drives in underrepresented neighborhoods, volunteered for a local environmental advocacy group during a mayoral campaign, led a community forum on political representation.",
+          "position": "Phone Bank Supervisor",
+          "states": "Calm, Analytical",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Kong Li",
+          "gender": "Male",
+          "description": "29-year-old volunteer who is strategic and diplomatic; Male; Age: 29; Occupation: Political Campaign Volunteer; Personality: Observant, Compromising, Analytical; Values: Civic responsibility, Unity, Fairness; Interests: Debate, Public policy, Technology; Experiences: Worked on local mayoral campaigns, Mediated community disputes, Participated in political strategy workshops.",
+          "position": "Phone Bank Volunteer",
+          "states": "Observant, Compromising",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Leo Cooper",
+          "character_id": 0,
+          "action": "Initiates a conversation about third-party candidates.",
+          "dialogue": "Hey Hua, I just hung up on someone who said they were going to vote for a third-party candidate. I don't see the point. We need to focus on getting the votes that actually matter for Kerry."
+        },
+        {
+          "action_id": 1,
+          "character": "Hua Chen",
+          "character_id": 1,
+          "action": "Responds with a measured defense of third-party significance.",
+          "dialogue": "Leo, I understand your point, but third parties are important for representing diverse voices. Even if they don't win, they bring attention to issues that the major parties ignore."
+        },
+        {
+          "action_id": 2,
+          "character": "Kong Li",
+          "character_id": 2,
+          "action": "Proposes a compromise strategy.",
+          "dialogue": "What if we still encourage people to support Kerry, but also acknowledge that third-party votes can be a way to express dissatisfaction with the main options? That might keep people engaged without alienating them."
+        },
+        {
+          "action_id": 3,
+          "character": "Leo Cooper",
+          "character_id": 0,
+          "action": "Pushes back with a pragmatic stance.",
+          "dialogue": "That's just splitting hairs. If we don't make it clear that third-party votes are a waste, we're not doing our job. People need to know the stakes!"
+        },
+        {
+          "action_id": 4,
+          "character": "Hua Chen",
+          "character_id": 1,
+          "action": "Counters with a focus on long-term political impact.",
+          "dialogue": "But if we shut down every alternative, we risk losing the trust of people who feel unheard. That's not just about winning one election."
+        },
+        {
+          "action_id": 5,
+          "character": "Kong Li",
+          "character_id": 2,
+          "action": "Attempts to mediate the disagreement.",
+          "dialogue": "Okay, okay. I think we can all agree that the goal is to make a difference. Maybe we can adjust the script to be more inclusive but still emphasize the importance of supporting Kerry."
+        },
+        {
+          "action_id": 6,
+          "character": "Leo Cooper",
+          "character_id": 0,
+          "action": "Expresses frustration but agrees to consider the idea.",
+          "dialogue": "Fine, but I still think it's a distraction. If we don't stick to the plan, we're not going to win. I'll keep pushing for the best results."
+        }
+      ],
+      "plot": "Leo, Hua, and Kong are working a phone bank to support Kerry during a local election. Their discussion about third-party candidates turns into a heated debate, with Leo insisting that third-party votes are wasted, Hua defending their value, and Kong trying to find a balanced approach. The tension highlights differing political values and may affect the team's cohesion.",
+      "social_purpose": "To explore the conflict between efficiency and representation in political activism, and how differing values can impact teamwork and morale.",
+      "chunk": {
+        "id": 0,
+        "text": "Leo, Hua, and Kong are working a phone shift in a local campaign office, calling voters to encourage support for Kerry. The atmosphere is tense but focused, with volunteers trying to meet their call quotas."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

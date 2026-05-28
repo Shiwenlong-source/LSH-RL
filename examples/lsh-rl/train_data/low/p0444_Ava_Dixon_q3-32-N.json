@@ -1,0 +1,102 @@
+{
+  "title": "The Café Conversation",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Ava meets her friend Liam to discuss her interview opportunity while managing her sister Joy's curiosity.",
+      "time": "Afternoon",
+      "location": "Local café",
+      "description": "Ava sits at a small table with her friend Liam, both sipping coffee. Joy, her younger sister, walks in and joins them, sensing Ava's excitement but also her hesitation.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Ava Dixon",
+          "gender": "17-year-old female",
+          "description": "IB student, optimistic and sociable, visibly excited but cautious about revealing the news.; 17-year-old female, IB student, 17 years old; Occupation: IB student seeking community service opportunities; Personality: Optimistic, Sociable, Determined; Values: Academic excellence, Responsibility, Ambition; Interests: Community service, Career development, Social interaction; Experiences: Preparing for IB exams, Looking for part-time work, Balancing academics and personal goals",
+          "position": "At the table with Liam and Joy",
+          "states": "Excited, cautious, determined",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Liam Carter",
+          "gender": "18-year-old male",
+          "description": "Ava's close friend and fellow student, supportive and encouraging, with a casual demeanor; Male; Age: 18; Occupation: High school senior and part-time barista; Personality: Supportive, curious, relaxed; Values: Loyalty, authenticity, growth; Interests: Coffee culture, indie music, photography; Experiences: Helped Ava through a tough academic project, volunteers at a community youth center, recently applied to several colleges.",
+          "position": "Sitting across from Ava, engaged in conversation.",
+          "states": "Supportive, curious, relaxed",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Joy Dixon",
+          "gender": "14-year-old female",
+          "description": "Ava's younger sister, perceptive and inquisitive, eager to know what's happening; Female; Age: 14; Occupation: Student; Personality: Curious, cheerful, observant; Values: Family, honesty, fairness; Interests: People-watching, mystery novels, art; Experiences: Overheard important family conversations growing up, solved a puzzle contest at school, recently started writing her own short stories.",
+          "position": "Approaching the table, then sitting next to Ava.",
+          "states": "Curious, cheerful, observant",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Liam Carter",
+          "character_id": 1,
+          "action": "Asks Ava about her recent excitement.",
+          "dialogue": "Hey Ava, I've noticed you've been buzzing with energy lately. Got something big coming up?"
+        },
+        {
+          "action_id": 1,
+          "character": "Ava Dixon",
+          "character_id": 0,
+          "action": "Avoids direct answer but hints at it.",
+          "dialogue": "Just... some new developments. I'm still figuring out how to handle it all."
+        },
+        {
+          "action_id": 2,
+          "character": "Joy Dixon",
+          "character_id": 2,
+          "action": "Notices Ava's hesitation and presses gently.",
+          "dialogue": "Come on, Ava! You're always so open with me. What's going on?"
+        },
+        {
+          "action_id": 3,
+          "character": "Ava Dixon",
+          "character_id": 0,
+          "action": "Shares the news with Joy, but not with Liam yet.",
+          "dialogue": "I got an interview for a community service project I've been applying to. It's a big deal, but I'm worried about how Mom will react."
+        },
+        {
+          "action_id": 4,
+          "character": "Liam Carter",
+          "character_id": 1,
+          "action": "Offers reassurance.",
+          "dialogue": "You've got this, Ava. You're responsible and balanced. Just let her know you've got a plan."
+        },
+        {
+          "action_id": 5,
+          "character": "Joy Dixon",
+          "character_id": 2,
+          "action": "Expresses support and encourages her sister.",
+          "dialogue": "That's amazing, Ava! I know you'll manage it with your studies. You're so determined."
+        },
+        {
+          "action_id": 6,
+          "character": "Ava Dixon",
+          "character_id": 0,
+          "action": "Thanks them and considers her next steps.",
+          "dialogue": "Thanks, both of you. I just need to figure out the right time to tell Mom."
+        }
+      ],
+      "plot": "Ava is excited about an interview for a community service project but hesitant to share it with her mother, who prioritizes academics. Her friend Liam and younger sister Joy notice her mood and encourage her to pursue the opportunity while balancing her responsibilities.",
+      "social_purpose": "To show Ava's internal conflict between her academic goals and her passion for community service, while demonstrating her supportive relationships and sociable nature.",
+      "chunk": {
+        "id": 0,
+        "text": "Ava sits with Liam at a local café, sipping her coffee and smiling as they talk about school projects and future plans. Liam notices her excitement and asks if something is on her mind. Ava hesitates, but Joy, who just walked in and sat down, is quick to pick up on her sister's unspoken tension. As the conversation unfolds, Ava shares the news of her interview, and both Liam and Joy offer their support. Ava feels reassured but still uncertain about how to approach her mother."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

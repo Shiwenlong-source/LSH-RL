@@ -1,0 +1,60 @@
+{
+  "title": "The Blessing Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Wesley is asked to officiate a blessing ceremony for his friend Rage and Rage's girlfriend, Colin.",
+      "time": "Afternoon",
+      "location": "A quiet park with a small gathering space under a tree",
+      "description": "Wesley is sitting on a bench in the park, reading a book on philosophy. Rage and Colin approach, excited and nervous. They want Wesley to officiate a blessing ceremony for their new apartment. Wesley is hesitant because of his non-believing background, but values their friendship and his curiosity about religion.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Wesley Nguyen",
+          "gender": "Male",
+          "description": "A thoughtful and empathetic government employee who is a self-proclaimed non-believer but is curious about religion.; Male, 34, Self-proclaimed non-believer but curious about religion, 34 years old; Occupation: Government employee; Personality: Thoughtful, Curious, Hesitant, Empathetic; Values: Friendship, Honesty, Independence, Openness; Interests: Religion and philosophy, Introspection, Helping others, Self-exploration; Experiences: Attending religious ceremonies, Questioning faith, Dealing with social expectations, Balancing personal beliefs and relationships",
+          "position": "Seated on a bench",
+          "states": "Hesitant, thoughtful, empathetic",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Rage",
+          "gender": "Male",
+          "description": "Wesley's close friend, enthusiastic and sincere; Male; Age: 28; Occupation: Community organizer; Personality: Passionate, empathetic, optimistic; Values: Loyalty, inclusivity, personal growth; Interests: Social justice, hiking, indie music; Experiences: Volunteered in neighborhood revitalization projects, attended a cultural interfaith summit, helped Wesley navigate a moral dilemma during a difficult time.",
+          "position": "Standing in front of Wesley",
+          "states": "Eager, sincere, excited",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Colin",
+          "gender": "Non-binary",
+          "description": "Colin is Rage's girlfriend, calm and grateful; Non-binary; Age: 29; Occupation: Community Organizer; Personality: compassionate, optimistic, resilient; Values: equality, community, growth; Interests: urban gardening, social justice podcasts, hiking; Experiences: co-founded a local LGBTQ+ support group, recently moved into a new apartment with Rage, volunteered in neighborhood revitalization projects.",
+          "position": "Standing beside Rage",
+          "states": "Sincere, grateful, hopeful",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Rage",
+          "character_id": 1,
+          "action": "Asks Wesley to officiate a blessing ceremony for their new apartment",
+          "dialogue": "Hey Wes, we wanted to ask you something. Colin and I are moving into our new apartment next week, and we'd love for you to officiate a blessing ceremony for us. You know, just to mark the occasion and make it feel special."
+        }
+      ],
+      "plot": "Wesley is asked to officiate a blessing ceremony for his friend Rage and Rage's girlfriend, Colin. He is hesitant because of his non-believing background, but ultimately chooses to participate, reflecting his empathy and value for his friends. The ceremony goes smoothly, and Wesley feels a sense of connection to something bigger than himself.",
+      "social_purpose": "To explore the tension between personal beliefs and social expectations, and to show how empathy and openness can lead to unexpected connections.",
+      "chunk": {
+        "id": 0,
+        "text": "Rage and Colin's request for Wesley to officiate a blessing ceremony creates a moral and emotional dilemma for him. As a self-proclaimed non-believer, he is skeptical about the idea of a blessing, but he also values his friendship with Rage and his desire to help others. He is hesitant, but ultimately chooses to participate, showing his openness and willingness to explore new experiences. The ceremony is a small but meaningful event that brings the three characters together in a public setting around a shared goal."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "title": "A New Dawn on the Sidewalk",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Miles receives a job offer and discusses it with his friends.",
+      "time": "Afternoon",
+      "location": "A bench in a local park",
+      "description": "Miles sits on a park bench, cleaning a small patch of grass with a rag and a bottle of water. His friends Ella and Jackson approach, their expressions showing concern and curiosity. The bench is surrounded by a few other homeless individuals, some of whom glance over at the conversation.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Miles Ellis",
+          "gender": "Male",
+          "description": "A 47-year-old homeless man with a contemplative and determined demeanor. He carries a small rag and water bottle, showing his interest in cleanliness and personal growth.; 45-year-old /Male/Homeless, 47 years old; Occupation: Unemployed; Personality: Resilient, Contemplative, Determined; Values: Stability, Community, Self-improvement; Interests: Cleanliness, Personal Growth, Trust; Experiences: Spring cleaning, Friendship with Ella and Jackson, Considering new job opportunities, Street life, Making decisions under pressure",
+          "position": "Sitting on the bench, facing his friends",
+          "states": "Nervous, hopeful, focused",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Ella",
+          "gender": "Female",
+          "description": "A 38-year-old woman who is optimistic and supportive; Female; Age: 38; Occupation: Former social worker turned community outreach volunteer; Personality: Compassionate, resilient, observant; Values: Hope, dignity, solidarity; Interests: Storytelling, gardening, mentoring; Experiences: Worked with at-risk youth before losing her job due to budget cuts, spent time living on the streets after a personal tragedy, helps organize job training workshops for the homeless.",
+          "position": "Sitting next to Miles",
+          "states": "Encouraging, empathetic, attentive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Jackson",
+          "gender": "Male",
+          "description": "A 50-year-old man who is skeptical and often challenges others; Male; Age: 50; Occupation: Former mechanic turned homeless; Personality: Cynical, cautious, observant; Values: Survival, honesty, loyalty; Interests: Fixing things, people-watching, old country music; Experiences: Lost his job during the factory shutdown, spent time in prison for defending a friend in a bar fight, spent years traveling across the country before settling in the city.",
+          "position": "Standing near the tree",
+          "states": "Cynical, cautious, observant",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Ella",
+          "character_id": 1,
+          "action": "Sits beside Miles and looks at him with concern.",
+          "dialogue": "Miles, you okay? You've been quiet all morning."
+        },
+        {
+          "action_id": 1,
+          "character": "Miles Ellis",
+          "character_id": 0,
+          "action": "Nods and holds up a small paper with a job offer.",
+          "dialogue": "I got this... a job offer. It's for a custodial position at a local school. They said they like my work ethic and attention to detail."
+        },
+        {
+          "action_id": 2,
+          "character": "Jackson",
+          "character_id": 2,
+          "action": "Steps closer and reads the paper over Miles's shoulder.",
+          "dialogue": "A custodial job? That's not a miracle, Miles. It's a step up, sure, but it's still a job on the edge. What if they don't like you there?"
+        },
+        {
+          "action_id": 3,
+          "character": "Ella",
+          "character_id": 1,
+          "action": "Places a hand on Miles's shoulder and smiles.",
+          "dialogue": "It's a chance to start fresh, to be part of something. You've always wanted stability, right? This could be it."
+        },
+        {
+          "action_id": 4,
+          "character": "Miles Ellis",
+          "character_id": 0,
+          "action": "Looks down at the paper, then back at Ella and Jackson.",
+          "dialogue": "I know it's not perfect. But if I can prove I can do this, maybe it leads to something more. I've been thinking about it all week. I can't stay stuck like this."
+        },
+        {
+          "action_id": 5,
+          "character": "Jackson",
+          "character_id": 2,
+          "action": "Sighs and leans against the tree again.",
+          "dialogue": "You're a good man, Miles. I just don't want to see you get hurt again. But if you're sure, I won't stop you."
+        },
+        {
+          "action_id": 6,
+          "character": "Ella",
+          "character_id": 1,
+          "action": "Nods and offers a warm smile.",
+          "dialogue": "We'll be here for you, no matter what happens. You're not alone in this."
+        },
+        {
+          "action_id": 7,
+          "character": "Miles Ellis",
+          "character_id": 0,
+          "action": "Folds the paper and tucks it into his coat pocket.",
+          "dialogue": "Thanks, Ella. I needed to hear that. Jackson, I know you're worried, but I'm ready to try."
+        }
+      ],
+      "plot": "Miles is considering a job offer that could change his life. His friends Ella and Jackson have conflicting views, but both show their support in different ways. The conversation reveals Miles's values of stability and self-improvement, as well as his resilience and determination to make a change.",
+      "social_purpose": "To explore the impact of community support and personal growth through a meaningful decision in a public setting.",
+      "chunk": {
+        "id": 0,
+        "text": "Miles receives a job offer and discusses it with his friends. Ella encourages him, while Jackson expresses skepticism. The shared goal of helping Miles decide is central to the interaction, revealing their personalities and values."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

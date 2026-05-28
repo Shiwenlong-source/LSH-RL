@@ -1,0 +1,88 @@
+{
+  "title": "Rehearsal Interruptions",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Rehearsal Hall Noise Disruption",
+      "time": "3:00 PM",
+      "location": "Community Theater Rehearsal Hall",
+      "description": "Arthur is in the middle of directing a rehearsal for a new play when the adjacent corridor is repeatedly disrupted by loud conversations and footsteps. His frustration grows as the actors are forced to stop and restart multiple times.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Arthur Palmer",
+          "gender": "male",
+          "description": "A 24-year-old theater director with a furrowed brow and a focused demeanor, clearly trying to maintain composure.; male, theater director, 24 years old; Occupation: Theater director; Personality: Detail-oriented, Responsible, Impatient, Alert; Values: Professionalism, Teamwork, Artistic integrity; Interests: Theater production, Scriptwriting, Performing arts; Experiences: Directing rehearsals, Managing creative teams, Handling external distractions",
+          "position": "Center of the stage",
+          "states": "Frustrated, alert, determined",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Max",
+          "gender": "male",
+          "description": "Arthur's colleague and assistant director, in his late 20s, with a calm but concerned expression; Male; Age: 28; Occupation: Assistant Director and Stage Manager for community theater productions; Personality: Analytical, empathetic, detail-oriented; Values: Professionalism, collaboration, artistic integrity; Interests: Theater history, sound design, mentoring young actors; Experiences: Managed chaotic rehearsals for a high school musical, assisted in a fringe theater festival production, dealt with venue noise issues during a one-act play series.",
+          "position": "Near Arthur, holding a clipboard",
+          "states": "Anxious, observant, supportive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Tang",
+          "gender": "female",
+          "description": "A veteran stage manager in her 40s, experienced and composed, offering practical solutions; Female; Age: 43; Occupation: Stage Manager at a local community theater; Personality: Calm, pragmatic, observant; Values: Professionalism, collaboration, adaptability; Interests: Theater history, puzzle-solving, quiet evenings with a good book; Experiences: Managed high-pressure opening nights with last-minute cast changes, resolved backstage conflicts during long-running productions, coordinated multiple community theater seasons with limited resources.",
+          "position": "Behind the stage, monitoring the crew",
+          "states": "Calm, pragmatic, observant",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Arthur Palmer",
+          "character_id": 0,
+          "action": "Shouts at the cast",
+          "dialogue": "Alright, everyone, let's take a break for a moment. We need to address something."
+        },
+        {
+          "action_id": 1,
+          "character": "Max",
+          "character_id": 1,
+          "action": "Approaches Arthur",
+          "dialogue": "Arthur, this is the fifth time this has happened. The actors are getting frustrated."
+        },
+        {
+          "action_id": 2,
+          "character": "Tang",
+          "character_id": 2,
+          "action": "Suggests an alternative",
+          "dialogue": "Why don't we have the actors work on a scene that doesn't require the corridor to be quiet? That way we can still make progress."
+        },
+        {
+          "action_id": 3,
+          "character": "Arthur Palmer",
+          "character_id": 0,
+          "action": "Considers Tang's suggestion",
+          "dialogue": "Hmm... That might work. Max, let's shift focus for now."
+        },
+        {
+          "action_id": 4,
+          "character": "Arthur Palmer",
+          "character_id": 0,
+          "action": "Walks to the corridor entrance",
+          "dialogue": "Excuse me, I need to speak to whoever is causing the noise."
+        }
+      ],
+      "plot": "Arthur decides to confront the source of the noise in the corridor to ensure the rehearsal can proceed with minimal interruptions. His choice to act directly highlights his sense of responsibility and impatience with distractions.",
+      "social_purpose": "To demonstrate Arthur's values of professionalism and artistic integrity, while showcasing his impatience and alertness in handling external disruptions during a collaborative rehearsal process.",
+      "chunk": {
+        "id": 0,
+        "text": "Arthur is in the middle of directing a rehearsal for a new play when the adjacent corridor is repeatedly disrupted by loud conversations and footsteps. His frustration grows as the actors are forced to stop and restart multiple times."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

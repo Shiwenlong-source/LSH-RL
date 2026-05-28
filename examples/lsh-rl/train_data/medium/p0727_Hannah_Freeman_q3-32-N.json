@@ -1,0 +1,95 @@
+{
+  "title": "The Tension in the Pews",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Family Church Gathering",
+      "time": "Sunday afternoon",
+      "location": "St. Mary's Church, living room area after service",
+      "description": "Following a heated sermon about political and religious values, the Freeman family gathers in the church's living room for coffee and conversation. The atmosphere is tense, with unresolved emotions lingering from the service.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Hannah Freeman",
+          "gender": "female",
+          "description": "A 25-year-old graduate student, thoughtful and introspective, caught between her personal beliefs and the expectations of her conservative family. She is seated on a couch, sipping coffee quietly.; 25-year-old /female/family member, 24 years old; Occupation: Graduate student; Personality: Thoughtful, Conflicted, Introspective; Values: Personal freedom, Honesty, Family harmony; Interests: Political discussions, Spiritual faith, Self-reflection; Experiences: Growing up in a mixed ideological background, Attending family gatherings with differing views, Struggling with self-expression in social settings",
+          "position": "Couch, center",
+          "states": "Tense, conflicted, observant",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Cici Freeman",
+          "gender": "female",
+          "description": "Cici Freeman; Female; Age: 32; Occupation: Nurse; Personality: Curious, empathetic, observant; Values: Compassion, open-mindedness, family unity; Interests: Mental health advocacy, reading theological and philosophical texts, gardening; Experiences: Worked in a hospital during the pandemic, helped a close family member through a difficult mental health crisis, attended interfaith community events to foster understanding.",
+          "position": "Couch, right of Hannah",
+          "states": "Curious, empathetic, concerned",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Aunt Weki",
+          "gender": "female",
+          "description": "A 58-year-old matriarch of the family, deeply religious and conservative. She is seated across from the two, sipping tea and watching the room with a watchful eye; Female; Age: 58; Occupation: Sunday School Teacher and Church Volunteer Coordinator; Personality: Watchful, apologetic, traditional; Values: Faith, Family unity, Moral integrity; Interests: Bible study, baking for church events, gardening; Experiences: Raised three children in a devout household, survived a family crisis that tested her faith, organized multiple church fundraisers.",
+          "position": "Armchair, opposite the couch",
+          "states": "Watchful, apologetic, traditional",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Cici Freeman",
+          "character_id": 1,
+          "action": "Cici leans toward Hannah, trying to engage her in conversation.",
+          "dialogue": "Hannah, are you okay? You didn’t clap after Lucy’s speech. You usually do."
+        },
+        {
+          "action_id": 1,
+          "character": "Hannah Freeman",
+          "character_id": 0,
+          "action": "Hannah looks away, then softly responds.",
+          "dialogue": "I just... I needed a moment to process it all. It felt like politics and faith were being pushed together in a way I didn’t agree with."
+        },
+        {
+          "action_id": 2,
+          "character": "Aunt Weki",
+          "character_id": 2,
+          "action": "Aunt Weki interjects with a tone of apology and concern.",
+          "dialogue": "I know it's hard, Hannah. We all have our own views, but we also have to respect the message the church is giving. I didn’t mean for it to upset you."
+        },
+        {
+          "action_id": 3,
+          "character": "Hannah Freeman",
+          "character_id": 0,
+          "action": "Hannah hesitates, then speaks carefully.",
+          "dialogue": "I appreciate that, Aunt Weki. I just worry that when we don’t talk about these things, we’re not being honest with each other. And I value honesty, even if it’s uncomfortable."
+        },
+        {
+          "action_id": 4,
+          "character": "Cici Freeman",
+          "character_id": 1,
+          "action": "Cici nods in agreement, trying to support Hannah.",
+          "dialogue": "I get what you’re saying. Sometimes the way things are said can feel like there’s no room for discussion. But maybe we can find a way to talk about it without causing conflict."
+        },
+        {
+          "action_id": 5,
+          "character": "Aunt Weki",
+          "character_id": 2,
+          "action": "Aunt Weki sighs, trying to maintain family harmony.",
+          "dialogue": "I just want us to stay united, you know? Maybe we can agree to disagree for now, but I’m glad you’re thinking about it."
+        }
+      ],
+      "plot": "Hannah's internal conflict over Lucy's speech comes to the surface in a family setting. Cici and Aunt Weki try to reconcile the situation, balancing personal expression with the need for unity. The conversation remains respectful but strained, with the possibility of deeper discussions in the future.",
+      "social_purpose": "To explore the tension between personal values and family expectations, showcasing the protagonist’s struggle with self-expression and honesty in a public, familial context.",
+      "chunk": {
+        "id": 0,
+        "text": "After the service, the Freeman family gathered in the living room of St. Mary's Church. The air was thick with unspoken tensions from the morning's sermon. Hannah sat quietly on the couch, sipping her coffee and avoiding eye contact. Her cousin Cici noticed her silence and leaned in, asking gently if she was okay. Hannah hesitated but finally admitted that Lucy's speech had left her unsettled. Aunt Weki, across the room, offered a soft apology, emphasizing the importance of family unity. Cici supported Hannah’s need for honest dialogue, while Weki suggested a temporary truce. The conversation ended with a fragile understanding, but the weight of the conflict remained."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

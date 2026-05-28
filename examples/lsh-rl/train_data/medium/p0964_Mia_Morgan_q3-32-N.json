@@ -1,0 +1,88 @@
+{
+  "title": "Crossroads at the Team Dinner",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Team Dinner",
+      "time": "6:30 PM",
+      "location": "The Rustic Vine, a cozy Italian restaurant",
+      "description": "Mia Morgan, a mid-level project manager, sits with her team at a semi-private booth in the back of the restaurant. The atmosphere is warm, with soft lighting and the sound of clinking glasses and laughter. Her supervisor, Taylor Hayes, and her close colleague, Zoe Cooper, are seated across from her. A new opportunity at a larger firm has come up, and the conversation subtly turns to Mia's career trajectory.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Mia Morgan",
+          "gender": "Female",
+          "description": "A contemplative and ambitious project manager who is introverted and analytical. She is known for leading successful projects and managing team expectations with care.; Female, Mid-level Professional, 32 years old; Occupation: Team Leader or Project Manager; Personality: Contemplative, Ambitious, Introverted, Analytical; Values: Career Growth, Team Loyalty, Work-Life Balance; Interests: Career Development, Strategic Planning, Team Interaction; Experiences: Leading Successful Projects, Receiving New Job Offers, Handling Workplace Relationships, Balancing Personal and Professional Goals, Managing Team Expectations",
+          "position": "Mid-level Professional",
+          "states": "Anxious, Torn, Observant",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Taylor Hayes",
+          "gender": "Male",
+          "description": "Taylor Hayes is a seasoned leader and supportive supervisor to Mia Morgan; Male; Age: 42; Occupation: Senior Project Director at a mid-sized tech firm; Personality: Observant, Empathetic, Analytical; Values: Team cohesion, Professional integrity, Mentorship; Interests: Italian cuisine, Strategic board games, Urban hiking; Experiences: Led cross-functional teams through major product launches, mentored several junior managers who have since moved into leadership roles, navigated corporate restructures while maintaining team morale.",
+          "position": "Senior Manager",
+          "states": "Curious, Supportive, Encouraging",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Zoe Cooper",
+          "gender": "Female",
+          "description": "A driven and loyal team member who respects Mia and hopes to continue working with her; Female; Age: 29; Occupation: Senior Marketing Analyst; Personality: Empathetic, Collaborative, Analytical; Values: Trust, Professional Growth, Teamwork; Interests: Networking, Italian cuisine, Urban hiking; Experiences: Led a successful cross-departmental campaign that boosted company visibility, Mentored new hires in the marketing team, Navigated a high-pressure product launch under tight deadlines.",
+          "position": "Junior Analyst",
+          "states": "Hopeful, Slightly Concerned, Warm",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Taylor Hayes",
+          "character_id": 1,
+          "action": "Asks Mia about her future plans",
+          "dialogue": "Mia, I've noticed you've been leading with such clarity and purpose lately. I'm curious—where do you see yourself in the next few years?"
+        },
+        {
+          "action_id": 1,
+          "character": "Mia Morgan",
+          "character_id": 0,
+          "action": "Pauses before responding, showing internal conflict",
+          "dialogue": "I... I've been thinking a lot about that. There are some new opportunities that came up, but I also care a lot about this team."
+        },
+        {
+          "action_id": 2,
+          "character": "Zoe Cooper",
+          "character_id": 2,
+          "action": "Reassures Mia and expresses her feelings",
+          "dialogue": "We really value you, Mia. You've helped us grow so much. I hope you're not thinking of leaving."
+        },
+        {
+          "action_id": 3,
+          "character": "Mia Morgan",
+          "character_id": 0,
+          "action": "Shares her analytical perspective",
+          "dialogue": "I appreciate that, Zoe. It's not an easy decision. I want to grow, but I also don't want to let the team down."
+        },
+        {
+          "action_id": 4,
+          "character": "Taylor Hayes",
+          "character_id": 1,
+          "action": "Encourages Mia to consider her values",
+          "dialogue": "Growth is important, Mia. But it's also about what you need. If this team is part of that, we'll support you either way."
+        }
+      ],
+      "plot": "At the team dinner, Mia faces a decision about her career while being encouraged and questioned by her supervisor and colleague. The team is invested in her and wants to know her intentions, but Mia is torn between her ambition and loyalty to the group.",
+      "social_purpose": "To explore Mia's internal conflict between career growth and team loyalty, while showcasing her contemplative and analytical nature through dialogue and interactions.",
+      "chunk": {
+        "id": 0,
+        "text": "Mia Morgan sits at the dinner table with Taylor Hayes and Zoe Cooper, her team's senior manager and junior analyst, respectively. The conversation flows naturally, but Taylor's question about her future stirs a quiet tension. Mia's internal struggle is evident as she weighs her ambition against the bond she has with the team. Zoe's concern and Taylor's support highlight the social dynamics of the situation, as Mia must decide her next move carefully to maintain harmony and respect."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

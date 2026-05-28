@@ -1,0 +1,88 @@
+{
+  "title": "The Office Cafeteria Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Lunch Decision",
+      "time": "12:15 PM, Wednesday",
+      "location": "Company Cafeteria",
+      "description": "Ethan stands at the cafeteria serving counter, staring at the options. To his left is a healthy salad bar, and to his right is a steaming pizza line. Mia and Chloe, his colleagues, are nearby, each offering their own perspective on his choice.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Ethan Hayes",
+          "gender": "Male",
+          "description": "32-year-old office worker, rational and self-aware, trying to balance health and work demands.; Adult male / Office worker, 32 years old; Occupation: Office Worker; Personality: Rational, Self-aware, Pragmatic, Empathetic; Values: Health, Self-discipline, Work-life balance; Interests: Healthy eating, Stress management, Financial living; Experiences: Adhering to a healthy lifestyle, Coping with workplace stress, Weighing financial costs, Receiving colleague feedback, Experiencing emotional exhaustion",
+          "position": "Near the serving counter",
+          "states": "Torn, anxious, self-reflective",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Mia Chen",
+          "gender": "Female",
+          "description": "Caring, encouraging, and observant; Female; Age: 29; Occupation: Health and Wellness Consultant; Personality: Empathetic, enthusiastic, detail-oriented; Values: Holistic health, work-life balance, personal growth; Interests: Nutrition, yoga, community fitness events; Experiences: Led a successful workplace wellness program, recovered from burnout through lifestyle changes, mentors new employees on healthy habits.",
+          "position": "By the salad bar",
+          "states": "Caring, encouraging, observant",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Chloe Martinez",
+          "gender": "Female",
+          "description": "31-year-old HR manager, relaxed and easygoing, values social bonding over strict routines; Female; Age: 31; Occupation: Human Resources Manager; Personality: friendly, persuasive, empathetic; Values: work-life balance, team harmony, personal growth; Interests: group lunches, casual workplace conversations, wellness workshops; Experiences: organized company team-building events, led a successful wellness initiative, mediated multiple workplace conflicts.",
+          "position": "By the pizza line",
+          "states": "Relaxed, persuasive, friendly",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Mia Chen",
+          "character_id": 1,
+          "action": "Approaches Ethan with a tray of salad",
+          "dialogue": "Hey Ethan, I see you're stuck again. Want to join me for the salad bar? It's been helping me stay energized all afternoon."
+        },
+        {
+          "action_id": 1,
+          "character": "Ethan Hayes",
+          "character_id": 0,
+          "action": "Looks at the salad, then at the pizza",
+          "dialogue": "I know I should go for the salad, but today just feels like a pizza day. I've been so stressed this week."
+        },
+        {
+          "action_id": 2,
+          "character": "Chloe Martinez",
+          "character_id": 2,
+          "action": "Waves at Ethan and offers a slice of pizza",
+          "dialogue": "Don't overthink it, Ethan. Sometimes you need to treat yourself. Come on, I'll split a slice with you and we can talk about it later."
+        },
+        {
+          "action_id": 3,
+          "character": "Ethan Hayes",
+          "character_id": 0,
+          "action": "Smiles and takes a slice of pizza",
+          "dialogue": "Okay, but just one slice. I have a gym membership, after all. I can't let it go to waste... or can I?"
+        },
+        {
+          "action_id": 4,
+          "character": "Mia Chen",
+          "character_id": 1,
+          "action": "Nods understandingly and joins the pizza line",
+          "dialogue": "Fair enough. I get it—work has been rough. But maybe tomorrow we can do the salad together? It's not about perfection, right?"
+        }
+      ],
+      "plot": "Ethan is caught between his health goals and the emotional comfort of free pizza during lunch. His colleagues Mia and Chloe each represent different perspectives—Mia encourages healthy habits, while Chloe promotes a more relaxed, social approach. Ethan's choice reflects his internal struggle and the influence of his relationships and values.",
+      "social_purpose": "To explore the tension between health and emotional well-being in a relatable office setting, while highlighting Ethan's self-awareness and the supportive dynamics of his workplace relationships.",
+      "chunk": {
+        "id": 0,
+        "text": "Ethan stands at the cafeteria serving counter, staring at the options. To his left is a healthy salad bar, and to his right is a steaming pizza line. Mia and Chloe, his colleagues, are nearby, each offering their own perspective on his choice."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

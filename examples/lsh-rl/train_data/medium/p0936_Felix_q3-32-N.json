@@ -1,0 +1,88 @@
+{
+  "title": "The Interview Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Friends discussing Felix's career choice after a performance",
+      "time": "Evening",
+      "location": "Living room of a local music venue",
+      "description": "Felix, a 33-year-old music teacher, is sitting on a couch in the living room of a cozy music venue, sipping a coffee. His friends and colleagues, Connie and Zach, are nearby. The atmosphere is warm and relaxed, but Felix's mind is still on the upcoming interview for the Westport Middle School choir director position. His friends are trying to get him to open up about his decision.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Felix",
+          "gender": "Male",
+          "description": "A talented and thoughtful music teacher in his early 30s, currently facing a career decision.; Male, Music Teacher, 33 years old; Occupation: Music Teacher; Personality: Talented, Thoughtful, Uncertain, Ambitious; Values: Growth, Stability, Friendship; Interests: Music, Teaching, Performing; Experiences: Recent performance, Current teaching work, Upcoming interview, Close social circle, Considering career transition",
+          "position": "On the couch",
+          "states": "Cautious, contemplative, slightly anxious",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Connie",
+          "gender": "Female",
+          "description": "A supportive and curious friend who is also a music student, often seeking out Felix's guidance; Female; Age: 22; Occupation: Music major at a nearby university, part-time piano tutor; Personality: Empathetic, enthusiastic, analytical; Values: Growth through learning, genuine connection, artistic integrity; Interests: Classical piano, music theory, indie folk music; Experiences: Attended Felix's first public performance and was inspired by his teaching, recently collaborated with him on a student recital.",
+          "position": "Across from Felix",
+          "states": "Supportive, inquisitive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Zach",
+          "gender": "Male",
+          "description": "A laid-back but witty colleague who often provides humor and honest feedback to Felix; Male; Age: 35; Occupation: Jazz pianist and part-time music therapist; Personality: Charismatic, sardonic, observant; Values: Authenticity, camaraderie, artistic integrity; Interests: Improvisational comedy, vintage vinyl records, urban hiking; Experiences: Played in underground jazz clubs during college, helped a close friend through grief using music therapy, briefly considered a career in stand-up comedy.",
+          "position": "Leaning against the wall",
+          "states": "Playful, teasing",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Connie",
+          "character_id": 1,
+          "action": "Asks Felix if he has decided whether to attend the interview",
+          "dialogue": "Hey Felix, I know you've been thinking a lot about the Westport interview. Have you decided if you're going to go for it yet?"
+        },
+        {
+          "action_id": 1,
+          "character": "Felix",
+          "character_id": 0,
+          "action": "Responds with cautious optimism",
+          "dialogue": "I'm leaning toward it, but it's a big step. I don't want to leave my current school if it means losing the stability I've built."
+        },
+        {
+          "action_id": 2,
+          "character": "Zach",
+          "character_id": 2,
+          "action": "Half-jokingly teases Felix about staying and not coming back",
+          "dialogue": "Just don't stay in Westport and forget about us. I might have to take over your students and ruin their musical futures."
+        },
+        {
+          "action_id": 3,
+          "character": "Felix",
+          "character_id": 0,
+          "action": "Smiles but remains contemplative",
+          "dialogue": "You'd probably do a better job than I ever could. But I just need to make sure this is the right move for me."
+        },
+        {
+          "action_id": 4,
+          "character": "Connie",
+          "character_id": 1,
+          "action": "Encourages Felix to take the opportunity",
+          "dialogue": "You've always wanted to grow as a teacher and take on more responsibility. This could be the chance you've been waiting for."
+        }
+      ],
+      "plot": "Felix is caught in a moment of decision after a recent performance. His friends Connie and Zach are trying to help him weigh the pros and cons of attending the interview for a new position. Felix is ambitious but also values stability and the relationships he has built with his current students and colleagues. Their conversation highlights his internal conflict and the support he receives from those close to him.",
+      "social_purpose": "To showcase Felix's internal conflict and his desire for growth, stability, and maintaining friendships, while also demonstrating the influence of his social circle on his decision-making.",
+      "chunk": {
+        "id": 0,
+        "text": "Felix sits on the couch, sipping his coffee, while Connie and Zach engage him in conversation about the Westport Middle School interview. The discussion reveals his thoughtful and uncertain nature, as well as the importance of his values and relationships. Zach's playful teasing contrasts with Connie's supportive encouragement, creating a dynamic that reflects the complexity of Felix's decision."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

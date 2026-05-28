@@ -1,0 +1,88 @@
+{
+  "title": "Diplomatic Breakfast",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Team meeting over breakfast to discuss a recent decision",
+      "time": "8:30 AM",
+      "location": "Diplomatic Affairs Office Cafeteria",
+      "description": "The morning sun filters through the large windows of the cafeteria as Gavin Bell, Head of Diplomatic Affairs, sits at a long table with his team members Chloe and Zoe. The atmosphere is tense as the recent late-night decision is the topic of discussion.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Gavin Bell",
+          "gender": "male",
+          "description": "A composed and determined leader in his 40s, known for his calm demeanor and strategic thinking. He is currently under pressure from recent decisions.; male, Head of Diplomatic Affairs, 40 years old; Occupation: Head of Diplomatic Affairs; Personality: Calm, Determined, Paranoid, Responsible; Values: National interest, Leadership, Initiative, Image management; Interests: International relations, Strategic planning, Diplomatic negotiations; Experiences: Late-night decision-making, High-pressure diplomatic negotiations, Team coordination, Crisis management",
+          "position": "Head of Diplomatic Affairs",
+          "states": "Calm, Determined, Slightly defensive",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Chloe Martin",
+          "gender": "female",
+          "description": "A sharp-witted and detail-oriented foreign policy analyst who often questions the timing of Gavin's decisions; Female; Age: 34; Occupation: Senior Foreign Policy Analyst; Personality: Analytical, Concerned, Slightly confrontational, Pragmatic, Inquisitive; Values: Integrity, Strategic foresight, Team accountability; Interests: International relations theory, Coffee culture, Documentary filmmaking; Experiences: Analyzed crisis response protocols during the Syrian refugee surge, Advised on diplomatic negotiations in the Balkans, Led post-decision impact assessments for high-profile policy moves.",
+          "position": "Foreign Policy Analyst",
+          "states": "Concerned, Analytical, Slightly confrontational",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Zoe Ramirez",
+          "gender": "female",
+          "description": "A seasoned diplomatic liaison with a strong sense of pragmatism; Female; Age: 42; Occupation: Senior Diplomatic Negotiator; Personality: Supportive, Pragmatic, Thoughtful; Values: Stability, Integrity, Collaboration; Interests: International cuisine, Strategic board games; Experiences: Mediated a high-stakes trade dispute between two rival city-states, Served as a cultural advisor during a peace summit in a post-conflict region",
+          "position": "Diplomatic Liaison",
+          "states": "Supportive, Pragmatic, Thoughtful",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Chloe Martin",
+          "character_id": 1,
+          "action": "Asks a pointed question about the decision",
+          "dialogue": "Gavin, I understand the urgency, but making a decision at 2 AM without full team input could have consequences. Are you sure this was the best approach?"
+        },
+        {
+          "action_id": 1,
+          "character": "Gavin Bell",
+          "character_id": 0,
+          "action": "Responds with calm confidence",
+          "dialogue": "Chloe, I appreciate your concerns. The situation demanded immediate action, and I took full responsibility for the call. We'll address any fallout as a team."
+        },
+        {
+          "action_id": 2,
+          "character": "Zoe Ramirez",
+          "character_id": 2,
+          "action": "Offers a balanced perspective",
+          "dialogue": "I agree with Gavin that the national interest had to be prioritized, but maybe we can streamline the process so we're all better prepared for future crises."
+        },
+        {
+          "action_id": 3,
+          "character": "Gavin Bell",
+          "character_id": 0,
+          "action": "Shows appreciation for Zoe's input",
+          "dialogue": "That's a fair point, Zoe. I'm open to suggestions on improving our coordination. Let's table this and come up with a plan after we've had time to reflect."
+        },
+        {
+          "action_id": 4,
+          "character": "Chloe Martin",
+          "character_id": 1,
+          "action": "Suggests a follow-up meeting",
+          "dialogue": "I think a debrief session in the afternoon would help everyone get on the same page. We need to ensure we're not repeating the same mistakes."
+        }
+      ],
+      "plot": "Gavin's team questions the timing and preparation of his recent late-night decision. While Chloe is skeptical and confrontational, Zoe supports him but suggests process improvements. Gavin remains calm and determined, acknowledging their concerns and proposing a debrief.",
+      "social_purpose": "To showcase Gavin's leadership style, his values of responsibility and initiative, and the internal dynamics of his team. It also highlights his paranoia in handling high-pressure decisions and the need for trust and coordination.",
+      "chunk": {
+        "id": 0,
+        "text": "The team's breakfast meeting reveals the tension caused by Gavin's recent decision, while also showing his commitment to leadership and national interest."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

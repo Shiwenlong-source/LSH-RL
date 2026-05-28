@@ -1,0 +1,88 @@
+{
+  "title": "Delaying the SQ Series",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Church Leadership Meeting",
+      "time": "10:00 AM",
+      "location": "NewLife Church Conference Room",
+      "description": "Ruby Evans, the church administrator, proposes a plan to delay the SQ series to better align with the progress of the new building. The meeting includes key team members discussing the implications of the decision.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Ruby Evans",
+          "gender": "Female",
+          "description": "A 36-year-old church leader known for her firm, analytical, and visionary approach. She is deeply committed to strategic planning and community development.; Female, Church Leader, 36 years old; Occupation: Church Administrator; Personality: Firm, Analytical, Visionary; Values: Community development, Strategic planning, Faith-driven leadership; Interests: Church expansion, Architecture, Event coordination; Experiences: Church leadership, Project management, Religious event planning, Facility expansion",
+          "position": "Church Administrator",
+          "states": "Determined, focused, slightly tense",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Lucy Carter",
+          "gender": "Female",
+          "description": "A supportive team member who values collaboration and is open to strategic changes for the greater good of the church; Female; Age: 34; Occupation: Youth Ministry Coordinator; Personality: Empathetic, analytical, adaptable; Values: Community, growth, integrity; Interests: Bible study, music ministry, outdoor activities; Experiences: Organized multiple church outreach programs, led youth groups through major church transitions, collaborated on building projects for community centers.",
+          "position": "Youth Ministry Coordinator",
+          "states": "Supportive, thoughtful, calm",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Sun Patel",
+          "gender": "Male",
+          "description": "A budget-conscious church leader who is concerned about the financial implications of any major changes; Male; Age: 54; Occupation: Associate Pastor; Personality: Cautious, diplomatic, pragmatic; Values: Fiscal responsibility, community service, stewardship; Interests: Church financial planning, local community development, reading leadership books; Experiences: Oversaw church expansion during economic downturn, managed multiple budget cuts without losing key programs, served on a nonprofit finance board for 5 years.",
+          "position": "Finance Committee Chair",
+          "states": "Cautious, worried, diplomatic",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Ruby Evans",
+          "character_id": 0,
+          "action": "Proposes a plan to delay the SQ series.",
+          "dialogue": "I think we need to delay the SQ series by three weeks. It will give us more time to ensure the new building is ready for the larger crowd and prevent any last-minute issues."
+        },
+        {
+          "action_id": 1,
+          "character": "Lucy Carter",
+          "character_id": 1,
+          "action": "Expresses support for Ruby's proposal.",
+          "dialogue": "I agree, Ruby. It's better to make a small delay now than risk overwhelming the current space or the new building when it's not ready."
+        },
+        {
+          "action_id": 2,
+          "character": "Sun Patel",
+          "character_id": 2,
+          "action": "Raises concerns about the budget.",
+          "dialogue": "I understand the need for careful planning, but we have to consider the budget. Delaying the series might affect our revenue from donations and event sponsorships."
+        },
+        {
+          "action_id": 3,
+          "character": "Ruby Evans",
+          "character_id": 0,
+          "action": "Reassures the team about the long-term vision.",
+          "dialogue": "I appreciate your concerns, Sun. This is a strategic move for long-term development. We need to build a church that serves the community for years to come, not just for one series."
+        },
+        {
+          "action_id": 4,
+          "character": "Sun Patel",
+          "character_id": 2,
+          "action": "Offers to review the budget impact in more detail.",
+          "dialogue": "I'll take a closer look at the budget and see if we can adjust other areas to compensate for the delay. Let's make sure we're not overextending."
+        }
+      ],
+      "plot": "Ruby proposes a delay to the SQ series to better align with the church's new building progress. While Lucy supports the idea, Sun raises concerns about the budget. Ruby emphasizes the long-term vision, and Sun agrees to review the financial impact in more detail.",
+      "social_purpose": "To demonstrate Ruby's leadership style, her commitment to strategic planning, and how her decision affects different stakeholders within the church.",
+      "chunk": {
+        "id": 0,
+        "text": "Ruby stood at the head of the table, her voice steady as she outlined the proposal. Lucy nodded in agreement, her calm demeanor a contrast to Sun's more cautious expression. The tension in the room was palpable, but Ruby's focus on the future kept the conversation moving forward."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

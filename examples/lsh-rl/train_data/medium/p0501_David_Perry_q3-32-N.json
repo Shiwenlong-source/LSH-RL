@@ -1,0 +1,88 @@
+{
+  "title": "A New Chapter",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Housing Inquiry",
+      "time": "Afternoon",
+      "location": "Mobile Home Community Office",
+      "description": "David Perry, a 35-year-old restaurant server, is at the office of a mobile home community. He's hesitant and anxious about his decision to potentially move here after being evicted from his old apartment. He is joined by two neighbors, Chen and Lily, who are supportive and curious about his situation.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "David Perry",
+          "gender": "Male",
+          "description": "35-year-old male, long-term tenant, hesitant and contemplative, currently facing eviction and exploring new housing options.; 35-year-old male, long-term tenant, 35 years old; Occupation: Restaurant Server; Personality: Hesitant, Contemplative, Pragmatic, Anxious; Values: Stability, Affordability, Security; Interests: Looking for affordable housing, Planning for the future, Social interaction; Experiences: Long-term renting, Facing eviction, Exploring housing alternatives, Financial planning, Community interaction",
+          "position": "Center",
+          "states": "Hesitant, Anxious, Contemplative",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Chen",
+          "gender": "Male",
+          "description": "A friendly and enthusiastic neighbor in the mobile home community. He is helpful and enjoys social interaction; Male; Age: 52; Occupation: Part-time handyman and community volunteer; Personality: Enthusiastic, Supportive, Charming; Values: Community, Generosity, Stability; Interests: Gardening, Local politics, Barbecues; Experiences: Grew up in a tight-knit neighborhood, helped renovate several mobile homes in the community, organized a successful local food drive.",
+          "position": "Right",
+          "states": "Enthusiastic, Supportive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Lily",
+          "gender": "Female",
+          "description": "A kind and empathetic neighbor who offers emotional support and shares her own experiences of moving and adapting; Female; Age: 42; Occupation: Part-time counselor and community volunteer; Personality: Compassionate, patient, warm; Values: Community, resilience, kindness; Interests: Gardening, baking, local history; Experiences: Relocated with her family during a natural disaster, helped others through tough transitions in the mobile home community.",
+          "position": "Left",
+          "states": "Comforting, Empathetic",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Chen",
+          "character_id": 1,
+          "action": "Approaches David with a flyer",
+          "dialogue": "Hey David, I thought you might be interested in this place. We've got affordable rates and a great community here!"
+        },
+        {
+          "action_id": 1,
+          "character": "Lily",
+          "character_id": 2,
+          "action": "Places a hand on David's shoulder",
+          "dialogue": "It's okay to feel unsure, David. I remember when I first moved in. It felt like a big change, but it turned out to be a good one."
+        },
+        {
+          "action_id": 2,
+          "character": "David Perry",
+          "character_id": 0,
+          "action": "Looks at the flyer and sighs",
+          "dialogue": "I really need something stable and affordable. I've been in my old apartment for years, and the thought of moving is... stressful."
+        },
+        {
+          "action_id": 3,
+          "character": "Chen",
+          "character_id": 1,
+          "action": "Points to the price column",
+          "dialogue": "But this place is way cheaper, and the community is tight-knit. You won't be alone here."
+        },
+        {
+          "action_id": 4,
+          "character": "David Perry",
+          "character_id": 0,
+          "action": "Nods slowly, still uncertain",
+          "dialogue": "I just need to make sure it's secure. I've been through too much instability already."
+        }
+      ],
+      "plot": "David is considering a move to a new mobile home community after being evicted from his apartment. He is met by Chen, who offers him a flyer, and Lily, who comforts him. David weighs the pros and cons of moving, focusing on stability, affordability, and security.",
+      "social_purpose": "To explore David's background, values, and personality through a realistic social interaction involving housing alternatives and community support.",
+      "chunk": {
+        "id": 0,
+        "text": "David Perry stands at the entrance of the mobile home community, torn between staying in his familiar apartment and considering a new, potentially better option. As he looks at the flyer Chen gave him, Lily offers her support, helping him process the decision in a socially engaging setting."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

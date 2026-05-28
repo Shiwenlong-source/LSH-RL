@@ -1,0 +1,88 @@
+{
+  "title": "Recipe Rights Debate",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Ava confronts her lawyer and assistant about the recipe dispute.",
+      "time": "10:30 AM",
+      "location": "Conference Room, Culinary Law Firm",
+      "description": "Ava Lewis, a passionate and defensive chef, sits at a conference table across from her lawyer Yury and his assistant Joe. The room is quiet, save for the hum of a coffee machine in the background. Ava's hands are clenched, and her posture is tense, while Yury and Joe remain calm and professional.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Ava Lewis",
+          "gender": "Female",
+          "description": "Ava is a 36-year-old chef known for her creativity and strong sense of integrity. She is currently in a legal battle over the ownership of her recipes.; Female, Professional Chef, 36 years old; Occupation: Chef; Personality: Passionate, Defensive, Firm; Values: Ownership, Integrity, Creativity; Interests: Culinary Arts, Blog Writing, Legal Rights Defense; Experiences: Recipe Ownership Legal Dispute, Public Speaking, Culinary Training, Blog Writing, Team Collaboration",
+          "position": "Across from Yury and Joe",
+          "states": "Anxious, defensive, resolute",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Yury",
+          "gender": "Male",
+          "description": "Yury is a mid-career lawyer in his 40s with a calm and persuasive demeanor; Male; Age: 43; Occupation: Intellectual Property Attorney; Personality: Analytical, patient, strategic; Values: Integrity, client advocacy, precision; Interests: Classical music, chess, gourmet cooking; Experiences: Successfully defended a renowned pastry chef in a trademark infringement case, negotiated a high-profile licensing deal for a food tech startup, worked extensively with culinary artists to protect their recipes and branding.",
+          "position": "Sitting at the head of the table",
+          "states": "Calm, diplomatic, focused",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Joe",
+          "gender": "Male",
+          "description": "Joe is Yury's assistant, Male; Age: late 20s; Occupation: Legal Research Analyst specializing in intellectual property and food-related law; Personality: empathetic, detail-oriented, observant; Values: integrity, fairness, collaboration; Interests: culinary arts, sign language poetry, community activism; Experiences: previously worked in a non-profit advocating for deaf rights, assisted in high-profile food trademark cases, trained in conflict resolution for legal support staff.",
+          "position": "To the right of Yury",
+          "states": "Concerned, attentive, supportive",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Ava Lewis",
+          "character_id": 0,
+          "action": "Leans forward and speaks with urgency",
+          "dialogue": "You're telling me I can't even prove these recipes are mine? If I can't protect my work, then what's the point of creating anything at all?"
+        },
+        {
+          "action_id": 1,
+          "character": "Yury",
+          "character_id": 1,
+          "action": "Replies calmly, trying to reassure her",
+          "dialogue": "Ava, I understand your frustration, but publishing them now could make the legal process harder. We need to follow due process."
+        },
+        {
+          "action_id": 2,
+          "character": "Joe",
+          "character_id": 2,
+          "action": "Signs and speaks, adding his concern",
+          "dialogue": "If you post them online, the company might try to claim it's public domain. It could hurt your chances in court and even your reputation."
+        },
+        {
+          "action_id": 3,
+          "character": "Ava Lewis",
+          "character_id": 0,
+          "action": "Crosses her arms, her voice firm",
+          "dialogue": "I’ve spent years perfecting those recipes. This isn’t just about the law—it’s about who I am. I can’t let someone take credit for my creativity."
+        },
+        {
+          "action_id": 4,
+          "character": "Yury",
+          "character_id": 1,
+          "action": "Leans in slightly, trying to de-escalate",
+          "dialogue": "We can protect your ownership, but we need time. Let’s work together to find a solution that honors your values without risking everything."
+        }
+      ],
+      "plot": "Ava is considering publishing her contested recipes on her blog to assert her ownership and express her frustration with the legal process. Her lawyer and assistant are trying to dissuade her, emphasizing the potential consequences.",
+      "social_purpose": "Ava's firm stance and emotional investment in her work are revealed through her interactions with Yury and Joe, who highlight the risks of her decision. The scene showcases the tension between creative integrity and legal strategy.",
+      "chunk": {
+        "id": 0,
+        "text": "Ava Lewis, a 36-year-old chef, confronts her lawyer Yury and assistant Joe in a conference room. She is caught in a legal dispute over the ownership of her recipes and is considering publishing them on her blog. Her passion for culinary arts and her values of ownership and integrity are evident as she argues her case, while Yury and Joe remain calm and attempt to de-escalate the situation by explaining the potential consequences."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "title": "The Interview Dilemma in Paris",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Coffee Meeting to Discuss Interview Logistics",
+      "time": "10:30 AM",
+      "location": "Café de l'Entrecôte, 14th Arrondissement, Paris",
+      "description": "Matt meets with his friends Sam and Eason at a cozy café in Paris. He is contemplating a job opportunity that requires an in-person interview, but the company has refused to cover travel costs or offer a video interview. The friends discuss the situation and offer their perspectives.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Matt",
+          "gender": "Male",
+          "description": "A 35-year-old senior IT engineer from the United States, currently visiting Paris for a tech conference. He is analytical, detail-oriented, and values professionalism and efficiency in the workplace.; Male, Senior IT Practitioner, 35 years old; Occupation: IT Engineer; Personality: Analytical, Detail-oriented, Pragmatic, Self-disciplined; Values: Professionalism, Respect, Efficiency, Fair Treatment; Interests: Technology, Career Development, Urban Navigation; Experiences: Years of experience in the IT industry, Received job offer from an international company, Dealing with complex work environments",
+          "position": "At the center of the table, sipping black coffee while reviewing the company's email.",
+          "states": "Contemplative, slightly frustrated, but trying to remain pragmatic.",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Sam",
+          "gender": "Male",
+          "description": "A pragmatic and supportive colleague of Matt's, currently working as a project manager in the same industry; Male; Age: 34; Occupation: Senior Project Manager in International Business Development; Personality: Analytical, empathetic, reliable; Values: Professional integrity, cost-effectiveness, loyalty; Interests: Urban planning, French cinema, hiking; Experiences: Managed cross-border projects in Europe and Asia, helped several colleagues navigate career transitions, frequently travels for work and enjoys exploring new cities.",
+          "position": "Sitting to Matt's left, leaning forward with a concerned expression.",
+          "states": "Supportive, analytical, and empathetic.",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Eason",
+          "gender": "Male",
+          "description": "Humorous and laid-back friend from university, now a freelance designer; Male; Age: 28; Occupation: Freelance graphic and web designer; Personality: Witty, easygoing, imaginative; Values: Creativity, friendship, adaptability; Interests: Street art, indie music, Parisian culture; Experiences: Worked on several startup projects remotely, traveled extensively in Europe for design inspiration, helped friends with career advice through unconventional methods.",
+          "position": "Sitting to Matt's right, grinning and making exaggerated gestures.",
+          "states": "Teasing, light-hearted, and occasionally over-the-top.",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Matt",
+          "character_id": 0,
+          "action": "Expresses frustration over the company's refusal to offer a video interview.",
+          "dialogue": "I can't believe they expect me to fly out for an interview without covering travel costs or even offering a video option. It's not just inconvenient—it feels disrespectful."
+        },
+        {
+          "action_id": 1,
+          "character": "Sam",
+          "character_id": 1,
+          "action": "Offers a logical alternative.",
+          "dialogue": "Maybe you could try negotiating again. Frame it as a logistical challenge and mention that a video interview would be more efficient for both sides. They might not have considered the cost and time impact on you."
+        },
+        {
+          "action_id": 2,
+          "character": "Eason",
+          "character_id": 2,
+          "action": "Provides absurd advice in a teasing manner.",
+          "dialogue": "What if you just show up in a robot suit and do the interview from a drone hovering above the Eiffel Tower? That would definitely save you from the hassle of travel!"
+        },
+        {
+          "action_id": 3,
+          "character": "Matt",
+          "character_id": 0,
+          "action": "Considers the absurd suggestion with a hint of humor.",
+          "dialogue": "I appreciate the creativity, Eason. But I need to be taken seriously here. This is about professionalism, not performance art."
+        },
+        {
+          "action_id": 4,
+          "character": "Sam",
+          "character_id": 1,
+          "action": "Reiterates the importance of Matt's values.",
+          "dialogue": "You're right. This is a test of their respect for candidates. If they can't see the value in making this easier for you, maybe the job isn't the best fit in the long run."
+        },
+        {
+          "action_id": 5,
+          "character": "Eason",
+          "character_id": 2,
+          "action": "Changes tone to be more serious and reflective.",
+          "dialogue": "Okay, fair point. But think of it this way—this job is asking for a lot from the get-go. If they're not willing to compromise on something small like this, what will they demand later that's even more unreasonable?"
+        },
+        {
+          "action_id": 6,
+          "character": "Matt",
+          "character_id": 0,
+          "action": "Reflects on the conversation and his own career goals.",
+          "dialogue": "That's a good question. I've always valued efficiency and respect in the workplace. If I accept this, it might set a precedent for how I'm treated in the future."
+        }
+      ],
+      "plot": "Matt is considering a job opportunity in Paris that requires an in-person interview. His friends Sam and Eason help him weigh the pros and cons, with Sam suggesting a pragmatic approach and Eason using humor to highlight the absurdity of the situation. The discussion helps Matt clarify his values and reconsider the company's professionalism.",
+      "social_purpose": "To explore the protagonist's values and personality through a natural, realistic conversation with friends in a public setting. The scenario highlights his professional background and the importance of efficiency, respect, and fair treatment in his career decisions.",
+      "chunk": {
+        "id": 0,
+        "text": "Matt sat at the corner table of Café de l'Entrecôte, the aroma of roasted coffee and the soft clatter of dishes in the background. He unfolded the email from the company's HR department again, his eyes narrowing at the line about the in-person interview. Sam, ever the voice of reason, leaned in. 'You could try rephrasing your request, Matt. Highlight how a video interview would streamline the process for both you and them.' Eason, with a mischievous grin, chimed in. 'Or just build a teleporter and surprise them with your arrival at the office! No travel, no cost, and a guaranteed conversation starter!' Matt chuckled but shook his head. 'I need to be taken seriously. This is about professionalism.' The trio continued their discussion, with each perspective nudging Matt closer to a decision that aligned with his values."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

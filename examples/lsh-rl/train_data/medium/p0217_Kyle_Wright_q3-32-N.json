@@ -1,0 +1,88 @@
+{
+  "title": "The Class Meeting Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Class representative election discussion",
+      "time": "3:00 PM",
+      "location": "University classroom",
+      "description": "The class is gathered for a meeting to discuss the election of a new class representative. Kyle Wright, the interim candidate, sits at the front of the room, avoiding eye contact. His friend Yuna is seated next to him, trying to encourage him, while Lina, a classmate, watches with a mix of curiosity and doubt. The tension in the room is palpable as students debate the qualities a good representative should have.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Kyle Wright",
+          "gender": "Male",
+          "description": "24-year-old college student who has been elected as the interim class representative but is reluctant to take on the role. He is thoughtful and avoids conflict.; 21-year-old /Male/College student, 24 years old; Occupation: College student; Personality: Hesitant, Reluctant, Thoughtful; Values: Personal freedom, Peer validation, Avoidance of responsibility; Interests: Studying, Quiet contemplation, Avoiding conflict; Experiences: Temporary leadership role, Peer pressure, Classroom atmosphere, Friend support, Public attention",
+          "position": "Front of the room, near the whiteboard",
+          "states": "Nervous, hesitant, and trying to remain neutral",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Yuna Lee",
+          "gender": "Female",
+          "description": "23-year-old college student and Kyle's close friend; Female; Age: 23; Occupation: Political Science major with a minor in Communications; Personality: Encouraging, optimistic, persistent; Values: Loyalty, leadership, community service; Interests: Public speaking, volunteering for student organizations, debating; Experiences: Served as vice president of the campus debate club, organized a successful voter registration drive, helped peers navigate academic challenges during her first year as a mentor.",
+          "position": "Next to Kyle",
+          "states": "Encouraging, optimistic, and persistent",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Lina Chen",
+          "gender": "Female",
+          "description": "Lina Chen; Female; Age: 22; Occupation: Political Science major and part-time campus news writer; Personality: Analytical, skeptical, and inquisitive; Values: Integrity, fairness, and intellectual honesty; Interests: Journalism, debate clubs, and social policy discussions; Experiences: Covered student government scandals for the campus paper, participated in university model UN events, and previously volunteered for a student advocacy group.",
+          "position": "Back row, leaning forward slightly",
+          "states": "Observant, doubtful, and eager to speak",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Yuna Lee",
+          "character_id": 1,
+          "action": "Supports Kyle",
+          "dialogue": "Come on, Kyle! You're the only one who's actually listened to everyone's concerns. You're the best choice for this."
+        },
+        {
+          "action_id": 1,
+          "character": "Kyle Wright",
+          "character_id": 0,
+          "action": "Avoids commitment",
+          "dialogue": "I don't know, Yuna. I just want to focus on my studies. This isn't something I really wanted."
+        },
+        {
+          "action_id": 2,
+          "character": "Lina Chen",
+          "character_id": 2,
+          "action": "Questions Kyle's suitability",
+          "dialogue": "But if you don't take it, who will? We need someone who can actually handle this stuff, not just avoid it."
+        },
+        {
+          "action_id": 3,
+          "character": "Kyle Wright",
+          "character_id": 0,
+          "action": "Reflects on the situation",
+          "dialogue": "I guess... if I take it, I might get some respect. But I also don't want to be stuck with responsibilities I never asked for."
+        },
+        {
+          "action_id": 4,
+          "character": "Yuna Lee",
+          "character_id": 1,
+          "action": "Reassures Kyle",
+          "dialogue": "You don't have to do everything alone. We can help. Just give it a try, okay?"
+        }
+      ],
+      "plot": "During a class meeting, Kyle is pressured to accept the role of class representative. Yuna supports him, while Lina questions his suitability. Kyle's internal conflict between personal freedom and peer expectations is revealed as he weighs his options.",
+      "social_purpose": "To explore Kyle's reluctance to take on responsibilities and how his values and relationships influence his decision-making in a public setting.",
+      "chunk": {
+        "id": 0,
+        "text": "The class is gathered for a meeting to discuss the election of a new class representative. Kyle Wright, the interim candidate, sits at the front of the room, avoiding eye contact. His friend Yuna is seated next to him, trying to encourage him, while Lina, a classmate, watches with a mix of curiosity and doubt. The tension in the room is palpable as students debate the qualities a good representative should have."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "title": "The Café Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Naomi is deciding whether to send a difficult email to someone from her past.",
+      "time": "Afternoon",
+      "location": "A cozy corner of a local café",
+      "description": "Naomi sits at a small table by the window, her laptop open but paused. She stares at the screen, her fingers hovering over the keyboard. Alice, her thoughtful and supportive roommate, sits across from her, sipping tea. Luck, a friend from college known for being easygoing and pragmatic, is seated next to Alice, trying to engage in casual conversation. The atmosphere is warm, but the tension in the room is palpable.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Naomi Holmes",
+          "gender": "Female",
+          "description": "21-year-old college student, emotionally rich and sensitive. She is deep in thought and visibly conflicted.; 21-year-old female, 24 years old; Occupation: College Student; Personality: Thoughtful, Emotionally Rich, Sensitive, Analytical; Values: Emotional Connection, Authenticity, Growth; Interests: Deep Conversation, Self-reflection, Friendship; Experiences: Moving to a new city, Handling complex relationships, Career transition",
+          "position": "By the window",
+          "states": "Tense, contemplative, anxious",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Alice",
+          "gender": "Female",
+          "description": "Alice; Female; Age: 26; Occupation: Social worker; Personality: Empathetic, perceptive, patient; Values: Compassion, loyalty, personal growth; Interests: Reading self-help books, journaling, herbal teas; Experiences: Helped a close friend through a difficult breakup, worked with at-risk youth in a community center, recently went through a period of self-reflection and therapy.",
+          "position": "Across from Naomi",
+          "states": "Calm, concerned, attentive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Luck",
+          "gender": "Male",
+          "description": "Luck; Male; Age: 28; Occupation: Freelance graphic designer; Personality: Easygoing, pragmatic, awkwardly humorous; Values: Loyalty, simplicity, emotional honesty; Interests: Indie music, board games, coffee culture; Experiences: Supported Naomi through a tough breakup in college, struggled with his own career uncertainty after graduation, recently helped a friend navigate a difficult professional confrontation.",
+          "position": "Next to Alice",
+          "states": "Relaxed, slightly awkward, trying to lighten the mood",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Naomi Holmes",
+          "character_id": 0,
+          "action": "Looks at the screen and sighs",
+          "dialogue": "I just don't know if I should send this. It feels like it could change everything, and I'm not sure if I'm ready for that."
+        },
+        {
+          "action_id": 1,
+          "character": "Alice",
+          "character_id": 1,
+          "action": "Leans forward gently",
+          "dialogue": "You care about them, don't you? That’s not a bad thing. It’s just... complicated."
+        },
+        {
+          "action_id": 2,
+          "character": "Luck",
+          "character_id": 2,
+          "action": "Changes the subject",
+          "dialogue": "Hey, have you guys checked the housing options in London yet? I heard it’s a nightmare to find a place there."
+        },
+        {
+          "action_id": 3,
+          "character": "Naomi Holmes",
+          "character_id": 0,
+          "action": "Closes the email without sending",
+          "dialogue": "Maybe not today. I need to think about what I really want to say... and if I'm ready to hear the response."
+        },
+        {
+          "action_id": 4,
+          "character": "Alice",
+          "character_id": 1,
+          "action": "Nods in understanding",
+          "dialogue": "It’s okay to take your time. Sometimes, the hardest part is just being honest with yourself."
+        }
+      ],
+      "plot": "Naomi is struggling with whether to send an email to someone who has played a significant role in her life. Alice senses the emotional weight and gently prompts her to reflect on her feelings, while Luck tries to steer the conversation to a more neutral topic. Naomi ultimately decides not to send the email, choosing to prioritize her emotional clarity over immediate resolution.",
+      "social_purpose": "To explore Naomi's internal conflict through dialogue and action, showcasing her values of emotional connection and authenticity, as well as her sensitivity and analytical nature.",
+      "chunk": {
+        "id": 0,
+        "text": "Naomi sat at the café table, her laptop open but her thoughts elsewhere. The email was written, but something about it felt off. Alice noticed and asked softly if she cared about the person, while Luck tried to shift the focus to housing in London. Naomi, after a moment of silence, closed the email, her decision reflecting her deep internal struggle."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "title": "Breakfast for Betterment",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Community Breakfast Event Preparation",
+      "time": "Morning, 2 weeks before the event",
+      "location": "Community Center Hall, downtown area",
+      "description": "Owen Freeman and his team are setting up the venue for a community breakfast event. The hall is buzzing with activity as volunteers arrange tables, distribute flyers, and test the sound system. Owen is in the center of the action, coordinating tasks while his wife Lisa keeps a close eye on the budget.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Owen Freeman",
+          "gender": "Male",
+          "description": "A warm and enthusiastic community organizer who recently resigned from his job to focus on volunteer work. He is trying to balance his determination and slight anxiety to ensure the event's success.; years old, Male, Community Organizer, 34 years old; Occupation: Community service worker; Personality: Enthusiastic, Leadership-oriented, Determined, Slightly anxious; Values: Community service, Teamwork, Optimism; Interests: Organizing events, Social media, Community development; Experiences: Recently resigned, Leading volunteer activities, Planning community breakfast",
+          "position": "Near the entrance, directing volunteers",
+          "states": "Energetic, slightly stressed, focused",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Lisa Freeman",
+          "gender": "Female",
+          "description": "Owen's supportive and practical wife, who is concerned about the event's financial feasibility; Female; Age: 38; Occupation: Financial Analyst; Personality: Cautious, analytical, calm; Values: Fiscal responsibility, community service, family; Interests: Budget planning, local charity events, reading business journals; Experiences: Managed finances for a non-profit organization, organized a successful fundraiser for a school, worked on event cost projections for city festivals.",
+          "position": "At the table with the budget spreadsheet",
+          "states": "Cautious, analytical, calm",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Mike Thompson",
+          "gender": "Male",
+          "description": "A seasoned volunteer with a calm and resourceful demeanor; Male; Age: 58; Occupation: Retired High School Teacher and Community Coordinator; Personality: Calm, helpful, solution-oriented; Values: Community, responsibility, collaboration; Interests: Event planning, gardening, mentoring; Experiences: Organized multiple local charity events, served as a volunteer coordinator during the city's annual festival, helped establish a neighborhood youth outreach program.",
+          "position": "Near the refreshments table, helping to stock supplies",
+          "states": "Calm, helpful, solution-oriented",
+          "is_npc": true
+        },
+        {
+          "id": 3,
+          "name": "Mina Patel",
+          "gender": "Female",
+          "description": "A young and tech-savvy volunteer who is passionate about using social media to promote the event; Female; Age: 23; Occupation: Digital Marketing Specialist; Personality: Energetic, creative, confident; Values: Community engagement, innovation; Interests: Social media content creation, event planning, photography; Experiences: Organized a successful local charity fundraiser online, volunteered for neighborhood clean-up campaigns, led a youth outreach project using digital platforms.",
+          "position": "By the laptop, managing social media posts",
+          "states": "Energetic, creative, confident",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Owen Freeman",
+          "character_id": 0,
+          "action": "Calling out to volunteers",
+          "dialogue": "Alright, everyone, let's make sure the tables are spaced out evenly. We want people to feel comfortable when they arrive!"
+        },
+        {
+          "action_id": 1,
+          "character": "Lisa Freeman",
+          "character_id": 1,
+          "action": "Reviewing the budget",
+          "dialogue": "Owen, I'm worried we might be over the limit with the table rentals. We need to cut costs somewhere."
+        },
+        {
+          "action_id": 2,
+          "character": "Mike Thompson",
+          "character_id": 2,
+          "action": "Suggesting a solution",
+          "dialogue": "Maybe we can reach out to the local bakery again. They might be willing to sponsor some of the setup costs if we mention the event's purpose."
+        },
+        {
+          "action_id": 3,
+          "character": "Mina Patel",
+          "character_id": 3,
+          "action": "Updating social media",
+          "dialogue": "I just posted a teaser video on Instagram and Facebook. It's getting some good engagement. Maybe we can boost the post a little to reach more people."
+        },
+        {
+          "action_id": 4,
+          "character": "Owen Freeman",
+          "character_id": 0,
+          "action": "Reassuring the team",
+          "dialogue": "Thanks, Mina. That's a great idea. And Mike, I'll call the bakery right now. Lisa, we'll adjust the budget as we go. We've got this!"
+        }
+      ],
+      "plot": "Owen and his team are preparing for a community breakfast event that aims to bring together local residents and promote unity. Lisa is worried about the budget, while Mike and Mina offer practical suggestions to help them stay within financial limits and increase attendance. Owen, as the leader, remains confident and optimistic, ensuring the team works together to overcome challenges.",
+      "social_purpose": "To showcase Owen's commitment to community service and teamwork, while highlighting the diverse personalities and strengths of the volunteers who support him.",
+      "chunk": {
+        "id": 0,
+        "text": "Owen Freeman is in the middle of the Community Center Hall, directing volunteers and ensuring everything is in place for the upcoming breakfast event. His wife Lisa is at the budget table, carefully reviewing the numbers and expressing concern. Mike Thompson, a calm and experienced volunteer, suggests reaching out to a local sponsor to help reduce costs. Mina Patel, a tech-savvy member, is updating the event's social media to generate more interest. Owen's leadership and optimism are evident as he coordinates the team and reassures them they can overcome the obstacles."
+      },
+      "npcs": [
+        1,
+        2,
+        3
+      ]
+    }
+  ]
+}

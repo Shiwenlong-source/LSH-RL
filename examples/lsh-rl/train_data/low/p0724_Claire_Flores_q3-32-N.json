@@ -1,0 +1,102 @@
+{
+  "title": "Crossroads on the Terrace",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "After a classmate's wedding, Claire and her friend Lily meet with her colleague Tang to discuss life and work.",
+      "time": "Evening",
+      "location": "Outdoor terrace of a wedding venue",
+      "description": "The terrace is lit with string lights and filled with the distant sound of wedding music. Claire stands quietly at the edge, while Lily and Tang approach her with concern and curiosity. The atmosphere is warm but introspective.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Claire Flores",
+          "gender": "female",
+          "description": "A 30-year-old independent professional freelancer, thoughtful and introspective, who is currently at a crossroads in her life.; female, independent professional woman, 30 years old; Occupation: Freelancer; Personality: Thoughtful, Analytical, Introspective; Values: Self-reflection, Personal fulfillment, Balance; Interests: Career development, Life planning, Philosophical discussions; Experiences: Attending weddings, Career milestones, Friendship interactions, Life transitions, Self-exploration",
+          "position": "Standing at the edge of the terrace",
+          "states": "Contemplative, hesitant, emotionally conflicted",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Lily Chen",
+          "gender": "female",
+          "description": "Lily Chen; female; Age: late 20s; Occupation: graphic designer; Personality: warm, empathetic, observant; Values: loyalty, personal growth, work-life balance; Interests: art exhibitions, journaling, urban photography; Experiences: helped Claire through a difficult career crossroads, attended multiple weddings with Claire and Tang, worked remotely during the pandemic to support friends emotionally.",
+          "position": "Approaching Claire from the side",
+          "states": "Concerned, supportive, observant",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Tang Wei",
+          "gender": "male",
+          "description": "Claire's long-time colleague and occasional collaborator, a pragmatic and analytical project manager in his early 30s, who values career growth and efficiency; Male; Age: 29; Occupation: Senior Project Manager at a mid-sized tech firm; Personality: Analytical, curious, professional; Values: Ambition, precision, work-life balance; Interests: Strategic board games, urban planning, coffee culture; Experiences: Led a high-stakes product launch that secured his promotion, navigated a team through a major corporate merger, recently attended a leadership seminar in Singapore.",
+          "position": "Standing slightly behind Lily",
+          "states": "Curious, analytical, professional",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Lily Chen",
+          "character_id": 1,
+          "action": "Approaching Claire and speaking gently.",
+          "dialogue": "Hey, Claire. You've been quiet all night. Everything okay?"
+        },
+        {
+          "action_id": 1,
+          "character": "Claire Flores",
+          "character_id": 0,
+          "action": "Looking at Lily and sighing, then speaking thoughtfully.",
+          "dialogue": "I don't know, Lily. I'm just... thinking about where I am in my life. It's hard to see a clear path sometimes."
+        },
+        {
+          "action_id": 2,
+          "character": "Tang Wei",
+          "character_id": 2,
+          "action": "Joining the conversation with a calm tone.",
+          "dialogue": "I remember when I first started freelancing, it felt like everything was a choice. But now I realize the balance is what keeps me grounded."
+        },
+        {
+          "action_id": 3,
+          "character": "Claire Flores",
+          "character_id": 0,
+          "action": "Nodding slowly and responding with introspection.",
+          "dialogue": "Balance. That's one of the things I value most. But lately, I feel like I'm missing it in my life."
+        },
+        {
+          "action_id": 4,
+          "character": "Lily Chen",
+          "character_id": 1,
+          "action": "Sitting down and listening, then offering a perspective.",
+          "dialogue": "You always say you want personal fulfillment, but are you giving yourself the space to find it?"
+        },
+        {
+          "action_id": 5,
+          "character": "Tang Wei",
+          "character_id": 2,
+          "action": "Crossing his arms and speaking with a reflective tone.",
+          "dialogue": "I get it. I've been there. Sometimes you have to step back from the career grind to see what truly matters."
+        },
+        {
+          "action_id": 6,
+          "character": "Claire Flores",
+          "character_id": 0,
+          "action": "Smiling faintly and speaking with gratitude.",
+          "dialogue": "Thanks for understanding. I think I need to take a break, maybe do some life planning. This wedding just made me realize how much I want more than just work."
+        }
+      ],
+      "plot": "Claire is at a wedding where she is prompted to reflect on her life choices. Lily and Tang, noticing her quiet demeanor, engage her in a conversation that helps her articulate her internal conflict between career and personal fulfillment. Their dialogue reveals Claire's values and experiences, as well as the supportive dynamic among the three characters.",
+      "social_purpose": "To explore the protagonist's internal conflict and values through a natural, supportive conversation with close friends and colleagues.",
+      "chunk": {
+        "id": 0,
+        "text": "Claire stands on the terrace, lost in thought. Lily approaches, sensing her unease, and Tang joins the conversation, offering a professional yet personal perspective. Together, they navigate a meaningful discussion about balance, fulfillment, and life transitions."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

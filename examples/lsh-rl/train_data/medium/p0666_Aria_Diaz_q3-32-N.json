@@ -1,0 +1,112 @@
+{
+  "title": "A Wedding Dress Moment",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Church wedding-themed dinner",
+      "time": "Evening",
+      "location": "Community hall with white tablecloths, floral centerpieces, and soft classical music",
+      "description": "Aria is seated at a table with her daughter Lina, her mother, and a newly met neighbor. The dinner is a small gathering for a church wedding, but the mood is occasionally heavy due to a recent drug raid Aria was involved in. Lina is excited about the event, while Aria seems distracted and tired. Her mother is relaxed and making small talk with the neighbor. A moment of connection arises when Lina snuggles up to Aria, prompting a tentative suggestion from Aria.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Aria Diaz",
+          "gender": "Female",
+          "description": "A 40-year-old police officer and mother, appearing tired and distracted, but showing glimpses of warmth and protectiveness.; Female / Mother and Professional, 40 years old; Occupation: Police officer; Personality: Resilient, Protective, Thoughtful; Values: Family, Trust, Safety; Interests: Parenting, Community engagement, Wedding traditions; Experiences: Working in law enforcement, Raising a daughter, Attending family events, Handling mother-daughter relationships, Community interactions",
+          "position": "Seated at the head of the table",
+          "states": "Tired, thoughtful, protective",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Lina Diaz",
+          "gender": "Female",
+          "description": "Aria's 15-year-old daughter, enthusiastic and eager to bond with her mother, but sensing her fatigue; Female; Age: 15; Occupation: High school student; Personality: Enthusiastic, affectionate, observant; Values: Family, authenticity, hope; Interests: Music, baking, meaningful conversations; Experiences: Navigating her mother's recent legal troubles, preparing for her aunt's church wedding, forming close bonds with supportive adults in her community.",
+          "position": "Seated to Aria's left",
+          "states": "Enthusiastic, affectionate, observant",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Mrs. Alvarez",
+          "gender": "Female",
+          "description": "Aria's mother, 68 years old, relaxed and supportive, with a warm and nurturing demeanor; Female; Age: 68; Occupation: Retired schoolteacher; Personality: Compassionate, patient, perceptive; Values: Family, faith, community; Interests: Cooking for gatherings, gardening, reading inspirational literature; Experiences: Raised a daughter in a challenging neighborhood, volunteered at the local church for decades, recently dealt with the emotional fallout of a family member's legal troubles.",
+          "position": "Seated to Aria's right",
+          "states": "Relaxed, observant, nurturing",
+          "is_npc": true
+        },
+        {
+          "id": 3,
+          "name": "Mr. Thompson",
+          "gender": "Male",
+          "description": "Mr. Thompson; Male; Age: 55; Occupation: Retired school principal; Personality: Curious, friendly, empathetic; Values: Community, family, integrity; Interests: Gardening, classical music, local history; Experiences: Organized numerous community events, served on the church council for 20 years, recently lost a close friend to addiction.",
+          "position": "Seated across from Mrs. Alvarez",
+          "states": "Curious, friendly, engaged",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Lina Diaz",
+          "character_id": 1,
+          "action": "Excitedly talks about the wedding theme and the dress she wants to wear.",
+          "dialogue": "Mom, I can't wait to try on the wedding dress they have in the hall! It's so pretty."
+        },
+        {
+          "action_id": 1,
+          "character": "Aria Diaz",
+          "character_id": 0,
+          "action": "Responds with a tired smile, but shows interest in Lina's excitement.",
+          "dialogue": "That sounds nice, Lina. I hope you enjoy it."
+        },
+        {
+          "action_id": 2,
+          "character": "Mr. Thompson",
+          "character_id": 3,
+          "action": "Brings up the recent drug raid at a nearby farm, trying to make conversation.",
+          "dialogue": "I heard there was a big drug raid at the farm just outside town. Pretty intense for a small community."
+        },
+        {
+          "action_id": 3,
+          "character": "Aria Diaz",
+          "character_id": 0,
+          "action": "Tentatively shares her perspective, showing her protective and thoughtful nature.",
+          "dialogue": "It was... necessary. The community needs to stay safe. I was there, actually. It was hard, but it had to be done."
+        },
+        {
+          "action_id": 4,
+          "character": "Lina Diaz",
+          "character_id": 1,
+          "action": "Snuggles up to Aria, seeking comfort and connection.",
+          "dialogue": "I know you work hard, Mom. I'm proud of you."
+        },
+        {
+          "action_id": 5,
+          "character": "Aria Diaz",
+          "character_id": 0,
+          "action": "Softens, showing warmth and a desire to bond with her daughter.",
+          "dialogue": "Thank you, sweetheart. I wish I could be more present for you. Maybe... you could try on my wedding dress later? It's still in the closet at home."
+        },
+        {
+          "action_id": 6,
+          "character": "Lina Diaz",
+          "character_id": 1,
+          "action": "Looks surprised but pleased at the suggestion, sensing a new opportunity to connect.",
+          "dialogue": "Really? You'd let me try it on? That would be so cool, Mom."
+        }
+      ],
+      "plot": "At a small wedding-themed dinner, Aria's exhaustion contrasts with Lina's enthusiasm. After a heavy conversation about a recent drug raid, Lina's affectionate gesture prompts Aria to suggest trying on her old wedding dress, offering a potential breakthrough in their strained relationship.",
+      "social_purpose": "To explore Aria's values of family and trust, and her personality traits of resilience and protectiveness, while showing her desire to reconnect with her daughter through shared interests like wedding traditions.",
+      "chunk": {
+        "id": 0,
+        "text": "The dinner was a modest affair, but the wedding theme was clear—white tablecloths, floral arrangements, and a soft melody playing in the background. Aria sat at the head of the table, her eyes betraying the long hours she'd spent at work. Lina, on her left, was animated and chatty, while her grandmother on the right sipped wine and smiled at the scene. Mr. Thompson, a new neighbor, shared stories of the recent drug raid at a nearby farm, his tone casual but the weight of the subject lingering in the air. When Lina leaned into Aria and whispered about wanting to try on a wedding dress, Aria felt a flicker of warmth. She hesitated, then offered, 'Maybe you could try on mine later.' Lina's eyes lit up, and for a brief moment, the tension in the room softened."
+      },
+      "npcs": [
+        1,
+        2,
+        3
+      ]
+    }
+  ]
+}

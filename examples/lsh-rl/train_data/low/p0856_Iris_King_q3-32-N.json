@@ -1,0 +1,80 @@
+{
+  "title": "The Royal Selection",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "The Candidate Debate",
+      "time": "Afternoon",
+      "location": "The Grand Hall of the Royal Palace",
+      "description": "Queen Iris sits at the head of a long, ornate table, flanked by her most trusted advisor, Luo, and a panel of court officials. The atmosphere is tense as three candidate kings—Wei, a seasoned general; Elara, a diplomat from a neighboring kingdom; and Aldric, a young noble with no prior political experience—stand before her, awaiting the next phase of the selection process.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Iris King",
+          "gender": "Female",
+          "description": "A poised and calculating monarch, Queen Iris is known for her wisdom and passion for leadership. Her piercing gaze and calm demeanor mask the intensity of her decision-making process.; Female / Monarch, 36 years old; Occupation: Queen and Ruler of the Kingdom; Personality: Wise, Passionate, Strategic, Calculating; Values: Power, Control, Ambition, Tradition; Interests: Political Strategy, Power Games, Leadership, Royal History; Experiences: Ruling a kingdom, Handling court politics, Making high-stakes decisions, Managing succession to the throne",
+          "position": "Queen and Ruler of the Kingdom",
+          "states": "Observant, composed, intrigued",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Luo",
+          "gender": "Male",
+          "description": "A sharp-minded advisor with a deep understanding of court politics; Male; Age: 48; Occupation: Royal Strategist and Chief Advisor; Personality: Analytical, composed, observant; Values: Loyalty, justice, wisdom; Interests: Reading historical treaties, studying military tactics, solving political puzzles; Experiences: Survived a palace coup by outmaneuvering rival factions, advised Queen Iris during the recent border conflict with neighboring Duchy of Virell.",
+          "position": "Royal Advisor",
+          "states": "Supportive, analytical, composed",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Wei",
+          "gender": "Male",
+          "description": "A confident and ambitious general, eager to prove his worth beyond mere lineage; Male; Age: 38; Occupation: Commander of the Royal Army; Personality: Determined, assertive, calculating; Values: Honor, Strength, Loyalty; Interests: Strategy, Military history, Swordsmanship; Experiences: Led successful campaigns against border raiders, trained under the former warlord general, never held a political office but often advised on military matters.",
+          "position": "Candidate for King",
+          "states": "Determined, assertive, calculating",
+          "is_npc": true
+        },
+        {
+          "id": 3,
+          "name": "Elara",
+          "gender": "Female",
+          "description": "A graceful and eloquent diplomat from the neighboring kingdom of Virelia; Female; Age: 34; Occupation: Envoy and Chief Negotiator of Virelia; Personality: Calm, diplomatic, observant, analytical, adaptable; Values: Honor, stability, mutual respect; Interests: Strategic board games, cultural diplomacy, historical treaties; Experiences: Mediated the Virelia-Thalor trade agreement, survived a political coup through careful negotiation, served as peacekeeper during the Eastern Provinces conflict.",
+          "position": "Candidate for King",
+          "states": "Calm, diplomatic, observant",
+          "is_npc": true
+        },
+        {
+          "id": 4,
+          "name": "Aldric",
+          "gender": "Male",
+          "description": "A young and charismatic noble, Aldric relies on charm and noble lineage to win favor; Male; Age: 24; Occupation: Aspirant Royal Heir and Court Orator; Personality: Ambitious, hopeful, charismatic, idealistic, nervous; Values: Progress, honor, loyalty to the crown; Interests: Political reform, public speaking, cultural exchange, history; Experiences: Educated in the Royal Academy, participated in minor diplomatic councils, recently entered the royal succession debate.",
+          "position": "Candidate for King",
+          "states": "Nervous, hopeful, ambitious",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Iris King",
+          "character_id": 0,
+          "action": "Iris opens the debate by addressing the candidates directly.",
+          "dialogue": "Each of you has been chosen for your unique strengths. Today, you will demonstrate not only your knowledge of governance but also your ability to inspire and lead. Begin with your vision for the kingdom’s future."
+        }
+      ],
+      "plot": "Queen Iris has restructured the selection process for the next king, moving away from traditional lineage-based evaluations to a more dynamic and strategic approach. The candidates must now present their visions for the kingdom in a public debate, with the court and the queen herself as judges. The tension is palpable as each candidate attempts to impress the queen and outmaneuver their rivals.",
+      "social_purpose": "To explore the values, ambitions, and personalities of the candidates while showcasing Queen Iris's strategic and calculating nature as she evaluates them for the throne.",
+      "chunk": {
+        "id": 0,
+        "text": "Queen Iris has restructured the selection process for the next king, moving away from traditional lineage-based evaluations to a more dynamic and strategic approach. The candidates must now present their visions for the kingdom in a public debate, with the court and the queen herself as judges. The tension is palpable as each candidate attempts to impress the queen and outmaneuver their rivals."
+      },
+      "npcs": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  ]
+}

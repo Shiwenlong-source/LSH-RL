@@ -1,0 +1,119 @@
+{
+  "title": "The Café Discussion",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "A group of friends discussing ways to support peace and soldiers after watching a political movie",
+      "time": "Afternoon",
+      "location": "A cozy local café",
+      "description": "Ryan Butler, a 24-year-old activist and recent graduate, sits with his friends and brother at a small table in the corner of the café. The atmosphere is quiet, but the group is animated in their discussion. They are trying to decide on a meaningful action to take after being moved by a war documentary they watched the night before.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Ryan Butler",
+          "gender": "Male",
+          "description": "24-year-old recent graduate, thoughtful and determined. He is passionate about social justice and constructive action to support peace and soldiers.; 22-year-old /Male/Recent graduate, 24 years old; Occupation: Activist; Personality: Thoughtful, Idealistic, Determined, Analytical; Values: Peace, Social responsibility, Constructive action; Interests: Political documentaries, Social justice, Activism, Public discussion; Experiences: Watching politically charged movies, Participating in social discussions, Considering activism, Handling family relationships, Seeking meaningful impact",
+          "position": "At the center of the table",
+          "states": "Engaged, thoughtful, slightly conflicted",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Lucy Chen",
+          "gender": "Female",
+          "description": "Lucy Chen; Female; Age: 23; Occupation: Community organizer for veterans' support initiatives; Personality: Enthusiastic, assertive, empathetic; Values: Social justice, unity through service; Interests: Peace activism, grassroots organizing, documentary filmmaking; Experiences: Led a local campaign to fund veteran mental health programs, volunteered at a military outreach event during college, grew up with a parent who served in the military.",
+          "position": "To Ryan's left",
+          "states": "Enthusiastic, assertive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Mike Butler",
+          "gender": "Male",
+          "description": "Mike Butler; Male; Age: 20; Occupation: Political Science major at State University; Personality: Playful, sarcastic, impulsive; Values: Freedom, camaraderie; Interests: Mock political debates, video games, stand-up comedy; Experiences: Attended a protest with Ryan that turned chaotic, briefly joined a campus military appreciation group and left after clashing with its serious tone.",
+          "position": "To Ryan's right",
+          "states": "Playful, dismissive",
+          "is_npc": true
+        },
+        {
+          "id": 3,
+          "name": "Jordan Lee",
+          "gender": "Non-binary",
+          "description": "Jordan Lee; Non-binary; Age: 25; Occupation: Social worker specializing in veterans' mental health; Personality: Analytical, empathetic, patient; Values: Compassion, justice, community; Interests: Political documentaries, journaling, indie music; Experiences: Volunteered at a veterans' outreach program, mediated community discussions on war and peace, recently attended a workshop on trauma-informed care.",
+          "position": "Across from Ryan",
+          "states": "Listening, supportive",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Lucy Chen",
+          "character_id": 1,
+          "action": "Suggests organizing a protest",
+          "dialogue": "Ryan, we can’t just sit here and feel bad. We should organize a protest downtown! It’s the most direct way to show we care and push for change."
+        },
+        {
+          "action_id": 1,
+          "character": "Ryan Butler",
+          "character_id": 0,
+          "action": "Expresses concern about the effectiveness of protests",
+          "dialogue": "I get where you’re coming from, Lucy, but I’ve seen how protests can be ignored or even turned violent. I want to do something that actually makes a difference, not just gets us angry."
+        },
+        {
+          "action_id": 2,
+          "character": "Mike Butler",
+          "character_id": 2,
+          "action": "Jokes to defuse the tension",
+          "dialogue": "Maybe we should just start a petition to get free coffee for all soldiers. That would definitely solve the war."
+        },
+        {
+          "action_id": 3,
+          "character": "Jordan Lee",
+          "character_id": 3,
+          "action": "Proposes a compromise",
+          "dialogue": "What if we combine both ideas? We could do a peaceful protest and also partner with a local organization to provide care packages for soldiers. That way, we raise awareness and do something tangible."
+        },
+        {
+          "action_id": 4,
+          "character": "Ryan Butler",
+          "character_id": 0,
+          "action": "Considers the suggestion and asks for more details",
+          "dialogue": "That might work. I’ve been reading about similar initiatives online. How do we find an organization to partner with, and what would be in the care packages?"
+        },
+        {
+          "action_id": 5,
+          "character": "Lucy Chen",
+          "character_id": 1,
+          "action": "Agrees to look for organizations",
+          "dialogue": "I can check with the group I volunteer with. They might know someone who works with soldiers. And for the packages, I’m thinking things like letters, snacks, and maybe some small books."
+        },
+        {
+          "action_id": 6,
+          "character": "Mike Butler",
+          "character_id": 2,
+          "action": "Laughs but shows interest",
+          "dialogue": "Okay, okay, I’m in. Just don’t let the soldiers think we’re giving them snacks for a reason. They might get suspicious."
+        },
+        {
+          "action_id": 7,
+          "character": "Jordan Lee",
+          "character_id": 3,
+          "action": "Encourages the group to move forward",
+          "dialogue": "This is a great start. Ryan’s thoughtful approach and Lucy’s energy are a good mix. Let’s make a plan and see how it goes."
+        }
+      ],
+      "plot": "Ryan and his friends are trying to find a meaningful way to support peace and soldiers after being moved by a political movie. Lucy suggests a protest, but Ryan is concerned about its effectiveness. Mike uses humor to ease the tension, while Jordan proposes a balanced approach of protest and tangible action. Ryan is torn but ultimately leans toward a constructive solution.",
+      "social_purpose": "To show how individuals with different perspectives can collaborate to create a meaningful and balanced approach to activism, highlighting the protagonist's values of peace, social responsibility, and constructive action.",
+      "chunk": {
+        "id": 0,
+        "text": "Ryan Butler, a 24-year-old activist and recent graduate, sits with his friends and brother at a small table in the corner of the café. The atmosphere is quiet, but the group is animated in their discussion. They are trying to decide on a meaningful action to take after being moved by a war documentary they watched the night before. Lucy suggests a protest, while Ryan pushes for something more impactful. Mike uses humor to lighten the mood, and Jordan proposes a practical compromise. Ryan, thoughtful and analytical, tries to find a balance between idealism and realism, reflecting his deep interest in social justice and activism."
+      },
+      "npcs": [
+        1,
+        2,
+        3
+      ]
+    }
+  ]
+}

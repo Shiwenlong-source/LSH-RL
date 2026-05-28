@@ -1,0 +1,95 @@
+{
+  "title": "The Morning Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Xavier decides whether to come to work despite his illness",
+      "time": "Morning, 8:15 AM",
+      "location": "Office entrance",
+      "description": "Xavier stands at the office entrance, visibly unwell with a red face and a handkerchief pressed to his throat. His colleagues Cici and Anson are waiting nearby, having noticed his condition and discussed it briefly.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Xavier",
+          "gender": "Male",
+          "description": "A 31-year-old office worker with a sore throat and a conflicted expression. He is anxious but determined to fulfill his responsibilities.; Office Worker, 31 years old; Occupation: Office Worker; Personality: Responsible, Anxious, Determined; Values: Duty, Financial Stability, Professional Commitment; Interests: Work Projects, Health Management, Personal Finance; Experiences: Recent illness, Work-related stress, Colleague health issues, Financial pressure, Decision-making under pressure",
+          "position": "Near the office entrance",
+          "states": "Unwell, conflicted, determined",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Cici",
+          "gender": "Female",
+          "description": "Xavier's supportive and empathetic colleague, who has been managing her workload efficiently and is concerned about his health; Female; Age: 32; Occupation: Senior HR Consultant; Personality: Compassionate, responsible, observant; Values: Work-life balance, employee well-being, integrity; Interests: Reading self-help books, yoga, volunteering for health awareness initiatives; Experiences: Previously managed a team through a health crisis, has a history of supporting colleagues during personal challenges, worked in high-pressure corporate environments.",
+          "position": "Standing next to Xavier",
+          "states": "Concerned, supportive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Anson",
+          "gender": "Male",
+          "description": "A 33-year-old office worker who recently recovered from a fever and is aware of the health risks in the office; Male; Age: 33; Occupation: Office Manager; Personality: Responsible, observant, empathetic; Values: Health and well-being, team cohesion; Interests: Reading self-help books, maintaining a clean workspace; Experiences: Recently recovered from a severe fever that forced him to take a week off work, witnessed a coworker develop a serious illness from working while sick.",
+          "position": "Standing behind Xavier",
+          "states": "Cautious, worried",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Cici",
+          "character_id": 1,
+          "action": "Approaches Xavier and speaks to him with concern.",
+          "dialogue": "Xavier, you don't look well. I think you should stay home today."
+        },
+        {
+          "action_id": 1,
+          "character": "Xavier",
+          "character_id": 0,
+          "action": "Looks down and then back up, showing his internal struggle.",
+          "dialogue": "I can't take another day off. The project is due in two days, and I need the money this month."
+        },
+        {
+          "action_id": 2,
+          "character": "Anson",
+          "character_id": 2,
+          "action": "Steps forward to add his perspective.",
+          "dialogue": "I get it, but the air in the office is still stuffy. If you come in, you might make the rest of us sick too."
+        },
+        {
+          "action_id": 3,
+          "character": "Xavier",
+          "character_id": 0,
+          "action": "Sighs, then nods slowly.",
+          "dialogue": "You're both right. I don't want to risk anyone else's health, but I'm worried about the project and my finances."
+        },
+        {
+          "action_id": 4,
+          "character": "Cici",
+          "character_id": 1,
+          "action": "Offers a solution.",
+          "dialogue": "Maybe you can work from home today? I can help you set it up if you want."
+        },
+        {
+          "action_id": 5,
+          "character": "Xavier",
+          "character_id": 0,
+          "action": "Considers the suggestion and shows a small smile.",
+          "dialogue": "That would be great, Cici. I appreciate it. I'll talk to my manager and see if it's possible."
+        }
+      ],
+      "plot": "Xavier is faced with a decision on whether to come to work despite his illness. His colleagues Cici and Anson notice his condition and advise him to stay home, citing both health and safety concerns. Xavier is torn between his professional responsibilities and his personal health, but ultimately decides to explore the option of working remotely to avoid spreading his illness while still fulfilling his duties.",
+      "social_purpose": "To demonstrate the tension between personal health and professional obligations in a workplace setting, while highlighting the importance of empathy and support among colleagues.",
+      "chunk": {
+        "id": 0,
+        "text": "Xavier stands at the office entrance, visibly unwell with a red face and a handkerchief pressed to his throat. His colleagues Cici and Anson are waiting nearby, having noticed his condition and discussed it briefly."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

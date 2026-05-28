@@ -1,0 +1,95 @@
+{
+  "title": "Yarn and Yard",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Community Meeting in Yarn Shop",
+      "time": "Afternoon",
+      "location": "Madison's Yarn Shop",
+      "description": "Madison has gathered a small group of regular customers in her cozy yarn shop to discuss the new parking fees at the nearby park. The shop is filled with the scent of wool and the sound of knitting needles. Mike, a tech-savvy man in his late 40s, leans over the counter with a furrowed brow, while Rose, a warm-hearted woman in her 60s, sits in a chair, listening attentively and occasionally nodding in agreement.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Madison Webb",
+          "gender": "Female",
+          "description": "A passionate and determined shop owner in her late 30s, who is using her yarn shop as a community hub to advocate for local issues.; Female / Shop Owner, 38 years old; Occupation: Yarn Shop Owner; Personality: Enthusiastic, Determined, Community-oriented; Values: Public Space Protection, Community Engagement, Fairness; Interests: Knitting, Social Activism, Local Affairs; Experiences: Running a small shop, Organizing petitions, Advocating for community issues",
+          "position": "Center of the room",
+          "states": "Energetic and focused",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Mike",
+          "gender": "Male",
+          "description": "A tech-savvy and analytical man in his late 40s, who is supportive of Madison’s cause but prefers a logical, data-driven approach; Male; Age: 48; Occupation: Data Analyst for the city planning department; Personality: Curious, methodical, empathetic; Values: Community welfare, transparency, efficiency; Interests: Urban development, data visualization, hiking; Experiences: Analyzed traffic patterns for downtown revitalization, volunteered for local environmental initiatives, grew up in a family that valued civic engagement.",
+          "position": "Standing near the counter",
+          "states": "Thoughtful and questioning",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Rose",
+          "gender": "Female",
+          "description": "A kind and community-oriented woman in her 60s, who is curious about the issue and eager to help in any way she can; Female; Age: 63; Occupation: Retired schoolteacher and part-time knitting instructor; Personality: Empathetic, patient, optimistic; Values: Community well-being, fairness, lifelong learning; Interests: Knitting, gardening, local history; Experiences: Taught elementary school for over 30 years, organized neighborhood clean-up initiatives, recently volunteered to help seniors learn technology.",
+          "position": "Sitting in a chair near the center",
+          "states": "Supportive and concerned",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Madison Webb",
+          "character_id": 0,
+          "action": "Initiates the meeting and explains the issue",
+          "dialogue": "You all know how important the park is for our community. The new parking fees are just another way for the city to take money from people who just want to enjoy a safe, open space. I’ve started a petition, and I need your help to spread the word."
+        },
+        {
+          "action_id": 1,
+          "character": "Mike",
+          "character_id": 1,
+          "action": "Asks for more information",
+          "dialogue": "That’s a fair point, Madison. But do we have any data on how much this will affect people? I mean, is it really that bad for the average family to pay a few extra bucks for parking?"
+        },
+        {
+          "action_id": 2,
+          "character": "Madison Webb",
+          "character_id": 0,
+          "action": "Responds passionately",
+          "dialogue": "It’s not just about the money, Mike. It’s about access. If we let this go, what’s next? They’ll start charging for benches or for using the trails. We need to stand up now before it’s too late."
+        },
+        {
+          "action_id": 3,
+          "character": "Rose",
+          "character_id": 2,
+          "action": "Shares a personal story",
+          "dialogue": "I take my grandkids to the park every weekend. It’s the only place they can run freely. If we can’t afford the parking, we’ll miss out on that time together. It’s not fair."
+        },
+        {
+          "action_id": 4,
+          "character": "Mike",
+          "character_id": 1,
+          "action": "Offers a practical solution",
+          "dialogue": "I can look into the city’s budget for the park and see if there’s a way to frame this as a misuse of public funds. That might help the petition gain more traction."
+        },
+        {
+          "action_id": 5,
+          "character": "Madison Webb",
+          "character_id": 0,
+          "action": "Expresses gratitude and assigns roles",
+          "dialogue": "That would be amazing, Mike. And Rose, if you’re okay with it, I’d love to include a section in the petition about family access to the park. You two are my people, and I know we can make a difference."
+        }
+      ],
+      "plot": "Madison uses her yarn shop as a gathering place to discuss the rising park parking fees with her customers Mike and Rose. Through their dialogue, the group formulates a strategy to challenge the fees and protect public access to the park.",
+      "social_purpose": "Highlight the importance of community engagement and the role of small business owners in advocating for public spaces. Show how shared values can bring people together to take action.",
+      "chunk": {
+        "id": 0,
+        "text": "Madison Webb stood in the center of her yarn shop, her hands gripping a printed copy of the petition. The room was quiet, but the energy was palpable. She looked at Mike and Rose, her two most vocal supporters, and saw their expressions shift from curiosity to determination. 'We’ve got a chance to make a real difference,' she said, her voice steady and full of conviction. Mike nodded, already thinking about the data he could gather, while Rose reached for a pen. 'Count me in,' she said, signing the petition with a flourish. Madison smiled, feeling the strength of her community behind her."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

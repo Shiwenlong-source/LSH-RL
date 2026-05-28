@@ -1,0 +1,123 @@
+{
+  "title": "Coffee with a Connection",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Meeting for coffee",
+      "time": "10:30 AM on a Saturday",
+      "location": "A cozy downtown café",
+      "description": "Kyle Snyder, a 30-year-old office worker, meets with Wendy, a flight nurse he has been chatting with online, and his friend Shary, who accompanied him for support. The trio sits at a small table by the window, sipping coffee and engaging in conversation. Kyle is eager but cautious, while Shary is more skeptical and observant.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Kyle Snyder",
+          "gender": "Male",
+          "description": "30-year-old office worker, curious and cautious, seeking a sincere relationship. He is visibly nervous but trying to stay optimistic.; 30-year-old male, seeking sincere relationship, 30 years old; Occupation: Office White-collar Worker; Personality: Curious, Cautious, Optimistic, Empathetic; Values: Sincerity, Trust, Emotional connection; Interests: Online communication, Meeting new people, Romantic relationships; Experiences: Using dating platforms, Building connections via digital interaction, Accepting friends' advice",
+          "position": "Sitting at the table, facing Wendy",
+          "states": "Nervous, hopeful, attentive",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Wendy",
+          "gender": "Female",
+          "description": "A flight nurse in her late 20s, warm and humorous; Female; Age: 28; Occupation: Flight Nurse; Personality: Empathetic, confident, witty; Values: Compassion, honesty, work-life balance; Interests: Travel, hiking, true crime podcasts; Experiences: Worked in emergency care during natural disasters, volunteered in international medical missions, recently started dating someone she met online.",
+          "position": "Across from Kyle, smiling and listening",
+          "states": "Engaged, friendly, sincere",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Shary",
+          "gender": "Female",
+          "description": "Shary is Kyle's close friend, female, mid-30s, a financial analyst; Personality: Pragmatic, cautious, empathetic; Values: Trustworthiness, practicality, loyalty; Interests: Budgeting and personal finance, indie music, hiking; Experiences: Navigated a failed friendship due to betrayal, helped friends through difficult career transitions, grew up in a family that valued financial responsibility.",
+          "position": "Sitting beside Kyle, sipping her drink",
+          "states": "Observant, skeptical, supportive",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Kyle Snyder",
+          "character_id": 0,
+          "action": "Initiates conversation",
+          "dialogue": "Hey Wendy, I'm really glad you could make it. I was a little nervous about meeting in person after all the video chats, but I'm glad we're here."
+        },
+        {
+          "action_id": 1,
+          "character": "Wendy",
+          "character_id": 1,
+          "action": "Responds warmly",
+          "dialogue": "I'm happy to be here too, Kyle. I felt the same way, but I think it's important to see if this connection can translate to real life."
+        },
+        {
+          "action_id": 2,
+          "character": "Shary",
+          "character_id": 2,
+          "action": "Observes and comments",
+          "dialogue": "You two have been talking for weeks, but Kyle, I still think you should take it slow. You're looking for sincerity, and that's not something you can rush."
+        },
+        {
+          "action_id": 3,
+          "character": "Kyle Snyder",
+          "character_id": 0,
+          "action": "Shares his thoughts",
+          "dialogue": "I know, Shary. I'm being careful. I just feel like Wendy and I have something real, you know? It's not just about finding someone—it's about trust and emotional connection."
+        },
+        {
+          "action_id": 4,
+          "character": "Wendy",
+          "character_id": 1,
+          "action": "Shows empathy",
+          "dialogue": "I appreciate you being so open about what you're looking for, Kyle. That takes courage. I'm not looking for a long-distance fling either. I want something real and lasting too."
+        },
+        {
+          "action_id": 5,
+          "character": "Shary",
+          "character_id": 2,
+          "action": "Offers a suggestion",
+          "dialogue": "Well, maybe you can talk about how you both see this working long-term? I know you're both into online communication, but real life is different."
+        },
+        {
+          "action_id": 6,
+          "character": "Kyle Snyder",
+          "character_id": 0,
+          "action": "Considers the idea",
+          "dialogue": "That's a good idea. I want to make sure we're on the same page. I've used dating platforms before, but this feels different. I really care about getting to know someone who values sincerity like I do."
+        },
+        {
+          "action_id": 7,
+          "character": "Wendy",
+          "character_id": 1,
+          "action": "Shares her perspective",
+          "dialogue": "I think it's amazing that you're so open and empathetic, Kyle. I've met a lot of people online, but not many who are as thoughtful as you are. I'm willing to work through the challenges if this is something we both want."
+        },
+        {
+          "action_id": 8,
+          "character": "Shary",
+          "character_id": 2,
+          "action": "Reacts to Wendy's words",
+          "dialogue": "She's being pretty upfront, Kyle. That's a good sign. But don't forget to keep your guard up a bit. Trust is important, but it's also earned."
+        },
+        {
+          "action_id": 9,
+          "character": "Kyle Snyder",
+          "character_id": 0,
+          "action": "Expresses appreciation",
+          "dialogue": "Thanks, Shary. I'll keep that in mind. Wendy, I really appreciate you being here and taking the time to talk about what's important to us both."
+        }
+      ],
+      "plot": "Kyle meets Wendy in person for the first time, accompanied by his friend Shary. They discuss their online connection, the possibility of a long-distance relationship, and the importance of sincerity and trust. Shary offers cautious advice, while Wendy reassures Kyle of her intentions.",
+      "social_purpose": "To explore the compatibility and sincerity of Kyle and Wendy's connection in a public setting, while incorporating Kyle's values and personality traits through dialogue and actions.",
+      "chunk": {
+        "id": 0,
+        "text": "Kyle Snyder, a 30-year-old office worker, meets with Wendy, a flight nurse he has been chatting with online, and his friend Shary, who accompanied him for support. The trio sits at a small table by the window, sipping coffee and engaging in conversation. Kyle is eager but cautious, while Shary is more skeptical and observant."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

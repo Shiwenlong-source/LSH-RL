@@ -1,0 +1,109 @@
+{
+  "title": "After the Curtain Falls",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Post-performance interaction",
+      "time": "7:30 PM",
+      "location": "Backstage of a small community theater",
+      "description": "Rose has just finished a stage performance and is standing at the edge of the backstage area, head down, adjusting the hem of her dress, cheeks slightly flushed. Her performance partner Gary approaches her with a hint of nervousness, while her friend Amy teases her from the side, placing Rose in a social dilemma of being both shy and curious. She struggles internally between politeness and boundaries, unsure how to respond to this sudden request.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Rose Nelson",
+          "gender": "woman, 25 years old",
+          "description": "A jazz dancer who is shy and thoughtful but also curious about new social experiences. She is still catching her breath after the performance.; woman, 25 years old; Occupation: Jazz dancer; Personality: Shy, Curious, Thoughtful, Polite; Values: Respect, Honesty, Friendship; Interests: Performing arts, Social interaction, Dance; Experiences: Stage performance, New social experiences, Peer pressure, Performance preparation",
+          "position": "Center, near the curtain",
+          "states": "Flushed, slightly nervous, focused on her dress",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Gary Mitchell",
+          "gender": "man, 27 years old",
+          "description": "Gary Mitchell; man; Age: 27; Occupation: Actor and part-time theater instructor; Personality: Charismatic, confident, observant; Values: Professional integrity, emotional honesty, artistic passion; Interests: Improvisational theater, classic literature, live music; Experiences: Lead roles in multiple regional productions, taught acting workshops at a local high school, recently moved to the area to join a community theater group.",
+          "position": "Left of Rose",
+          "states": "Nervous, hopeful, slightly awkward",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Amy Carter",
+          "gender": "woman, 26 years old",
+          "description": "Rose's best friend and fellow performer, who is playful and teasing; woman; Age: 26; Occupation: Part-time theater technician and local cabaret performer; Personality: Witty, empathetic, mischievous; Values: Loyalty, artistic expression, authenticity; Interests: Improv comedy, vintage fashion, storytelling; Experiences: Co-founded a small experimental theater group, survived a disastrous stage mishap during a high school play, helped Rose through a difficult breakup.",
+          "position": "Right of Rose",
+          "states": "Playful, observant, amused",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Gary Mitchell",
+          "character_id": 1,
+          "action": "Approaches Rose and speaks",
+          "dialogue": "Hey Rose, that was an amazing performance. I was wondering if I could maybe get your number? Just to talk about the show a bit more… if you're up for it."
+        },
+        {
+          "action_id": 1,
+          "character": "Rose Nelson",
+          "character_id": 0,
+          "action": "Pauses and looks at Gary with a hesitant smile",
+          "dialogue": "Oh, um… thanks for the compliment. I'm not sure how to take that. I mean, I'd love to talk about the show, but I'm a bit shy about giving out my phone number."
+        },
+        {
+          "action_id": 2,
+          "character": "Amy Carter",
+          "character_id": 2,
+          "action": "Chimes in with a teasing remark",
+          "dialogue": "Come on, Rose! You can't be shy about everything. Besides, if he's asking, maybe he's worth it."
+        },
+        {
+          "action_id": 3,
+          "character": "Rose Nelson",
+          "character_id": 0,
+          "action": "Looks at Amy and then back at Gary, trying to decide",
+          "dialogue": "I'm just trying to figure out what's appropriate here. I don't want to be rude, but I also want to be careful."
+        },
+        {
+          "action_id": 4,
+          "character": "Gary Mitchell",
+          "character_id": 1,
+          "action": "Nods understandingly and reassures her",
+          "dialogue": "I totally get that. No pressure at all. I just really enjoyed working with you, and I thought maybe we could keep in touch about future shows or even just… hang out sometime?"
+        },
+        {
+          "action_id": 5,
+          "character": "Rose Nelson",
+          "character_id": 0,
+          "action": "Considers the request and slowly pulls out her phone",
+          "dialogue": "Okay… I suppose it's fine. Just don't expect me to text back right away, okay? I'm a bit slow when it comes to new people."
+        },
+        {
+          "action_id": 6,
+          "character": "Gary Mitchell",
+          "character_id": 1,
+          "action": "Smiles and takes her number with care",
+          "dialogue": "Thanks, Rose. I'll make sure to be patient. I hope we can talk more about dance and maybe even collaborate again sometime."
+        },
+        {
+          "action_id": 7,
+          "character": "Amy Carter",
+          "character_id": 2,
+          "action": "Gives Rose a proud look and nudges her",
+          "dialogue": "See? That wasn't so bad. You handled it like a pro. Now go celebrate your performance!"
+        }
+      ],
+      "plot": "Rose is caught between her shyness and curiosity after her performance. Gary, her partner, asks for her phone number, and Amy teases her, pushing her to consider the request. Rose carefully weighs her decision, ultimately choosing to share her number while setting clear boundaries. The interaction highlights her growing confidence in navigating social situations while staying true to her values of respect and honesty.",
+      "social_purpose": "To explore Rose's internal conflict between shyness and curiosity, while showing how she maintains respect and honesty in a new social situation. The scene also highlights the role of friendship in supporting personal growth and decision-making.",
+      "chunk": {
+        "id": 0,
+        "text": "Rose is standing backstage, still in her performance dress, adjusting the hem. Gary, her performance partner, approaches with a nervous smile, asking for her phone number. Amy, her friend, teases her, adding to the social pressure. Rose carefully considers her response, balancing her shy nature with her curiosity about new relationships. She decides to give her number but sets boundaries, showing her thoughtful and polite personality. The scene ends with Amy giving her a proud nudge, and Rose feeling a mix of relief and excitement about the new possibility."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

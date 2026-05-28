@@ -1,0 +1,102 @@
+{
+  "title": "The Last Coffee Before Goodbye",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Ella shares her decision to move for a new job.",
+      "time": "Afternoon",
+      "location": "A cozy local café near the university",
+      "description": "Ella, Mona, and Tyler are seated in a quiet corner of the café, sipping their drinks. The atmosphere is warm but the mood is heavy as Ella reveals her decision to move for a new opportunity.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Ella Bailey",
+          "gender": "Female",
+          "description": "22-year-old student about to graduate, emotional yet determined, with a thoughtful demeanor.; 22-year-old / Female / Student, 24 years old; Occupation: Recently graduated; Personality: Determined, Emotional, Thoughtful; Values: Independence, Friendship, Growth; Interests: Future planning, Deep conversation, Self-reflection; Experiences: College life, Close friendships, Major life decisions",
+          "position": "center",
+          "states": "nervous but resolute",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Mona Carter",
+          "gender": "Female",
+          "description": "Ella’s close friend, empathetic and expressive, with a tendency to show her feelings openly; Female; Age: 26; Occupation: Graduate student in counseling psychology; Personality: compassionate, intuitive, loyal; Values: emotional honesty, friendship, personal growth; Interests: journaling, indie music, volunteering at a community mental health center; Experiences: supported Ella through a difficult breakup, struggled with her own decision to stay in a long-distance relationship, recently started her first internship in a clinical setting.",
+          "position": "left",
+          "states": "teary-eyed, conflicted",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Tyler Ramirez",
+          "gender": "Male",
+          "description": "Analytical and calm, a friend who often challenges Ella’s decisions to ensure she's making the right ones; Male; Age: 28; Occupation: Management consultant; Personality: Thoughtful, reserved, empathetic; Values: Integrity, personal growth; Interests: Strategy board games, urban hiking, reading philosophy; Experiences: Navigated a difficult career transition in his early 20s, helped close friends with major life decisions, worked remotely from different cities.",
+          "position": "right",
+          "states": "pensive, cautious",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Ella Bailey",
+          "character_id": 0,
+          "action": "Looks around the café, then speaks softly",
+          "dialogue": "I’ve been thinking about this for a while, and I’ve decided to take the job in Portland. It’s a huge step, but I really believe it’s what I need to grow."
+        },
+        {
+          "action_id": 1,
+          "character": "Mona Carter",
+          "character_id": 1,
+          "action": "Wipes her eyes with a napkin",
+          "dialogue": "I just... I don’t know how to feel. I’m happy for you, but I’m also scared of losing this connection we’ve built over the years."
+        },
+        {
+          "action_id": 2,
+          "character": "Tyler Ramirez",
+          "character_id": 2,
+          "action": "Leans forward, voice measured",
+          "dialogue": "I get it, Ella. But have you thought about how this might change your perspective? Sometimes, we don’t realize what we’re leaving behind until it’s gone."
+        },
+        {
+          "action_id": 3,
+          "character": "Ella Bailey",
+          "character_id": 0,
+          "action": "Nods slowly, looking down at her coffee",
+          "dialogue": "I have. This city feels like home, but I also know I can’t stay in the same place forever. I need to see what else is out there."
+        },
+        {
+          "action_id": 4,
+          "character": "Mona Carter",
+          "character_id": 1,
+          "action": "Smiles through tears",
+          "dialogue": "You’re always so thoughtful. I just hope you don’t regret this when it’s all over."
+        },
+        {
+          "action_id": 5,
+          "character": "Ella Bailey",
+          "character_id": 0,
+          "action": "Reaches out and touches Mona’s hand",
+          "dialogue": "I won’t. And no matter where I go, I’ll always carry this place—and you two—with me."
+        },
+        {
+          "action_id": 6,
+          "character": "Tyler Ramirez",
+          "character_id": 2,
+          "action": "Sighs and leans back",
+          "dialogue": "Well, if it’s what you want, I hope it works out. Just don’t forget to check in now and then."
+        }
+      ],
+      "plot": "Ella announces her decision to move for a new job, prompting an emotional but supportive conversation with her friends Mona and Tyler. Each character reacts based on their personality, with Mona showing her emotional attachment, Tyler offering cautious reflection, and Ella expressing her determination while acknowledging the bittersweet nature of her choice.",
+      "social_purpose": "Elicit Ella's values of independence and growth, as well as her emotional ties to friendship and the city, through a natural and realistic conversation with her close friends.",
+      "chunk": {
+        "id": 0,
+        "text": "The group shares a moment of silence, the weight of Ella’s decision lingering as they each process its implications. The café hums softly in the background, a quiet witness to the turning point in their friendship."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

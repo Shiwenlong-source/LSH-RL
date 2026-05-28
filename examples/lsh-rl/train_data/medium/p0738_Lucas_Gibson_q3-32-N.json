@@ -1,0 +1,95 @@
+{
+  "title": "The Protest Letter",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Meeting in a local café",
+      "time": "Afternoon",
+      "location": "A cozy, artsy café in the heart of the city",
+      "description": "Lucas is seated at a corner table, nervously tapping his fingers on the notebook in front of him. Kimi sits across from him, quietly sipping her coffee while flipping through a photography magazine. Leo, their mutual friend, is at the counter joking with the barista, trying to lighten the mood.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Lucas Gibson",
+          "gender": "Male",
+          "description": "A 28-year-old independent photographer and musician, known for his passionate and resolute nature. He is currently waiting for a response to a protest letter he sent about industry infringement.; Male / Photographer and Musician, 28 years old; Occupation: Independent Photographer and Musician; Personality: Passionate, Resolute, Creative, Introspective; Values: Artistic Integrity, Fairness, Self-expression; Interests: Music Creation, Photography, Advocating for artists' rights; Experiences: Experiencing industry infringement, Collaborating on creative projects with friends, Striving for creative independence",
+          "position": "Corner table",
+          "states": "Anxious, introspective, determined",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Kimi Tanaka",
+          "gender": "Female",
+          "description": "Kimi Tanaka; Female; Age: 30; Occupation: Professional photographer; Personality: Observant, analytical, skeptical; Values: Integrity, artistic truth, meaningful connection; Interests: Street photography, independent films, journaling; Experiences: Documented a humanitarian crisis in Southeast Asia, struggled with creative burnout after a personal project failed to gain recognition, frequently collaborates with local artists and activists.",
+          "position": "Across from Lucas",
+          "states": "Calm, contemplative, questioning",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Leo Martinez",
+          "gender": "Male",
+          "description": "A 29-year-old music producer and Lucas's longtime collaborator; Male; Age: 29; Occupation: Music producer and part-time sound designer; Personality: Laid-back, humorous, optimistic; Values: Creativity, friendship, authenticity; Interests: Jazz, vintage vinyl records, urban street art; Experiences: Produced an indie band's debut album that gained local fame, helped Lucas through a creative burnout period.",
+          "position": "At the counter",
+          "states": "Lighthearted, supportive, playful",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Lucas Gibson",
+          "character_id": 0,
+          "action": "Looking at his phone repeatedly",
+          "dialogue": "I can't believe it's been three days. I just hope they actually read the letter and take it seriously."
+        },
+        {
+          "action_id": 1,
+          "character": "Kimi Tanaka",
+          "character_id": 1,
+          "action": "Closing the magazine and leaning forward",
+          "dialogue": "Lucas, I get it. But do you really think a letter will change anything? They’re not known for listening to small artists like us."
+        },
+        {
+          "action_id": 2,
+          "character": "Leo Martinez",
+          "character_id": 2,
+          "action": "Walking back to the table with a coffee in hand",
+          "dialogue": "Hey, no need to go full doom and gloom on him, Kimi. Lucas has guts for doing this. That’s what makes his art so powerful."
+        },
+        {
+          "action_id": 3,
+          "character": "Lucas Gibson",
+          "character_id": 0,
+          "action": "Looking up at Leo with a small smile",
+          "dialogue": "Thanks, Leo. It’s just... I care so much about this. I don’t want to compromise my work for someone else’s profit."
+        },
+        {
+          "action_id": 4,
+          "character": "Kimi Tanaka",
+          "character_id": 1,
+          "action": "Nodding slowly",
+          "dialogue": "I hear you. I just worry we’re not in a position to demand change. But if it’s important to you, I’ll support you."
+        },
+        {
+          "action_id": 5,
+          "character": "Leo Martinez",
+          "character_id": 2,
+          "action": "Leaning back in his chair and grinning",
+          "dialogue": "Exactly. Lucas, you’re the kind of artist who makes people stop and listen. Maybe that’s what they need to do now."
+        }
+      ],
+      "plot": "Lucas, an independent photographer and musician, is waiting for a response to a protest letter he sent to a major music label. His friends Kimi and Leo support him in different ways—Kimi questions the effectiveness of their actions, while Leo tries to keep the mood light. The group's shared concern for artistic integrity and fairness becomes evident as they discuss the potential consequences and hopes for Lucas's stand.",
+      "social_purpose": "To explore the tension between optimism and skepticism in advocating for creative rights, while showcasing Lucas's resolute and passionate personality and his values of fairness and artistic integrity.",
+      "chunk": {
+        "id": 0,
+        "text": "Lucas sat at the table, his fingers drumming against the notebook. The café was filled with the hum of conversation and the faint sound of jazz from a nearby open mic. He had spent the last week agonizing over the letter, pouring his frustrations into every sentence. Now, he just waited. Kimi, ever the realist, had already voiced her doubts. Leo, the eternal optimist, insisted that Lucas's bold move would be heard. Their conversation was a microcosm of the larger conflict Lucas faced—how to stay true to his values while navigating a system that often dismissed them."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "title": "A Stormy Babysitting Night",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Babysitting during a storm",
+      "time": "Evening",
+      "location": "Tiki's house",
+      "description": "Amelia is babysitting her niece Momo and her older sister Nina while Tiki is away. A storm is brewing outside, and the children are restless. Amelia is trying to manage their needs while staying calm.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Amelia Sanchez",
+          "gender": "Female",
+          "description": "A 30-year-old singer who is responsible and caring, but feels anxious in stressful situations.; Female, years old, sister's sister, 30 years old; Occupation: Singer; Personality: Supportive, Responsible, Anxious, Caring; Values: Family, Reliability, Patience; Interests: Childcare, Housework, Family time; Experiences: Babysitting, Dealing with young children, Bad weather, Family responsibilities, Emotional stress",
+          "position": "Sitting on the couch",
+          "states": "Stressed, trying to stay calm",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Momo",
+          "gender": "Female",
+          "description": "Tiki's younger daughter, Momo; Female; Age: 4; Occupation: Student (preschool); Personality: Energetic, whiny, curious; Values: Family, comfort; Interests: Snacks, playing with dolls, watching rain; Experiences: Used to being doted on by parents, has had limited experience with babysitters, once got stuck in a thunderstorm during a family outing.",
+          "position": "Standing near the kitchen",
+          "states": "Hungry, whining",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Nina",
+          "gender": "Female",
+          "description": "Tiki's older daughter, age 8. She is more independent but easily distracted and wants to watch TV; Female; Age: 8; Occupation: Student; Personality: Independent, impulsive, imaginative; Values: Fun, freedom, fairness; Interests: Cartoons, playing outside, pretending to be a detective; Experiences: Staying home during school breaks, helping take care of her younger sister occasionally, being stuck indoors during past storms.",
+          "position": "Sitting on the floor",
+          "states": "Frustrated, wants to watch TV",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Amelia Sanchez",
+          "character_id": 0,
+          "action": "Comfort Momo",
+          "dialogue": "Amelia: Okay, Momo, let's see what we can do about that hunger. I know it's hard when you're little and your tummy is empty."
+        },
+        {
+          "action_id": 1,
+          "character": "Momo",
+          "character_id": 1,
+          "action": "Complain about hunger",
+          "dialogue": "Momo: I'm really, really hungry! I want pizza!"
+        },
+        {
+          "action_id": 2,
+          "character": "Amelia Sanchez",
+          "character_id": 0,
+          "action": "Check fridge for food",
+          "dialogue": "Amelia: Let me check the fridge to see if we have anything we can make."
+        },
+        {
+          "action_id": 3,
+          "character": "Nina",
+          "character_id": 2,
+          "action": "Complain about not being able to watch TV",
+          "dialogue": "Nina: I want to watch my show! It's not fair you're not letting me!"
+        },
+        {
+          "action_id": 4,
+          "character": "Amelia Sanchez",
+          "character_id": 0,
+          "action": "Attempt to negotiate with Nina",
+          "dialogue": "Amelia: Nina, I know you want to watch TV, but we need to make sure Momo is okay first. After we get her something to eat, we can see what we can do."
+        }
+      ],
+      "plot": "Amelia is trying to manage the needs of both Momo and Nina during a stormy night. Her calm and caring nature is tested as the children become more demanding and the weather worsens.",
+      "social_purpose": "To show Amelia's supportive and responsible traits as she handles the stress of babysitting and the challenges of a stormy night.",
+      "chunk": {
+        "id": 0,
+        "text": "Amelia is trying to manage the needs of both Momo and Nina during a stormy night. Her calm and caring nature is tested as the children become more demanding and the weather worsens."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

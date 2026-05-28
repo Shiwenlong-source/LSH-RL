@@ -1,0 +1,88 @@
+{
+  "title": "The Office Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Kim's colleagues notice her unwell condition at work and discuss it with her.",
+      "time": "10:30 AM",
+      "location": "Office Break Room",
+      "description": "Kim is sitting at a table in the office break room, sipping tea while coughing occasionally. Her colleagues Mona and Leo approach her, clearly concerned about her health.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Kim",
+          "gender": "female",
+          "description": "A 26-year-old office employee who is visibly unwell, coughing and rubbing her throat. She is anxious and trying to balance her health with her responsibilities.; female employee, 26 years old; Occupation: Office Employee; Personality: Considerate, Responsible, Caring, Anxious; Values: Health, Responsibility, Friendship, Self-care; Interests: Social gatherings, Pet care, Work-life balance; Experiences: Working in a high-pressure office environment, Dealing with personal health issues, Balancing social and professional life, Receiving colleague support",
+          "position": "seated at the table",
+          "states": "coughing, anxious, conflicted",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Mona",
+          "gender": "female",
+          "description": "A supportive and observant colleague in her late 20s who has noticed Kim's condition and is offering help; Female; Age: 28; Occupation: Office Manager; Personality: compassionate, attentive, responsible; Values: work-life balance, kindness, teamwork; Interests: journaling, wellness practices, organizing community events; Experiences: managed a team through a health crisis, volunteered at a local clinic, recently recovered from a prolonged illness.",
+          "position": "standing next to Kim",
+          "states": "concerned, empathetic",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Leo",
+          "gender": "male",
+          "description": "A responsible and kind-hearted colleague in his early 30s who is also worried about Kim's health and work progress; Male; Age: 32; Occupation: Project Manager; Personality: compassionate, conscientious, empathetic; Values: teamwork, work-life balance, integrity; Interests: reading leadership books, hiking on weekends, brewing coffee; Experiences: managed a high-pressure project during a team member's illness, previously dealt with a colleague's burnout situation, has a younger sibling who struggled with health issues.",
+          "position": "standing next to Mona",
+          "states": "worried, helpful",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Mona",
+          "character_id": 1,
+          "action": "Express concern",
+          "dialogue": "Kim, are you okay? You've been coughing a lot. Have you thought about going home and resting today?"
+        },
+        {
+          "action_id": 1,
+          "character": "Kim",
+          "character_id": 0,
+          "action": "Show hesitation",
+          "dialogue": "I really want to, but I don’t want to fall behind on the project. Plus, I promised my friend I’d go to dinner tonight, and my cat needs me to come home to feed it."
+        },
+        {
+          "action_id": 2,
+          "character": "Leo",
+          "character_id": 2,
+          "action": "Offer support",
+          "dialogue": "Hey, we can help out with the project if you need to take the afternoon off. Your health is more important, and your cat can wait a little longer if you’re not feeling up to it."
+        },
+        {
+          "action_id": 3,
+          "character": "Kim",
+          "character_id": 0,
+          "action": "Express gratitude",
+          "dialogue": "Thanks, both of you. I really appreciate the support. It’s just hard to say no to work when there’s so much on my plate, but I know I need to take care of myself too."
+        },
+        {
+          "action_id": 4,
+          "character": "Mona",
+          "character_id": 1,
+          "action": "Encourage self-care",
+          "dialogue": "You’ve been working so hard lately. It’s okay to prioritize your health and your cat. We’ll cover for you, I promise. And maybe you can reschedule the dinner if you need to rest more."
+        }
+      ],
+      "plot": "Kim is struggling with whether to stay at work or go home to rest and take care of her cat. Her colleagues Mona and Leo notice her condition and offer support, helping her realize the importance of self-care and work-life balance.",
+      "social_purpose": "To demonstrate how Kim's values (health, responsibility, friendship, self-care) and personality traits (considerate, responsible, caring, anxious) influence her decision-making in a social and professional context.",
+      "chunk": {
+        "id": 0,
+        "text": "Kim is sitting in the break room, coughing and looking conflicted. Mona and Leo approach her, showing concern and offering support, helping her navigate the difficult choice between work and personal well-being."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

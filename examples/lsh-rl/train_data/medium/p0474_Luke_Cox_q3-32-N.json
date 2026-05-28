@@ -1,0 +1,95 @@
+{
+  "title": "Faith in Action",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Community Clean-Up Day Planning Meeting",
+      "time": "Saturday morning, 9:00 AM",
+      "location": "St. Michael's Community Center, Conference Room",
+      "description": "Luke Cox and his team are meeting to finalize plans for a community clean-up event. They hope to attract young people to the church by showing the practical side of faith through service.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Luke Cox",
+          "gender": "Male",
+          "description": "A 24-year-old community organizer with a strong sense of purpose and a tendency to overthink. He is passionate about making faith relevant to young people.; 29-year-old / Male / Community organizer, 24 years old; Occupation: Community organizer; Personality: Determined, Anxious, Idealistic; Values: Practicing faith, Youth engagement, Community service; Interests: Religious outreach, Social change, Teamwork; Experiences: Organizing community events, Leading faith projects, Collaborating with peers",
+          "position": "Organizer",
+          "states": "Determined, slightly anxious",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Jack Morgan",
+          "gender": "Male",
+          "description": "A 26-year-old peer and collaborator of Luke; Male; Age: 26; Occupation: Youth Outreach Coordinator; Personality: Confident, enthusiastic, pragmatic; Values: Service, community impact, collaboration; Interests: Urban gardening, team sports, local volunteer initiatives; Experiences: Organized a successful neighborhood tree-planting campaign, led a youth-led mural project promoting social justice, volunteered at a homeless shelter during college.",
+          "position": "Co-organizer",
+          "states": "Confident, enthusiastic",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Mike Thompson",
+          "gender": "Male",
+          "description": "A 30-year-old church member and volunteer; Male; Age: 30; Occupation: High school history teacher; Personality: Cautious, skeptical, responsible; Values: Tradition, integrity, community service; Interests: Reading theological debates, gardening, local politics; Experiences: Organized several church outreach programs, witnessed declining youth involvement in church activities, served on the church's ethics committee.",
+          "position": "Church volunteer",
+          "states": "Cautious, critical",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Luke Cox",
+          "character_id": 0,
+          "action": "Presenting the clean-up event proposal",
+          "dialogue": "Alright, so I've been thinking about how to connect with more young people in the community. This clean-up event could be a great way to show that faith is about action, not just belief."
+        },
+        {
+          "action_id": 1,
+          "character": "Jack Morgan",
+          "character_id": 1,
+          "action": "Supporting Luke's idea",
+          "dialogue": "I love this, Luke. It's a simple, hands-on way to serve others and bring people together. We can even partner with a few local youth groups to get more volunteers."
+        },
+        {
+          "action_id": 2,
+          "character": "Mike Thompson",
+          "character_id": 2,
+          "action": "Expressing concern",
+          "dialogue": "I get the idea, but I'm worried about how the leadership will see this. They might think it's too radical or not in line with the church's traditional approach."
+        },
+        {
+          "action_id": 3,
+          "character": "Luke Cox",
+          "character_id": 0,
+          "action": "Reassuring Mike",
+          "dialogue": "I understand your concerns, Mike. But I think if we frame it as a way to live out the teachings of Jesus—like caring for the city He loves—it could be a positive step."
+        },
+        {
+          "action_id": 4,
+          "character": "Jack Morgan",
+          "character_id": 1,
+          "action": "Offering a practical suggestion",
+          "dialogue": "What if we invite a few of the youth ministers to help us present the event to the leadership? That way, they know we're working within the church's framework."
+        },
+        {
+          "action_id": 5,
+          "character": "Mike Thompson",
+          "character_id": 2,
+          "action": "Considering the idea",
+          "dialogue": "That might help. I still think we need to be careful, but if we can show that we're not trying to disrupt the church, just bring more people in, maybe they'll be on board."
+        }
+      ],
+      "plot": "Luke, Jack, and Mike meet to plan a community clean-up event as a way to demonstrate the practical side of faith and attract young people to the church. While Jack is supportive and eager to take action, Mike raises concerns about how the church leadership might react. Luke tries to balance his idealism with the need to navigate potential resistance.",
+      "social_purpose": "To explore the tension between idealism and tradition in a religious setting, while showcasing the protagonist's values and personality through dialogue and action.",
+      "chunk": {
+        "id": 0,
+        "text": "Luke, Jack, and Mike gather in the community center's conference room to discuss the logistics of the clean-up event. Luke is visibly focused, sketching out a timeline on the whiteboard, while Jack leans in with a confident grin. Mike, on the other hand, sits with his arms crossed, watching the conversation unfold carefully. As they talk, the room becomes a microcosm of their differing perspectives: Luke's idealism, Jack's action-driven mindset, and Mike's cautious pragmatism. The dialogue reveals Luke's determination to make a difference and his anxiety about the potential fallout if the leadership disapproves. The group's interaction sets the stage for a broader movement that could either be embraced or resisted by the church community."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "title": "The Wedding Store Adventure",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Ruby and Mike discover an unusual wedding decoration",
+      "time": "Afternoon",
+      "location": "Wedding Supplies Store",
+      "description": "Ruby and Mike are browsing through a small wedding supplies store. They find a quirky and unconventional decoration, which sparks Ruby's curiosity and sense of humor. The shop assistant watches them closely, unsure how to respond to Ruby's impulsive decision.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Ruby Bryant",
+          "gender": "Female",
+          "description": "Lively and impulsive, Ruby is drawn to unique and unconventional items. She's excited about the possibility of something different.; Female / Friend, 29 years old; Occupation: Working in a creative or social-related profession; Personality: Lively, Impulsive, Humorous, Curious; Values: Individuality, Humor, Spontaneity; Interests: Collecting unique items, Creative decoration, Social interaction; Experiences: Exploring unique items, Making impulsive decisions, Participating in lighthearted social interactions",
+          "position": "Near the center of the store",
+          "states": "Curious, playful, slightly mischievous",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Mike",
+          "gender": "Male",
+          "description": "Mike is a laid-back and humorous friend who enjoys Ruby's spontaneity, though he's a bit more cautious; Male; Age: 28; Occupation: Event Planner; Personality: Witty, easygoing, observant; Values: Reliability, humor in hardship; Interests: Planning creative events, stand-up comedy, vintage pop culture; Experiences: Organized a surprise wedding for his sister, handled a chaotic festival setup that turned into a viral success, frequently collaborates with quirky vendors to add personality to events.",
+          "position": "Standing next to Ruby",
+          "states": "Amused, supportive, slightly hesitant",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Lila",
+          "gender": "Female",
+          "description": "The shop assistant, Lila, is observant and professional; Female; Age: 28; Occupation: Wedding Consultant and Retail Assistant; Personality: Analytical, empathetic, reserved; Values: Customer satisfaction, authenticity, tradition with a touch of creativity; Interests: Vintage design, customer behavior studies, indie music; Experiences: Managed multiple wedding fairs, helped couples with unconventional wedding themes, witnessed many impulsive but heartfelt decisions.",
+          "position": "Behind the counter",
+          "states": "Observant, slightly cautious, professional",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Ruby Bryant",
+          "character_id": 0,
+          "action": "points to a set of neon, floating balloons shaped like cats",
+          "dialogue": "Look at these! They’re like floating cat confetti. This is the most amazing thing I’ve ever seen in a wedding store!"
+        },
+        {
+          "action_id": 1,
+          "character": "Mike",
+          "character_id": 1,
+          "action": "laughs and looks at Ruby",
+          "dialogue": "Only you, Ruby. I’m pretty sure this is the first time I’ve ever seen a cat balloon that’s also a disco ball. You’re going to make the bride and groom run for the hills."
+        },
+        {
+          "action_id": 2,
+          "character": "Ruby Bryant",
+          "character_id": 0,
+          "action": "pulls out her phone to take a photo of the balloons",
+          "dialogue": "I’m not just going to look at it. I’m going to buy it. It’s perfect for the next event we’re planning—something that screams 'we’re not your average planners.'"
+        },
+        {
+          "action_id": 3,
+          "character": "Lila",
+          "character_id": 2,
+          "action": "approaches Ruby and Mike with a clipboard",
+          "dialogue": "Those are one of our more unusual items, but we’ve had some creative customers love them. Would you like to know more about them or place an order?"
+        },
+        {
+          "action_id": 4,
+          "character": "Mike",
+          "character_id": 1,
+          "action": "nods and looks back at the balloons",
+          "dialogue": "Sure, I’m all for the weird and wonderful. Just don’t let it cost an arm and a leg."
+        },
+        {
+          "action_id": 5,
+          "character": "Ruby Bryant",
+          "character_id": 0,
+          "action": "starts chatting with Lila, animatedly describing her vision",
+          "dialogue": "I need to make sure the bride and groom know this is a statement piece. It’s not just decoration—it’s a vibe. And I’m all about the vibe."
+        }
+      ],
+      "plot": "Ruby and Mike are shopping for wedding decorations for a mutual friend’s upcoming event. Ruby stumbles upon a set of bizarre, neon cat-shaped balloons and becomes enamored with them. She impulsively decides to buy them, which surprises Mike but also amuses him. The shop assistant, Lila, is initially cautious but warms up to Ruby’s enthusiasm and helps them with the purchase.",
+      "social_purpose": "This interaction highlights Ruby’s love for individuality and unconventional items, as well as her impulsive and humorous nature. It also showcases her ability to engage in social interactions and how Mike responds to her spontaneity with humor and support. The shared goal of finding decorations for a friend's event allows for a natural exploration of their personalities and values.",
+      "chunk": {
+        "id": 0,
+        "text": "Ruby and Mike were browsing in the wedding supplies store when Ruby's eyes landed on a set of floating cat balloons. She was immediately drawn to them, seeing them as a perfect way to express her unique style. Mike, while entertained by her excitement, was more hesitant. Lila, the assistant, watched their exchange and offered assistance, sensing Ruby's determination to make an impulsive purchase."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

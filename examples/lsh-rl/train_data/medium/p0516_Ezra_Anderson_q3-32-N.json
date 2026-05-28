@@ -1,0 +1,81 @@
+{
+  "title": "Garbage Service Crisis at the Community Meeting",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Community Meeting",
+      "time": "3:00 PM",
+      "location": "Town Hall Meeting Room",
+      "description": "Ezra Anderson, the Neighborhood Committee Chair, is addressing a small community meeting to discuss the ongoing garbage service issue. His anxiety is palpable as he tries to rally support for a new, eco-friendly solution. Mona, his good friend and a property manager, sits nearby, ready to offer her insights. Lay, a sarcastic but vocal neighbor, challenges Ezra’s decisions, reflecting the community's internal divisions.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Ezra Anderson",
+          "gender": "Male",
+          "description": "A 34-year-old community resident with a strong sense of responsibility and a commitment to environmental issues. He is visibly anxious but determined to find a solution.; years old / Male / Community Resident, 34 years old; Occupation: Neighborhood Committee Chair; Personality: Decisive, Determined, Anxious, Resilient; Values: Community Improvement, Fairness, Sense of Responsibility; Interests: Environmental Issues, Local Governance, Problem Solving; Experiences: Participating in community meetings, Pushing for service reforms, Facing administrative difficulties, Seeking friend support",
+          "position": "At the front of the room, standing at the podium",
+          "states": "Anxious, determined, and focused",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Mona Reyes",
+          "gender": "Female",
+          "description": "A 32-year-old property manager and Ezra’s close friend; Female; Age: 32; Occupation: Property Manager; Personality: Supportive, confident, attentive; Values: Community well-being, sustainability, loyalty; Interests: Urban gardening, local policy discussions, helping small businesses; Experiences: Managed a neighborhood transition to a recycling program, helped resolve tenant disputes during a city infrastructure project, has a long-standing friendship with Ezra dating back to college.",
+          "position": "Sitting in the first row, nodding in agreement with Ezra",
+          "states": "Supportive, confident, and attentive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Lay Thompson",
+          "gender": "Male",
+          "description": "A 40-year-old neighbor known for his sarcasm and skepticism; Male; Age: 40; Occupation: Local mechanic; Personality: Cynical, argumentative, observant; Values: Practicality, independence, tradition; Interests: Fixing old cars, local politics, watching town hall meetings; Experiences: Frustrated by past failed community projects, owns a small repair shop affected by local policies, grew up in a family that distrusted change.",
+          "position": "Leaning back in a chair, arms crossed",
+          "states": "Skeptical, sarcastic, and confrontational",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Ezra Anderson",
+          "character_id": 0,
+          "action": "Opening the meeting",
+          "dialogue": "Good afternoon, everyone. I know some of you are frustrated about the garbage service situation, and I appreciate your patience. We need a better solution for the environment and our community, and I'm committed to finding one."
+        },
+        {
+          "action_id": 1,
+          "character": "Mona Reyes",
+          "character_id": 1,
+          "action": "Offering assistance",
+          "dialogue": "I’ve already reached out to the property management company to see if they can help us find a more reliable and eco-friendly provider. They’re aware of the issue and are looking into options."
+        },
+        {
+          "action_id": 2,
+          "character": "Lay Thompson",
+          "character_id": 2,
+          "action": "Challenging Ezra",
+          "dialogue": "Let me guess—this new provider is going to cost us more and take longer to pick up the trash. Sounds like the perfect recipe for a happy neighborhood."
+        },
+        {
+          "action_id": 3,
+          "character": "Ezra Anderson",
+          "character_id": 0,
+          "action": "Defending the decision",
+          "dialogue": "I understand the inconvenience, Lay, but the old service was unreliable and harmful to the environment. We owe it to ourselves and our children to make a responsible choice."
+        }
+      ],
+      "plot": "Ezra is trying to convince the community to support a new garbage service to replace the unreliable and environmentally harmful one he canceled. Mona offers help through her professional connections, while Lay resists the change, highlighting the community's mixed reactions to the proposal.",
+      "social_purpose": "To showcase Ezra’s determination and commitment to community improvement, while also revealing the challenges of interpersonal dynamics and resistance to change.",
+      "chunk": {
+        "id": 0,
+        "text": "Ezra, with Mona’s help, is trying to navigate the community’s frustration and ensure a better future for their neighborhood by addressing the garbage service crisis head-on."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

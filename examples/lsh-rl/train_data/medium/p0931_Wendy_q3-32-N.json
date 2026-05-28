@@ -1,0 +1,95 @@
+{
+  "title": "Rescheduling Dilemma in the Academic Affairs Meeting",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Academic Affairs Meeting",
+      "time": "10:00 AM",
+      "location": "EKU Danville Campus Conference Room",
+      "description": "Wendy, a 30-year-old nutrition professor, sits at a long table in the conference room, her hands clasped tightly together. Across from her, Academic Director Irene flips through a printed schedule, while Tom, a middle-aged colleague, leans forward with a thoughtful expression. The room is filled with the usual hum of academia, but tension is palpable as the topic of Wendy’s upcoming travel plans and class schedule conflict arises.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Wendy",
+          "gender": "Female",
+          "description": "A 30-year-old nutrition professor who is thoughtful and responsible, but often anxious about balancing her professional and personal life.; Female / Academic Professional, 30 years old; Occupation: Nutrition Professor; Personality: Anxious, Thoughtful, Responsible; Values: Professional Ethics, Work-life Balance; Interests: Academic Research, Travel, Health and Wellness; Experiences: Recent travel arrangement conflict, Teaching duties, Academic meetings",
+          "position": "Nutrition Professor",
+          "states": "Anxious, Thoughtful",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Irene",
+          "gender": "Female",
+          "description": "The academic director known for her strict adherence to institutional policies and expectations; Female; Age: 52; Occupation: Academic Director, EKU Danville Campus; Personality: Authoritative, Detail-oriented, Concerned; Values: Institutional integrity, Academic excellence, Responsibility; Interests: Educational policy reform, Organizational efficiency, Faculty mentorship; Experiences: Managed multiple faculty disputes over scheduling conflicts, Implemented campus-wide academic standards improvements, Served on regional accreditation committees.",
+          "position": "Academic Director",
+          "states": "Authoritative, Concerned",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Tom",
+          "gender": "Male",
+          "description": "A seasoned professor in the department who is empathetic and often offers practical solutions; Male; Age: 52; Occupation: Associate Professor of Exercise Science; Personality: Supportive, Thoughtful, Analytical; Values: Collaboration, Work-life balance, Intellectual integrity; Interests: Outdoor hiking, Classical music, Educational reform; Experiences: Led multiple interdisciplinary research projects, Mentored several junior faculty through academic challenges, Successfully balanced teaching and personal commitments during a demanding sabbatical.",
+          "position": "Colleague Professor",
+          "states": "Supportive, Thoughtful",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Irene",
+          "character_id": 1,
+          "action": "Presenting the issue",
+          "dialogue": "Wendy, I need to discuss the cancellation of your first class this week. Your travel plans are conflicting with your teaching schedule, and we need a resolution. Can you confirm if there are any updates on your trip?"
+        },
+        {
+          "action_id": 1,
+          "character": "Wendy",
+          "character_id": 0,
+          "action": "Expressing concern",
+          "dialogue": "Thank you for bringing it up, Irene. I’m still waiting for a confirmation from the conference organizers. I had hoped to attend this event for my research, but I don’t want to compromise my teaching responsibilities."
+        },
+        {
+          "action_id": 2,
+          "character": "Tom",
+          "character_id": 2,
+          "action": "Offering a suggestion",
+          "dialogue": "What if we arrange for a substitute to cover the first class? That way, you can still go on your trip, and the students won’t be left without instruction."
+        },
+        {
+          "action_id": 3,
+          "character": "Wendy",
+          "character_id": 0,
+          "action": "Considering options",
+          "dialogue": "That’s a good idea, Tom. I just need to make sure the substitute is well-prepared for the topic. I don’t want to leave the students in a lurch."
+        },
+        {
+          "action_id": 4,
+          "character": "Irene",
+          "character_id": 1,
+          "action": "Demanding a decision",
+          "dialogue": "I appreciate your responsibility, Wendy. But we need a firm plan by the end of the day. If you can’t attend the first class, we need to act quickly."
+        },
+        {
+          "action_id": 5,
+          "character": "Wendy",
+          "character_id": 0,
+          "action": "Making a decision",
+          "dialogue": "I’ll reach out to Tom to see if he can recommend someone for the substitution. I’ll also confirm my travel plans and let you know as soon as possible."
+        }
+      ],
+      "plot": "During an academic affairs meeting at EKU Danville Campus, Wendy is asked by Academic Director Irene to address a conflict between her travel plans and a scheduled class. Colleague Tom suggests a substitute to help her maintain her professional responsibilities while attending the conference. Wendy weighs the options, showing her thoughtful and responsible nature, and agrees to work with Tom to find a solution.",
+      "social_purpose": "The interaction highlights Wendy’s struggle to balance her academic duties and personal interests, while showcasing her professional ethics and the dynamics of her relationships with colleagues and superiors.",
+      "chunk": {
+        "id": 0,
+        "text": "Wendy, a 30-year-old nutrition professor, is in an academic affairs meeting at EKU Danville Campus. She is being asked by Academic Director Irene to address a conflict between her travel plans and a scheduled class. Tom, a supportive colleague, suggests a substitute. Wendy, anxious but thoughtful, considers the options and agrees to collaborate with Tom to find a resolution, demonstrating her responsible and ethical approach to the situation."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "title": "The Wedding Gift Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Cafe Conversation",
+      "time": "Afternoon",
+      "location": "Local Coffee Shop",
+      "description": "Spencer, Mona, and Mike are seated in a cozy corner of a local coffee shop, discussing the upcoming wedding. The atmosphere is relaxed, but Spencer is visibly preoccupied as he tries to decide on a gift for Mike and his fiancée.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Spencer Walker",
+          "gender": "Male",
+          "description": "A 30-year-old middle-class professional with a rational and analytical personality. He is cautious and deliberate in his decisions, especially when it comes to money and relationships.; Around, Male, Middle-class professional, 30 years old; Occupation: Financial Analyst; Personality: Rational, Analytical, Cautious, Deliberate; Values: Friendship, Practicality, Financial Responsibility; Interests: Budget Planning, Decision Analysis, Social Relationships; Experiences: Managing Personal Finances, Navigating Complex Interpersonal Relationships, Weighing Emotional vs. Practical Choices",
+          "position": "Sitting at a table with Mona and Mike",
+          "states": "Preoccupied, thoughtful, slightly anxious",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Mike",
+          "gender": "Male",
+          "description": "Mike; Male; Age: 35; Occupation: Event Planner; Personality: Laid-back, optimistic, empathetic; Values: Friendship, authenticity, commitment; Interests: Brewing coffee, hiking, classic rock; Experiences: Managed his own event planning business for 8 years, recently proposed to his fiancée and is now planning their wedding, helped Spencer through past personal struggles.",
+          "position": "Sitting across from Spencer",
+          "states": "Casual, relaxed, trying to ease Spencer’s tension",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Mona",
+          "gender": "Female",
+          "description": "Spencer’s girlfriend, late 20s. She is more emotionally expressive and values meaningful gestures, often encouraging Spencer to be more open in his relationships; Female; Age: 29; Occupation: Event Planner; Personality: Compassionate, intuitive, persistent; Values: Emotional honesty, thoughtfulness, connection; Interests: Interior design, handwritten letters, romantic cinema; Experiences: Organized her own wedding with a personalized, heartfelt touch, helped friends navigate relationship milestones with advice and support.",
+          "position": "Sitting next to Spencer",
+          "states": "Supportive, gently pressuring, empathetic",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Mike",
+          "character_id": 1,
+          "action": "Initiates the conversation about the gift",
+          "dialogue": "Hey, Spencer, I was just thinking—what are you thinking about getting for the wedding? I mean, you don’t have to go overboard, but it should still feel personal."
+        },
+        {
+          "action_id": 1,
+          "character": "Spencer Walker",
+          "character_id": 0,
+          "action": "Responds thoughtfully, showing his analytical nature",
+          "dialogue": "I’m trying to figure it out. I want to make sure it’s something that fits the budget, but also feels right for you guys. I’ve been running through some options in my head."
+        },
+        {
+          "action_id": 2,
+          "character": "Mona",
+          "character_id": 2,
+          "action": "Suggests a cash red envelope",
+          "dialogue": "Maybe a red envelope with cash would work. It’s traditional and you can control the amount. I think it would mean a lot to them."
+        },
+        {
+          "action_id": 3,
+          "character": "Spencer Walker",
+          "character_id": 0,
+          "action": "Considers the suggestion, but hesitates",
+          "dialogue": "That’s a good idea, but I’m not sure if it’s the best fit for Mike. He’s always been more of a practical person. I don’t want to send the wrong message."
+        },
+        {
+          "action_id": 4,
+          "character": "Mike",
+          "character_id": 1,
+          "action": "Reassures Spencer about the budget",
+          "dialogue": "I’m not expecting anything crazy expensive, man. Just something that shows you were thinking of us. Whatever you can do is fine."
+        },
+        {
+          "action_id": 5,
+          "character": "Mona",
+          "character_id": 2,
+          "action": "Encourages Spencer to think about the emotional value",
+          "dialogue": "But what about the emotional value? You two have been friends for years. It’s not just about the money—it’s about the gesture."
+        },
+        {
+          "action_id": 6,
+          "character": "Spencer Walker",
+          "character_id": 0,
+          "action": "Expresses his internal conflict",
+          "dialogue": "I know, and I want to do something that feels right. But I also don’t want to overextend myself. I’ve been managing my finances carefully lately."
+        },
+        {
+          "action_id": 7,
+          "character": "Mike",
+          "character_id": 1,
+          "action": "Changes the subject to lighten the mood",
+          "dialogue": "Hey, maybe we can just focus on the cake. I heard they have a killer cheesecake place nearby. What do you think?"
+        },
+        {
+          "action_id": 8,
+          "character": "Mona",
+          "character_id": 2,
+          "action": "Leans in to continue the discussion",
+          "dialogue": "Spencer, you know I just want you to feel comfortable. If it’s a tough call, maybe we can brainstorm some alternatives."
+        }
+      ],
+      "plot": "Spencer is caught between his friend Mike’s casual request and his girlfriend Mona’s suggestion of a traditional cash red envelope. Their conversation at the coffee shop reveals his internal struggle to balance practicality and emotional meaning while staying within his budget.",
+      "social_purpose": "To explore Spencer’s values of friendship, practicality, and financial responsibility in a public, casual setting. The interaction also highlights his personality traits—rational, analytical, and cautious—through his decision-making process.",
+      "chunk": {
+        "id": 0,
+        "text": "Spencer, Mona, and Mike are in a local coffee shop discussing the wedding gift. Spencer is caught between Mike's casual request and Mona's suggestion of a red envelope. The conversation reveals his internal conflict and the subtle dynamics of their relationship."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

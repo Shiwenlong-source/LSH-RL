@@ -1,0 +1,88 @@
+{
+  "title": "The Nashville Decision",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Coffee Shop Discussion",
+      "time": "Afternoon",
+      "location": "A cozy local coffee shop",
+      "description": "Elijah sits at a corner table with his friends Moly and Yuri, sipping a latte while they discuss his upcoming decision about whether to go on a trip to Nashville. The atmosphere is warm and inviting, with soft music playing in the background.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Elijah Carter",
+          "gender": "Male",
+          "description": "A 21-year-old college student who is gentle, hesitant, and deliberate in his decisions. He is sitting at a table, looking slightly anxious but also curious.; 21-year-old / Male / College Student, 24 years old; Occupation: College Student; Personality: Gentle, Hesitant, Deliberate; Values: Comfort, Friendship, Self-reflection; Interests: Music, Travel, Adventure; Experiences: College life, Social gatherings, Music events",
+          "position": "Corner table",
+          "states": "Hesitant, curious, slightly anxious",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Moly Reyes",
+          "gender": "Female",
+          "description": "Moly Reyes; Female; Age: 23; Occupation: Music major and part-time barista; Personality: Outgoing, empathetic, enthusiastic; Values: Friendship, creativity, authenticity; Interests: Live music, indie films, spontaneous adventures; Experiences: Organized a college music festival, spent a summer interning at a local Nashville recording studio, helped Elijah through a tough personal loss with unwavering support.",
+          "position": "Across from Elijah",
+          "states": "Encouraging, optimistic",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Yuri Kim",
+          "gender": "Male",
+          "description": "A 25-year-old traveler and adventure enthusiast; Male; Age: 25; Occupation: Travel blogger and freelance photographer; Personality: Supportive, enthusiastic, optimistic; Values: Friendship, personal growth, authenticity; Interests: Exploring new cultures, capturing landscapes through photography, trying local cuisines; Experiences: Traveled solo through Southeast Asia, documented a cross-country road trip in the U.S., helped friends navigate major life decisions.",
+          "position": "Next to Moly",
+          "states": "Supportive, enthusiastic",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Moly Reyes",
+          "character_id": 1,
+          "action": "Encouragingly leans in",
+          "dialogue": "Elijah, I know you're still thinking about it, but trust me, this trip is going to be incredible. You've been stuck in your routine for so long—Nashville is the perfect break."
+        },
+        {
+          "action_id": 1,
+          "character": "Elijah Carter",
+          "character_id": 0,
+          "action": "Looks down at his coffee",
+          "dialogue": "I just don't know if I can handle the whole itinerary, you know? I mean, I love music and travel, but I also like things to be predictable."
+        },
+        {
+          "action_id": 2,
+          "character": "Yuri Kim",
+          "character_id": 2,
+          "action": "Nods and smiles",
+          "dialogue": "That's totally normal, but remember, sometimes the best experiences come from stepping out of your comfort zone. You don't have to do everything—just go with the flow."
+        },
+        {
+          "action_id": 3,
+          "character": "Elijah Carter",
+          "character_id": 0,
+          "action": "Takes a deep breath and looks up",
+          "dialogue": "I guess I just need to think about what I really want. I don't want to miss out on something that could be meaningful, but I also don't want to feel overwhelmed."
+        },
+        {
+          "action_id": 4,
+          "character": "Moly Reyes",
+          "character_id": 1,
+          "action": "Reassures him",
+          "dialogue": "We're here for you, Elijah. It's not just about the music or the adventure—it's about being with friends and growing together."
+        }
+      ],
+      "plot": "Elijah is torn between his desire for a change of scenery and his fear of an unpredictable itinerary. His friends Moly and Yuri try to convince him to take the leap and join them on a trip to Nashville, emphasizing the importance of friendship and personal growth. Elijah's inner conflict is revealed through his dialogue and body language, showing his gentle and deliberate nature.",
+      "social_purpose": "To explore Elijah's values of comfort, friendship, and self-reflection, as well as his interests in music and travel. The interaction shows how his personality traits influence his decision-making and how his relationships with others can impact his personal growth.",
+      "chunk": {
+        "id": 0,
+        "text": "Elijah is sitting at a table in a cozy coffee shop, looking slightly anxious as he sips his latte. Moly, his good friend, is across from him, leaning in and encouragingly talking about the Nashville trip. Yuri, another friend, is next to Moly, nodding and adding his thoughts. Elijah is hesitating, trying to balance his comfort with the idea of adventure and the support of his friends."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

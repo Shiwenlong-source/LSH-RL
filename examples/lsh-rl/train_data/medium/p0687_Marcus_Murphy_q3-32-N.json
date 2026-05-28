@@ -1,0 +1,115 @@
+{
+  "title": "The Mission Decision",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Church Hall Meeting",
+      "time": "Saturday afternoon",
+      "location": "St. John's Community Church Hall",
+      "description": "Marcus Murphy, a 24-year-old pastor, stands in the center of the church hall, deep in thought as he discusses his future with his siblings, Wang and Bell. A missionary couple, Sarah and David Carter, are seated nearby, sharing their experiences from a recent trip to South America. Marcus is torn between continuing his pastoral duties and pursuing a full-time mission call. His family offers support, but he seeks clarity and divine guidance before making a decision.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Marcus Murphy",
+          "gender": "Male",
+          "description": "A passionate and thoughtful young pastor, recently returned from a mission trip to Kenya. He is deeply committed to his faith and service, but his decision is clouded by uncertainty.; 26 / Male / pastor, 24 years old; Occupation: Pastor; Personality: Passionate, Thoughtful, Determined; Values: Faith, Family, Service; Interests: Mission work, Spiritual growth, Community; Experiences: Short-term mission to Kenya, Pastoral training, Family support",
+          "position": "Center of the room",
+          "states": "Torn, seeking guidance, determined to make the right choice",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Wang Murphy",
+          "gender": "Female",
+          "description": "Wang Murphy; Female; Age: 28; Occupation: Registered Nurse at a local community health clinic; Personality: Compassionate, patient, empathetic; Values: Family, faith, service to others; Interests: Volunteering at church outreach programs, reading spiritual and medical literature, gardening; Experiences: Cared for her ailing grandmother during a prolonged illness, participated in a medical mission trip to Central America, supported her brother Marcus through his theological studies.",
+          "position": "To Marcus's left",
+          "states": "Supportive, encouraging, calm",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Bell Murphy",
+          "gender": "Male",
+          "description": "Bell Murphy; Male; Age: 20; Occupation: College student majoring in Religious Studies; Personality: Loyal, empathetic, idealistic; Values: Family unity, faith, selflessness; Interests: Community service, theological debates, hiking; Experiences: Participated in a youth mission trip to Mexico, volunteered at the local food pantry, supported Marcus during a difficult church conflict.",
+          "position": "To Marcus's right",
+          "states": "Loyal, suggesting, concerned",
+          "is_npc": true
+        },
+        {
+          "id": 3,
+          "name": "Sarah Carter",
+          "gender": "Female",
+          "description": "A missionary and pastor's wife, who has spent years in South America; Female; Age: 42; Occupation: Missionary and Church Outreach Coordinator; Personality: Compassionate, resilient, optimistic; Values: Faithfulness, service, cultural sensitivity; Interests: Cross-cultural ministry, community building, journaling; Experiences: Five years of evangelism and education work in rural Peru, leadership in women’s empowerment programs, recent return from a mission trip to Brazil.",
+          "position": "Near the back of the room",
+          "states": "Encouraging, sharing experiences, hopeful",
+          "is_npc": true
+        },
+        {
+          "id": 4,
+          "name": "David Carter",
+          "gender": "Male",
+          "description": "A missionary who has worked in South America for over a decade; Male; Age: 48; Occupation: Missionary and Church Outreach Coordinator; Personality: Practical, inspiring, patient; Values: Service, spiritual growth, cultural respect; Interests: Language learning, community development, storytelling; Experiences: Spent ten years in rural Peruvian villages establishing schools and churches, led a team through a natural disaster relief effort, mentored young missionaries in cross-cultural communication.",
+          "position": "Near the back of the room",
+          "states": "Supportive, informative, patient",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Marcus Murphy",
+          "character_id": 0,
+          "action": "Expresses his hesitation",
+          "dialogue": "I just don't know if I'm being called to full-time mission work. I love serving the Lord, but I also feel responsible to the people here."
+        },
+        {
+          "action_id": 1,
+          "character": "Wang Murphy",
+          "character_id": 1,
+          "action": "Reassures Marcus",
+          "dialogue": "Whatever you decide, we'll support you. But I do believe you're meant for more than just this community. You've got a gift."
+        },
+        {
+          "action_id": 2,
+          "character": "Bell Murphy",
+          "character_id": 2,
+          "action": "Offers a suggestion",
+          "dialogue": "What if you go for a short-term trip again and see if the call is stronger? We can come with you if you want."
+        },
+        {
+          "action_id": 3,
+          "character": "Sarah Carter",
+          "character_id": 3,
+          "action": "Shares her testimony",
+          "dialogue": "When I first left for South America, I had so many doubts. But once I saw the impact we could make, those doubts turned into purpose."
+        },
+        {
+          "action_id": 4,
+          "character": "David Carter",
+          "character_id": 4,
+          "action": "Encourages Marcus",
+          "dialogue": "Marcus, the Lord uses people who are willing to step out in faith. Your passion and determination are exactly what's needed."
+        },
+        {
+          "action_id": 5,
+          "character": "Marcus Murphy",
+          "character_id": 0,
+          "action": "Reflects on the conversation",
+          "dialogue": "Thank you all. I need to pray about this and see what the Lord shows me. But I'm grateful for your support."
+        }
+      ],
+      "plot": "Marcus is considering a full-time mission call after returning from Kenya. His family and the missionary couple encourage and support him, while also helping him weigh the decision carefully. The shared goal is to determine the best path for Marcus's future and the unity of the family in that decision.",
+      "social_purpose": "To show how Marcus's values of faith, family, and service influence his decision-making process, and how his personality traits of passion, thoughtfulness, and determination come into play as he seeks guidance.",
+      "chunk": {
+        "id": 0,
+        "text": "Marcus stands in the church hall, his family and the missionary couple gathered around him. The room is quiet, save for the soft hum of the air conditioner and the occasional murmur of agreement. He looks at Wang and Bell, their eyes full of hope and support. Sarah and David share their own stories, painting a picture of what full-time mission work can be. Marcus listens intently, his heart heavy with the weight of the decision."
+      },
+      "npcs": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  ]
+}

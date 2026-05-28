@@ -1,0 +1,95 @@
+{
+  "title": "Waiting for a Reply",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Molly and her friends meet at the school library to study for an upcoming English exam.",
+      "time": "After school, 3:30 PM",
+      "location": "School library",
+      "description": "The library is quiet, with a few students scattered around. Molly sits at a table with her two close friends, Tony and Sarah, who are also studying for the English test. Molly keeps checking her phone, her hands fidgeting with the pen in front of her. Tony notices her restlessness and tries to reassure her.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Molly Collins",
+          "gender": "17-year-old female",
+          "description": "Molly is a high school student who is introverted but brave when it comes to expressing her feelings. She is emotional and has recently sent a confession letter to Joe, a boy she likes. Her vulnerability and anxiety are evident in her behavior.; 17-year-old female, high school student, 17 years old; Occupation: High school student; Personality: Introverted, Brave, Emotional; Values: Honesty, Emotional connection, Self-expression; Interests: Writing, Romantic relationships, Introspection; Experiences: Confessing to a crush, Anxiously waiting for a response, Experiencing emotional uncertainty",
+          "position": "Seated at the table, nervously looking at her phone",
+          "states": "Anxious, hopeful, restless",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Tony Ramirez",
+          "gender": "17-year-old male",
+          "description": "Tony is Molly's best friend and a supportive, laid-back guy who often gives her advice; Male; Age: 17; Occupation: High school student; Personality: Optimistic, empathetic, humorous; Values: Friendship, loyalty, honesty; Interests: Music, sports, and helping others; Experiences: Helped Molly through a tough breakup last year, organized a group study session that improved everyone's grades, and recently joined the school's peer counseling program.",
+          "position": "Seated across from Molly, reviewing his notes",
+          "states": "Calm, reassuring, observant",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Sarah Nguyen",
+          "gender": "17-year-old female",
+          "description": "Sarah is another close friend of Molly's. She is empathetic and often acts as a mediator between Molly and others. She is more emotionally stable than Molly and tries to keep her grounded; Female; Age: 17; Occupation: High school student; Personality: Empathetic, supportive, patient, focused; Values: Friendship, academic integrity, emotional well-being; Interests: Reading classic literature, journaling, helping others; Experiences: Successfully mediated a conflict between two classmates, helped Molly prepare for previous exams, volunteers at a local community center on weekends.",
+          "position": "Sitting to the left of Molly, reading a textbook",
+          "states": "Supportive, empathetic, focused",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Molly Collins",
+          "character_id": 0,
+          "action": "Looks at her phone, then back at her notes with frustration.",
+          "dialogue": "Ugh, I wish he would just reply already. I can't focus on this test if I'm thinking about him all the time."
+        },
+        {
+          "action_id": 1,
+          "character": "Tony Ramirez",
+          "character_id": 1,
+          "action": "Looks up from his notes and smiles reassuringly.",
+          "dialogue": "Hey, relax. You did the brave thing by telling him how you feel. Now it's up to him. Just trust that he's thinking about it."
+        },
+        {
+          "action_id": 2,
+          "character": "Sarah Nguyen",
+          "character_id": 2,
+          "action": "Closes her textbook and turns to Molly with concern.",
+          "dialogue": "Molly, you know he's not ignoring you. He just needs time to process it. You're being honest and open, which is really important."
+        },
+        {
+          "action_id": 3,
+          "character": "Molly Collins",
+          "character_id": 0,
+          "action": "Sighs and opens her notebook, trying to focus.",
+          "dialogue": "I know, I know. I just can't help but feel like I made a mistake. What if he doesn't feel the same way?"
+        },
+        {
+          "action_id": 4,
+          "character": "Tony Ramirez",
+          "character_id": 1,
+          "action": "Nods and leans forward.",
+          "dialogue": "You didn't make a mistake. You were brave enough to be yourself. That's something to be proud of, no matter what happens."
+        },
+        {
+          "action_id": 5,
+          "character": "Sarah Nguyen",
+          "character_id": 2,
+          "action": "Places a hand on Molly's shoulder.",
+          "dialogue": "You're not alone in this. We're here for you, no matter what he says."
+        }
+      ],
+      "plot": "Molly is struggling to focus on her English exam study session because she is anxiously waiting for a response from Joe after confessing her feelings. Her friends Tony and Sarah try to comfort her and help her stay grounded in the present.",
+      "social_purpose": "To showcase Molly's emotional vulnerability and her values of honesty and emotional connection, while also highlighting the supportive role of her friends in her life.",
+      "chunk": {
+        "id": 0,
+        "text": "The library was quiet, save for the occasional rustle of pages and the soft tapping of pens. Molly sat at the table, her eyes darting between her notes and her phone. Tony, noticing her distraction, tried to ease her worries by reminding her of her courage. Sarah offered a more grounded perspective, emphasizing the importance of self-worth and the strength in Molly's decision to express her feelings. Their shared goal of preparing for the English exam provided a backdrop for Molly to reveal her inner turmoil and for her friends to support her through it."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

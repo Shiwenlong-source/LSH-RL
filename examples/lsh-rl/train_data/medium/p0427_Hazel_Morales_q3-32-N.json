@@ -1,0 +1,95 @@
+{
+  "title": "A Quiet Table",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "A chance meeting in a quiet restaurant",
+      "time": "Afternoon",
+      "location": "Cozy Corner Café",
+      "description": "The Cozy Corner Café is a small, intimate restaurant known for its warm lighting and soft jazz music. Hazel Morales, a 24-year-old hostess, sits across from her ex-boyfriend Zoe, who is also 24. Shara, Hazel's best friend and confidante, sits beside her, trying to mediate the conversation. The air is thick with unspoken words and shared history.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Hazel Morales",
+          "gender": "24-year-old / Female / Ex-lover, 24 years old",
+          "description": "Hazel is composed but visibly tense, her fingers tracing the rim of her coffee cup. She is trying to remain rational but is clearly struggling with her emotions.; 24-year-old / Female / Ex-lover, 24 years old; Occupation: Hostess; Personality: Rational, Persistent, Empathetic, Cautious; Values: Truth, Emotional Clarity, Self-esteem; Interests: Introspection, Memory, Emotional Resolution; Experiences: Past Romantic Betrayal, Emotional Conflict, Reliving Memories, Seeking Reconciliation, Interpersonal Tension",
+          "position": "Seated at a small round table",
+          "states": "Tense, introspective, cautious",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Zoe Ramirez",
+          "gender": "24-year-old / Male / Ex-lover, 24 years old",
+          "description": "Calm and composed, but his eyes betray a flicker of discomfort; Male; Age: 24; Occupation: Freelance graphic designer; Personality: Analytical, empathetic, introverted; Values: Honesty, independence; Interests: Urban photography, indie music; Experiences: A recent breakup with Hazel Morales, navigating post-breakup professional collaborations, reconnecting with old friends in awkward social settings.",
+          "position": "Seated at a small round table",
+          "states": "Avoidant, reserved, polite",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Shara Lin",
+          "gender": "25-year-old / Female / Friend",
+          "description": "Shara is a supportive and empathetic presence, trying to keep the conversation open and honest; Female; Age: 25; Occupation: Social worker; Personality: Compassionate, observant, patient; Values: Honesty, emotional well-being, loyalty; Interests: Reading psychology books, journaling, indie music; Experiences: Mediated a difficult family conflict in college, supported a close friend through a breakup, worked with trauma survivors in a community center.",
+          "position": "Seated beside Hazel",
+          "states": "Supportive, empathetic, cautious",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Hazel Morales",
+          "character_id": 0,
+          "action": "Asks Zoe a direct question about their past",
+          "dialogue": "Zoe, I need to know. Was it someone else? Did you ever really mean what you said when we broke up?"
+        },
+        {
+          "action_id": 1,
+          "character": "Zoe Ramirez",
+          "character_id": 1,
+          "action": "Avoids the question and changes the subject",
+          "dialogue": "I don’t think it’s fair to keep bringing that up. We were both young and made mistakes."
+        },
+        {
+          "action_id": 2,
+          "character": "Shara Lin",
+          "character_id": 2,
+          "action": "Tries to ease the tension and encourage Zoe to be honest",
+          "dialogue": "Zoe, Hazel just wants some clarity. It’s not about blame. It’s about moving forward."
+        },
+        {
+          "action_id": 3,
+          "character": "Hazel Morales",
+          "character_id": 0,
+          "action": "Struggles to maintain composure while reflecting on the past",
+          "dialogue": "I just don’t want to keep wondering. I want to know if I meant anything to you, or if I was just another chapter in your life."
+        },
+        {
+          "action_id": 4,
+          "character": "Zoe Ramirez",
+          "character_id": 1,
+          "action": "Responds with vague reassurance",
+          "dialogue": "You meant a lot to me, Hazel. I just don’t think we were meant to be together."
+        },
+        {
+          "action_id": 5,
+          "character": "Shara Lin",
+          "character_id": 2,
+          "action": "Gently suggests that Hazel might need to let go",
+          "dialogue": "Maybe it’s time you stopped looking for answers in the past and started focusing on your future, Hazel."
+        }
+      ],
+      "plot": "Hazel confronts her ex-boyfriend Zoe in a quiet café, seeking emotional clarity and truth about their broken relationship. Shara, her empathetic friend, tries to support her while also urging her to move on. Zoe, however, remains evasive, deepening Hazel’s internal conflict between her desire for resolution and the fear of being forgotten.",
+      "social_purpose": "To explore Hazel's values of truth and emotional clarity through a tense but realistic interaction with her ex-lover and a friend.",
+      "chunk": {
+        "id": 0,
+        "text": "Hazel sits across from Zoe, her voice steady but her eyes searching for something she can’t quite name. 'Zoe, I need to know,' she says. 'Was it someone else? Did you ever really mean what you said when we broke up?' Zoe’s face remains unreadable, and he responds with a vague smile. 'We were both young and made mistakes.' Shara, sensing the tension, gently interjects. 'Zoe, Hazel just wants some clarity. It’s not about blame. It’s about moving forward.' Hazel’s fingers tighten around her coffee cup. 'I just don’t want to keep wondering,' she says. 'I want to know if I meant anything to you, or if I was just another chapter in your life.' Zoe hesitates, then says, 'You meant a lot to me, Hazel. I just don’t think we were meant to be together.' Shara nods and says, 'Maybe it’s time you stopped looking for answers in the past and started focusing on your future, Hazel.'"
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

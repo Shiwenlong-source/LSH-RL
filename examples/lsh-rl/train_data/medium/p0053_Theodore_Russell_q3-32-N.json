@@ -1,0 +1,115 @@
+{
+  "title": "The Movie Night Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Theodore runs into Yuna, Mike, and Lily at Orchard Cineleisure while planning a movie night with his friend Edmund.",
+      "time": "Afternoon",
+      "location": "Orchard Cineleisure",
+      "description": "Theodore is at the mall with Edmund, browsing the movie listings at the theater. He spots Yuna and her friends at the ticket counter and immediately feels nervous. He tries to act casual but can't help but notice Yuna's presence. Edmund notices Theodore's hesitation and tries to encourage him.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Theodore Russell",
+          "gender": "Male",
+          "description": "A 17-year-old high school student who is introverted, anxious, and sensitive. He is currently struggling with social anxiety and a crush on Yuna.; years old, Male, High School Student, 17 years old; Occupation: High School Student; Personality: Introverted, Anxious, Hesitant, Sensitive; Values: Honesty, Respect, Emotional Safety; Interests: Watching Movies, Hanging out, Emotional Introspection; Experiences: Just finished exams, Crush on a classmate, Experiencing social anxiety, Watching movies with friends, Dealing with adolescent feelings",
+          "position": "Near the movie listings board",
+          "states": "Nervous, hesitant, observant",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Yuna",
+          "gender": "Female",
+          "description": "A popular and confident classmate of Theodore's; Female; Age: 17; Occupation: High school student; Personality: charismatic, outgoing, witty; Values: loyalty, authenticity, ambition; Interests: cinema, fashion, social events; Experiences: won the school's debate championship, organized a successful student film festival, frequently socializes with a tight-knit group of friends.",
+          "position": "At the ticket counter",
+          "states": "Engaged in conversation, unaware of Theodore's presence",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Mike",
+          "gender": "Male",
+          "description": "Mike; Male; Age: 23; Occupation: Part-time barista and freelance graphic designer; Personality: Laid-back, friendly, witty; Values: Friendship, spontaneity, authenticity; Interests: Indie films, music festivals, coffee culture; Experiences: Organized a community film night that became a monthly event, worked at a local café for three years, collaborated with Yuna on a creative project for a mutual art blog.",
+          "position": "Standing next to Yuna",
+          "states": "Casual, conversational",
+          "is_npc": true
+        },
+        {
+          "id": 3,
+          "name": "Lily",
+          "gender": "Female",
+          "description": "Lily is Yuna's more reserved and thoughtful friend, quietly observing the world around her; Female; Age: 20; Occupation: Part-time bookseller at a local independent bookstore; Personality: Thoughtful, empathetic, introverted; Values: Loyalty, intellectual curiosity, kindness; Interests: Reading, independent films, journaling; Experiences: Attended film festivals with Yuna and Mike, helped organize a campus book club, spent time volunteering at a community center.",
+          "position": "Standing near Yuna and Mike",
+          "states": "Observant, quiet",
+          "is_npc": true
+        },
+        {
+          "id": 4,
+          "name": "Edmund",
+          "gender": "Male",
+          "description": "Theodore's supportive friend who is trying to help him overcome his social anxiety; Male; Age: 23; Occupation: Mental health counselor; Personality: Empathetic, patient, observant; Values: Compassion, personal growth, authenticity; Interests: Cinema, psychology, outdoor activities; Experiences: Worked with clients with social anxiety, volunteered at a community support group, overcame his own shyness in high school.",
+          "position": "Standing slightly behind Theodore",
+          "states": "Supportive, encouraging",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Theodore Russell",
+          "character_id": 0,
+          "action": "noticing Yuna and her friends",
+          "dialogue": "Theodore's eyes widen as he sees Yuna. He quickly looks away and mumbles, 'Uh, I didn't expect to see her here.'"
+        },
+        {
+          "action_id": 1,
+          "character": "Edmund",
+          "character_id": 4,
+          "action": "trying to reassure Theodore",
+          "dialogue": "Edmund says, 'It's just a movie. You can say hi if you want, or we can just watch from a distance.'"
+        },
+        {
+          "action_id": 2,
+          "character": "Theodore Russell",
+          "character_id": 0,
+          "action": "evasively avoiding the situation",
+          "dialogue": "Theodore shakes his head and says, 'N-no, it's fine. Let's just pick a different movie.'"
+        },
+        {
+          "action_id": 3,
+          "character": "Yuna",
+          "character_id": 1,
+          "action": "seeing Theodore and his friend",
+          "dialogue": "Yuna says, 'Hey, isn't that Theodore and Edmund? They seem like they're trying to pick a movie too.'"
+        },
+        {
+          "action_id": 4,
+          "character": "Mike",
+          "character_id": 2,
+          "action": "suggesting they go to a different theater",
+          "dialogue": "Mike says, 'Let's just go to the next showing. I don't want to make them uncomfortable.'"
+        },
+        {
+          "action_id": 5,
+          "character": "Lily",
+          "character_id": 3,
+          "action": "noticing Theodore's emotional state",
+          "dialogue": "Lily says, 'He looks really nervous. I wonder if he's been trying to talk to her for a while.'"
+        }
+      ],
+      "plot": "Theodore is trying to enjoy a casual movie outing with his friend Edmund when he unexpectedly runs into Yuna and her friends at the theater. His social anxiety and unspoken feelings for Yuna make the situation awkward, and he struggles to decide whether to approach her or avoid the encounter altogether. His sensitive and hesitant nature leads him to avoid the situation, but his friend Edmund tries to support him in navigating this social dilemma.",
+      "social_purpose": "To explore Theodore's internal struggle with social anxiety and his feelings for Yuna in a public setting. The scenario highlights his sensitivity, hesitation, and desire for emotional safety while also showing his interest in movies and hanging out with friends.",
+      "chunk": {
+        "id": 0,
+        "text": "Theodore and Edmund arrive at the mall and head to the theater. As they look at the movie listings, Theodore's eyes catch sight of Yuna and her friends at the ticket counter. His heart races and he feels a wave of anxiety. He tries to focus on the movie titles, but his thoughts drift to Yuna. Edmund notices his hesitation and gently nudges him, asking if he wants to say hi. Theodore shakes his head, his hands fidgeting with the edge of his jacket. Yuna and her friends are already discussing which movie to watch, and Theodore's desire for emotional safety keeps him from approaching. He watches from a distance as they choose a movie and head into the theater. As they walk away, he feels a pang of regret, knowing he might never get another chance to talk to her."
+      },
+      "npcs": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  ]
+}

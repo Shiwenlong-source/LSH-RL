@@ -1,0 +1,102 @@
+{
+  "title": "The AWANA Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Church Fellowship Hour",
+      "time": "Saturday afternoon",
+      "location": "St. Mary's Church Hall",
+      "description": "Kayla sits with her friend Joy and colleague Mike at a table during the church fellowship hour. They are sipping coffee and eating snacks while engaging in a conversation about volunteering opportunities at the church, particularly AWANA, a children's ministry program. Kayla is hesitant, while Joy and Mike are supportive and curious about her thoughts.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Kayla Howard",
+          "gender": "Female",
+          "description": "A 32-year-old professional in a high-intensity job, thoughtful and introspective, facing an important life decision.; Female, Professional, 32 years old; Occupation: Professional in a high-intensity job; Personality: Thoughtful, Determined, Introspective; Values: Balance, Meaning, Community; Interests: Volunteering, Personal Growth, Church Activities; Experiences: Handling multiple tasks, Seeking work-life balance, Exploring community service, Participating in meaningful conversations, Dealing with career challenges",
+          "position": "Seated at the table, sipping coffee",
+          "states": "Hesitant, contemplative, engaged in conversation",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Joy Thompson",
+          "gender": "Female",
+          "description": "A long-time church member and Kayla's close friend, known for her curiosity and encouraging nature; Female; Age: 52; Occupation: Elementary school teacher; Personality: Empathetic, enthusiastic, supportive; Values: Community, faith, personal growth; Interests: Children's literature, baking, church outreach; Experiences: Volunteered as a Sunday school teacher for over 15 years, organized several church charity events, has two grown children who were raised in church youth programs.",
+          "position": "Seated to Kayla's right, holding a plate of cookies",
+          "states": "Supportive, inquisitive, attentive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Mike Carter",
+          "gender": "Male",
+          "description": "Kayla's colleague and occasional church attendee, an attentive listener and thoughtful conversationalist; Male; Age: 34; Occupation: Youth counselor at a local community center; Personality: Empathetic, patient, analytical; Values: Service to others, integrity, personal growth; Interests: Mentoring teenagers, theological discussions, hiking; Experiences: Volunteered with AWANA two years ago, led a successful youth outreach program, recently went through a personal spiritual renewal.",
+          "position": "Seated to Kayla's left, holding a coffee cup",
+          "states": "Supportive, observant, interested",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Joy Thompson",
+          "character_id": 1,
+          "action": "Asks about Kayla's thoughts on AWANA",
+          "dialogue": "Hey Kayla, I heard the AWANA leaders are looking for more volunteers. You seem like you'd really connect with the kids. Have you thought about joining?"
+        },
+        {
+          "action_id": 1,
+          "character": "Kayla Howard",
+          "character_id": 0,
+          "action": "Expresses hesitation",
+          "dialogue": "I appreciate the thought, Joy, but I'm not sure. My job is so demanding right now, and I don't want to overcommit. Still, I do value community and meaning, so it's something I'm considering."
+        },
+        {
+          "action_id": 2,
+          "character": "Mike Carter",
+          "character_id": 2,
+          "action": "Offers perspective",
+          "dialogue": "That's totally valid, Kayla. I know how busy your schedule is. But I also remember you saying you want to find a better balance. This might be a step in that direction."
+        },
+        {
+          "action_id": 3,
+          "character": "Kayla Howard",
+          "character_id": 0,
+          "action": "Reflects on her experiences",
+          "dialogue": "Yeah, I've been juggling a lot at work lately, and it's made me realize how much I'm craving something more meaningful outside of my career. I just need to figure out if I can make it work with my current schedule."
+        },
+        {
+          "action_id": 4,
+          "character": "Joy Thompson",
+          "character_id": 1,
+          "action": "Reassures and encourages",
+          "dialogue": "You don't have to do it all at once, Kayla. Maybe start small and see how it fits into your life. I think it could really bring you a sense of purpose and connection."
+        },
+        {
+          "action_id": 5,
+          "character": "Mike Carter",
+          "character_id": 2,
+          "action": "Shares a personal experience",
+          "dialogue": "I actually tried a similar volunteer program a few years ago, and it helped me see the value of giving back. It was challenging, but it also gave me a new perspective on balance and community."
+        },
+        {
+          "action_id": 6,
+          "character": "Kayla Howard",
+          "character_id": 0,
+          "action": "Considers the offer",
+          "dialogue": "That's a good point, Mike. I've been exploring community service options, and this feels like a real opportunity. I just need to be thoughtful about how I approach it."
+        }
+      ],
+      "plot": "Kayla is contemplating whether to volunteer for AWANA during a church fellowship hour. Her friend Joy and colleague Mike engage her in a supportive conversation, helping her weigh the decision and reflect on her values of balance, meaning, and community.",
+      "social_purpose": "To explore the protagonist's internal conflict and values through a realistic, supportive conversation with two distinct supporting characters, each offering a different perspective on volunteering and work-life balance.",
+      "chunk": {
+        "id": 0,
+        "text": "The AWANA Dilemma"
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

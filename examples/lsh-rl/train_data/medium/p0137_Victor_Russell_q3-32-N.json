@@ -1,0 +1,81 @@
+{
+  "title": "First Steps Outside the Comfort Zone",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Victor attempts to open up to new people at a community swimming class.",
+      "time": "Saturday afternoon, 2:30 PM",
+      "location": "Community Pool, Group Aquatics Room",
+      "description": "Victor is preparing for a group swimming class he's leading. He's nervous about applying the communication techniques he learned in therapy. Martin and Ella are in the room, helping him warm up and offering support.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Victor Russell",
+          "gender": "male",
+          "description": "A 24-year-old swimming instructor who is trying to integrate new emotional awareness into his life. He is reflective and curious but also anxious.; 24-year-old /male/group therapy participant, 24 years old; Occupation: Swimming instructor; Personality: Eager, Anxious, Reflective, Curious; Values: Self-improvement, Honesty, Connection; Interests: Personal growth, Emotional awareness, Friendship; Experiences: Participated in group therapy, Struggled with self-expression, Seeking to build meaningful relationships",
+          "position": "near the pool edge, holding a clipboard",
+          "states": "nervous, determined, hopeful",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Martin",
+          "gender": "male",
+          "description": "Victor's close friend and former group therapy participant; male; Age: 42; Occupation: Physical therapist; Personality: supportive, calm, empathetic; Values: connection, growth, reliability; Interests: swimming, mindfulness practices, helping others; Experiences: participated in trauma-focused group therapy, volunteered at a community wellness center, led adaptive fitness programs for anxiety support.",
+          "position": "sitting on a bench, sipping water",
+          "states": "encouraging, observant, patient",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Ella",
+          "gender": "female",
+          "description": "Ella is Victor's other close friend; female; Age: 32; Occupation: Physical therapist; Personality: empathetic, practical, encouraging; Values: honesty, connection, personal growth; Interests: swimming, mindfulness practices, community events; Experiences: volunteered at a local aquatic rehabilitation center, helped a friend overcome social anxiety through gradual exposure, participated in group therapy sessions herself a few years ago.",
+          "position": "chatting with a few participants, helping Victor get comfortable",
+          "states": "cheerful, supportive, engaged",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Victor Russell",
+          "character_id": 0,
+          "action": "greets the first participant with a smile and a bit of hesitation",
+          "dialogue": "Hi there! I'm Victor, your instructor for today. Let me know if you need any help with the routine."
+        },
+        {
+          "action_id": 1,
+          "character": "Martin",
+          "character_id": 1,
+          "action": "nods at Victor with a reassuring look",
+          "dialogue": "You've got this, man. Just take it one step at a time."
+        },
+        {
+          "action_id": 2,
+          "character": "Ella",
+          "character_id": 2,
+          "action": "joins Victor at the edge of the pool to help him feel more at ease",
+          "dialogue": "Remember, it's okay to be a little nervous. What matters is that you're trying."
+        },
+        {
+          "action_id": 3,
+          "character": "Victor Russell",
+          "character_id": 0,
+          "action": "takes a deep breath and addresses the group with more confidence",
+          "dialogue": "Welcome, everyone! I'm really glad you're all here today. Let's make this a fun and safe environment for everyone."
+        }
+      ],
+      "plot": "Victor is trying to lead a swimming class while applying the lessons from his group therapy. Martin and Ella are there to support him, helping him navigate the challenge of being more open and honest in a public setting. Through their encouragement and his own efforts, Victor begins to feel more comfortable and connected to the people around him.",
+      "social_purpose": "To demonstrate Victor's growth in emotional awareness and self-expression, and to show how his values of honesty and connection can be applied in a real-world, public setting with the support of close friends.",
+      "chunk": {
+        "id": 0,
+        "text": "Victor stood at the edge of the pool, clipboard in hand, feeling a mix of excitement and fear. He had spent weeks in therapy learning to be more open, but putting it into practice in front of a group of strangers was a different challenge. Martin sat nearby, offering quiet support, while Ella interacted with the participants, helping Victor ease into the role. As the class began, Victor found himself speaking with more clarity and warmth than he had expected, a small but meaningful step toward the change he wanted."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

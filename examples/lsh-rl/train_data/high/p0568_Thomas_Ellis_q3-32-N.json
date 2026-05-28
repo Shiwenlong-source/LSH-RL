@@ -1,0 +1,123 @@
+{
+  "title": "The Coffee Catch-Up",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "A group of friends meeting for coffee to catch up",
+      "time": "7:30 PM",
+      "location": "A cozy corner of a local café",
+      "description": "Thomas, Gang, and Leo sit at a small table in a quiet café, sipping coffee and sharing stories. The atmosphere is warm, but the conversation is slowly revealing the emotional weight Thomas carries.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Thomas Ellis",
+          "gender": "Male",
+          "description": "A 28-year-old office clerk who is sensitive, people-pleasing, and introspective. He is visibly tired but tries to remain engaged in the conversation.; 28-year-old /Male/Office Worker, 24 years old; Occupation: Office Clerk; Personality: Sensitive, People-pleasing, Considerate, Introspective; Values: Harmony, Responsibility, Empathy; Interests: Reading, Chatting, Self-improvement; Experiences: Late-night conversations, Struggling with self-worth, Friendship dynamics, Emotional over-investment",
+          "position": "Sitting in the middle, slightly slouched",
+          "states": "Tired, hesitant, empathetic",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Gang",
+          "gender": "Male",
+          "description": "Gang; Male; Age: 26; Occupation: Graphic designer; Personality: Energetic, curious, persistent; Values: Creativity, connection, growth; Interests: Art, storytelling, indie music; Experiences: Recently launched a successful freelance design business, has been navigating the challenges of balancing work and personal life, is learning to listen more deeply to friends during difficult times.",
+          "position": "Sitting to Thomas's left, leaning forward",
+          "states": "Energetic, curious, persistent",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Leo",
+          "gender": "Male",
+          "description": "A 29-year-old marketing manager with a sharp tongue and a tendency to mock others' indecision; Male; Age: 29; Occupation: Marketing Manager; Personality: Sarcastic, dismissive, observant; Values: Professionalism, efficiency, wit; Interests: Networking events, vintage vinyl, dark humor; Experiences: Worked his way up from intern to manager in a competitive agency, recently went through a high-profile project failure, has a history of using humor as a defense mechanism.",
+          "position": "Leaning back with a smug attitude",
+          "states": "Sarcastic, dismissive, observant",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Gang",
+          "character_id": 1,
+          "action": "Initiates a conversation",
+          "dialogue": "Hey, Thomas, you still reading that self-improvement book? You looked really into it last week."
+        },
+        {
+          "action_id": 1,
+          "character": "Thomas Ellis",
+          "character_id": 0,
+          "action": "Hesitates before responding",
+          "dialogue": "Yeah, I am... it's just been a bit hard to find the time lately. Work and everything."
+        },
+        {
+          "action_id": 2,
+          "character": "Leo",
+          "character_id": 2,
+          "action": "Jokes about Thomas's habit",
+          "dialogue": "Oh, don't worry, Thomas. You always find time for the people around you. Books can wait."
+        },
+        {
+          "action_id": 3,
+          "character": "Thomas Ellis",
+          "character_id": 0,
+          "action": "Deflects the comment with a smile",
+          "dialogue": "I guess I just like to be responsible with my time. It's not about the book, it's about making sure I don't drop the ball with anything."
+        },
+        {
+          "action_id": 4,
+          "character": "Gang",
+          "character_id": 1,
+          "action": "Pushes for more details",
+          "dialogue": "You're always doing so much for everyone. But when do you take care of yourself, man?"
+        },
+        {
+          "action_id": 5,
+          "character": "Thomas Ellis",
+          "character_id": 0,
+          "action": "Avoids eye contact",
+          "dialogue": "I don't know. I guess I don't see it as a problem. I like to help, you know?"
+        },
+        {
+          "action_id": 6,
+          "character": "Leo",
+          "character_id": 2,
+          "action": "Mockingly agrees",
+          "dialogue": "Right, because nothing says 'healthy' like staying up until 3 AM to finish someone else's project while you're at it."
+        },
+        {
+          "action_id": 7,
+          "character": "Thomas Ellis",
+          "character_id": 0,
+          "action": "Softly admits his struggle",
+          "dialogue": "I just don't want to be the one who doesn't show up, you know? It's hard to say no sometimes."
+        },
+        {
+          "action_id": 8,
+          "character": "Gang",
+          "character_id": 1,
+          "action": "Shifts tone to be more supportive",
+          "dialogue": "I get it, but you can't keep doing this for everyone else if it's making you feel like you're losing yourself."
+        },
+        {
+          "action_id": 9,
+          "character": "Thomas Ellis",
+          "character_id": 0,
+          "action": "Nods slowly",
+          "dialogue": "Maybe you're right. I just don't know where to start."
+        }
+      ],
+      "plot": "Thomas's friends try to get him to open up about his tendency to overcommit and the emotional toll it's taking on him. While Gang is genuinely concerned and tries to support him, Leo's sarcasm adds pressure. Thomas's internal struggle with self-worth and autonomy becomes apparent as he wrestles with the idea of setting boundaries.",
+      "social_purpose": "To explore Thomas's emotional conflict through a casual conversation with his friends, highlighting his people-pleasing nature and the pressure he feels to maintain harmony and responsibility.",
+      "chunk": {
+        "id": 0,
+        "text": "The three friends sit in the dimly lit café, the soft hum of conversation and the clink of cups in the background. Gang is the first to break the silence, asking Thomas about his reading habits. Leo, as usual, chimes in with a sarcastic remark, which makes Thomas smile weakly. The conversation slowly turns into a deeper discussion about Thomas's tendency to say yes to everything, and how it's affecting his well-being. Gang's concern is genuine, but Leo's teasing makes it hard for Thomas to feel supported. In the end, he admits he's lost in the balance between his own needs and others' expectations."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

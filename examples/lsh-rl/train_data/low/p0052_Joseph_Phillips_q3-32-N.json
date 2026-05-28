@@ -1,0 +1,88 @@
+{
+  "title": "Lunch Decision Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Looking for a lunch spot",
+      "time": "12:30 PM",
+      "location": "A busy street in downtown Austin, Texas",
+      "description": "Joseph, Gina, and Kevin are walking down a crowded sidewalk, the muggy air making them all restless. They’ve been touring the city for hours and are now on the verge of a heated argument over where to eat. Joseph, as the group leader, is trying to maintain control while his companions grow increasingly impatient.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Joseph Phillips",
+          "gender": "Male",
+          "description": "A 25-year-old traveler with a leadership presence. He is visibly annoyed and hungry, constantly checking his watch.; years old, Male, Traveler, 25 years old; Occupation: Insurance Sales; Personality: Impatient, Irritable, Leadership presence; Values: Efficiency, Comfort, Team Harmony; Interests: Exploring new places, Food, Socializing; Experiences: Traveling in unfamiliar areas, Handling unexpected delays, Making quick decisions under pressure",
+          "position": "Walking at the front, arms crossed",
+          "states": "Irritable, hungry, tense",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Gina",
+          "gender": "Female",
+          "description": "Gina is a 28-year-old graphic designer who is frowning and scrolling through her phone, impatient, skeptical, and unwilling to backtrack for other options; Female; Age: 28; Occupation: Freelance graphic designer and part-time UX consultant; Personality: Pragmatic, independent, easily distracted; Values: Efficiency, self-reliance, modern aesthetics; Interests: Urban exploration, digital art, food photography; Experiences: Worked on branding projects for local Austin businesses, frequently juggling multiple clients and tight deadlines, spent years navigating crowded city environments for work and play.",
+          "position": "Walking beside Joseph, looking at her phone",
+          "states": "Impatient, skeptical, focused on her phone",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Kevin",
+          "gender": "Male",
+          "description": "Kevin; Male; Age: 30; Occupation: High school history teacher; Personality: Empathetic, analytical, easily flustered; Values: Fairness, education, harmony; Interests: Exploring local culture, reading biographies, coffee tasting; Experiences: Organized multiple group field trips, mediated student conflicts, recently moved to Austin for a new job and adventure.",
+          "position": "Walking behind the two, hands in his pockets",
+          "states": "Trying to be helpful, slightly anxious",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Joseph Phillips",
+          "character_id": 0,
+          "action": "Sighs heavily and stops walking",
+          "dialogue": "Alright, this is getting us nowhere. We need to decide now. I don’t care if it’s not perfect, but I’m starving."
+        },
+        {
+          "action_id": 1,
+          "character": "Gina",
+          "character_id": 1,
+          "action": "Glances up from her phone",
+          "dialogue": "I saw a place a few blocks back that looked amazing, but I don’t want to go back."
+        },
+        {
+          "action_id": 2,
+          "character": "Kevin",
+          "character_id": 2,
+          "action": "Steps forward and gestures to a nearby Fuddrucker’s",
+          "dialogue": "How about Fuddrucker’s? It’s not fancy, but it’s fast and it’s right here. We can save the gourmet spots for later."
+        },
+        {
+          "action_id": 3,
+          "character": "Joseph Phillips",
+          "character_id": 0,
+          "action": "Looks at Kevin, then at Gina",
+          "dialogue": "Fine. Let’s do that. But we move on after this, no delays. I’m not risking the rest of the day for a burger."
+        },
+        {
+          "action_id": 4,
+          "character": "Gina",
+          "character_id": 1,
+          "action": "Nods reluctantly",
+          "dialogue": "Yeah, I guess it’s better than nothing. Let’s just get something in us."
+        }
+      ],
+      "plot": "Joseph, Gina, and Kevin are struggling to find a lunch spot in downtown Austin. Tension rises as the heat and hunger take their toll. Kevin suggests Fuddrucker’s as a compromise, and Joseph, as the leader, makes the final decision to go there, prioritizing efficiency and team harmony over personal preferences.",
+      "social_purpose": "To demonstrate Joseph’s leadership and impatience, while showing the group dynamic and how shared goals can cause conflict in a public setting.",
+      "chunk": {
+        "id": 0,
+        "text": "Joseph, Gina, and Kevin are struggling to find a lunch spot in downtown Austin. Tension rises as the heat and hunger take their toll. Kevin suggests Fuddrucker’s as a compromise, and Joseph, as the leader, makes the final decision to go there, prioritizing efficiency and team harmony over personal preferences."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

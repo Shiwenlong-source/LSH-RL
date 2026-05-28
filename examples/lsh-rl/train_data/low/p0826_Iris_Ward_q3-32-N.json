@@ -1,0 +1,98 @@
+{
+  "title": "A Crucial Meeting at the Community Center",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Community Advocacy Meeting",
+      "time": "Afternoon",
+      "location": "Hani Cultural Community Center, Chiang Mai, Thailand",
+      "description": "Iris Ward, a 36-year-old human rights advocate, is leading a small meeting with her team and Hani community representatives. The room is filled with tension as they review the latest response from the U.S. Consulate, which is vague and unhelpful. Iris is trying to keep the group focused on finding a solution while also addressing the community's growing concerns.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Iris Ward",
+          "gender": "Female",
+          "description": "A 36-year-old human rights advocate with a firm, compassionate, and analytical personality. She is deeply committed to the Hani community and justice for indigenous people.; Female, Advocate, 36 years old; Occupation: Human Rights Advocate; Personality: Firm, Compassionate, Analytical; Values: Justice, Community, Persistence; Interests: Social justice, Cultural preservation, International policy; Experiences: Working with indigenous communities, Advocacy campaigns, Handling legal documents",
+          "position": "Center of the room, standing at the front of a table with documents spread out",
+          "states": "Anxious, determined, focused",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Maya Lin",
+          "gender": "Female",
+          "description": "Iris's assistant, visibly worried about the delays in the Consulate's response; Female; Age: late 20s; Occupation: Human Rights Program Coordinator; Personality: detail-oriented, empathetic, composed under pressure; Values: justice, community empowerment, transparency; Interests: cross-cultural communication, sustainable development, photography; Experiences: worked with displaced communities in Southeast Asia, coordinated international advocacy campaigns, previously volunteered with refugee resettlement programs in the U.S.",
+          "position": "Sitting to Iris's left, reviewing a laptop and printed documents",
+          "states": "Worried, supportive, observant",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Gavin Cole",
+          "gender": "Male",
+          "description": "A mid-30s colleague and legal expert with a calm and reserved demeanor; Male; Age: 34; Occupation: International Human Rights Lawyer; Personality: Analytical, empathetic, patient; Values: Justice, cultural preservation, collaboration; Interests: Studying indigenous legal systems, hiking in mountainous regions, reading historical treaties; Experiences: Advised on policy reforms in Southeast Asia, mediated between NGOs and foreign governments, worked with displaced ethnic communities in Myanmar.",
+          "position": "Sitting to Iris's right, arms crossed, watching the exchange carefully",
+          "states": "Calm, contemplative, ready to interject",
+          "is_npc": true
+        },
+        {
+          "id": 3,
+          "name": "Ling Hua",
+          "gender": "Female",
+          "description": "A Hani community leader in her 50s, passionate about preserving her people's cultural heritage and ensuring their rights are protected; Female; Age: 54; Occupation: Cultural Heritage Advocate and Tribal Council Representative; Personality: Resilient, articulate, empathetic; Values: Cultural preservation, community solidarity, justice; Interests: Traditional Hani weaving, oral history storytelling, environmental conservation; Experiences: Led protests against land encroachment by foreign investors, trained in indigenous rights through a regional NGO, negotiated with local and national government officials for land recognition.",
+          "position": "Sitting at the table, leaning forward, showing concern",
+          "states": "Urgent, hopeful, frustrated",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Iris Ward",
+          "character_id": 0,
+          "action": "Reading the Consulate's response aloud",
+          "dialogue": "This response is still too vague. We need clarity on when they can actually commit to reviewing our case. The Hani people can't wait any longer."
+        },
+        {
+          "action_id": 1,
+          "character": "Maya Lin",
+          "character_id": 1,
+          "action": "Looking up from her laptop",
+          "dialogue": "I've tried reaching them three times this week, Iris. They keep saying they're 'working on it.' I'm afraid we're not getting the attention we need."
+        },
+        {
+          "action_id": 2,
+          "character": "Gavin Cole",
+          "character_id": 2,
+          "action": "Speaking for the first time",
+          "dialogue": "Maybe it's time we consider other avenues. We've handled legal documents before. Perhaps drafting a formal appeal with specific demands could help."
+        },
+        {
+          "action_id": 3,
+          "character": "Ling Hua",
+          "character_id": 3,
+          "action": "Interjecting with urgency",
+          "dialogue": "We need justice for our people. The land is sacred. If we don't act now, it may be too late. What can we do to make them listen?"
+        },
+        {
+          "action_id": 4,
+          "character": "Iris Ward",
+          "character_id": 0,
+          "action": "Sitting down and addressing the group",
+          "dialogue": "You're right, Ling. This isn't just about policy or paperwork. It's about the Hani's future. I'll push harder for a clear answer, but we also need to explore alternatives. Maya, can you start drafting that appeal? Gavin, I'd like your legal insights on it."
+        }
+      ],
+      "plot": "Iris is leading a meeting to discuss the slow progress of a critical legal case involving the Hani community. The team is frustrated with the lack of response from the U.S. Consulate and is considering alternative strategies. Iris must balance her determination with the emotional weight of the community's expectations.",
+      "social_purpose": "To show how Iris's background in advocacy, her values of justice and community, and her analytical nature guide her in a high-pressure situation. The dialogue also highlights the shared goal of protecting the Hani people and their land.",
+      "chunk": {
+        "id": 0,
+        "text": "Iris Ward, a 36-year-old human rights advocate, is leading a small meeting with her team and Hani community representatives at the Hani Cultural Community Center in Chiang Mai, Thailand. The room is filled with tension as they review the latest response from the U.S. Consulate, which is vague and unhelpful. Iris is trying to keep the group focused on finding a solution while also addressing the community's growing concerns. Her assistant, Maya Lin, is visibly worried about the delays in the Consulate's response. Gavin Cole, a mid-30s colleague and legal expert, is sitting quietly, watching the exchange carefully. Ling Hua, a Hani community leader in her 50s, is leaning forward, showing concern and urgency. Iris reads the response aloud, emphasizing the need for clarity and action. Maya shares her frustration with the lack of progress, and Gavin suggests exploring alternative strategies. Ling Hua voices the community's deep need for justice and protection of their land. Iris proposes a new plan, asking Maya to draft an appeal and Gavin to provide legal support. The meeting ends with a renewed sense of purpose and a shared understanding of the high stakes involved."
+      },
+      "npcs": [
+        1,
+        2,
+        3
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "title": "A Coffee Shop Conversation",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Wyatt is invited to write for a theology blog and discusses it with his friends",
+      "time": "Afternoon",
+      "location": "A quiet corner of a local coffee shop",
+      "description": "Wyatt sits at a small wooden table, sipping a cup of black coffee. His friends, Rory and Yuki, are seated across from him. The atmosphere is calm, with soft background music and the hum of casual conversation. The shared goal is to help Wyatt decide whether to accept the blog invitation.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Wyatt Bell",
+          "gender": "Male",
+          "description": "A 22-year-old theology student with a reserved and thoughtful demeanor. He often speaks softly, showing deep introspection and a strong sense of humility.; 22-year-old male theology student, 22 years old; Occupation: Theology student; Personality: Introspective, Pious, Lacking confidence, Thoughtful; Values: Faith, Humility, Self-reflection; Interests: Theology, Spiritual writing, Reading religious texts; Experiences: Studying at a remote seminary, Conducting personal spiritual reflection, Receiving external dissemination opportunities",
+          "position": "At the center of the table",
+          "states": "Nervous, contemplative, and grateful for the support of his friends",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Rory",
+          "gender": "Female",
+          "description": "A confident and outgoing literature student who believes in the power of sharing one's voice; Female; Age: 22; Occupation: Part-time poetry workshop facilitator; Personality: Encouraging, empathetic, idealistic; Values: Self-expression, intellectual growth, community; Interests: Writing, indie music, book clubs; Experiences: Led a student-led literary magazine, supported a friend through creative burnout, published a collection of short stories in college.",
+          "position": "To Wyatt's left",
+          "states": "Supportive, optimistic, and gently persuasive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Yuki",
+          "gender": "Female",
+          "description": "A quiet but insightful friend who is a philosophy student and often speaks with spiritual wisdom; Female; Age: 22; Occupation: Part-time barista and volunteer at a local meditation center; Personality: Contemplative, empathetic, intuitive; Values: Inner peace, spiritual growth, authenticity; Interests: Studying comparative religion, journaling, nature walks; Experiences: Participated in a silent Zen retreat, helped organize a community interfaith dialogue event, spent a semester abroad studying Eastern philosophies.",
+          "position": "To Wyatt's right",
+          "states": "Calm, spiritually guided, and encouraging Wyatt to consider the divine purpose of the invitation",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Wyatt Bell",
+          "character_id": 0,
+          "action": "Expresses his hesitation about the blog invitation",
+          "dialogue": "I don't know if I'm the right person for this. I've just been studying in a quiet place, not really thinking about sharing my thoughts with the world."
+        },
+        {
+          "action_id": 1,
+          "character": "Rory",
+          "character_id": 1,
+          "action": "Reassures Wyatt and highlights his value",
+          "dialogue": "Wyatt, your insights are meaningful. You don't have to be perfect—just honest. Your voice could really help others."
+        },
+        {
+          "action_id": 2,
+          "character": "Yuki",
+          "character_id": 2,
+          "action": "Shares a spiritual perspective on the invitation",
+          "dialogue": "Sometimes, God opens doors we don't expect. This might be a way for you to step out of your comfort zone and grow in faith."
+        },
+        {
+          "action_id": 3,
+          "character": "Wyatt Bell",
+          "character_id": 0,
+          "action": "Reflects on the conversation and his internal conflict",
+          "dialogue": "I just feel like I'm not special enough. I mean, I read a lot and think about these things, but is that enough to share with others?"
+        },
+        {
+          "action_id": 4,
+          "character": "Rory",
+          "character_id": 1,
+          "action": "Offers a practical example to help Wyatt see his potential",
+          "dialogue": "What if you start with a short reflection on a passage from the Bible you've been studying? You don't have to write a book—just a few thoughts that might resonate with someone else."
+        },
+        {
+          "action_id": 5,
+          "character": "Yuki",
+          "character_id": 2,
+          "action": "Reinforces the idea of humility and divine calling",
+          "dialogue": "Humility is a virtue, but it shouldn't silence you if God is calling you to speak. This could be a way to share your journey with others."
+        },
+        {
+          "action_id": 6,
+          "character": "Wyatt Bell",
+          "character_id": 0,
+          "action": "Considers the possibility of writing for the blog",
+          "dialogue": "Maybe I could try it. I just need to remember to write from my heart, not to impress anyone."
+        }
+      ],
+      "plot": "Wyatt is invited to contribute to a theology blog and is conflicted about accepting. Rory and Yuki, his close friends, support him in different ways, with Rory emphasizing the value of his voice and Yuki interpreting the invitation as a divine opportunity. Through their conversation, Wyatt begins to see the possibility of growth and begins to consider accepting the invitation.",
+      "social_purpose": "To explore Wyatt's internal conflict between humility and the potential for growth through external opportunities. The scenario highlights how his values, personality, and experiences are revealed through a supportive social interaction.",
+      "chunk": {
+        "id": 0,
+        "text": "Wyatt, Rory, and Yuki sit together at a quiet table in the coffee shop. As they sip their drinks, the conversation turns to the blog invitation. Wyatt's hesitation is palpable, but Rory and Yuki offer both practical and spiritual encouragement, helping him see the invitation as a meaningful step in his journey."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

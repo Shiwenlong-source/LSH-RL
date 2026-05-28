@@ -1,0 +1,81 @@
+{
+  "title": "Waiting for Justice",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Jury Selection and Deliberation",
+      "time": "Morning",
+      "location": "Courtroom Jury Waiting Room",
+      "description": "Noah Ford, a 25-year-old freelance programmer, sits in the corner of a crowded jury waiting room. The air is thick with tension and boredom as potential jurors wait for their names to be called. He flips through a worn copy of 'Texas Hold'em' in an attempt to stay occupied. Nearby, two other jurors, Henry and Mei, are engaged in conversation. Henry, a laid-back construction worker, is sharing his long jury experience, while Mei, a focused teacher, listens intently.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Noah Ford",
+          "gender": "Male",
+          "description": "A young freelance programmer who is visibly anxious and impatient. He is trying to stay productive by reading a poker book but is clearly distracted by the jury process.; Male, Freelance Programmer, 25 years old; Occupation: Freelance Programmer; Personality: Impatient, Pragmatic, Anxious; Values: Time Efficiency, Independence; Interests: Reading, Poker, Technology; Experiences: Remote Work, Previous Jury Duty, Balancing Work and Civic Responsibility",
+          "position": "Corner of the room",
+          "states": "Anxious, Impatient, Distracted",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Henry",
+          "gender": "Male",
+          "description": "A construction worker in his 40s who is relaxed and experienced with jury duty; Male; Age: 45; Occupation: Construction foreman; Personality: Laid-back, Confident, Teasing; Values: Fairness, Hard work, Community; Interests: Poker, Tool maintenance, Sports; Experiences: Served on two previous juries, Supervised major infrastructure projects, Volunteered for neighborhood safety initiatives.",
+          "position": "Near the window",
+          "states": "Relaxed, Teasing, Confident",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Mei",
+          "gender": "Female",
+          "description": "Mei; Female; Age: 32; Occupation: High school English teacher; Personality: Observant, Calm, Supportive; Values: Empathy, Responsibility, Fairness; Interests: Reading, Mindfulness practices, Supporting local community initiatives; Experiences: Served on a civil jury case two years ago, Mentored students in debate and public speaking, Volunteered as a crisis counselor at a youth center.",
+          "position": "Sitting next to Henry",
+          "states": "Observant, Calm, Supportive",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Noah Ford",
+          "character_id": 0,
+          "action": "Flipping through a book",
+          "dialogue": "I really hope this doesn't take all day. I've got a tight deadline."
+        },
+        {
+          "action_id": 1,
+          "character": "Henry",
+          "character_id": 1,
+          "action": "Teasing Noah",
+          "dialogue": "You look like you'd rather be coding than here. I've been on jury duty for three months. You in for the long haul?"
+        },
+        {
+          "action_id": 2,
+          "character": "Mei",
+          "character_id": 2,
+          "action": "Trying to ease the tension",
+          "dialogue": "I know it's not ideal, but maybe it'll be quick. I've been in a similar situation before."
+        },
+        {
+          "action_id": 3,
+          "character": "Noah Ford",
+          "character_id": 0,
+          "action": "Responding briefly",
+          "dialogue": "I'm just hoping it's over by noon. I work remotely, so I can handle it, but it's not ideal."
+        }
+      ],
+      "plot": "Noah is struggling to remain focused and patient as he waits for jury selection to begin. Henry, who is more experienced, tries to engage him in conversation, but Noah is clearly more interested in finishing his work. Mei, who has also been in a similar situation, attempts to provide reassurance and support.",
+      "social_purpose": "The interaction highlights Noah's impatience and anxiety, as well as his pragmatic approach to balancing work and civic duty. It also shows how different people handle the same situation based on their experiences and values.",
+      "chunk": {
+        "id": 0,
+        "text": "Noah Ford, a 25-year-old freelance programmer, sits in the corner of a crowded jury waiting room. The air is thick with tension and boredom as potential jurors wait for their names to be called. He flips through a worn copy of 'Texas Hold'em' in an attempt to stay occupied. Nearby, two other jurors, Henry and Mei, are engaged in conversation. Henry, a laid-back construction worker, is sharing his long jury experience, while Mei, a focused teacher, listens intently."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

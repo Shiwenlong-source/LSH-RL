@@ -1,0 +1,102 @@
+{
+  "title": "The Classroom Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Business Strategy Class",
+      "time": "10:00 AM",
+      "location": "University Lecture Hall 302",
+      "description": "James Long, a 24-year-old business school student, sits in the back of the classroom, trying to stay awake during a lecture. His roommate, Sun, is seated a few rows ahead with a smirk. Professor Danny, a strict and observant instructor, is walking around the room, keeping an eye on the students' engagement.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "James Long",
+          "gender": "Male",
+          "description": "A 24-year-old business school student who is visibly exhausted and anxious about his academic performance. He is trying to nap in the back of the classroom.; 20-year-old male, business school student, 24 years old; Occupation: Business school student; Personality: Exhausted, Anxious, Hesitant, Strong self-awareness; Values: Rest, Caution, Self-protection; Interests: Sleep, Academic survival, Peer validation; Experiences: Staying up late to study, Academic pressure, Classroom tension, Roommate interaction, Authority scrutiny",
+          "position": "Back corner of the classroom",
+          "states": "Exhausted, anxious, hesitant",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Sun",
+          "gender": "Male",
+          "description": "Sun; Male; Age: 23; Occupation: Part-time marketing intern and student; Personality: Observant, playful, witty; Values: Loyalty, humor in hardship, intellectual curiosity; Interests: Street art, board games, urban culture; Experiences: Survived a grueling startup internship, helped a friend through academic burnout, excelled in debate club despite initial shyness",
+          "position": "Third row of the classroom",
+          "states": "Amused, cautious",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Professor Danny",
+          "gender": "Male",
+          "description": "A strict and observant business professor who is visibly dissatisfied with the students' lack of engagement; Male; Age: 52; Occupation: Business Strategy Professor; Personality: Analytical, impatient, authoritative; Values: Academic excellence, professional integrity, respect for time; Interests: Reading economic journals, mentoring high-achieving students, attending industry conferences; Experiences: Former corporate strategist for a Fortune 500 firm, published several influential business case studies, dealt with multiple disengaged student classes over the years.",
+          "position": "Front of the classroom, pacing",
+          "states": "Dissatisfied, scrutinizing",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "James Long",
+          "character_id": 0,
+          "action": "Attempt to nap discreetly",
+          "dialogue": "James shifts in his seat, trying to hide his yawn behind his hand. His eyes slowly drift shut."
+        },
+        {
+          "action_id": 1,
+          "character": "Sun",
+          "character_id": 1,
+          "action": "Playfully warn James",
+          "dialogue": "Sun turns around and whispers, 'You're about to get caught, man. Professor Danny's got eyes like a hawk.'"
+        },
+        {
+          "action_id": 2,
+          "character": "James Long",
+          "character_id": 0,
+          "action": "React with anxiety",
+          "dialogue": "James's eyes snap open. 'I just need five more minutes,' he mutters under his breath, glancing nervously at the professor."
+        },
+        {
+          "action_id": 3,
+          "character": "Professor Danny",
+          "character_id": 2,
+          "action": "Call on James",
+          "dialogue": "Professor Danny stops pacing and says, 'Mr. Long, what is your opinion on the case we discussed last week?'"
+        },
+        {
+          "action_id": 4,
+          "character": "James Long",
+          "character_id": 0,
+          "action": "Struggle to respond",
+          "dialogue": "James hesitates, trying to recall the case details. 'Uh... I think the company should focus on market diversification,' he says, unsure of his answer."
+        },
+        {
+          "action_id": 5,
+          "character": "Sun",
+          "character_id": 1,
+          "action": "Give a subtle nod of encouragement",
+          "dialogue": "Sun nods slightly, signaling to James that he did okay, but still looks amused."
+        },
+        {
+          "action_id": 6,
+          "character": "Professor Danny",
+          "character_id": 2,
+          "action": "Respond with mild disapproval",
+          "dialogue": "Professor Danny frowns slightly. 'A decent start, but you can do better. Try to stay engaged.'"
+        }
+      ],
+      "plot": "James is struggling to balance his need for rest with the demands of his academic performance. His roommate Sun is aware of his exhaustion and playfully warns him, but also subtly supports him. Professor Danny's scrutiny adds to the tension, as he expects more from his students.",
+      "social_purpose": "To showcase the internal and external conflicts James faces in balancing his need for rest with academic pressure, while also highlighting the dynamics between him, his roommate, and the professor.",
+      "chunk": {
+        "id": 0,
+        "text": "James Long, a 24-year-old business school student, sits in the back of the classroom, trying to stay awake during a lecture. His roommate, Sun, is seated a few rows ahead with a smirk. Professor Danny, a strict and observant instructor, is walking around the room, keeping an eye on the students' engagement."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

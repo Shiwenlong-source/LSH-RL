@@ -1,0 +1,119 @@
+{
+  "title": "A Morning Surprise at the Coffee Shop",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Melanie and Peter surprise Yuna with a special birthday gift at a local coffee shop.",
+      "time": "9:00 AM",
+      "location": "A cozy corner of a local coffee shop, near a window with sunlight streaming in.",
+      "description": "Melanie and Peter are seated at a small table, waiting for Yuna to arrive. A gift wrapped in colorful paper and tied with a red ribbon sits between them. They both look excited but Melanie is fidgeting with her hands, showing her nervousness. A third friend, Sarah, is also present, helping to keep the surprise a secret.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Melanie Robinson",
+          "gender": "Female",
+          "description": "Melanie is a 22-year-old independent musician who is known for her creativity and emotional depth. She is quietly excited but visibly nervous about the surprise.; 22-year-old / Female, 24 years old; Occupation: Independent Musician; Personality: Attentive, Considerate, Nervous, Enthusiastic; Values: Love, Surprise, Creativity; Interests: Music, Gift-giving, Romantic Expression; Experiences: Preparing special gifts, Romantic relationships, Morning surprises",
+          "position": "Seated at the table, holding the gift box.",
+          "states": "Nervous, Enthusiastic, Attentive",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Peter",
+          "gender": "Male",
+          "description": "Peter is Melanie's boyfriend, a laid-back and humorous man in his late 20s who finds the situation amusing but is supportive of Melanie's efforts; Male; Age: 28; Occupation: Graphic Designer; Personality: Humorous, easygoing, observant; Values: Friendship, creativity, authenticity; Interests: Sketching, indie music, coffee culture; Experiences: Collaborated with local artists on community projects, helped Melanie plan surprise events in the past, worked part-time at a café before starting his design career.",
+          "position": "Leaning back in the chair, watching Melanie with a smile.",
+          "states": "Amused, Supportive, Confident",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Sarah",
+          "gender": "Female",
+          "description": "Sarah is a close friend of both Melanie and Yuna, in her early 20s. She is practical and reliable, ensuring the surprise goes smoothly; Female; Age: 23; Occupation: Event Planner; Personality: Organized, Empathetic, Observant; Values: Loyalty, Thoughtfulness, Attention to Detail; Interests: Coffee culture, Interior design, People-watching; Experiences: Planning several successful birthday parties for friends, Coordinating small community events, Managing last-minute changes in event setups with ease.",
+          "position": "Sitting across from Melanie, helping to keep the conversation light.",
+          "states": "Calm, Helpful, Curious",
+          "is_npc": true
+        },
+        {
+          "id": 3,
+          "name": "Yuna",
+          "gender": "Female",
+          "description": "Yuna is a 24-year-old musician and Melanie's best friend; Female; Age: 24; Occupation: Aspiring jazz pianist and part-time music teacher; Personality: Easygoing, creative, and loyal, but initially grumpy in the morning; Values: Friendship, artistic expression, and authenticity; Interests: Playing piano, exploring new coffee shops, and vintage vinyl records; Experiences: Performed at local open mic nights, collaborated with Melanie on a music project, and recently moved to the city to pursue her music career.",
+          "position": "Approaching the table, looking disoriented from the early wake-up call.",
+          "states": "Disoriented, Curious, Initially Displeased",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Melanie Robinson",
+          "character_id": 0,
+          "action": "greets Yuna with a nervous smile",
+          "dialogue": "Hey Yuna! You're here! We were just about to start without you, but I'm sure you won't mind."
+        },
+        {
+          "action_id": 1,
+          "character": "Yuna",
+          "character_id": 3,
+          "action": "yawns and looks around confused",
+          "dialogue": "What are you two doing here so early? I was just getting out of bed."
+        },
+        {
+          "action_id": 2,
+          "character": "Peter",
+          "character_id": 1,
+          "action": "laughs and gestures to the gift",
+          "dialogue": "It's not just us, it's for you! Happy birthday, Yuna. We've got something special."
+        },
+        {
+          "action_id": 3,
+          "character": "Sarah",
+          "character_id": 2,
+          "action": "nudges Yuna gently and smiles",
+          "dialogue": "Come on, open it. Melanie worked really hard on this, and I think you're going to love it."
+        },
+        {
+          "action_id": 4,
+          "character": "Yuna",
+          "character_id": 3,
+          "action": "curiously unboxes the gift",
+          "dialogue": "Okay, okay... let's see what it is."
+        },
+        {
+          "action_id": 5,
+          "character": "Melanie Robinson",
+          "character_id": 0,
+          "action": "watching Yuna's reaction, holding her breath",
+          "dialogue": "I hope you like it. It's something I made for you, and it's a little reminder of all the memories we've shared."
+        },
+        {
+          "action_id": 6,
+          "character": "Yuna",
+          "character_id": 3,
+          "action": "looks at the gift with surprise and softens her expression",
+          "dialogue": "This is amazing... 'Accompanied all the way'? What does that mean?"
+        },
+        {
+          "action_id": 7,
+          "character": "Melanie Robinson",
+          "character_id": 0,
+          "action": "explains the meaning behind the gift",
+          "dialogue": "It's a song I wrote for you. Every time you've supported me through a tough time, I thought of you. This is for that."
+        }
+      ],
+      "plot": "Melanie and Peter organize a surprise birthday gift for Yuna at a local coffee shop, with the help of Sarah. Melanie's emotional investment in the relationship is evident through the personal nature of the gift, which includes a song titled 'Accompanied all the way'. Yuna's initial displeasure at being woken up quickly turns to curiosity and appreciation, highlighting the depth of their bond.",
+      "social_purpose": "To showcase Melanie's caring and creative nature, as well as the strength of her relationship with Yuna, through a shared goal of bringing joy and surprise.",
+      "chunk": {
+        "id": 0,
+        "text": "Melanie's heart races as Yuna finally opens the gift. The song is a heartfelt expression of gratitude and affection, and the phrase 'Accompanied all the way' hints at a deep connection between the two friends. Yuna's eyes well up, and she thanks Melanie for the thoughtful gesture. The morning surprise becomes a meaningful moment that reinforces their friendship and the emotional value Melanie places on it."
+      },
+      "npcs": [
+        1,
+        2,
+        3
+      ]
+    }
+  ]
+}

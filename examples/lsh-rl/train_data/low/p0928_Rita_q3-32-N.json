@@ -1,0 +1,95 @@
+{
+  "title": "The Dance Debate",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "School Cultural Dance Night",
+      "time": "6:30 PM",
+      "location": "School Auditorium Lobby",
+      "description": "Rita is preparing for the school's annual Cultural Dance Night when she receives a call from a parent expressing concerns about the event's representation of different cultures. Roger, her colleague, notices her stress and offers support.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Rita",
+          "gender": "Female",
+          "description": "Calm and rational event organizer, 32 years old, trying to de-escalate a tense situation.; Female / Event Organizer, 32 years old; Occupation: School Event Coordinator; Personality: Calm, Rational, Firm; Values: Fairness, Cultural Sensitivity, Professionalism; Interests: Organizing Events, Problem Solving, Cross-cultural Communication; Experiences: Managing school events, Handling public concerns, Navigating sensitive conversations",
+          "position": "Near the registration table",
+          "states": "Stressed but composed",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Roger",
+          "gender": "Male",
+          "description": "Supportive and observant colleague; Male; Age: 40; Occupation: School Counselor; Personality: Empathetic, responsible, patient; Values: Inclusivity, integrity, community; Interests: Cultural events, reading educational psychology, mentoring; Experiences: Mediated cultural sensitivity workshops, supported students through social integration challenges, collaborated on school diversity initiatives.",
+          "position": "Approaching Rita from the side",
+          "states": "Caring and alert",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Mrs. Thompson",
+          "gender": "Female",
+          "description": "Anxious parent, female; Age: 45; Occupation: Elementary School Counselor; Personality: Caring, protective, detail-oriented; Values: Cultural respect, child's well-being, community harmony; Interests: Parent-teacher workshops, multicultural education, school events planning; Experiences: Organized previous school cultural events, raised concerns about cultural appropriation in the past, has a daughter who is a key performer at tonight's dance night.",
+          "position": "On the phone with Rita",
+          "states": "Upset and vocal",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Mrs. Thompson",
+          "character_id": 2,
+          "action": "Calling Rita",
+          "dialogue": "Rita, I just heard about the dance numbers for tonight. You know I’m not comfortable with how some cultures are portrayed. I’m worried my daughter will be offended."
+        },
+        {
+          "action_id": 1,
+          "character": "Rita",
+          "character_id": 0,
+          "action": "Listening attentively",
+          "dialogue": "Thank you for bringing this to my attention, Mrs. Thompson. I understand your concerns and I want to assure you that we’ve worked hard to be respectful and inclusive. Let me explain the process we used to select the dances."
+        },
+        {
+          "action_id": 2,
+          "character": "Roger",
+          "character_id": 1,
+          "action": "Approaching Rita",
+          "dialogue": "Hey Rita, everything okay? You look like you're handling something tough. Do you want me to step in or take over for a bit?"
+        },
+        {
+          "action_id": 3,
+          "character": "Rita",
+          "character_id": 0,
+          "action": "Reassuring Roger",
+          "dialogue": "Thanks for checking in, Roger. I’ve got this, but I appreciate the offer. I just need to make sure the parent feels heard and that the event remains a positive space for everyone."
+        },
+        {
+          "action_id": 4,
+          "character": "Mrs. Thompson",
+          "character_id": 2,
+          "action": "Speaking more softly",
+          "dialogue": "I just want my daughter to feel safe and respected. I know these events are important, but I worry about the messages they send."
+        },
+        {
+          "action_id": 5,
+          "character": "Rita",
+          "character_id": 0,
+          "action": "Offering a solution",
+          "dialogue": "I completely understand. We’ve included a feedback form at the event, and I’d be happy to meet with you and your daughter after the show to hear more of their thoughts. We can also adjust our outreach to better include diverse perspectives in future planning."
+        }
+      ],
+      "plot": "Rita handles a call from a concerned parent about cultural representation at the school's dance event while Roger offers support. She listens, explains the event's intentions, and proposes a follow-up to ensure the parent feels heard.",
+      "social_purpose": "To explore how cultural sensitivity and professionalism are balanced in public event management while showcasing Rita’s commitment to fairness and problem-solving.",
+      "chunk": {
+        "id": 0,
+        "text": "Rita is on the phone with Mrs. Thompson, a parent upset about the cultural themes of the upcoming dance. Roger enters and notices her stress, asking if she needs help. Rita explains the situation and how she plans to address it, showing her firm yet empathetic approach to resolving the issue."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

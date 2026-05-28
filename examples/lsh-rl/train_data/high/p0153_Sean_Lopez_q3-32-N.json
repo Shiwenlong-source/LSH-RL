@@ -1,0 +1,95 @@
+{
+  "title": "The Café Confession",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Sean meets friends Amy and David at a cozy café to discuss a photography exhibition.",
+      "time": "7:00 PM",
+      "location": "A dimly lit, artsy café with soft jazz playing in the background.",
+      "description": "Sean sits at a corner table, sipping a black coffee while flipping through a portfolio. Amy and David arrive, greeted by the warm ambiance of the café. They are here to support Sean as he prepares for his first major exhibition. The atmosphere is calm, but Sean's inner turmoil is evident in his hesitant body language.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Sean Lopez",
+          "gender": "Male",
+          "description": "A 30-year-old photographer with a quiet, introspective demeanor. He wears a faded leather jacket and dark jeans, and his eyes betray a mix of hope and self-doubt.; years old, Male, 30 years old; Occupation: Photographer; Personality: Self-doubting, Emotional, Conflicted, Introspective; Values: Self-worth, Emotional Connection, Validation; Interests: Photography, Self-reflection, Personal Growth; Experiences: Romantic failure, Emotional struggle, Friendship interactions, Exploring self-identity",
+          "position": "Corner table, central focus",
+          "states": "Tense, contemplative, emotionally conflicted",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Amy Chen",
+          "gender": "Female",
+          "description": "Amy Chen; Female; Age: 28; Occupation: Graphic designer and part-time art curator; Personality: Empathetic, nurturing, optimistic; Values: Creativity, emotional support, collaboration; Interests: Sketching in public spaces, jazz music, indie films; Experiences: Organized a community art showcase that gained local attention, mentored emerging artists in a creative co-working space",
+          "position": "To Sean's left",
+          "states": "Supportive, attentive, encouraging",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "David Kim",
+          "gender": "Male",
+          "description": "A 31-year-old writer with a sharp wit and a tendency to tease; Male; Age: 31; Occupation: Freelance journalist and creative writer specializing in arts and culture; Personality: Witty, empathetic, encouraging; Values: Artistic expression, intellectual curiosity, loyalty; Interests: Jazz music, independent cinema, storytelling; Experiences: Covered local art scenes for a popular online magazine, collaborated with photographers on narrative projects, supported friends through creative milestones.",
+          "position": "To Sean's right",
+          "states": "Playful, teasing, but ultimately supportive",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Amy Chen",
+          "character_id": 1,
+          "action": "Reassures Sean about his photography skills.",
+          "dialogue": "Sean, your work is incredible. You've poured your soul into these photos, and people will see that. Don't let your fears cloud your talent."
+        },
+        {
+          "action_id": 1,
+          "character": "David Kim",
+          "character_id": 2,
+          "action": "Teases Sean about his self-doubt.",
+          "dialogue": "You know, if you keep doubting yourself like this, I swear the next time you take a photo, it'll be of your shadow apologizing for being so good."
+        },
+        {
+          "action_id": 2,
+          "character": "Sean Lopez",
+          "character_id": 0,
+          "action": "Expresses his emotional struggle.",
+          "dialogue": "It's not just about the exhibition. I feel like I'm not enough for anyone—especially not for someone who really matters to me."
+        },
+        {
+          "action_id": 3,
+          "character": "Amy Chen",
+          "character_id": 1,
+          "action": "Asks Sean about his romantic failure.",
+          "dialogue": "You're talking about the breakup, right? I know it's hard, but your worth isn't tied to someone else's feelings."
+        },
+        {
+          "action_id": 4,
+          "character": "David Kim",
+          "character_id": 2,
+          "action": "Offers a more lighthearted perspective.",
+          "dialogue": "Sometimes we need to fail at love to remember how much we love ourselves. You're not just a photographer—you're a survivor, Sean."
+        },
+        {
+          "action_id": 5,
+          "character": "Sean Lopez",
+          "character_id": 0,
+          "action": "Reflects on his personal growth.",
+          "dialogue": "Maybe this exhibition is more than just about my work. It's about proving to myself that I can still create something meaningful, even after falling apart."
+        }
+      ],
+      "plot": "Sean shares his struggles with self-worth and recent romantic failure while preparing for his photography exhibition. Amy and David provide contrasting forms of support—empathy and humor—which help Sean confront his emotions and consider the deeper purpose of his art.",
+      "social_purpose": "To explore Sean's emotional and personal growth through supportive and challenging interactions with close friends in a public setting.",
+      "chunk": {
+        "id": 0,
+        "text": "Sean sits at a corner table in the café, flipping through his portfolio. Amy and David arrive, their presence a balm and a challenge to his fragile confidence. As the conversation unfolds, Sean's vulnerability is met with Amy's compassion and David's wit, forcing him to confront his fears and the value he places on himself and his work."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

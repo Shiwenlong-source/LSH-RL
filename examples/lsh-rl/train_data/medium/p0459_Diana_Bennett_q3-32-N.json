@@ -1,0 +1,88 @@
+{
+  "title": "The Choice Before the Game",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Team huddle before a practice session",
+      "time": "Afternoon, 3 days before the upcoming game",
+      "location": "Locker room at the Ice Hockey Arena",
+      "description": "The team is preparing for a crucial practice session. Diana is sitting on a bench, holding an ice pack on her swollen knee. Coach Cici and teammate Chen approach her to discuss her readiness for the game.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Diana Bennett",
+          "gender": "Female",
+          "description": "24-year-old ice hockey player with a swollen knee but a determined look in her eyes.; 24-year-old /Female/Athlete, 24 years old; Occupation: Ice Hockey Player; Personality: Determined, Anxious, Resilient, Thoughtful; Values: Teamwork, Persistence, Health, Sense of Responsibility; Interests: Sports, Team Cohesion, Physical Training, Strategic Planning; Experiences: Returning to sports after injury, First training session post-comeback, Team interactions in competitive sports, Pressure from upcoming games, Balancing personal goals with team expectations",
+          "position": "Forward",
+          "states": "Torn between her desire to play and concern for her knee injury",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Coach Cici",
+          "gender": "Female",
+          "description": "Experienced and caring coach, focused on the team's performance and player well-being; Female; Age: 42; Occupation: Head Coach of a Women's College Ice Hockey Team; Personality: Compassionate, determined, patient; Values: Team unity, player safety; Interests: Strategy development, mentoring young athletes; Experiences: Led team to regional championships, recovered from a major knee injury herself during her playing career.",
+          "position": "Head Coach",
+          "states": "Concerned about Diana's health and performance",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Chen",
+          "gender": "Male",
+          "description": "Supportive and encouraging teammate, known for his positive attitude and strong team spirit; Male; Age: 22; Occupation: College ice hockey forward; Personality: Optimistic, empathetic, determined; Values: Teamwork, perseverance, loyalty; Interests: Fitness training, team-building activities, motivational podcasts; Experiences: Overcame a season-ending injury in his sophomore year, mentored new recruits during training camp, played a key role in leading his team to the regional championships last season.",
+          "position": "Defenseman",
+          "states": "Trying to motivate Diana and ease her anxiety",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Coach Cici",
+          "character_id": 1,
+          "action": "Approaches Diana and speaks with concern",
+          "dialogue": "Diana, I know you're eager to be out there, but your knee is still swollen. We can't afford to risk another injury right now. Think about what's best for you and the team long-term."
+        },
+        {
+          "action_id": 1,
+          "character": "Diana Bennett",
+          "character_id": 0,
+          "action": "Looks down, then responds with determination",
+          "dialogue": "Coach, I understand the risks, but this team needs me. I've worked too hard to sit this out. I'll be careful, I promise."
+        },
+        {
+          "action_id": 2,
+          "character": "Chen",
+          "character_id": 2,
+          "action": "Places a hand on Diana's shoulder to reassure her",
+          "dialogue": "Hey, we all have your back, Diana. If you're not 100%, we can figure out a way to cover for you. Your health is more important than one game."
+        },
+        {
+          "action_id": 3,
+          "character": "Diana Bennett",
+          "character_id": 0,
+          "action": "Nods slowly, showing internal conflict",
+          "dialogue": "I know... but I don't want to let the team down. I feel like I owe it to myself to try."
+        },
+        {
+          "action_id": 4,
+          "character": "Coach Cici",
+          "character_id": 1,
+          "action": "Sighs and tries to be supportive",
+          "dialogue": "I get it, Diana. But this is about more than just you. It's about the team and your future. If you push too hard now, you might not be able to play at all later. Take it slow, and we'll adjust the strategy if needed."
+        }
+      ],
+      "plot": "Diana is conflicted about playing in the upcoming game due to her swollen knee. Coach Cici and Chen are trying to help her make a decision that balances her determination with her health and the team's needs.",
+      "social_purpose": "To explore Diana's internal struggle between persistence and health, and to highlight the importance of teamwork and support in high-pressure sports environments.",
+      "chunk": {
+        "id": 0,
+        "text": "Diana's decision will determine not only her participation in the game but also how the team perceives her commitment and how she handles the pressure of balancing personal goals with team expectations."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

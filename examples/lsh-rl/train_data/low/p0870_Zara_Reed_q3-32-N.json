@@ -1,0 +1,88 @@
+{
+  "title": "Autograph Hunt at the Local Art Gallery",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Autograph Hunt",
+      "time": "Afternoon",
+      "location": "Local Art Gallery",
+      "description": "Zara Reed, a 25-year-old volunteer at a women's rights organization, is organizing a public event to collect celebrity autographs for a fundraising auction. She is joined by two supporting characters: Jordan, a 30-year-old event planner who has worked with Zara before, and Priya, a 28-year-old local artist who has been invited to participate in the initiative. The trio is setting up a small booth in the gallery's main hall to engage with attendees and collect signatures.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Zara Reed",
+          "gender": "female",
+          "description": "A passionate and determined volunteer at a women's rights organization. She is energetic and creative, with a clear sense of responsibility for the success of her initiatives.; female volunteer, 25 years old; Occupation: Volunteer at a women's rights organization; Personality: Passionate, Innovative, Determined; Values: Equality, Creativity, Sense of responsibility; Interests: Fundraising, Women's rights advocacy, Event planning; Experiences: Volunteering at NOW, Proposing new initiatives, Collaborating with celebrities",
+          "position": "Event Organizer",
+          "states": "Excited but slightly anxious",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Jordan Lee",
+          "gender": "male",
+          "description": "An experienced event planner with a calm and methodical personality; male; Age: 30; Occupation: Event Coordinator for Nonprofit Organizations; Personality: Detail-oriented, empathetic, patient; Values: Collaboration, integrity, community impact; Interests: Urban gardening, jazz music, strategic board games; Experiences: Organized a successful charity gala for a domestic violence awareness campaign, coordinated a community art exhibition that raised funds for local schools.",
+          "position": "Supporting Volunteer",
+          "states": "Calm and focused",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Priya Shah",
+          "gender": "female",
+          "description": "A local artist known for her advocacy in community issues; Female; Age: 28; Occupation: Community-focused visual artist and muralist; Personality: Passionate, empathetic, optimistic; Values: Social justice, artistic expression, collaboration; Interests: Public art installations, feminist literature, local cultural festivals; Experiences: Organized a mural project to raise awareness about gender equality, volunteered at a refugee support center through art workshops, collaborated with NGOs on awareness campaigns.",
+          "position": "Artist Supporter",
+          "states": "Engaged and encouraging",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Zara Reed",
+          "character_id": 0,
+          "action": "Greet attendees and explain the event's purpose",
+          "dialogue": "Hi there! We're collecting celebrity autographs to auction off for a great cause—supporting women's rights. Any help you can give us in spreading the word would be amazing!"
+        },
+        {
+          "action_id": 1,
+          "character": "Jordan Lee",
+          "character_id": 1,
+          "action": "Hand out flyers and coordinate logistics",
+          "dialogue": "Here's a flyer with all the details. If you'd like to participate or know someone who might be interested, please share it with them."
+        },
+        {
+          "action_id": 2,
+          "character": "Priya Shah",
+          "character_id": 2,
+          "action": "Offer to create a custom poster for the event",
+          "dialogue": "I'd love to help! I can design a custom poster for the auction to attract even more attention. Let me get started on it right away."
+        },
+        {
+          "action_id": 3,
+          "character": "Zara Reed",
+          "character_id": 0,
+          "action": "Express gratitude and share her vision",
+          "dialogue": "Thank you, Priya! That would be incredible. I want this event to be a creative and impactful way to raise awareness and funds for women's rights. Every detail matters."
+        },
+        {
+          "action_id": 4,
+          "character": "Jordan Lee",
+          "character_id": 1,
+          "action": "Acknowledge Zara's efforts and offer support",
+          "dialogue": "You're doing great work, Zara. I'm here to help with the logistics so you can focus on inspiring people and managing the celebrity contacts."
+        }
+      ],
+      "plot": "Zara, Jordan, and Priya set up a booth at a local art gallery to collect celebrity autographs for an upcoming auction. Zara takes the lead in explaining the event's purpose to attendees, while Jordan manages the distribution of materials and logistics. Priya offers to contribute by creating a custom poster for the auction, showing her support for the cause. The team works together, with Zara expressing her passion for the initiative and Jordan reassuring her of his support. The shared goal of raising funds for women's rights brings them closer and highlights Zara's determination and creativity.",
+      "social_purpose": "To showcase Zara's background in event planning and fundraising, her innovative approach to supporting women's rights, and her ability to collaborate with others to achieve a shared goal.",
+      "chunk": {
+        "id": 0,
+        "text": "Zara stood at the booth, smiling as she greeted a new group of attendees. 'Hi there! We're collecting celebrity autographs to auction off for a great cause—supporting women's rights. Any help you can give us in spreading the word would be amazing!' She handed them a flyer with Jordan's help. Priya, who had been sketching ideas nearby, looked up and said, 'I'd love to help! I can design a custom poster for the auction to attract even more attention. Let me get started on it right away.' Zara nodded appreciatively. 'Thank you, Priya! That would be incredible. I want this event to be a creative and impactful way to raise awareness and funds for women's rights. Every detail matters.' Jordan added, 'You're doing great work, Zara. I'm here to help with the logistics so you can focus on inspiring people and managing the celebrity contacts.'"
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

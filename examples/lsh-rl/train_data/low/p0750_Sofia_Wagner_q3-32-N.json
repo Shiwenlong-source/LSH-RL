@@ -1,0 +1,88 @@
+{
+  "title": "The Car Showroom Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Car Purchase Negotiation",
+      "time": "Afternoon",
+      "location": "Local Car Dealership Showroom",
+      "description": "Sofia is considering a new car purchase and is negotiating the contract with the salesman. Her husband, Jack, is there to support her, while the salesman, Mike, is trying to close the deal.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Sofia Wagner",
+          "gender": "Female",
+          "description": "30-year-old office professional, married to Jack. She is anxious, thoughtful, and cautious, with a strong emphasis on transparency, reliability, and consumer rights.; 30-year-old female, married, consumer, 24 years old; Occupation: Office professional; Values: Transparency, Reliability, Consumer rights; Interests: Car buying, Contract details, Safety; Experiences: Recent car purchase, Consumer rights advocacy, Marital partnership, Vehicle service issues, High-pressure sales interaction",
+          "position": "Front of the car showroom",
+          "states": "Tense, curious, and focused on contract details",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Jack Wagner",
+          "gender": "Male",
+          "description": "Sofia's husband. Calm and supportive, he acts as a stabilizing presence in high-pressure situations; Male; Age: 38; Occupation: Civil Engineer; Personality: Calm, patient, encouraging; Values: Family, integrity, practicality; Interests: Home improvement projects, hiking, reading non-fiction; Experiences: Helped Sofia navigate a difficult home purchase negotiation, frequently advises friends on major financial decisions, worked on infrastructure projects that required careful planning and collaboration.",
+          "position": "Standing beside Sofia",
+          "states": "Calm, patient, and encouraging",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Mike Thompson",
+          "gender": "Male",
+          "description": "Car salesman; Male; Age: 38; Occupation: Sales Representative at Thompson Auto Sales; Personality: Confident, persuasive, slightly impatient; Values: Customer satisfaction, financial success, loyalty; Interests: High-performance cars, sports broadcasting, real estate; Experiences: Ten years in automotive sales, trained in advanced negotiation techniques, frequently handles last-minute deal closings.",
+          "position": "Approaching the couple",
+          "states": "Confident, persuasive, and slightly impatient",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Sofia Wagner",
+          "character_id": 0,
+          "action": "Asks about the contract details",
+          "dialogue": "Mike, I need to understand exactly what this contract includes. What's covered under the emergency roadside assistance? Is there a time limit or a mileage cap?"
+        },
+        {
+          "action_id": 1,
+          "character": "Mike Thompson",
+          "character_id": 2,
+          "action": "Answers Sofia's question",
+          "dialogue": "Absolutely, Sofia. Our roadside assistance is comprehensive and valid for the entire duration of the contract. No mileage cap, and it's fully transferable if you sell the car later."
+        },
+        {
+          "action_id": 2,
+          "character": "Sofia Wagner",
+          "character_id": 0,
+          "action": "Supports Sofia's inquiry",
+          "dialogue": "Can you put that in writing, Mike? We want to make sure there's no hidden fine print."
+        },
+        {
+          "action_id": 3,
+          "character": "Mike Thompson",
+          "character_id": 2,
+          "action": "Attempts to close the deal",
+          "dialogue": "Of course, but I really think we should finalize the purchase now. The deal is time-sensitive, and I can get you the best rate today."
+        },
+        {
+          "action_id": 4,
+          "character": "Sofia Wagner",
+          "character_id": 0,
+          "action": "Expresses hesitation",
+          "dialogue": "I appreciate your enthusiasm, Mike, but we need to ensure we're making a reliable and transparent decision. Let me review the contract terms carefully."
+        }
+      ],
+      "plot": "Sofia and Jack are at a car dealership to finalize a purchase. Mike, the salesman, is eager to close the deal but Sofia is cautious and insists on understanding the contract fully. The interaction highlights her need for transparency and reliability, while Mike's focus on sales creates tension. Jack remains supportive, helping Sofia maintain composure.",
+      "social_purpose": "To demonstrate how differing priorities (consumer protection vs. sales urgency) can create tension in a public setting, and how Sofia's personality and values influence the interaction.",
+      "chunk": {
+        "id": 0,
+        "text": "Sofia and Jack are at a car dealership to finalize a new car purchase. Mike, the eager salesman, is trying to close the deal, but Sofia is hesitant and wants to understand the contract details. Jack supports her, while Mike emphasizes the urgency of the deal."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "title": "A Walk in Denton Square",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Lila and Nina take a quiet walk after a gathering where Lila felt excluded.",
+      "time": "Evening",
+      "location": "Denton Square",
+      "description": "The two friends walk along the tree-lined path, the soft rustle of leaves and distant chatter from the gathering behind them creating a backdrop of subdued energy. Lila keeps her gaze on the ground, while Nina tries to engage her with lighthearted comments.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Lila Porter",
+          "gender": "Female",
+          "description": "A 25-year-old college student who is introverted, sensitive, and highly empathetic. She is walking with her friend Nina, trying to process her feelings of exclusion from the gathering.; Female, College Student, 25 years old; Occupation: College Student; Personality: Introverted, Sensitive, Rational, Highly Empathetic; Values: Emotional control, Friendship, Self-reflection; Interests: Walking in quiet places, Observing surroundings, Emotional introspection; Experiences: Feeling excluded at social gatherings, Struggling with unexpressed emotions, Seeking comfort in close friendships",
+          "position": "Left side of the path",
+          "states": "Tense, emotionally reserved, quietly observant",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Nina Ramirez",
+          "gender": "Female",
+          "description": "A 24-year-old college student with a more outgoing and warm personality. She is trying to comfort Lila and keep the mood light; Female; Age: 24; Occupation: Psychology major and part-time barista; Personality: Empathetic, optimistic, talkative; Values: Loyalty, kindness, emotional well-being; Interests: Coffee culture, music festivals, journaling; Experiences: Volunteered at a local mental health outreach program, organized a campus peer support group, recently navigated a difficult friendship breakup.",
+          "position": "Right side of the path",
+          "states": "Concerned, cheerful, attentive",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Nina Ramirez",
+          "character_id": 1,
+          "action": "Smiles and tries to lighten the mood",
+          "dialogue": "Hey, Lila, did you see that guy from the chemistry class at the gathering? He was trying to flirt with everyone in the room!"
+        },
+        {
+          "action_id": 1,
+          "character": "Lila Porter",
+          "character_id": 0,
+          "action": "Gives a half-smile and responds quietly",
+          "dialogue": "Yeah, I saw him. He looked like he was having a good time."
+        },
+        {
+          "action_id": 2,
+          "character": "Nina Ramirez",
+          "character_id": 1,
+          "action": "Notices Lila's quiet demeanor and shifts tone",
+          "dialogue": "You're usually so good at these things. Are you okay?"
+        },
+        {
+          "action_id": 3,
+          "character": "Lila Porter",
+          "character_id": 0,
+          "action": "Pauses and looks up, then back down",
+          "dialogue": "I just feel like I'm not really on the same wavelength as everyone else lately. It's not a big deal."
+        },
+        {
+          "action_id": 4,
+          "character": "Nina Ramirez",
+          "character_id": 1,
+          "action": "Walks closer and gently presses",
+          "dialogue": "It is a big deal if it's making you feel like this. You're not alone, you know. I'm here for you."
+        },
+        {
+          "action_id": 5,
+          "character": "Lila Porter",
+          "character_id": 0,
+          "action": "Nods slowly, showing slight emotional release",
+          "dialogue": "Thanks, Nina. It means a lot. I just need some time to figure things out in my head."
+        }
+      ],
+      "plot": "Lila and Nina take a walk in Denton Square after a gathering where Lila felt left out. Nina attempts to connect with Lila and understand her quiet mood, while Lila struggles to express her feelings but appreciates the support.",
+      "social_purpose": "To explore Lila's personality traits and emotional experiences through a natural, low-pressure interaction with a close friend.",
+      "chunk": {
+        "id": 0,
+        "text": "Lila and Nina begin their walk in Denton Square, the evening air carrying a mix of coolness and the faint smell of food from the gathering. Lila walks a step behind, her eyes scanning the ground as if searching for something she can't quite name. Nina, ever the optimist, tries to fill the silence with chatter about the event, but Lila's quiet responses make her pause. 'You're not alone, you know. I'm here for you,' Nina says, her voice softening. Lila stops for a moment, her posture shifting slightly as she absorbs the words, then nods in quiet gratitude. The walk continues, with Nina staying close and Lila slowly opening up a little more."
+      },
+      "npcs": [
+        1
+      ]
+    }
+  ]
+}

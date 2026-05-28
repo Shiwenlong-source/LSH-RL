@@ -1,0 +1,95 @@
+{
+  "title": "First Day at the New Job",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Isabella Parker meets her new team and a potential mentor at her first day of a new job.",
+      "time": "9:00 AM",
+      "location": "Office Conference Room",
+      "description": "Isabella is sitting at a small table in the conference room, reviewing her notes for the upcoming meeting. Her new team is slowly filing in, and she feels a mix of excitement and anxiety. Her new manager, Sarah, is already in the room, chatting with a colleague. A friendly coworker, Jordan, approaches her with a smile.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Isabella Parker",
+          "gender": "Female",
+          "description": "A 25-year-old team leader who is thoughtful, determined, and optimistic, but also feels anxious about new challenges. She recently moved, bought her first car, and is starting a new job.; Female, 25 years old; Occupation: Team Leader; Personality: Thoughtful, Determined, Anxious, Optimistic; Values: Independence, Responsibility, Family support; Interests: Personal growth, New experiences, Self-reflection; Experiences: Just moved into a new apartment, Bought first car, Completed work review, Living with roommates, Receiving emotional support from family",
+          "position": "Conference Room Table",
+          "states": "Excited, Nervous",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Sarah Mitchell",
+          "gender": "Female",
+          "description": "Sarah Mitchell; Female; Age: 43; Occupation: Senior Project Manager; Personality: Calm, Supportive, Empathetic; Values: Professional Growth, Team Collaboration, Integrity; Interests: Reading leadership books, Yoga, Coffee culture; Experiences: Managed high-stakes tech projects for 15 years, Mentored several junior employees to leadership roles, Transitioned from a technical role to a managerial one in 2012.",
+          "position": "Near the front of the room",
+          "states": "Calm, Supportive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Jordan Lee",
+          "gender": "Male",
+          "description": "A 28-year-old coworker in the team, friendly and approachable; Male; Age: 28; Occupation: Senior Project Coordinator; Personality: Empathetic, enthusiastic, reliable; Values: Collaboration, growth, integrity; Interests: Mentoring newcomers, hiking, board games; Experiences: Successfully led onboarding for three new hires last year, transitioned from junior analyst to senior role in two years, volunteered for cross-departmental training initiatives.",
+          "position": "Standing near Isabella",
+          "states": "Approachable, Encouraging",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Jordan Lee",
+          "character_id": 2,
+          "action": "greets Isabella",
+          "dialogue": "Hey, I'm Jordan. You must be Isabella. Welcome to the team! You look a little nervous, but don't worry—everyone starts off that way here."
+        },
+        {
+          "action_id": 1,
+          "character": "Isabella Parker",
+          "character_id": 0,
+          "action": "responds warmly",
+          "dialogue": "Thanks, Jordan. I'm really excited to be here. I just moved to the area and this is my first day, so I'm still getting settled in."
+        },
+        {
+          "action_id": 2,
+          "character": "Sarah Mitchell",
+          "character_id": 1,
+          "action": "enters the room and addresses the team",
+          "dialogue": "Good morning, everyone. I hope you're all ready to dive into our new project. Isabella, I'm Sarah, your manager. I've reviewed your performance at your previous company, and I'm looking forward to working with you."
+        },
+        {
+          "action_id": 3,
+          "character": "Isabella Parker",
+          "character_id": 0,
+          "action": "expresses gratitude",
+          "dialogue": "Thank you, Sarah. I'm really looking forward to growing with the team and contributing to this project."
+        },
+        {
+          "action_id": 4,
+          "character": "Jordan Lee",
+          "character_id": 2,
+          "action": "offers help",
+          "dialogue": "If you ever need help with anything, just let me know. I've been here a while, and I'd be happy to show you the ropes."
+        },
+        {
+          "action_id": 5,
+          "character": "Isabella Parker",
+          "character_id": 0,
+          "action": "accepts the offer",
+          "dialogue": "That would be great, Jordan. I'm still adjusting to everything, so having someone to guide me would really help."
+        }
+      ],
+      "plot": "Isabella starts her new job and meets her team for the first time. She is greeted by Jordan, who offers to help her adjust, and addressed by her new manager, Sarah, who expresses confidence in her abilities. Through this interaction, Isabella begins to feel more at ease and supported in her new role.",
+      "social_purpose": "To showcase Isabella's personality traits—thoughtful, determined, anxious, and optimistic—while highlighting her values of independence, responsibility, and family support. The interaction with Jordan and Sarah also reflects her interest in personal growth and new experiences.",
+      "chunk": {
+        "id": 0,
+        "text": "Isabella's first day at the new job is a mix of emotions. She feels the weight of her recent life changes—moving, buying her first car, and starting a new position—but also the excitement of a fresh start. Her new manager, Sarah, and a friendly coworker, Jordan, help her feel more confident and supported, reinforcing her belief in the importance of family and team support in achieving her goals."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

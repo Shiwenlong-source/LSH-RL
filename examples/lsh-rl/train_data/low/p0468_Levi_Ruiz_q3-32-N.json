@@ -1,0 +1,102 @@
+{
+  "title": "The Neighborly Recommendation",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Levi meets with Jay and Tina in the community park",
+      "time": "Saturday afternoon, 3:00 PM",
+      "location": "Community park, near the picnic tables",
+      "description": "Levi is sitting on a bench in the community park, reading a local guidebook. Jay and Tina, a couple who recently moved in next door, approach him with friendly smiles. The park is filled with the sounds of children playing and birds chirping, creating a relaxed and welcoming atmosphere.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Levi Ruiz",
+          "gender": "Male",
+          "description": "30-year-old newcomer to the community, thoughtful and cautious, currently reading a guidebook.; years old / Male / New resident of the community, 30 years old; Occupation: Newcomer to the workforce; Personality: Thoughtful, Independent, Cautious; Values: Self-reliance, Adaptability, Community connection; Interests: Integrating into the community, Housework, New experiences; Experiences: Recently moved, Adapting to new living environment, Exploring local services",
+          "position": "on the bench",
+          "states": "relaxed, contemplative",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Jay Morgan",
+          "gender": "Male",
+          "description": "Friendly and outgoing neighbor who recently moved into the community; Male; Age: 32; Occupation: Landscape designer; Personality: Enthusiastic, approachable, optimistic; Values: Community, sustainability, authenticity; Interests: Gardening, outdoor photography, local history; Experiences: Volunteered for neighborhood beautification projects in previous towns, recently adopted a rescue dog that loves the park, newlywed and eager to build a strong local connection.",
+          "position": "standing next to Levi",
+          "states": "enthusiastic, approachable",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Tina Morgan",
+          "gender": "Female",
+          "description": "Warm and helpful neighbor, known for her community involvement and recommendations; Female; Age: 38; Occupation: Part-time community center coordinator and full-time graphic designer; Personality: empathetic, outgoing, patient; Values: community, kindness, personal growth; Interests: local history, gardening, organizing neighborhood events; Experiences: volunteered in disaster relief efforts, co-founded a neighborhood book club, recently helped revamp the park’s community board design.",
+          "position": "standing next to Jay",
+          "states": "supportive, encouraging",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Jay Morgan",
+          "character_id": 1,
+          "action": "Greets Levi and introduces himself and Tina",
+          "dialogue": "Hey there, Levi! We're Jay and Tina from next door. We've been meaning to say hi. How are you adjusting to the neighborhood so far?"
+        },
+        {
+          "action_id": 1,
+          "character": "Levi Ruiz",
+          "character_id": 0,
+          "action": "Looks up and responds politely",
+          "dialogue": "Hi, Jay and Tina. I'm doing okay. It's a bit of a learning curve, but I'm trying to get to know everything around here. I'm reading up on local services and stuff."
+        },
+        {
+          "action_id": 2,
+          "character": "Tina Morgan",
+          "character_id": 2,
+          "action": "Suggests Haus housekeeping services",
+          "dialogue": "Oh, you should check out Haus housekeeping! They're amazing. We used them when we first moved in, and it really helped us get settled without having to worry about chores right away."
+        },
+        {
+          "action_id": 3,
+          "character": "Levi Ruiz",
+          "character_id": 0,
+          "action": "Shows slight hesitation",
+          "dialogue": "I appreciate the suggestion, but I'm used to handling housework myself. I don't want to rely too much on others... at least not yet."
+        },
+        {
+          "action_id": 4,
+          "character": "Jay Morgan",
+          "character_id": 1,
+          "action": "Shares his own experience",
+          "dialogue": "I totally get it. I used to feel the same way. But honestly, using their service gave me more time to focus on work and get to know the community. It's not about being dependent—it's about being smart with your time."
+        },
+        {
+          "action_id": 5,
+          "character": "Tina Morgan",
+          "character_id": 2,
+          "action": "Adds a personal touch",
+          "dialogue": "Plus, the people at Haus are really friendly. It's a great way to start building connections in the area. You might even meet other new residents through them."
+        },
+        {
+          "action_id": 6,
+          "character": "Levi Ruiz",
+          "character_id": 0,
+          "action": "Considers the suggestion",
+          "dialogue": "Hmm. I hadn't thought of it that way. I do want to integrate into the community, but I also value being independent. Maybe I'll look into it a bit more and see how it works for others."
+        }
+      ],
+      "plot": "Levi is introduced to the Haus housekeeping service by his neighbors Jay and Tina. Although initially hesitant due to his independent nature, he is intrigued by the idea of using the service as a way to save time and build connections in the community. The conversation ends with Levi considering the suggestion more seriously.",
+      "social_purpose": "To explore Levi's internal conflict between self-reliance and adaptability while also highlighting the role of neighborly support in community integration.",
+      "chunk": {
+        "id": 0,
+        "text": "Levi and his neighbors discuss the benefits of using Haus housekeeping services, with Levi weighing the pros and cons of accepting help in his new environment."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

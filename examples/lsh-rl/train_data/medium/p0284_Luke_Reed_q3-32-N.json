@@ -1,0 +1,95 @@
+{
+  "title": "Faith and Friends at the Corner Cafe",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Luke Reed meets with friends Zoey and Tiki at a local cafe to discuss his faith journey.",
+      "time": "Afternoon",
+      "location": "Corner Bean Cafe",
+      "description": "A cozy, independent cafe with soft lighting and a few small tables. Luke sits at a corner table with Zoey and Tiki, all sipping coffee and engaged in a meaningful conversation. The atmosphere is warm and open, allowing for deep dialogue.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Luke Reed",
+          "gender": "Male",
+          "description": "A 24-year-old student who has been wrestling with his faith recently. He is thoughtful and introspective, often looking to others for clarity and support.; Male Student, 24 years old; Occupation: Student; Personality: Thoughtful, Introspective, Hesitant, Open; Values: Faith Growth, Community, Self-reflection; Interests: Faith Practice, Scripture Reading, Quiet Time, Meaningful Conversation; Experiences: Recent Faith Confusion, Trying to Rebuild Inner Order, Doing Scripture Reading and QT, Seeking Accountability, Sharing Faith Experiences",
+          "position": "Corner Table - Center",
+          "states": "Hesitant, Contemplative",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Zoey",
+          "gender": "Female",
+          "description": "A supportive and curious friend of Luke’s; Female; Age: 23; Occupation: Part-time barista and full-time community organizer; Personality: Empathetic, Thoughtful, Encouraging; Values: Authenticity, Compassion, Growth; Interests: Spiritual discussions, indie music, journaling; Experiences: Volunteered at a youth outreach program, attended a week-long interfaith retreat, helped organize a local service initiative for homeless shelters.",
+          "position": "Corner Table - Left",
+          "states": "Encouraging, Thoughtful",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Tiki",
+          "gender": "Male",
+          "description": "A close friend who is more direct and action-oriented; Male; Age: 28; Occupation: Youth Pastor; Personality: Encouraging, pragmatic, loyal; Values: Community, spiritual growth, accountability; Interests: Coffee culture, outdoor adventures, mentoring; Experiences: Led a small group through a faith crisis, volunteered at a mission trip in Central America, founded a local prayer fellowship.",
+          "position": "Corner Table - Right",
+          "states": "Supportive, Suggestive",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Zoey",
+          "character_id": 1,
+          "action": "Asks Luke about his recent thoughts on faith",
+          "dialogue": "Hey Luke, I’ve noticed you’ve been a bit quiet lately. You’ve mentioned reading scripture more, but how’s your faith journey going?"
+        },
+        {
+          "action_id": 1,
+          "character": "Luke Reed",
+          "character_id": 0,
+          "action": "Responds with uncertainty",
+          "dialogue": "Honestly, I’m not sure. I feel like I’m trying to rebuild something, but it’s not as simple as just reading the Bible. I keep questioning everything."
+        },
+        {
+          "action_id": 2,
+          "character": "Tiki",
+          "character_id": 2,
+          "action": "Suggests doing Quiet Time together",
+          "dialogue": "Maybe we can do QT together? Sometimes having someone else helps me stay focused and grounded in my own walk with God."
+        },
+        {
+          "action_id": 3,
+          "character": "Luke Reed",
+          "character_id": 0,
+          "action": "Considers the offer",
+          "dialogue": "I mean, I’ve been doing it alone, but I’m not sure if I’m doing it right. Maybe having a group could help, but I’m still not convinced it’s for me."
+        },
+        {
+          "action_id": 4,
+          "character": "Zoey",
+          "character_id": 1,
+          "action": "Encourages Luke to explore further",
+          "dialogue": "That’s okay, Luke. Faith isn’t about having all the answers. It’s about being open to learning and growing. You don’t have to do it alone."
+        },
+        {
+          "action_id": 5,
+          "character": "Luke Reed",
+          "character_id": 0,
+          "action": "Softens and shows openness",
+          "dialogue": "You’re right, Zoey. I’ve been trying to figure this out on my own, but maybe I need to lean into the community more. I’ll think about it."
+        }
+      ],
+      "plot": "Luke, who has been struggling with his faith, is met by his friends Zoey and Tiki at a cafe. They engage in a conversation where Zoey gently probes his recent experiences, and Tiki proposes a practical solution—doing Quiet Time together. Luke is hesitant but begins to see the value of community in his spiritual journey.",
+      "social_purpose": "To explore Luke’s internal conflict about faith and demonstrate how his values of community and self-reflection can be supported by his friends. The interaction subtly highlights the importance of accountability and shared spiritual practices.",
+      "chunk": {
+        "id": 0,
+        "text": "Luke, Zoey, and Tiki sat in the quiet corner of the cafe, sipping their drinks as the conversation unfolded. Zoey's curiosity led her to ask Luke about his recent spiritual struggles, and Tiki, ever the action-oriented friend, suggested a plan for them to do Quiet Time together. Luke, though still uncertain, found himself considering the idea more seriously as he realized that his faith journey might not be one he had to walk alone."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

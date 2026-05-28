@@ -1,0 +1,88 @@
+{
+  "title": "Balancing Creativity and Tradition",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Meeting at a boutique to discuss the wedding dress design",
+      "time": "Afternoon",
+      "location": "A cozy bridal boutique in downtown",
+      "description": "Scarlett meets with Yuki and Henry to review the final design of the wedding dress before it is delivered. The boutique is filled with gowns of all styles, but Yuki is focused on the one Scarlett made. Henry quietly observes, offering support when needed.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Scarlett Phillips",
+          "gender": "Female",
+          "description": "A handcraft artist known for her creative and free-spirited designs. She is making a custom wedding dress for her friend Yuki while preparing for her own art exhibition.; Female, 30, Artisan, 30 years old; Occupation: Handcraft artist; Personality: Creative, Anxious, Determined, Free-spirited; Values: Authenticity, Friendship, Artistic expression; Interests: Wedding planning, Art exhibitions, Handcrafting; Experiences: Planning a wedding, Organizing an art exhibition, Making a custom wedding dress",
+          "position": "Standing by the mannequin in the center of the boutique",
+          "states": "Nervous but determined",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Yuki Tanaka",
+          "gender": "Female",
+          "description": "A traditional-minded bride-to-be who values elegance and structure in her wedding; Female; Age: 26; Occupation: Event Planner; Personality: Thoughtful, polite, perfectionistic; Values: Family honor, cultural tradition; Interests: Calligraphy, tea ceremonies, classic literature; Experiences: Organized multiple traditional Japanese weddings, recently engaged to Henry after a two-year courtship, grew up in a family where her older sister’s wedding set a high standard for expectations.",
+          "position": "Sitting on a bench, looking at the dress on the mannequin",
+          "states": "Curious and slightly apprehensive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Henry Carter",
+          "gender": "Male",
+          "description": "Scarlett's supportive boyfriend; Male; Age: 28; Occupation: Interior designer; Personality: Calm, empathetic, patient; Values: Emotional support, authenticity, harmony; Interests: Reading contemporary fiction, visiting art galleries, home improvement projects; Experiences: Helped several friends through major life decisions, has a background in psychology, traveled extensively in Southeast Asia.",
+          "position": "Leaning against the boutique counter",
+          "states": "Calm and encouraging",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Yuki Tanaka",
+          "character_id": 1,
+          "action": "Examines the dress",
+          "dialogue": "I love the embroidery, Scarlett, but what about the neckline? My mother said it should be more traditional."
+        },
+        {
+          "action_id": 1,
+          "character": "Scarlett Phillips",
+          "character_id": 0,
+          "action": "Defends her design choice",
+          "dialogue": "I understand, but I wanted to keep it unique. It’s not just a dress for the wedding; it’s a piece of art that represents your journey as a couple."
+        },
+        {
+          "action_id": 2,
+          "character": "Henry Carter",
+          "character_id": 2,
+          "action": "Reassures Yuki",
+          "dialogue": "Yuki, you’ve always said you wanted something special. Scarlett’s work is amazing. Trust her."
+        },
+        {
+          "action_id": 3,
+          "character": "Yuki Tanaka",
+          "character_id": 1,
+          "action": "Relaxes a bit",
+          "dialogue": "You’re right, Henry. I just want it to be perfect for me, not for anyone else. Scarlett, maybe we can add a small lace overlay to make it feel more classic?"
+        },
+        {
+          "action_id": 4,
+          "character": "Scarlett Phillips",
+          "character_id": 0,
+          "action": "Considers the suggestion",
+          "dialogue": "That could work. I’ll sketch a few options for you to choose from. Thank you for trusting me, Yuki."
+        }
+      ],
+      "plot": "Scarlett is making a wedding dress for her friend Yuki, but Yuki is concerned about the design being too unconventional for her family. Henry supports Scarlett and encourages Yuki to embrace the dress as a reflection of her personal style. Scarlett agrees to make a small compromise, showing her determination and flexibility.",
+      "social_purpose": "Show how Scarlett’s values of authenticity and artistic expression are challenged by Yuki’s desire for tradition. Highlight the supportive dynamic between Scarlett and Henry, and the evolving trust between Scarlett and Yuki.",
+      "chunk": {
+        "id": 0,
+        "text": "Scarlett meets with Yuki and Henry at a bridal boutique to finalize the design of Yuki’s wedding dress. Yuki is unsure about the neckline, wanting it to be more traditional, while Scarlett advocates for her artistic vision. Henry helps mediate and reinforces Yuki’s confidence in Scarlett’s work. Scarlett agrees to add a lace overlay, balancing her creative spirit with Yuki’s expectations."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

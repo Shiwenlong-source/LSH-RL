@@ -1,0 +1,88 @@
+{
+  "title": "Voices for the Bluffs",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Community meeting to discuss media bias",
+      "time": "Wednesday, 6:30 PM",
+      "location": "Bluffs Community Center",
+      "description": "A heated yet constructive community meeting is underway to address recent biased reporting by Omaha media outlets. Aaron Lopez, a local activist, is at the center of the discussion, advocating for a more aggressive response. Others in the room, like Yong and Yury, are more cautious, trying to balance the need for justice with the risk of escalation.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Aaron Lopez",
+          "gender": "Male",
+          "description": "A 34-year-old local activist known for his passionate and determined stance on community issues. He has a deep concern for media bias and has been a vocal leader in the Bluffs for years.; years old / Male / Local resident and activist, 34 years old; Occupation: Activist; Personality: Passionate, Determined, Frustrated, Resolute; Values: Justice, Community unity, Truth; Interests: Media reform, Public advocacy, Social justice; Experiences: Long-term concern about media bias, Community leader, Public speaker, Local affairs activist",
+          "position": "Center of the room, standing at the podium",
+          "states": "Frustrated, resolute, and passionate",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Yong Kim",
+          "gender": "Male",
+          "description": "Yong Kim; Male; Age: 42; Occupation: Owner of a local Korean grocery store and import business; Personality: Pragmatic, composed, diplomatic; Values: Community harmony, economic stability, fairness; Interests: Reading about political economy, gardening, local politics; Experiences: Witnessed business disruptions during past community tensions, worked with local leaders to resolve cross-cultural misunderstandings",
+          "position": "Sitting near the front, leaning forward",
+          "states": "Concerned, diplomatic, and composed",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Yury Petrov",
+          "gender": "Male",
+          "description": "A 38-year-old community organizer and mediator; Male; Age: 38; Occupation: Community Relations Coordinator; Personality: Calm, thoughtful, diplomatic; Values: Equity, dialogue, community cohesion; Interests: Urban policy, public speaking, reading political theory; Experiences: Mediated racial tensions during a school district reform, led a neighborhood coalition in response to biased policing reports",
+          "position": "Sitting to the side, observing the discussion",
+          "states": "Calm, thoughtful, and diplomatic",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Aaron Lopez",
+          "character_id": 0,
+          "action": "Stands up and addresses the group",
+          "dialogue": "We can't sit back and let them paint our neighborhood as a place of crime and neglect. We need to take a stand and show them the truth about the Bluffs!"
+        },
+        {
+          "action_id": 1,
+          "character": "Yong Kim",
+          "character_id": 1,
+          "action": "Responds with a measured tone",
+          "dialogue": "I understand your frustration, Aaron, but if we push back too hard, we might just give them more fuel for their biased stories. We need to be strategic."
+        },
+        {
+          "action_id": 2,
+          "character": "Yury Petrov",
+          "character_id": 2,
+          "action": "Offers a compromise",
+          "dialogue": "What if we create a community press initiative? We can share our own stories and highlight the positive changes happening in the Bluffs without escalating tensions."
+        },
+        {
+          "action_id": 3,
+          "character": "Aaron Lopez",
+          "character_id": 0,
+          "action": "Nods thoughtfully but remains firm",
+          "dialogue": "I like the idea of a press initiative, but we also need to hold them accountable. We can't just let this slide."
+        },
+        {
+          "action_id": 4,
+          "character": "Yong Kim",
+          "character_id": 1,
+          "action": "Agrees with the press idea",
+          "dialogue": "That's a good start. We can use it to build our case for reform and show the media what they're missing."
+        }
+      ],
+      "plot": "The meeting revolves around Aaron's frustration with biased media coverage of the Bluffs. He proposes a direct response, but Yong and Yury suggest alternative, more strategic approaches. Through dialogue and compromise, the group begins to form a plan that includes both advocacy and community storytelling.",
+      "social_purpose": "To explore how different personalities and values within a community can lead to both conflict and collaboration when addressing a shared issue like media bias. The scenario highlights the importance of balancing passion with pragmatism in public advocacy.",
+      "chunk": {
+        "id": 0,
+        "text": "The meeting starts with Aaron Lopez standing at the podium, visibly agitated. He speaks first, passionately describing how recent news stories have misrepresented the Bluffs. Yong Kim listens, occasionally nodding but with a skeptical expression, while Yury Petrov remains calm, taking notes. As Aaron calls for a direct response, Yong raises concerns about potential backlash. Yury suggests a community press initiative as a middle ground. Aaron considers the idea but insists on accountability. The discussion continues as the group works toward a consensus."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

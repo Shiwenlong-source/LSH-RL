@@ -1,0 +1,102 @@
+{
+  "title": "The Weight of Loyalty",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Coffee Break Discussion",
+      "time": "Afternoon",
+      "location": "Embassy Cafeteria",
+      "description": "Shane sits at a small table in the embassy cafeteria, sipping coffee and staring at a memo he has yet to sign. His assistant, Amy, approaches with a tray of coffee and pastries, while Ambassador Alian enters the room, scanning for Shane. The three meet in a tense but civil conversation about Shane’s difficult decision.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Shane Foster",
+          "gender": "Male",
+          "description": "A 34-year-old US diplomat and political advisor, Shane is known for his thoughtful approach and deep sense of responsibility. He is visibly conflicted and tired.; Male / US Diplomat, 34 years old; Occupation: Political Advisor; Personality: Determined, Thoughtful, Conflicted; Values: Integrity, Loyalty, Sense of Responsibility; Interests: Diplomacy, International Relations, Strategic Thinking; Experiences: Working in a diplomatic mission, High-pressure decision making, Close workplace relationships",
+          "position": "Political Advisor",
+          "states": "Tense, thoughtful, conflicted",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Amy Chen",
+          "gender": "Female",
+          "description": "Amy is Shane's assistant and close friend; Female; Age: 32; Occupation: Embassy Administrative Officer and Protocol Specialist; Personality: Empathetic, analytical, patient; Values: Loyalty, integrity, collaboration; Interests: International diplomacy, classical music, journaling; Experiences: Managed high-stakes diplomatic events in conflict zones, supported colleagues through difficult career transitions, studied cross-cultural communication in Southeast Asia.",
+          "position": "Assistant",
+          "states": "Concerned, calm, encouraging",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Ambassador Alian",
+          "gender": "Male",
+          "description": "A seasoned and authoritative diplomat, Ambassador Alian is Shane’s superior and represents the institutional weight of the decision; Male; Age: 58; Occupation: Senior Diplomatic Advisor to the Ministry of Foreign Affairs; Personality: Disciplined, strategic, composed; Values: National integrity, diplomatic protocol, long-term stability; Interests: International policy analysis, classical music, fine wines; Experiences: Negotiated peace accords in conflict zones, led high-profile diplomatic delegations, served as envoy during major geopolitical crises.",
+          "position": "Ambassador",
+          "states": "Serious, commanding, firm",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Amy Chen",
+          "character_id": 1,
+          "action": "Sits beside Shane and places her tray on the table",
+          "dialogue": "Shane, you’ve been quiet all morning. I brought coffee and a croissant. Let’s talk."
+        },
+        {
+          "action_id": 1,
+          "character": "Shane Foster",
+          "character_id": 0,
+          "action": "Looks up at Amy, sighs, and takes a sip of coffee",
+          "dialogue": "I don’t know, Amy. I’ve been wrestling with this for weeks. If I go through with this, it could shake the whole embassy."
+        },
+        {
+          "action_id": 2,
+          "character": "Ambassador Alian",
+          "character_id": 2,
+          "action": "Approaches the table and stands with his hands on it",
+          "dialogue": "Shane, I need to know where you stand. This isn’t just your decision—it’s about the mission and our credibility."
+        },
+        {
+          "action_id": 3,
+          "character": "Shane Foster",
+          "character_id": 0,
+          "action": "Leans forward, voice low but determined",
+          "dialogue": "I understand, Ambassador. But I can’t compromise my integrity for the sake of loyalty."
+        },
+        {
+          "action_id": 4,
+          "character": "Ambassador Alian",
+          "character_id": 2,
+          "action": "Crosses his arms, looking directly at Shane",
+          "dialogue": "Integrity is admirable, Shane, but it can’t be used as a shield when the consequences affect more than yourself."
+        },
+        {
+          "action_id": 5,
+          "character": "Amy Chen",
+          "character_id": 1,
+          "action": "Places a hand on Shane’s arm gently",
+          "dialogue": "You don’t have to make this decision alone. Maybe there’s another way to address the issue without resigning."
+        },
+        {
+          "action_id": 6,
+          "character": "Shane Foster",
+          "character_id": 0,
+          "action": "Nods slowly, rubbing his temples",
+          "dialogue": "I just don’t see it. If I stay, I feel like I’m betraying my values. If I go, I’m risking the stability of the team."
+        }
+      ],
+      "plot": "Shane is considering resigning from his position due to a moral conflict with a recent policy decision made by the embassy. Amy, his assistant and friend, is trying to find an alternative solution, while Ambassador Alian is urging him to consider the broader implications of his choice. Their conversation in the cafeteria highlights the tension between Shane’s personal ethics and his professional responsibilities.",
+      "social_purpose": "To explore the internal conflict of a diplomat facing a difficult decision, and how his relationships with colleagues and superiors influence his perspective. The scene reveals Shane’s values of integrity and loyalty, as well as his thoughtful and determined personality.",
+      "chunk": {
+        "id": 0,
+        "text": "Shane sits at a small table in the embassy cafeteria, sipping coffee and staring at a memo he has yet to sign. His assistant, Amy, approaches with a tray of coffee and pastries, while Ambassador Alian enters the room, scanning for Shane. The three meet in a tense but civil conversation about Shane’s difficult decision."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

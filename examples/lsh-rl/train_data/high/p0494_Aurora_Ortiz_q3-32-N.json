@@ -1,0 +1,102 @@
+{
+  "title": "A Question of Faith",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Group Sharing Session at Community Church",
+      "time": "Evening, 7:00 PM",
+      "location": "Small Meeting Room at St. Luke's Community Church",
+      "description": "The room is softly lit with a few pews arranged around a round table. Aurora sits at the center, her Bible open but untouched. Henry, a retired pastor in his 60s, sits to her left, while Hao, a young tech worker in his 30s, sits across from her. They are part of a weekly spiritual reflection group, where members share their thoughts and struggles with faith.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Aurora Ortiz",
+          "gender": "Female",
+          "description": "A 35-year-old freelancer and long-time Christian. She is thoughtful and introspective, often lost in deep contemplation. Her empathetic nature makes her a natural listener, but tonight, she is the one seeking clarity.; Female, Community Church Member, 35 years old; Occupation: Freelancer; Personality: Thoughtful, Introspective, Empathetic; Values: Faith, Honesty, Group Relationships; Interests: Spiritual Reflection, Philosophical Discussion, Group Support; Experiences: Long-term Christian Practice, Recent Wavering of Faith, Participating in Group Discussions",
+          "position": "Center of the table",
+          "states": "Determined, Confused, Vulnerable",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Henry Thompson",
+          "gender": "Male",
+          "description": "A retired pastor in his 60s with a calm, deliberate manner; Male; Age: 63; Occupation: Spiritual counselor and part-time Bible study facilitator; Personality: Serious, Thoughtful, Supportive; Values: Integrity, Compassion, Faith; Interests: Reading theological works, gardening, mentoring young people; Experiences: Pastoring a large congregation for 30 years, leading community outreach programs, navigating personal spiritual crises in retirement.",
+          "position": "Left of Aurora",
+          "states": "Serious, Thoughtful, Supportive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Hao Lin",
+          "gender": "",
+          "description": "A 32-year-old tech worker who recently joined the church; Male; Age: 32; Occupation: Software Engineer; Personality: Gentle, Curious, Reflective; Values: Intellectual honesty, Community, Personal growth; Interests: Theology, Philosophy, Long walks; Experiences: Transitioned from a secular career to exploring spirituality, Attended a coding bootcamp in his early 20s, Volunteers at a local community tech center.",
+          "position": "Across from Aurora",
+          "states": "Gentle, Curious, Reflective",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Aurora Ortiz",
+          "character_id": 0,
+          "action": "Asks a question about faith",
+          "dialogue": "I've been thinking a lot lately... Is faith something we choose with our minds, or is it something we feel in our hearts? I'm not sure where I stand anymore."
+        },
+        {
+          "action_id": 1,
+          "character": "Henry Thompson",
+          "character_id": 1,
+          "action": "Responds with a theological perspective",
+          "dialogue": "That's a deep question, Aurora. I think the distinction between reason and heart is important. But maybe we should ask—what do you mean by 'reason' and 'heart' in this context?"
+        },
+        {
+          "action_id": 2,
+          "character": "Hao Lin",
+          "character_id": 2,
+          "action": "Listens and offers a personal reflection",
+          "dialogue": "I've felt that tension too. Sometimes I think my heart believes before my mind can catch up. But I'm still learning."
+        },
+        {
+          "action_id": 3,
+          "character": "Aurora Ortiz",
+          "character_id": 0,
+          "action": "Shares her recent struggles",
+          "dialogue": "I've been reading a lot of apologetics and trying to defend my faith logically, but it feels like it's not enough. I don't want to believe just because I have to. I want it to come from a place of truth and feeling."
+        },
+        {
+          "action_id": 4,
+          "character": "Henry Thompson",
+          "character_id": 1,
+          "action": "Offers a balanced view",
+          "dialogue": "Faith is not just an intellectual exercise. It's a relationship. But the mind has a role too—it helps us understand what we believe."
+        },
+        {
+          "action_id": 5,
+          "character": "Hao Lin",
+          "character_id": 2,
+          "action": "Shares a metaphor",
+          "dialogue": "Maybe it's like a bridge? The mind builds the structure, but the heart is what carries you across it."
+        },
+        {
+          "action_id": 6,
+          "character": "Aurora Ortiz",
+          "character_id": 0,
+          "action": "Reflects on their input",
+          "dialogue": "That's a good way to put it. I just don't want to feel like I'm choosing between the two. I want them to work together."
+        }
+      ],
+      "plot": "Aurora raises a deeply personal question about the nature of faith, which prompts Henry and Hao to offer their perspectives. The conversation reveals Aurora's internal struggle and encourages open dialogue among the group.",
+      "social_purpose": "To explore the intersection of faith, reason, and emotion in a supportive group setting, and to foster deeper understanding and trust through vulnerability and shared reflection.",
+      "chunk": {
+        "id": 0,
+        "text": "Aurora's question about the nature of faith opens a dialogue that reflects her introspective and empathetic personality. Henry's theological grounding and Hao's reflective curiosity contribute to a dynamic where Aurora feels safe to express her uncertainty. The group's shared goal of spiritual reflection is furthered as they navigate the tension between reason and emotion."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

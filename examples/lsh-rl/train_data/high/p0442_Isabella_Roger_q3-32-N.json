@@ -1,0 +1,88 @@
+{
+  "title": "The Aftermath of a Mistake",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Car Accident Involving a Puppy",
+      "time": "Afternoon",
+      "location": "A quiet residential street in the city",
+      "description": "Isabella, a 24-year-old newcomer to the city, is emotionally overwhelmed after accidentally hitting a small, white puppy while distracted driving. Her friend Lory, a calm and supportive presence, is trying to help her process the event, while their neighbor Peter, who owns the puppy, confronts them with anger and frustration.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Isabella Roger",
+          "gender": "Female",
+          "description": "24-year-old newcomer to the city, emotionally fragile and self-conscious. She is sitting in her car, trembling with anxiety and guilt.; 25-year-old /Female, 24 years old; Occupation: Newcomer to the workforce; Personality: Emotional, Anxious, Self-conscious; Values: Responsibility, Empathy, Integrity; Interests: Driving, City life, Animal care; Experiences: Recent relocation, Family conflict, Emotional distress, Accident experience, City life",
+          "position": "Inside the car",
+          "states": "Guilt, fear, anxiety",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Lory",
+          "gender": "Female",
+          "description": "Isabella's supportive and level-headed best friend; Female; Age: 24; Occupation: Social worker; Personality: Empathetic, composed, loyal; Values: Compassion, responsibility, emotional support; Interests: Volunteering at animal shelters, mindfulness practices, road safety advocacy; Experiences: Witnessed a childhood friend's family struggle with a car accident, has helped several clients through trauma recovery, grew up in a close-knit community that values accountability and kindness.",
+          "position": "Outside the car, near the driver's side",
+          "states": "Calm, concerned, patient",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Peter",
+          "gender": "Male",
+          "description": "Peter; Male; Age: 35; Occupation: Veterinary technician; Personality: Caring, impatient, protective; Values: Family, responsibility, animal welfare; Interests: Caring for pets, home improvement, jogging; Experiences: Lost his childhood dog in a hit-and-run accident years ago, recently adopted the puppy as a companion, struggled with work-life balance due to long shifts at the clinic",
+          "position": "Outside the car, on the sidewalk",
+          "states": "Angry, frustrated, worried",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Isabella Roger",
+          "character_id": 0,
+          "action": "Isabella looks down at the puppy, which is lying motionless on the road, and starts to cry.",
+          "dialogue": "I didn't see it... I didn't mean to... Oh my God, I'm so sorry."
+        },
+        {
+          "action_id": 1,
+          "character": "Lory",
+          "character_id": 1,
+          "action": "Lory kneels beside the puppy and checks for signs of life, then gently places a hand on Isabella's shoulder.",
+          "dialogue": "We need to help it, Bella. Let's get it to a vet. You're not alone in this."
+        },
+        {
+          "action_id": 2,
+          "character": "Peter",
+          "character_id": 2,
+          "action": "Peter approaches the car, pointing an accusing finger at Isabella.",
+          "dialogue": "What the hell were you thinking?! You just ran over my dog! You could've killed it!"
+        },
+        {
+          "action_id": 3,
+          "character": "Isabella Roger",
+          "character_id": 0,
+          "action": "Isabella looks up at Peter, eyes red and voice shaking.",
+          "dialogue": "I... I'm so sorry, Peter. I didn't see it. I'll pay for everything, I promise."
+        },
+        {
+          "action_id": 4,
+          "character": "Lory",
+          "character_id": 1,
+          "action": "Lory stands up and steps between Isabella and Peter, trying to de-escalate the situation.",
+          "dialogue": "Peter, let's not make this worse. We need to focus on helping the dog first."
+        }
+      ],
+      "plot": "Isabella is caught in a moment of emotional crisis after accidentally hitting a puppy. Her friend Lory tries to support her and take charge of the situation, while their neighbor Peter confronts her with anger. The shared goal is to save the puppy and manage the fallout from the accident.",
+      "social_purpose": "To explore the protagonist's emotional and moral response to a crisis, while showcasing her values of responsibility, empathy, and integrity through her actions and dialogue.",
+      "chunk": {
+        "id": 0,
+        "text": "Isabella sat in her car, hands gripping the steering wheel as tears streamed down her face. The white puppy lay motionless on the asphalt, its tiny body trembling slightly. She had moved to the city just a few months ago, and this accident felt like the last straw after weeks of feeling out of place and overwhelmed by her new life. Lory, her best friend, had been with her earlier that morning, helping her adjust to her first job and new apartment. Now, she stood beside the car, trying to remain calm. 'We need to help it, Bella,' Lory said, kneeling next to the dog. Peter, the angry neighbor, stepped forward, shouting at Isabella. 'What the hell were you thinking?!' he demanded. Isabella flinched, her self-consciousness and anxiety spiking. 'I didn't mean to,' she whispered, her voice barely audible. 'I'll do anything to make this right.'"
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

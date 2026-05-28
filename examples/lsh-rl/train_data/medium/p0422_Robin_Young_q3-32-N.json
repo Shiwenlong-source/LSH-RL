@@ -1,0 +1,102 @@
+{
+  "title": "The Final Goodbye",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Farewell Party",
+      "time": "7:00 PM",
+      "location": "Backyard of a cozy suburban home",
+      "description": "A small gathering of friends and colleagues is taking place to celebrate the last night of a group member before they move abroad. Music plays softly in the background, and laughter occasionally breaks through the warm summer air. Robin, sitting alone on a bench in the corner, appears distant and overwhelmed by the emotional weight of the event. Nearby, Sara and Spikey are seated on a wicker sofa, exchanging quiet conversation and glancing occasionally at Robin.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Robin Young",
+          "gender": "Gender Unknown",
+          "description": "A 26-year-old introverted young professional, Robin is emotionally sensitive and struggling to connect with the lively atmosphere of the farewell party. He is wearing a dark hoodie, which he clutches tightly as a source of comfort.; 26-year-old / Gender Unknown / Party Participant, 24 years old; Occupation: Young Professional; Personality: Emotional, Sensitive, Introverted; Values: Emotional Sincerity, Personal Space; Interests: Music, Technology, Solitude; Experiences: Attending Farewell Party, Handling Emotional Pressure, Feeling Isolated in Social Settings",
+          "position": "Corner bench",
+          "states": "Isolated, overwhelmed, conflicted",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Sara Lin",
+          "gender": "Female",
+          "description": "A 28-year-old marketing manager, Sara is warm and empathetic; Female; Age: 28; Occupation: Senior Marketing Strategist; Personality: Observant, supportive, tactful; Values: Loyalty, emotional honesty, community; Interests: Hosting small gatherings, reading self-help and psychology books, yoga; Experiences: Mediated conflicts in workplace teams, helped close friends through major life transitions, organized a surprise farewell event for a colleague moving overseas.",
+          "position": "Wicker sofa",
+          "states": "Observant, concerned, supportive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Spikey Raja",
+          "gender": "Male",
+          "description": "A 27-year-old software developer, Spikey is more reserved but enjoys the company of close friends; Male; Age: 27; Occupation: Software Developer; Personality: Analytical, empathetic, observant; Values: Loyalty, sincerity, personal growth; Interests: Coding challenges, indie music, strategy board games; Experiences: Worked remotely during the pandemic, moved to a new city for a job and made close friends, organized a surprise birthday event for a colleague.",
+          "position": "Wicker sofa",
+          "states": "Cautious, curious, friendly",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Robin Young",
+          "character_id": 0,
+          "action": "Attempts to leave the party",
+          "dialogue": "Robin quietly stands up from the bench and walks toward the gate, feeling the weight of the evening pressing on his chest."
+        },
+        {
+          "action_id": 1,
+          "character": "Sara Lin",
+          "character_id": 1,
+          "action": "Notices Robin's departure and calls out to him",
+          "dialogue": "Sara turns to Spikey and says, 'Hey, wait a second. Robin's leaving. Should we stop them?'"
+        },
+        {
+          "action_id": 2,
+          "character": "Spikey Raja",
+          "character_id": 2,
+          "action": "Responds to Sara's concern",
+          "dialogue": "Spikey nods, 'Yeah, something's off. Let's go check on them.'"
+        },
+        {
+          "action_id": 3,
+          "character": "Sara Lin",
+          "character_id": 1,
+          "action": "Approaches Robin and speaks to them",
+          "dialogue": "Sara walks up to Robin and says, 'Hey, are you okay? You look like you're about to leave.'"
+        },
+        {
+          "action_id": 4,
+          "character": "Robin Young",
+          "character_id": 0,
+          "action": "Answers Sara's question hesitantly",
+          "dialogue": "Robin looks at the ground and replies, 'I just... need some space. This is harder than I thought it would be.'"
+        },
+        {
+          "action_id": 5,
+          "character": "Spikey Raja",
+          "character_id": 2,
+          "action": "Adds a comment to the conversation",
+          "dialogue": "Spikey says, 'We get it, Robin. It's a big change. But we’re here for you.'"
+        },
+        {
+          "action_id": 6,
+          "character": "Robin Young",
+          "character_id": 0,
+          "action": "Pauses and considers staying",
+          "dialogue": "Robin hesitates, looking back at the group, then says, 'I don't know if I can stay. I just feel so out of place here.'"
+        }
+      ],
+      "plot": "Robin, overwhelmed by the emotional atmosphere of the farewell party, tries to leave early. Sara and Spikey notice his discomfort and approach him to offer support. Robin's emotional sensitivity and need for personal space are revealed as he struggles with the decision to stay or go.",
+      "social_purpose": "To explore the protagonist's internal conflict and emotional needs in a social setting, while highlighting the supportive nature of the group and their shared goal of ensuring Robin feels included.",
+      "chunk": {
+        "id": 0,
+        "text": "Robin stands at the edge of the party, feeling the weight of the impending separation. Sara and Spikey approach him, trying to understand his struggle and offer comfort. Robin's emotional fluctuations are evident as he wrestles with his need for solitude and the pressure to connect with the group."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

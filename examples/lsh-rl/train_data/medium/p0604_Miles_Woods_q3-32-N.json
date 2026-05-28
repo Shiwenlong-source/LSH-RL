@@ -1,0 +1,95 @@
+{
+  "title": "The Coffee Shop Catch-Up",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Meeting for coffee",
+      "time": "Afternoon",
+      "location": "A cozy, quiet corner of a local coffee shop",
+      "description": "Miles sits at a small table, sipping a black coffee while looking around the shop with mild discomfort. Kong and Lily arrive together, chatting animatedly. Kong approaches the table first, followed by Lily, who smiles at Miles with warmth.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Miles Woods",
+          "gender": "Male",
+          "description": "A 25-year-old office clerk who prefers solitude but is slowly considering change. He is thoughtful and cautious, with a minimalist lifestyle and a rational approach to decisions.; 25, Male, Office worker, 25 years old; Occupation: Office Clerk; Personality: Introverted, Thoughtful, Cautious, Rational; Values: Independence, Comfort, Authenticity; Interests: Technology, Personal growth, Minimalist lifestyle; Experiences: Frequent use of public transportation, Socially isolated work environment, Repeatedly receiving social invitations",
+          "position": "Table near the back wall",
+          "states": "Nervous, curious, hesitant",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Kong",
+          "gender": "Male",
+          "description": "Miles' friend who is more outgoing and has been trying to help him reconnect with others; Male; Age: 26; Occupation: Community outreach coordinator; Personality: Energetic, encouraging, friendly; Values: Loyalty, connection, positivity; Interests: Organizing local events, hiking, indie music; Experiences: Volunteered at a youth mentorship program, recently joined a local improv group to meet new people, has helped several reclusive friends reintegrate into social circles.",
+          "position": "Approaching the table",
+          "states": "Energetic, encouraging, friendly",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Lily",
+          "gender": "Female",
+          "description": "A mutual friend of Kong and Miles. She is warm, empathetic, and enjoys deep conversations. She has a passion for personal growth and technology, which aligns with Miles' interests; Female; Age: 28; Occupation: UX Designer; Personality: compassionate, curious, adaptable; Values: empathy, continuous learning, authenticity; Interests: mindfulness practices, AI and emerging tech, storytelling; Experiences: volunteered at a community mental health workshop, co-founded a tech for good startup, attended a digital detox retreat.",
+          "position": "Standing beside Kong",
+          "states": "Supportive, engaging, patient",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Kong",
+          "character_id": 1,
+          "action": "Approaches the table",
+          "dialogue": "Hey, Miles! Glad you made it. We got a table with a nice view of the window."
+        },
+        {
+          "action_id": 1,
+          "character": "Miles Woods",
+          "character_id": 0,
+          "action": "Nods with a small smile",
+          "dialogue": "Yeah, the place is nice. I didn't expect to come here, but I'm glad I did."
+        },
+        {
+          "action_id": 2,
+          "character": "Lily",
+          "character_id": 2,
+          "action": "Sits down and looks at Miles",
+          "dialogue": "I heard you're into personal growth and tech stuff. I just read this amazing article about mindfulness and digital minimalism. Want to hear about it?"
+        },
+        {
+          "action_id": 3,
+          "character": "Miles Woods",
+          "character_id": 0,
+          "action": "Leans in slightly, interested",
+          "dialogue": "Sure, I've been thinking about how to simplify my life and reduce distractions lately. That sounds relevant."
+        },
+        {
+          "action_id": 4,
+          "character": "Kong",
+          "character_id": 1,
+          "action": "Nods and adds to the conversation",
+          "dialogue": "Exactly! We should help each other out with that. Maybe we can start a weekly tech-free hour or something?"
+        },
+        {
+          "action_id": 5,
+          "character": "Miles Woods",
+          "character_id": 0,
+          "action": "Considers the idea carefully",
+          "dialogue": "That could be good. I've been feeling overwhelmed with the constant connectivity at work. A break might help."
+        }
+      ],
+      "plot": "Miles reluctantly agrees to meet Kong and Lily for coffee. As the conversation progresses, Lily introduces a topic that resonates with Miles' interests and values, helping to ease his social anxiety. Kong suggests a shared goal of reducing digital overload, and Miles begins to feel a sense of connection and purpose in the discussion.",
+      "social_purpose": "To demonstrate Miles' potential shift from social isolation to connection by engaging him in a meaningful conversation around his values and interests.",
+      "chunk": {
+        "id": 0,
+        "text": "Miles sits at a small table, sipping a black coffee while looking around the shop with mild discomfort. Kong and Lily arrive together, chatting animatedly. Kong approaches the table first, followed by Lily, who smiles at Miles with warmth. Kong: 'Hey, Miles! Glad you made it. We got a table with a nice view of the window.' Miles: 'Yeah, the place is nice. I didn't expect to come here, but I'm glad I did.' Lily: 'I heard you're into personal growth and tech stuff. I just read this amazing article about mindfulness and digital minimalism. Want to hear about it?' Miles leans in slightly, interested. Kong suggests a weekly tech-free hour, and Miles begins to feel a sense of connection and purpose in the discussion."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

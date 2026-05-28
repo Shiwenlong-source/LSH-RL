@@ -1,0 +1,88 @@
+{
+  "title": "A Colorful Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Coffee Shop Hair Color Discussion",
+      "time": "Afternoon",
+      "location": "Local Coffee Shop",
+      "description": "Harper sits at a cozy table with her close friends, Maya and Jordan. They are sipping lattes and discussing beauty trends. Harper has been eyeing a blonde dye kit on her phone, but hesitates when the topic comes up.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Harper Reyes",
+          "gender": "Female",
+          "description": "A thoughtful and expressive young woman in her early twenties, wearing a black hoodie and jeans. She looks contemplative as she stares at her phone.; Female, 22 years old; Occupation: College Student; Personality: Thoughtful, Self-reflective, Expressive; Values: Self-expression, Individuality, Authenticity; Interests: Beauty Trends, Personal Style, Social Interaction; Experiences: Frequently Changing Hair Color, Worrying About Resembling Mother, Friend Interactions, Making Decisions Under Social Pressure, Exploring Identity Through Appearance",
+          "position": "Center",
+          "states": "Hesitant, Thoughtful",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Maya Chen",
+          "gender": "Female",
+          "description": "Maya Chen; Female; Age: 21; Occupation: Fashion Design Student; Personality: Curious, Supportive, Expressive; Values: Individuality, Friendship, Creativity; Interests: Makeup artistry, Trendy fashion, Coffee culture; Experiences: Recently dyed her hair a bold violet shade to match a seasonal look, Volunteered at a local beauty workshop for self-expression through style.",
+          "position": "Left",
+          "states": "Curious, Supportive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Jordan Lee",
+          "gender": "Non-binary",
+          "description": "A laid-back and observant college student in their early twenties, wearing a graphic t-shirt. They are seated to Harper's right, watching the conversation closely; Non-binary; Age: 21; Occupation: Art History Major; Personality: Curious, Thoughtful, Supportive; Values: Individuality, Intellectual Growth, Empathy; Interests: Vintage fashion, Coffee culture, Independent films; Experiences: Volunteered at a local museum, Explored self-expression through personal style, Attended college workshops on cultural identity.",
+          "position": "Right",
+          "states": "Observant, Analytical",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Maya Chen",
+          "character_id": 1,
+          "action": "Asks Harper about her hesitation",
+          "dialogue": "Hey Harper, I noticed you've been scrolling through blonde hair dyes all morning. Why the pause? You used to love being blonde."
+        },
+        {
+          "action_id": 1,
+          "character": "Harper Reyes",
+          "character_id": 0,
+          "action": "Responds with a sigh",
+          "dialogue": "I know, it's just... I used to dye it back when I was trying to find my own style. Now I'm worried it'll make me look too much like my mom again."
+        },
+        {
+          "action_id": 2,
+          "character": "Jordan Lee",
+          "character_id": 2,
+          "action": "Offers a thoughtful perspective",
+          "dialogue": "I get that. Family resemblance can feel heavy. But if it's something you want for yourself, maybe that's what matters most?"
+        },
+        {
+          "action_id": 3,
+          "character": "Maya Chen",
+          "character_id": 1,
+          "action": "Encourages Harper",
+          "dialogue": "Exactly! You've always been so expressive with your style. Why let your mom's look define your choice?"
+        },
+        {
+          "action_id": 4,
+          "character": "Harper Reyes",
+          "character_id": 0,
+          "action": "Smiles and considers their words",
+          "dialogue": "You're both right. I just need to make sure it's for me, not for anyone else. Thanks for not pushing me to do it just because it's trendy."
+        }
+      ],
+      "plot": "Harper is considering dyeing her hair back to blonde but is conflicted due to the resemblance to her mother. Her friends, Maya and Jordan, engage in a supportive and thoughtful conversation that helps her reflect on her values of self-expression and authenticity.",
+      "social_purpose": "To explore Harper's internal struggle between self-expression and family identity in a supportive and authentic social setting.",
+      "chunk": {
+        "id": 0,
+        "text": "Harper's friends help her realize that her decision should be rooted in her own identity and desires rather than fear of comparison to her mother."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

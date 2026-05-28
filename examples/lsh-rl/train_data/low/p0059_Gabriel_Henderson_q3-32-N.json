@@ -1,0 +1,102 @@
+{
+  "title": "A Choice Between Conversations",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Receiving calls from friends while at a café",
+      "time": "Afternoon",
+      "location": "Outside a cozy local café",
+      "description": "Gabriel Henderson is standing outside his favorite café, sipping a cup of coffee and people-watching. He just received two calls from friends: one from Jisoo, who was inspired by their recent conversation, and another from Mike, who wants to recommend a drink. Gabriel is considering which invitation to accept, weighing his desire for meaningful connections against the need for personal space.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Gabriel Henderson",
+          "gender": "Male in his, 25 years old",
+          "description": "Gabriel is a thoughtful and warm young man in his mid-20s, currently working in real estate sales. He enjoys solitude but values deep, meaningful interactions. He is standing outside the café, looking contemplative.; Male in his, 25 years old; Occupation: Real Estate Sales; Personality: Warm, Thoughtful, Open, Balanced; Values: Meaningful Connections, Personal Space, Comfort; Interests: Coffee Culture, Casual Conversation, Enjoying Quiet Time; Experiences: Receiving unexpected calls from friends, Visiting favorite café, Participating in spontaneous social interactions",
+          "position": "Center",
+          "states": "Contemplative, open to interaction",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Jisoo",
+          "gender": "Female, 27 years old",
+          "description": "Jisoo is a creative and expressive graphic designer who recently connected with Gabriel; Female; Age: 27; Occupation: Freelance Graphic Designer; Personality: Passionate, curious, empathetic; Values: Authenticity, growth, collaboration; Interests: Urban sketching, indie music, philosophical discussions; Experiences: Recently launched her own design studio, collaborated on a community mural project, attended a design conference that reignited her creative drive.",
+          "position": "Off-screen (on phone)",
+          "states": "Enthusiastic, inspired",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Mike",
+          "gender": "Male, 30 years old",
+          "description": "Mike; Male; Age: 30; Occupation: Barista at a cozy local café; Personality: Friendly, easygoing, talkative; Values: Community, creativity, authenticity; Interests: Crafting unique coffee drinks, indie music, local art events; Experiences: Worked at the same café for five years, collaborated with local artists for seasonal drink designs, helped several regulars through difficult times with a listening ear and a warm latte.",
+          "position": "Inside the café",
+          "states": "Friendly, approachable",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Gabriel Henderson",
+          "character_id": 0,
+          "action": "Answers the call from Jisoo",
+          "dialogue": "Hey Jisoo, I just got off the phone with Mike. I really enjoyed our conversation earlier, and I'd love to hear more about what you were thinking."
+        },
+        {
+          "action_id": 1,
+          "character": "Jisoo",
+          "character_id": 1,
+          "action": "Expresses gratitude and excitement",
+          "dialogue": "Oh, that means a lot to me! I was actually thinking about how our talk helped me see things differently at work. Maybe we can grab a coffee and continue the discussion?"
+        },
+        {
+          "action_id": 2,
+          "character": "Gabriel Henderson",
+          "character_id": 0,
+          "action": "Looks at the café and then back at his phone",
+          "dialogue": "I'm actually at the café right now. Mike just called to recommend something new. I don't want to miss the chance to hear what he has to say, but I'd also love to talk with you more."
+        },
+        {
+          "action_id": 3,
+          "character": "Mike",
+          "character_id": 2,
+          "action": "Waves to Gabriel from inside the café",
+          "dialogue": "Hey, Gabriel! Come on in. I've got a new drink for you to try—it's a twist on your favorite latte. What do you say?"
+        },
+        {
+          "action_id": 4,
+          "character": "Gabriel Henderson",
+          "character_id": 0,
+          "action": "Smiles and responds to Mike",
+          "dialogue": "Thanks, Mike. I'm actually talking to Jisoo right now. She was inspired by our earlier conversation. I'm trying to decide which way to go."
+        },
+        {
+          "action_id": 5,
+          "character": "Jisoo",
+          "character_id": 1,
+          "action": "Suggests a compromise",
+          "dialogue": "Maybe we can all meet up later? I'd love to hear Mike's recommendation too. It could be a fun way to spend the evening."
+        },
+        {
+          "action_id": 6,
+          "character": "Gabriel Henderson",
+          "character_id": 0,
+          "action": "Agrees and coordinates the meeting",
+          "dialogue": "That sounds like a great idea. Let me get back to both of you with a time that works. I want to make sure I can enjoy the conversation and the coffee."
+        }
+      ],
+      "plot": "Gabriel is at his favorite café when he receives calls from Jisoo and Mike. Both want to continue a conversation with him, and he must decide how to balance his time and energy. He ultimately suggests a group meeting to honor both invitations and maintain his values of meaningful connections and comfort.",
+      "social_purpose": "To showcase Gabriel's personality as warm and balanced, while highlighting his values of meaningful connections and personal space. The interaction also demonstrates his openness to collaboration and social engagement.",
+      "chunk": {
+        "id": 0,
+        "text": "Gabriel is standing outside the café, sipping his coffee and looking thoughtful. He answers the call from Jisoo, who is inspired by their recent conversation. Mike, the barista, calls from inside and invites Gabriel to try a new drink. Gabriel is caught between two invitations, but ultimately suggests a group meeting to honor both."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

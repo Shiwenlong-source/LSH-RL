@@ -1,0 +1,95 @@
+{
+  "title": "Tire Dilemma at NTB",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Waiting for tire installation",
+      "time": "Afternoon",
+      "location": "NTB Auto Parts Store Waiting Room",
+      "description": "Henry Long, a supermarket owner in his early thirties, sits in the waiting room of an NTB store, reviewing his options for tires. The room is modest, with a few chairs and a coffee table. Clerk Lee approaches to discuss available options while another customer, Wang, grows impatient and voices his complaints.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Henry Long",
+          "gender": "Male",
+          "description": "A supermarket owner in his early thirties, known for his thoughtful and pragmatic nature. He is currently weighing tire options in the NTB waiting room.; Male, around 30, Customer, 30 years old; Occupation: Supermarket Owner; Personality: Pragmatic, Thoughtful, Hesitant; Values: Quality, Reliability, Time efficiency; Interests: Vehicle maintenance, Decision-making processes, Customer service; Experiences: Owning a car, Buying auto parts, Waiting in service areas",
+          "position": "Seated at the coffee table",
+          "states": "Hesitant, contemplative, slightly stressed",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Lee",
+          "gender": "Male",
+          "description": "A friendly and helpful NTB clerk in his late twenties; Male; Age: 28; Occupation: Customer Service Clerk at NTB Auto Parts; Personality: Patient, professional, encouraging; Values: Customer satisfaction, reliability, integrity; Interests: Automotive technology, helping others, weekend hiking; Experiences: Assisted numerous customers in selecting vehicle parts, managed a high-traffic service counter during the pandemic, completed a certification course in tire safety and maintenance.",
+          "position": "Standing next to Henry",
+          "states": "Patient, professional, encouraging",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Wang",
+          "gender": "Male",
+          "description": "A middle-aged customer who is visibly frustrated with the long wait for his service; Male; Age: 48; Occupation: Construction foreman; Personality: impatient, loud, easily agitated; Values: efficiency, respect for time; Interests: DIY car maintenance, sports on TV; Experiences: frequently deals with equipment delays, had a tire blowout on the job site last month.",
+          "position": "Sitting in a chair near the entrance",
+          "states": "Annoyed, impatient, talkative",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Henry Long",
+          "character_id": 0,
+          "action": "Asks about Michelin tire availability",
+          "dialogue": "I was really considering Michelin for their durability, but I see you only have a few in stock. Do you think they'll be enough for my car?"
+        },
+        {
+          "action_id": 1,
+          "character": "Lee",
+          "character_id": 1,
+          "action": "Recommends BF Goodwrench tires",
+          "dialogue": "I understand, Michelin is a great choice. However, our stock is limited. The BF Goodwrench tires are also high quality and we have plenty in stock for you right now."
+        },
+        {
+          "action_id": 2,
+          "character": "Wang",
+          "character_id": 2,
+          "action": "Complains about the wait",
+          "dialogue": "This is ridiculous. I've been waiting for over an hour. If I wanted to wait, I'd be at a different store."
+        },
+        {
+          "action_id": 3,
+          "character": "Henry Long",
+          "character_id": 0,
+          "action": "Considers BF Goodwrench with hesitation",
+          "dialogue": "I appreciate the recommendation, but I'm just trying to make sure I'm not compromising on quality. I run a business, and I can't afford a breakdown."
+        },
+        {
+          "action_id": 4,
+          "character": "Lee",
+          "character_id": 1,
+          "action": "Reassures Henry about BF Goodwrench",
+          "dialogue": "I get it, reliability is key. These tires are trusted by many customers, and they offer a good warranty. It might be the best balance between quality and time right now."
+        },
+        {
+          "action_id": 5,
+          "character": "Henry Long",
+          "character_id": 0,
+          "action": "Decides to go with BF Goodwrench",
+          "dialogue": "Alright, I think I'll go with the BF Goodwrench. I don't want to keep waiting either."
+        }
+      ],
+      "plot": "Henry is trying to decide between Michelin and BF Goodwrench tires while waiting for his car to be serviced. Clerk Lee recommends BF Goodwrench due to availability, but Henry is hesitant due to his value for quality and reliability. Meanwhile, Wang's impatience adds pressure, influencing Henry's decision to prioritize time efficiency.",
+      "social_purpose": "To explore the internal conflict of a pragmatic and thoughtful individual when faced with a trade-off between preference and practicality in a public setting, while also showing how others' behavior can subtly influence decision-making.",
+      "chunk": {
+        "id": 0,
+        "text": "Henry Long, a supermarket owner in his early thirties, sits in the waiting room of an NTB store, carefully considering tire options. Clerk Lee approaches to offer assistance, while another customer, Wang, loudly expresses his frustration with the wait. Henry's decision is influenced by his values of quality and time efficiency, as well as the growing tension in the room."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "title": "The Voting Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Evan Butler is caught in a moral conflict while casting his MLB All-Star vote.",
+      "time": "10:45 PM",
+      "location": "Living Room",
+      "description": "Evan sits at his computer late at night, refreshing the MLB All-Star voting page for the fifth time that hour. His wife, Yuna, is nearby reading a book, and their friend Henry calls to check in. Evan is torn between supporting his beloved team and ensuring the voting process remains fair.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Evan Butler",
+          "gender": "Male",
+          "description": "A 40-year-old baseball enthusiast, married to Yuna. He is thoughtful, analytical, and loyal to his team but also values fairness.; 40-year-old Male, Married, Baseball Enthusiast, 47 years old; Occupation: Office White-collar Worker; Personality: Enthusiastic, Thoughtful, Loyal, Analytical; Values: Fairness, Loyalty, Community, Individuality; Interests: Baseball, Sports Voting, Social Media, Evening Relaxation; Experiences: Watching Baseball Games, Participating in Sports Discussions, Late-night Decision Making, Balancing Personal and Social Expectations, Expressing Opinions Publicly",
+          "position": "At the computer",
+          "states": "Torn, analytical, slightly anxious",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Yuna Butler",
+          "gender": "Female",
+          "description": "Calm and empathetic wife who notices her husband's late-night behavior and offers quiet concern; Female; Age: 32; Occupation: Clinical social worker; Personality: Observant, gentle, intuitive; Values: Fairness, family, emotional well-being; Interests: Reading literary fiction, yoga, community activism; Experiences: Worked with at-risk youth in a non-profit setting, navigated ethical dilemmas in her profession, recently supported a friend through a difficult career decision.",
+          "position": "On the couch",
+          "states": "Observant, gentle, concerned",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Henry Ramirez",
+          "gender": "Male",
+          "description": "Playful, curious, and unaware; Male; Age: 34; Occupation: High school history teacher and part-time sports commentator for a local radio station; Personality: Laid-back, witty, optimistic; Values: Fairness, loyalty, fun; Interests: Baseball statistics, retro video games, storytelling; Experiences: Coached his son's little league team for five years, covered a minor league championship game as a guest commentator, frequently debates sports with friends over video game simulations.",
+          "position": "Calling from his phone",
+          "states": "Playful, curious, unaware",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Evan Butler",
+          "character_id": 0,
+          "action": "Refreshes the All-Star voting page for the fifth time in an hour.",
+          "dialogue": "I just don’t know if I should vote for my team again. They’re already way ahead."
+        },
+        {
+          "action_id": 1,
+          "character": "Yuna Butler",
+          "character_id": 1,
+          "action": "Looks up from her book and notices Evan’s behavior.",
+          "dialogue": "You’ve been on that site for hours. Everything okay?"
+        },
+        {
+          "action_id": 2,
+          "character": "Evan Butler",
+          "character_id": 0,
+          "action": "Sighs and responds with a mix of honesty and hesitation.",
+          "dialogue": "It’s just… I feel like I should support them, but it doesn’t feel right when the Yankees are getting so many votes."
+        },
+        {
+          "action_id": 3,
+          "character": "Henry Ramirez",
+          "character_id": 2,
+          "action": "Calls Evan and teases him about his indecision.",
+          "dialogue": "Hey, Evan! Still not voting for your team? You’re acting like a neutral commissioner or something."
+        },
+        {
+          "action_id": 4,
+          "character": "Evan Butler",
+          "character_id": 0,
+          "action": "Pauses and thinks before responding to Henry’s comment.",
+          "dialogue": "I’m just trying to be fair, Henry. I don’t want to feel like I’m skewing the results."
+        },
+        {
+          "action_id": 5,
+          "character": "Yuna Butler",
+          "character_id": 1,
+          "action": "Offers a quiet suggestion to help ease the tension.",
+          "dialogue": "Maybe you can vote for a deserving player from another team this time. You can still support yours in the long run."
+        },
+        {
+          "action_id": 6,
+          "character": "Henry Ramirez",
+          "character_id": 2,
+          "action": "Laughs and encourages Evan to just go with his gut.",
+          "dialogue": "Fairness is great, but you’re a fan, not a judge. Just vote for the guys you love to watch."
+        },
+        {
+          "action_id": 7,
+          "character": "Evan Butler",
+          "character_id": 0,
+          "action": "Considers the suggestions and finally makes a decision.",
+          "dialogue": "You’re both right. I’ll vote for one of the other team’s stars this time. Maybe next year I’ll go all in."
+        }
+      ],
+      "plot": "Evan Butler is torn between his loyalty to his favorite team and his desire to maintain fairness in the All-Star voting process. His wife, Yuna, notices his late-night behavior and gently offers support, while his friend Henry teases him about his unusual hesitation. Through this interaction, Evan comes to a balanced decision that respects both his values and social expectations.",
+      "social_purpose": "To explore the tension between personal loyalty and the value of fairness in a public, communal activity like sports voting, while highlighting the supportive yet challenging dynamics in Evan’s relationships.",
+      "chunk": {
+        "id": 0,
+        "text": "Evan Butler is caught in a moral conflict while casting his MLB All-Star vote."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

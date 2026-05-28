@@ -1,0 +1,95 @@
+{
+  "title": "A Night of Reflection and Support",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Weekly Prayer and Fellowship Meeting",
+      "time": "7:00 PM on a Thursday evening",
+      "location": "Christian Youth Center, Community Room",
+      "description": "The Christian Youth Center is a modest community space where young people gather for spiritual growth, fellowship, and support. On this evening, the room is softly lit, with a few pews arranged in a circle and a small table in the center holding coffee mugs and snacks. Trevor Reyes sits quietly in one of the pews, looking slightly anxious as he waits for the group to arrive.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Trevor Reyes",
+          "gender": "Male",
+          "description": "20-year-old male, college student, recently decided to return to school after multiple job interview failures. He is resilient, deliberate, and faith-driven, with a quiet intensity and a sense of purpose.; 20-year-old male, student, 24 years old; Occupation: College Student; Personality: Resilient, Deliberate, Faith-driven; Values: Faith, Community, Perseverance; Interests: Spiritual growth, Education, Personal development; Experiences: Multiple failed job interviews, Participating in faith gatherings, Deciding to return to school",
+          "position": "Front pew, center seat",
+          "states": "Reflective, slightly anxious, open to support",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Mona Patel",
+          "gender": "Female",
+          "description": "22-year-old female, nursing student, and active member of the Christian Youth Center; Female; Age: 22; Occupation: Nursing Student; Personality: Empathetic, warm, encouraging; Values: Compassion, faith, community; Interests: Volunteering at local clinics, Bible study, mentoring younger students; Experiences: Provided first aid during a community outreach event, led a small group at the Youth Center, supported a friend through a difficult personal crisis.",
+          "position": "Next to Trevor, in the front pew",
+          "states": "Supportive, attentive, encouraging",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Yuki Tanaka",
+          "gender": "Female",
+          "description": "23-year-old female, theology student, and spiritual leader at the Christian Youth Center; Female; Age: 23; Occupation: Part-time youth ministry coordinator; Personality: Observant, patient, compassionate; Values: Faith, community, integrity; Interests: Bible study, journaling, helping others find purpose; Experiences: Led a youth group through a period of personal crises, volunteered at a local homeless shelter during college, grew up in a family of pastors.",
+          "position": "Behind Trevor, near the back of the room",
+          "states": "Observant, patient, ready to lead",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Mona Patel",
+          "character_id": 1,
+          "action": "Approaches Trevor with a warm smile and a mug of coffee",
+          "dialogue": "Hey Trevor, I brought you some coffee. You looked like you needed it. How are you holding up with school starting soon?"
+        },
+        {
+          "action_id": 1,
+          "character": "Trevor Reyes",
+          "character_id": 0,
+          "action": "Accepts the coffee and smiles faintly",
+          "dialogue": "Thanks, Mona. I’m trying to stay positive. It’s just... returning to school after those job rejections feels like a big step back, but I know it’s the right path for now."
+        },
+        {
+          "action_id": 2,
+          "character": "Yuki Tanaka",
+          "character_id": 2,
+          "action": "Joins the conversation, sitting beside Trevor",
+          "dialogue": "Step back or step forward, Trevor? God often leads us in unexpected ways. What’s important is that you’re here, seeking clarity and strength. That’s a sign of perseverance and faith."
+        },
+        {
+          "action_id": 3,
+          "character": "Trevor Reyes",
+          "character_id": 0,
+          "action": "Nods thoughtfully and shares his experience",
+          "dialogue": "I guess you’re right, Yuki. I’ve been wrestling with this tension between my ambition and my calling. I want to serve, but I also want to succeed. How do you balance that?"
+        },
+        {
+          "action_id": 4,
+          "character": "Mona Patel",
+          "character_id": 1,
+          "action": "Places a hand on Trevor’s shoulder and speaks gently",
+          "dialogue": "Sometimes success looks different than we expect. I’ve seen how your faith and resilience inspire others, even when you’re not aware of it. That’s part of your purpose here."
+        },
+        {
+          "action_id": 5,
+          "character": "Yuki Tanaka",
+          "character_id": 2,
+          "action": "Leads the group in a prayer for guidance and unity",
+          "dialogue": "Let’s pray for clarity in our paths and for the strength to support one another. Trevor, we’re all here for you, just as you’ve supported us in our times of need."
+        }
+      ],
+      "plot": "Trevor shares his recent struggles and decision to return to school, prompting a heartfelt conversation and prayer among the group. Mona and Yuki provide emotional and spiritual support, helping Trevor see his choice as a step of faith rather than a step back. The group reflects on their shared values and how their individual journeys intersect with their collective purpose.",
+      "social_purpose": "To demonstrate the importance of community and faith in navigating life’s challenges, and to naturally reveal Trevor’s internal conflict and the group’s supportive dynamic.",
+      "chunk": {
+        "id": 0,
+        "text": "Trevor Reyes sits in the community room of the Christian Youth Center, surrounded by familiar faces. As the group gathers for their weekly meeting, he shares his struggles and his decision to return to school, revealing the tension between his personal ambition and spiritual calling. Mona and Yuki respond with empathy and encouragement, helping him see his journey as one of hope and purpose. The conversation deepens as the group prays together, reinforcing their shared values of faith, community, and perseverance."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

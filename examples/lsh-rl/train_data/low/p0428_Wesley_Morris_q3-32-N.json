@@ -1,0 +1,88 @@
+{
+  "title": "The Waffle Invitation Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "A group of friends discussing a mysterious invitation to the House of King.",
+      "time": "Afternoon",
+      "location": "Living Room",
+      "description": "Wesley and his friends are relaxing in his apartment, sipping drinks and chatting. Sun hands Wesley an ornate invitation to the House of King, a local themed event promising 'free waffles for life' to participants. The friends are intrigued, but Wesley's reaction is less than enthusiastic.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Wesley Morris",
+          "gender": "Male",
+          "description": "A 25-year-old game streamer with a loud, humorous, and contradictory personality. He lounges on the sofa, arms behind his head, and wears his signature gaming hoodie.; years old, Male, Socially Active, 25 years old; Occupation: Game Streamer; Personality: Humorous, Impulsive, Extroverted, Contradictory; Values: Self-expression, Entertainment, Friendship; Interests: Pop Culture, Entertainment Activities, Social Gatherings; Experiences: Attending Parties, Making Impulsive Decisions, Expressing Opinions Loudly",
+          "position": "On the sofa",
+          "states": "Irritated, Hesitant, Entertained by absurdity",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Sun",
+          "gender": "Male",
+          "description": "A 26-year-old graphic designer with a quirky and optimistic nature; Male; Age: 26; Occupation: Freelance graphic designer; Personality: Energetic, imaginative, enthusiastic; Values: Creativity, friendship, fun; Interests: Themed events, retro aesthetics, coffee culture; Experiences: Designed promotional materials for local pop-up events, attended quirky immersive experiences in the city, frequently organizes game nights for friends.",
+          "position": "Near the coffee table",
+          "states": "Excited, Eager, Encouraging",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Hao",
+          "gender": "Male",
+          "description": "A 24-year-old college student and food enthusiast; Male; Age: 24; Occupation: Culinary arts major; Personality: Enthusiastic, Distracted, Optimistic, Curious; Values: Friendship, Creativity, Adventure; Interests: Baking, food blogs, trying new recipes; Experiences: Won a campus cooking contest, interned at a local patisserie, once drove three hours for a waffle festival.",
+          "position": "On the sofa arm",
+          "states": "Enthusiastic, Distracted, Optimistic",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Sun",
+          "character_id": 1,
+          "action": "hands Wesley the invitation",
+          "dialogue": "Hey, check this out! I got this cool invite to the House of King. They say if you go, you get free waffles for life. That’s insane!"
+        },
+        {
+          "action_id": 1,
+          "character": "Wesley Morris",
+          "character_id": 0,
+          "action": "snorts and grabs the invitation",
+          "dialogue": "Free waffles for life? Sounds like a scam. You can’t trust something that good. Probably a trap."
+        },
+        {
+          "action_id": 2,
+          "character": "Hao",
+          "character_id": 2,
+          "action": "leans in, animated",
+          "dialogue": "But think about it, Wesley! We could make a video of it. You know, like a 'streamer goes to a waffle-themed party' thing. It could go viral!"
+        },
+        {
+          "action_id": 3,
+          "character": "Wesley Morris",
+          "character_id": 0,
+          "action": "sighs, then smirks",
+          "dialogue": "Okay, maybe it’s not all bad. If it’s a joke, I’ll roast it live. If it’s real, I’ll make a splash. But if it’s a trap, I’ll be the one to expose it. Sounds like a win for me."
+        },
+        {
+          "action_id": 4,
+          "character": "Sun",
+          "character_id": 1,
+          "action": "nods, encouraging",
+          "dialogue": "Exactly! It’s a chance for us to have fun and maybe even get some good content out of it."
+        }
+      ],
+      "plot": "Wesley is initially dismissive of the House of King invitation, but after some prompting from his friends, he begins to see the potential for entertainment and self-expression through his streaming. The group debates whether to attend the event, with Wesley’s impulsive and extroverted nature causing him to flip between skepticism and excitement.",
+      "social_purpose": "To showcase Wesley’s values of entertainment and self-expression while highlighting his impulsive and contradictory personality traits through a casual group discussion.",
+      "chunk": {
+        "id": 0,
+        "text": "Wesley lounges on the sofa, arms behind his head, as Sun hands him a mysterious invitation. The group debates its authenticity, with Hao fixated on the idea of free waffles for life. Wesley’s initial disdain slowly turns into reluctant amusement, as he considers the potential for a viral stream. The friends’ shared goal of attending the event becomes a test of Wesley’s ability to let go of control and embrace the absurd."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

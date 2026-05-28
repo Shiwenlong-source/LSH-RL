@@ -1,0 +1,88 @@
+{
+  "title": "The Last Study Session",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "George decides to study at the local library to avoid distractions at home, but his family insists on joining him to support him.",
+      "time": "Evening",
+      "location": "Local Library, Study Area",
+      "description": "George Stone is seated at a table in the library, surrounded by textbooks and notes. His mother, Alice, and sister, Kiki, sit nearby, trying to be supportive but inadvertently distracting him.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "George Stone",
+          "gender": "Male",
+          "description": "A 17-year-old high school student, visibly stressed but focused on his upcoming exam.; years old / Male / High School Student, 17 years old; Occupation: High School Student; Personality: Determined, Resilient, Anxious, Considerate; Values: Family, Sense of Responsibility, Persistence; Interests: Pursuing Academic Excellence, Problem Solving, Family Interaction; Experiences: Exam Preparation, Balancing Family Expectations, Late-night Studying, Receiving Family Emotional Support",
+          "position": "Main Protagonist",
+          "states": "Studying, Nervous, Grateful",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Alice Stone",
+          "gender": "Female",
+          "description": "Alice Stone; Female; Age: 48; Occupation: High school English teacher; Personality: nurturing, empathetic, persistent; Values: family, education, personal growth; Interests: reading classic literature, baking homemade bread, attending school events; Experiences: helped her husband through law school while raising two children, volunteered at the library as a reading tutor, supported George through his first major academic challenges.",
+          "position": "Supporting Character",
+          "states": "Encouraging, Concerned, Proud",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Kiki Stone",
+          "gender": "Female",
+          "description": "George's younger sister, energetic and well-meaning, but easily gets distracted; Female; Age: 12; Occupation: 7th Grade Student; Personality: Cheerful, Impulsive, Curious; Values: Family, Fun, Kindness; Interests: Art, Animals, Daydreaming; Experiences: Struggled with focus in school, Helped organize a school talent show, Rescued a stray cat with her brother",
+          "position": "Supporting Character",
+          "states": "Cheerful, Distracted, Worried",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "George Stone",
+          "character_id": 0,
+          "action": "Studying intensely while occasionally glancing at his family.",
+          "dialogue": "I really appreciate you both being here, but I need to focus. I’ll be okay, I promise."
+        },
+        {
+          "action_id": 1,
+          "character": "Alice Stone",
+          "character_id": 1,
+          "action": "Placing a warm cup of tea in front of George and smiling.",
+          "dialogue": "You’ve worked so hard, George. I just want to make sure you know we’re here for you, no matter what."
+        },
+        {
+          "action_id": 2,
+          "character": "Kiki Stone",
+          "character_id": 2,
+          "action": "Trying to read a comic book quietly but accidentally laughing out loud.",
+          "dialogue": "Sorry, sorry! I just thought this was funny. I’ll be quiet now, I swear!"
+        },
+        {
+          "action_id": 3,
+          "character": "George Stone",
+          "character_id": 0,
+          "action": "Taking a short break to talk to his family, showing his anxiety.",
+          "dialogue": "I just don’t want to let you down. This exam means a lot to me."
+        },
+        {
+          "action_id": 4,
+          "character": "Alice Stone",
+          "character_id": 1,
+          "action": "Putting a hand on George’s shoulder and reassuring him.",
+          "dialogue": "You won’t let us down. You’re already doing great. Just take it one step at a time."
+        }
+      ],
+      "plot": "George is determined to study for his important exam but feels the pressure of his family's presence. Alice and Kiki try to support him, but their actions create a subtle tension as George struggles to balance his need for focus with his appreciation for their care.",
+      "social_purpose": "To explore George’s inner conflict between his academic goals and his family values, showing how their support can be both a comfort and a distraction.",
+      "chunk": {
+        "id": 0,
+        "text": "George Stone sat at the library table, his textbook open but his mind drifting as his mother and sister chatted softly nearby. He took a deep breath, trying to center himself, but their presence tugged at his emotions. He appreciated their support, yet he knew he needed to push through the final stretch of studying alone. The exam loomed ahead, and so did the weight of their expectations."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

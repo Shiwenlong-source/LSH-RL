@@ -1,0 +1,119 @@
+{
+  "title": "Tennis Court Tensions",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Tennis Practice and Social Gathering",
+      "time": "Afternoon",
+      "location": "Local Tennis Court",
+      "description": "Olivia meets up with her close friend Mona for a casual tennis practice session. Mona is enthusiastic and energetic, while Olivia is visibly nervous and fidgety. Patrick and Ryan, also friends, arrive shortly after, making Olivia's anxiety more pronounced. The group shares a light-hearted but awkward interaction as they attempt to balance the shared goal of playing tennis and managing their social dynamics.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Olivia Tucker",
+          "gender": "Female",
+          "description": "17-year-old high school student, sensitive and thoughtful, with lingering feelings for Patrick and a desire to maintain her friendship with Mona.; Female, 17-year-old high school student, 17 years old; Occupation: High school student; Personality: Sensitive, Anxious, Thoughtful, Empathetic; Values: Friendship, Emotional sincerity, Self-awareness; Interests: Tennis, Chatting, Social activities, Emotional reflection; Experiences: Recently developed a crush on someone, Social anxiety, Values close friendships, Self-reflection, Participating in leisure sports",
+          "position": "Near the center of the court, holding a racket",
+          "states": "Nervous, conflicted, trying to stay composed",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Mona Patel",
+          "gender": "Female",
+          "description": "Mona is a skilled and confident tennis player who is eager to practice and enjoys social interactions; Female; Age: 22; Occupation: Sports Science Student; Personality: Enthusiastic, outgoing, competitive; Values: Friendship, perseverance, teamwork; Interests: Tennis, fitness, group activities; Experiences: Competed in regional college tennis tournaments, organized community sports events, trained with professional coaches during summer camps.",
+          "position": "Standing beside Olivia, ready to play",
+          "states": "Energetic, friendly, focused on the game",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Patrick Lee",
+          "gender": "Male",
+          "description": "A talented tennis player and someone Olivia has a crush on, he is charismatic but unaware of Olivia's feelings; Male; Age: 22; Occupation: College tennis team captain and part-time sports instructor; Personality: Charming, confident, easygoing; Values: Sportsmanship, loyalty, friendly competition; Interests: Tennis, music festivals, casual hangouts with friends; Experiences: Competed in regional college tournaments, coached beginner players at a local academy, frequently socializes with teammates at weekend gatherings.",
+          "position": "Arriving at the court with Ryan",
+          "states": "Charming, casual, unaware of Olivia's anxiety",
+          "is_npc": true
+        },
+        {
+          "id": 3,
+          "name": "Ryan Kim",
+          "gender": "Male",
+          "description": "Ryan Kim; Male; Age: 21; Occupation: Sports Science Student; Personality: Observant, friendly, slightly amused; Values: Empathy, balance, camaraderie; Interests: Tennis, casual photography, coffee culture; Experiences: Volunteered as a tennis coach for a youth program, frequently socializes with friends in low-pressure settings, helped a close friend through a stressful academic period.",
+          "position": "Near the bleachers, watching the group",
+          "states": "Observant, friendly, slightly amused",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Mona Patel",
+          "character_id": 1,
+          "action": "Initiates the group activity",
+          "dialogue": "Alright, everyone, let's warm up! Olivia, you're on my side today, right?"
+        },
+        {
+          "action_id": 1,
+          "character": "Olivia Tucker",
+          "character_id": 0,
+          "action": "Responds with hesitation",
+          "dialogue": "Yeah, sure. I just hope I don't mess up again."
+        },
+        {
+          "action_id": 2,
+          "character": "Patrick Lee",
+          "character_id": 2,
+          "action": "Offers encouragement",
+          "dialogue": "Don't worry, Olivia. We're all here to have fun and improve. You've got this!"
+        },
+        {
+          "action_id": 3,
+          "character": "Ryan Kim",
+          "character_id": 3,
+          "action": "Observes and comments",
+          "dialogue": "You know, Olivia, I think you're better than you give yourself credit for."
+        },
+        {
+          "action_id": 4,
+          "character": "Olivia Tucker",
+          "character_id": 0,
+          "action": "Attempts to stay positive",
+          "dialogue": "Thanks, Ryan. I just need to focus more on the game than on everything else."
+        },
+        {
+          "action_id": 5,
+          "character": "Mona Patel",
+          "character_id": 1,
+          "action": "Changes the subject",
+          "dialogue": "Hey, Patrick, you think we should try some doubles later? Maybe Olivia and I can team up!"
+        },
+        {
+          "action_id": 6,
+          "character": "Patrick Lee",
+          "character_id": 2,
+          "action": "Agrees enthusiastically",
+          "dialogue": "Absolutely, that sounds like a great idea! I can't wait to see what you two can do together."
+        },
+        {
+          "action_id": 7,
+          "character": "Olivia Tucker",
+          "character_id": 0,
+          "action": "Smiles but remains introspective",
+          "dialogue": "I hope I can keep up. I really enjoy playing with you, Mona."
+        }
+      ],
+      "plot": "Olivia's anxiety about being around Patrick is compounded by the presence of Ryan, who she feels has been a supportive friend. As the group begins to play, Olivia tries to focus on the game and her friendship with Mona, but her thoughts keep drifting back to her feelings for Patrick. Ryan's presence and kind words provide some comfort, but the tension in the air remains as Olivia struggles to balance her emotional needs with her desire to be part of the group.",
+      "social_purpose": "To explore Olivia's internal conflict and social dynamics through a shared activity, highlighting her sensitivity, anxiety, and the value she places on friendship and emotional sincerity.",
+      "chunk": {
+        "id": 0,
+        "text": "At the local tennis court, Olivia stood with her racket in hand, her eyes darting between the incoming players and the lines on the court. Mona, her close friend, was already in motion, bouncing a ball and calling for everyone to warm up. 'You're on my side today, right?' she asked, her tone upbeat and encouraging. Olivia nodded, her voice barely above a whisper as she replied, 'Yeah, sure. I just hope I don't mess up again.' Patrick, the object of her affection, arrived with Ryan, his usual charm evident as he reassured her, 'Don't worry, Olivia. We're all here to have fun and improve. You've got this!' Ryan, who had sent her a comforting message earlier that day, added his own words of support: 'You know, Olivia, I think you're better than you give yourself credit for.' Olivia tried to smile, but her thoughts were a tangled mess. 'I hope I can keep up,' she said, her voice tinged with uncertainty. 'I really enjoy playing with you, Mona.' The group was forming, and the game was about to begin, but for Olivia, the real match was the one inside her head."
+      },
+      "npcs": [
+        1,
+        2,
+        3
+      ]
+    }
+  ]
+}

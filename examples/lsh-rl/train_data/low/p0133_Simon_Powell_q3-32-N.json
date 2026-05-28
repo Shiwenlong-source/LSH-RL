@@ -1,0 +1,102 @@
+{
+  "title": "Rebuilding Together",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Coffee Shop Meetup",
+      "time": "Afternoon",
+      "location": "A cozy, local coffee shop with soft lighting and a quiet atmosphere",
+      "description": "Simon sits at a corner table, nervously sipping his coffee, while Mina and Jason wait for him. Mina is the first to arrive, her calm and warm presence helping to ease the tension in the air. Jason, being more reserved, sits quietly with a supportive look on his face. The three of them share a goal: to help Simon regain his confidence and start rebuilding his life.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Simon Powell",
+          "gender": "Male",
+          "description": "A 27-year-old delivery driver who has recently experienced an emotional breakdown. He is introspective and empathetic, but also vulnerable and hesitant to open up.; 27-year-old /male/resident, 24 years old; Occupation: Delivery driver; Personality: Introspective, Empathetic, Vulnerable, Resilient; Values: Friendship, Emotional honesty, Self-worth; Interests: Personal reflection, Emotional healing, Technology; Experiences: Recent emotional breakdown, Received emotional support, Video communication with friends, Self-doubt, Seeking connection",
+          "position": "Corner table",
+          "states": "Nervous, hopeful, reflective",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Mina",
+          "gender": "Female",
+          "description": "Simon's close friend and emotional anchor; Female; Age: 28; Occupation: Counselor; Personality: Calm, empathetic, attentive; Values: Loyalty, emotional well-being, authenticity; Interests: Reading self-help books, journaling, yoga; Experiences: Helped friends through personal crises, volunteered at a community mental health center, overcame her own anxiety through therapy and mindfulness.",
+          "position": "Across from Simon",
+          "states": "Supportive, attentive, empathetic",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Jason",
+          "gender": "Male",
+          "description": "Another close friend of Simon's, known for his quiet strength and unwavering support. He is a good listener and rarely speaks, but his presence is comforting; Male; Age: 28; Occupation: Social worker; Personality: Empathetic, patient, introverted; Values: Loyalty, emotional well-being, authenticity; Interests: Reading self-help books, hiking, journaling; Experiences: Helped several clients through personal crises, lost a close friend to a mental health struggle, volunteered at a community support center.",
+          "position": "Next to Simon",
+          "states": "Silent, supportive, observant",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Mina",
+          "character_id": 1,
+          "action": "Initiates conversation",
+          "dialogue": "Hey Simon, I'm really glad you came. I wanted to talk to you about something important. We're here for you, always."
+        },
+        {
+          "action_id": 1,
+          "character": "Simon Powell",
+          "character_id": 0,
+          "action": "Responds hesitantly",
+          "dialogue": "I don't know, Mina. I just feel like I'm not good enough at anything anymore. Like I'm failing at life."
+        },
+        {
+          "action_id": 2,
+          "character": "Mina",
+          "character_id": 1,
+          "action": "Shares a personal story",
+          "dialogue": "I went through something similar a few years ago. I felt like I was losing my sense of self. But I found healing in small steps—like this coffee shop, or even just talking about it."
+        },
+        {
+          "action_id": 3,
+          "character": "Simon Powell",
+          "character_id": 0,
+          "action": "Takes a deep breath and opens up",
+          "dialogue": "I've been thinking a lot about what I want. Maybe I could use my interest in technology to start a side project. But I'm scared I'll mess it up."
+        },
+        {
+          "action_id": 4,
+          "character": "Jason",
+          "character_id": 2,
+          "action": "Offers silent encouragement",
+          "dialogue": ""
+        },
+        {
+          "action_id": 5,
+          "character": "Mina",
+          "character_id": 1,
+          "action": "Reassures Simon",
+          "dialogue": "You don't have to do it all at once. Just take it one step at a time. We can help you brainstorm or even find resources if you want."
+        },
+        {
+          "action_id": 6,
+          "character": "Simon Powell",
+          "character_id": 0,
+          "action": "Shows a flicker of hope",
+          "dialogue": "Maybe... I could start with a simple app for tracking deliveries. It's something I know, and it might help me feel more in control."
+        }
+      ],
+      "plot": "Simon meets with his friends Mina and Jason at a local coffee shop. Mina initiates a conversation to support Simon after his recent emotional breakdown. Through dialogue and shared experiences, Simon begins to open up about his struggles and shares an idea for a tech project, signaling a small but meaningful step toward rebuilding his self-worth.",
+      "social_purpose": "To showcase Simon's vulnerability, his value of friendship, and his interest in technology and emotional healing. The interaction highlights how emotional honesty and support from friends can help someone regain stability.",
+      "chunk": {
+        "id": 0,
+        "text": "Simon meets with his friends Mina and Jason at a local coffee shop. Mina initiates a conversation to support Simon after his recent emotional breakdown. Through dialogue and shared experiences, Simon begins to open up about his struggles and shares an idea for a tech project, signaling a small but meaningful step toward rebuilding his self-worth."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

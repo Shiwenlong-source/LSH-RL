@@ -1,0 +1,88 @@
+{
+  "title": "Finding a Quiet Corner",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Toby shares his rooftop idea with colleagues during a break.",
+      "time": "Afternoon",
+      "location": "Office pantry",
+      "description": "Toby stands near the window in the small office pantry, looking tired and slightly anxious. Rosa and Lucas approach, noticing his expression and curiosity about his whispered comment about the roof. The atmosphere is casual but tense, as Toby weighs his need for privacy against the risk of seeming distant.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Toby",
+          "gender": "Male",
+          "description": "A young office worker in his late 20s, recently moved into the building, who is contemplative and introverted. He is visibly stressed and seeking a personal space.; Male / office worker, 29 years old; Occupation: Office Clerk; Personality: Contemplative, Introverted, Anxious, Imaginative; Values: Privacy, Independence, Self-reflection; Interests: Private space design, Quiet environments, Rooftop views; Experiences: Recently entered office environment, Feeling stressed due to shared spaces, Seeking personal rest space",
+          "position": "Near the window",
+          "states": "Tired, anxious, contemplative",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Rosa",
+          "gender": "Female",
+          "description": "A friendly and observant coworker in her early 30s who notices Toby's discomfort and offers support; Female; Age: 32; Occupation: Office Project Coordinator; Personality: Empathetic, Perceptive, Supportive; Values: Work-life balance, Mutual respect, Emotional intelligence; Interests: Urban gardening, Journaling, Casual photography; Experiences: Managed a team through a stressful product launch, Supported a coworker during a mental health crisis, Volunteered at a community mental health workshop.",
+          "position": "Approaching Toby",
+          "states": "Concerned, curious, supportive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Lucas",
+          "gender": "Male",
+          "description": "A laid-back and talkative coworker in his late 20s who is eager to engage with Toby and help him feel more at ease; Male; Age: 28; Occupation: Marketing Specialist; Personality: Friendly, observant, supportive; Values: Camaraderie, open communication, work-life balance; Interests: Urban photography, coffee culture, weekend hiking; Experiences: Successfully led a team project under pressure, recently moved to the city for a new job, enjoys mentoring new hires.",
+          "position": "Standing next to Rosa",
+          "states": "Relaxed, interested, encouraging",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Toby",
+          "character_id": 0,
+          "action": "Whispers about the rooftop",
+          "dialogue": "I just wish I had a quiet corner of my own up on the roof. It’s the only place I can think clearly."
+        },
+        {
+          "action_id": 1,
+          "character": "Rosa",
+          "character_id": 1,
+          "action": "Notices his expression and asks a question",
+          "dialogue": "You look exhausted, Toby. Is everything okay?"
+        },
+        {
+          "action_id": 2,
+          "character": "Toby",
+          "character_id": 0,
+          "action": "Shares his recent experiences",
+          "dialogue": "It’s just... the office feels so small and shared. I’m not used to it yet."
+        },
+        {
+          "action_id": 3,
+          "character": "Lucas",
+          "character_id": 2,
+          "action": "Offers to help",
+          "dialogue": "Maybe we can help you make the rooftop your own. I know a bit about design—let me hear your ideas."
+        },
+        {
+          "action_id": 4,
+          "character": "Toby",
+          "character_id": 0,
+          "action": "Hesitates but agrees to talk",
+          "dialogue": "I don’t know... I don’t want to seem like I’m not a team player, but I really need some space to breathe."
+        }
+      ],
+      "plot": "Toby confides in Rosa and Lucas about his need for a quiet space in the office, specifically the rooftop. His colleagues respond with empathy and curiosity, helping him feel more comfortable expressing his personal needs while maintaining a sense of connection.",
+      "social_purpose": "To explore how Toby can balance his values of privacy and independence with his desire to build positive workplace relationships, while also revealing his personality and background.",
+      "chunk": {
+        "id": 0,
+        "text": "Toby, standing near the window in the pantry, lets out a sigh as he stares out at the sky. Rosa, noticing his tired expression, gently asks if he's okay. He hesitates, then shares how the shared office spaces are overwhelming for him. Lucas, intrigued, offers to help him create a private space on the roof. Toby, still anxious, considers the idea, realizing that opening up might not be as isolating as he feared."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

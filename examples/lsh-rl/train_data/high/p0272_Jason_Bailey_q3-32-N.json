@@ -1,0 +1,123 @@
+{
+  "title": "The Coffee House Confession",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Jason and her coworker, Maya, meet for coffee to discuss a group project. Cici, a mutual friend, joins them unexpectedly.",
+      "time": "4:30 PM",
+      "location": "A quiet corner of a local coffee house",
+      "description": "The sun is starting to set, casting a warm glow through the large windows of the coffee house. Jason sits with her notebook open, sipping a decaf latte. Maya, a pragmatic and driven project manager, is reviewing a presentation on her laptop. Cici, Jason’s close friend and a free-spirited artist, enters and joins their table with a smile and a sketchbook in hand.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Jason Bailey",
+          "gender": "female",
+          "description": "A young professional with a deep sense of faith and introspection, visibly thoughtful and composed, though her eyes reveal a hint of inner turmoil.; female, faith-inclined, 25 years old; Occupation: Young professional; Personality: Rational, Empathetic, Devout, Introspective; Values: Faith, Emotional honesty, Friendship; Interests: Self-reflection, Deep conversation, Faith practice; Experiences: Handling complex friendships, Coping with unrequited feelings, Late-night emotional exchanges",
+          "position": "Seated at the table, sipping coffee and writing notes",
+          "states": "Thoughtful, emotionally conflicted, seeking clarity",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Maya Chen",
+          "gender": "female",
+          "description": "A focused and pragmatic coworker, confident and goal-oriented, with a calm but direct demeanor; Female; Age: 29; Occupation: Project Manager; Personality: Analytical, empathetic, organized; Values: Team collaboration, efficiency, integrity; Interests: Strategic board games, urban hiking, reading business strategy books; Experiences: Successfully led a cross-departmental tech rollout, mentored new hires in project planning, navigated a high-pressure product launch under tight deadlines.",
+          "position": "Sitting beside Jason, working on her laptop",
+          "states": "Professional, curious, supportive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Cici Ramirez",
+          "gender": "female",
+          "description": "A free-spirited and empathetic artist, warm and expressive, often speaks her mind and brings emotional honesty to conversations; Female; Age: 28; Occupation: Freelance graphic designer and muralist; Personality: Playful, insightful, observant; Values: Creativity, authenticity, community; Interests: Street art, storytelling through visual media, experimental mixed-media projects; Experiences: Collaborated on a citywide mural project that brought together diverse neighborhoods, helped a nonprofit create branding materials that amplified their message, once spent a year traveling and sketching people in different cultures to better understand human connection.",
+          "position": "Sitting across from Jason and Maya, flipping through her sketchbook",
+          "states": "Playful, insightful, observant",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Jason Bailey",
+          "character_id": 0,
+          "action": "Jason looks up from her notes and smiles warmly at Cici as she approaches.",
+          "dialogue": "Cici! I didn’t expect to see you here. Come join us."
+        },
+        {
+          "action_id": 1,
+          "character": "Maya Chen",
+          "character_id": 1,
+          "action": "Maya closes her laptop and gestures to the empty chair.",
+          "dialogue": "We were just talking about the project. You’re always good for a new perspective."
+        },
+        {
+          "action_id": 2,
+          "character": "Cici Ramirez",
+          "character_id": 2,
+          "action": "Cici sits down, placing her sketchbook on the table, and notices Jason’s thoughtful expression.",
+          "dialogue": "Hey, you look like you’ve got something on your mind. Everything okay?"
+        },
+        {
+          "action_id": 3,
+          "character": "Jason Bailey",
+          "character_id": 0,
+          "action": "Jason hesitates, then lowers her voice slightly.",
+          "dialogue": "I’ve been wrestling with something. There’s a guy at work, and I’m not sure if I’m overreacting or if I should talk to him."
+        },
+        {
+          "action_id": 4,
+          "character": "Maya Chen",
+          "character_id": 1,
+          "action": "Maya nods, her tone practical.",
+          "dialogue": "Is this something that’s affecting the project? If it’s impacting your work, maybe it’s time to address it."
+        },
+        {
+          "action_id": 5,
+          "character": "Cici Ramirez",
+          "character_id": 2,
+          "action": "Cici tilts her head, her eyes soft and understanding.",
+          "dialogue": "Sometimes the heart feels things the mind can’t explain. What does your faith tell you about this situation?"
+        },
+        {
+          "action_id": 6,
+          "character": "Jason Bailey",
+          "character_id": 0,
+          "action": "Jason sighs, running a hand through her hair.",
+          "dialogue": "It tells me to be honest and to trust in God’s plan. But I’m afraid of how I’ll feel if I’m honest and it doesn’t go the way I hope."
+        },
+        {
+          "action_id": 7,
+          "character": "Maya Chen",
+          "character_id": 1,
+          "action": "Maya offers a reassuring smile.",
+          "dialogue": "You’re not alone in that fear. But sometimes, not acting is scarier in the long run."
+        },
+        {
+          "action_id": 8,
+          "character": "Cici Ramirez",
+          "character_id": 2,
+          "action": "Cici flips through her sketchbook and shows them a drawing of two people standing at a crossroads.",
+          "dialogue": "This is what I was working on earlier. It’s about choices. Maybe it’s a sign you should make yours."
+        },
+        {
+          "action_id": 9,
+          "character": "Jason Bailey",
+          "character_id": 0,
+          "action": "Jason studies the drawing, her expression shifting slightly.",
+          "dialogue": "You’re both right. I think I need to pray about this and figure out what’s truly best for me."
+        }
+      ],
+      "plot": "Jason is struggling with unrequited feelings for a coworker and is seeking advice from her friend Cici and her rational coworker Maya. The conversation reveals Jason's inner conflict between her faith and emotions, and Cici’s artistic intuition and Maya’s pragmatic perspective help her begin to see a path forward.",
+      "social_purpose": "To explore Jason’s values of faith and emotional honesty in a public setting while engaging with two contrasting personalities—Cici’s emotional insight and Maya’s rational approach—providing a natural way to reveal her inner struggles and personality.",
+      "chunk": {
+        "id": 0,
+        "text": "Jason, Maya, and Cici sit together in the coffee house, discussing Jason’s emotional conflict with a coworker. Their conversation highlights Jason’s introspective and faith-driven nature, as well as her struggle with emotional honesty in a professional setting."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

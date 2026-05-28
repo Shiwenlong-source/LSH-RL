@@ -1,0 +1,102 @@
+{
+  "title": "Candlelight and Confrontation",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Family Dinner",
+      "time": "6:30 PM",
+      "location": "Hunter Family Dining Room",
+      "description": "The Hunter family is gathered for a weekly dinner. The table is set with a simple meal, but the air is thick with unspoken tension. Harper, in a flowy, hand-stitched dress, sits at the head of the table, her mother across from her, and her father on her right. The room is dimly lit, with candles Harper made glowing softly on the table.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Harper Hunter",
+          "gender": "Female",
+          "description": "A 35-year-old candle business owner with a strong sense of self. She is passionate about her work and values authenticity above all else.; Female, Daughter, 35 years old; Occupation: Candle Business Owner; Personality: Independent, Determined, Passionate, Emotional; Values: Autonomy, Respect, Authenticity; Interests: Entrepreneurship, Handicrafts, Family Relationships; Experiences: Running her own business, Handling family conflicts, Challenging traditional concepts",
+          "position": "Head of the table",
+          "states": "Tense, emotionally charged, but composed",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Margaret Hunter",
+          "gender": "Female",
+          "description": "Harper's mother, in her late 60s; Female; Age: 68; Occupation: Retired high school English teacher; Personality: Critical, dismissive, condescending; Values: Traditional family roles, academic excellence; Interests: Reading classic literature, gardening, church activities; Experiences: Raised three children in a strict, disciplined household, taught at the same school for 35 years, witnessed the decline of \"modern values\" in education and society.",
+          "position": "Across from Harper",
+          "states": "Critical, dismissive, and condescending",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Ethan Hunter",
+          "gender": "Male",
+          "description": "Harper's father, in his early 70s; Male; Age: 72; Occupation: Retired high school shop teacher; Personality: Stoic, observant, quietly empathetic; Values: Family unity, hard work, tradition; Interests: Woodworking, gardening, old jazz records; Experiences: Witnessed the decline of blue-collar jobs in the 1980s, raised three children during economic uncertainty, recently lost his wife to illness.",
+          "position": "To Harper's right",
+          "states": "Neutral, passive, and resigned",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Margaret Hunter",
+          "character_id": 1,
+          "action": "makes a pointed comment about Harper's career",
+          "dialogue": "Harper, I just don't see how making candles is a real business. You could be doing something with more potential—like real estate. That’s what people in your position do."
+        },
+        {
+          "action_id": 1,
+          "character": "Harper Hunter",
+          "character_id": 0,
+          "action": "responds with a mix of passion and frustration",
+          "dialogue": "Mom, it's not just about potential. It's about what I'm passionate about. My candles bring people peace and joy. That's real. Real estate is about profit, not passion."
+        },
+        {
+          "action_id": 2,
+          "character": "Margaret Hunter",
+          "character_id": 1,
+          "action": "replies with a dismissive tone",
+          "dialogue": "Passion won't pay the bills when you're 60. You need to think about stability, not just how you feel."
+        },
+        {
+          "action_id": 3,
+          "character": "Harper Hunter",
+          "character_id": 0,
+          "action": "defends her work and values",
+          "dialogue": "I *am* stable. My business is growing, and I'm proud of what I do. I don’t need to conform to your idea of success to be respected in this family."
+        },
+        {
+          "action_id": 4,
+          "character": "Ethan Hunter",
+          "character_id": 2,
+          "action": "interjects with a calm, but firm tone",
+          "dialogue": "Harper's doing something that matters to her. Maybe we should respect that instead of pushing her to follow a path she doesn’t want."
+        },
+        {
+          "action_id": 5,
+          "character": "Margaret Hunter",
+          "character_id": 1,
+          "action": "reacts with irritation",
+          "dialogue": "Respect? Ethan, she’s throwing her life away. Real estate is secure. It’s what I did for this family."
+        },
+        {
+          "action_id": 6,
+          "character": "Harper Hunter",
+          "character_id": 0,
+          "action": "asserts her independence",
+          "dialogue": "I appreciate your concern, but I'm not throwing anything away. I made my own path, and I'm not going to apologize for that."
+        }
+      ],
+      "plot": "At a seemingly routine family dinner, Harper confronts her mother's dismissive attitude toward her candle business, revealing the underlying tension between their differing values. Her father, usually silent, finally speaks up in support, adding a new dynamic to the interaction. Harper's emotional response highlights her struggle to assert her independence while maintaining family harmony.",
+      "social_purpose": "To explore the conflict between personal autonomy and family expectations, and how individuals express their values through dialogue and actions in emotionally charged situations.",
+      "chunk": {
+        "id": 0,
+        "text": "The Hunter family sat in their dining room, the flickering candlelight casting shadows on the walls. Harper took a deep breath, trying to keep her composure as her mother's words cut through the quiet. 'Harper, I just don't see how making candles is a real business. You could be doing something with more potential—like real estate. That’s what people in your position do.' Harper's hands tightened around her fork. 'Mom, it's not just about potential. It's about what I'm passionate about. My candles bring people peace and joy. That's real. Real estate is about profit, not passion.' Margaret scoffed, 'Passion won't pay the bills when you're 60. You need to think about stability, not just how you feel.' Harper's voice rose slightly, but she remained steady. 'I *am* stable. My business is growing, and I'm proud of what I do. I don’t need to conform to your idea of success to be respected in this family.' Ethan finally spoke, his tone calm but firm. 'Harper's doing something that matters to her. Maybe we should respect that instead of pushing her to follow a path she doesn’t want.' Margaret turned to him, irritation evident. 'Respect? Ethan, she’s throwing her life away. Real estate is secure. It’s what I did for this family.' Harper looked at her father, a flicker of hope in her eyes. 'I appreciate your concern, but I'm not throwing anything away. I made my own path, and I'm not going to apologize for that.'"
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

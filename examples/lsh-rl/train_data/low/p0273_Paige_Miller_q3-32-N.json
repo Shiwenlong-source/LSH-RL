@@ -1,0 +1,105 @@
+{
+  "title": "The Party Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Friends gather at a local sports bar to celebrate a birthday",
+      "time": "Friday evening",
+      "location": "A sports bar in the college town",
+      "description": "Paige Miller is at a crowded bar with friends, trying to balance his commitment to training with the social event. The group is watching a wrestling match on TV while also celebrating their friend's birthday. Tension is rising subtly as others make plans that exclude him.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Paige Miller",
+          "gender": "Male",
+          "description": "22-year-old student athlete, focused and passionate about wrestling and strength training.; 22-year-old /male/student athlete, 24 years old; Occupation: Wrestler; Personality: Confident, Focused, Passionate, Determined; Values: Dedication, Self-discipline, Success; Interests: Wrestling, Strength training, Competitive sports; Experiences: High-intensity wrestling training, College sports competitions, Gatherings with friends",
+          "position": "At the bar counter, watching the match",
+          "states": "Determined, slightly defensive",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Anna",
+          "gender": "Female",
+          "description": "Paige's close friend, a 23-year-old psychology student who is empathetic and curious about others' motivations; Female; Age: 23; Occupation: Barista at a local coffee shop; Personality: Empathetic, analytical, loyal; Values: Honesty, personal growth, meaningful connections; Interests: People-watching, indie music, journaling; Experiences: Volunteered at a mental health outreach program, helped a friend through a difficult breakup, studied abroad for a semester in Spain.",
+          "position": "Next to Paige, holding a drink",
+          "states": "Supportive but questioning",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Jake",
+          "gender": "Male",
+          "description": "24-year-old engineering student, outgoing and enjoys social events, often teases Paige in good fun; Male; Age: 24; Occupation: Part-time mechanical engineering student at the local university; Personality: Charismatic, playful, loyal; Values: Friendship, humor, inclusivity; Interests: Watching sports, practical jokes, casual gaming; Experiences: Grew up in a close-knit group of friends, worked as a camp counselor during high school, struggled with balancing academics and social life in college.",
+          "position": "Near the TV, with a group of friends",
+          "states": "Playfully teasing, trying to include Paige",
+          "is_npc": true
+        },
+        {
+          "id": 3,
+          "name": "Mia",
+          "gender": "Female",
+          "description": "Mia is a 22-year-old marketing student who is laid-back and often the mediator in group dynamics; Female; Age: 22; Occupation: Part-time barista and marketing intern; Personality: Empathetic, easygoing, observant; Values: Loyalty, balance, inclusivity; Interests: Sports, social media, indie music; Experiences: Mediated a group project conflict that saved a team from failure, worked late shifts during exam season to support a friend’s mental health, cheered on her brother in a local wrestling tournament.",
+          "position": "Sitting at a nearby table with other friends",
+          "states": "Observing, slightly concerned",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Jake",
+          "character_id": 2,
+          "action": "Teases Paige about missing out on the date",
+          "dialogue": "Come on, man, you're missing out! That girl was into you. What's more important, the match or your love life?"
+        },
+        {
+          "action_id": 1,
+          "character": "Paige Miller",
+          "character_id": 0,
+          "action": "Defends his decision with confidence",
+          "dialogue": "Training is my priority right now. This match is my life. I can't afford to lose focus."
+        },
+        {
+          "action_id": 2,
+          "character": "Anna",
+          "character_id": 1,
+          "action": "Tries to understand Paige's perspective",
+          "dialogue": "I get that you're serious about wrestling, but don't you ever worry about missing out on things outside of the gym?"
+        },
+        {
+          "action_id": 3,
+          "character": "Paige Miller",
+          "character_id": 0,
+          "action": "Explains his mindset and values",
+          "dialogue": "For me, wrestling is more than a sport. It's my faith. I've put in the work, and I can't let distractions derail my goals."
+        },
+        {
+          "action_id": 4,
+          "character": "Mia",
+          "character_id": 3,
+          "action": "Attempts to ease the tension and suggest compromise",
+          "dialogue": "How about you stay for a bit and then go train later? We all want you to be part of the fun too."
+        },
+        {
+          "action_id": 5,
+          "character": "Paige Miller",
+          "character_id": 0,
+          "action": "Considers the suggestion but remains firm",
+          "dialogue": "I appreciate that, Mia, but I need to stick to my routine. I have a competition in two weeks, and I can't afford to slip up."
+        }
+      ],
+      "plot": "Paige is at a friend's birthday party but is visibly distant and focused on the wrestling match on TV. His friend Jake teases him about turning down a date for training, prompting a conversation about his priorities. Anna, who has a more empathetic nature, gently questions his lifestyle, while Mia tries to mediate and find a middle ground. The dialogue reveals the tension between Paige's intense dedication to wrestling and his desire to maintain friendships.",
+      "social_purpose": "To explore the conflict between personal dedication and social connection, showcasing how differing values can affect relationships.",
+      "chunk": {
+        "id": 0,
+        "text": "Jake's teasing highlights the social pressure on Paige to conform to more traditional social norms, while Anna's questions reveal a deeper concern for his well-being and work-life balance. Mia's mediation attempts to find common ground, but the underlying issue remains unresolved, emphasizing the complexity of maintaining both personal goals and social bonds."
+      },
+      "npcs": [
+        1,
+        2,
+        3
+      ]
+    }
+  ]
+}

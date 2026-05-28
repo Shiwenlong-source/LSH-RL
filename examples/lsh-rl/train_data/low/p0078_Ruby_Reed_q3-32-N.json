@@ -1,0 +1,102 @@
+{
+  "title": "Dinner Dilemma at Home",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Family dinner",
+      "time": "6:30 PM",
+      "location": "Reed family kitchen",
+      "description": "Ruby Reed, a 26-year-old music teacher, enters the kitchen after a long day of teaching. Her parents, seated at the table, are already preparing to eat. Her mother, Margaret Reed, is a retired nurse, and her father, Thomas Reed, is a retired carpenter. The tension in the air is palpable as the dinner on the table is not vegetarian, conflicting with Ruby's dietary preferences.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Ruby Reed",
+          "gender": "Female",
+          "description": "A young music teacher who is independent, thoughtful, and enthusiastic. She values her health and personal choices, but also wants to maintain harmony with her family.; Female / Music teacher, 26 years old; Occupation: Music teacher; Personality: Independent, Thoughtful, Enthusiastic; Values: Independence, Health, Family; Interests: Music, Reading, Vegetarianism; Experiences: Teaching music, Balancing personal and family needs, Struggling with dietary preferences",
+          "position": "Kitchen entrance",
+          "states": "Exhausted, hesitant, determined",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Margaret Reed",
+          "gender": "Female",
+          "description": "A retired nurse in her 60s, practical and traditional; Female; Age: 64; Occupation: Retired registered nurse; Personality: Frustrated, firm, concerned, meticulous, caring; Values: Family traditions, health and wellness, responsibility; Interests: Cooking, gardening, volunteering at the local clinic; Experiences: Cared for family members during long-term illnesses, worked in a hospital for over 30 years, raised three children on strict routines.",
+          "position": "Kitchen table",
+          "states": "Frustrated, firm, concerned",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Thomas Reed",
+          "gender": "Male",
+          "description": "A retired carpenter in his 60s, calm and supportive; Male; Age: 64; Occupation: Retired high school woodworking teacher; Personality: Gentle, understanding, conflicted; Values: Family unity, respect for personal choices, tradition; Interests: Woodworking, gardening, old jazz records; Experiences: Spent 30 years teaching students the value of craftsmanship, recently learned about Ruby’s shift to a vegetarian lifestyle, often finds himself balancing his wife's habits with Ruby's preferences.",
+          "position": "Kitchen table",
+          "states": "Gentle, understanding, conflicted",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Ruby Reed",
+          "character_id": 0,
+          "action": "Enters the kitchen and looks at the dinner table with hesitation.",
+          "dialogue": "Mom, I don’t think I can eat that. I’m vegetarian now."
+        },
+        {
+          "action_id": 1,
+          "character": "Margaret Reed",
+          "character_id": 1,
+          "action": "Looks up from her plate and scolds Ruby.",
+          "dialogue": "You’re always making things complicated, Ruby. We do our best to feed you, and now you’re telling us you can’t eat what’s on the table?"
+        },
+        {
+          "action_id": 2,
+          "character": "Thomas Reed",
+          "character_id": 2,
+          "action": "Tries to calm the situation by speaking gently.",
+          "dialogue": "Maybe she just wanted to let us know in advance so we can adjust next time, Margaret."
+        },
+        {
+          "action_id": 3,
+          "character": "Ruby Reed",
+          "character_id": 0,
+          "action": "Sighs and sits down, trying to remain composed.",
+          "dialogue": "I’m not trying to be difficult, I just care about my health and what I put into my body. It’s a personal choice, and I hope you can respect it."
+        },
+        {
+          "action_id": 4,
+          "character": "Margaret Reed",
+          "character_id": 1,
+          "action": "Crosses her arms and responds with a mix of frustration and concern.",
+          "dialogue": "We’re your family, Ruby. Sometimes that means you have to compromise."
+        },
+        {
+          "action_id": 5,
+          "character": "Thomas Reed",
+          "character_id": 2,
+          "action": "Looks at Ruby with understanding and suggests a solution.",
+          "dialogue": "How about I make a quick salad for you? We can still have dinner together, just a little differently."
+        },
+        {
+          "action_id": 6,
+          "character": "Ruby Reed",
+          "character_id": 0,
+          "action": "Smiles slightly and nods, showing her appreciation.",
+          "dialogue": "That would be great, Dad. Thank you."
+        }
+      ],
+      "plot": "Ruby tries to navigate the tension between her vegetarian diet and her parents' traditional meal preparation. Her father offers a compromise, while her mother remains critical, highlighting the broader struggle Ruby faces in balancing her independence and family expectations.",
+      "social_purpose": "To explore the challenges of asserting personal values (vegetarianism and health) while maintaining family harmony and independence.",
+      "chunk": {
+        "id": 0,
+        "text": "The dinner table becomes a battleground of values and expectations as Ruby tries to explain her vegetarianism to her parents. Her father's calm support contrasts with her mother's frustration, showcasing Ruby's internal conflict between personal choice and family unity."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "title": "The Poster Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Victoria shows her friends the Taylor concert poster she won on eBay",
+      "time": "Afternoon",
+      "location": "University campus café",
+      "description": "Victoria sits at a small table with her two friends, Lucy and Lina, in the bustling campus café. She is beaming with excitement as she reveals a Taylor Swift concert poster she recently won on eBay. The friends are gathered for a study break, but the mood shifts as Victoria's enthusiasm contrasts with Lina's more practical concerns.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Victoria Burns",
+          "gender": "Female",
+          "description": "A 24-year-old college student with a bubbly personality and a deep love for music and fashion. She is currently studying graphic design and is known for her colorful, expressive style.; 20-year-old female student, 24 years old; Occupation: College Student; Personality: Enthusiastic, Stylish, Optimistic, Passionate; Values: Self-expression, Friendship, Aesthetic appreciation; Interests: Music, Fashion, Online shopping, Collectibles; Experiences: Attending concerts, Decorating personal space, Participating in online communities, Balancing academics and hobbies",
+          "position": "Seated at the table, holding the poster",
+          "states": "Excited, cheerful, eager to share",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Lucy",
+          "gender": "Female",
+          "description": "Lucy is Victoria's supportive friend who is also a student but tends to be more laid-back and easygoing; Female; Age: 21; Occupation: Psychology major with a part-time job at the campus bookstore; Personality: easygoing, empathetic, cheerful; Values: friendship, balance, authenticity; Interests: music, casual coffee culture, mindfulness activities; Experiences: has attended a few local music festivals with Victoria, helped her through a tough breakup, balances school and work with a calm, stress-free attitude.",
+          "position": "Seated at the table, smiling and nodding",
+          "states": "Supportive, interested, relaxed",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Lina",
+          "gender": "Female",
+          "description": "Victoria's friend who is more pragmatic and focused on academics; Female; Age: 21; Occupation: Biology major with a part-time lab assistant job; Personality: Analytical, responsible, skeptical; Values: Academic success, practicality, reliability; Interests: Research, reading scientific journals, volunteering for environmental causes; Experiences: Helped Victoria balance social life and studies during their first year, narrowly missed out on a scholarship due to a last-minute application error.",
+          "position": "Seated at the table, arms crossed",
+          "states": "Cautious, concerned, skeptical",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Victoria Burns",
+          "character_id": 0,
+          "action": "Excitedly shows the poster to her friends",
+          "dialogue": "Guys, look at this! I won this Taylor Swift poster on eBay! It’s such a cool design, and I can’t wait to put it in my room. I feel like it really brings my personality to life!"
+        },
+        {
+          "action_id": 1,
+          "character": "Lucy",
+          "character_id": 1,
+          "action": "Compliments the poster and suggests hanging it up",
+          "dialogue": "That’s amazing, Victoria! You’ve always had such great taste. I think you should hang it in your room—it’ll look awesome on the wall and make your space even more stylish."
+        },
+        {
+          "action_id": 2,
+          "character": "Lina",
+          "character_id": 2,
+          "action": "Expresses concern about Victoria's priorities",
+          "dialogue": "I get that it’s cool, but don’t you think you should focus more on your exams right now? You’ve been spending a lot of time on collectibles and online shopping lately, and I don’t want you to fall behind."
+        },
+        {
+          "action_id": 3,
+          "character": "Victoria Burns",
+          "character_id": 0,
+          "action": "Defends her passion and mentions her online communities",
+          "dialogue": "I know the exams are important, but I also need this for my mental health. Being part of these online communities and collecting posters gives me a creative outlet. It’s not just about the poster—it’s about expressing who I am."
+        },
+        {
+          "action_id": 4,
+          "character": "Lucy",
+          "character_id": 1,
+          "action": "Encourages Victoria to find a balance",
+          "dialogue": "Maybe we can help you find a way to balance both. Like, maybe you can plan your study sessions around your collectible time? You always manage to make things work, Victoria."
+        },
+        {
+          "action_id": 5,
+          "character": "Lina",
+          "character_id": 2,
+          "action": "Agrees to support Victoria as long as she stays on track",
+          "dialogue": "Okay, I guess if you’re careful with your time, it can be a nice break. Just don’t let it take over, okay? I’m here to help if you need it."
+        }
+      ],
+      "plot": "Victoria is excited to share her new Taylor Swift poster with her friends, Lucy and Lina, in a café. While Lucy is supportive and suggests displaying it in her room, Lina expresses concern about Victoria's time management, especially with upcoming exams. Victoria defends her passion as a form of self-expression and creative outlet. The conversation reveals the subtle tension between Victoria's enthusiasm for collectibles and Lina's focus on academic responsibility, while Lucy tries to mediate and suggest a balanced approach.",
+      "social_purpose": "To explore the dynamics of friendship and how differing values (passion vs. responsibility) can influence interactions and relationships. It also highlights Victoria’s personality and interests in a natural setting.",
+      "chunk": {
+        "id": 0,
+        "text": "Victoria excitedly shows her friends the Taylor Swift poster she won on eBay, sparking a conversation about how to balance her passions with academic responsibilities."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

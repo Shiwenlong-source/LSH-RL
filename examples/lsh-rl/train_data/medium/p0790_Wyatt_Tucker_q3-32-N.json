@@ -1,0 +1,95 @@
+{
+  "title": "Tech Rescue in the Boardroom",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Wyatt's Laptop Fails During Presentation",
+      "time": "10:15 AM",
+      "location": "Meeting Room, Client's Office in Kuala Lumpur",
+      "description": "Wyatt is presenting a new product to a potential client, Sana, with Julian assisting from the side. The room is quiet, and all eyes are on Wyatt's laptop screen. Suddenly, the screen goes black, and the atmosphere shifts to tension.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Wyatt Tucker",
+          "gender": "Male",
+          "description": "A 32-year-old product sales consultant, Wyatt is calm and determined, but his internal anxiety is rising due to the sudden technical failure.; Male, Professional, 32 years old; Occupation: Product Sales Consultant; Personality: Calm, Anxious, Determined, Stress-sensitive; Values: Professionalism, Reliability, Trust; Interests: Technology, Client Relationships, Problem Solving; Experiences: Public Speaking, Client Meetings, Handling Technical Failures, Sales Strategy, High-pressure Environments",
+          "position": "Presenter",
+          "states": "Anxious, Professional, Determined",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Sana",
+          "gender": "Female",
+          "description": "A client representative in her late 30s, Sana is composed but clearly concerned by the disruption. Her questioning look signals a need for reassurance; Female; Age: 38; Occupation: Senior Product Development Manager; Personality: Analytical, Diplomatic, Detail-oriented; Values: Reliability, Innovation, Professional Integrity; Interests: Technology trends, Cross-cultural communication, Sustainable design; Experiences: Managed high-stakes product launches in Southeast Asia, Negotiated partnerships with international tech firms, Dealt with technical failures during client demos.",
+          "position": "Audience",
+          "states": "Cautious, Questioning, Interested",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Julian",
+          "gender": "Male",
+          "description": "Wyatt's colleague and technical support, Julian is quick-thinking and supportive. He tries to suggest a solution while maintaining a calm demeanor; Male; Age: 32; Occupation: Senior IT Consultant; Personality: Calm, Analytical, Empathetic; Values: Reliability, Teamwork, Problem-Solving; Interests: Tech gadgets, Urban hiking, Minimalist design; Experiences: Troubleshooting critical client presentations, Implementing secure IT systems for multinational firms",
+          "position": "Supporting",
+          "states": "Calm, Helpful, Observant",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Wyatt Tucker",
+          "character_id": 0,
+          "action": "Looks at the laptop in confusion",
+          "dialogue": "Hmm, that's strange. Let me just restart it quickly."
+        },
+        {
+          "action_id": 1,
+          "character": "Julian",
+          "character_id": 2,
+          "action": "Suggests an alternative plan",
+          "dialogue": "Wyatt, maybe we can switch to the remote presentation setup? I can help you connect."
+        },
+        {
+          "action_id": 2,
+          "character": "Sana",
+          "character_id": 1,
+          "action": "Asks a pointed question",
+          "dialogue": "Is this a common issue with your equipment?"
+        },
+        {
+          "action_id": 3,
+          "character": "Wyatt Tucker",
+          "character_id": 0,
+          "action": "Responds professionally and confidently",
+          "dialogue": "Not at all, Sana. I've handled similar situations before. Let me get this sorted out in a moment."
+        },
+        {
+          "action_id": 4,
+          "character": "Julian",
+          "character_id": 2,
+          "action": "Assists Wyatt in switching to remote login",
+          "dialogue": "I've already prepped the remote system. Let's get that up and running."
+        },
+        {
+          "action_id": 5,
+          "character": "Wyatt Tucker",
+          "character_id": 0,
+          "action": "Resumes the presentation via remote",
+          "dialogue": "Alright, let's continue from here. As I was saying, the system's reliability is a key feature."
+        }
+      ],
+      "plot": "Wyatt faces a technical failure during a crucial presentation to client Sana. With Julian's help, he quickly switches to a remote presentation setup to minimize disruption. Sana's initial skepticism is met with Wyatt's professionalism and determination, highlighting his values of trust and reliability.",
+      "social_purpose": "Showcase Wyatt's adaptability and commitment to professionalism under pressure, while demonstrating the importance of trust in client relationships.",
+      "chunk": {
+        "id": 0,
+        "text": "Wyatt's laptop screen suddenly goes black during a key presentation. He quickly assesses the situation, trying to stay calm despite his internal anxiety. Julian offers a solution to switch to a remote login, and Sana's questioning look tests Wyatt's ability to maintain trust. Through his actions, Wyatt demonstrates his problem-solving skills and dedication to reliability, reassuring Sana and keeping the meeting on track."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

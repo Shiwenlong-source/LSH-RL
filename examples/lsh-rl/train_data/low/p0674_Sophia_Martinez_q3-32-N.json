@@ -1,0 +1,95 @@
+{
+  "title": "The Bridal Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Bridal Shop Visit",
+      "time": "Afternoon, 3 weeks before the wedding",
+      "location": "A boutique bridal shop in the city",
+      "description": "Sophia and Mike are visiting a bridal shop to finalize their wedding dress choices. They are drawn to a simple A-line dress, but the price is higher than Sophia's budget. Yuki, the shop assistant, is trying to persuade them to consider the dress due to its custom design and quality.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Sophia Martinez",
+          "gender": "Female",
+          "description": "Sophia is a 32-year-old project manager who is thoughtful, pragmatic, and idealistic. She is trying to balance her desire for a high-quality, simple wedding dress with her financial responsibility.; Female, 32, Bride-to-be, 32 years old; Occupation: Project Manager; Personality: Pragmatic, Thoughtful, Idealistic; Values: Quality, Simplicity, Financial Responsibility; Interests: Wedding Planning, Fashion, Personal Aesthetics; Experiences: Planning a Wedding, Shopping for a Wedding Dress, Weighing Personal Desires against Budget",
+          "position": "Trying on a wedding dress in a fitting room",
+          "states": "Conflicted, hopeful, and concerned",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Mike Thompson",
+          "gender": "Male",
+          "description": "Mike is Sophia's fiancé, a supportive and optimistic man who is eager to see her happy on their wedding day; Male; Age: 29; Occupation: Event Planner; Personality: supportive, optimistic, detail-oriented; Values: commitment, shared dreams, financial responsibility; Interests: wedding planning, photography, cooking; Experiences: planned several weddings for friends, faced budget constraints in his own wedding planning, recently moved in with Sophia.",
+          "position": "Waiting outside the fitting room with Yuki",
+          "states": "Encouraging and slightly anxious",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Yuki Sato",
+          "gender": "Female",
+          "description": "Yuki is the shop assistant, a friendly and professional woman who is passionate about helping brides find their dream dress; Female; Age: 28; Occupation: Bridal Consultant and Sales Assistant; Personality: Empathetic, detail-oriented, charismatic; Values: Customer satisfaction, craftsmanship, tradition; Interests: Fashion design, wedding planning, tea ceremonies; Experiences: Assisted over 200 brides in selecting their wedding attire, worked with high-end custom designers, organized bridal workshops on wedding etiquette and gown styles.",
+          "position": "Standing next to Mike, ready to assist",
+          "states": "Helpful and persuasive",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Mike Thompson",
+          "character_id": 1,
+          "action": "Expresses support for the dress",
+          "dialogue": "I know it's a bit over your budget, but I just want you to feel amazing on our big day. It's a once-in-a-lifetime moment, right?"
+        },
+        {
+          "action_id": 1,
+          "character": "Sophia Martinez",
+          "character_id": 0,
+          "action": "Considers the financial implications",
+          "dialogue": "I want it to be perfect, Mike, but I also don’t want to compromise on our savings plan. Maybe we can look for a more affordable option with similar style?"
+        },
+        {
+          "action_id": 2,
+          "character": "Yuki Sato",
+          "character_id": 2,
+          "action": "Presents the value of the dress",
+          "dialogue": "This dress is custom-designed, and the fabric is of the highest quality. You’ll get a personal stylist for fittings, and it’s tailored to your exact measurements. It’s not just a dress—it’s an experience."
+        },
+        {
+          "action_id": 3,
+          "character": "Sophia Martinez",
+          "character_id": 0,
+          "action": "Reflects on her values",
+          "dialogue": "I appreciate the quality and the simplicity of the design, Yuki. But I also want to be responsible with our finances. Is there a way we can make this work without going over budget?"
+        },
+        {
+          "action_id": 4,
+          "character": "Mike Thompson",
+          "character_id": 1,
+          "action": "Offers to adjust their budget",
+          "dialogue": "If this is what you really want, I can adjust my part of the budget. Let’s see if we can make it happen."
+        },
+        {
+          "action_id": 5,
+          "character": "Yuki Sato",
+          "character_id": 2,
+          "action": "Suggests alternatives",
+          "dialogue": "I can show you a few other dresses in the same style but with slightly different pricing. We might be able to find a version that fits your budget just as beautifully."
+        }
+      ],
+      "plot": "Sophia is torn between her idealistic vision of a beautiful, high-quality wedding dress and her pragmatic concerns about staying within budget. Mike supports her decision, emphasizing the importance of the moment, while Yuki, the shop assistant, tries to highlight the unique value of the dress. The group discusses alternatives to find a solution that honors Sophia’s values and aspirations.",
+      "social_purpose": "To explore the tension between personal ideals and practical considerations in a shared decision-making process, while showcasing how different values can influence group dynamics and compromise.",
+      "chunk": {
+        "id": 0,
+        "text": "Sophia stood in the fitting room, gazing at the mirror with the A-line dress draped over her arm. Mike waited outside, smiling at her with encouragement. Yuki approached, her voice warm as she spoke about the dress's craftsmanship. Sophia hesitated, her mind balancing her ideals with the realities of their financial plan. 'I want it to be perfect,' she said, 'but I also want to be responsible.' Mike nodded, offering to adjust their budget, and Yuki suggested alternatives. The trio worked together, each bringing their unique perspective to the table, as they sought a solution that felt right for all of them."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

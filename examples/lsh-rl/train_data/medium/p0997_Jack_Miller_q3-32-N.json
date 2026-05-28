@@ -1,0 +1,95 @@
+{
+  "title": "Race Against the Clock",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Jack and Olivia are waiting at a crowded bus stop near the city center.",
+      "time": "4:45 PM",
+      "location": "Jakarta City Center, near a bustling bus terminal",
+      "description": "The city is swarming with traffic, and the air is thick with the sounds of honking and chatter. Jack, a young architect, is pacing anxiously while Olivia tries to calm him down. A nearby angkot driver watches the exchange with curiosity.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Jack Miller",
+          "gender": "male",
+          "description": "A 29-year-old architect with a determined and pragmatic personality. He is visibly stressed and focused on reaching the station on time.; male, professional, 29 years old; Occupation: Architect; Personality: Determined, Pragmatic, Decisive; Values: Efficiency, Responsibility, Independence; Interests: Urban planning, Time management, Career development; Experiences: Attending professional meetings, Working in high-pressure environments, Taking public transport in busy cities",
+          "position": "Near the edge of the bus stop, checking his watch repeatedly",
+          "states": "Stressed, focused, impatient",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Olivia Thompson",
+          "gender": "female",
+          "description": "A 32-year-old project manager and Jack's colleague. She is trying to be supportive but is clearly worried about his decision; Female; Age: 32; Occupation: Project Manager for an urban development firm; Personality: Analytical, empathetic, composed; Values: Professional integrity, teamwork, work-life balance; Interests: Sustainable architecture, city planning, indie music; Experiences: Led a high-profile infrastructure project in Jakarta, mentored new employees through company transitions, navigated conflicts between creative and logistical teams.",
+          "position": "Standing beside Jack, holding a map and a coffee cup",
+          "states": "Calm, concerned, persuasive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Angkot Driver",
+          "gender": "male",
+          "description": "A middle-aged man with a loudspeaker and a no-nonsense attitude; male; Age: 48; Occupation: Angkot driver in Jakarta; Personality: Observant, impatient, opinionated; Values: Efficiency, punctuality, respect for hard work; Interests: Listening to news broadcasts, discussing local politics, classic Indonesian pop music; Experiences: Surviving years of Jakarta's chaotic traffic, witnessing countless city dramas from his seat, raised four children on a modest income.",
+          "position": "Inside the angkot, leaning out the window",
+          "states": "Observant, impatient, opinionated",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Jack Miller",
+          "character_id": 0,
+          "action": "checks his watch and mutters under his breath",
+          "dialogue": "We don't have time for this. The last train leaves in 20 minutes, and we need to get there now."
+        },
+        {
+          "action_id": 1,
+          "character": "Olivia Thompson",
+          "character_id": 1,
+          "action": "steps closer to Jack, trying to reason with him",
+          "dialogue": "Jack, I know you're in a rush, but taking the angkot might be slower. Let me find a better route."
+        },
+        {
+          "action_id": 2,
+          "character": "Jack Miller",
+          "character_id": 0,
+          "action": "crosses his arms and shakes his head",
+          "dialogue": "I've planned this out. The angkot is the fastest option right now. I can't afford to waste time."
+        },
+        {
+          "action_id": 3,
+          "character": "Angkot Driver",
+          "character_id": 2,
+          "action": "announces loudly over his speaker",
+          "dialogue": "Hey, you two! If you're in a rush, better get in now. Traffic ahead is worse than you think!"
+        },
+        {
+          "action_id": 4,
+          "character": "Olivia Thompson",
+          "character_id": 1,
+          "action": "sighs and looks at Jack with a mix of concern and respect",
+          "dialogue": "Alright, I get it. You've always been the one to take charge. Let's just hope you're right."
+        },
+        {
+          "action_id": 5,
+          "character": "Jack Miller",
+          "character_id": 0,
+          "action": "nods and moves toward the angkot",
+          "dialogue": "I am right. I've been through this before. Let's go."
+        }
+      ],
+      "plot": "Jack is determined to take the angkot to the station despite Olivia's concerns about the route. Their interaction reveals Jack's pragmatic and decisive nature, as well as his experience with navigating busy cities. Olivia's supportive but anxious behavior shows her caring side and their professional dynamic. The angkot driver's input adds urgency and realism to the situation.",
+      "social_purpose": "To demonstrate Jack's personality traits (determined, pragmatic, decisive) and values (efficiency, responsibility, independence) through his interactions with Olivia and the angkot driver, while also highlighting their professional relationship and the high-pressure environment he works in.",
+      "chunk": {
+        "id": 0,
+        "text": "Jack and Olivia are waiting at a crowded bus stop near the city center. The city is swarming with traffic, and the air is thick with the sounds of honking and chatter. Jack, a young architect, is pacing anxiously while Olivia tries to calm him down. A nearby angkot driver watches the exchange with curiosity."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "title": "A Coffee Catch-Up",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Nora and Luna meet for coffee, with Yuna joining them.",
+      "time": "Afternoon",
+      "location": "A cozy local café",
+      "description": "Nora Bennett, a 34-year-old social worker, sits at a corner table with her long-time friend Luna, who is also 34. Yuna, a 32-year-old artist and mutual friend, joins them a few minutes later. The atmosphere is warm and inviting, but a subtle tension lingers in the conversation as Luna brings up sensitive topics.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Nora Bennett",
+          "gender": "Female",
+          "description": "34-year-old social worker with an open and empathetic demeanor. She is calmly listening to Luna's concerns.; 34-year-old Female, 34 years old; Occupation: Social Worker; Personality: Extroverted, Rational, Empathetic; Values: Openness, Understanding, Acceptance; Interests: Self-reflection, Meaningful Conversation, Personal Growth; Experiences: Long-term friendship with Luna, Recent shift in personal faith, Support from close friends",
+          "position": "Seated at the table, center",
+          "states": "Calm, attentive, trying to stay rational",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Luna",
+          "gender": "Female",
+          "description": "Luna is a 34-year-old female; Age: 34; Occupation: High school history teacher; Personality: loyal, traditional, empathetic; Values: family, integrity, patriotism; Interests: reading classic literature, gardening, attending community events; Experiences: grew up in a close-knit family, taught in the same school for over a decade, witnessed cultural shifts that challenge her beliefs.",
+          "position": "Seated at the table, left of Nora",
+          "states": "Frustrated, emotional, determined",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Yuna",
+          "gender": "Female",
+          "description": "Yuna is a 32-year-old artist and close friend of both Nora and Luna. She is quietly observant and tries to mediate the conversation. Female; Age: 32; Occupation: Freelance muralist and mixed-media artist; Personality: Supportive, empathetic, cautious; Values: Emotional honesty, creative expression, loyalty; Interests: Urban exploration for inspiration, journaling, visiting local galleries; Experiences: Navigated a difficult breakup that influenced her art style, helped a close friend through a mental health crisis, spent a year in a small coastal town that sparked her passion for large-scale public art.",
+          "position": "Seated at the table, right of Nora",
+          "states": "Supportive, empathetic, cautious",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Luna",
+          "character_id": 1,
+          "action": "Expresses frustration",
+          "dialogue": "Nora, I don’t get why you’ve changed so much. Your new beliefs and your openness about your sexuality—it’s like you’re not even the same person anymore."
+        },
+        {
+          "action_id": 1,
+          "character": "Nora Bennett",
+          "character_id": 0,
+          "action": "Replies calmly",
+          "dialogue": "Luna, I understand your frustration. But this is who I am now. I’ve grown, and my values have evolved. I’m still the same person, just more honest about myself."
+        },
+        {
+          "action_id": 2,
+          "character": "Yuna",
+          "character_id": 2,
+          "action": "Attempts to lighten the mood",
+          "dialogue": "Hey, maybe we can talk about this after we order? I could really use a latte right now. What about you both?"
+        },
+        {
+          "action_id": 3,
+          "character": "Nora Bennett",
+          "character_id": 0,
+          "action": "Shares her perspective",
+          "dialogue": "I know it’s hard to accept change, especially when it challenges what you believe. But I want us to still be friends, Luna. I value our connection and the years we’ve shared."
+        },
+        {
+          "action_id": 4,
+          "character": "Luna",
+          "character_id": 1,
+          "action": "Responds defensively",
+          "dialogue": "It’s not about accepting change. It’s about what you’re choosing to believe now. I just don’t see how you can be content with something that feels so wrong to me."
+        },
+        {
+          "action_id": 5,
+          "character": "Yuna",
+          "character_id": 2,
+          "action": "Supports Nora",
+          "dialogue": "Nora’s journey is valid. Maybe we can find a way to understand each other more, even if we don’t agree on everything."
+        }
+      ],
+      "plot": "Nora and Luna meet for coffee, and Luna expresses her dissatisfaction with Nora's recent personal changes, including her faith and sexual orientation. Yuna tries to mediate and support Nora, showing the emotional strain on their friendship and the differences in their values.",
+      "social_purpose": "To explore the protagonist’s values of openness and understanding through a realistic and emotionally charged social interaction, while also highlighting the role of empathy and support from a close friend.",
+      "chunk": {
+        "id": 0,
+        "text": "Nora and Luna meet for coffee, and Luna expresses her dissatisfaction with Nora's recent personal changes, including her faith and sexual orientation. Yuna tries to mediate and support Nora, showing the emotional strain on their friendship and the differences in their values."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "title": "The Interview Crossroads",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Job Interview at a Cafe",
+      "time": "10:30 AM",
+      "location": "Sunny Side Cafe, downtown",
+      "description": "Lila Parker, a 25-year-old recent graduate, sits across from Zoe, the recruiting manager from United Rental, at a cozy corner table in a bright, bustling cafe. Luke, Lila's supportive friend, waits nearby at the bar, occasionally glancing over to check on her. The atmosphere is calm yet charged with tension as Lila weighs her decision about the job offer.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Lila Parker",
+          "gender": "female",
+          "description": "A 25-year-old recent graduate who is contemplative, cautious, and ambitious. She is seeking career stability but is unsure if she is ready for the responsibilities of the job.; 25-year-old female, seeking career stability, 25 years old; Occupation: Recent graduate; Personality: Contemplative, Cautious, Ambitious; Values: Stability, Growth, Self-reflection; Interests: Career development, Personal preparation, Meaningful work; Experiences: Recent job opportunity, Career uncertainty, Supportive friendship",
+          "position": "Across from Zoe at the corner table",
+          "states": "Nervous, thoughtful, hopeful",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Zoe Martin",
+          "gender": "female",
+          "description": "A professional and approachable recruiting manager for United Rental; Female; Age: 34; Occupation: Talent Acquisition Manager; Personality: Calm, encouraging, observant; Values: Professional integrity, work-life balance, growth and development; Interests: Urban hiking, coffee culture, mentoring young professionals; Experiences: Managed high-pressure hiring campaigns for expanding teams, transitioned from HR generalist to specialized recruiter, mentored several interns who later became full-time employees.",
+          "position": "Across from Lila at the corner table",
+          "states": "Calm, encouraging, observant",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Luke Bennett",
+          "gender": "male",
+          "description": "Lila's supportive and sincere friend who is quietly waiting for her to finish the interview; Male; Age: 27; Occupation: Freelance graphic designer; Personality: Empathetic, patient, observant; Values: Loyalty, personal growth, work-life balance; Interests: Urban photography, indie music, coffee culture; Experiences: Helped Lila prepare for the interview over the past week, witnessed her previous job rejections, supported her through post-graduation uncertainty.",
+          "position": "At the bar, sipping a coffee",
+          "states": "Supportive, anxious, watchful",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Zoe Martin",
+          "character_id": 1,
+          "action": "Asks Lila about her long-term career goals",
+          "dialogue": "Zoe: 'Lila, I'm really impressed with your background. What are your long-term career goals, and how do you see this role fitting into them?'"
+        },
+        {
+          "action_id": 1,
+          "character": "Lila Parker",
+          "character_id": 0,
+          "action": "Pauses, then responds thoughtfully",
+          "dialogue": "Lila: 'I want to grow in a company that values meaningful work and offers stability. I believe this role at United Rental could help me do that, but I'm also trying to make sure I'm ready for the challenges it brings.'"
+        },
+        {
+          "action_id": 2,
+          "character": "Zoe Martin",
+          "character_id": 1,
+          "action": "Nods and reassures Lila",
+          "dialogue": "Zoe: 'That's a great mindset to have. We value self-reflection and growth here. You'll have the support you need to succeed.'"
+        },
+        {
+          "action_id": 3,
+          "character": "Luke Bennett",
+          "character_id": 2,
+          "action": "Approaches the table with a warm smile",
+          "dialogue": "Luke: 'Hey, Lila. Just wanted to say I'm proud of you for getting this far. You've got this.'"
+        },
+        {
+          "action_id": 4,
+          "character": "Lila Parker",
+          "character_id": 0,
+          "action": "Smiles at Luke, then turns back to Zoe",
+          "dialogue": "Lila: 'Thank you, Luke. It means a lot to have his support. I'm excited about the opportunity, and I think I'm ready to take this step.'"
+        },
+        {
+          "action_id": 5,
+          "character": "Zoe Martin",
+          "character_id": 1,
+          "action": "Smiles and extends her hand",
+          "dialogue": "Zoe: 'That's the attitude we love to see. I'll follow up with you soon. Good luck, Lila!'"
+        }
+      ],
+      "plot": "Lila is in a final interview for a job at United Rental, a company that offers career growth and stability. Her friend Luke is present to offer silent support, while Zoe, the recruiting manager, tries to assess her readiness and ambition. Through their interaction, Lila's contemplative and cautious nature is revealed as she weighs the opportunity against her own self-doubt.",
+      "social_purpose": "To demonstrate how Lila's values of stability and growth, along with her personality traits of contemplativeness and caution, influence her decision-making in a high-stakes social situation. It also shows the role of external support (from Luke) and professional reassurance (from Zoe) in helping her move forward.",
+      "chunk": {
+        "id": 0,
+        "text": "Lila sat at the corner table, her hands wrapped around a lukewarm coffee cup as Zoe asked her about her long-term goals. The question lingered, and Lila felt the familiar tug of self-doubt. She looked over at Luke, who gave her a subtle thumbs-up from the bar, and took a deep breath. Zoe's steady gaze and warm tone helped her focus, and she found her voice. 'I want to grow in a company that values meaningful work and offers stability,' she said. 'This role could help me do that, but I'm also trying to make sure I'm ready for the challenges it brings.' Zoe nodded, clearly appreciating her honesty. When Luke approached the table, his quiet words reminded her of her support system. As the interview wrapped up, Lila felt a shift inside—maybe she was ready to take the leap."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

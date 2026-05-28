@@ -1,0 +1,95 @@
+{
+  "title": "Pitching the T-shirt Venture",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Lunch break at school",
+      "time": "12:30 PM",
+      "location": "Cafeteria",
+      "description": "Gavin is sitting with Lili and Mr. Jack at a table, showing them a prototype T-shirt design and a business plan on his phone. The atmosphere is casual but focused, with Gavin eager to get their opinions.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Gavin Rodriguez",
+          "gender": "17-year-old male",
+          "description": "Gavin is a high school student with a passion for music and entrepreneurship. He is animated and confident, but occasionally fidgets with his phone, showing underlying anxiety.; 17-year-old male, high school student, 17 years old; Occupation: Entrepreneur; Personality: Enthusiastic, Ambitious, Anxious, Confident; Values: Innovation, Independence, Adventure; Interests: Music, Entrepreneurship, Design, Technology; Experiences: Started a T-shirt website, Worked on music projects, Pursued independent entrepreneurial ideas, Collaborated with friends on creative projects",
+          "position": "Center of the table",
+          "states": "Excited, nervous, persuasive",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Lili Chen",
+          "gender": "17-year-old female",
+          "description": "Lili is a cautious and analytical friend of Gavin's. She listens carefully and asks thoughtful questions, often leaning forward to examine details closely; Female; Age: 17; Occupation: High school student and part-time graphic design intern; Personality: Curious, skeptical, calculating; Values: Intellectual honesty, resourcefulness, loyalty; Interests: Fashion design, entrepreneurship, solving puzzles; Experiences: Worked on redesigning her school’s yearbook cover, helped a local small business create branding materials, debated ideas with Gavin during past lunch meetings.",
+          "position": "Left side of the table",
+          "states": "Curious, skeptical, calculating",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Mr. Jack Thompson",
+          "gender": "Male",
+          "description": "Mr. Jack is a supportive teacher and mentor to Gavin. He takes an interest in student-led projects and encourages innovation, but wants to understand the risks involved; Male; Age: 48; Occupation: High school business and economics teacher; Personality: Encouraging, analytical, patient; Values: Education, integrity, empowerment; Interests: Entrepreneurship, design thinking, mentoring; Experiences: Led a student startup competition for five years, worked as a financial advisor before teaching, collaborated with local businesses on youth internship programs.",
+          "position": "Right side of the table",
+          "states": "Supportive, inquisitive, measured",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Gavin Rodriguez",
+          "character_id": 0,
+          "action": "Shows a T-shirt design on his phone",
+          "dialogue": "Check this out, Lili, Mr. Jack—this is the first design I'm planning to launch on my site. I can print these myself if we invest in the right equipment."
+        },
+        {
+          "action_id": 1,
+          "character": "Lili Chen",
+          "character_id": 1,
+          "action": "Leans in and examines the design",
+          "dialogue": "It looks cool, but how much would the printing equipment cost? And what if it doesn't sell as well as you hope?"
+        },
+        {
+          "action_id": 2,
+          "character": "Mr. Jack Thompson",
+          "character_id": 2,
+          "action": "Asks a follow-up question",
+          "dialogue": "That's a great question, Lili. Gavin, can you explain your market research and how you plan to mitigate the risks?"
+        },
+        {
+          "action_id": 3,
+          "character": "Gavin Rodriguez",
+          "character_id": 0,
+          "action": "Explains his strategy and passion",
+          "dialogue": "I've already done some research. My site is trending with younger customers, and if I can print in-house, I can cut costs by 30%. I'm not just selling T-shirts; I'm building a brand that combines music and design. It's an adventure, and I want you guys in on the ground floor."
+        },
+        {
+          "action_id": 4,
+          "character": "Lili Chen",
+          "character_id": 1,
+          "action": "Nods thoughtfully",
+          "dialogue": "I like the idea of innovation and independence, but I need to see the numbers. Maybe we can look at a more detailed breakdown later?"
+        },
+        {
+          "action_id": 5,
+          "character": "Mr. Jack Thompson",
+          "character_id": 2,
+          "action": "Offers encouragement and a suggestion",
+          "dialogue": "I'm proud of you, Gavin. This shows a lot of ambition and creative thinking. How about you present this idea to the school's entrepreneurship club? It might help you get more feedback and even find other potential investors."
+        }
+      ],
+      "plot": "Gavin attempts to convince Lili and Mr. Jack to invest in his T-shirt website by showcasing a new design and his business plan. Their cautious and supportive reactions lead to a discussion about the market, risks, and potential next steps.",
+      "social_purpose": "Demonstrate Gavin's background in entrepreneurship and design, his values of innovation and independence, and his personality traits of enthusiasm and anxiety. Show Lili's cautious nature and Mr. Jack's supportive yet analytical role.",
+      "chunk": {
+        "id": 0,
+        "text": "Gavin is trying to convince his friends and mentor to support his T-shirt business venture with an in-house printing solution. The conversation in the cafeteria highlights his confidence and passion, while also revealing his underlying anxiety about the risks involved. Lili's curiosity and Mr. Jack's guidance help Gavin think through the practical aspects of his plan, setting the stage for further development."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

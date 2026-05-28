@@ -1,0 +1,95 @@
+{
+  "title": "Cafe Confession",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Bryce and Mia meet at a local cafe to discuss their relationship, with their mutual friend Gang present.",
+      "time": "Afternoon",
+      "location": "Cozy Corner Cafe",
+      "description": "The Cozy Corner Cafe is a quiet, artsy place with dim lighting and soft background music. Bryce, Mia, and Gang are seated at a small round table near the window, sipping coffee and tea. The atmosphere is calm but tense, as the group works through unspoken emotions.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Bryce Reynolds",
+          "gender": "Male",
+          "description": "22-year-old intern, emotional and sensitive. He is trying to express his feelings but is also anxious about how they will be received.; 22-year-old male, in a romantic relationship, 24 years old; Occupation: Intern; Personality: Emotional, Sensitive, Anxious, Caring; Values: Emotional Connection, Understanding, Intimacy; Interests: Writing, Deep Conversation, Seeking Emotional Support; Experiences: Recent emotional conflict with partner, Late-night online conversation, Troubled by loneliness",
+          "position": "Seated at the table",
+          "states": "Emotionally vulnerable, seeking reassurance",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Mia Carter",
+          "gender": "Female",
+          "description": "Supportive but emotionally overwhelmed; Female; Age: 24; Occupation: Freelance graphic designer; Personality: Empathetic, creative, indecisive; Values: Loyalty, authenticity, emotional well-being; Interests: Illustration, indie music, journaling; Experiences: Navigating a long-distance relationship, recently ended a friendship due to emotional burnout, working on a major design project with tight deadlines.",
+          "position": "Seated at the table",
+          "states": "Overwhelmed, conflicted, trying to be present",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Gang Liu",
+          "gender": "Male",
+          "description": "25-year-old software engineer, rational and level-headed; Male; Age: 25; Occupation: Software Engineer at a tech startup; Personality: Analytical, empathetic, patient; Values: Loyalty, open communication, emotional intelligence; Interests: Board games, indie music, reading psychology and relationship books; Experiences: Mediated a difficult breakup between two close friends in college, worked in a team with diverse personalities requiring strong interpersonal skills, studied conflict resolution as part of personal development.",
+          "position": "Seated at the table",
+          "states": "Calm, observant, trying to help",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Bryce Reynolds",
+          "character_id": 0,
+          "action": "Initiates a conversation about his recent loneliness and emotional conflict.",
+          "dialogue": "Mia, I’ve been feeling really distant lately. I just miss the way we used to talk and connect. I don’t know if it’s something I’m doing wrong, but it’s been hard for me."
+        },
+        {
+          "action_id": 1,
+          "character": "Mia Carter",
+          "character_id": 1,
+          "action": "Responds with a mix of empathy and distraction.",
+          "dialogue": "I know, Bryce. I’ve been going through a lot at work too. I just haven’t had the energy to talk about anything else. I’m sorry if I’ve been distant."
+        },
+        {
+          "action_id": 2,
+          "character": "Gang Liu",
+          "character_id": 2,
+          "action": "Tries to mediate the conversation and provide perspective.",
+          "dialogue": "Bryce, I get it. You want to feel close. But Mia is also under a lot of stress right now. Maybe we can all take a step back and figure out how to support each other better?"
+        },
+        {
+          "action_id": 3,
+          "character": "Bryce Reynolds",
+          "character_id": 0,
+          "action": "Expresses his need for intimacy and reassurance.",
+          "dialogue": "I just want to feel like I matter to you. Like we can still be us, even when things get hard."
+        },
+        {
+          "action_id": 4,
+          "character": "Mia Carter",
+          "character_id": 1,
+          "action": "Attempts to show understanding but is still emotionally overwhelmed.",
+          "dialogue": "You do matter to me, Bryce. I just feel like I can’t give you what you need right now, and that’s making me feel guilty."
+        },
+        {
+          "action_id": 5,
+          "character": "Gang Liu",
+          "character_id": 2,
+          "action": "Encourages them to focus on solutions and not just emotions.",
+          "dialogue": "Maybe we can set up a time to talk without distractions. Like a date night or something. That might help both of you feel more connected."
+        }
+      ],
+      "plot": "Bryce and Mia are trying to reconnect after a period of emotional distance, with Gang offering support and guidance. The conversation reveals their struggles and the importance of communication in their relationship.",
+      "social_purpose": "To explore how emotional needs and psychological states can affect communication and relationships, while also showing the value of a supportive friend.",
+      "chunk": {
+        "id": 0,
+        "text": "Bryce and Mia meet at the Cozy Corner Cafe with Gang, their mutual friend, to talk about the emotional distance they’ve been feeling. The setting is calm, but the conversation is tense as Bryce expresses his loneliness and Mia is overwhelmed. Gang tries to help them navigate the situation with rationality and empathy."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

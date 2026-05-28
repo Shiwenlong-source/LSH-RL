@@ -1,0 +1,81 @@
+{
+  "title": "The Unspoken Words at the Corner Table",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Meeting with Lily",
+      "time": "Afternoon",
+      "location": "Corner table in a quiet cafe",
+      "description": "Miles sits alone, fidgeting with his coffee cup. Kimi is nearby, sipping her drink and watching him carefully. The atmosphere is calm but charged with tension as Lily enters the cafe.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Miles Bryant",
+          "gender": "Male",
+          "description": "A 25-year-old office worker, nervous and hesitant, staring at the door.; 25-year-old /Male/Office worker, 24 years old; Occupation: Office clerk; Personality: Reserved, Emotional, Anxious, Thoughtful; Values: Honesty, Emotional connection, Personal growth; Interests: Coffee, Thinking, Reunions; Experiences: Past romantic relationships, Workplace routine, Emotional conflict, Friendship with Kimi, Reunion with Lily",
+          "position": "Corner table",
+          "states": "Nervous, anxious, hopeful",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Kimi",
+          "gender": "Female",
+          "description": "A supportive friend, calm and observant, seated a few tables away; Female; Age: 28; Occupation: Social worker; Personality: Empathetic, patient, intuitive; Values: Loyalty, emotional well-being, trust; Interests: Reading psychology books, journaling, helping others; Experiences: Provided support during a friend's difficult breakup, worked with at-risk youth in community programs, witnessed the impact of unresolved trauma in families.",
+          "position": "Nearby table",
+          "states": "Calm, watchful, concerned",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Lily",
+          "gender": "Female",
+          "description": "Lily, a former partner of Miles, enters the cafe with a guarded expression; Female; Age: 32; Occupation: Corporate Intelligence Analyst; Personality: Analytical, reserved, observant; Values: Loyalty, discretion, integrity; Interests: Classic literature, strategic board games, quiet evenings with a well-brewed cup of tea; Experiences: Worked on high-stakes corporate investigations, navigated complex betrayals in her previous partnership, recently left her firm under mysterious circumstances.",
+          "position": "Entrance",
+          "states": "Cautious, composed, curious",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Miles Bryant",
+          "character_id": 0,
+          "action": "Looks up and freezes as Lily enters.",
+          "dialogue": ""
+        },
+        {
+          "action_id": 1,
+          "character": "Kimi",
+          "character_id": 1,
+          "action": "Gives a subtle nod of encouragement to Miles.",
+          "dialogue": "You've got this, Miles. Just be honest with her."
+        },
+        {
+          "action_id": 2,
+          "character": "Lily",
+          "character_id": 2,
+          "action": "Approaches the table, hesitates, and sits down.",
+          "dialogue": "Hey, Miles. I didn't expect to see you here."
+        },
+        {
+          "action_id": 3,
+          "character": "Miles Bryant",
+          "character_id": 0,
+          "action": "Clears his throat and stammers slightly.",
+          "dialogue": "Hi, Lily. I... I wanted to see you. To talk."
+        }
+      ],
+      "plot": "Miles attempts to reconnect with Lily after a long period of silence, with Kimi offering quiet support. The conversation is tentative, with both parties holding back emotions, but Miles' honesty and desire for emotional connection begin to break the ice.",
+      "social_purpose": "To explore Miles' internal conflict and his values of honesty and emotional connection in a public setting, while showing how his reserved and thoughtful nature influences his actions.",
+      "chunk": {
+        "id": 0,
+        "text": "Miles took a deep breath as Lily sat down, her presence both calming and unsettling. He looked at her, trying to find the right words. 'I've been thinking a lot about what we had,' he said softly. 'I know we didn't end things the way we should have. I just wanted to see if there was a chance to talk it through, to understand each other better.' Lily's eyes softened, and she reached for her coffee cup. 'I thought about that too,' she replied. 'Maybe we can start with something simple. Like this coffee.'"
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

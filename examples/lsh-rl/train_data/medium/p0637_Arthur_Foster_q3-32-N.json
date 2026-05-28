@@ -1,0 +1,88 @@
+{
+  "title": "Apology Live Stream",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Arthur hosts a live stream to address his recent controversy",
+      "time": "Evening, 7:00 PM",
+      "location": "Arthur's home studio",
+      "description": "Arthur is sitting in front of his camera, visibly nervous but determined. His friends Wang and Luna are watching the stream from their own devices, while a few loyal followers and curious onlookers are in the chat. Arthur's goal is to sincerely apologize and regain trust, but his sensitivity and introspective nature make it difficult for him to fully own up to his mistake.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Arthur Foster",
+          "gender": "Male",
+          "description": "27-year-old content creator who is trying to fix his reputation after a controversial post. He is rational and introspective but still struggles with expressing sincerity in public.; 27-year-old /male/content creator, 24 years old; Occupation: Comedy Blogger; Personality: Rational, Sensitive, Introspective; Values: Honesty, Empathy, Responsibility; Interests: Social media, Pop culture, Writing; Experiences: Online content creation, Public interaction, Social media crisis",
+          "position": "Streaming on camera",
+          "states": "Nervous, conflicted",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Wang",
+          "gender": "Male",
+          "description": "Wang is Arthur's close friend and collaborator; Male; Age: 28; Occupation: Video Game Designer; Personality: blunt, analytical, loyal; Values: integrity, accountability; Interests: indie game development, strategy board games, tech reviews; Experiences: worked with Arthur on a critically acclaimed game project, witnessed Arthur's past successes and failures, has a history of calling out insincerity in public apologies.",
+          "position": "Watching the stream from a phone",
+          "states": "Critical, waiting for a real apology",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Luna",
+          "gender": "Female",
+          "description": "Luna is Arthur's best friend and confidante, empathetic and supportive but also hurt by his defensive tone; Female; Age: 26; Occupation: Social media strategist and content creator; Personality: Compassionate, observant, loyal; Values: Honesty, emotional integrity; Interests: Mental health advocacy, indie music, journaling; Experiences: Supported Arthur through past career failures, witnessed his public missteps firsthand, has struggled with trust issues in her own relationships.",
+          "position": "Watching the stream from a laptop",
+          "states": "Supportive, but skeptical",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Arthur Foster",
+          "character_id": 0,
+          "action": "begins the live stream",
+          "dialogue": "Hey everyone, I know I messed up. I just wanted to take a moment to talk about what happened with my last post and why I'm sorry."
+        },
+        {
+          "action_id": 1,
+          "character": "Wang",
+          "character_id": 1,
+          "action": "types a comment",
+          "dialogue": "It better be more than just words, Arthur. People want to see real change."
+        },
+        {
+          "action_id": 2,
+          "character": "Arthur Foster",
+          "character_id": 0,
+          "action": "responds to comments",
+          "dialogue": "I understand that my previous apology didn't come through the way I wanted it to. I was trying to be honest, but maybe I was too defensive."
+        },
+        {
+          "action_id": 3,
+          "character": "Luna",
+          "character_id": 2,
+          "action": "types a comment",
+          "dialogue": "We all make mistakes, Arthur. It's how you handle them that matters. Be genuine."
+        },
+        {
+          "action_id": 4,
+          "character": "Arthur Foster",
+          "character_id": 0,
+          "action": "pauses and takes a deep breath",
+          "dialogue": "You're right, Luna. I should have been more empathetic and taken full responsibility from the start. I know I can't change what happened, but I want to make it right."
+        }
+      ],
+      "plot": "Arthur attempts to address the controversy in a live stream, with Wang and Luna watching and reacting in real time. The stream is a test of his sincerity and ability to connect with his audience and friends.",
+      "social_purpose": "To explore Arthur's struggle with balancing his self-image and responsibility, and to show the impact of his actions on his relationships with Wang and Luna.",
+      "chunk": {
+        "id": 0,
+        "text": "Arthur starts the stream by acknowledging his mistake, but his tone is still defensive. Wang comments, pushing Arthur to do more than just apologize. Luna offers a more empathetic perspective, encouraging Arthur to be genuine. Arthur takes a moment to reflect, then tries to express his remorse more clearly. The stream ends with a mix of reactions from the chat, but Arthur feels a sense of relief and hope for the future."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

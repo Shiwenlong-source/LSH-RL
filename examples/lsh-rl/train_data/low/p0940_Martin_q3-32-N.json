@@ -1,0 +1,102 @@
+{
+  "title": "The Summit Forum Assignment",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Meeting with colleagues to prepare for a summit forum",
+      "time": "Afternoon",
+      "location": "Company conference room",
+      "description": "Martin has been assigned to moderate a forum on 'Accessibility and Social Exclusion' at an upcoming industry summit. He is visibly anxious and hesitant, as public speaking is not his strength. His manager, Jasper, is firm about the decision, while his supportive colleague, Chloe, offers to help him prepare.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Martin",
+          "gender": "Male",
+          "description": "A middle-aged employee in a corporate setting, assigned to moderate a summit forum. He is introverted, anxious, and hesitant, but knowledgeable about accessibility issues.; Male / Employee, 42 years old; Occupation: Company Employee; Personality: Introverted, Anxious, Hesitant, Knowledgeable; Values: Professional Competence, Personal Comfort, Teamwork; Interests: Accessibility Issues, Public Policy, Document Review; Experiences: Assigned public speaking tasks, Working in a corporate environment, Experiencing anxiety in social situations",
+          "position": "Moderator",
+          "states": "Anxious, overwhelmed, and uncertain",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Jasper",
+          "gender": "Male",
+          "description": "Jasper; Male; Age: 48; Occupation: Senior Project Manager at a leading social innovation consultancy; Personality: Authoritative, focused, slightly impatient; Values: Professional excellence, accountability, strategic impact; Interests: Leadership training, policy reform, high-performance sports; Experiences: Managed high-stakes international conferences, mentored junior staff to leadership roles, led a team that won a major award for inclusive urban development.",
+          "position": "Manager",
+          "states": "Authoritative, focused, and slightly impatient",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Chloe",
+          "gender": "Female",
+          "description": "A supportive and proactive colleague who is eager to assist Martin in his new role; Female; Age: 32; Occupation: Senior Project Coordinator for Corporate Social Responsibility; Personality: Empathetic, organized, and patient; Values: Collaboration, equity, and professional growth; Interests: Public speaking workshops, community outreach, and reading on social policy; Experiences: Previously co-led a diversity training initiative for the company, mentored new employees in presentation skills, and volunteered with local accessibility advocacy groups.",
+          "position": "Colleague",
+          "states": "Supportive, encouraging, and prepared",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Jasper",
+          "character_id": 1,
+          "action": "Assigns Martin the task",
+          "dialogue": "Martin, I've decided you'll moderate the forum on 'Accessibility and Social Exclusion' at the summit. You have the knowledge, and this is a chance to grow."
+        },
+        {
+          "action_id": 1,
+          "character": "Martin",
+          "character_id": 0,
+          "action": "Expresses hesitation",
+          "dialogue": "I'm not sure I'm the right person for this, Jasper. I don't have much experience with public speaking, and I get really nervous in front of an audience."
+        },
+        {
+          "action_id": 2,
+          "character": "Chloe",
+          "character_id": 2,
+          "action": "Offers support",
+          "dialogue": "Don't worry, Martin. I can help you prepare the materials and practice your presentation. We're a team, and I believe in you."
+        },
+        {
+          "action_id": 3,
+          "character": "Martin",
+          "character_id": 0,
+          "action": "Considers the offer",
+          "dialogue": "That would be... really helpful, Chloe. I just don't want to let the team down."
+        },
+        {
+          "action_id": 4,
+          "character": "Jasper",
+          "character_id": 1,
+          "action": "Reassures and sets expectations",
+          "dialogue": "You're not expected to be perfect, Martin. Just do your best, and the team will back you up. This is important for our company's reputation."
+        },
+        {
+          "action_id": 5,
+          "character": "Chloe",
+          "character_id": 2,
+          "action": "Reassures Martin further",
+          "dialogue": "I'll help you structure your points and make sure you're comfortable with the flow. We can do a mock run tomorrow if you want."
+        },
+        {
+          "action_id": 6,
+          "character": "Martin",
+          "character_id": 0,
+          "action": "Agrees to proceed",
+          "dialogue": "Okay, I'll give it a try. But I'll need your help, Chloe. I don't want to mess this up."
+        }
+      ],
+      "plot": "Martin is assigned a high-pressure public speaking task at the summit, which causes him anxiety. His manager, Jasper, insists on the assignment, while his colleague, Chloe, offers support to help him prepare. Martin's internal conflict between professional competence and personal comfort is evident as he reluctantly agrees to take on the challenge with Chloe's assistance.",
+      "social_purpose": "To showcase Martin's struggle with public speaking and his reliance on team support to overcome personal limitations while fulfilling a professional responsibility.",
+      "chunk": {
+        "id": 0,
+        "text": "Martin is assigned to moderate a forum on 'Accessibility and Social Exclusion' at an industry summit, causing him significant anxiety. His manager, Jasper, is firm about the decision, while his colleague, Chloe, offers to help him prepare. Martin's internal conflict between professional competence and personal comfort is evident as he reluctantly agrees to take on the challenge with Chloe's assistance."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

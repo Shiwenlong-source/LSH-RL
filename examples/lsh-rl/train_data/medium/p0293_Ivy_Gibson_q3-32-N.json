@@ -1,0 +1,74 @@
+{
+  "title": "Faith Group Reflection",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Faith group meeting",
+      "time": "Evening",
+      "location": "Community Center",
+      "description": "Ivy sits at a wooden table in a small, softly lit room with a handful of other members of her faith group. The group is engaged in a weekly meeting focused on sharing personal struggles and spiritual reflections. Ivy is visibly nervous, clutching her notebook and taking deep breaths before speaking.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Ivy Gibson",
+          "gender": "Female",
+          "description": "A reflective and vulnerable young woman in her early twenties, actively involved in the faith group. She is currently battling self-doubt and is seeking emotional healing and clarity.; Female, Christian, 24 years old; Occupation: Community Administrator; Personality: Reflective, Vulnerable, Determined; Values: Faith, Self-reflection, Group support; Interests: Spiritual growth, Emotional healing, Group discussions; Experiences: Recent self-doubt, Active participation in faith group, Struggling between anxiety and gratitude",
+          "position": "Center of the table",
+          "states": "Nervous, determined",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Lina Carter",
+          "gender": "Female",
+          "description": "A warm and empathetic member of the group, known for her supportive nature and encouragement; Female; Age: 38; Occupation: Counselor; Personality: Compassionate, patient, intuitive; Values: Community, inner peace, personal growth; Interests: Reading spiritual texts, journaling, nature walks; Experiences: Volunteered in crisis support for several years, led a small prayer group at her workplace, overcame a period of personal loss through faith and therapy.",
+          "position": "Left of Ivy",
+          "states": "Supportive, attentive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Mary Thompson",
+          "gender": "Female",
+          "description": "A more experienced and direct member of the group, who often challenges others to dig deeper into their faith; Female; Age: 58; Occupation: Retired High School Theology Teacher; Personality: Analytical, Compassionate, Uncompromising; Values: Integrity, Spiritual Growth; Interests: Reading theological works, mentoring young people; Experiences: Led youth retreats for over 20 years, Overcame a personal crisis of faith in her 40s.",
+          "position": "Across from Ivy",
+          "states": "Thoughtful, probing",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Ivy Gibson",
+          "character_id": 0,
+          "action": "Opening her notebook and beginning to speak",
+          "dialogue": "I've been struggling a lot lately with feelings of anxiety and self-doubt. I find myself focusing on what I don't have rather than being grateful for what I do. I know I need to grow in my faith, but I'm not sure how to move forward."
+        },
+        {
+          "action_id": 1,
+          "character": "Lina Carter",
+          "character_id": 1,
+          "action": "Nodding and offering encouragement",
+          "dialogue": "Thank you for being so honest, Ivy. It takes a lot of courage to share that. I can relate to feeling that way sometimes. Let me remind you that you are not alone in this journey."
+        },
+        {
+          "action_id": 2,
+          "character": "Mary Thompson",
+          "character_id": 2,
+          "action": "Asking a probing question",
+          "dialogue": "That's a good start, Ivy. But tell me, have you considered how your focus on what you lack might be keeping you from seeing the blessings around you? What does gratitude look like for you in practical terms?"
+        }
+      ],
+      "plot": "Ivy opens up about her inner struggles with the faith group, receiving both support from Lina and a challenging question from Mary. Her response will reveal whether she is ready to embrace a new perspective or remain in her current state of uncertainty.",
+      "social_purpose": "To explore Ivy's personal growth and how the group's dynamics influence her journey toward spiritual and emotional healing.",
+      "chunk": {
+        "id": 0,
+        "text": "The room is filled with quiet murmurs of agreement as Ivy shares her thoughts. Lina's words bring a sense of comfort, while Mary's question forces Ivy to confront her mindset. Ivy's determination is evident, but her vulnerability is also on display as she weighs the group's reactions."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

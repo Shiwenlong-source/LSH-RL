@@ -1,0 +1,88 @@
+{
+  "title": "The Grill Debate",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Floor-plan presentation for a new housing development",
+      "time": "10:00 AM",
+      "location": "Brightview Real Estate Brokerage Conference Room",
+      "description": "Spencer Jordan, a 28-year-old restaurant industry owner, is attending his first floor-plan presentation. He's seated at the conference table with two real estate agents, senior agent Hong and young agent Lily. The agents are presenting a newly developed home in a suburban neighborhood, highlighting various features.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Spencer Jordan",
+          "gender": "Male",
+          "description": "A young, enthusiastic homebuyer in his late 20s, with a firm and thoughtful personality. He owns a small restaurant and is passionate about cooking.; Around, Male, Homebuyer, 28 years old; Occupation: Restaurant Industry Owner; Personality: Enthusiastic, Firm, Thoughtful; Values: Practicality, Personal Preference, Convenience; Interests: Cooking, Real Estate, Life Planning; Experiences: First-time Home Buying, Preliminary Property Research, Negotiating with Agents",
+          "position": "Seated at the table, leaning forward with interest",
+          "states": "Curious, determined, slightly nervous",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Hong",
+          "gender": "Female",
+          "description": "A senior real estate agent with decades of experience; Female; Age: 58; Occupation: Real Estate Broker and Senior Advisor at Brightview Real Estate Brokerage; Personality: Professional, attentive, measured; Values: Long-term practicality, client trust, community stability; Interests: Interior design, urban planning, mentoring young professionals; Experiences: Guided hundreds of first-time homebuyers, led successful suburban development projects, trained new agents like Lily.",
+          "position": "Standing at the front, presenting the floor plan",
+          "states": "Professional, attentive, measured",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Lily",
+          "gender": "Female",
+          "description": "A young, energetic real estate agent who is more focused on convenience and modern lifestyle features; Female; Age: 26; Occupation: Real Estate Agent; Personality: Enthusiastic, supportive, persuasive; Values: Innovation, customer satisfaction; Interests: Interior design, urban planning, social media trends; Experiences: Successfully sold over 50 modern-style homes in the past two years, trained by a top real estate firm in suburban market strategies, frequently attends home design expos to stay updated on the latest trends.",
+          "position": "Seated beside Hong, taking notes",
+          "states": "Enthusiastic, supportive, persuasive",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Spencer Jordan",
+          "character_id": 0,
+          "action": "Expresses excitement about the house's natural gas grill",
+          "dialogue": "I can't get over this natural gas grill! It’s perfect for my restaurant owner lifestyle. I can host backyard dinners for my staff and clients—imagine the buzz that would bring!"
+        },
+        {
+          "action_id": 1,
+          "character": "Hong",
+          "character_id": 1,
+          "action": "Responds with caution, redirecting focus to Spencer's overall needs",
+          "dialogue": "That’s a nice feature, Spencer, but can you tell me more about what you’re looking for in a home? Are you prioritizing space for a family, long-term investment, or something else?"
+        },
+        {
+          "action_id": 2,
+          "character": "Lily",
+          "character_id": 2,
+          "action": "Highlights the convenience of the home’s proximity to I-96",
+          "dialogue": "Spencer, this home is also just minutes from I-96. If you're planning to commute or host clients from the city, that’s a huge plus. It really adds to the convenience factor."
+        },
+        {
+          "action_id": 3,
+          "character": "Spencer Jordan",
+          "character_id": 0,
+          "action": "Considers the agents' points, showing thoughtful hesitation",
+          "dialogue": "You're both right. The grill is a personal preference, but I also want to make sure this home is practical and fits my future plans. Maybe I should think more about the layout and how it works for a growing business and family life."
+        },
+        {
+          "action_id": 4,
+          "character": "Hong",
+          "character_id": 1,
+          "action": "Nods and encourages further discussion",
+          "dialogue": "That’s the right mindset. A home isn’t just about the features you love—it's about what will serve you well in the long run. Let’s go over the rest of the details and see how everything aligns with your goals."
+        }
+      ],
+      "plot": "Spencer, a first-time homebuyer, is enthusiastic about a home's natural gas grill during a presentation. Hong and Lily, the real estate agents, steer the conversation toward broader considerations, such as Spencer's motivation for buying and the home's practical features like proximity to I-96. Spencer is challenged to balance his personal preference with the agents' professional insights, leading to a more thoughtful evaluation of his housing needs.",
+      "social_purpose": "To explore how personal preferences, practical considerations, and professional guidance intersect in a real estate decision, allowing the protagonist's traits and background to emerge naturally through dialogue and action.",
+      "chunk": {
+        "id": 0,
+        "text": "Spencer leaned forward in his chair, eyes bright as Hong pointed to the kitchen layout on the projector screen. 'This natural gas grill is a game-changer!' he said, his voice full of excitement. Hong paused, her expression calm but measured. 'Spencer, that’s a great feature, but can you tell me more about what you're looking for in a home? Are you planning for a growing family, or is this more of a lifestyle investment?' Lily chimed in, her tone upbeat. 'And you should know, the home is right off I-96. That’s a major convenience for anyone who wants to travel easily.' Spencer sat back, thoughtful. 'I hadn’t considered the location as much as the grill, but you’re both right. I need to think about what’s practical for the long term.' Hong smiled. 'That’s the mindset of a smart buyer. Let’s go over the rest of the details.'"
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

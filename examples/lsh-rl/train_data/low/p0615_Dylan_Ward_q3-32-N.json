@@ -1,0 +1,109 @@
+{
+  "title": "A Coffee Shop Encounter",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Meeting up for coffee",
+      "time": "Afternoon",
+      "location": "Local coffee shop",
+      "description": "Dylan, a 24-year-old office worker and man battling depression, meets Tiki, a cheerful and outgoing stranger he met online, for the first time in a public setting. Tiki brings along her best friend, Marcus, who is curious about Dylan and offers subtle support. The shared goal is to build a genuine connection and find some emotional relief.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Dylan Ward",
+          "gender": "Male",
+          "description": "A 24-year-old office worker who is emotionally sensitive and struggling with depression. He is hesitant but hopeful about this meeting.; Male / Depressed man, 24 years old; Occupation: Office worker; Personality: Vulnerable, Emotional, Conflicted, Sensitive; Values: Emotional connection, Emotional authenticity, Comfort; Interests: Online communication, Emotional support, Self-reflection; Experiences: Recent emotional setbacks, Seeking emotional solace, Troubled by loneliness, Participating in online interactions",
+          "position": "Sitting at a small table in the corner of the coffee shop",
+          "states": "Nervous, hopeful, conflicted",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Tiki",
+          "gender": "Female",
+          "description": "A bright and enthusiastic young woman in her early 20s who reached out to Dylan online. She is empathetic and genuinely interested in his well-being; Female; Age: 21; Occupation: Mental health advocate and social media content creator; Personality: Optimistic, compassionate, curious; Values: Empathy, authenticity, community; Interests: Mindfulness practices, creative writing, supporting others through mental health challenges; Experiences: Volunteered at a youth counseling center, overcame personal struggles with anxiety, started an online support group for young adults.",
+          "position": "Across from Dylan at the table",
+          "states": "Excited, warm, attentive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Marcus",
+          "gender": "Male",
+          "description": "Tiki's best friend and confidant; Male; Age: 27; Occupation: Social worker; Personality: Empathetic, observant, encouraging; Values: Compassion, authenticity, emotional well-being; Interests: Volunteering at community centers, reading self-help books, hiking; Experiences: Helped support a friend through a mental health crisis, worked with at-risk youth in urban settings, recently started a peer support group for young adults.",
+          "position": "Sitting beside Tiki",
+          "states": "Calm, curious, encouraging",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Tiki",
+          "character_id": 1,
+          "action": "Greet Dylan warmly",
+          "dialogue": "Hey Dylan! I'm so glad you're here. I've been looking forward to this all week."
+        },
+        {
+          "action_id": 1,
+          "character": "Dylan Ward",
+          "character_id": 0,
+          "action": "Nervously smile and greet Tiki and Marcus",
+          "dialogue": "Hi, Tiki. And hey, Marcus. Thanks for coming. I was a little unsure if this would be a good idea, but I'm glad I did."
+        },
+        {
+          "action_id": 2,
+          "character": "Marcus",
+          "character_id": 2,
+          "action": "Offer reassurance",
+          "dialogue": "We're both here to make sure you're comfortable. If you ever need a break, just let us know."
+        },
+        {
+          "action_id": 3,
+          "character": "Dylan Ward",
+          "character_id": 0,
+          "action": "Express his feelings",
+          "dialogue": "I've been feeling pretty low lately. It's not easy for me to open up, but I wanted to try something different."
+        },
+        {
+          "action_id": 4,
+          "character": "Tiki",
+          "character_id": 1,
+          "action": "Show empathy",
+          "dialogue": "I'm really sorry to hear that, Dylan. I know how hard it can be to feel alone. That's why I reached out in the first place."
+        },
+        {
+          "action_id": 5,
+          "character": "Marcus",
+          "character_id": 2,
+          "action": "Ask about Dylan's interests",
+          "dialogue": "You mentioned you like online communication. What made you start doing that?"
+        },
+        {
+          "action_id": 6,
+          "character": "Dylan Ward",
+          "character_id": 0,
+          "action": "Reflect on his experiences",
+          "dialogue": "I guess I was looking for some kind of connection, something real. It felt easier to talk online than face-to-face."
+        },
+        {
+          "action_id": 7,
+          "character": "Tiki",
+          "character_id": 1,
+          "action": "Encourage further interaction",
+          "dialogue": "That's totally valid, Dylan. Maybe we can do this more often? Just to talk and not feel so alone."
+        }
+      ],
+      "plot": "Dylan meets Tiki and Marcus in a local coffee shop, where he cautiously opens up about his emotional struggles and finds a sense of comfort and connection.",
+      "social_purpose": "To explore Dylan's emotional state and his desire for authentic connection while showing how others can provide support in a public setting.",
+      "chunk": {
+        "id": 0,
+        "text": "Dylan sat in the corner of the coffee shop, his fingers nervously tapping the wooden table. Tiki arrived first, her smile lighting up the room. She introduced her friend Marcus, who nodded politely and asked questions to ease the tension. Dylan slowly began to open up, sharing his recent feelings of loneliness and his online interactions as a way to cope. Tiki and Marcus listened with genuine care, creating a safe space for Dylan to feel seen and supported."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

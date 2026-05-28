@@ -1,0 +1,109 @@
+{
+  "title": "The Coffee Pause",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Gabriel meets with Ivy for a coffee break at work, but his mother calls, complicating the moment.",
+      "time": "Afternoon",
+      "location": "Café near Gabriel's office",
+      "description": "Gabriel and Ivy, his coworker, sit in a quiet corner of the café, sipping coffee and discussing their upcoming sales project. The atmosphere is calm but tense as Gabriel wrestles with internal conflict. His phone buzzes, and his mother's name appears on the screen, making him visibly hesitate.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Gabriel Cox",
+          "gender": "Male",
+          "description": "A 35-year-old professional in product sales, visibly conflicted and exhausted. He is trying to balance his personal and professional life.; Male/Professional, 35 years old; Occupation: Product Sales; Personality: Conflicted, Exhausted, Rational; Values: Integrity, Emotional Honesty, Family Responsibility; Interests: Self-reflection, Career Development, Emotional Clarity; Experiences: Workplace injustice, Emotional confusion, Family dependence, Finding meaning, Interpersonal conflict",
+          "position": "Corner table",
+          "states": "Tense, hesitant, thoughtful",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Ivy Chen",
+          "gender": "Female",
+          "description": "A supportive and observant coworker who is trying to understand Gabriel's emotional state; Female; Age: 28; Occupation: Sales Strategy Analyst; Personality: Empathetic, detail-oriented, patient; Values: Loyalty, work-life balance, emotional intelligence; Interests: Reading psychological thrillers, practicing yoga, volunteering at a community center; Experiences: Navigated a high-pressure merger at work, supported a friend through a difficult family situation, led a team through a major project setback.",
+          "position": "Across from Gabriel",
+          "states": "Calm, concerned, attentive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Nora Cox",
+          "gender": "Female",
+          "description": "Gabriel's mother, who calls frequently and relies heavily on him for emotional and financial support; Female; Age: 62; Occupation: Retired schoolteacher; Personality: Demanding, anxious, overbearing; Values: Family responsibility, emotional connection; Interests: Reading self-help books, baking, family gatherings; Experiences: Spent years managing a household alone, recently experienced health scare, struggles with aging independence.",
+          "position": "Not present (on phone call)",
+          "states": "Demanding, anxious, overbearing",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Gabriel Cox",
+          "character_id": 0,
+          "action": "Looks at his phone with hesitation",
+          "dialogue": "Ivy, I need to take this call. It's my mom. I'm sorry."
+        },
+        {
+          "action_id": 1,
+          "character": "Ivy Chen",
+          "character_id": 1,
+          "action": "Nods and offers reassurance",
+          "dialogue": "Take your time, Gabriel. I know it's not easy."
+        },
+        {
+          "action_id": 2,
+          "character": "Gabriel Cox",
+          "character_id": 0,
+          "action": "Answers the call, voice softens",
+          "dialogue": "Hi, Mom. I'm at work, but I can talk for a minute."
+        },
+        {
+          "action_id": 3,
+          "character": "Nora Cox",
+          "character_id": 2,
+          "action": "Calls Gabriel, voice full of complaint",
+          "dialogue": "Gabriel, I need help with the bills again. I can't do this alone!"
+        },
+        {
+          "action_id": 4,
+          "character": "Gabriel Cox",
+          "character_id": 0,
+          "action": "Pauses, then responds with a rational tone",
+          "dialogue": "I'll see what I can do, Mom. But I'm in the middle of something important right now."
+        },
+        {
+          "action_id": 5,
+          "character": "Ivy Chen",
+          "character_id": 1,
+          "action": "Gently shifts the conversation",
+          "dialogue": "Gabriel, I know it's tough, but we need to focus on the project. What's your take on the new proposal?"
+        },
+        {
+          "action_id": 6,
+          "character": "Gabriel Cox",
+          "character_id": 0,
+          "action": "Looks at Ivy, then at his phone",
+          "dialogue": "I think it's a step in the right direction, but I need to be honest. I'm not in the best headspace to be fully objective."
+        },
+        {
+          "action_id": 7,
+          "character": "Ivy Chen",
+          "character_id": 1,
+          "action": "Reassures him and encourages self-reflection",
+          "dialogue": "That's okay. Sometimes it's hard to find clarity when everything is pulling at you. Just know I'm here if you need someone to talk to."
+        }
+      ],
+      "plot": "Gabriel is trying to focus on a new sales project with Ivy, but his mother's call disrupts the moment and highlights his internal struggle between personal responsibility and emotional honesty.",
+      "social_purpose": "To reveal Gabriel's emotional and familial burdens, and to show how his values and personality traits influence his interactions in a professional setting.",
+      "chunk": {
+        "id": 0,
+        "text": "Gabriel and Ivy are discussing the new sales project, but his mother's call forces him to confront his responsibilities. Ivy offers emotional support, while Gabriel tries to maintain a rational and professional demeanor."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

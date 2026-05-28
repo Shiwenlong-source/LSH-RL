@@ -1,0 +1,133 @@
+{
+  "title": "The Exam Change Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Faith confronts the science teacher about an unexpected exam change with the help of her friends.",
+      "time": "After school, 3:45 PM",
+      "location": "Science Teacher's Office, Hallway outside",
+      "description": "Faith stands outside the science teacher's office, visibly tense and anxious. Her best friend Lili is beside her, trying to calm her down, while Lora, another close friend, is pacing nervously and urging action. Inside the office, the science teacher, Mr. Thompson, is grading papers, unaware of the tension brewing outside.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Faith Gibson",
+          "gender": "Female",
+          "description": "A 17-year-old high school student with a determined and fair-minded personality. She is passionate about academic challenges and social justice.; Female, years old, High School Student, 17 years old; Occupation: High School Student; Personality: Determined, Passionate, Stubborn, Fair-minded; Values: Fairness, Integrity, Friendship; Interests: Academic Challenges, Social Justice, Dance; Experiences: Exam Preparation, Organizing Class Discussions, Participating in Campus Activities",
+          "position": "Outside the office, center",
+          "states": "Anxious, determined, conflicted",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Lili Chen",
+          "gender": "Female",
+          "description": "Faith's best friend; Female; Age: 16; Occupation: High school student; Personality: Calm, empathetic, diplomatic; Values: Honesty, friendship, fairness; Interests: Reading self-help books, journaling, listening to indie folk music; Experiences: Mediated a conflict between two rival students in the past, helped Faith through a family crisis, organized a peer support group for stressed students",
+          "position": "Beside Faith, left",
+          "states": "Supportive, reassuring",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Lora Martinez",
+          "gender": "Female",
+          "description": "Bold, assertive, and impatient; Female; Age: 16; Occupation: High school student; Personality: Confident, impulsive, competitive; Values: Fairness, efficiency, loyalty; Interests: Debate club, sports, solving problems; Experiences: Successfully led a group project to win a science fair, stood up to a strict authority figure in the past, often takes charge in stressful situations.",
+          "position": "Pacing outside the office, right",
+          "states": "Frustrated, impatient",
+          "is_npc": true
+        },
+        {
+          "id": 3,
+          "name": "Mr. Thompson",
+          "gender": "Male",
+          "description": "The science teacher. He is stern, methodical, and has a reputation for being strict but fair. He is currently unaware of the students' presence; Male; Age: 48; Occupation: High school science teacher; Personality: Disciplined, analytical, patient; Values: Academic integrity, fairness, responsibility; Interests: Birdwatching, reading scientific journals, gardening; Experiences: Twenty years of teaching in the same school, dealt with student protests over grading policies, former research scientist in marine biology.",
+          "position": "Inside the office, grading at his desk",
+          "states": "Calm, focused",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Lora Martinez",
+          "character_id": 2,
+          "action": "knocks on the office door",
+          "dialogue": "Excuse me, Mr. Thompson? We need to talk about the exam change."
+        },
+        {
+          "action_id": 1,
+          "character": "Mr. Thompson",
+          "character_id": 3,
+          "action": "looks up from his desk and opens the door slightly",
+          "dialogue": "Yes, what seems to be the issue? I'm busy right now."
+        },
+        {
+          "action_id": 2,
+          "character": "Faith Gibson",
+          "character_id": 0,
+          "action": "steps forward to speak",
+          "dialogue": "We're confused about the last-minute change to the exam format. We were told it would be a written test, but now it's a lab practical. It's not fair to everyone who prepared differently."
+        },
+        {
+          "action_id": 3,
+          "character": "Mr. Thompson",
+          "character_id": 3,
+          "action": "frowns and crosses his arms",
+          "dialogue": "I made the change to better assess your practical skills. You're all capable of adapting."
+        },
+        {
+          "action_id": 4,
+          "character": "Lili Chen",
+          "character_id": 1,
+          "action": "interjects calmly",
+          "dialogue": "We understand the goal, but the notice was only given an hour before the exam. Some of us had already scheduled study groups and other activities."
+        },
+        {
+          "action_id": 5,
+          "character": "Faith Gibson",
+          "character_id": 0,
+          "action": "speaks passionately",
+          "dialogue": "We want to make sure the process is fair. If this is a mistake, it should be corrected. Otherwise, we need to know the reasoning so we can prepare better."
+        },
+        {
+          "action_id": 6,
+          "character": "Mr. Thompson",
+          "character_id": 3,
+          "action": "sighs and gestures for them to come in",
+          "dialogue": "I see your point. Come in and I'll explain. I hope you're not here to start a confrontation."
+        },
+        {
+          "action_id": 7,
+          "character": "Lora Martinez",
+          "character_id": 2,
+          "action": "enters the office with determination",
+          "dialogue": "If you don't address it now, we'll have to take it up with the principal."
+        },
+        {
+          "action_id": 8,
+          "character": "Faith Gibson",
+          "character_id": 0,
+          "action": "follows Lora in and sits down",
+          "dialogue": "We're not here to cause trouble. We just want to be treated fairly."
+        },
+        {
+          "action_id": 9,
+          "character": "Lili Chen",
+          "character_id": 1,
+          "action": "enters the office and sits beside Faith",
+          "dialogue": "We trust you, Mr. Thompson, but we need transparency."
+        }
+      ],
+      "plot": "Faith and her friends confront Mr. Thompson about a last-minute exam format change. They express their concerns about fairness and preparation time, while Lora pushes for a more aggressive approach. Mr. Thompson, initially dismissive, begins to engage in a dialogue, acknowledging their points and inviting them in for further discussion.",
+      "social_purpose": "To explore the protagonist's values of fairness and integrity in a real-life situation where she must balance her determination with the support of her friends and the potential consequences of challenging an authority figure.",
+      "chunk": {
+        "id": 0,
+        "text": "Faith stands outside the science teacher's office, visibly tense and anxious. Her best friend Lili is beside her, trying to calm her down, while Lora, another close friend, is pacing nervously and urging action. Inside the office, the science teacher, Mr. Thompson, is grading papers, unaware of the tension brewing outside. Lora knocks on the door, and Mr. Thompson opens it slightly. Faith steps forward and explains the issue with the exam change, while Lili adds a more diplomatic perspective. Mr. Thompson, initially dismissive, softens and invites them in. Lora, bold as ever, threatens to escalate the issue if it's not resolved. Faith, determined and fair-minded, insists on transparency and a fair process. The confrontation highlights the conflict between students and authority, and the importance of standing up for what is right."
+      },
+      "npcs": [
+        1,
+        2,
+        3
+      ]
+    }
+  ]
+}

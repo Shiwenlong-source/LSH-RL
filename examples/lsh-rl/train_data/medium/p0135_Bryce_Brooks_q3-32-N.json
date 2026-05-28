@@ -1,0 +1,102 @@
+{
+  "title": "Quiz Show Tension",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Quiz Show Final Round",
+      "time": "Afternoon",
+      "location": "Television studio",
+      "description": "Bryce Brooks, a middle school teacher and quiz show contestant, is preparing to answer the final question for a chance to win a vacation to Los Angeles. His fiancée Mona and her mother Fiona are in the audience, offering emotional support and commentary.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Bryce Brooks",
+          "gender": "male",
+          "description": "Middle-aged, family-oriented, and confident with a hint of anxiety. He has a history of quiz show success and is determined to win again.; male, family-oriented, 47 years old; Occupation: Middle school teacher; Personality: Determined, Anxious, Confident, Thoughtful; Values: Family, Success, Self-reliance; Interests: Live competitions, Trivia games, Travel; Experiences: Won a grand prize on a quiz show, Participated in live events, Thorough preparation for challenges, Received emotional support from friends and family, Facing public pressure",
+          "position": "On stage, center",
+          "states": "Nervous, focused, and motivated",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Mona",
+          "gender": "female",
+          "description": "Supportive and encouraging fiancée; Female; Age: 28; Occupation: Event planner; Personality: Enthusiastic, optimistic, empathetic; Values: Loyalty, personal growth, kindness; Interests: Watching game shows, traveling, baking; Experiences: Supported Bryce through his public speaking competitions in college, organized community trivia nights, recently attended a friend’s successful TV audition.",
+          "position": "Front row, left side of the audience",
+          "states": "Excited and cheering",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Fiona",
+          "gender": "female",
+          "description": "Skeptical and experienced mother of Mona; Female; Age: 58; Occupation: High school nurse; Personality: Pragmatic, protective, observant; Values: Family security, honesty, preparedness; Interests: Health and wellness, local news, gardening; Experiences: Witnessed Bryce's previous quiz show wins, raised Mona through various life challenges, worked in healthcare during multiple crises.",
+          "position": "Front row, right side of the audience",
+          "states": "Critical and watchful",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Bryce Brooks",
+          "character_id": 0,
+          "action": "Listening to the final question",
+          "dialogue": "Bryce leans forward, eyes wide, and nods as he processes the question."
+        },
+        {
+          "action_id": 1,
+          "character": "Mona",
+          "character_id": 1,
+          "action": "Encouraging Bryce",
+          "dialogue": "Mona whispers, 'You've got this, Bryce! Just trust yourself.'"
+        },
+        {
+          "action_id": 2,
+          "character": "Fiona",
+          "character_id": 2,
+          "action": "Commenting on the question",
+          "dialogue": "Fiona mutters, 'That's a tricky one. I hope he doesn't second-guess himself.'"
+        },
+        {
+          "action_id": 3,
+          "character": "Bryce Brooks",
+          "character_id": 0,
+          "action": "Considering the answer",
+          "dialogue": "Bryce taps his pen nervously, his mind racing through the facts he studied for weeks."
+        },
+        {
+          "action_id": 4,
+          "character": "Bryce Brooks",
+          "character_id": 0,
+          "action": "Answering the question",
+          "dialogue": "Bryce stands up and says, 'I believe the answer is the Pacific Ocean.'"
+        },
+        {
+          "action_id": 5,
+          "character": "Mona",
+          "character_id": 1,
+          "action": "Cheering",
+          "dialogue": "Mona claps and shouts, 'Yes! That's right!'"
+        },
+        {
+          "action_id": 6,
+          "character": "Fiona",
+          "character_id": 2,
+          "action": "Reacting skeptically",
+          "dialogue": "Fiona raises an eyebrow and says, 'Only time will tell if that was the right call.'"
+        }
+      ],
+      "plot": "Bryce Brooks is in the final round of a quiz show, trying to win a vacation to Los Angeles. His fiancée Mona supports him, while her mother Fiona remains skeptical. As the tension builds, Bryce must rely on his preparation and confidence to answer correctly.",
+      "social_purpose": "To showcase Bryce's determination, anxiety, and confidence while highlighting the importance of family support and the pressure of public performance.",
+      "chunk": {
+        "id": 0,
+        "text": "Bryce Brooks, a middle school teacher and quiz show contestant, is preparing to answer the final question for a chance to win a vacation to Los Angeles. His fiancée Mona and her mother Fiona are in the audience, offering emotional support and commentary. As the tension builds, Bryce must rely on his preparation and confidence to answer correctly."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

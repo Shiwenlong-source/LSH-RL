@@ -1,0 +1,109 @@
+{
+  "title": "Finding Peace in the Faith Group",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Faith Group Meeting",
+      "time": "Saturday evening, 7:00 PM",
+      "location": "Community Room at a local church",
+      "description": "Victoria sits in a small circle with a few other members of the faith group. The room is softly lit with candles and filled with the quiet hum of shared devotion. Gang, the group leader, is seated in the center with a Bible in hand, while Yuki sits to Victoria's left, offering a calming presence. The group is preparing for a prayer and scripture-sharing session.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Victoria Cole",
+          "gender": "Female",
+          "description": "A 22-year-old designer who recently converted to Christianity. She is thoughtful and introspective, often seeking inner clarity and emotional peace.; 22-year-old /Female/New Christian, 24 years old; Occupation: Designer; Personality: Thoughtful, Introspective, Faith-driven, Empathetic; Values: Faith, Reconciliation, Community, Inner peace; Interests: Spiritual growth, Personal development, Group discussions, Reading the Bible; Experiences: Recently converted to Christianity, Attending faith group, Emotional decision-making, Seeking inner clarity, Having supportive friendships",
+          "position": "center of the circle",
+          "states": "nervous, contemplative, hopeful",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Gang",
+          "gender": "Male",
+          "description": "Gang is the leader of the faith group, known for his calm and encouraging demeanor; Male; Age: late 30s; Occupation: Pastoral Counselor; Personality: compassionate, introspective, patient; Values: spiritual growth, community, integrity; Interests: biblical storytelling, meditation, nature walks; Experiences: led a community outreach program during a time of crisis, studied theology at a seminary, mentored young leaders in his congregation.",
+          "position": "center, leading the group",
+          "states": "calm, attentive, supportive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Yuki",
+          "gender": "Female",
+          "description": "A longtime Christian and Victoria's close friend. She is empathetic and often provides quiet emotional support during difficult times; Female; Age: 32; Occupation: High school counselor; Personality: Compassionate, introspective, kind; Values: Faith, community, emotional well-being; Interests: Reading theological writings, journaling, gardening; Experiences: Volunteered at a local youth outreach program for five years, supported a friend through a major life crisis, participated in a cross-country mission trip in her early twenties.",
+          "position": "left of Victoria",
+          "states": "supportive, patient, listening",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Gang",
+          "character_id": 1,
+          "action": "opens the meeting",
+          "dialogue": "Good evening, everyone. Let’s start with a prayer, asking for God’s guidance as we share and grow in our faith. Victoria, would you like to lead us in prayer tonight?"
+        },
+        {
+          "action_id": 1,
+          "character": "Victoria Cole",
+          "character_id": 0,
+          "action": "hesitates but agrees to pray",
+          "dialogue": "Yes, I would. Lord, thank You for bringing us together in this group. I know I’m still learning, but I trust You and ask for Your help in finding peace and clarity. Amen."
+        },
+        {
+          "action_id": 2,
+          "character": "Yuki",
+          "character_id": 2,
+          "action": "gently places a hand on Victoria's shoulder",
+          "dialogue": "You did great, Victoria. I’m here if you need to talk about anything."
+        },
+        {
+          "action_id": 3,
+          "character": "Gang",
+          "character_id": 1,
+          "action": "leads the group in reading a passage",
+          "dialogue": "Let’s read Romans 15:13 together. May the God of hope fill you with all joy and peace as you trust in Him."
+        },
+        {
+          "action_id": 4,
+          "character": "Victoria Cole",
+          "character_id": 0,
+          "action": "shares her thoughts after the reading",
+          "dialogue": "I’ve been thinking a lot about reconciliation lately. I’m trying to forgive someone who hurt me, and I feel like this passage is a reminder that God gives us the strength to do it."
+        },
+        {
+          "action_id": 5,
+          "character": "Gang",
+          "character_id": 1,
+          "action": "encourages further discussion",
+          "dialogue": "That’s a beautiful reflection, Victoria. Forgiveness is a powerful act of faith. Would anyone like to share how they’ve experienced God’s peace in difficult situations?"
+        },
+        {
+          "action_id": 6,
+          "character": "Yuki",
+          "character_id": 2,
+          "action": "shares her own experience",
+          "dialogue": "I had to forgive my brother after a big fight a few years ago. It wasn’t easy, but trusting God brought me peace I didn’t think I could have. Victoria, you’re not alone in this."
+        },
+        {
+          "action_id": 7,
+          "character": "Victoria Cole",
+          "character_id": 0,
+          "action": "expresses gratitude and determination",
+          "dialogue": "Thank you both. I feel more encouraged to take that step, even if it’s hard. I believe in the power of community and faith to help me through."
+        }
+      ],
+      "plot": "Victoria is working through her decision to reconcile with someone who has hurt her. At the faith group meeting, she shares her thoughts and receives support from Yuki and encouragement from Gang. The group’s shared faith and community help her feel more confident in taking the next step.",
+      "social_purpose": "To show how a faith group can provide emotional and spiritual support in times of personal struggle, and how shared values and experiences can bring people together.",
+      "chunk": {
+        "id": 0,
+        "text": "Victoria Cole, a 22-year-old new Christian, is part of a small faith group meeting led by Gang. She is working through a decision to reconcile with someone, and her introspective nature makes the process difficult. Yuki, her longtime friend and fellow group member, offers silent but meaningful support. As the group reads scripture and shares experiences, Victoria finds comfort in the community and begins to feel a sense of peace and clarity."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "title": "The Café Catch-Up",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Group of friends meeting for coffee after Spencer's graduation",
+      "time": "Afternoon",
+      "location": "A cozy corner of a local café",
+      "description": "Spencer, Yury, and Hong are seated at a small table. A few other friends from Spencer's university are present, but the conversation is mostly between Spencer, Yury, and Hong. Spencer sits quietly, observing the interactions around him, while Yury and Hong engage in animated discussion.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Spencer White",
+          "gender": "Male",
+          "description": "Spencer is a recent graduate, visibly introverted and self-conscious. He sits with a notebook on his lap, pretending to read it as a way to avoid direct eye contact and conversation.; Male, Early, 25 years old; Occupation: Recent Graduate; Personality: Introverted, Sensitive, Self-conscious, Empathetic; Values: Self-esteem, Emotional Authenticity, Independence; Interests: Social Observation, Music, Self-reflection; Experiences: Unresolved social conflicts, Awkward interactions, Emotional suppression, Peer pressure, Self-doubt",
+          "position": "Seated at the table, slightly apart from the others",
+          "states": "Anxious, observant, conflicted",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Yury Kim",
+          "gender": "Non-binary",
+          "description": "Yury is a confident and playful friend of Spencer's, known for their teasing but well-meaning nature; Non-binary; Age: 24; Occupation: Digital Marketing Specialist; Personality: witty, empathetic, outgoing; Values: authenticity, loyalty, growth; Interests: social media trends, indie music, baking; Experiences: worked on several successful student-led startups, studied abroad in Seoul during university, helped Spencer through a tough breakup with humor and support.",
+          "position": "Across the table from Spencer",
+          "states": "Teasing, persistent, friendly",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Hong Li",
+          "gender": "Female",
+          "description": "Hong is a warm and enthusiastic friend who genuinely wants Spencer to feel included; Female; Age: 24; Occupation: Event Coordinator; Personality: Sociable, optimistic, perceptive; Values: Community, loyalty, kindness; Interests: Planning social gatherings, trying new local cuisines, photography; Experiences: Organized several university friend reunions, helped Spencer integrate into a new study group, recently launched a community volunteer initiative.",
+          "position": "Beside Yury, facing Spencer",
+          "states": "Supportive, cheerful, empathetic",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Yury Kim",
+          "character_id": 1,
+          "action": "Leans in and speaks with a playful tone",
+          "dialogue": "Come on, Spence, you can't just sit there with your notebook like it's a shield. We all know you're just trying to avoid talking about your thesis again."
+        },
+        {
+          "action_id": 1,
+          "character": "Hong Li",
+          "character_id": 2,
+          "action": "Smiles warmly and interjects",
+          "dialogue": "Yury, don't be too hard on them. Spencer worked really hard on that thesis. I think it's amazing how much he put into it."
+        },
+        {
+          "action_id": 2,
+          "character": "Spencer White",
+          "character_id": 0,
+          "action": "Looks down and hesitates before responding",
+          "dialogue": "I just... I don't want to talk about it. It was a lot of work, but I don't think it means anything to anyone else."
+        },
+        {
+          "action_id": 3,
+          "character": "Yury Kim",
+          "character_id": 1,
+          "action": "Sighs and shifts tone to be more sincere",
+          "dialogue": "You know, Spence, it means something to us. We care. But you have to let us in sometimes."
+        },
+        {
+          "action_id": 4,
+          "character": "Hong Li",
+          "character_id": 2,
+          "action": "Nods and adds gently",
+          "dialogue": "We're all proud of you, Spencer. Maybe you could tell us a bit about the music you listened to while working on it. You always had such a unique taste."
+        },
+        {
+          "action_id": 5,
+          "character": "Spencer White",
+          "character_id": 0,
+          "action": "Relaxes slightly and begins to open up",
+          "dialogue": "Oh... Yeah, I did. Mostly jazz and classical. It helped me focus. I used to listen to Miles Davis when I felt overwhelmed."
+        }
+      ],
+      "plot": "Spencer is invited to a coffee catch-up by Yury and Hong after graduation. While initially withdrawn and anxious, the conversation slowly draws him out as the group shifts to a more personal and supportive tone.",
+      "social_purpose": "To demonstrate Spencer's struggle with social anxiety and his desire for emotional authenticity and acceptance, while showing how others can help him feel included.",
+      "chunk": {
+        "id": 0,
+        "text": "Spencer sits at the table, notebook in hand, as Yury and Hong try to include him in the conversation. Their teasing and support gradually help him open up, revealing his interests and values in a natural way."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

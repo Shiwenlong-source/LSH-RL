@@ -1,0 +1,109 @@
+{
+  "title": "The Morning Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Elizabeth is deciding whether to attend class or stay home due to her condition.",
+      "time": "9:00 AM, Monday",
+      "location": "Elizabeth's dorm room and campus hallway",
+      "description": "Elizabeth is lying in bed, groggy and in pain from a hangover and menstrual cramps. Jisoo, her supportive friend, is trying to convince her to stay home. Meanwhile, Professor Lao sends a reminder about class attendance, increasing Elizabeth's anxiety.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Elizabeth Palmer",
+          "gender": "Female",
+          "description": "21-year-old college student, anxious and conflicted about her health and academic responsibilities.; 21-year-old /Female/College student, 24 years old; Occupation: College student; Personality: Anxious, Self-conscious, Determined, Conflicted; Values: Academic responsibility, Health, Friendship; Interests: Social interaction, Rest and recovery, Education; Experiences: Frequent hangovers, Chronic menstrual pain, Academic pressure, Friend support, Decision-making pressure",
+          "position": "In bed, struggling to decide",
+          "states": "Tired, in pain, anxious, conflicted",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Jisoo",
+          "gender": "Female",
+          "description": "Elizabeth's close friend, empathetic and supportive, concerned about her health; Female; Age: 20; Occupation: Psychology major and peer counselor; Personality: Compassionate, patient, observant; Values: Empathy, loyalty, personal well-being; Interests: Mindfulness practices, journaling, indie music; Experiences: Volunteered at a campus wellness center, helped a close friend through a health crisis, balances academic and personal mental health challenges.",
+          "position": "Sitting on the bed, trying to comfort Elizabeth",
+          "states": "Concerned, caring, calm",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Professor Lao",
+          "gender": "Male",
+          "description": "Strict and detail-oriented college professor, focused on academic standards; Male; Age: 58; Occupation: Department Chair and Professor of Chemistry; Personality: Stern, authoritative, impatient; Values: Academic integrity, discipline, excellence; Interests: Research in sustainable energy, mentoring high-achieving students, reading scientific journals; Experiences: Previously served as a research scientist at a prestigious university, chaired multiple academic review panels, known for strict enforcement of class policies.",
+          "position": "Outside the dorm, in the hallway",
+          "states": "Stern, authoritative, impatient",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Jisoo",
+          "character_id": 1,
+          "action": "Gently places a hand on Elizabeth's shoulder",
+          "dialogue": "Elizabeth, I know you're not feeling well. You've been through a lot this weekend. Please, just rest today."
+        },
+        {
+          "action_id": 1,
+          "character": "Elizabeth Palmer",
+          "character_id": 0,
+          "action": "Sighs and looks at the clock",
+          "dialogue": "But I don't want to miss class again. Professor Lao already warned me about my absences."
+        },
+        {
+          "action_id": 2,
+          "character": "Jisoo",
+          "character_id": 1,
+          "action": "Reassures Elizabeth",
+          "dialogue": "He can't control what happens when you're sick. You're not a machine, Elizabeth. Take care of yourself first."
+        },
+        {
+          "action_id": 3,
+          "character": "Elizabeth Palmer",
+          "character_id": 0,
+          "action": "Pulls out her phone and reads a message from Professor Lao",
+          "dialogue": "He says he's not going to tolerate any more unexcused absences. I'm already behind in the readings."
+        },
+        {
+          "action_id": 4,
+          "character": "Jisoo",
+          "character_id": 1,
+          "action": "Suggests an alternative",
+          "dialogue": "Maybe you can send him a message and explain your situation. He might be more understanding if you're honest."
+        },
+        {
+          "action_id": 5,
+          "character": "Professor Lao",
+          "character_id": 2,
+          "action": "Approaches the dorm room with a clipboard in hand",
+          "dialogue": "Ms. Palmer, I see you haven't arrived for class yet. You have three absences already. I hope this isn't becoming a pattern."
+        },
+        {
+          "action_id": 6,
+          "character": "Elizabeth Palmer",
+          "character_id": 0,
+          "action": "Struggles to sit up and speaks with a shaky voice",
+          "dialogue": "I'm sorry, Professor. I'm not feeling well. I'll try to make it up somehow."
+        },
+        {
+          "action_id": 7,
+          "character": "Professor Lao",
+          "character_id": 2,
+          "action": "Nods but remains firm",
+          "dialogue": "I expect you to take this seriously. Your health is important, but so is your responsibility as a student."
+        }
+      ],
+      "plot": "Elizabeth is caught between her health and academic obligations. Jisoo encourages her to rest, while Professor Lao's strictness adds pressure to attend. Elizabeth must decide whether to prioritize her well-being or risk further academic consequences.",
+      "social_purpose": "To explore the tension between academic responsibility and personal health, while highlighting the role of friendship in difficult decision-making.",
+      "chunk": {
+        "id": 0,
+        "text": "Elizabeth lies in bed, staring at the ceiling. Her body aches, and the pounding in her head reminds her of the previous night's party. Jisoo sits beside her, gently placing a hand on her shoulder. 'Elizabeth, I know you're not feeling well. Please, just rest today.' Elizabeth sighs, glancing at the clock. 'But I don't want to miss class again. Professor Lao already warned me about my absences.' Jisoo nods. 'He can't control what happens when you're sick. Take care of yourself first.' Elizabeth pulls out her phone and reads a message from Professor Lao. 'He says he's not going to tolerate any more unexcused absences. I'm already behind in the readings.' Jisoo suggests, 'Maybe you can send him a message and explain your situation. He might be more understanding if you're honest.' At that moment, a knock is heard at the door. Professor Lao enters with a clipboard in hand. 'Ms. Palmer, I see you haven't arrived for class yet. You have three absences already. I hope this isn't becoming a pattern.' Elizabeth struggles to sit up. 'I'm sorry, Professor. I'm not feeling well. I'll try to make it up somehow.' Professor Lao nods but remains firm. 'I expect you to take this seriously. Your health is important, but so is your responsibility as a student.'"
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

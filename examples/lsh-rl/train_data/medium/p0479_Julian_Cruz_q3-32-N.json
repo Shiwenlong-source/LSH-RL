@@ -1,0 +1,95 @@
+{
+  "title": "Securing the Annual Meeting",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Julian and his team discuss security measures after a theft incident",
+      "time": "Evening, 3 days before the annual meeting",
+      "location": "Community Center Conference Room",
+      "description": "Julian, the president of a community organization, is in a tense meeting with his team members, Joe and Yury, to address a theft incident that occurred the previous night. The annual meeting is fast approaching, and the team is determined to ensure it goes smoothly while addressing the recent security breach.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Julian Cruz",
+          "gender": "Male",
+          "description": "A 34-year-old community leader with a calm and responsible demeanor, though visibly stressed due to the recent theft.; years old, Male, Community leader, 34 years old; Occupation: Community organization president; Personality: Responsible, Firm, Compassionate, Stressed; Values: Community service, Trust, Safety, Leadership; Interests: Organizing events, Teamwork, Problem-solving; Experiences: Leading community projects, Handling emergencies, Managing volunteers",
+          "position": "President of the Community Organization",
+          "states": "Stressed, determined, focused",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Joe Thompson",
+          "gender": "Male",
+          "description": "A 29-year-old volunteer and team member who is emotional and passionate about the organization’s mission; Male; Age: 29; Occupation: Social worker; Personality: Compassionate, responsible, empathetic; Values: Community trust, fairness, dedication; Interests: Organizing charity events, mentoring at-risk youth, public speaking; Experiences: Led a successful neighborhood outreach program, dealt with internal conflicts in past volunteer teams, witnessed a previous theft at a local shelter.",
+          "position": "Volunteer Coordinator",
+          "states": "Anxious, emotional, concerned",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Yury Petrov",
+          "gender": "Male",
+          "description": "Yury Petrov; Male; Age: 32; Occupation: IT Security Consultant; Personality: Calm, analytical, proactive; Values: Integrity, efficiency, community safety; Interests: Cybersecurity forums, urban hiking, tech gadget reviews; Experiences: Investigated similar theft incidents in local nonprofits, led security upgrades for a regional tech conference, former volunteer in the community center’s tech outreach program.",
+          "position": "IT and Security Advisor",
+          "states": "Calm, analytical, proactive",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Julian Cruz",
+          "character_id": 0,
+          "action": "Address the team and set the tone for the meeting",
+          "dialogue": "Alright, let’s get started. I know we’re all on edge after what happened, but we need to focus on solutions. Our annual meeting is in three days, and we can’t let this incident derail our mission. Safety and trust are our top priorities."
+        },
+        {
+          "action_id": 1,
+          "character": "Joe Thompson",
+          "character_id": 1,
+          "action": "Recall the events of the theft incident",
+          "dialogue": "It was so close, Julian. Someone got into the main office and took the donations box. I was just outside when it happened, and I felt so helpless. We can’t let this happen again at the meeting."
+        },
+        {
+          "action_id": 2,
+          "character": "Yury Petrov",
+          "character_id": 2,
+          "action": "Propose a plan to update security protocols",
+          "dialogue": "I’ve been thinking about this. We should contact the security firm and update our emergency protocols. Maybe even install temporary cameras around the venue for the meeting."
+        },
+        {
+          "action_id": 3,
+          "character": "Julian Cruz",
+          "character_id": 0,
+          "action": "Acknowledge Joe’s emotions and agree with Yury’s suggestion",
+          "dialogue": "Joe, I hear you. It’s natural to feel that way. Yury, your idea makes sense. Let’s get the security team on board and make sure we’re prepared. We’ve handled emergencies before, and we’ll do it again."
+        },
+        {
+          "action_id": 4,
+          "character": "Joe Thompson",
+          "character_id": 1,
+          "action": "Express relief and commitment to the team",
+          "dialogue": "Thanks, Julian. I just want to make sure everyone feels safe. I’ll help with the volunteer shift to monitor the venue."
+        },
+        {
+          "action_id": 5,
+          "character": "Yury Petrov",
+          "character_id": 2,
+          "action": "Confirm he will contact the security team",
+          "dialogue": "I’ll reach out to the security team right now and suggest the camera setup. I’ll also review the current protocols to see where we can improve."
+        }
+      ],
+      "plot": "Julian leads a meeting with his team to address a recent theft incident and ensure the safety of the upcoming annual meeting. Joe recalls the incident emotionally, while Yury offers a practical solution. Julian remains calm and firm, balancing urgency with responsibility.",
+      "social_purpose": "To showcase Julian’s leadership, problem-solving skills, and values of trust and safety, while highlighting the team’s shared mission and the stress of the situation.",
+      "chunk": {
+        "id": 0,
+        "text": "Julian, Joe, and Yury are in a meeting to address a recent theft incident and prepare for the annual meeting. The team is under pressure to ensure the event is safe and secure."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

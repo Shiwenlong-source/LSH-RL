@@ -1,0 +1,105 @@
+{
+  "title": "The Joke Test",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Late-night online chat with friends",
+      "time": "11:30 PM",
+      "location": "Group chat on a messaging app",
+      "description": "Wesley is in a group chat with his closest friends, trying to break the ice with a childhood joke. The group consists of a mix of old and new friends, some of whom might not be familiar with the classic humor he grew up with.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Wesley Meyer",
+          "gender": "Male",
+          "description": "A 22-year-old college student with a playful and imaginative personality. He enjoys nostalgia and testing how others react to humor.; 22-year-old / Male / Social Participant, 24 years old; Occupation: College Student; Personality: Humorous, Playful, Imaginative, Curious; Values: Friendship, Shared Experiences, Lighthearted Atmosphere; Interests: Online Chatting, Jokes and Riddles, Social Experiments; Experiences: Familiarity with classic jokes from childhood, Maintaining close friendships, Likes testing others' reactions, Participating in online communities, Values nostalgia",
+          "position": "Typing in the chat",
+          "states": "Nervous but excited",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Jordan Lee",
+          "gender": "Female",
+          "description": "Jordan Lee; Female; Age: 23; Occupation: Graphic designer; Personality: Witty, nostalgic, observant; Values: Loyalty, creativity, authenticity; Interests: Vintage pop culture, digital art, comedy; Experiences: Shared many childhood memories with Wesley, transitioned to a remote work lifestyle during the pandemic, frequently bridges generational gaps in group chats with humor and insight.",
+          "position": "Typing in the chat",
+          "states": "Alert and ready to respond",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Ethan Cole",
+          "gender": "Male",
+          "description": "Ethan Cole; Male; Age: 25; Occupation: Software Developer; Personality: Analytical, introverted, empathetic; Values: Honesty, personal growth, loyalty; Interests: Coding, indie games, sci-fi literature; Experiences: Recently moved to a new city for a job, joined a group of old friends online, still learning the inside jokes and dynamics of the group.",
+          "position": "Typing in the chat",
+          "states": "Confused but curious",
+          "is_npc": true
+        },
+        {
+          "id": 3,
+          "name": "Maya Patel",
+          "gender": "Female",
+          "description": "A 24-year-old psychology student who enjoys social experiments and is always eager to understand human behavior; Female; Age: 24; Occupation: Part-time social media content creator and psychology tutor; Personality: Curious, empathetic, introverted; Values: Intellectual growth, authenticity, empathy; Interests: Analyzing online communication patterns, binge-watching true crime documentaries, journaling; Experiences: Conducted informal studies on group chat dynamics in college, volunteered at a youth counseling center, struggled with feeling out of place in mixed social groups during high school.",
+          "position": "Typing in the chat",
+          "states": "Observant and analytical",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Wesley Meyer",
+          "character_id": 0,
+          "action": "Sends a joke",
+          "dialogue": "Hey guys, remember this one from when we were kids? Why did the chicken cross the road? To get to the other side!"
+        },
+        {
+          "action_id": 1,
+          "character": "Jordan Lee",
+          "character_id": 1,
+          "action": "Replies instantly",
+          "dialogue": "Oh my god, that's the oldest one! 😂 I remember that from like 4th grade!"
+        },
+        {
+          "action_id": 2,
+          "character": "Ethan Cole",
+          "character_id": 2,
+          "action": "Asks for clarification",
+          "dialogue": "Wait, what's the punchline? Is it supposed to be a joke or just a statement?"
+        },
+        {
+          "action_id": 3,
+          "character": "Maya Patel",
+          "character_id": 3,
+          "action": "Analyzes the reaction",
+          "dialogue": "Fascinating! Ethan didn't get it, but Jordan did immediately. Wesley, are you trying to test our nostalgia levels?"
+        },
+        {
+          "action_id": 4,
+          "character": "Wesley Meyer",
+          "character_id": 0,
+          "action": "Laughs and responds",
+          "dialogue": "Totally, Maya. It's not just a joke, it's a trip down memory lane. Ethan, don't worry, it's just a classic!"
+        },
+        {
+          "action_id": 5,
+          "character": "Ethan Cole",
+          "character_id": 2,
+          "action": "Shares a modern joke",
+          "dialogue": "Okay, fair enough. Here's one I heard recently: Why don't scientists trust atoms? Because they make up everything!"
+        }
+      ],
+      "plot": "Wesley sends a classic childhood joke to his group of friends in a late-night online chat to see if they still remember it and to spark a lighthearted conversation. Jordan immediately recognizes it and reacts with nostalgia, while Ethan is confused, prompting a discussion about generational humor and shared experiences. Maya takes an analytical approach, observing the reactions and engaging Wesley in a deeper conversation about his intent. The interaction becomes a fun and revealing way for the group to bond and reflect on their relationships.",
+      "social_purpose": "To explore the differences in understanding humor among friends and to use nostalgia as a bonding tool. The scenario also highlights Wesley's playful and curious nature, as well as his desire to maintain a lighthearted atmosphere in his relationships.",
+      "chunk": {
+        "id": 0,
+        "text": "Wesley sends a joke, Jordan reacts instantly, Ethan is confused, and Maya takes a social experiment approach. The group bonds over humor and nostalgia."
+      },
+      "npcs": [
+        1,
+        2,
+        3
+      ]
+    }
+  ]
+}

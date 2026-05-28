@@ -1,0 +1,123 @@
+{
+  "title": "AP Exam Stress and a Lunch Break Escape",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Anthony's lunch break with his friends in the school cafeteria.",
+      "time": "12:00 PM, Monday",
+      "location": "School Cafeteria",
+      "description": "Anthony is sitting with his friends Luby and Anna at a lunch table. The atmosphere is tense due to the upcoming AP exams. Anthony tries to maintain a calm and confident exterior, but his anxiety is evident as he constantly checks his phone. Luby is more direct and confrontational, while Anna is trying to lighten the mood with her usual humor.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Anthony Parker",
+          "gender": "Male",
+          "description": "High school senior, appears confident but is internally anxious and avoidant. He is trying to hide his stress about the upcoming AP exams.; years old / Male / High School Senior, 17 years old; Occupation: High School Student; Personality: Contradictory, Anxious, Avoidant, Superficially Confident; Values: Self-protection, Friendship, Personal Freedom; Interests: Using Phone, Escaping Stress, Chatting; Experiences: Preparing for AP Exams, Academic Pressure, Conflict with Classmates, Emotional Suppression, Social Anxiety",
+          "position": "Seated at the lunch table",
+          "states": "Anxious, Avoidant, Superficially Confident",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Luby",
+          "gender": "Female",
+          "description": "Luby is Anthony's deskmate; Female; Age: 17; Occupation: High school senior; Personality: blunt, determined, empathetic; Values: honesty, academic excellence, loyalty; Interests: debate club, reading non-fiction, helping others; Experiences: won regional debate championship, struggled with anxiety during her junior year, supported close friends through academic pressure.",
+          "position": "Across from Anthony",
+          "states": "Frustrated, Concerned",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Anna",
+          "gender": "Female",
+          "description": "Anna; Female; Age: 17; Occupation: High School Student; Personality: Humorous, Empathetic, Optimistic; Values: Friendship, Positivity, Balance; Interests: Stand-up comedy, baking, and creative writing; Experiences: Organized a peer stress-relief workshop before finals, helped a friend through a difficult family situation, and won her school’s annual talent show with an original comedy routine.",
+          "position": "To Anthony's right",
+          "states": "Light-hearted, Supportive",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Anthony Parker",
+          "character_id": 0,
+          "action": "Takes a bite of his sandwich and looks around the cafeteria, avoiding eye contact.",
+          "dialogue": "I mean, it's not like the AP exams are the end of the world, right?"
+        },
+        {
+          "action_id": 1,
+          "character": "Luby",
+          "character_id": 1,
+          "action": "Crosses her arms and leans forward slightly, staring at Anthony.",
+          "dialogue": "Anthony, we both know you're not taking this seriously. You've been scrolling through your phone all week instead of studying."
+        },
+        {
+          "action_id": 2,
+          "character": "Anna",
+          "character_id": 2,
+          "action": "Laughs nervously and tries to change the subject.",
+          "dialogue": "Okay, but if the worst happens and we all fail, at least we can say we tried... and also, Anthony's phone is the real AP exam, right?"
+        },
+        {
+          "action_id": 3,
+          "character": "Anthony Parker",
+          "character_id": 0,
+          "action": "Looks down at his phone, then back up with a forced smile.",
+          "dialogue": "You guys are making it sound way worse than it is. I've got this under control."
+        },
+        {
+          "action_id": 4,
+          "character": "Luby",
+          "character_id": 1,
+          "action": "Sighs and shakes her head, clearly unimpressed.",
+          "dialogue": "Under control? Anthony, we're talking about college applications. You can't just wing it."
+        },
+        {
+          "action_id": 5,
+          "character": "Anna",
+          "character_id": 2,
+          "action": "Pokes Anthony's arm playfully and grins.",
+          "dialogue": "Maybe he just needs a little break. You know, to clear his head and all that. Like, maybe he needs to escape to another dimension for a bit?"
+        },
+        {
+          "action_id": 6,
+          "character": "Anthony Parker",
+          "character_id": 0,
+          "action": "Looks at Anna, then back at his phone, trying to appear nonchalant.",
+          "dialogue": "Yeah, maybe I'll just take a quick break after lunch. You know, to stay relaxed and focused."
+        },
+        {
+          "action_id": 7,
+          "character": "Luby",
+          "character_id": 1,
+          "action": "Leans back and folds her hands, watching Anthony closely.",
+          "dialogue": "You always say that. But every time, it's just more scrolling and distractions."
+        },
+        {
+          "action_id": 8,
+          "character": "Anna",
+          "character_id": 2,
+          "action": "Takes a sip of her drink and gently nudges Anthony's shoulder.",
+          "dialogue": "Hey, Anthony. Just promise me you'll at least look at a study guide today. For me?"
+        },
+        {
+          "action_id": 9,
+          "character": "Anthony Parker",
+          "character_id": 0,
+          "action": "Nods slightly, still not making eye contact, and returns to his phone.",
+          "dialogue": "Sure, Anna. I'll do that."
+        }
+      ],
+      "plot": "Anthony's friends confront him about his lack of preparation for the AP exams. Luby is frustrated and calls him out, while Anna tries to use humor to ease the tension. Anthony responds with a mix of deflection and superficial confidence, revealing his inner struggle to maintain composure while avoiding the pressure.",
+      "social_purpose": "To demonstrate Anthony's anxiety, avoidance, and desire to maintain a facade of confidence through a realistic interaction with friends. It also highlights the dynamics of friendship and the challenges of academic pressure in high school.",
+      "chunk": {
+        "id": 0,
+        "text": "Anthony's lunch break with his friends in the school cafeteria."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

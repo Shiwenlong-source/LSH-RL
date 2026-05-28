@@ -1,0 +1,95 @@
+{
+  "title": "The Protest Plan",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Community Meeting",
+      "time": "Evening",
+      "location": "Community Center, Room B",
+      "description": "Lily is leading a heated discussion at a community meeting about an upcoming protest against a new policy that disproportionately affects marginalized groups in the neighborhood. Her bold and urgent approach contrasts with the more measured strategies of Zoe and Lora.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Lily Martinez",
+          "gender": "Female",
+          "description": "A passionate community organizer in her 30s, known for her fiery speeches and unwavering commitment to justice. She is currently advocating for immediate action.; Female, Community Organizer, 30 years old; Occupation: Community Activist; Personality: Passionate, Firm, Prone to anger, Bold; Values: Justice, Community Empowerment, Action over procrastination; Interests: Social Justice, Organizing events, Advocacy, Public Speaking; Experiences: Leading community movements, Challenging systemic bias, Organizing protests, Collaborating with volunteers",
+          "position": "Center of the room",
+          "states": "Angry, determined, and focused",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Zoe Chen",
+          "gender": "Female",
+          "description": "A strategic thinker and experienced organizer who believes in building consensus and long-term community alliances and is trying to keep the group united; Female; Age: 38; Occupation: Community Relations Coordinator for a local non-profit; Personality: Diplomatic, patient, analytical; Values: Equity, collaboration, sustainability; Interests: Urban gardening, conflict resolution workshops, reading political theory; Experiences: Led coalition-building efforts during a housing rights campaign, mediated between local businesses and activist groups to prevent clashes, organized multi-cultural community festivals to strengthen neighborhood bonds.",
+          "position": "Near the front, to Lily's left",
+          "states": "Calm, diplomatic, and concerned",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Lora James",
+          "gender": "Female",
+          "description": "A community advocate who prefers a collaborative and inclusive approach; Female; Age: 38; Occupation: Neighborhood Coalition Coordinator; Personality: Thoughtful, cautious, respectful; Values: Equity, community unity; Interests: Urban planning, storytelling; Experiences: Organized housing rights campaigns, mediated between local businesses and residents during gentrification disputes.",
+          "position": "Near the front, to Lily's right",
+          "states": "Thoughtful, cautious, and respectful",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Lily Martinez",
+          "character_id": 0,
+          "action": "speaks passionately",
+          "dialogue": "We can't wait for the perfect moment. This policy is already hurting people, and if we don't act now, we'll lose the chance to make a real difference."
+        },
+        {
+          "action_id": 1,
+          "character": "Zoe Chen",
+          "character_id": 1,
+          "action": "responds calmly",
+          "dialogue": "I understand your urgency, Lily, but we need to make sure we have a coordinated plan. If we rush in without support, we risk backlash and losing the trust of the community."
+        },
+        {
+          "action_id": 2,
+          "character": "Lora James",
+          "character_id": 2,
+          "action": "adds a cautious perspective",
+          "dialogue": "Zoe is right. We've seen before how hasty actions can backfire. Maybe we can plan a smaller demonstration first to gauge public support before a bigger protest."
+        },
+        {
+          "action_id": 3,
+          "character": "Lily Martinez",
+          "character_id": 0,
+          "action": "crosses arms and leans forward",
+          "dialogue": "I'm not asking for a small demonstration. I'm asking for a show of strength that tells the powers that be we won't be ignored. If we don't take bold action now, what are we waiting for?"
+        },
+        {
+          "action_id": 4,
+          "character": "Zoe Chen",
+          "character_id": 1,
+          "action": "nods and speaks with emphasis",
+          "dialogue": "Bold action is important, but we also need to be smart. We have to think about how to sustain this movement, not just make a one-time statement."
+        },
+        {
+          "action_id": 5,
+          "character": "Lora James",
+          "character_id": 2,
+          "action": "suggests a compromise",
+          "dialogue": "What if we take a small group to the city hall tomorrow to formally request a meeting with the council? That way, we show our commitment while keeping the door open for dialogue."
+        }
+      ],
+      "plot": "Lily's insistence on immediate and bold protest creates tension with Zoe and Lora, who advocate for a more strategic and inclusive approach. Their debate highlights the conflict between urgency and planning in activism, while also showcasing the diverse personalities and values within the group.",
+      "social_purpose": "To explore the dynamics of group decision-making in activist settings and how different personalities and values can shape strategies for community action.",
+      "chunk": {
+        "id": 0,
+        "text": "The meeting continues with a back-and-forth between Lily's passionate calls for action and Zoe and Lora's measured approach. While Lily's boldness energizes some members, others express concern about the potential fallout from an uncoordinated protest. The group agrees to meet again after Lily's proposed small demonstration at city hall to reassess their next steps."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

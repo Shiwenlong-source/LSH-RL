@@ -1,0 +1,95 @@
+{
+  "title": "The Cleaning Compromise",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Weekend Cleaning Discussion",
+      "time": "Saturday morning",
+      "location": "Shared apartment kitchen",
+      "description": "Emily is making breakfast and discussing the weekend cleaning plan with her roommates, Paige and Yuan Haoyuan. The kitchen is a central point in the apartment, often a source of clutter due to multiple people using it. Emily hopes to set a collaborative tone for the cleaning effort, but her roommates are less enthusiastic.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Emily Palmer",
+          "gender": "female",
+          "description": "Emily is a 24-year-old handicraft designer who values order and efficiency. She is decisive and organized, and her current knitting project is suffering due to the apartment's disarray.; female, Shared roommate, 24 years old; Occupation: Handicraft designer; Personality: Decisive, Organized, Creative; Values: Order, Efficiency, Cooperation; Interests: Knitting, Home organization, Handicrafts; Experiences: Recently focused on knitting project, Living in a shared apartment, Noticing the clutter issue, Planning weekend cleaning, Handling roommate relationships",
+          "position": "At the kitchen table, sipping coffee and looking determined",
+          "states": "Focused, slightly tense, but optimistic",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Paige",
+          "gender": "female",
+          "description": "Paige is a laid-back 23-year-old graphic designer who prefers comfort and flexibility; Female; Age: 23; Occupation: Freelance graphic designer; Personality: Disinterested, relaxed, uncooperative; Values: Creativity, personal freedom, comfort; Interests: Watching art documentaries, experimenting with digital illustration, binge-watching true crime shows; Experiences: Grew up in a family that didn't prioritize household chores, worked remotely through college which reinforced her flexible lifestyle, had past conflicts with roommates over shared space responsibilities.",
+          "position": "Leaning against the counter, scrolling on her phone",
+          "states": "Disinterested, relaxed, uncooperative",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Yuan Haoyuan",
+          "gender": "male",
+          "description": "Yuan is a 25-year-old software developer who is more neutral in the situation; Male; Age: 25; Occupation: Full-stack software developer; Personality: Analytical, easygoing, responsible; Values: Efficiency, fairness, work-life balance; Interests: Coding, video games, minimalism; Experiences: Worked remotely for a tech startup, lived in shared housing for three years, mediated minor conflicts between coworkers.",
+          "position": "Sitting at the kitchen table, reading a book",
+          "states": "Neutral, observant, ready to compromise",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Emily Palmer",
+          "character_id": 0,
+          "action": "Initiates the conversation about cleaning",
+          "dialogue": "Hey, I was thinking we could use the weekend to clean up the apartment. It's starting to get a bit cluttered, and I need more space for my knitting projects. What do you think?"
+        },
+        {
+          "action_id": 1,
+          "character": "Paige",
+          "character_id": 1,
+          "action": "Expresses reluctance",
+          "dialogue": "Ugh, I was planning to relax all weekend. Why do we have to clean now? It's not like it's that bad."
+        },
+        {
+          "action_id": 2,
+          "character": "Yuan Haoyuan",
+          "character_id": 2,
+          "action": "Suggests a compromise",
+          "dialogue": "Maybe we can focus on the areas that are most in need of cleaning, like the kitchen and living room? I can help if it's not too time-consuming."
+        },
+        {
+          "action_id": 3,
+          "character": "Emily Palmer",
+          "character_id": 0,
+          "action": "Proposes a structured but flexible plan",
+          "dialogue": "That sounds good. I can create a list of tasks and we can each take turns. I'll make sure it's efficient so it doesn't take too long. If you can help with the kitchen, Paige, that would really make a difference for me."
+        },
+        {
+          "action_id": 4,
+          "character": "Paige",
+          "character_id": 1,
+          "action": "Considers the compromise",
+          "dialogue": "Alright, fine. I can clean my mess in the kitchen for an hour or so. But I'm not doing anything else."
+        },
+        {
+          "action_id": 5,
+          "character": "Emily Palmer",
+          "character_id": 0,
+          "action": "Expresses gratitude and sets a positive tone",
+          "dialogue": "Thanks, Paige. I really appreciate it. Let's make this quick and painless. Maybe we can even listen to some music and make it fun?"
+        }
+      ],
+      "plot": "Emily tries to convince her roommates to participate in a weekend cleaning session to address the growing clutter in the apartment. Paige is initially resistant, but Yuan suggests a compromise that allows them to focus only on the most problematic areas. Emily proposes a structured yet flexible plan, and Paige reluctantly agrees to help with the kitchen. The scenario ends on a positive note, with the potential for cooperation and reduced tension.",
+      "social_purpose": "To demonstrate how differences in values and priorities can lead to conflict but also how compromise and communication can help maintain a respectful and functional living relationship.",
+      "chunk": {
+        "id": 0,
+        "text": "Emily, Paige, and Yuan are in the kitchen, discussing a weekend cleaning plan. Emily is focused on creating a more organized space for her knitting, while Paige is disinterested in the effort. Yuan suggests a compromise, helping to bridge the gap between their priorities. The conversation shows Emily's persistence and Yuan's mediation skills, while Paige's reluctance highlights the tension in the group."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

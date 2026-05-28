@@ -1,0 +1,88 @@
+{
+  "title": "Airport Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Waiting for a flight",
+      "time": "Afternoon",
+      "location": "Los Angeles International Airport, Terminal 4, Arrivals Area",
+      "description": "Jackson, Bob, and Anna are standing near the arrival gate, waiting for Jackson's elderly mother. A flight delay announcement has just been made, causing Jackson to become more anxious. Bob and Anna express concern about the potential consequences of his decision.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Jackson",
+          "gender": "Male",
+          "description": "35 years old, self-employed organizer. He is focused, decisive, and somewhat anxious. He has arranged this trip meticulously.; Male, Organizer, 35 years old; Occupation: Self-employed; Personality: Rational, Anxious, Decisive, Responsible; Values: Punctuality, Responsibility, Teamwork; Interests: Travel, Problem-solving, Planning; Experiences: Arranging travel itineraries, Working with international clients, Handling emergencies",
+          "position": "Near the gate information board",
+          "states": "Anxious, decisive",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Bob",
+          "gender": "Male",
+          "description": "A close friend of Jackson's, 40 years old. He is more laid-back and empathetic, often acting as a voice of caution; Male; Age: 40; Occupation: High school counselor; Personality: Caring, patient, pragmatic; Values: Family, emotional well-being, stability; Interests: Reading self-help books, hiking, and casual coffee meetups; Experiences: Helped Jackson through a difficult period in his life, dealt with stressed students during flight cancellations, has a sister who frequently travels and has faced similar airport anxieties.",
+          "position": "Standing to Jackson's left",
+          "states": "Worried, cautious",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Anna",
+          "gender": "Female",
+          "description": "Anna; Female; Age: 38; Occupation: Clinical Social Worker; Personality: Thoughtful, analytical, empathetic; Values: Compassion, responsibility, emotional balance; Interests: Reading psychology journals, hiking, volunteering at a senior center; Experiences: Worked with elderly patients in a geriatric care facility, navigated family conflicts during a loved one's hospitalization, frequently mediates between Jackson and his mother to maintain peace.",
+          "position": "Standing to Jackson's right",
+          "states": "Hesitant, concerned",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Jackson",
+          "character_id": 0,
+          "action": "Checking the gate board",
+          "dialogue": "This delay is going to throw off the entire schedule. I need to get to the gate before the crowd arrives."
+        },
+        {
+          "action_id": 1,
+          "character": "Bob",
+          "character_id": 1,
+          "action": "Expressing concern",
+          "dialogue": "Jackson, your mom doesn't speak English. What if she gets lost or confused in the crowd?"
+        },
+        {
+          "action_id": 2,
+          "character": "Anna",
+          "character_id": 2,
+          "action": "Offering a compromise",
+          "dialogue": "Maybe we can split up? I can stay here in case she arrives early, and you can go to the gate and wait closer."
+        },
+        {
+          "action_id": 3,
+          "character": "Jackson",
+          "character_id": 0,
+          "action": "Making a decision",
+          "dialogue": "No, I can't risk her waiting for us. I'll go to the gate and make sure she gets through. Anna, can you handle this if I'm not here?"
+        },
+        {
+          "action_id": 4,
+          "character": "Anna",
+          "character_id": 2,
+          "action": "Nodding reluctantly",
+          "dialogue": "I can try, but I hope you're not making a mistake."
+        }
+      ],
+      "plot": "Jackson is torn between his punctuality and the need to ensure his mother's safety. His friends Bob and Anna are divided in their reactions—Bob is worried, Anna is conflicted. Jackson decides to take the risk and head to the gate, leaving them to deal with the uncertainty.",
+      "social_purpose": "To explore the tension between personal responsibility and the values of teamwork and care in a high-stakes public setting.",
+      "chunk": {
+        "id": 0,
+        "text": "Jackson, Bob, and Anna are waiting at the airport for Jackson's elderly mother. A flight delay causes Jackson to decide to move to the gate to ensure her pickup. Bob expresses concern for her safety due to language barriers, while Anna offers a more balanced perspective. Jackson's decision highlights his sense of urgency and responsibility, but also creates tension with his friends."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

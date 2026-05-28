@@ -1,0 +1,81 @@
+{
+  "title": "The Unexpected Invitation",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Leo receives a mysterious phone call while at a café",
+      "time": "7:45 PM",
+      "location": "A quiet corner of a local café in Kuala Lumpur",
+      "description": "Leo Pike, a 26-year-old graduate student, sits at a table by the window, sipping coffee and reading a book about unsolved mysteries. He is deep in thought when his phone rings. The caller ID is unknown, and the tone of the voice on the other end is calm but urgent. A waiter approaches and quietly places a glass of water in front of him, perhaps sensing his unease. Roger, the caller, insists on meeting in person for an important discussion. Leo is torn between his caution and curiosity, trying to decide whether to trust the stranger and what the consequences might be.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Leo Pike",
+          "gender": "Male",
+          "description": "A 26-year-old graduate student from Kuala Lumpur, curious and contemplative, but cautious about unknown situations.; Male / Kuala Lumpur resident, 26 years old; Occupation: Graduate Student; Personality: Curious, Cautious, Contemplative; Values: Independence, Caution, Openness; Interests: Mystery, Communication, Self-reflection; Experiences: Receiving unexpected calls, Handling ambiguous social situations, Facing uncertainty",
+          "position": "Seated at a table by the window",
+          "states": "Confused, curious, hesitant",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Roger Tan",
+          "gender": "Male",
+          "description": "A calm and enigmatic man in his 30s, calling from an unknown number with an urgent message for Leo; Male; Age: 34; Occupation: Private investigator specializing in cold cases and missing persons; Personality: Analytical, observant, reserved; Values: Truth, discretion, loyalty; Interests: Cryptography, historical conspiracies, solitary hiking; Experiences: Solved a high-profile disappearance case linked to a local cult, lost contact with a close colleague during an investigation, worked undercover for years in the Malaysian intelligence community.",
+          "position": "On the phone, unseen",
+          "states": "Urgent, composed, mysterious",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Ahmad",
+          "gender": "Male",
+          "description": "A kind and observant waiter at the café, subtly attentive to Leo's emotional state; Male; Age: 28; Occupation: Café waiter; Personality: Empathetic, discreet, patient; Values: Customer comfort, honesty, community; Interests: People-watching, local folklore, photography; Experiences: Worked at the same café for three years, once helped a lost tourist find their way, grew up in a close-knit neighborhood in Kuala Lumpur.",
+          "position": "Approaching the table",
+          "states": "Concerned, helpful",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Roger Tan",
+          "character_id": 1,
+          "action": "Calls Leo",
+          "dialogue": "Leo, I know this is sudden, but I need to meet you. It's important. Can you come to the old library at 9 PM?"
+        },
+        {
+          "action_id": 1,
+          "character": "Leo Pike",
+          "character_id": 0,
+          "action": "Looks around the café in confusion",
+          "dialogue": "Who is this Roger? Why the old library?"
+        },
+        {
+          "action_id": 2,
+          "character": "Ahmad",
+          "character_id": 2,
+          "action": "Places a glass of water on the table",
+          "dialogue": "You look like you could use this. Take your time with your decision."
+        },
+        {
+          "action_id": 3,
+          "character": "Leo Pike",
+          "character_id": 0,
+          "action": "Answers Roger's call hesitantly",
+          "dialogue": "I... I'm not sure who you are, but I'll think about it."
+        }
+      ],
+      "plot": "Leo is drawn into a mysterious event after receiving a call from an unknown person named Roger. The interaction with the waiter adds a subtle layer of concern, highlighting Leo's internal conflict as he weighs his cautious nature against his curiosity.",
+      "social_purpose": "To explore Leo's personality traits—curiosity, caution, and contemplation—through a real-world situation involving communication and uncertainty.",
+      "chunk": {
+        "id": 0,
+        "text": "The call from Roger disrupts Leo's evening and introduces a sense of intrigue. Ahmad's subtle gesture reinforces Leo's emotional state, while the dialogue with Roger sets the stage for a larger, unknown event."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

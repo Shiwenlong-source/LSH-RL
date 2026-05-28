@@ -1,0 +1,88 @@
+{
+  "title": "Aria's Choice at the Cemetery",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "A group of friends decide to explore a local cemetery for fun on a Halloween evening.",
+      "time": "Evening",
+      "location": "Edge of a quiet town cemetery",
+      "description": "The group stands at the entrance of the cemetery, the air thick with anticipation and a hint of fear. Aria, visibly nervous, clutches her phone while Lucy, full of energy, leads the way with a flashlight. Their mother, waiting nearby, watches with a mix of concern and support.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Aria Hill",
+          "gender": "female",
+          "description": "Aria is in her early 25s, a college student with a thoughtful and anxious nature. She is trying to balance her fear with a desire for adventure.; female in her early, 25 years old; Occupation: College student; Personality: Anxious, Brave, Thoughtful; Values: Safety, Friendship, Self-awareness; Interests: Adventure, Social interaction, Emotional exploration; Experiences: Late-night driving, Group decision-making, Facing fears",
+          "position": "Near the entrance of the cemetery",
+          "states": "Nervous, conflicted, determined",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Lucy Carter",
+          "gender": "female",
+          "description": "Lucy is Aria's best friend, a female in her early 20s, with a passion for Halloween and spooky adventures; Female; Age: 22; Occupation: Part-time haunted house designer and social media content creator; Personality: Energetic, curious, loyal; Values: Friendship, creativity, fun; Interests: Urban exploration, paranormal investigations, costume design; Experiences: Organized a successful Halloween-themed escape room, visited several reportedly haunted locations with Aria, led a college group through a midnight ghost tour.",
+          "position": "Leading the group forward",
+          "states": "Excited, adventurous, empathetic",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Mrs. Hill",
+          "gender": "female",
+          "description": "Aria's mother, in her mid-40s, is cautious and protective but also understanding of Aria's need for independence and exploration; Female; Age: 44; Occupation: High school English teacher; Personality: Caring, composed, slightly overprotective; Values: Family safety, personal growth, open communication; Interests: Reading mystery novels, gardening, attending community events; Experiences: Lost her own mother to a sudden illness, has always prioritized her children's well-being, witnessed Aria's increasing desire for independence during high school.",
+          "position": "Near the car, waiting",
+          "states": "Worried, supportive, patient",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Lucy Carter",
+          "character_id": 1,
+          "action": "Encourages Aria to join the group",
+          "dialogue": "Come on, Aria! It's just a little spooky fun. You're brave, right?"
+        },
+        {
+          "action_id": 1,
+          "character": "Aria Hill",
+          "character_id": 0,
+          "action": "Expresses her hesitation",
+          "dialogue": "I don't know, Lucy. I've never been to a cemetery at night. It just feels... wrong."
+        },
+        {
+          "action_id": 2,
+          "character": "Mrs. Hill",
+          "character_id": 2,
+          "action": "Calls out to Aria with concern",
+          "dialogue": "Aria, if you're not comfortable, you can always go home with me. No pressure."
+        },
+        {
+          "action_id": 3,
+          "character": "Aria Hill",
+          "character_id": 0,
+          "action": "Considers her options and decides to stay",
+          "dialogue": "Thanks, Mom. I know you're worried, but I want to try. I want to be brave."
+        },
+        {
+          "action_id": 4,
+          "character": "Lucy Carter",
+          "character_id": 1,
+          "action": "Supports Aria's decision",
+          "dialogue": "That's my girl! We're in this together. Just don't let the shadows get to you."
+        }
+      ],
+      "plot": "Aria is at a crossroads between her fear and the desire to fit in with her adventurous friend Lucy. Her mother's presence adds a layer of emotional weight to the decision, as Aria must choose between safety and stepping out of her comfort zone. The group's shared goal of exploring the cemetery becomes a test of Aria's personal growth and courage.",
+      "social_purpose": "To explore the dynamics of peer pressure, personal comfort, and the importance of self-awareness in decision-making, while also highlighting the role of supportive relationships in overcoming fears.",
+      "chunk": {
+        "id": 0,
+        "text": "As the group moves deeper into the cemetery, the atmosphere grows darker and more foreboding. Aria walks slowly, trying to match the pace of the others while her anxiety builds. Lucy keeps up the energy with spooky stories, but Aria can feel her mother's eyes on her from a distance. Aria's choice to stay reflects her internal struggle to balance her values of safety and friendship, and her experiences with facing fears begin to shape her actions."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

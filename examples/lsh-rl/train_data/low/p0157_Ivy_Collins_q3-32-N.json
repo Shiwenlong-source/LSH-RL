@@ -1,0 +1,88 @@
+{
+  "title": "A Birthday Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Discussing birthday plans at a coffee shop",
+      "time": "Afternoon",
+      "location": "Local coffee shop",
+      "description": "Ivy sits at a corner table with her husband Peter and her best friend, Clara. They are discussing Mike's upcoming birthday and whether to follow through with the restaurant reservation or have a more modest celebration at home.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Ivy Collins",
+          "gender": "Female",
+          "description": "A 30-year-old corporate executive and mother, feeling anxious and conflicted about her child's birthday plans.; years old, Female, Mother, 30 years old; Occupation: Corporate Executive; Personality: Considerate, Caring, Practical, Anxious; Values: Family, Practicality, Child's Happiness; Interests: Family Activities, Cooking, Parenting; Experiences: Planning family events, Balancing work and family, Making difficult decisions for children",
+          "position": "Corner table, sipping coffee",
+          "states": "Nervous, considerate, eager to please",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Peter Collins",
+          "gender": "Male",
+          "description": "Ivy's husband, a pragmatic and financially cautious individual who prefers simplicity in family events; Male; Age: 38; Occupation: Financial Analyst; Personality: Calm, practical, supportive; Values: Family stability, fiscal responsibility; Interests: Budget planning, home improvement, hiking; Experiences: Grew up in a family that prioritized saving over spending, managed through a period of financial hardship early in his career, organized several low-key but meaningful family celebrations.",
+          "position": "Across from Ivy, holding a latte",
+          "states": "Calm, practical, supportive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Clara Bennett",
+          "gender": "Female",
+          "description": "Clara Bennett; Female; Age: 38; Occupation: Part-time children's party planner; Personality: Encouraging, empathetic, cheerful; Values: Family, spontaneity, joy in simple things; Interests: Crafting, baking, local community events; Experiences: Organized her daughter's first birthday party, helped Ivy through a difficult pregnancy, successfully transitioned from full-time motherhood to part-time work.",
+          "position": "Beside Ivy, holding a pastry",
+          "states": "Encouraging, empathetic, cheerful",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Ivy Collins",
+          "character_id": 0,
+          "action": "Expresses her concerns",
+          "dialogue": "I just don’t know if spending so much on a five-star dinner is the best idea. It feels like overdoing it, but Mike is so excited about it."
+        },
+        {
+          "action_id": 1,
+          "character": "Peter Collins",
+          "character_id": 1,
+          "action": "Offers a counter-suggestion",
+          "dialogue": "Maybe a quiet dinner at home with his favorite dishes would mean more to him. We can still make it special without the price tag."
+        },
+        {
+          "action_id": 2,
+          "character": "Clara Bennett",
+          "character_id": 2,
+          "action": "Supports Ivy’s original plan",
+          "dialogue": "I think it’s amazing you’re doing this, Ivy. Kids love those kinds of experiences, and it’s not every day he turns 10. Just make sure it’s something he’ll remember fondly."
+        },
+        {
+          "action_id": 3,
+          "character": "Ivy Collins",
+          "character_id": 0,
+          "action": "Reflects on Mike’s recent behavior",
+          "dialogue": "He’s been asking about the restaurant for weeks, even wants to order a martini. I don’t want to disappoint him, but I also don’t want to set a bad example about spending."
+        },
+        {
+          "action_id": 4,
+          "character": "Peter Collins",
+          "character_id": 1,
+          "action": "Reassures Ivy",
+          "dialogue": "You’re a great mom, Ivy. Whatever you choose, Mike will be happy because it’s from you. Just make sure it’s something you can both enjoy."
+        }
+      ],
+      "plot": "Ivy is torn between her child's excitement for a five-star restaurant birthday and her own anxieties about the cost. Her husband and best friend offer alternative perspectives, helping her weigh the value of the experience against her practical concerns.",
+      "social_purpose": "To explore Ivy's values of family, practicality, and child's happiness through a realistic family planning discussion, highlighting her personality traits and experiences as a working mother.",
+      "chunk": {
+        "id": 0,
+        "text": "Ivy, Peter, and Clara sit in a cozy corner of the coffee shop, surrounded by the soft hum of conversation and the aroma of freshly brewed coffee. Ivy stirs her cup absentmindedly, her eyes flicking between her husband and friend. Peter leans back, calmly sipping his latte, while Clara leans forward, offering a warm smile. Ivy shares her worries about the restaurant booking, and Peter gently suggests a home celebration. Clara encourages her, emphasizing the importance of Mike's happiness. Ivy's internal conflict is palpable, as she weighs her priorities and past experiences in making a decision."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

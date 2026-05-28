@@ -1,0 +1,88 @@
+{
+  "title": "Lunchtime Choices",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Chloe announces her diet attempt to colleagues during lunch.",
+      "time": "12:30 PM",
+      "location": "Office Kitchen",
+      "description": "Chloe stands by the kitchen counter, holding a low-carb salad in one hand and a water bottle in the other. Her colleagues, Sophia and Mike, are seated at the small table with their usual lunch—sandwiches and chips. The room is casual and filled with the hum of office chatter.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Chloe Davis",
+          "gender": "Female",
+          "description": "Chloe is an office worker who has recently started focusing on her diet. She is thoughtful and self-aware, and while she is determined to make changes, she is also cautious about how it might affect her workplace relationships.; Early / Female / Office Worker, 32 years old; Occupation: Office Worker; Personality: Determined, Thoughtful, Self-aware; Values: Health, Self-improvement, Social Harmony; Interests: Healthy Eating, Wellness Trends, Workplace Relationships; Experiences: Recently started focusing on diet, Feeling peer influence in the workplace, Trying a new lifestyle",
+          "position": "Near the counter",
+          "states": "Nervous but resolved",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Sophia Ramirez",
+          "gender": "Female",
+          "description": "Sophia is a supportive and empathetic colleague who is always interested in wellness topics; Female; Age: 32; Occupation: HR Manager; Personality: Compassionate, Analytical, Optimistic; Values: Work-life balance, Personal growth, Inclusivity; Interests: Yoga, Nutrition workshops, Reading self-help books; Experiences: Organized company wellness programs, Mentored new employees through stress management, Recovered from a burnout episode herself.",
+          "position": "Seated at the table",
+          "states": "Curious and encouraging",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Mike Thompson",
+          "gender": "Male",
+          "description": "Mike is a laid-back and humorous office worker who enjoys teasing others in good fun; Male; Age: 29; Occupation: Marketing Coordinator; Personality: Witty, easygoing, sarcastic; Values: Friendship, work-life balance, comfort; Interests: Watching stand-up comedy, trying new restaurants, casual video games; Experiences: Survived a grueling open-office transition, organized a successful company trivia night, tried a strict diet once and failed after two days.",
+          "position": "Seated at the table",
+          "states": "Playfully dismissive",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Chloe Davis",
+          "character_id": 0,
+          "action": "Announces her diet choice",
+          "dialogue": "Hey guys, I’m going to try the Atkins diet for a week. I think it’s time I focus more on my health, but I’m also trying to be careful not to cut myself off from the team."
+        },
+        {
+          "action_id": 1,
+          "character": "Sophia Ramirez",
+          "character_id": 1,
+          "action": "Offers support and asks for details",
+          "dialogue": "That’s awesome, Chloe! I’ve read a bit about it. Do you need any help with meal ideas or recipes? I’d love to support you."
+        },
+        {
+          "action_id": 2,
+          "character": "Mike Thompson",
+          "character_id": 2,
+          "action": "Makes a joke about the diet",
+          "dialogue": "Atkins? So no carbs, right? That means no pizza Fridays? I knew you were ambitious, but this is next level!"
+        },
+        {
+          "action_id": 3,
+          "character": "Chloe Davis",
+          "character_id": 0,
+          "action": "Responds with a mix of humor and determination",
+          "dialogue": "I’ll bring low-carb pizza next Friday, Mike. It’s just for a week to see how it works. I want to find a balance, not disappear."
+        },
+        {
+          "action_id": 4,
+          "character": "Sophia Ramirez",
+          "character_id": 1,
+          "action": "Encourages the team to respect Chloe’s choice",
+          "dialogue": "We should all respect that she’s trying something new. Maybe it can even inspire a few of us to think more about our own health goals."
+        }
+      ],
+      "plot": "Chloe’s announcement of her Atkins diet attempt sparks a brief but meaningful interaction in the office kitchen. Sophia is immediately supportive, while Mike responds with a joke that reflects the office’s usual social dynamic. Chloe, though a bit nervous, remains firm in her decision, emphasizing her desire to find balance and not alienate her coworkers. The scene captures the subtle tension between personal health goals and workplace social habits.",
+      "social_purpose": "To demonstrate Chloe’s struggle between health goals and social harmony in the workplace, while also showing how her colleagues respond to her choice, reflecting their own personalities and values.",
+      "chunk": {
+        "id": 0,
+        "text": "Chloe stands by the kitchen counter, holding a low-carb salad in one hand and a water bottle in the other. Her colleagues, Sophia and Mike, are seated at the small table with their usual lunch—sandwiches and chips. The room is casual and filled with the hum of office chatter. Chloe announces her plan to try the Atkins diet for a week, drawing a mix of reactions. Sophia is immediately supportive, while Mike responds with a joke. Chloe, though a bit nervous, remains firm in her decision, emphasizing her desire to find balance and not alienate her coworkers."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

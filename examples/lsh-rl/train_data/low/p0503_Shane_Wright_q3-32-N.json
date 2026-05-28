@@ -1,0 +1,95 @@
+{
+  "title": "The Redlands Relocation Standoff",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Community Meeting on Redlands Redevelopment",
+      "time": "6:30 PM, Thursday",
+      "location": "Redlands Community Center",
+      "description": "A packed meeting room buzzes with tension as Shane Wright, a 34-year-old restaurant owner and long-term resident, stands at the front, demanding answers from a panel of developers and city officials. Peter, a developer, and Mike, a city official, sit at a table, attempting to manage the crowd and Shane's escalating frustration.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Shane Wright",
+          "gender": "Male",
+          "description": "A 34-year-old restaurant owner with a fiery temper and a strong sense of justice. He is visibly exhausted from the long battle to save his apartment.; years old / Male / Long-term resident, 34 years old; Occupation: Restaurant Owner; Personality: Angry, Determined, Exhausted, Enthusiastic; Values: Community, Justice, Stability; Interests: Housing rights, Public participation, Rights defense; Experiences: Long-term local resident, Facing forced relocation, Public confrontation, Community activism, Legal negotiation",
+          "position": "Front of the room, addressing the panel",
+          "states": "Angry, Determined, Exhausted",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Peter",
+          "gender": "Male",
+          "description": "A calm and composed developer in his 40s, representing the company planning the Redlands redevelopment; Male; Age: 43; Occupation: Urban Development Project Manager; Personality: Analytical, Empathetic, Patient; Values: Community Well-being, Sustainable Growth, Professional Integrity; Interests: Architecture, Public Policy, Coffee Culture; Experiences: Led multiple neighborhood revitalization projects, Navigated public opposition in past developments, Collaborated with city planners on zoning reforms.",
+          "position": "Panel table, seated to the left",
+          "states": "Calm, Diplomatic",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Mike",
+          "gender": "Male",
+          "description": "A middle-aged community official known for his mediation skills; Male; Age: 52; Occupation: Community Development Coordinator; Personality: Diplomatic, Patient, Analytical; Values: Fairness, Community Stability, Transparency; Interests: Urban planning, Local history, Golf; Experiences: Negotiated multiple neighborhood revitalization projects, Mediated between residents and developers during past city expansions, Served on the city council for 10 years before transitioning to a coordinator role.",
+          "position": "Panel table, seated in the center",
+          "states": "Neutral, Attempting to Mediate",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Shane Wright",
+          "character_id": 0,
+          "action": "Shouting at the panel",
+          "dialogue": "You can’t just come in here and say my home is in the way of progress! I’ve lived here for ten years, and I won’t be bulldozed for a developer’s profit!"
+        },
+        {
+          "action_id": 1,
+          "character": "Peter",
+          "character_id": 1,
+          "action": "Replies calmly",
+          "dialogue": "Shane, we understand your concerns. This project will bring new schools, parks, and jobs for the children of Redlands. We’re trying to make the neighborhood better for everyone."
+        },
+        {
+          "action_id": 2,
+          "character": "Mike",
+          "character_id": 2,
+          "action": "Proposes a solution",
+          "dialogue": "We can offer Shane a relocation package and a chance to be part of the new development’s advisory board. That way, his voice is still heard."
+        },
+        {
+          "action_id": 3,
+          "character": "Shane Wright",
+          "character_id": 0,
+          "action": "Scoffs at the suggestion",
+          "dialogue": "An advisory board won’t matter if I’m not here to give my opinion. You’re trying to buy me off like a used car! I want a fair deal, not a handout."
+        },
+        {
+          "action_id": 4,
+          "character": "Peter",
+          "character_id": 1,
+          "action": "Counters with compromise",
+          "dialogue": "We can work on a more tailored offer if you’re open to negotiation. Our goal is to make this transition as smooth as possible for everyone affected."
+        },
+        {
+          "action_id": 5,
+          "character": "Shane Wright",
+          "character_id": 0,
+          "action": "Considers the offer",
+          "dialogue": "Fine. But if this is about my community, then I want real input. I won’t back down until we find a way forward that respects all of us."
+        }
+      ],
+      "plot": "Shane confronts the city officials and developer at a community meeting, demanding a fair solution to prevent the demolition of his apartment. Peter and Mike attempt to negotiate, offering relocation and advisory roles, but Shane remains skeptical and insists on community respect and justice. The meeting ends with a tentative agreement to continue the discussion.",
+      "social_purpose": "To showcase the conflict between individual rights and community development, while highlighting Shane’s values of justice and community, and his role as an activist.",
+      "chunk": {
+        "id": 0,
+        "text": "The meeting room filled with murmurs of agreement and concern as Shane's words struck a chord. Mike took notes, while Peter adjusted his tone, clearly aware that Shane's position was not just personal but representative of many affected residents. The tension lingered, but the conversation had shifted from confrontation to negotiation."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

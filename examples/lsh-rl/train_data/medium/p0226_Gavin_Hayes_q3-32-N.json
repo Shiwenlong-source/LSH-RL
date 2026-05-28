@@ -1,0 +1,88 @@
+{
+  "title": "Deadline Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Gavin is asked to help finish a news story before the deadline.",
+      "time": "Evening",
+      "location": "New Media Company Editing Room",
+      "description": "The editing room is dimly lit, with the hum of computers and the occasional clatter of keyboards. Gavin stands at the door, looking at the chaotic scene inside. His colleagues are hunched over their desks, manuscripts scattered, and the clock on the wall ticking ominously. Kris, a young woman in her early 30s with a no-nonsense attitude, approaches him with a worried expression, while Tang, a laid-back man in his late 20s, hands him a manuscript with a helpless shrug.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Gavin Hayes",
+          "gender": "Male",
+          "description": "A 28-year-old new media employee who is responsible, caring, and often hesitant in decision-making.; Male, 28 years old; Occupation: New Media Company Employee; Personality: Responsible, Hesitant, Caring; Values: Teamwork, Commitment, Balance; Interests: Anime, News Writing, Creative Writing; Experiences: Facing Time Management Challenges, Supporting Colleagues in Projects",
+          "position": "Near the door",
+          "states": "Hesitant, conflicted",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Kris Allen",
+          "gender": "Female",
+          "description": "A driven and anxious news editor who values punctuality and high-quality work; Female; Age: 31; Occupation: Senior News Editor; Personality: Perfectionist, impatient, assertive; Values: Timeliness, journalistic integrity, teamwork; Interests: Investigative journalism, true crime podcasts, coffee culture; Experiences: Missed a major breaking story due to a last-minute error, led a team to win a regional journalism award for an in-depth feature, recently promoted to senior editor after years of rising through the ranks.",
+          "position": "Approaching Gavin",
+          "states": "Urgent, stressed",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Tang Wei",
+          "gender": "Male",
+          "description": "A relaxed and easygoing writer who often feels overwhelmed by deadlines; Male; Age: 28; Occupation: Freelance Investigative Journalist; Personality: Laid-back, empathetic, procrastinating; Values: Integrity, creativity, work-life balance; Interests: Reading true crime stories, playing guitar, long walks in the park; Experiences: Missed a major deadline due to perfectionism, worked on a controversial story that caused professional tension, recently transitioned from print to digital media.",
+          "position": "Handing a manuscript to Gavin",
+          "states": "Helpless, apologetic",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Kris Allen",
+          "character_id": 1,
+          "action": "Asks for help",
+          "dialogue": "Gavin, we really need you in here. This story is due in two hours, and we’re all swamped. Can you take a section?"
+        },
+        {
+          "action_id": 1,
+          "character": "Tang Wei",
+          "character_id": 2,
+          "action": "Hands over a manuscript",
+          "dialogue": "I’m sorry, man. I can’t finish this by myself. You’re the only one left with any time."
+        },
+        {
+          "action_id": 2,
+          "character": "Gavin Hayes",
+          "character_id": 0,
+          "action": "Considers the request",
+          "dialogue": "I was about to head home to watch some anime, but... I guess I can stay a bit longer. Let’s see what I can do."
+        },
+        {
+          "action_id": 3,
+          "character": "Kris Allen",
+          "character_id": 1,
+          "action": "Expresses gratitude",
+          "dialogue": "Thanks, Gavin. I know it’s not ideal, but this really means a lot to us."
+        },
+        {
+          "action_id": 4,
+          "character": "Tang Wei",
+          "character_id": 2,
+          "action": "Sits down with relief",
+          "dialogue": "You’re a lifesaver, mate. I owe you one."
+        }
+      ],
+      "plot": "Gavin is torn between his personal interests and the team's urgent need for help. After a brief internal struggle, he decides to assist his colleagues, showing his responsible and caring nature, as well as his commitment to teamwork. The scenario highlights the tension of balancing personal life with professional obligations.",
+      "social_purpose": "To showcase how personal values and professional responsibilities can conflict, and how one’s personality traits and past experiences influence their decision-making in a team setting.",
+      "chunk": {
+        "id": 0,
+        "text": "Gavin stands at the door of the editing room, caught between his desire to go home and the need to support his team. Kris and Tang approach him, both clearly in distress. Gavin’s hesitation is evident, but his caring and responsible nature eventually wins out. He agrees to stay and help, reinforcing the importance of commitment and teamwork in his work environment."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

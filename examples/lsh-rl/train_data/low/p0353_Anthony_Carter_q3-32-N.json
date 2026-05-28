@@ -1,0 +1,95 @@
+{
+  "title": "Thursday Bowling Night Invitation",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Anthony meets Joy and Tiki after a live performance",
+      "time": "7:30 PM",
+      "location": "Outside the local theater",
+      "description": "Anthony Carter, a 20-year-old college student, is waiting excitedly for his idol, Joy, to exit the theater after a performance. Tiki, a close friend of Anthony's, is nearby, casually leaning against a wall and keeping the mood light. Joy, a 24-year-old performer, steps out with her crew, looking tired but happy about the show.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Anthony Carter",
+          "gender": "Male",
+          "description": "A 20-year-old college student who is passionate about music and social activities. He is friendly and enthusiastic, often organizing gatherings for his friends.; 20-year-old /Male/Student, 24 years old; Occupation: College student; Personality: Enthusiastic, Friendly, Admires idols, Sociable; Values: Art appreciation, Friendship, Community; Interests: Music, Bowling, Theater, Parties; Experiences: Watching live performances, Organizing social activities, Interacting with idols, Participating in group activities",
+          "position": "Front of the theater, near the exit",
+          "states": "Excited, hopeful, slightly nervous",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Tiki",
+          "gender": "Female",
+          "description": "Tiki is Anthony's best friend and a laid-back, supportive presence; Female; Age: 22; Occupation: Part-time barista and community theater volunteer; Personality: Easygoing, empathetic, witty; Values: Loyalty, authenticity, community; Interests: Bowling, live performances, indie music; Experiences: Supported Anthony through his first college audition, attended multiple of his high school plays, works backstage during local theater productions.",
+          "position": "Near Anthony, casually leaning on a wall",
+          "states": "Relaxed, encouraging, observant",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Joy",
+          "gender": "Female",
+          "description": "A 24-year-old performer known for her serious dedication to her craft; Female; Age: 24; Occupation: Stage actress and part-time voiceover artist; Personality: Passionate, resilient, introspective; Values: Artistic integrity, hard work, loyalty; Interests: Improvisational theater, indie music, journaling; Experiences: Grew up in a small town with a community theater, won a regional acting competition at 18, recently finished a sold-out run in a critically acclaimed play.",
+          "position": "Exiting the theater with her crew",
+          "states": "Tired but happy, curious, slightly guarded",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Anthony Carter",
+          "character_id": 0,
+          "action": "Approaching Joy with a smile",
+          "dialogue": "Hey Joy! I just saw your performance and it was amazing! I was wondering if you'd like to come to our weekly Thursday bowling night? It's a lot of fun and we'd love to have you there!"
+        },
+        {
+          "action_id": 1,
+          "character": "Tiki",
+          "character_id": 1,
+          "action": "Smiling and nodding in support",
+          "dialogue": "Yeah, Joy, it's a great way to unwind after a show. We always have a blast!"
+        },
+        {
+          "action_id": 2,
+          "character": "Joy",
+          "character_id": 2,
+          "action": "Pausing and looking at Anthony with a thoughtful expression",
+          "dialogue": "That's really nice of you to ask. I haven't had a chance to do anything like that in a while. I'd be interested in checking it out."
+        },
+        {
+          "action_id": 3,
+          "character": "Anthony Carter",
+          "character_id": 0,
+          "action": "Eyes lighting up with excitement",
+          "dialogue": "That's awesome! We'll have you over next week. I promise you'll have a great time!"
+        },
+        {
+          "action_id": 4,
+          "character": "Tiki",
+          "character_id": 1,
+          "action": "Nudging Anthony playfully",
+          "dialogue": "You're not the only one who's excited, Joy. Anthony's been planning this for weeks!"
+        },
+        {
+          "action_id": 5,
+          "character": "Joy",
+          "character_id": 2,
+          "action": "Smiling and nodding",
+          "dialogue": "I'll see you there then. Thanks for the invite, Anthony. I appreciate it."
+        }
+      ],
+      "plot": "Anthony, after watching Joy's performance, invites her to join his weekly Thursday bowling gathering. Tiki supports the idea, helping Anthony create a relaxed and friendly atmosphere. Joy, initially hesitant, agrees to attend, opening the door to a new social experience.",
+      "social_purpose": "Anthony's invitation to Joy highlights his values of friendship and community, as well as his interest in socializing and music. Tiki's supportive role demonstrates Anthony's sociable nature and his ability to connect with others. Joy's response shows her openness to experiencing life beyond the stage.",
+      "chunk": {
+        "id": 0,
+        "text": "Anthony approaches Joy with a hopeful expression, his voice full of excitement as he extends the bowling invitation. Tiki chimes in with a casual remark, easing any tension in the moment. Joy, while still focused on her performance, shows interest in the idea, hinting at a potential new social connection."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

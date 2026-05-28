@@ -1,0 +1,102 @@
+{
+  "title": "Breaking the Silence",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Support Group Discussion",
+      "time": "6:00 PM",
+      "location": "Community Center Conference Room",
+      "description": "A small group of young adults sit in a circle, engaged in a weekly support group for gaming addiction. The room is dimly lit with a whiteboard at the front and a few chairs arranged for comfort. Henry Webb, a 25-year-old college student, sits with his hands clasped tightly in his lap, avoiding eye contact. Across from him, Tina, a calm and empathetic woman in her late 20s, and Lily, a direct and energetic woman in her early 30s, watch his body language closely.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Henry Webb",
+          "gender": "Male",
+          "description": "25-year-old college student, visibly nervous and conflicted, seeking emotional support and self-improvement.; Male, Support Group Participant, 25 years old; Occupation: College Student; Personality: Conflicted, Firm, Introspective; Values: Self-improvement, Honesty, Community Support; Interests: Gaming, Personal Growth, Group Discussions; Experiences: Formerly addicted to gaming, Attending addiction recovery meetings, Seeking emotional support, Trying to rebuild self-discipline",
+          "position": "Center of the circle, facing Tina and Lily",
+          "states": "Nervous, introspective, hesitant",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Tina",
+          "gender": "Female",
+          "description": "Calm and empathetic facilitator of the support group; Female; Age: 28; Occupation: Community Counselor specializing in behavioral health; Personality: Compassionate, patient, observant; Values: Empathy, personal growth, community well-being; Interests: Mindfulness practices, volunteering for youth programs, indie music; Experiences: Worked with at-risk youth in a nonprofit setting, completed specialized training in digital addiction recovery, has led weekly support groups for over two years.",
+          "position": "To the left of Henry, facing him",
+          "states": "Supportive, attentive, encouraging",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Lily",
+          "gender": "Female",
+          "description": "Lily; Female; Age: 31; Occupation: Rehabilitation Counselor; Personality: Persistent, curious, hopeful, empathetic, assertive; Values: Personal growth, honesty, community support; Interests: Board games, psychology, journaling; Experiences: Overcame her own gaming addiction five years ago, worked in addiction recovery for three years, leads weekly support group discussions at the community center.",
+          "position": "To the right of Henry, facing him",
+          "states": "Persistent, curious, hopeful",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Tina",
+          "character_id": 1,
+          "action": "Encourages Henry to share",
+          "dialogue": "Henry, we're all here to support each other. If you're comfortable, could you tell us a bit about your journey with gaming?"
+        },
+        {
+          "action_id": 1,
+          "character": "Henry Webb",
+          "character_id": 0,
+          "action": "Hesitates to respond",
+          "dialogue": "I... I don't know if I can do this. I'm not sure I'm ready to talk about it."
+        },
+        {
+          "action_id": 2,
+          "character": "Lily",
+          "character_id": 2,
+          "action": "Challenges Henry gently",
+          "dialogue": "It's okay to be scared, Henry. But if you want to grow and help others, this is a start. You don't have to go too deep if you're not ready."
+        },
+        {
+          "action_id": 3,
+          "character": "Henry Webb",
+          "character_id": 0,
+          "action": "Considers the group's support",
+          "dialogue": "I used to play for 12 hours a day. I lost track of time, friends, and my studies. I felt like I was the only one who couldn't control it."
+        },
+        {
+          "action_id": 4,
+          "character": "Tina",
+          "character_id": 1,
+          "action": "Validates Henry's experience",
+          "dialogue": "Thank you for sharing that, Henry. It's a brave first step. You're not alone in this."
+        },
+        {
+          "action_id": 5,
+          "character": "Lily",
+          "character_id": 2,
+          "action": "Shares a relatable experience",
+          "dialogue": "I remember when I first admitted I had a problem with gaming. I felt the same way. But once I opened up, others did too. It changed everything for me."
+        },
+        {
+          "action_id": 6,
+          "character": "Henry Webb",
+          "character_id": 0,
+          "action": "Shows a shift in confidence",
+          "dialogue": "Maybe... maybe I can try. I want to get better, and I think this group can help me."
+        }
+      ],
+      "plot": "Henry, a conflicted and introspective participant in a gaming addiction support group, is encouraged by Tina and challenged gently by Lily to share his personal experiences. After some hesitation, he opens up about his addiction, revealing his desire for self-improvement and the impact it has had on his life. His vulnerability is met with support and understanding, potentially influencing the group dynamic and his own recovery journey.",
+      "social_purpose": "To demonstrate the power of community support in overcoming addiction and the importance of honesty and self-improvement in personal growth. The interaction also highlights how different personalities can influence one another in a shared goal of recovery.",
+      "chunk": {
+        "id": 0,
+        "text": "Henry, a 25-year-old college student, is visibly nervous and conflicted in a gaming addiction support group. Tina, a calm and empathetic facilitator, and Lily, a direct and energetic participant, encourage him to share his story. Henry's hesitation and eventual openness reveal his inner struggle, values of honesty and self-improvement, and the shared goal of the group to support each other in recovery."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

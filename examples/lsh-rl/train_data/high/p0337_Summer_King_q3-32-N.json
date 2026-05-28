@@ -1,0 +1,88 @@
+{
+  "title": "The Weekend Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Cafe Catch-Up",
+      "time": "Afternoon, Saturday",
+      "location": "A cozy corner of a local coffee shop",
+      "description": "Summer King sits at a small table with her laptop, sipping a latte while trying to plan her week. Her friends Cici and Wang approach the table, each carrying a coffee, ready to discuss the weekend plans.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Summer King",
+          "gender": "Female",
+          "description": "A young professional who is organized yet anxious about overcommitting.; Female, 25 years old; Occupation: Socially active young professional; Personality: Social, Organized, Anxious, Considerate; Values: Friendship, Responsibility, Balance; Interests: Parties, Planning, Communication; Experiences: Attending social events, Handling time conflicts, Receiving different advice, Prioritizing tasks",
+          "position": "Seated at the table with her laptop open",
+          "states": "Looking slightly stressed but friendly",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Cici",
+          "gender": "Female",
+          "description": "A laid-back and fun-loving friend who values spontaneity and relaxation; Female; Age: 24; Occupation: Freelance graphic designer; Personality: Optimistic, easygoing, playful; Values: Enjoyment of the present, creativity, genuine connections; Interests: Artistic coffee cup designs, spontaneous road trips, trying new local cafes; Experiences: Organized a surprise weekend getaway for friends last summer, collaborated with local businesses on creative branding projects.",
+          "position": "Standing beside Summer, holding a coffee",
+          "states": "Smiling and relaxed",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Wang",
+          "gender": "Male",
+          "description": "A thoughtful and detail-oriented friend who values clear communication and structure; Male; Age: 28; Occupation: Project Manager at a tech startup; Personality: Analytical, patient, observant; Values: Reliability, collaboration, work-life balance; Interests: Urban planning, indie music, journaling; Experiences: Led a high-pressure product launch that succeeded due to meticulous planning, volunteered to organize a community event that brought neighbors together, recently took a sabbatical week to travel and recharge.",
+          "position": "Seated across from Summer, holding a coffee",
+          "states": "Calm and focused",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Cici",
+          "character_id": 1,
+          "action": "Approach the table with a cheerful attitude",
+          "dialogue": "Hey Summer! Come on, don't look so worried. We're just hanging out, right? No need to plan every second of your day!"
+        },
+        {
+          "action_id": 1,
+          "character": "Summer King",
+          "character_id": 0,
+          "action": "Look up from her laptop with a sigh",
+          "dialogue": "I know, Cici, but I have a few things to do this weekend, and I'm trying to figure out what's most important."
+        },
+        {
+          "action_id": 2,
+          "character": "Wang",
+          "character_id": 2,
+          "action": "Lean forward to speak calmly",
+          "dialogue": "You could make a list of priorities and communicate with the people involved. That way, you won't feel overwhelmed and still stay true to your commitments."
+        },
+        {
+          "action_id": 3,
+          "character": "Cici",
+          "character_id": 1,
+          "action": "Wave her hand dismissively",
+          "dialogue": "But Summer, we're your friends! You can just say yes and figure it out later. Life isn't all about planning."
+        },
+        {
+          "action_id": 4,
+          "character": "Summer King",
+          "character_id": 0,
+          "action": "Nod thoughtfully while typing on her laptop",
+          "dialogue": "You're both right in a way. I do want to enjoy the weekend, but I also need to keep things balanced. I'll make a quick list and see what I can manage."
+        }
+      ],
+      "plot": "Summer is trying to balance her social life with her responsibilities. Cici and Wang offer conflicting advice, reflecting Summer's internal struggle. By the end of the scene, Summer decides to take a middle path by prioritizing and communicating.",
+      "social_purpose": "To show how Summer's values of balance and responsibility interact with her social tendencies and how her friends influence her decision-making process.",
+      "chunk": {
+        "id": 0,
+        "text": "Summer King, a 25-year-old socially active young professional, is trying to manage her weekend schedule while being considerate to her friends' feelings. She is joined by Cici, who encourages her to relax and enjoy the moment, and Wang, who suggests a more structured approach. Their conversation highlights Summer's anxiety and her desire to maintain harmony in her relationships."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

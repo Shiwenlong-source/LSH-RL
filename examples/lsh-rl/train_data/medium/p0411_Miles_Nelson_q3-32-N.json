@@ -1,0 +1,102 @@
+{
+  "title": "The Pizza Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Group dinner at a local pizzeria",
+      "time": "6:30 PM, Friday",
+      "location": "Corner Pizza, a cozy neighborhood pizzeria with a lively atmosphere",
+      "description": "Miles has agreed to join his close friends Lina and Chen for dinner at a local pizzeria. The group has been together for years, but Miles still feels like an outsider despite his desire to connect. As they sit in a semi-private booth, the conversation flows easily, but Miles struggles to find his place in the dialogue.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Miles Nelson",
+          "gender": "Male",
+          "description": "A 21-year-old college student with a quiet demeanor and a tendency to overthink social interactions. He is wearing a hoodie to feel more comfortable and keeps checking his phone to avoid eye contact.; 21-year-old male, 16 years old; Occupation: College student; Personality: Introverted, Self-conscious, Craving connection; Values: Belonging, Friendship, Self-acceptance; Interests: Socializing, Technology, Emotional introspection; Experiences: Has social anxiety, Recently decided to open up to friends, Feels pressure to fit in, Has been mocked in social settings",
+          "position": "Sitting in the middle of the booth",
+          "states": "Nervous, self-conscious, eager to fit in",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Lina Ramirez",
+          "gender": "Female",
+          "description": "A confident and outgoing 22-year-old who is studying psychology; Female; Age: 22; Occupation: Part-time barista at a local café; Personality: Empathetic, witty, and approachable; Values: Loyalty, personal growth, and authenticity; Interests: People-watching, indie music, and trying new recipes; Experiences: Volunteered at a community mental health center, organized a campus peer support group, and has been friends with Chen since high school.",
+          "position": "Sitting to Miles' left",
+          "states": "Supportive, observant, friendly",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Chen Li",
+          "gender": "Male",
+          "description": "A 21-year-old engineering student with a sharp wit and a tendency to tease his friends; Male; Age: 21; Occupation: Part-time freelance app developer; Personality: Playful, confident, observant; Values: Innovation, loyalty, humor; Interests: Coding, gaming, Italian cuisine; Experiences: Led a team to win a university hackathon, spent a summer interning at a tech startup, grew up in a close-knit family that values intellectual curiosity.",
+          "position": "Sitting to Miles' right",
+          "states": "Playful, focused, slightly dismissive",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Lina Ramirez",
+          "character_id": 1,
+          "action": "Attempts to include Miles in the conversation",
+          "dialogue": "Hey Miles, you ever tried that new app Chen’s been working on? It’s pretty wild. You should check it out."
+        },
+        {
+          "action_id": 1,
+          "character": "Chen Li",
+          "character_id": 2,
+          "action": "Laughs and teases Miles",
+          "dialogue": "Yeah, he’s kind of the tech guy. I mean, if you can call it that. You’re more of a quiet observer, right?"
+        },
+        {
+          "action_id": 2,
+          "character": "Miles Nelson",
+          "character_id": 0,
+          "action": "Hesitates and responds nervously",
+          "dialogue": "Uh, I don’t really know much about coding. I just like... using apps, I guess."
+        },
+        {
+          "action_id": 3,
+          "character": "Lina Ramirez",
+          "character_id": 1,
+          "action": "Changes the subject to make Miles feel more at ease",
+          "dialogue": "Well, we’re all here, so let’s order. Miles, what kind of pizza do you like?"
+        },
+        {
+          "action_id": 4,
+          "character": "Miles Nelson",
+          "character_id": 0,
+          "action": "Considers the question and answers slowly",
+          "dialogue": "I... I like cheese pizza. Simple, I guess."
+        },
+        {
+          "action_id": 5,
+          "character": "Chen Li",
+          "character_id": 2,
+          "action": "Reacting with a teasing tone",
+          "dialogue": "Cheese pizza? Wow, you’re not the adventurous type, huh?"
+        },
+        {
+          "action_id": 6,
+          "character": "Miles Nelson",
+          "character_id": 0,
+          "action": "Feeling self-conscious and looking away",
+          "dialogue": "I just like it, you know. It’s not that big of a deal."
+        }
+      ],
+      "plot": "Miles tries to engage with his friends during a casual dinner, but their teasing and the pressure to fit in make him feel even more insecure. Lina attempts to be supportive, but Chen’s playful jabs only heighten Miles’ anxiety. The scenario tests whether Miles can overcome his self-doubt and take a step toward self-acceptance and deeper connection.",
+      "social_purpose": "To explore Miles’ struggle with social anxiety and his desire for belonging in a setting where he feels both invited and excluded.",
+      "chunk": {
+        "id": 0,
+        "text": "The group is at the pizzeria, and the conversation is light but uneven. Lina tries to keep it warm and inclusive, while Chen’s teasing highlights the social pressure Miles feels. Miles’ internal conflict is evident as he tries to balance his craving for connection with his fear of being mocked."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

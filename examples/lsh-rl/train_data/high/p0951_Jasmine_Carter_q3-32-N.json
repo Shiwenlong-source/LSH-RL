@@ -1,0 +1,102 @@
+{
+  "title": "The Coffee Break Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Office Coffee Break",
+      "time": "10:30 AM",
+      "location": "Company Break Room",
+      "description": "Jasmine Carter, a 31-year-old office worker, is in the break room during her mid-morning coffee break. She's hesitant about taking a personal call during work hours, especially with her supervisor nearby. Her phone buzzes with a message from her long-distance friend, Luna. Ella, her observant and detail-oriented colleague, notices Jasmine's distraction and approaches her.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Jasmine Carter",
+          "gender": "Female",
+          "description": "A thoughtful and anxious office worker in her early 30s, struggling to balance work responsibilities and personal relationships.; Female, Office worker, 31 years old; Occupation: Office Worker; Personality: Hesitant, Anxious, Thoughtful; Values: Work responsibility, Interpersonal relationships, Balance; Interests: Long-distance calls, Friendship, Time management; Experiences: Working in a supervised office environment, Receiving unexpected messages, Postponing private calls due to work",
+          "position": "Near the coffee machine",
+          "states": "Distracted, anxious, thoughtful",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Ella Thompson",
+          "gender": "Female",
+          "description": "A detail-oriented and observant colleague who often checks in on Jasmine's work progress; Female; Age: 29; Occupation: Project Coordinator; Personality: Empathetic, Analytical, Loyal; Values: Teamwork, Professional Integrity, Loyalty; Interests: Organizing team-building events, Reading self-help books, Practicing yoga; Experiences: Managed a high-stakes cross-departmental project last year, Mediated a conflict between coworkers that improved team dynamics, Has a close group of long-time colleagues she mentors.",
+          "position": "Approaching Jasmine from behind",
+          "states": "Curious, supportive, concerned",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Luna Ramirez",
+          "gender": "Female",
+          "description": "Luna Ramirez; Female; Age: 29; Occupation: Social worker; Personality: Empathetic, optimistic, loyal; Values: Friendship, emotional well-being, authenticity; Interests: Volunteering at community centers, writing poetry, long-distance hiking; Experiences: Moved across the country for graduate school, helped support a sibling through mental health struggles, maintains a weekly journaling practice.",
+          "position": "Not physically present, but texting Jasmine",
+          "states": "Eager, understanding, concerned",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Jasmine Carter",
+          "character_id": 0,
+          "action": "Checks her phone and sees a message from Luna",
+          "dialogue": "Hmm, Luna just sent me a message. I really should call her, but I don’t want to get caught up now."
+        },
+        {
+          "action_id": 1,
+          "character": "Ella Thompson",
+          "character_id": 1,
+          "action": "Notices Jasmine’s hesitation and asks if she’s okay",
+          "dialogue": "Hey Jasmine, you look like you're thinking about something. Everything all right?"
+        },
+        {
+          "action_id": 2,
+          "character": "Jasmine Carter",
+          "character_id": 0,
+          "action": "Hesitates before responding to Ella",
+          "dialogue": "Oh, it’s just... Luna, my friend from back home, wants to catch up. I don’t know if I can take the time right now."
+        },
+        {
+          "action_id": 3,
+          "character": "Ella Thompson",
+          "character_id": 1,
+          "action": "Offers reassurance and a solution",
+          "dialogue": "You know, the new long-distance call policy allows for short personal calls. Maybe we can time it so it doesn’t interfere with your workload?"
+        },
+        {
+          "action_id": 4,
+          "character": "Jasmine Carter",
+          "character_id": 0,
+          "action": "Considers the option and replies with a sigh",
+          "dialogue": "I wish I could. But I’m already behind on my tasks, and I don’t want to get marked for it. Maybe I can call her after work."
+        },
+        {
+          "action_id": 5,
+          "character": "Ella Thompson",
+          "character_id": 1,
+          "action": "Nods and suggests a compromise",
+          "dialogue": "That’s a good plan. But if you need a few minutes to reply or organize your thoughts, I can help cover for you."
+        },
+        {
+          "action_id": 6,
+          "character": "Jasmine Carter",
+          "character_id": 0,
+          "action": "Smiles gratefully but declines",
+          "dialogue": "Thanks, Ella, but I’d rather not risk it. I’ll just respond with a quick message and focus on work for now."
+        }
+      ],
+      "plot": "Jasmine is tempted to take a personal call from her friend Luna during a coffee break but is held back by her anxiety about work performance and her supervisor’s attention. Ella notices Jasmine’s hesitation and offers to help her manage the situation. Jasmine appreciates the offer but chooses to prioritize her work responsibilities for the moment, showing her internal struggle to maintain balance.",
+      "social_purpose": "To explore Jasmine's values of work responsibility and interpersonal relationships, as well as her personality traits of hesitation and thoughtfulness, in a realistic office setting.",
+      "chunk": {
+        "id": 0,
+        "text": "Jasmine takes a deep breath, sipping her coffee slowly while her phone buzzes again. She’s caught between the warmth of her friendship with Luna and the cold reality of her work environment. Ella’s offer to help is tempting, but Jasmine’s sense of responsibility keeps her grounded. She knows she can’t afford to let emotions disrupt her productivity. Still, the message from Luna lingers in her mind, a reminder of the balance she’s striving for."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

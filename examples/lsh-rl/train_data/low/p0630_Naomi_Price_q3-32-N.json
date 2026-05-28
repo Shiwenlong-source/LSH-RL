@@ -1,0 +1,88 @@
+{
+  "title": "A Night at the Community Center",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Community Meeting for LGBTQ+ Support",
+      "time": "7:00 PM",
+      "location": "Local LGBTQ+ Community Center, Conference Room",
+      "description": "Naomi Price, a 25-year-old administrative assistant, attends a community meeting to discuss the recent exclusion from an online channel she used to feel at home in. She is joined by a few other regulars, including a moderator and a fellow community member who has experienced similar issues.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Naomi Price",
+          "gender": "woman",
+          "description": "A sensitive and determined young woman who is struggling with feelings of exclusion and a need for emotional connection.; woman, works a high-intensity job, 25 years old; Occupation: Administrative Assistant; Personality: Empathetic, Resilient, Sensitive, Determined; Values: Fairness, Belonging, Self-expression; Interests: Online communities, Late-night thinking, Emotional connection; Experiences: Recent work stress, Online community conflict, Seeking emotional support, Feeling excluded",
+          "position": "Seated at the front of the room, hands folded, looking slightly anxious.",
+          "states": "Resilient, but emotionally exhausted; seeking fairness and belonging.",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Maya Chen",
+          "gender": "woman",
+          "description": "Calm and experienced community moderator who has seen many conflicts and is focused on maintaining a safe and inclusive space; woman; Age: 38; Occupation: Online Community Manager for a digital advocacy platform; Personality: Authoritative, empathetic, patient; Values: Fairness, community harmony, respect; Interests: Reading social psychology, attending local LGBTQ+ events, yoga; Experiences: Mediated a high-profile conflict between community members that led to policy reform, helped establish a youth support subgroup within the community, navigated platform-wide bans due to hate speech.",
+          "position": "Standing at the front of the room, addressing the group with a notebook in hand.",
+          "states": "Authoritative, yet empathetic; values fairness and community harmony.",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Jasmine Lee",
+          "gender": "woman",
+          "description": "A fellow community member who has faced similar issues and is supportive of Naomi, but also cautious about stirring conflict; woman; Age: 32; Occupation: High school counselor; Personality: compassionate, diplomatic, observant; Values: inclusion, emotional safety, community harmony; Interests: art therapy, social justice advocacy, gardening; Experiences: previously volunteered with LGBTQ+ youth outreach programs, faced subtle discrimination in her own workplace, supported a close friend through a difficult coming-out process.",
+          "position": "Sitting next to Naomi, listening intently and occasionally nodding in agreement.",
+          "states": "Supportive, empathetic; values belonging and self-expression.",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Naomi Price",
+          "character_id": 0,
+          "action": "speaks up hesitantly",
+          "dialogue": "I just wanted to talk about what happened in the #lesbian channel. I tried to explain my side, but the admin shut me down without really listening. I feel like I’m being excluded for no reason."
+        },
+        {
+          "action_id": 1,
+          "character": "Maya Chen",
+          "character_id": 1,
+          "action": "responds with understanding",
+          "dialogue": "Naomi, I hear you. It’s important we create space for everyone to feel safe and heard. Can you tell us more about the situation? We want to understand and help if we can."
+        },
+        {
+          "action_id": 2,
+          "character": "Naomi Price",
+          "character_id": 0,
+          "action": "shares her experience",
+          "dialogue": "I was trying to have a conversation about how some people in the channel don’t feel welcome if they’re not out or don’t conform to certain expectations. I was just trying to express that it’s hard to feel like I belong sometimes."
+        },
+        {
+          "action_id": 3,
+          "character": "Jasmine Lee",
+          "character_id": 2,
+          "action": "adds her own perspective",
+          "dialogue": "I’ve been through something similar. It’s frustrating when people don’t take the time to understand where you’re coming from. Maybe we can find a way to set clearer guidelines so everyone feels included."
+        },
+        {
+          "action_id": 4,
+          "character": "Maya Chen",
+          "character_id": 1,
+          "action": "summarizes the issue",
+          "dialogue": "It sounds like there’s a disconnect in how some members are being treated. We’ll need to address this in our next meeting with the admin team and make sure we’re all on the same page about what makes this community a safe space for self-expression and belonging."
+        }
+      ],
+      "plot": "Naomi confronts the issue of being excluded from the online community she once felt safe in. With the support of Jasmine and the guidance of Maya, she finds a path forward to advocate for her values of fairness and belonging within the group.",
+      "social_purpose": "To explore Naomi’s emotional struggle with exclusion and her desire for self-expression and belonging, while demonstrating the potential for community support and resolution.",
+      "chunk": {
+        "id": 0,
+        "text": "At the LGBTQ+ Community Center, Naomi shares her frustration about being kicked out of the #lesbian channel. With the help of Maya and Jasmine, she finds a way to express her feelings and work toward a resolution, showing her resilience and sensitivity."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

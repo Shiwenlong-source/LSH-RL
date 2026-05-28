@@ -1,0 +1,88 @@
+{
+  "title": "Voices for Danny",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Community Meeting",
+      "time": "6:30 PM",
+      "location": "Town Hall, Main Street, Maplewood",
+      "description": "Grace Wagner stands at the podium in the modest town hall, surrounded by a few familiar faces and a handful of curious newcomers. She is preparing to address the community about the upcoming broadcast of 'America's Most Wanted' and the need for more people to come forward with information about her friend Danny's unsolved murder. Jay, the local police chief, sits in the back with a notepad, while Lora, a social media influencer, scrolls through her phone, ready to share the event online.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Grace Wagner",
+          "gender": "Female",
+          "description": "Grace is a 30-year-old lawyer and small-town resident. Her grief is palpable, but her determination to seek justice for her friend is unwavering.; Female, years old, Small town resident, 30 years old; Occupation: Lawyer; Personality: Determined, Compassionate, Analytical; Values: Justice, Community, Empathy; Interests: Advocacy, Media, Social networking; Experiences: Dealing with personal loss, Organizing community events, Interacting with media",
+          "position": "Front of the room, at the podium",
+          "states": "Determined, emotional, focused",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Jay Thompson",
+          "gender": "Male",
+          "description": "Jay is the town's police chief; Male; Age: 52; Occupation: Chief of Police, Maplewood; Personality: Cautious, supportive, observant; Values: Integrity, community safety; Interests: Classic detective novels, local history, jogging; Experiences: Solved a high-profile missing persons case in the 90s, managed a town crisis during a recent wildfire, grew up in Maplewood and graduated from the local high school.",
+          "position": "Back of the room, near the exit",
+          "states": "Cautious, supportive, observant",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Lora Mitchell",
+          "gender": "Female",
+          "description": "Lora is a local social media influencer who is passionate about community causes; Female; Age: 28; Occupation: Social Media Content Creator and Community Outreach Coordinator; Personality: Enthusiastic, tech-savvy, empathetic, optimistic, and observant; Values: Transparency, community empowerment, social justice; Interests: Digital storytelling, local history, photography, and volunteer work; Experiences: Organized a viral campaign that helped fund a community garden, collaborated with local law enforcement on a youth crime prevention series, and grew up in Maplewood where she witnessed the impact of grassroots activism.",
+          "position": "Near the center, on the edge of the audience",
+          "states": "Enthusiastic, tech-savvy, empathetic",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Grace Wagner",
+          "character_id": 0,
+          "action": "Speaking to the audience",
+          "dialogue": "Danny was more than just a friend. He was a part of this community, and we need to make sure his story doesn’t get buried. The broadcast is in a week, and I’m hoping we can gather more information and support before then."
+        },
+        {
+          "action_id": 1,
+          "character": "Lora Mitchell",
+          "character_id": 2,
+          "action": "Raising her hand to speak",
+          "dialogue": "I’ve been thinking, Grace. Maybe we should create a Facebook event and a hashtag to share Danny’s story. People might see it and remember something important."
+        },
+        {
+          "action_id": 2,
+          "character": "Jay Thompson",
+          "character_id": 1,
+          "action": "Speaking from the back of the room",
+          "dialogue": "I appreciate the enthusiasm, Lora, but we have to be careful. We don’t want to stir up false hope or mislead the public before the broadcast."
+        },
+        {
+          "action_id": 3,
+          "character": "Grace Wagner",
+          "character_id": 0,
+          "action": "Nodding thoughtfully",
+          "dialogue": "I understand your concerns, Jay. But I also believe the community has a right to know and a responsibility to help. If we can use the media and online platforms responsibly, maybe we can finally bring some clarity to this case."
+        },
+        {
+          "action_id": 4,
+          "character": "Lora Mitchell",
+          "character_id": 2,
+          "action": "Writing notes on her phone",
+          "dialogue": "I’ll draft a post tonight. We can include details about the broadcast and a call to action for anyone who remembers anything to contact the police or reach out to us directly."
+        }
+      ],
+      "plot": "Grace organizes a community meeting to discuss how to prepare for the upcoming broadcast of 'America's Most Wanted' about Danny's murder. She is joined by Jay, who is cautious about public involvement, and Lora, who is eager to use social media to spread the word. The group works together to balance media attention with community trust while trying to uncover new leads.",
+      "social_purpose": "To demonstrate how different perspectives—pragmatism, compassion, and digital advocacy—can come together to achieve a shared goal of justice and community unity.",
+      "chunk": {
+        "id": 0,
+        "text": "Grace Wagner stood at the podium, her voice steady but filled with emotion. 'Danny was more than just a friend. He was a part of this community, and we need to make sure his story doesn’t get buried.' A few people in the audience nodded, while others shifted uncomfortably. Jay, the town’s police chief, scribbled notes in the back, his expression thoughtful. Lora, sitting near the center, raised her hand and suggested using social media to reach more people. Grace appreciated the idea but worried about the emotional toll and the effectiveness of such efforts. Jay reminded everyone to proceed carefully, but Grace was determined to find a balance between hope and reality."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

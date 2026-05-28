@@ -1,0 +1,81 @@
+{
+  "title": "A Cadet's Weekend Pass",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Patrick applies for a weekend pass to visit his guardian",
+      "time": "Saturday morning",
+      "location": "Military Academy Dormitory Hallway",
+      "description": "The hallway is quiet, with the faint echo of footsteps and the occasional call of a name. Patrick stands at the dormitory door, holding his ID, looking both tired and determined. Joe, a senior cadet, sits at a small desk, reviewing paperwork with a stern but fair expression. Lora, another cadet, leans against the wall nearby, watching the exchange with a mix of envy and quiet disappointment.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Patrick Anderson",
+          "gender": "Male",
+          "description": "An 18-year-old military cadet who is self-disciplined, thoughtful, and ambitious. He is visibly tired from weekend training but is focused on his goal.; 18-year-old male cadet, 18 years old; Occupation: Military Academy Cadet; Personality: Self-disciplined, Thoughtful, Ambitious; Values: Responsibility, Loyalty, Balance; Interests: Military Training, Family Connection, Personal Growth; Experiences: Intense Weekend Training, Interaction with Authority, Peer Comparison",
+          "position": "Standing at the dormitory door",
+          "states": "Tired but resolute, slightly anxious",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Joe",
+          "gender": "Male",
+          "description": "Senior cadet in his early 20s with a strict demeanor and a strong sense of duty; Male; Age: 21; Occupation: Cadet Officer at a military academy; Personality: Disciplined, observant, reserved; Values: Honor, responsibility, order; Interests: Tactical strategy, leadership training, reading military history; Experiences: Served as a patrol leader during academy exercises, disciplined several cadets for rule violations, lost a close friend due to a breach in protocol.",
+          "position": "Sitting at the desk",
+          "states": "Calm, authoritative, slightly disapproving",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Lora",
+          "gender": "Female",
+          "description": "A fellow cadet who is observant and introspective. She feels a sense of loss and exclusion as she watches Patrick receive a privilege she does not have; Female; Age: 19; Occupation: Third-year cadet at the military academy; Personality: Analytical, reserved, loyal; Values: Discipline, fairness, perseverance; Interests: Reading historical biographies, journaling, quiet observation of human behavior; Experiences: Grew up in a strict orphanage environment, recently lost her mentor in a training accident, has never had a guardian or family visit.",
+          "position": "Leaning against the wall",
+          "states": "Envious, silent, contemplative",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Patrick Anderson",
+          "character_id": 0,
+          "action": "Approaches Joe's desk and respectfully asks for a weekend pass to visit his guardian.",
+          "dialogue": "Sir, I would like to apply for a weekend pass to visit my guardian. I understand the training was intense, but I believe I've earned it."
+        },
+        {
+          "action_id": 1,
+          "character": "Joe",
+          "character_id": 1,
+          "action": "Reviews the paperwork and gives a solemn approval.",
+          "dialogue": "You are aware that this is a privilege, not a right. You must maintain your performance and discipline. I'll approve it, Anderson, but don't take it for granted."
+        },
+        {
+          "action_id": 2,
+          "character": "Patrick Anderson",
+          "character_id": 0,
+          "action": "Nods in understanding and thanks Joe.",
+          "dialogue": "Thank you, Sir. I won't let this privilege go to waste."
+        },
+        {
+          "action_id": 3,
+          "character": "Lora",
+          "character_id": 2,
+          "action": "Looks away, biting her lip and trying to hide her envy.",
+          "dialogue": ""
+        }
+      ],
+      "plot": "Patrick, after a grueling weekend training session, approaches Joe to request a weekend pass to visit his guardian. Joe approves it, but with a reminder that it is a privilege, not a right. Lora, who has no such guardian to visit, silently watches the exchange, feeling left out and envious of the emotional support Patrick receives.",
+      "social_purpose": "To highlight the divide between cadets based on their personal circumstances and the emotional impact of privilege in a military setting.",
+      "chunk": {
+        "id": 0,
+        "text": "Patrick, an 18-year-old cadet, stands at the dormitory door, exhausted from the weekend training but driven by his desire for emotional support. He approaches Joe, a senior cadet, to request a weekend pass. Joe, while approving the request, reminds him of the privilege it represents, subtly reinforcing the importance of discipline and responsibility. Meanwhile, Lora, who has no guardian to visit, watches with a sense of loss, feeling the psychological distance between her and Patrick grow."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

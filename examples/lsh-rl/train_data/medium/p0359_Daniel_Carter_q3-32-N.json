@@ -1,0 +1,88 @@
+{
+  "title": "The Bonfire Set",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Bonfire Party Setup",
+      "time": "Evening, just before sunset",
+      "location": "Backyard of a suburban house",
+      "description": "Daniel Carter, an aspiring 25-year-old DJ, stands at the backdoor of the house, nervously adjusting his headphones. The backyard is filled with the smell of wood smoke and the distant sounds of people arriving. His friends Alin and Joy are outside, setting up the speakers and decorations. Alin is pacing, clearly impatient, while Joy remains calm and encouraging. Daniel is caught between his ambition to perform and his deep-rooted insecurities about how he'll be received.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Daniel Carter",
+          "gender": "Male",
+          "description": "A 25-year-old aspiring DJ who is struggling with self-doubt despite his ambition to grow in the music scene. He is self-reflective and values authenticity and personal growth.; Male in his, aspiring DJ, 25 years old; Occupation: Aspiring DJ; Personality: Ambitious, Insecure, Hesitant, Self-reflective; Values: Self-improvement, Authenticity, Friendship; Interests: Music production, Social activities, Personal growth; Experiences: Preparing for public performance, Coping with social pressure, Struggling with self-doubt",
+          "position": "Near the backdoor",
+          "states": "Nervous, hesitant, self-reflective",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Alin",
+          "gender": "Male",
+          "description": "A loud, impulsive friend of Daniel's who is always eager to move forward and push others to take action. He is supportive but impatient; Male; Age: 26; Occupation: Event Coordinator; Personality: Energetic, encouraging, impulsive, optimistic; Values: Adventure, loyalty, progress; Interests: Music festivals, urban exploration, adrenaline sports; Experiences: Organized a successful underground DJ event in his early 20s, rushed through a last-minute project at work and still delivered excellent results, helped a close friend launch their first music career event.",
+          "position": "By the speaker setup",
+          "states": "Impatient, energetic, encouraging",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Joy",
+          "gender": "Female",
+          "description": "A calm and observant friend who balances Alin's impatience with thoughtful support; Female; Age: 24; Occupation: Event planner and part-time music therapist; Personality: Empathetic, patient, intuitive; Values: Emotional well-being, authenticity, community; Interests: Music production, journaling, outdoor gatherings; Experiences: Helped organize local music festivals, worked with anxiety support groups, collaborated with emerging artists on creative projects.",
+          "position": "Near the fire pit",
+          "states": "Calm, supportive, observant",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Alin",
+          "character_id": 1,
+          "action": "calls out to Daniel",
+          "dialogue": "Come on, man! You're gonna miss the crowd if you don't get out here. It's time to drop the set!"
+        },
+        {
+          "action_id": 1,
+          "character": "Daniel Carter",
+          "character_id": 0,
+          "action": "steps outside hesitantly",
+          "dialogue": "I just need a second... I'm not sure if I'm ready for this."
+        },
+        {
+          "action_id": 2,
+          "character": "Joy",
+          "character_id": 2,
+          "action": "softly reassures Daniel",
+          "dialogue": "You've worked so hard for this, Daniel. Let the music do the talking. We're here for you."
+        },
+        {
+          "action_id": 3,
+          "character": "Alin",
+          "character_id": 1,
+          "action": "grins and claps Daniel on the back",
+          "dialogue": "Exactly! You're not just a DJ, you're a vibe. Go out there and own it!"
+        },
+        {
+          "action_id": 4,
+          "character": "Daniel Carter",
+          "character_id": 0,
+          "action": "adjusts his headphones and nods",
+          "dialogue": "Alright... let's do this. For me, for us."
+        }
+      ],
+      "plot": "Daniel is about to perform at a bonfire party for the first time. His friends are helping him set up, but their contrasting personalities—Alin's impatience and Joy's calm—highlight his internal struggle. With their encouragement, he takes a step forward to face the crowd.",
+      "social_purpose": "To showcase Daniel's ambition and insecurity through a real-world social challenge, while highlighting the importance of friendship and support in personal growth.",
+      "chunk": {
+        "id": 0,
+        "text": "Daniel Carter, an aspiring 25-year-old DJ, stands at the backdoor of the house, nervously adjusting his headphones. The backyard is filled with the smell of wood smoke and the distant sounds of people arriving. His friends Alin and Joy are outside, setting up the speakers and decorations. Alin is pacing, clearly impatient, while Joy remains calm and encouraging. Daniel is caught between his ambition to perform and his deep-rooted insecurities about how he'll be received."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

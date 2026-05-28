@@ -1,0 +1,88 @@
+{
+  "title": "The Party Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Luke is deciding whether to attend a party with his friends.",
+      "time": "Evening",
+      "location": "Luke's apartment",
+      "description": "Luke is sitting on his couch, wrapped in a blanket, scrolling through his phone. His friends Henry and Han are at his door, trying to convince him to join them at a party. The tension is palpable as Luke weighs his options.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Luke Morales",
+          "gender": "Male",
+          "description": "A 30-year-old blogger who is hesitant and thoughtful. He is recovering from an injury and is currently at home, conflicted about attending a party.; years old, Male, Blogger, 30 years old; Occupation: Blogger; Personality: Hesitant, Thoughtful, Humorous; Values: Friendship, Self-care, Balance; Interests: Music, Chess, Writing; Experiences: Recent music gathering, Recovering from injury, Participating in social discussions, Writing personal reflection blogs, Chess matches",
+          "position": "Sitting on the couch",
+          "states": "Hesitant, conflicted",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Henry",
+          "gender": "Male",
+          "description": "A loud and assertive friend of Luke's who is trying to convince him to come to the party; Male; Age: 24; Occupation: Event Planner; Personality: Confident, impatient, persuasive, charismatic; Values: Friendship, spontaneity, social connection; Interests: Networking, music festivals, trying new restaurants; Experiences: Organized a successful college reunion, hosted a surprise birthday party that brought estranged friends back together, struggled with loneliness after a move to the city.",
+          "position": "Standing by the door",
+          "states": "Persuasive, impatient",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Han",
+          "gender": "Male",
+          "description": "Han is another friend of Luke's who is also at his door; Male; Age: 22; Occupation: Freelance graphic designer; Personality: Laid-back, optimistic, impatient; Values: Spontaneity, friendship, fun; Interests: Street art, video games, music festivals; Experiences: Last-minute party planning, late-night road trips, dropped out of a design class to start freelancing.",
+          "position": "Standing next to Henry",
+          "states": "Laid-back, hopeful",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Henry",
+          "character_id": 1,
+          "action": "Persuading Luke to join the party",
+          "dialogue": "Come on, Luke! You've been cooped up for weeks. This is exactly what you need to get back out there. We're all going, and it's going to be a blast!"
+        },
+        {
+          "action_id": 1,
+          "character": "Luke Morales",
+          "character_id": 0,
+          "action": "Expressing his hesitation",
+          "dialogue": "I appreciate the invite, but I'm still not 100% recovered. I don't want to ruin the night for everyone if I end up not being able to enjoy it."
+        },
+        {
+          "action_id": 2,
+          "character": "Han",
+          "character_id": 2,
+          "action": "Trying to reassure Luke",
+          "dialogue": "We get it, but you've been writing about self-care and balance for months now. Don't you think it's time to put that into practice and actually go out and have some fun?"
+        },
+        {
+          "action_id": 3,
+          "character": "Henry",
+          "character_id": 1,
+          "action": "Challenging Luke's hesitation",
+          "dialogue": "You're always thinking about what's best for you, but sometimes you have to think about what's best for your friends too. We miss you at the gatherings, and you know you'd love the music and the vibes."
+        },
+        {
+          "action_id": 4,
+          "character": "Luke Morales",
+          "character_id": 0,
+          "action": "Making a decision",
+          "dialogue": "Alright, I'll go. But if I start feeling off, I'm heading home. I don't want to compromise my recovery just to be there."
+        }
+      ],
+      "plot": "Luke is at home, recovering from an injury, when his friends Henry and Han arrive to convince him to join them at a party. Henry uses a provocative approach to challenge Luke's hesitation, while Han takes a more laid-back and reassuring stance. Luke, being thoughtful and valuing balance, is caught between his desire to be with his friends and his need for self-care. After a back-and-forth conversation, Luke finally decides to go, but with the condition that he will leave if he feels unwell.",
+      "social_purpose": "To explore the tension between social obligation and personal health, and how friendships can influence decisions.",
+      "chunk": {
+        "id": 0,
+        "text": "Luke is at home, recovering from an injury, when his friends Henry and Han arrive to convince him to join them at a party. Henry uses a provocative approach to challenge Luke's hesitation, while Han takes a more laid-back and reassuring stance. Luke, being thoughtful and valuing balance, is caught between his desire to be with his friends and his need for self-care. After a back-and-forth conversation, Luke finally decides to go, but with the condition that he will leave if he feels unwell."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

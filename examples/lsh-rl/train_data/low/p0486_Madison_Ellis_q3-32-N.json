@@ -1,0 +1,102 @@
+{
+  "title": "Dancing for Healing",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Madison's first volunteer performance at a nursing home",
+      "time": "3:00 PM",
+      "location": "Sunrise Retirement Home, Community Room",
+      "description": "The community room at Sunrise Retirement Home is modest but warm, with sunlight spilling through the windows and a small group of elderly residents seated in wheelchairs or on armchairs. A few staff members hover nearby, chatting quietly. Madison, wearing a simple leotard and warm-up jacket, stands near the center of the room, rehearsing her movements in her mind. Jason and Bing, her two high school friends, are in the back, observing with different levels of concern and amusement.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Madison Ellis",
+          "gender": "Female",
+          "description": "A 17-year-old high school student with a quiet determination. She is empathetic and has a deep interest in helping others, but is still vulnerable from the recent loss of her best friend, Kayt.; 17-year-old female, High school student, 17 years old; Occupation: High school student; Personality: Vulnerable, Determined, Empathetic; Values: Connection, Empathy, Growth; Interests: Dancing, Helping others, Finding meaning; Experiences: Loss of a close friend, Starting volunteer work, Difficulty with emotional adjustment",
+          "position": "Front of the room, center stage",
+          "states": "Nervous, hopeful, and determined",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Jason Reed",
+          "gender": "Male",
+          "description": "Madison's friend who tends to make light of serious situations with humor; Male; Age: 22; Occupation: Theater arts student; Personality: Witty, laid-back, empathetic; Values: Loyalty, levity in hardship; Interests: Stand-up comedy, indie films, improv; Experiences: Attended school talent shows with Madison, volunteered briefly at a community center, struggled with anxiety during college auditions.",
+          "position": "Back of the room, near the door",
+          "states": "Relaxed, amused, slightly dismissive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Bing Lin",
+          "gender": "Male",
+          "description": "Bing Lin; Male; Age: 19; Occupation: High school senior and part-time library assistant; Personality: Introspective, empathetic, patient; Values: Compassion, personal growth, mutual respect; Interests: Reading, photography, community service; Experiences: Volunteered at a local animal shelter for two years, participated in school theater productions, helped organize a youth mentorship program.",
+          "position": "Near the side of the room, seated beside a resident",
+          "states": "Supportive, calm, encouraging",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Madison Ellis",
+          "character_id": 0,
+          "action": "Adjusts her jacket and takes a deep breath",
+          "dialogue": "Okay, here goes nothing. I just hope they like it."
+        },
+        {
+          "action_id": 1,
+          "character": "Jason Reed",
+          "character_id": 1,
+          "action": "Laughs and teases Madison",
+          "dialogue": "You sure you won’t scare them with that fancy twirl of yours? I heard the old folks here are pretty jumpy."
+        },
+        {
+          "action_id": 2,
+          "character": "Bing Lin",
+          "character_id": 2,
+          "action": "Replies to Jason with a gentle tone",
+          "dialogue": "She’s trying to do something meaningful, Jason. I’ve done this before, and it can really brighten their day if you’re sincere."
+        },
+        {
+          "action_id": 3,
+          "character": "Madison Ellis",
+          "character_id": 0,
+          "action": "Smiles slightly at Bing’s comment",
+          "dialogue": "Thanks, Bing. I just want to make them smile and feel something, like Kayt used to do for me."
+        },
+        {
+          "action_id": 4,
+          "character": "Bing Lin",
+          "character_id": 2,
+          "action": "Nods and speaks to Madison",
+          "dialogue": "You’re doing the right thing, Madison. It’s not about being perfect, it’s about connecting. They’ll see that."
+        },
+        {
+          "action_id": 5,
+          "character": "Jason Reed",
+          "character_id": 1,
+          "action": "Mimics Madison’s dance move in a joking manner",
+          "dialogue": "Alright, let’s see if they can handle a real performance. I’ll be the judge."
+        },
+        {
+          "action_id": 6,
+          "character": "Madison Ellis",
+          "character_id": 0,
+          "action": "Goes to the center and begins to dance",
+          "dialogue": ""
+        }
+      ],
+      "plot": "Madison, nervous but determined, performs a short dance routine for the elderly residents at the nursing home. Her friends, Jason and Bing, are in the audience, with Jason making light of the situation and Bing offering quiet support. Madison’s goal is to connect with others, find new friends, and honor her late friend Kayt by sharing joy through dance. Her performance is met with warm smiles and applause, giving her a glimmer of hope.",
+      "social_purpose": "To explore Madison’s vulnerability, empathy, and determination in a public setting, while showing how her values and interests guide her actions. The scenario also highlights the different ways friends respond to emotional growth and shared goals.",
+      "chunk": {
+        "id": 0,
+        "text": "Madison stands at the center of the community room, the soft hum of conversation around her. She glances at Jason and Bing, who are seated in the back. Jason leans forward with a grin, while Bing gives her a small, encouraging nod. Taking a deep breath, Madison begins to move, her body swaying gently to the music in her head. The elderly residents watch with curiosity, some tapping their canes in rhythm. As she finishes, a few of them clap, and one calls out, 'That was lovely, dear!' Madison feels a flicker of warmth in her chest, a small step toward healing."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

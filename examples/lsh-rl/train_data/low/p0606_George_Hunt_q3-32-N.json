@@ -1,0 +1,95 @@
+{
+  "title": "Love in the Spotlight",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "George tries to win over a potential romantic partner using a social media stunt at a comedy club open mic night.",
+      "time": "7:30 PM",
+      "location": "The Laughing Bean, a local comedy club",
+      "description": "George Hunt, a 30-year-old comedian, is backstage at an open mic night, rehearsing a new bit where he plans to declare his love for a mysterious woman in the audience. His friend Joy, a 24-year-old musician, is at the bar with a group of friends, while Yuna, a 26-year-old social media manager, is seated at a nearby table with her phone out, watching George with a calculating smile.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "George Hunt",
+          "gender": "Male",
+          "description": "A 30-year-old comedian who is both humorous and anxious. He's trying to use social media to attract a romantic partner, but his high self-standards and need for social validation make him overthink every move.; 30-year-old male/Single, 24 years old; Occupation: Comedian; Personality: Humorous, High self-standards, Anxious; Values: Romantic relationships, Social validation, Self-expression; Interests: Social media, Romantic relationships, Self-improvement; Experiences: Recently posted a declaration of love, Navigating social dynamics, Receiving mixed feedback from friends",
+          "position": "Backstage, rehearsing",
+          "states": "Nervous, determined, self-conscious",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Joy",
+          "gender": "Female",
+          "description": "Joy; Female; Age: 24; Occupation: Indie folk musician; Personality: Playful, empathetic, observant; Values: Authenticity, friendship, artistic expression; Interests: Open mic nights, creative collaborations, vintage fashion; Experiences: Shared the stage with George at local comedy-music fusion events, helped him through a tough creative slump, witnessed his past heartbreakes and supported his emotional growth.",
+          "position": "At the bar, with friends",
+          "states": "Playful, slightly concerned, observant",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Yuna",
+          "gender": "Female",
+          "description": "A 26-year-old social media manager with a subtle interest in George; Female; Age: 26; Occupation: Social Media Strategist for independent artists and local influencers; Personality: Observant, Ambitious, Charismatic; Values: Professionalism, Strategic advantage, Authenticity; Interests: Viral trends, People-watching, Comedy shows; Experiences: Managed a rising comedian's social presence that led to a national gig, Navigated a public relationship scandal for a client to maintain their image, Volunteered at a local digital literacy workshop for aspiring creatives.",
+          "position": "At a nearby table, on her phone",
+          "states": "Calculating, intrigued, slightly amused",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "George Hunt",
+          "character_id": 0,
+          "action": "Rehearsing his comedic declaration of love to a friend in the audience.",
+          "dialogue": "Okay, okay, let's see... 'I'm out here trying to find my soulmate, and if you're out there, know that I'd do anything to make you laugh, cry, or at least Instagram about it.' Yeah, that should work."
+        },
+        {
+          "action_id": 1,
+          "character": "Joy",
+          "character_id": 1,
+          "action": "Teasing George about his plan while sipping her drink.",
+          "dialogue": "You're about to declare your love for a stranger in front of a crowd? I love that you're trying, George, but are you sure this is the best way to attract someone?"
+        },
+        {
+          "action_id": 2,
+          "character": "Yuna",
+          "character_id": 2,
+          "action": "Texting someone at her table about the situation.",
+          "dialogue": "Just saw George backstage. He's planning to declare his love on stage tonight. Maybe we can make this work for us."
+        },
+        {
+          "action_id": 3,
+          "character": "George Hunt",
+          "character_id": 0,
+          "action": "Stepping onto the stage to perform his bit.",
+          "dialogue": "Hey everyone, I'm George. I'm here to talk about love. Specifically, my love for a woman in the room right now... and if you're watching this online, I see you too. You're the one I'm looking for."
+        },
+        {
+          "action_id": 4,
+          "character": "Joy",
+          "character_id": 1,
+          "action": "Laughing at George's performance but watching the audience for reactions.",
+          "dialogue": "Oh my gosh, he actually did it. I wonder if anyone's going to take the bait."
+        },
+        {
+          "action_id": 5,
+          "character": "Yuna",
+          "character_id": 2,
+          "action": "Nodding at a woman at her table and suggesting they watch George closely.",
+          "dialogue": "That's his bit. He's trying to find someone through social media. Maybe we should see if we can help him connect with someone real."
+        }
+      ],
+      "plot": "George attempts to use a social media stunt to attract a romantic partner at a comedy club open mic night. His friend Joy teases him but supports his goal, while Yuna, a social media manager, sees an opportunity to help or manipulate the situation. George's anxiety and need for validation are evident as he balances humor and sincerity in his performance.",
+      "social_purpose": "To explore how George's values of romantic relationships and social validation influence his behavior in a public setting, and how his friends' differing perspectives create subtle tension.",
+      "chunk": {
+        "id": 0,
+        "text": "George, backstage, practices his comedic love declaration while Joy teases him at the bar and Yuna watches from her table, considering how she can use the situation. The open mic night is a test for George's strategy of attracting attention through social media, and the reactions of those around him will determine whether he continues or shifts to a more direct approach."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

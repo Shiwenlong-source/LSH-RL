@@ -1,0 +1,95 @@
+{
+  "title": "The Study Café Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Study group meeting at a local café",
+      "time": "3:00 PM on a rainy Saturday",
+      "location": "Corner Table at Brew Haven Café",
+      "description": "Anna, Lina, and Julian meet at a cozy café to study for an upcoming psychology exam. Anna is visibly tired and distracted, constantly checking her phone for game notifications. Lina and Julian are focused but concerned about Anna's lack of engagement.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Anna Bennett",
+          "gender": "female",
+          "description": "Anna is a 22-year-old college student who is exhausted from academic pressure and emotional isolation. She uses video games as a coping mechanism but is aware of the negative impact it has on her life.; 22-year-old female college student, 22 years old; Occupation: College student; Personality: Exhausted, Conflicted, Self-aware, Avoidant; Values: Escaping stress, Emotional comfort, Self-protection; Interests: Video games, Temporary escapism, Immersive experiences; Experiences: Academic pressure, Roommate relationships, Emotional isolation, Habitual coping mechanisms, Difficulty with self-discipline",
+          "position": "Corner of the table, facing away from the window",
+          "states": "Distracted, tired, conflicted",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Lina Chen",
+          "gender": "female",
+          "description": "Supportive and empathetic roommate of Anna's; Female; Age: 22; Occupation: Psychology major and part-time library assistant; Personality: Compassionate, observant, patient; Values: Empathy, personal growth, responsibility; Interests: Reading self-help books, journaling, volunteering at a local mental health center; Experiences: Helped a close friend through a period of academic burnout, participated in a peer counseling workshop, struggled with balancing work and school during her first year of college.",
+          "position": "Sitting to the left of Anna",
+          "states": "Concerned, hesitant, compassionate",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Julian Reyes",
+          "gender": "male",
+          "description": "Julian is a calm and patient classmate who believes in listening and understanding before offering solutions; Male; Age: 21; Occupation: Psychology major and part-time peer academic mentor; Personality: Empathetic, analytical, supportive; Values: Empathy, intellectual integrity, teamwork; Interests: Board games, journaling, indie music; Experiences: Volunteered at a youth counseling center, led a successful study group during finals week, overcame personal burnout through structured time management.",
+          "position": "Sitting to the right of Anna",
+          "states": "Calm, encouraging, attentive",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Lina Chen",
+          "character_id": 1,
+          "action": "Attempts to engage Anna in the study material",
+          "dialogue": "Hey Anna, do you want to go over the notes on cognitive dissonance together? I think it'll help if we talk it through."
+        },
+        {
+          "action_id": 1,
+          "character": "Anna Bennett",
+          "character_id": 0,
+          "action": "Looks up from her phone, hesitates, then responds",
+          "dialogue": "I, uh... I just need a second. I've been so overwhelmed with everything lately. It's hard to focus."
+        },
+        {
+          "action_id": 2,
+          "character": "Julian Reyes",
+          "character_id": 2,
+          "action": "Reassures Anna and offers an alternative",
+          "dialogue": "It's okay, Anna. We're here for you. Maybe we can take a short break and play a quick game if that helps you relax for a bit?"
+        },
+        {
+          "action_id": 3,
+          "character": "Anna Bennett",
+          "character_id": 0,
+          "action": "Considers Julian's offer and agrees reluctantly",
+          "dialogue": "Yeah... maybe a quick one. Just to clear my head."
+        },
+        {
+          "action_id": 4,
+          "character": "Lina Chen",
+          "character_id": 1,
+          "action": "Observes Anna's reaction and tries to understand her better",
+          "dialogue": "I know it's hard, but maybe after the game we can talk about how you're feeling. I really want to help."
+        },
+        {
+          "action_id": 5,
+          "character": "Julian Reyes",
+          "character_id": 2,
+          "action": "Pulls out a handheld game and offers it to Anna",
+          "dialogue": "Here, this one's not too intense. Just a quick puzzle game. We can come back to the notes after."
+        }
+      ],
+      "plot": "Anna is struggling to focus on her studies due to her exhaustion and emotional conflict. Lina and Julian attempt to support her by offering a balance between academic responsibility and emotional comfort. Julian's suggestion of a short game helps Anna feel safe and supported, while Lina's concern encourages her to open up.",
+      "social_purpose": "To explore the dynamics of emotional support and the challenge of breaking habitual avoidance in a public setting. It also highlights the importance of understanding and respecting individual coping mechanisms.",
+      "chunk": {
+        "id": 0,
+        "text": "Anna sat at the corner table, her eyes flicking between the textbook and her phone. Lina tried to engage her in the study material, but Anna's exhaustion was palpable. Julian, ever the mediator, suggested a short game to help her relax. Anna accepted, her conflicted nature evident in the way she clung to the temporary comfort of the game while still feeling the weight of her responsibilities. The interaction revealed the complexity of supporting someone who is both self-aware and avoidant."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

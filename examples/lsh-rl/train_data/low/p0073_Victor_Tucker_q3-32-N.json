@@ -1,0 +1,112 @@
+{
+  "title": "The Drunken Regular",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Victor deals with an intoxicated regular customer late at night.",
+      "time": "9:30 PM",
+      "location": "The front desk of a cozy, upscale bistro",
+      "description": "Victor is wrapping up the night, preparing to close the restaurant. Mazy, a regular customer, stumbles in, clearly drunk and demanding a late-night dinner. The hostess, Lena, and the sous-chef, Jordan, are nearby, watching the situation unfold.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Victor Tucker",
+          "gender": "Male",
+          "description": "A 46-year-old restaurant manager and chef with a calm but firm demeanor. He is responsible, polite, and dedicated to his work.; Male / Restaurant Manager and Chef, 46 years old; Occupation: Restaurant Manager and Chef; Personality: Responsible, Polite, Firm, Dedicated; Values: Professionalism, Sense of boundaries, Loyalty; Interests: Culinary arts, Banquet management, Customer service; Experiences: Managing large banquets, Handling difficult customers, Balancing work and private time",
+          "position": "Behind the front desk",
+          "states": "Tired but composed",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Mazy",
+          "gender": "Male",
+          "description": "A middle-aged regular customer known for his loud, boisterous behavior when drunk. He is loyal to the restaurant but often crosses boundaries; Male; Age: 52; Occupation: Retired truck driver; Personality: Charismatic, stubborn, nostalgic; Values: Loyalty, tradition, comfort; Interests: Classic rock, storytelling, strong whiskey; Experiences: Spent decades driving cross-country routes, lost his wife a few years ago, frequents the bistro to reminisce about old times.",
+          "position": "Staggering near the entrance",
+          "states": "Intoxicated, persistent",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Lena",
+          "gender": "Female",
+          "description": "The hostess of the bistro, experienced in customer service and skilled at de-escalating tense situations; Female; Age: 38; Occupation: Restaurant Hostess and Front-of-House Manager; Personality: Empathetic, observant, composed; Values: Customer comfort, professionalism, integrity; Interests: Fine dining, people-watching, reading psychology books; Experiences: Managed difficult guests during high-pressure events, trained new staff in hospitality, handled late-night emergencies with poise.",
+          "position": "Near the hostess stand",
+          "states": "Concerned but professional",
+          "is_npc": true
+        },
+        {
+          "id": 3,
+          "name": "Jordan",
+          "gender": "Male",
+          "description": "The sous-chef who assists Victor in managing the kitchen and sometimes handles front-of-house issues; Male; Age: 26; Occupation: Sous-chef at the upscale bistro; Personality: Ambitious, observant, empathetic; Values: Professionalism, teamwork, integrity; Interests: Culinary innovation, mentoring young chefs, jazz music; Experiences: Managed a high-pressure kitchen during a Michelin inspection, de-escalated a customer complaint in the dining area, worked late shifts to support the head chef during busy events.",
+          "position": "Standing by the kitchen entrance",
+          "states": "Alert and ready to assist",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Mazy",
+          "character_id": 1,
+          "action": "Demands a late-night dinner",
+          "dialogue": "Come on, Victor, I know you're still here. I just want my usual steak and a bottle of red. What's the big deal?"
+        },
+        {
+          "action_id": 1,
+          "character": "Victor Tucker",
+          "character_id": 0,
+          "action": "Apologizes but declines the request",
+          "dialogue": "Mazy, I'm sorry, but we're closed now. We have a schedule to follow, and I need to make sure the staff is taken care of too."
+        },
+        {
+          "action_id": 2,
+          "character": "Mazy",
+          "character_id": 1,
+          "action": "Begins to raise his voice",
+          "dialogue": "Closed? That's just like you, Victor, always following rules. You know I've been coming here for years! This is my favorite place!"
+        },
+        {
+          "action_id": 3,
+          "character": "Lena",
+          "character_id": 2,
+          "action": "Attempts to de-escalate the situation",
+          "dialogue": "Mazy, I understand how much you love this place, but Victor is right—we're closed. Why don't you come back tomorrow night? We'd be happy to serve you then."
+        },
+        {
+          "action_id": 4,
+          "character": "Victor Tucker",
+          "character_id": 0,
+          "action": "Offers an alternative",
+          "dialogue": "How about I make you a takeout order? That way, we can still take care of you without breaking the rules."
+        },
+        {
+          "action_id": 5,
+          "character": "Mazy",
+          "character_id": 1,
+          "action": "Reluctantly agrees",
+          "dialogue": "Fine, fine. But this is the last time, Victor. You're missing out on a great customer."
+        },
+        {
+          "action_id": 6,
+          "character": "Jordan",
+          "character_id": 3,
+          "action": "Steps in to help",
+          "dialogue": "I can prepare the order for you, Mazy. What would you like?"
+        }
+      ],
+      "plot": "Victor, the restaurant manager and chef, is trying to close the bistro after a long day. Mazy, a regular customer, arrives drunk and insists on being served. Victor maintains his professionalism and sense of boundaries by declining to serve him in-house but offers a takeout option. Lena and Jordan assist in de-escalating the situation and ensuring a smooth resolution.",
+      "social_purpose": "The scenario highlights the challenge of balancing hospitality with the need to maintain professionalism and personal boundaries in the service industry. It also explores the dynamics between long-term customers and service providers.",
+      "chunk": {
+        "id": 0,
+        "text": "Victor stands behind the front desk, tying his apron as he prepares to close the bistro. Mazy enters, his voice loud and his steps unsteady. 'Come on, Victor, I know you're still here. I just want my usual steak and a bottle of red. What's the big deal?' Lena steps forward, trying to remain calm. 'Mazy, I understand how much you love this place, but Victor is right—we're closed. Why don't you come back tomorrow night? We'd be happy to serve you then.' Victor, always polite but firm, offers an alternative. 'How about I make you a takeout order? That way, we can still take care of you without breaking the rules.' Jordan, sensing the tension, steps in to help. 'I can prepare the order for you, Mazy. What would you like?' Mazy, clearly frustrated, mutters, 'Fine, fine. But this is the last time, Victor. You're missing out on a great customer.' Victor nods, maintaining his composure, and begins to prepare the takeout order, ensuring that the night ends with a balance of respect and responsibility."
+      },
+      "npcs": [
+        1,
+        2,
+        3
+      ]
+    }
+  ]
+}

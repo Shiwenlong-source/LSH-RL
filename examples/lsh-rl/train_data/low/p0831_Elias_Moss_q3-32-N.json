@@ -1,0 +1,109 @@
+{
+  "title": "Waiting for the Agent",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Waiting for a real estate agent at a property viewing",
+      "time": "10:15 AM",
+      "location": "Front of a two-story house in a quiet suburban neighborhood",
+      "description": "Elias and Chloe stand in front of the house, the sun beating down on them. They are waiting for the real estate agent, Quinn, to arrive for a scheduled property viewing. Chloe tries to remain patient, while Elias grows increasingly frustrated.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Elias Moss",
+          "gender": "Male",
+          "description": "A 31-year-old restaurant owner with a short temper and a strong sense of efficiency. He is dressed in a collared shirt and slacks, clearly ready for the meeting.; Male, Married, 31 years old; Occupation: Restaurant Owner; Personality: Impatient, Demanding, Suspicious; Values: Efficiency, Respect, Integrity; Interests: Real Estate, Planning, Decision Making; Experiences: Waiting for Appointments, Dealing with Service Staff, Disagreements with Spouse",
+          "position": "Standing near the sidewalk, arms crossed",
+          "states": "Anxious, impatient, suspicious",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Chloe Moss",
+          "gender": "Female",
+          "description": "Calm and composed; Female; Age: 34; Occupation: Elementary school teacher; Personality: Patient, empathetic, pragmatic; Values: Family stability, kindness, integrity; Interests: Gardening, reading contemporary fiction, home decor; Experiences: Raised two children in a small town, navigated financial hardships during the pandemic, relocated multiple times for her husband's career.",
+          "position": "Leaning against the mailbox, holding a notebook",
+          "states": "Calm, reassuring, concerned",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Quinn",
+          "gender": "Female",
+          "description": "A real estate agent with a friendly demeanor, but known for being disorganized; Female; Age: 32; Occupation: Real Estate Agent; Personality: Enthusiastic, empathetic, forgetful; Values: Customer satisfaction, community connection, honesty; Interests: Home decor, gardening, local history; Experiences: Successfully sold her first home at 16, struggled with work-life balance after becoming a mother, recently relocated to a new city and is still building her client base.",
+          "position": "Calling from her car nearby",
+          "states": "Apologetic, flustered, trying to be helpful",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Elias Moss",
+          "character_id": 0,
+          "action": "Checks his watch and sighs loudly",
+          "dialogue": "This is ridiculous. We’ve been waiting for 20 minutes. Who do they think we are, their personal babysitters?"
+        },
+        {
+          "action_id": 1,
+          "character": "Chloe Moss",
+          "character_id": 1,
+          "action": "Tries to calm Elias by placing a hand on his arm",
+          "dialogue": "Elias, let’s just give Quinn one more chance. Maybe there was a real emergency."
+        },
+        {
+          "action_id": 2,
+          "character": "Elias Moss",
+          "character_id": 0,
+          "action": "Looks at Chloe with frustration",
+          "dialogue": "You always give people more chances. We can’t afford to waste time. This is a serious decision."
+        },
+        {
+          "action_id": 3,
+          "character": "Chloe Moss",
+          "character_id": 1,
+          "action": "Opens her notebook and flips through it",
+          "dialogue": "I know this is important to you, but we’ve had delays before. Maybe she’s just running late."
+        },
+        {
+          "action_id": 4,
+          "character": "Elias Moss",
+          "character_id": 0,
+          "action": "Pulls out his phone and speaks into it",
+          "dialogue": "Quinn, I don’t know what’s going on, but we’re waiting. If you’re not here in five minutes, we’re leaving."
+        },
+        {
+          "action_id": 5,
+          "character": "Quinn",
+          "character_id": 2,
+          "action": "Apologizes over the phone from her car",
+          "dialogue": "Elias, I’m so sorry! I got stuck in traffic and my phone died. Can we maybe reschedule to tomorrow at 2 PM?"
+        },
+        {
+          "action_id": 6,
+          "character": "Elias Moss",
+          "character_id": 0,
+          "action": "Shakes his head and speaks firmly",
+          "dialogue": "No, we can’t. I have a schedule to keep. I expected better from you. We’ll find someone else."
+        },
+        {
+          "action_id": 7,
+          "character": "Chloe Moss",
+          "character_id": 1,
+          "action": "Looks at Elias with disappointment",
+          "dialogue": "Elias, maybe you could have been a little more understanding. She’s trying to help us."
+        }
+      ],
+      "plot": "Elias and Chloe are waiting for Quinn, their real estate agent, for a property viewing. Quinn is late and calls to suggest rescheduling, but Elias refuses, showing his impatience and suspicion. Chloe tries to mediate, but their differing approaches to the situation cause tension.",
+      "social_purpose": "To demonstrate Elias's impatience and need for efficiency in contrast to Chloe's patience and understanding, while exploring the challenges of working with service professionals.",
+      "chunk": {
+        "id": 0,
+        "text": "Elias and Chloe stand in front of a house, waiting for their real estate agent, Quinn. Quinn calls to apologize for being late and suggests rescheduling, but Elias is unyielding, leading to a disagreement between the couple."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

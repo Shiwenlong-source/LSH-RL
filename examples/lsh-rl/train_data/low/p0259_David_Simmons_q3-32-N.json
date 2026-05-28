@@ -1,0 +1,112 @@
+{
+  "title": "The Classroom Confrontation",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "David challenges a racially stereotypical comment made by Kevin in a classroom setting.",
+      "time": "Afternoon",
+      "location": "Community College Classroom",
+      "description": "David is attending a public speaking class at a community college. The instructor, Ms. Thompson, has asked students to share personal experiences. Kevin, a classmate, makes a racially insensitive joke about people of color being prone to poor health decisions, which hits close to home for David, who is mixed-race and recently diagnosed with diabetes. David, who has always been introspective and sensitive, decides to confront Kevin's remark to defend his dignity and promote cultural respect.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "David Simmons",
+          "gender": "Male",
+          "description": "Mixed-race American, recently diagnosed with diabetes, 34 years old. He is a driver and has a firm, sensitive, introspective, and opinionated personality. He values dignity, justice, and cultural respect.; years old / Male / Mixed-race American, recently diagnosed with diabetes, 34 years old; Occupation: Driver; Personality: Sensitive, Firm, Introspective, Opinionated; Values: Dignity, Justice, Cultural respect; Interests: Health education, Self-reflection, Advocacy; Experiences: Recent diabetes diagnosis, Long-term emotional suppression, Encountering racial stereotypes, Deciding to confront injustice",
+          "position": "Back of the classroom",
+          "states": "Angry, determined, and emotionally charged",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Kevin Miller",
+          "gender": "Male",
+          "description": "A white male student in his late 20s known for making offhand, sometimes insensitive, jokes; Male; Age: 28; Occupation: Part-time retail worker and full-time student; Personality: carefree, sarcastic, oblivious; Values: individual freedom, humor as social bonding; Interests: stand-up comedy, video games, sports; Experiences: grew up in a predominantly white suburban town, has no formal training in cultural sensitivity, frequently uses humor to deflect serious conversations",
+          "position": "Front of the classroom",
+          "states": "Unaware of the impact of his words, defensive, and dismissive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Ms. Thompson",
+          "gender": "Female",
+          "description": "Ms. Thompson; Female; Age: 48; Occupation: Community College Public Speaking Instructor; Personality: Empathetic, diplomatic, conscientious; Values: Respect, Inclusivity, Academic Integrity; Interests: Reading educational psychology, attending local theater performances, practicing yoga; Experiences: Previously mediated a heated debate on cultural appropriation, grew up in a multicultural household, taught at the college for over 15 years.",
+          "position": "At the front of the classroom",
+          "states": "Caught off guard, but supportive of David's courage",
+          "is_npc": true
+        },
+        {
+          "id": 3,
+          "name": "Maya Rodriguez",
+          "gender": "Female",
+          "description": "A Latina student in her early 30s; Female; Age: 31; Occupation: Part-time community health worker; Personality: Compassionate, analytical, patient; Values: Equity, empathy, intellectual honesty; Interests: Social justice advocacy, photography, volunteering at local clinics; Experiences: Grew up in a low-income neighborhood with limited healthcare access, witnessed the impact of systemic racism on health outcomes, recently supported a friend through a diabetes diagnosis.",
+          "position": "Middle of the classroom",
+          "states": "Supportive of David, quietly observing the exchange",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Kevin Miller",
+          "character_id": 1,
+          "action": "makes a joke",
+          "dialogue": "You know, people of color always seem to make bad choices when it comes to health. Like, why do they even eat so much sugar?"
+        },
+        {
+          "action_id": 1,
+          "character": "David Simmons",
+          "character_id": 0,
+          "action": "stands up to confront Kevin",
+          "dialogue": "That’s not funny, Kevin. I’m mixed-race and I’ve recently been diagnosed with diabetes. That kind of comment is not only hurtful but also ignorant. Health issues aren’t about race or choices—it’s about access, education, and systemic factors."
+        },
+        {
+          "action_id": 2,
+          "character": "Kevin Miller",
+          "character_id": 1,
+          "action": "defends his comment",
+          "dialogue": "Hey, I was just making a joke. You don’t have to take it so seriously."
+        },
+        {
+          "action_id": 3,
+          "character": "David Simmons",
+          "character_id": 0,
+          "action": "explains the impact of stereotypes",
+          "dialogue": "It’s not about being serious or not. It’s about respect. Stereotypes like that perpetuate prejudice and make it harder for people like me to speak up about our health without being judged."
+        },
+        {
+          "action_id": 4,
+          "character": "Ms. Thompson",
+          "character_id": 2,
+          "action": "intervenes to de-escalate the situation",
+          "dialogue": "David, thank you for speaking up. That was an important moment for us to reflect on how we communicate in this class. Kevin, I think we can all agree that jokes like that are not appropriate here."
+        },
+        {
+          "action_id": 5,
+          "character": "Maya Rodriguez",
+          "character_id": 3,
+          "action": "supports David’s perspective",
+          "dialogue": "I think what David said is really important. We need to be more mindful of how our words affect others, especially when it comes to sensitive topics like health and race."
+        },
+        {
+          "action_id": 6,
+          "character": "David Simmons",
+          "character_id": 0,
+          "action": "expresses his personal resolve",
+          "dialogue": "I’m not here to start a fight, but I won’t sit back and let these kinds of comments slide. I believe in justice and dignity for everyone, and I’m committed to being an advocate for that."
+        }
+      ],
+      "plot": "David’s long-suppressed emotions about racial stereotypes and his recent diabetes diagnosis are triggered when Kevin makes a racially insensitive joke. David stands up to challenge the remark, explaining its impact and asserting his values of dignity and justice. Kevin reacts defensively, but Ms. Thompson and Maya support David, helping to shift the classroom dynamic toward a more inclusive environment.",
+      "social_purpose": "To demonstrate how a firm and introspective individual can confront prejudice in a public setting, promoting cultural respect and encouraging others to re-evaluate their own biases.",
+      "chunk": {
+        "id": 0,
+        "text": "In a classroom at a community college, a racially insensitive comment sparks a confrontation between David Simmons and Kevin Miller. David, a mixed-race American recently diagnosed with diabetes, stands up to challenge the remark, asserting his values of dignity and justice. Kevin, defensive and dismissive, refuses to acknowledge the harm of his words, but other students and the instructor begin to reflect on the importance of respectful dialogue."
+      },
+      "npcs": [
+        1,
+        2,
+        3
+      ]
+    }
+  ]
+}

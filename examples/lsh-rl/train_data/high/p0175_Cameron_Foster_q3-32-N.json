@@ -1,0 +1,143 @@
+{
+  "title": "The Chemistry Lab Reunion",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Cameron returns to the chemistry lab to work on a project with his group.",
+      "time": "After school, 3:15 PM",
+      "location": "High school chemistry lab",
+      "description": "Cameron stands outside the chemistry lab, hesitating. Inside, his teacher, Mr. Boby, and classmates, including Jack, are already working on their group projects. Cameron's group consists of Jack, who is known for being a bit of a troublemaker, and two others—Lila, a quiet and supportive classmate, and Marcus, a focused and curious student. Mr. Boby is monitoring the students, occasionally offering guidance.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Cameron Foster",
+          "gender": "Male",
+          "description": "A 16-year-old high school student who is anxious but determined to complete his chemistry project and reintegrate into school life.; 16-year-old male / High school student, 16 years old; Occupation: High school student; Personality: Anxious, Determined, Introspective; Values: Responsibility, Redemption, Persistence; Interests: Academic projects, Personal growth, Overcoming challenges; Experiences: Long-term absence, Academically behind, Peer pressure, Teacher expectations, Returning to school",
+          "position": "Standing near the lab door",
+          "states": "Anxious, determined",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Mr. Boby",
+          "gender": "Male",
+          "description": "A strict but fair chemistry teacher who is aware of Cameron's long absence and has high expectations for his return; Male; Age: 42; Occupation: High school chemistry teacher; Personality: Analytical, patient, authoritative; Values: Integrity, academic excellence, responsibility; Interests: Scientific research, mentoring students, restoring old lab equipment; Experiences: Taught at the same high school for 15 years, mentored several students who went on to STEM careers, dealt with multiple students who struggled with personal challenges affecting their schoolwork.",
+          "position": "Walking around the lab, supervising",
+          "states": "Professional, observant",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Jack",
+          "gender": "Male",
+          "description": "A classmate of Cameron's known for teasing him; Male; Age: 16; Occupation: High school student; Personality: Confident, charismatic, dismissive; Values: Social status, humor over seriousness; Interests: Pranks, sports, popular culture; Experiences: Has led multiple group projects, often dominates conversations, occasionally receives warnings from teachers for disruptive behavior.",
+          "position": "At a lab station with the group",
+          "states": "Teasing, dismissive",
+          "is_npc": true
+        },
+        {
+          "id": 3,
+          "name": "Lila",
+          "gender": "Female",
+          "description": "A kind and empathetic classmate who supports Cameron and tries to help him feel included; Female; Age: 16; Occupation: High school student; Personality: Compassionate, patient, observant; Values: Inclusivity, perseverance, honesty; Interests: Reading science fiction, helping others, collaborative learning; Experiences: Participated in a school mentorship program, worked through group conflicts in past projects, volunteered at a local community center.",
+          "position": "At a lab station with the group",
+          "states": "Supportive, encouraging",
+          "is_npc": true
+        },
+        {
+          "id": 4,
+          "name": "Marcus",
+          "gender": "Male",
+          "description": "A curious and focused student who is genuinely interested in Cameron's return and the project's success; Male; Age: 16; Occupation: High school student; Personality: Inquisitive, analytical, determined; Values: Academic integrity, teamwork, perseverance; Interests: Chemistry experiments, scientific research, problem-solving; Experiences: Participated in a regional science fair, worked on collaborative lab projects, received mentorship from Mr. Boby on independent research.",
+          "position": "At a lab station with the group",
+          "states": "Curious, focused",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Cameron Foster",
+          "character_id": 0,
+          "action": "Enters the lab and approaches his group's station.",
+          "dialogue": "Hey, guys. I'm back... I just wanted to see if I could help with the project."
+        },
+        {
+          "action_id": 1,
+          "character": "Jack",
+          "character_id": 2,
+          "action": "Looks up and smirks.",
+          "dialogue": "Oh, look who decided to show up. Thought you were done with school forever."
+        },
+        {
+          "action_id": 2,
+          "character": "Lila",
+          "character_id": 3,
+          "action": "Smiles warmly at Cameron.",
+          "dialogue": "It's good to have you back, Cameron. We can use the extra help."
+        },
+        {
+          "action_id": 3,
+          "character": "Marcus",
+          "character_id": 4,
+          "action": "Nods in agreement.",
+          "dialogue": "Yeah, the data collection part is tricky. You could help with that."
+        },
+        {
+          "action_id": 4,
+          "character": "Cameron Foster",
+          "character_id": 0,
+          "action": "Takes a deep breath and sits down at the lab station.",
+          "dialogue": "Thanks, Marcus. I'll do my best."
+        },
+        {
+          "action_id": 5,
+          "character": "Mr. Boby",
+          "character_id": 1,
+          "action": "Approaches the group and notices Cameron.",
+          "dialogue": "Foster, good to see you here. Let's make sure you catch up with the others. You've got a chance to prove yourself."
+        },
+        {
+          "action_id": 6,
+          "character": "Cameron Foster",
+          "character_id": 0,
+          "action": "Nods at Mr. Boby, showing his commitment.",
+          "dialogue": "I know, sir. I'm not going to let you or my group down."
+        },
+        {
+          "action_id": 7,
+          "character": "Jack",
+          "character_id": 2,
+          "action": "Rolls his eyes but doesn't say anything else.",
+          "dialogue": ""
+        },
+        {
+          "action_id": 8,
+          "character": "Lila",
+          "character_id": 3,
+          "action": "Passes Cameron a lab manual and a set of instructions.",
+          "dialogue": "Here, you can start by reviewing the steps. Let me know if you need anything."
+        },
+        {
+          "action_id": 9,
+          "character": "Cameron Foster",
+          "character_id": 0,
+          "action": "Looks at the instructions and begins reading carefully.",
+          "dialogue": "Okay, I think I got it. I'll start gathering the materials."
+        }
+      ],
+      "plot": "Cameron returns to the chemistry lab after a long absence and joins his group for a project. Despite Jack's teasing, Lila and Marcus offer support, and Mr. Boby encourages Cameron to prove himself. Cameron begins to take on a role in the group, showing his determination to overcome his fears and reintegrate into school life.",
+      "social_purpose": "To demonstrate Cameron's struggle with anxiety and his determination to overcome it, while also showing how different social dynamics—supportive and challenging—can influence his progress and sense of belonging.",
+      "chunk": {
+        "id": 0,
+        "text": "Cameron returns to the chemistry lab after a long absence and joins his group for a project. Despite Jack's teasing, Lila and Marcus offer support, and Mr. Boby encourages Cameron to prove himself. Cameron begins to take on a role in the group, showing his determination to overcome his fears and reintegrate into school life."
+      },
+      "npcs": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "title": "The Registration Dispute",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Team Meeting After School",
+      "time": "3:30 PM",
+      "location": "School Library, Conference Room",
+      "description": "The student team is preparing for an upcoming regional science competition. Tensions rise when they discover a registration error that could disqualify them.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Peter Phillips",
+          "gender": "Male",
+          "description": "17-year-old student leader, passionate about fairness and team success. He is visibly frustrated but trying to stay composed.; years old, Male, Student Leader, 17 years old; Occupation: Student Team Leader; Personality: Determined, Composed under Pressure, Passionate, Principled; Values: Fairness, Teamwork, Integrity, Responsibility; Interests: Leadership, Advocacy, Sports or Competition, Problem Solving; Experiences: Leading a Student Team, Handling Institutional Conflicts, Organizing Events, Speaking up for Peers, Managing Team Dynamics",
+          "position": "Team Leader",
+          "states": "Angry, Determined",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Sun Li",
+          "gender": "Female",
+          "description": "16-year-old team member and researcher; Female; Age: 16; Occupation: High school science club researcher; Personality: Analytical, empathetic, determined; Values: Integrity, teamwork, perseverance; Interests: Environmental science, coding, journaling; Experiences: Won a local science fair with a sustainability project, led a group research initiative on renewable energy, struggled with self-doubt after a failed experiment last semester.",
+          "position": "Researcher",
+          "states": "Shocked, Doubtful",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Joe Martinez",
+          "gender": "Male",
+          "description": "17-year-old team strategist; Male; Age: 17; Occupation: Science Club Vice President; Personality: Calm, Analytical, Responsible, Thoughtful; Values: Integrity, Teamwork, Precision; Interests: Robotics, Debate, Strategy Board Games; Experiences: Led a team to win a local science fair, Organized a school-wide STEM event, Mediated a conflict between teammates during a research project.",
+          "position": "Strategist",
+          "states": "Calm, Analytical",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Peter Phillips",
+          "character_id": 0,
+          "action": "Expresses frustration",
+          "dialogue": "This is ridiculous. We spent weeks preparing, and now they want to disqualify us because of a registration error? That's not fair."
+        },
+        {
+          "action_id": 1,
+          "character": "Sun Li",
+          "character_id": 1,
+          "action": "Reacting in disbelief",
+          "dialogue": "Are you sure, Peter? I mean, maybe there's a mistake. But if this is true, all our work might be for nothing."
+        },
+        {
+          "action_id": 2,
+          "character": "Joe Martinez",
+          "character_id": 2,
+          "action": "Offers a solution",
+          "dialogue": "We should file a formal complaint with the school board. If we can prove it's an administrative error, they might help us."
+        },
+        {
+          "action_id": 3,
+          "character": "Peter Phillips",
+          "character_id": 0,
+          "action": "Shows determination",
+          "dialogue": "I'm not backing down. We deserve a chance to compete. I'll talk to the principal and see what they can do."
+        },
+        {
+          "action_id": 4,
+          "character": "Sun Li",
+          "character_id": 1,
+          "action": "Voices concern",
+          "dialogue": "What if the principal doesn't listen? What if this makes us enemies with the school?"
+        },
+        {
+          "action_id": 5,
+          "character": "Joe Martinez",
+          "character_id": 2,
+          "action": "Reassures the team",
+          "dialogue": "We have the facts on our side. If we present it clearly, they can't ignore us. It's about integrity, not just the competition."
+        }
+      ],
+      "plot": "Peter Phillips, a principled and determined student leader, confronts his team about a registration dispute that threatens their qualification for a science competition. Sun Li is shocked and questions the value of their efforts, while Joe Martinez suggests a formal complaint. Peter, driven by his values of fairness and responsibility, is determined to resolve the issue and protect the team's integrity.",
+      "social_purpose": "To explore the dynamics of leadership, conflict resolution, and institutional challenges in a student team setting. It highlights Peter's traits and values, such as his passion for fairness and his ability to manage team emotions during a crisis.",
+      "chunk": {
+        "id": 0,
+        "text": "The team was gathered in the library, reviewing their project for the regional science competition when the registration issue was discovered. Peter, visibly upset, tried to keep his composure as he explained the situation. Sun, who had worked tirelessly on the research, looked devastated. Joe, as always, remained calm and suggested a strategic approach. The team was now at a crossroads, and Peter's next move would determine their path forward."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "title": "The Last Chance Performance",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Band Performance at a Local Venue",
+      "time": "7:30 PM",
+      "location": "The Rusty Note, a small music bar in downtown",
+      "description": "The band is about to perform for a small and indifferent audience. The organizer is visibly disorganized, and the band members are tense. Henry, the leader, is struggling with the decision to go on stage or call it off.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Henry Myers",
+          "gender": "Male",
+          "description": "A 27-year-old guitarist and band leader, visibly anxious and uncertain about continuing the performance.; Male / Musician, 27 years old; Occupation: Band Guitarist, Leader; Personality: Hesitant, Determined, Sensitive; Values: Artistic Integrity, Team Commitment, Self-expression; Interests: Music Performance, Creative Expression, Band Collaboration; Experiences: Preparing for live performances, Managing audience expectations, Handling band dynamics",
+          "position": "Backstage, near the entrance to the stage",
+          "states": "Nervous, conflicted, determined",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Sara Chen",
+          "gender": "Female",
+          "description": "Passionate drummer and band member, angry at the organizer's poor treatment of the band; Female; Age: 28; Occupation: Professional musician and part-time music instructor; Personality: Intense, loyal, impulsive; Values: Artistic integrity, camaraderie, hard work; Interests: Live performances, vintage drum kits, indie rock; Experiences: Played in underground music scenes for years, had a near-breakup due to past venue mishaps, mentored young drummers in local music programs.",
+          "position": "Backstage, next to Henry",
+          "states": "Angry, supportive, frustrated",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Lucy Ramirez",
+          "gender": "Female",
+          "description": "A sarcastic and confident bassist, trying to lighten the mood with humor; Female; Age: 28; Occupation: Musician and part-time sound technician; Personality: Cynical, calm, observant, witty, resilient; Values: Artistic integrity, camaraderie, adaptability; Interests: Vintage gear collecting, stand-up comedy, indie film; Experiences: Played in underground music scenes across the country, survived a last-minute venue cancellation with a busker performance, worked with Henry in multiple failed auditions before landing this gig.",
+          "position": "Backstage, tuning her bass",
+          "states": "Cynical, calm, observant",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Sara Chen",
+          "character_id": 1,
+          "action": "Confronts the organizer",
+          "dialogue": "You owe us a better setup than this. We’re not just background noise for your bad decisions."
+        },
+        {
+          "action_id": 1,
+          "character": "Lucy Ramirez",
+          "character_id": 2,
+          "action": "Jokes about the situation",
+          "dialogue": "Maybe we should just play for the ghosts in the back. They’re the only ones who seem interested."
+        },
+        {
+          "action_id": 2,
+          "character": "Henry Myers",
+          "character_id": 0,
+          "action": "Considers calling off the show",
+          "dialogue": "What if we just walk out? I don’t want to play for this. It doesn’t feel right."
+        },
+        {
+          "action_id": 3,
+          "character": "Sara Chen",
+          "character_id": 1,
+          "action": "Encourages Henry",
+          "dialogue": "We’ve worked too hard to back out now. Our fans are counting on us, even if it’s just a few people."
+        },
+        {
+          "action_id": 4,
+          "character": "Lucy Ramirez",
+          "character_id": 2,
+          "action": "Takes a more serious tone",
+          "dialogue": "Look, I get it. This is rough. But if we leave now, we’re just giving up. That’s not us."
+        },
+        {
+          "action_id": 5,
+          "character": "Henry Myers",
+          "character_id": 0,
+          "action": "Decides to continue the performance",
+          "dialogue": "Okay. We do this for the music. We do this for each other."
+        }
+      ],
+      "plot": "Henry faces a critical moment backstage, where he must decide whether to continue with a poorly organized performance. His bandmates, Sara and Lucy, support and challenge him, ultimately pushing him to honor his commitment and the band's artistic integrity.",
+      "social_purpose": "To explore the dynamics of a band under pressure, showcasing the protagonist’s internal conflict, values, and the influence of his team on his decision-making.",
+      "chunk": {
+        "id": 0,
+        "text": "Henry takes a deep breath, clutches his guitar tighter, and nods to his bandmates. Sara smirks with relief, and Lucy rolls her eyes but gives a thumbs-up. They step onto the stage, the spotlight catching Henry’s face as he forces a smile. The crowd is small, but they play with heart, each note a testament to their shared goal and the fragile bond that holds them together."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "title": "The Poker Aftermath",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "A post-game meeting at a local coffee shop",
+      "time": "Evening, 7:30 PM",
+      "location": "Café on 5th Avenue",
+      "description": "James, a 35-year-old professional online poker player, sits at a corner table, visibly agitated after a long and losing session. His friend Hao, a calm and supportive listener, sits across from him, while Tong, his poker partner and more experienced player, leans against the wall, observing with quiet concern. The shared goal is to help James regain control and strategize for the next tournament.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "James Ellis",
+          "gender": "Male",
+          "description": "James is a 35-year-old online poker player who is emotionally volatile and impulsive after a string of losses. He is determined to prove his strength and regain control.; Male, Online poker player, 35 years old; Occupation: Professional online poker player; Personality: Impulsive, Determined, Anxious, Competitive; Values: Resilience, Self-proving, Risk-taking spirit; Interests: Poker strategy, High-stakes gambling, Psychological resilience training; Experiences: A series of poker losses, Emotional breakdown in high-pressure situations, Support from close friends",
+          "position": "Seated at the table",
+          "states": "Agitated, anxious, determined",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Hao",
+          "gender": "Male",
+          "description": "Hao is a calm and supportive friend of James; Male; Age: 32; Occupation: Financial Analyst; Personality: Empathetic, patient, observant; Values: Loyalty, emotional balance, growth through challenge; Interests: Chess, meditation, classic literature; Experiences: Mentored under a seasoned poker player during university, helped a friend recover from a gambling slump, worked in high-pressure investment banking environments.",
+          "position": "Seated across from James",
+          "states": "Calm, supportive, concerned",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Tong",
+          "gender": "Male",
+          "description": "Tong is James's long-time poker partner and a more experienced player, known for his observant and strategic nature; Male; Age: 40; Occupation: Professional poker coach and part-time tournament player; Personality: Analytical, patient, composed; Values: Integrity, discipline, loyalty; Interests: Chess, reading strategy books, analyzing player behavior; Experiences: Coaching several mid-tier players to tournament wins, recovering from a major financial setback through disciplined play, working as a financial analyst before transitioning to poker.",
+          "position": "Leaning against the wall",
+          "states": "Observant, alert, composed",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "James Ellis",
+          "character_id": 0,
+          "action": "James slams his hand on the table, frustrated.",
+          "dialogue": "I can't believe it! I just threw away a $2,000 stack because I panicked. I need to win this next tournament—this is my chance to make it all back."
+        },
+        {
+          "action_id": 1,
+          "character": "Hao",
+          "character_id": 1,
+          "action": "Hao takes a slow sip of his coffee and gently speaks.",
+          "dialogue": "James, I know you're trying to prove something, but pushing harder when you're on tilt just makes it worse. Have you considered taking a break before the next big game?"
+        },
+        {
+          "action_id": 2,
+          "character": "James Ellis",
+          "character_id": 0,
+          "action": "James shakes his head, his voice rising slightly.",
+          "dialogue": "No, I can't take a break. I've already lost too much. I need to keep going. I'm not backing down now."
+        },
+        {
+          "action_id": 3,
+          "character": "Tong",
+          "character_id": 2,
+          "action": "Tong steps forward and sits down at the table, folding his hands on the table.",
+          "dialogue": "James, I respect your determination, but your risk-taking is out of line. You're not just playing for money anymore—you're playing for control. Let's talk about a plan."
+        },
+        {
+          "action_id": 4,
+          "character": "James Ellis",
+          "character_id": 0,
+          "action": "James leans forward, eyes intense.",
+          "dialogue": "A plan? What kind of plan? I've got nothing left to lose. I'm going all in next time, no matter what."
+        },
+        {
+          "action_id": 5,
+          "character": "Hao",
+          "character_id": 1,
+          "action": "Hao places a hand on James's arm, trying to ground him.",
+          "dialogue": "You do have something to lose—yourself, your team. We're in this together. Let's not let your anxiety dictate the next move."
+        },
+        {
+          "action_id": 6,
+          "character": "Tong",
+          "character_id": 2,
+          "action": "Tong speaks calmly, drawing from his experience.",
+          "dialogue": "Let's look at the data from your last games. You're making decisions based on emotion, not strategy. We can fix that, but you have to let us help."
+        }
+      ],
+      "plot": "James is struggling with a losing streak and is becoming emotionally unstable. His friend Hao and poker partner Tong attempt to intervene and help him refocus before the next tournament, emphasizing the importance of strategy over impulsive decisions.",
+      "social_purpose": "To demonstrate James's emotional state and how his traits affect his relationships and decision-making process in a public, social setting.",
+      "chunk": {
+        "id": 0,
+        "text": "James's frustration and impulsive nature are evident as he struggles to remain composed. His friends are trying to support him, but his anxiety and competitive drive are clouding his judgment. This scene highlights the tension in their relationships and the need for James to regain emotional control."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

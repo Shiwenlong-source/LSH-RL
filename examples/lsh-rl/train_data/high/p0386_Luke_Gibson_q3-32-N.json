@@ -1,0 +1,102 @@
+{
+  "title": "A Coffee Break Decision",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Luke meets Momo and Joe at a local coffee shop to discuss his decision to pause his studies.",
+      "time": "Afternoon",
+      "location": "Local Coffee Shop",
+      "description": "Luke, Momo, and Joe are seated at a cozy table near the window. Luke leans back in his chair, looking relaxed but thoughtful. Momo sits with her hands folded, showing concern, while Joe sips his coffee and watches Luke intently.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Luke Gibson",
+          "gender": "Male",
+          "description": "25-year-old master's student who recently decided to pause his studies. He looks relaxed but has a hesitant expression, showing inner conflict.; Male/Student, 25 years old; Occupation: Master's student (Paused); Personality: Frank, Thoughtful, Loves sports; Values: Personal freedom, Honesty, Flexibility; Interests: Sports, Self-reflection, Social relationships; Experiences: Academic planning, Career uncertainty, Close friendships",
+          "position": "Main Protagonist",
+          "states": "Hesitant, thoughtful, slightly defensive",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Momo Tanaka",
+          "gender": "Female",
+          "description": "Momo Tanaka; Female; Age: 24; Occupation: Graphic designer; Personality: Empathetic, observant, emotionally expressive; Values: Support, personal growth, authenticity; Interests: Art, indie music, journaling; Experiences: Witnessed friends struggle with burnout, helped Luke through past creative blocks, recently started therapy to better manage her own stress.",
+          "position": "Supporting Character",
+          "states": "Concerned, empathetic, trying to be understanding",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Joe Martinez",
+          "gender": "Male",
+          "description": "Joe Martinez; Male; Age: 26; Occupation: Marketing Analyst; Personality: Analytical, supportive, slightly skeptical; Values: Practicality, loyalty, intellectual honesty; Interests: Data-driven problem solving, urban hiking, indie podcasts; Experiences: Successfully launched a local startup's rebranding campaign, navigated a difficult workplace restructuring, has a long-standing friendship with Luke that has weathered personal and professional challenges.",
+          "position": "Supporting Character",
+          "states": "Analytical, supportive, slightly skeptical",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Momo Tanaka",
+          "character_id": 1,
+          "action": "Asks Luke about his decision",
+          "dialogue": "Luke, I know this is your choice, but are you sure pausing your master's won't affect your long-term goals? I worry about how it will impact your career."
+        },
+        {
+          "action_id": 1,
+          "character": "Luke Gibson",
+          "character_id": 0,
+          "action": "Responds honestly but with some defensiveness",
+          "dialogue": "I appreciate your concern, Momo, but I need some time for myself. I've been feeling stuck, and I want to do things that make me happy—like playing more sports and traveling."
+        },
+        {
+          "action_id": 2,
+          "character": "Joe Martinez",
+          "character_id": 2,
+          "action": "Challenges Luke's decision",
+          "dialogue": "I get it, man, but have you considered how this might affect your job prospects? You've worked so hard to get where you are. Are you sure this is the right move for now?"
+        },
+        {
+          "action_id": 3,
+          "character": "Luke Gibson",
+          "character_id": 0,
+          "action": "Shares his thoughts on freedom and flexibility",
+          "dialogue": "I value my freedom, Joe. I don't want to feel like I'm just going through the motions. Maybe this is what I need to figure out what I really want."
+        },
+        {
+          "action_id": 4,
+          "character": "Momo Tanaka",
+          "character_id": 1,
+          "action": "Offers reassurance and support",
+          "dialogue": "I just want you to know I support you, Luke. I hope this time off helps you find clarity. Maybe we can plan a trip together to help you explore."
+        },
+        {
+          "action_id": 5,
+          "character": "Joe Martinez",
+          "character_id": 2,
+          "action": "Suggests a middle ground",
+          "dialogue": "How about we set a goal for when you'll reconsider? Maybe six months from now? That way you're not giving up, just taking a break with a plan."
+        },
+        {
+          "action_id": 6,
+          "character": "Luke Gibson",
+          "character_id": 0,
+          "action": "Considers the suggestion",
+          "dialogue": "That's not a bad idea, Joe. I'll set a date, but I need this time to breathe and focus on what I really want."
+        }
+      ],
+      "plot": "Luke meets with his girlfriend Momo and his friend Joe at a coffee shop to discuss his decision to pause his master's studies. Momo expresses concern about the long-term implications, while Joe offers a more pragmatic perspective. Luke explains his need for freedom and personal satisfaction, and the group agrees to support him with a plan to reassess in six months.",
+      "social_purpose": "To explore Luke's values of personal freedom and flexibility, and the tension between his academic aspirations and personal needs, while showing his relationships with Momo and Joe.",
+      "chunk": {
+        "id": 0,
+        "text": "Luke, Momo, and Joe are at a local coffee shop. Momo asks about Luke's decision to pause his studies, expressing concern for his future. Luke responds with honesty and a hint of defensiveness, explaining his need for freedom and personal satisfaction. Joe challenges Luke's decision but ultimately suggests a plan to reassess in six months. Luke agrees, showing his thoughtful and frank personality."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

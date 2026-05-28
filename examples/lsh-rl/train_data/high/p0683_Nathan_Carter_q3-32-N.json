@@ -1,0 +1,130 @@
+{
+  "title": "The Chapel's Quiet Corner",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "A small group Bible study session",
+      "time": "Sunday afternoon",
+      "location": "A local chapel's side room",
+      "description": "A quiet, intimate room filled with soft sunlight and the scent of old wood. A small group of young people has gathered for a Bible study, seated around a worn wooden table. Nathan is in the center, visibly tense but determined. Lily sits beside him, offering subtle support, while Henry, the group leader, stands at the head of the table.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Nathan Carter",
+          "gender": "male, approximately, 20 years old",
+          "description": "A young man with a thoughtful gaze, wearing a slightly wrinkled shirt and looking out of place. He is trying to find clarity in his faith.; male, approximately, 20 years old; Occupation: College student; Personality: Introspective, Conflicted, Empathetic; Values: Faith, Sincerity, Community; Interests: Spiritual exploration, Personal reflection, Friendship; Experiences: Attending youth camps, Struggling with faith, Seeking emotional support",
+          "position": "Center of the table",
+          "states": "Tense, introspective, open",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Lily",
+          "gender": "female, 22 years old",
+          "description": "A calm and supportive presence, with a warm smile and a quiet confidence; Female; Age: 22; Occupation: Part-time youth ministry coordinator and student; Personality: Compassionate, patient, observant; Values: Community, spiritual growth, kindness; Interests: Reading theological literature, journaling reflections, gardening; Experiences: Volunteered in church outreach programs, led small group discussions during college, supported a friend through a difficult personal crisis.",
+          "position": "Beside Nathan",
+          "states": "Supportive, attentive, empathetic",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Henry",
+          "gender": "male, 30 years old",
+          "description": "A soft-spoken but firm group leader, with a kind demeanor and a deep sense of conviction; Male; Age: 30; Occupation: Youth Pastor; Personality: Compassionate, Disciplined, Thoughtful; Values: Faith, Community, Integrity; Interests: Reading theological works, hiking, journaling; Experiences: Led a Bible study group through a period of personal crises, volunteered at a homeless shelter during college, mentored at-risk teenagers in his hometown.",
+          "position": "Head of the table",
+          "states": "Encouraging, patient, observant",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Henry",
+          "character_id": 2,
+          "action": "Begins the session by reading Psalm 91 aloud and inviting reflections.",
+          "dialogue": "Psalm 91 is a passage that speaks to finding safety in God's presence. How do you interpret it in your own life?"
+        },
+        {
+          "action_id": 1,
+          "character": "Nathan Carter",
+          "character_id": 0,
+          "action": "Looks down at the Bible, then at the group, and hesitantly shares his thoughts.",
+          "dialogue": "I’ve read it a lot, but I don’t know if I believe it anymore. I want to trust, but I feel so far from that."
+        },
+        {
+          "action_id": 2,
+          "character": "Lily",
+          "character_id": 1,
+          "action": "Places a hand on Nathan’s shoulder and offers a reassuring comment.",
+          "dialogue": "Nathan, you don’t have to have all the answers right now. It’s okay to be confused."
+        },
+        {
+          "action_id": 3,
+          "character": "Henry",
+          "character_id": 2,
+          "action": "Nods and encourages further discussion.",
+          "dialogue": "It’s important to be honest with ourselves and with each other. What’s been challenging for you lately?"
+        },
+        {
+          "action_id": 4,
+          "character": "Nathan Carter",
+          "character_id": 0,
+          "action": "Takes a deep breath and shares a personal experience from a youth camp.",
+          "dialogue": "At a camp last summer, I prayed out loud for the first time. I felt so exposed, but also… connected. I don’t know if that’s real faith or just a moment of weakness."
+        },
+        {
+          "action_id": 5,
+          "character": "Lily",
+          "character_id": 1,
+          "action": "Leans in and responds with empathy.",
+          "dialogue": "You’re not weak for being vulnerable. That’s where healing starts."
+        },
+        {
+          "action_id": 6,
+          "character": "Henry",
+          "character_id": 2,
+          "action": "Shares his own story to build connection.",
+          "dialogue": "I remember a time when I questioned everything too. Faith is a journey, not a destination."
+        },
+        {
+          "action_id": 7,
+          "character": "Nathan Carter",
+          "character_id": 0,
+          "action": "Looks around the group and asks a question that reveals his deeper conflict.",
+          "dialogue": "But what if I’m not meant to be part of this community? What if I don’t fit in?"
+        },
+        {
+          "action_id": 8,
+          "character": "Lily",
+          "character_id": 1,
+          "action": "Answers with sincerity and personal experience.",
+          "dialogue": "You fit in because you’re here. And because you care enough to ask these questions."
+        },
+        {
+          "action_id": 9,
+          "character": "Henry",
+          "character_id": 2,
+          "action": "Closes the session with a prayer, inviting Nathan to join.",
+          "dialogue": "Let’s pray together. Nathan, would you like to lead this time?"
+        },
+        {
+          "action_id": 10,
+          "character": "Nathan Carter",
+          "character_id": 0,
+          "action": "Nods slowly and begins to pray, his voice trembling at first but growing stronger.",
+          "dialogue": "God, if You are real, help me to believe again. If not, help me to find peace in that."
+        }
+      ],
+      "plot": "Nathan opens up about his spiritual doubts during a Bible study session, supported by Lily and guided by Henry. His prayer marks a moment of vulnerability and potential growth in his faith journey.",
+      "social_purpose": "To explore the protagonist's internal conflict and values through a supportive group interaction, highlighting the importance of community and personal reflection in spiritual exploration.",
+      "chunk": {
+        "id": 0,
+        "text": "The group’s quiet but meaningful conversation helps Nathan confront his doubts and consider the possibility of inner reconciliation or deeper loneliness, depending on the response he receives from within himself and the group."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

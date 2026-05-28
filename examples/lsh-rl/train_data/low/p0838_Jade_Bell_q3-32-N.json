@@ -1,0 +1,98 @@
+{
+  "title": "Recipe Scandal at the Campaign Rally",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Campaign Rally Press Conference",
+      "time": "10:00 AM",
+      "location": "Grand Hall, City Convention Center",
+      "description": "Jade Bell is at a press conference supporting her husband's campaign for the Democratic nomination. A reporter brings up a viral pumpkin cookie recipe attributed to her, which she has publicly denied. Tensions rise as the team debates the best course of action.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Jade Bell",
+          "gender": "Female",
+          "description": "Political spouse and public figure, known for her direct and confident demeanor.; Female / Political Spouse, 42 years old; Occupation: Political Spouse and Public Figure; Personality: Direct, Resilient, Confident, Vigilant; Values: Integrity, Transparency, Honesty; Interests: Public Speaking, Media Interaction, Political Advocacy; Experiences: Participating in Political Campaigns, Media Interviews, Public Relations Management, Political Strategy Discussions, Crisis Communication",
+          "position": "Main Protagonist",
+          "states": "Defensive, vigilant, determined",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Chloe Martinez",
+          "gender": "Female",
+          "description": "Jade's press secretary, experienced in crisis communication and media strategy; Female; Age: 34; Occupation: Senior Communications Director; Personality: Cautious, analytical, diplomatic; Values: Integrity, loyalty, strategic clarity; Interests: Political history, baking, public speaking; Experiences: Managed multiple high-profile political scandals, orchestrated successful media campaigns for progressive candidates, worked closely with Jade Bell during her mayoral campaign.",
+          "position": "Supporting Character",
+          "states": "Cautious, analytical, diplomatic",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Luna Patel",
+          "gender": "Female",
+          "description": "Former spokesperson, now a senior advisor, with a quiet and observant nature; Female; Age: 42; Occupation: Political Communications Director; Personality: Analytical, diplomatic, reserved; Values: Integrity, discretion, loyalty; Interests: Strategic board games, culinary arts, historical documentaries; Experiences: Managed crisis communications during a high-profile scandal, helped craft messaging for multiple successful political campaigns, previously worked in corporate public relations.",
+          "position": "Supporting Character",
+          "states": "Observant, conflicted, strategic",
+          "is_npc": true
+        },
+        {
+          "id": 3,
+          "name": "Mark Reynolds",
+          "gender": "Male",
+          "description": "Campaign manager, focused on maintaining a positive public image and strategic messaging; Male; Age: 42; Occupation: Political Strategist and Communications Director; Personality: Stoic, calculating, supportive; Values: Integrity, loyalty, public service; Interests: Data analysis, crisis management, culinary trends; Experiences: Managed multiple successful local campaigns, navigated high-profile media scandals, advised on candidate branding strategies.",
+          "position": "Supporting Character",
+          "states": "Stoic, calculating, supportive",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Jade Bell",
+          "character_id": 0,
+          "action": "Responds to the reporter's question with a firm denial.",
+          "dialogue": "That recipe is not mine, and I will not let this distraction define my character or my family's."
+        },
+        {
+          "action_id": 1,
+          "character": "Chloe Martinez",
+          "character_id": 1,
+          "action": "Suggests a measured approach to the controversy.",
+          "dialogue": "Jade, maybe we should let this settle first and see how the public reacts before we take a strong stance."
+        },
+        {
+          "action_id": 2,
+          "character": "Jade Bell",
+          "character_id": 0,
+          "action": "Insists on taking immediate action to address the issue.",
+          "dialogue": "I can't just sit here and let people think I'm dishonest. I need to respond directly and now."
+        },
+        {
+          "action_id": 3,
+          "character": "Luna Patel",
+          "character_id": 2,
+          "action": "Observes the exchange with a complex expression, showing internal conflict.",
+          "dialogue": ""
+        },
+        {
+          "action_id": 4,
+          "character": "Mark Reynolds",
+          "character_id": 3,
+          "action": "Supports Jade's decision but warns of potential consequences.",
+          "dialogue": "We can help you craft a strong response, but be aware that this might bring more attention to the issue."
+        }
+      ],
+      "plot": "Jade is determined to clear her name by addressing the pumpkin cookie recipe controversy head-on, despite Chloe's caution and Luna's silent doubts. Her decision may either resolve the issue or escalate it, depending on how the public interprets her response.",
+      "social_purpose": "To showcase Jade's personality traits, such as her directness and confidence, while highlighting the internal dynamics and tensions within her team regarding crisis management.",
+      "chunk": {
+        "id": 0,
+        "text": "At the press conference, Jade's denial of the pumpkin cookie recipe attribution is met with skepticism. Her team is divided on whether to respond immediately or wait for the public to lose interest. Luna's silence adds to the tension, suggesting deeper disagreements. Jade's insistence on transparency and honesty drives her to act decisively, even if it risks intensifying the controversy."
+      },
+      "npcs": [
+        1,
+        2,
+        3
+      ]
+    }
+  ]
+}

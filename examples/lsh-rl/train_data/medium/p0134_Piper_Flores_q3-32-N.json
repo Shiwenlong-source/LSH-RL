@@ -1,0 +1,102 @@
+{
+  "title": "The Café Decision",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Piper meets with Lulu and Mike at a local café to discuss her recent emotional struggles and a plan to change her life.",
+      "time": "Afternoon",
+      "location": "A cozy local café with soft lighting and a quiet atmosphere",
+      "description": "Piper sits at a corner table, nervously sipping her iced coffee. Lulu, her outgoing and impulsive best friend, leans forward with an eager expression, while Mike, the thoughtful and cautious one, sits across from her, arms crossed, watching the exchange carefully. The tension in the air is palpable as they discuss her next steps.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Piper Flores",
+          "gender": "Female",
+          "description": "18-year-old high school student with a thoughtful, emotionally complex demeanor. She is wearing a hoodie and looks slightly distracted.; 18-year-old female, 24 years old; Occupation: High school student; Personality: Emotionally complex, Resilient, Self-reflective; Values: Self-improvement, Independence, Authenticity; Interests: Self-expression, Friendship, Personal growth; Experiences: Recent conflict with family, Emotional distress, Desire for change, Friend support, Self-image struggle",
+          "position": "Corner of the table",
+          "states": "Anxious, contemplative, conflicted",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Lulu Martinez",
+          "gender": "Female",
+          "description": "18-year-old, energetic and impulsive, always looking for a way to make things exciting, dressed in a bold outfit radiating confidence; Female; Age: 18; Occupation: High school senior and part-time social media content creator; Personality: Enthusiastic, persuasive, empathetic; Values: Loyalty, adventure, authenticity; Interests: Fashion, spontaneous road trips, helping friends through tough times; Experiences: Organized a successful community mental health awareness event, took a gap year from school to travel with her family across the country, recently helped a close friend through a difficult breakup.",
+          "position": "Next to Piper",
+          "states": "Enthusiastic, persuasive, empathetic",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Mike Chen",
+          "gender": "Male",
+          "description": "Mike Chen; Male; Age: 19; Occupation: Psychology major at a local community college; Personality: Analytical, empathetic, reserved; Values: Emotional well-being, loyalty, honesty; Interests: Reading self-help books, journaling, board games; Experiences: Volunteered at a youth counseling center, navigated family conflicts that taught him the importance of communication, supported Lulu through a difficult breakup.",
+          "position": "Across from Piper",
+          "states": "Supportive, cautious, observant",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Lulu Martinez",
+          "character_id": 1,
+          "action": "Lulu leans in and suggests an impulsive idea to help Piper feel better.",
+          "dialogue": "Hey, Pipes, I’ve got this idea. What if we just skip the rest of the week and take a spontaneous road trip? We could go to the beach, stay in a cabin, and just... be free for once. It would shock everyone and make us feel alive again!"
+        },
+        {
+          "action_id": 1,
+          "character": "Piper Flores",
+          "character_id": 0,
+          "action": "Piper looks conflicted, then responds with a mix of hope and hesitation.",
+          "dialogue": "I don’t know, Lulu. I really want to feel like I’m in control of my life, but I also don’t want to make a huge mistake. My mom and I just had a huge fight, and I’m scared that if I do something like that, I’ll just end up making things worse."
+        },
+        {
+          "action_id": 2,
+          "character": "Mike Chen",
+          "character_id": 2,
+          "action": "Mike gently interjects, offering a more measured perspective.",
+          "dialogue": "I get it, Piper. You want to change things, but we need to make sure it’s sustainable. A road trip is fun, but if you’re not sleeping, not eating, and emotionally overwhelmed, it might not be the best idea right now. Maybe we can find something smaller that still helps you feel like you’re taking control."
+        },
+        {
+          "action_id": 3,
+          "character": "Piper Flores",
+          "character_id": 0,
+          "action": "Piper takes a deep breath, showing her self-reflective nature.",
+          "dialogue": "You’re right, Mike. I just... I need something to prove to myself that I can do this. That I can be independent and make my own choices without everything falling apart."
+        },
+        {
+          "action_id": 4,
+          "character": "Lulu Martinez",
+          "character_id": 1,
+          "action": "Lulu tries to reassure Piper while still pushing for action.",
+          "dialogue": "I know you can, Pipes. But maybe we don’t have to run away to do it. What if we just start small? Like, you could try joining that new art club at school and I’ll go with you. It’s a way to express yourself and take a step toward being who you want to be."
+        },
+        {
+          "action_id": 5,
+          "character": "Mike Chen",
+          "character_id": 2,
+          "action": "Mike nods in agreement and adds a practical suggestion.",
+          "dialogue": "That’s a good idea, Lulu. It’s a low-risk way to start making changes, and it shows you care about personal growth. We can help you with that, too."
+        },
+        {
+          "action_id": 6,
+          "character": "Piper Flores",
+          "character_id": 0,
+          "action": "Piper considers the idea and slowly begins to show a glimmer of hope.",
+          "dialogue": "Maybe... maybe that’s what I need. Just to take one step at a time, but still feel like I’m moving forward. I don’t want to be stuck in this cycle of frustration and loneliness anymore."
+        }
+      ],
+      "plot": "Piper is torn between Lulu’s impulsive suggestion of a road trip and Mike’s more cautious approach. Through their conversation, she begins to explore smaller, more sustainable ways to address her emotional struggles and take control of her life.",
+      "social_purpose": "To show how Piper’s desire for independence and self-improvement is influenced by her friends’ differing perspectives and how she weighs their advice in a moment of vulnerability.",
+      "chunk": {
+        "id": 0,
+        "text": "Piper sat at the café table, her fingers tracing the rim of her iced coffee. Lulu’s idea of a spontaneous road trip was tempting, but the thought of running away without a plan made her stomach twist. Mike’s calm voice reminded her of the importance of stability, and his suggestion of taking small steps gave her a sense of control she hadn’t felt in days. She looked between them, her eyes flickering with the weight of her decision. The conversation was a mirror of her inner conflict, and for the first time, she felt seen by those who truly cared."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

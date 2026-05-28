@@ -1,0 +1,102 @@
+{
+  "title": "Crossroads at the Coffee Break",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Coffee Break Conversation",
+      "time": "10:30 AM",
+      "location": "Office Kitchen, Equity Research Department",
+      "description": "Brandon is sitting at the kitchen table, sipping his coffee and staring at a law school brochure. Chris and Terry approach, sensing his distraction and wanting to talk.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Brandon",
+          "gender": "Male",
+          "description": "Equity Research Analyst in his early 30s, thoughtful and ambitious, but visibly conflicted about his career path.; Male, Equity Research Department, 32 years old; Occupation: Equity Research Analyst; Personality: Ambitious, Thoughtful, Conflicted; Values: Self-fulfillment, Growth; Interests: Law, Career Development, Analytical Work; Experiences: Studying CA, Working in Equity Research, Considering a career change to Law",
+          "position": "Analyst, Equity Research",
+          "states": "Tense, contemplative, slightly defensive",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Chris",
+          "gender": "Male",
+          "description": "Senior Equity Research Analyst, empathetic and observant, concerned about Brandon's recent behavior; Male; Age: 34; Occupation: Senior Equity Research Analyst in the Financial Sector; Personality: Supportive, curious, calm; Values: Professional integrity, loyalty to colleagues, lifelong learning; Interests: Reading business biographies, hiking on weekends, brewing specialty coffee; Experiences: Mentored several junior analysts to successful promotions, navigated a major market downturn with his team, briefly considered a legal career before entering finance.",
+          "position": "Senior Analyst, Equity Research",
+          "states": "Supportive, curious, calm",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Terry",
+          "gender": "Female",
+          "description": "Equity Research Associate, direct and practical, with a focus on efficiency and results; Female; Age: 28; Occupation: Equity Research Analyst; Personality: Analytical, inquisitive, blunt; Values: Professional excellence, transparency, work-life balance; Interests: Financial market trends, hiking, true crime podcasts; Experiences: Conducted in-depth research for a high-profile IPO, transitioned from a junior analyst role in two years, mentored new hires in financial modeling.",
+          "position": "Associate, Equity Research",
+          "states": "Inquisitive, blunt, concerned",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Chris",
+          "character_id": 1,
+          "action": "Sits beside Brandon and asks about his recent distraction.",
+          "dialogue": "Hey Brandon, you've been quiet all week. Everything okay?"
+        },
+        {
+          "action_id": 1,
+          "character": "Brandon",
+          "character_id": 0,
+          "action": "Avoids direct eye contact and gives a vague response.",
+          "dialogue": "Yeah, just thinking about some big life decisions."
+        },
+        {
+          "action_id": 2,
+          "character": "Terry",
+          "character_id": 2,
+          "action": "Notices the law school brochure and speaks up.",
+          "dialogue": "Is that a law school catalog? You're thinking about switching careers?"
+        },
+        {
+          "action_id": 3,
+          "character": "Brandon",
+          "character_id": 0,
+          "action": "Sighs and hesitates before responding.",
+          "dialogue": "I don't know. I've always wanted to practice law, but I'm worried about what it would mean for my current role."
+        },
+        {
+          "action_id": 4,
+          "character": "Chris",
+          "character_id": 1,
+          "action": "Offers reassurance and support.",
+          "dialogue": "You've always been thoughtful and driven, Brandon. If you're considering it, it's worth exploring."
+        },
+        {
+          "action_id": 5,
+          "character": "Terry",
+          "character_id": 2,
+          "action": "Adds a practical perspective.",
+          "dialogue": "But be honest with yourself—can you afford the risk? This job is stable, and we rely on you."
+        },
+        {
+          "action_id": 6,
+          "character": "Brandon",
+          "character_id": 0,
+          "action": "Reflects on their words and becomes more open.",
+          "dialogue": "I know. That's the hardest part. I value growth and self-fulfillment, but I don't want to let the team down."
+        }
+      ],
+      "plot": "Brandon's internal conflict about leaving his stable career in equity research for law is brought to the surface by his colleagues. Chris offers emotional support, while Terry challenges him to consider the practical implications. Brandon's thoughtful nature and interest in law emerge as he weighs their input.",
+      "social_purpose": "To explore Brandon's values of self-fulfillment and growth, as well as his personality traits of being conflicted and thoughtful, through a natural and realistic workplace conversation.",
+      "chunk": {
+        "id": 0,
+        "text": "Brandon's colleagues gently push him to confront his career dilemma, highlighting the tension between his personal aspirations and professional obligations."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

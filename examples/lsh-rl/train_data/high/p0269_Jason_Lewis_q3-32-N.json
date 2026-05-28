@@ -1,0 +1,109 @@
+{
+  "title": "Rugby Night at the Pub",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Rugby Discussion at the Pub",
+      "time": "6:30 PM",
+      "location": "The Green Jacket, a local sports bar in Auckland",
+      "description": "Jason, Lina, and Bob are seated at a table in the Green Jacket, a lively sports bar filled with fans watching a live rugby match on TV. Jason is sipping a beer, staring at the screen with a conflicted expression. Lina, a passionate but pragmatic fan, leans in to ask him a question. Bob, a laid-back colleague and fellow sports enthusiast, is more focused on the game than the conversation.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Jason Lewis",
+          "gender": "Male",
+          "description": "35-year-old long-time All Blacks supporter, now facing doubts about his loyalty. He is introspective and values honesty and team spirit.; Male, Sports Fan, 35 years old; Occupation: Sports Enthusiast; Personality: Loyal, Conflicted, Introspective; Values: Team Spirit, Honesty, Self-reflection; Interests: Rugby, Sports Discussion, Pub Culture; Experiences: Long-time support of the All Blacks, Recent doubts about loyalty, Gathering at a bar, Friendship with fan friends, Relationship with colleagues",
+          "position": "Center",
+          "states": "Torn, Observant, Thoughtful",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Lina Carter",
+          "gender": "Female",
+          "description": "Lina Carter; Female; Age: 28; Occupation: Sports Journalist; Personality: Analytical, Direct, Empathetic; Values: Honesty, Intellectual Integrity, Loyalty in Friendship; Interests: Rugby strategy, Debate, Documentary films; Experiences: Covered the 2023 Rugby World Cup as a field reporter, Had a falling out with a teammate over dishonesty in a high-stakes match, Moderated a panel on sports ethics at a university event.",
+          "position": "Right",
+          "states": "Inquisitive, Concerned, Supportive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Bob Martin",
+          "gender": "Male",
+          "description": "Bob Martin; Male; Age: 38; Occupation: Project Manager at a construction firm; Personality: Laid-back, Observant, Diplomatic; Values: Teamwork, Fairness, Work-Life Balance; Interests: Rugby, Casual drinking, Sports strategy discussions; Experiences: Managed several high-profile infrastructure projects in Auckland, Regularly attends local rugby matches with coworkers, Mediated team conflicts during high-pressure work situations",
+          "position": "Left",
+          "states": "Relaxed, Observant, Mediating",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Lina Carter",
+          "character_id": 1,
+          "action": "Leans forward and speaks directly to Jason",
+          "dialogue": "Jason, I know you've been quiet all night. Are you really thinking about switching your support to another team? That's not like you."
+        },
+        {
+          "action_id": 1,
+          "character": "Jason Lewis",
+          "character_id": 0,
+          "action": "Looks down at his beer, then back up to Lina",
+          "dialogue": "I don't know, Lina. I've supported the All Blacks for so long, but lately, I've been questioning if I'm still proud of everything they stand for. It's not just about the game anymore."
+        },
+        {
+          "action_id": 2,
+          "character": "Bob Martin",
+          "character_id": 2,
+          "action": "Chimes in with a calm tone, trying to ease the tension",
+          "dialogue": "Hey, man, don't rush into anything. The All Blacks are still a great team. Let's see how they do in next week's match first. You've always been loyal, and that's part of what makes you a great fan."
+        },
+        {
+          "action_id": 3,
+          "character": "Jason Lewis",
+          "character_id": 0,
+          "action": "Nods slowly, showing he is considering the advice",
+          "dialogue": "Yeah, I guess I just need some time to figure this out. It's not like I'm going to jump ship. I've just been thinking a lot about what it means to support a team."
+        },
+        {
+          "action_id": 4,
+          "character": "Lina Carter",
+          "character_id": 1,
+          "action": "Replies with a mix of empathy and challenge",
+          "dialogue": "That's good, Jason. It's important to be honest with yourself. But you should also think about how this will affect your friends. We've all rooted for you to stick with the All Blacks."
+        },
+        {
+          "action_id": 5,
+          "character": "Jason Lewis",
+          "character_id": 0,
+          "action": "Sighs and looks at the TV screen",
+          "dialogue": "I know. That's part of why I'm struggling. I don't want to let people down, but I also don't want to pretend to be something I'm not."
+        },
+        {
+          "action_id": 6,
+          "character": "Bob Martin",
+          "character_id": 2,
+          "action": "Smiles and claps Jason on the back",
+          "dialogue": "That's the honest thing to do, mate. Just make sure you're ready when you make the call. And if you stick with the All Blacks, we'll still be here to cheer with you."
+        },
+        {
+          "action_id": 7,
+          "character": "Jason Lewis",
+          "character_id": 0,
+          "action": "Smiles faintly, showing some relief",
+          "dialogue": "Thanks, guys. I appreciate the support, no matter what I decide."
+        }
+      ],
+      "plot": "Jason is at a pub with his friends Lina and Bob, where they discuss his recent doubts about his long-standing support for the All Blacks. Lina challenges him to be honest, while Bob suggests waiting for more information. Jason is caught between his loyalty and his introspection, and the conversation highlights the impact his decision could have on his relationships.",
+      "social_purpose": "To explore Jason's internal conflict about team loyalty and how it affects his friendships and social identity, while also showcasing the different ways Lina and Bob interact with him based on their personalities and relationships.",
+      "chunk": {
+        "id": 0,
+        "text": "Jason, Lina, and Bob are in a bar, discussing rugby. Jason is conflicted about his support for the All Blacks. Lina questions his loyalty, while Bob offers a more laid-back perspective. Jason values honesty and is struggling to reconcile his past convictions with his current doubts."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

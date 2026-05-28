@@ -1,0 +1,88 @@
+{
+  "title": "The Weekend Study Break",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Theodore is hosting a small gathering before a major physics exam.",
+      "time": "Saturday afternoon, 3:00 PM",
+      "location": "Theodore's living room",
+      "description": "Theodore has invited a few close friends to his house for a weekend hangout before the big physics exam on Monday. Despite his anxiety about the test, he wants to ensure his friends have a good time. Siri is in the kitchen, helping with drinks, while Joe stands by the door, looking hesitant and a bit critical.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Theodore Campbell",
+          "gender": "17-year-old male",
+          "description": "A high school student who is anxious but determined to balance his academic and social life.; 17-year-old male, high school student, 16 years old; Occupation: High School Student; Personality: Anxious, Friendly, Responsible, Determined; Values: Friendship, Academic success, Social connection; Interests: Organizing events, Studying, Socializing; Experiences: Preparing for exams, Planning gatherings, Managing peer relationships",
+          "position": "Sitting on the couch, trying to keep the conversation light and fun.",
+          "states": "Nervous but friendly, trying to maintain control over the situation.",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Siri Patel",
+          "gender": "17-year-old female",
+          "description": "Siri Patel; Female; Age: 17; Occupation: High school junior; Personality: Calm, helpful, easygoing; Values: Friendship, responsibility, kindness; Interests: Making homemade snacks, casual gaming, indie music; Experiences: Volunteered at a local community center, helped organize school events, aced last semester's chemistry exam.",
+          "position": "In the kitchen, preparing drinks with a relaxed attitude.",
+          "states": "Calm and helpful, ensuring the gathering runs smoothly.",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Joe Ramirez",
+          "gender": "17-year-old male",
+          "description": "Joe Ramirez; Male; Age: 17; Occupation: High school senior; Personality: Analytical, reserved, conscientious; Values: Academic excellence, responsibility, honesty; Interests: Physics, reading scientific journals, chess; Experiences: Struggled with balancing social life and studies last semester, helped a friend prepare for an exam and saw improved results, received a scholarship offer based on his STEM performance.",
+          "position": "Standing near the door, arms crossed, looking uneasy.",
+          "states": "Eavesdropping, questioning the timing, and showing concern for Theodore's exam.",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Theodore Campbell",
+          "character_id": 0,
+          "action": "Sits up and addresses Joe.",
+          "dialogue": "Hey, Joe, I know the exam is coming up, but this is just a quick break before we all study hard tomorrow. It's good to relax a bit."
+        },
+        {
+          "action_id": 1,
+          "character": "Joe Ramirez",
+          "character_id": 2,
+          "action": "Steps into the room and crosses his arms.",
+          "dialogue": "I get that, but shouldn't we be reviewing the material instead of hanging out? I mean, it's not like there's a lot of time left."
+        },
+        {
+          "action_id": 2,
+          "character": "Siri Patel",
+          "character_id": 1,
+          "action": "Enters the living room with a tray of drinks.",
+          "dialogue": "Relax, Joe. Theodore's got it under control. We can study all day tomorrow, but today is about having fun and recharging."
+        },
+        {
+          "action_id": 3,
+          "character": "Theodore Campbell",
+          "character_id": 0,
+          "action": "Smiles and gestures toward the group.",
+          "dialogue": "Exactly. I’ve been studying nonstop for days. This is my way of staying balanced and keeping my mind fresh. Plus, it’s important to us to stay connected."
+        },
+        {
+          "action_id": 4,
+          "character": "Joe Ramirez",
+          "character_id": 2,
+          "action": "Sighs and walks over to the couch.",
+          "dialogue": "Alright, I guess I can stay for a little while. Just don’t let it get too out of hand."
+        }
+      ],
+      "plot": "Theodore hosts a small gathering to unwind before a major physics exam. Despite his anxiety, he insists on keeping the event light and social. His friend Siri supports the gathering and helps with drinks, while his classmate Joe is initially skeptical but eventually agrees to stay.",
+      "social_purpose": "To showcase Theodore's efforts to maintain social connections while managing academic pressure, highlighting the tension and dynamics within peer relationships.",
+      "chunk": {
+        "id": 0,
+        "text": "Theodore's living room buzzes with casual conversation as friends settle in. He's clearly anxious about the exam but determined to keep the gathering fun and manageable. Siri brings drinks with ease, reinforcing her supportive and cooperative nature. Joe, though reluctant at first, eventually joins the group, showing his concern for Theodore's academic success. The group's interactions reflect their shared values and the balance they're trying to maintain between school and social life."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

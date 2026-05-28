@@ -1,0 +1,102 @@
+{
+  "title": "The Music Debate at the Café",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Jacob is deciding whether to buy his favorite musician's new CD at a local café with his friend Hong and cousin Wang.",
+      "time": "Afternoon",
+      "location": "A cozy, independent café with a small music section",
+      "description": "Jacob sits at a corner table with Hong and Wang, staring at a display of the new CD. Hong is animated and supportive, while Wang is more reserved and analytical. They are discussing the best way for Jacob to support the musician without overspending.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Jacob Hughes",
+          "gender": "Male",
+          "description": "Jacob is a 25-year-old young professional and music enthusiast. He is passionate about supporting artists but also values practicality. He is currently conflicted about whether to buy the CD.; 25-year-old /Male/Music Enthusiast, 24 years old; Occupation: Young Professional; Personality: Enthusiastic, Delicate, Rational, Empathetic; Values: Art Appreciation, Practicality, Friendship; Interests: Music, Digital Media, Decision Making, Supporting Musicians; Experiences: Listening to music extensively, Discussing music with friends, Weighing financial decisions, Balancing emotion and reason",
+          "position": "Corner table, center",
+          "states": "Contemplative, conflicted, attentive",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Hong",
+          "gender": "Female",
+          "description": "Hong is Jacob's close friend, a 24-year-old graphic designer who is deeply passionate about music and the arts; Female; Age: 24; Occupation: Freelance graphic designer and part-time art instructor; Personality: Enthusiastic, encouraging, animated; Values: Creativity, loyalty, authenticity; Interests: Indie music, visual storytelling, coffee culture; Experiences: Collaborated with local musicians on album art, organized a community art show in her neighborhood, helped Jacob design his first band T-shirt.",
+          "position": "Corner table, left",
+          "states": "Enthusiastic, encouraging, animated",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Wang",
+          "gender": "Male",
+          "description": "Wang is Jacob's older cousin, a 28-year-old financial analyst who is more pragmatic and values budgeting and long-term planning; Male; Age: 28; Occupation: Financial Analyst; Personality: Analytical, reserved, patient; Values: Financial responsibility, rational decision-making, family support; Interests: Investing, reading economics journals, visiting local bookstores; Experiences: Managed a family business during college, helped Jacob navigate his first budget, advises friends on smart spending habits.",
+          "position": "Corner table, right",
+          "states": "Calm, analytical, thoughtful",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Hong",
+          "character_id": 1,
+          "action": "Leans forward and gestures toward the CD display",
+          "dialogue": "Jacob, this is a once-in-a-lifetime opportunity! You’ve been waiting for this album for months. Buying the CD is the best way to support the artist directly."
+        },
+        {
+          "action_id": 1,
+          "character": "Jacob Hughes",
+          "character_id": 0,
+          "action": "Frowns slightly and looks at the price tag",
+          "dialogue": "I know, Hong, but I’m still trying to save for a new laptop. I don’t want to spend $30 on something I might not even listen to enough."
+        },
+        {
+          "action_id": 2,
+          "character": "Wang",
+          "character_id": 2,
+          "action": "Sips his coffee and speaks calmly",
+          "dialogue": "Maybe you can stream it first? If you love it, you can always buy it later. It’s a more practical way to test it out before committing."
+        },
+        {
+          "action_id": 3,
+          "character": "Jacob Hughes",
+          "character_id": 0,
+          "action": "Nods slowly, considering the suggestion",
+          "dialogue": "That’s not a bad idea, Wang. I do want to support the artist, but I also don’t want to regret the purchase."
+        },
+        {
+          "action_id": 4,
+          "character": "Hong",
+          "character_id": 1,
+          "action": "Smiles and waves her hand dismissively",
+          "dialogue": "But Jacob, you know how digital platforms take a cut. If you really care about the artist, buying the CD is the purest form of support."
+        },
+        {
+          "action_id": 5,
+          "character": "Wang",
+          "character_id": 2,
+          "action": "Leans back and crosses his arms",
+          "dialogue": "I get that, Hong, but Jacob has to be careful with his money. It’s about balance. He can still show support by spreading the word or attending a show."
+        },
+        {
+          "action_id": 6,
+          "character": "Jacob Hughes",
+          "character_id": 0,
+          "action": "Looks between Hong and Wang, then back at the CD",
+          "dialogue": "You’re both right in a way. I just want to feel like I’m doing something meaningful without breaking the bank."
+        }
+      ],
+      "plot": "Jacob is torn between his emotional desire to support his favorite musician and his rational need to manage his finances. Hong and Wang offer different perspectives: Hong encourages immediate support through a physical purchase, while Wang suggests a more practical, digital-first approach. The conversation highlights Jacob's struggle to balance his values and personality traits.",
+      "social_purpose": "The scenario explores the tension between passion and pragmatism, illustrating how peer influence and personal values shape decision-making. It also reveals how shared goals can bring out different aspects of one's identity.",
+      "chunk": {
+        "id": 0,
+        "text": "Jacob is torn between his emotional desire to support his favorite musician and his rational need to manage his finances. Hong and Wang offer different perspectives: Hong encourages immediate support through a physical purchase, while Wang suggests a more practical, digital-first approach. The conversation highlights Jacob's struggle to balance his values and personality traits."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

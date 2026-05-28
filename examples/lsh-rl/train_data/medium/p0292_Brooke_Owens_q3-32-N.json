@@ -1,0 +1,95 @@
+{
+  "title": "After the Service",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Post-church gathering discussion",
+      "time": "Saturday morning",
+      "location": "Church hall after a youth outreach event",
+      "description": "Brooke and her team are gathered in the church hall to debrief after a successful youth outreach event. The room is buzzing with energy as they share their thoughts and feelings about the event. However, the conversation quickly shifts to what should happen next, creating a moment of tension and reflection for Brooke.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Brooke Owens",
+          "gender": "Female",
+          "description": "Brooke is a 30-year-old church event planner who is enthusiastic and determined. She is deeply committed to her faith and community service but is currently feeling overwhelmed and in need of balance.; Female, active church member, 30 years old; Occupation: Planner; Personality: Enthusiastic, Contemplative, Compassionate, Determined; Values: Community, Faith, Service, Balance; Interests: Event planning, Spiritual growth, Team collaboration, Creative planning; Experiences: Planned and executed church gatherings, Led volunteer teams, Handled group dynamics, Managed post-event reflection",
+          "position": "Center of the room, seated at the table",
+          "states": "Contemplative, Compassionate, Tired but composed",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Lili Chen",
+          "gender": "Female",
+          "description": "Lili is a 25-year-old church volunteer known for her energy and ideas. She is eager to continue planning new activities and pushing the youth outreach program forward; Female; Age: 25; Occupation: Youth Ministry Coordinator; Personality: Enthusiastic, Energetic, Confident; Values: Community, Faith, Innovation; Interests: Organizing events, mentoring teenagers, creative arts; Experiences: Led a successful summer youth camp, coordinated a church-based community service initiative, recently launched a youth-led worship band.",
+          "position": "Standing near the whiteboard, gesturing",
+          "states": "Enthusiastic, Energetic, Confident",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Bob Miller",
+          "gender": "Male",
+          "description": "Bob is a 40-year-old church member who has been involved in community service for years; Male; Age: 40; Occupation: High school history teacher; Personality: Calm, Thoughtful, Supportive; Values: Compassion, Community, Faith; Interests: Gardening, Reading theological and historical texts, Coffee and casual conversation; Experiences: Organized multiple youth mentorship programs, Volunteered at a local homeless shelter during college, Led a small Bible study group for over a decade.",
+          "position": "Sitting on a bench, sipping coffee",
+          "states": "Calm, Thoughtful, Supportive",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Lili Chen",
+          "character_id": 1,
+          "action": "Proposes a new event idea",
+          "dialogue": "We had such a great turnout at the youth outreach last night, I think we should plan a retreat next month! It could really deepen our community and spiritual growth."
+        },
+        {
+          "action_id": 1,
+          "character": "Brooke Owens",
+          "character_id": 0,
+          "action": "Expresses hesitation",
+          "dialogue": "That sounds amazing, Lili. I love your enthusiasm and the idea of a retreat, but I need to be honest—I’m feeling a bit drained. I want to make sure we’re not overextending ourselves."
+        },
+        {
+          "action_id": 2,
+          "character": "Bob Miller",
+          "character_id": 2,
+          "action": "Suggests a slower approach",
+          "dialogue": "Brooke, I hear you. It’s important to take a step back and rest. Maybe we can plan a smaller event first and give everyone a chance to recharge."
+        },
+        {
+          "action_id": 3,
+          "character": "Brooke Owens",
+          "character_id": 0,
+          "action": "Reflects on her values and responsibilities",
+          "dialogue": "You’re right, Bob. I’ve led volunteer teams before and know how important balance is. But I also believe in the mission of our church and the value of community. I need to find a way to honor both."
+        },
+        {
+          "action_id": 4,
+          "character": "Lili Chen",
+          "character_id": 1,
+          "action": "Offers support",
+          "dialogue": "We’re all in this together, Brooke. If we need to slow down, we can. But I think we should still aim to keep the momentum going. Maybe we can split the planning between us?"
+        },
+        {
+          "action_id": 5,
+          "character": "Brooke Owens",
+          "character_id": 0,
+          "action": "Considers the team’s input",
+          "dialogue": "That’s a great idea, Lili. I’ve always believed in team collaboration. Let’s take a vote on whether we want to plan a retreat or a smaller event. I’ll make sure to set realistic goals and timelines."
+        }
+      ],
+      "plot": "Brooke is faced with a decision after a successful church youth event. Lili is eager to continue with more ambitious plans, while Bob suggests a slower, more reflective approach. Brooke must weigh her team’s expectations against her own need for balance and her commitment to her faith and service. She proposes a team decision to find a middle ground that honors both action and rest.",
+      "social_purpose": "To explore the protagonist’s values of balance and service in a team setting, while showing how her personality traits of contemplation and compassion influence her decisions.",
+      "chunk": {
+        "id": 0,
+        "text": "The team is excited about the success of the event, but Brooke feels the weight of the next steps. Lili’s enthusiasm for more events contrasts with Bob’s suggestion to slow down and reflect. Brooke’s determination and compassion help her find a way to involve the team in the decision, ensuring that no one is overburdened and the mission of the church is still honored."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

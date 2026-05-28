@@ -1,0 +1,123 @@
+{
+  "title": "Digital Detox at the Café",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Owen attempts to disconnect from digital communication while meeting friends for coffee.",
+      "time": "Afternoon",
+      "location": "A quiet corner in a local café",
+      "description": "Owen sits at a small table, laptop closed, phone face-down beside him. Gary and Lena, two of his close colleagues and friends, join him. The café is softly lit, with ambient music playing in the background. Owen is visibly tense, and his posture suggests discomfort with the current situation.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Owen Olson",
+          "gender": "Male",
+          "description": "Owen is a 28-year-old digital industry professional who is introverted, sensitive, and values privacy and self-care. He is emotionally exhausted from constant digital communication.; 28 / Male / Professional, 24 years old; Occupation: Digital Industry Practitioner; Personality: Introverted, Rational, Sensitive, Privacy-conscious; Values: Privacy, Self-care, Emotional safety; Interests: Technology, Solitude, Writing, Digital communication; Experiences: Handling digital harassment, Coping with social pressure, Experiencing emotional exhaustion, Seeking personal boundaries",
+          "position": "Seated at the table, facing the window",
+          "states": "Tense, withdrawn, and focused on maintaining emotional safety",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Gary Mitchell",
+          "gender": "Male",
+          "description": "A 30-year-old marketing strategist who is outgoing and empathetic. He genuinely cares about Owen's well-being and encourages him to take breaks from work; Male; Age: 30; Occupation: Digital Marketing Strategist; Personality: Supportive, observant, warm; Values: Work-life balance, loyalty, emotional intelligence; Interests: Urban hiking, jazz music, community events; Experiences: Managed high-pressure campaigns that strained team morale, mentored a new hire who was struggling with burnout, organized team-building retreats focused on mindfulness and disconnecting from technology.",
+          "position": "Seated to Owen's left",
+          "states": "Supportive, concerned, and trying to initiate a meaningful conversation",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Lena Torres",
+          "gender": "Female",
+          "description": "A 27-year-old UX designer who is curious and observant; Female; Age: 27; Occupation: UX Designer; Personality: Empathetic, Analytical, Subtly Inquisitive; Values: Empathy, Work-Life Balance, Honesty; Interests: Human behavior studies, Minimalist design, Ambient music; Experiences: Worked on digital detox app interfaces, Navigated remote work challenges during the pandemic, Regularly socializes with colleagues in non-digital settings.",
+          "position": "Seated to Owen's right",
+          "states": "Observant, empathetic, and subtly inquisitive",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Gary Mitchell",
+          "character_id": 1,
+          "action": "Tries to lighten the mood",
+          "dialogue": "Hey, Owen, how's the new project going? You look like you've been through a marathon."
+        },
+        {
+          "action_id": 1,
+          "character": "Owen Olson",
+          "character_id": 0,
+          "action": "Avoids the topic",
+          "dialogue": "It's... okay. Just a lot to handle with the deadlines and everything."
+        },
+        {
+          "action_id": 2,
+          "character": "Lena Torres",
+          "character_id": 2,
+          "action": "Notices Owen's phone",
+          "dialogue": "I see you've left your phone face-down. That’s a good sign. Taking a break from the digital world, huh?"
+        },
+        {
+          "action_id": 3,
+          "character": "Owen Olson",
+          "character_id": 0,
+          "action": "Acknowledges the observation",
+          "dialogue": "Yeah, I’ve been getting a lot of messages from Chen. It's hard to focus when I feel like I have to respond immediately."
+        },
+        {
+          "action_id": 4,
+          "character": "Gary Mitchell",
+          "character_id": 1,
+          "action": "Expresses concern",
+          "dialogue": "That’s no way to live, Owen. You need to take care of yourself. Maybe you should just shut it off for a while and enjoy this time with us."
+        },
+        {
+          "action_id": 5,
+          "character": "Owen Olson",
+          "character_id": 0,
+          "action": "Considers the suggestion",
+          "dialogue": "I’ve thought about it, but it feels like I’d be ignoring something important. I don’t want to come off as unprofessional."
+        },
+        {
+          "action_id": 6,
+          "character": "Lena Torres",
+          "character_id": 2,
+          "action": "Shares a personal experience",
+          "dialogue": "I get it. I used to feel the same. But once I set boundaries, it actually helped me be more productive. It’s about protecting your peace, not avoiding people."
+        },
+        {
+          "action_id": 7,
+          "character": "Owen Olson",
+          "character_id": 0,
+          "action": "Reflects on the conversation",
+          "dialogue": "Maybe I just need to be honest about how I’m feeling. I don’t want to burn out again."
+        },
+        {
+          "action_id": 8,
+          "character": "Gary Mitchell",
+          "character_id": 1,
+          "action": "Encourages honesty",
+          "dialogue": "Exactly. You’ve always been so rational and thoughtful. Don’t let the noise from the digital world drown that out."
+        },
+        {
+          "action_id": 9,
+          "character": "Owen Olson",
+          "character_id": 0,
+          "action": "Decides to act on his values",
+          "dialogue": "You’re right. I think I’ll turn my phone off for the rest of the day. Just for a little while."
+        }
+      ],
+      "plot": "Owen, overwhelmed by digital communication, meets with Gary and Lena in a café. They notice his exhaustion and encourage him to disconnect and prioritize his well-being. Owen gradually opens up about the pressure he feels from Chen and decides to take a step back from his phone to protect his inner peace.",
+      "social_purpose": "To explore the protagonist's struggle with digital communication, emotional exhaustion, and the importance of setting personal boundaries while demonstrating his values of privacy and self-care.",
+      "chunk": {
+        "id": 0,
+        "text": "Owen, Gary, and Lena meet in a café. Owen is emotionally exhausted from constant digital communication and is considering disconnecting for a while. Gary encourages him to take a break, while Lena offers perspective from her own experience. Owen begins to feel supported and decides to turn off his phone for the rest of the day."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

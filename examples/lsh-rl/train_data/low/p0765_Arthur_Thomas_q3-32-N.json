@@ -1,0 +1,88 @@
+{
+  "title": "Visa Hurdles and Workplace Support",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "After-work coffee catch-up",
+      "time": "3:30 PM, Friday",
+      "location": "Local coffee shop near the office",
+      "description": "Arthur sits at a corner table, nervously sipping his coffee and reviewing the email he received from the Italian consulate. Molly and Chen arrive, each with a coffee in hand, and join him. The atmosphere is warm and casual, but Arthur's tension is palpable.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Arthur Thomas",
+          "gender": "Male",
+          "description": "Arthur is a 35-year-old office clerk who is currently in the middle of a complicated visa application process. He is known for his professionalism and determination in overcoming challenges.; Male, Office Clerk, 35 years old; Occupation: Office Professional; Personality: Resilient, Communicative, Determined, Strong Analytical Skills; Values: Persistence, Professionalism, Trust; Interests: International Travel, Problem Solving, Efficient Communication; Experiences: Visa Application Process, Cross-cultural Communication, Workplace Collaboration",
+          "position": "Corner table, reviewing his phone",
+          "states": "Nervous, determined, slightly anxious",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Molly",
+          "gender": "Female",
+          "description": "Molly is Arthur's close colleague and friend; Female; Age: 32; Occupation: Project Manager in International Business Development; Personality: empathetic, observant, optimistic; Values: loyalty, cultural appreciation, work-life balance; Interests: travel, indie music, journaling; Experiences: worked on several cross-border partnerships in Europe, supported a friend through a difficult relocation process, recently returned from a business trip to Sicily.",
+          "position": "Seated to Arthur's left",
+          "states": "Concerned, supportive, curious",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Chen",
+          "gender": "Male",
+          "description": "Chen is a laid-back coworker who often lightens the mood with humor; Male; Age: 28; Occupation: Marketing Specialist; Personality: Playful, encouraging, observant; Values: Work-life balance, loyalty, personal growth; Interests: Board games, international travel, indie music; Experiences: Worked remotely for a year during the pandemic, helped a colleague through a difficult career transition, backpacked through Southeast Asia.",
+          "position": "Seated to Arthur's right",
+          "states": "Playful, encouraging, observant",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Molly",
+          "character_id": 1,
+          "action": "Asks Arthur about his day",
+          "dialogue": "Hey Arthur, you look like you've had a rough day. Is everything okay with the visa application?"
+        },
+        {
+          "action_id": 1,
+          "character": "Arthur Thomas",
+          "character_id": 0,
+          "action": "Responds with some hesitation",
+          "dialogue": "Honestly, Molly, I'm not sure. The consulate said they need more documents, and I'm worried about the timing. If I don't get it sorted, my trip might fall through."
+        },
+        {
+          "action_id": 2,
+          "character": "Chen",
+          "character_id": 2,
+          "action": "Offers a light-hearted comment",
+          "dialogue": "Hey, at least you're not the one who forgot to bring their passport on a trip. I'm impressed with how you're handling all this stuff, Arthur."
+        },
+        {
+          "action_id": 3,
+          "character": "Molly",
+          "character_id": 1,
+          "action": "Encourages and offers assistance",
+          "dialogue": "You've always been good at problem-solving, Arthur. Let me know if you need help compiling the documents or figuring out what they need. I've dealt with some visa stuff before."
+        },
+        {
+          "action_id": 4,
+          "character": "Arthur Thomas",
+          "character_id": 0,
+          "action": "Expresses gratitude and determination",
+          "dialogue": "Thanks, Molly. That means a lot. I'm going to call them back next week to follow up. I can't let this stress me out too much."
+        }
+      ],
+      "plot": "Arthur is anxious about his Italian visa application after a confusing call with the consulate. His friends Molly and Chen notice his unease and offer emotional and practical support. Arthur decides to take proactive steps by planning to follow up next week, showing his resilience and determination.",
+      "social_purpose": "To showcase Arthur's determination, his strong analytical skills, and his value of trust in his friends. The interaction highlights workplace collaboration and the importance of persistence in the face of uncertainty.",
+      "chunk": {
+        "id": 0,
+        "text": "Arthur Thomas sits at a corner table in a quiet coffee shop, reviewing the email from the Italian consulate. Molly and Chen arrive, sensing his unease and offering support. Arthur shares his concerns, and Chen teases him in a friendly way, while Molly reassures him. Arthur decides to take action by calling back the consulate next week, demonstrating his resilience and commitment to solving the problem."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

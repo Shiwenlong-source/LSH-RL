@@ -1,0 +1,102 @@
+{
+  "title": "Finding the Right Connection",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Kayla and her friends discussing communication tools at a campus café",
+      "time": "Afternoon",
+      "location": "Student Café, University of Amsterdam",
+      "description": "Kayla sits at a small table with her laptop and two friends, Lina and Erik, discussing how to stay in touch with family back home. The café is filled with the hum of conversations and the clinking of cups, but Kayla's focus is on the screen as she weighs the pros and cons of different communication methods.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Kayla Barnes",
+          "gender": "Female",
+          "description": "A thoughtful international student from Jakarta, studying in the Netherlands. She is empathetic and determined to maintain a connection with her family despite the distance and cost.; Female, International student, 22 years old; Occupation: University international student; Personality: Thoughtful, Empathetic, Determined, Anxious; Values: Family connection, Emotional intimacy, Practicality; Interests: Technology, Communication, Cultural adaptation; Experiences: Studying abroad, Long-distance family relationships, Exploring digital communication tools",
+          "position": "Seated at the table with her laptop",
+          "states": "Anxious but focused",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Lina van Dijk",
+          "gender": "Female",
+          "description": "A local Dutch student and one of Kayla's closest friends. She is tech-savvy and enjoys helping Kayla adapt to new digital tools; Female; Age: 22; Occupation: International Communications Student; Personality: Supportive, Curious, Empathetic; Values: Friendship, Innovation, Cultural Exchange; Interests: Digital Marketing, Language Learning, Podcasting; Experiences: Worked on a student exchange program in Canada, Volunteered for a tech literacy NGO in rural Indonesia, Helped organize a university app development competition.",
+          "position": "Sitting across from Kayla",
+          "states": "Supportive and curious",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Erik Meijer",
+          "gender": "Male",
+          "description": "A laid-back but resourceful student who often shares his experiences with technology and communication apps; Male; Age: 21; Occupation: Computer Science Student; Personality: Curious, Analytical, Empathetic; Values: Innovation, Reliability, Privacy; Interests: Open-source software, Digital nomad lifestyle, Music production; Experiences: Developed a group chat app for international student collaboration, Troubleshot communication issues during a family emergency from abroad, Participated in a global hackathon focused on remote connectivity.",
+          "position": "Sitting next to Lina",
+          "states": "Casual and helpful",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Kayla Barnes",
+          "character_id": 0,
+          "action": "opens her laptop and starts a conversation",
+          "dialogue": "Hey, I was wondering if anyone has used Yahoo messages to stay in touch with family overseas. It's cheaper than video calls, but I miss seeing my mom's face."
+        },
+        {
+          "action_id": 1,
+          "character": "Lina van Dijk",
+          "character_id": 1,
+          "action": "leans in and responds with interest",
+          "dialogue": "Oh, I see what you're saying. Video calls are more personal, but they can be expensive if you're on a data plan. I've heard of people using Yahoo for text and voice, but it's not the same as seeing each other."
+        },
+        {
+          "action_id": 2,
+          "character": "Erik Meijer",
+          "character_id": 2,
+          "action": "chimes in with a suggestion",
+          "dialogue": "You know, there are some other apps that are free and have good video quality. Maybe you could try using WhatsApp or Telegram to save money?"
+        },
+        {
+          "action_id": 3,
+          "character": "Kayla Barnes",
+          "character_id": 0,
+          "action": "nods thoughtfully",
+          "dialogue": "I've heard of those, but I'm a bit nervous about switching. I don't want my mom to have to learn a new app if it's too complicated for her."
+        },
+        {
+          "action_id": 4,
+          "character": "Lina van Dijk",
+          "character_id": 1,
+          "action": "reassures her",
+          "dialogue": "I can help her set it up and even make a quick tutorial video. She might not need to learn everything at once, just the basics."
+        },
+        {
+          "action_id": 5,
+          "character": "Erik Meijer",
+          "character_id": 2,
+          "action": "adds a practical tip",
+          "dialogue": "Also, if she uses Wi-Fi, she won't have to worry about data costs. That might make it more comfortable for her to use video calls more often."
+        },
+        {
+          "action_id": 6,
+          "character": "Kayla Barnes",
+          "character_id": 0,
+          "action": "expresses gratitude",
+          "dialogue": "Thanks, you both are amazing. I really appreciate your help. I just want to make sure I'm not cutting her off from me, even if it's cheaper."
+        }
+      ],
+      "plot": "Kayla is struggling with the emotional and financial cost of staying in touch with her family in Jakarta while studying in the Netherlands. She discusses the issue with her friends Lina and Erik, who offer both emotional support and practical solutions. The friends suggest alternative communication tools that could help Kayla maintain a closer connection with her mother without breaking the bank.",
+      "social_purpose": "To explore the protagonist's emotional and practical challenges in maintaining family connections while abroad, and to show how her values and personality influence her decisions and interactions.",
+      "chunk": {
+        "id": 0,
+        "text": "Kayla is struggling with the emotional and financial cost of staying in touch with her family in Jakarta while studying in the Netherlands. She discusses the issue with her friends Lina and Erik, who offer both emotional support and practical solutions. The friends suggest alternative communication tools that could help Kayla maintain a closer connection with her mother without breaking the bank."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

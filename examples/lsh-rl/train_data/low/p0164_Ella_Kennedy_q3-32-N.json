@@ -1,0 +1,102 @@
+{
+  "title": "College Dreams and Realities",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Coffee shop discussion about college plans",
+      "time": "Saturday afternoon",
+      "location": "A cozy local coffee shop with a study area",
+      "description": "Ella, Coco, and Anna meet in their favorite coffee shop to discuss their college applications. Ella is eager to talk about her dream schools, while Coco and Anna offer support and advice. The atmosphere is warm and focused, with the clink of cups and soft background music.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Ella Kennedy",
+          "gender": "Female",
+          "description": "A 17-year-old high school student with a mix of hope and anxiety about her future. She is passionate about academic excellence and has her sights set on prestigious universities.; Female, years old, high school student, 17 years old; Occupation: High school student; Personality: Determined, Enthusiastic, Anxious, Hopeful; Values: Ambition, Friendship, Pragmatism; Interests: College planning, Scholarship research, Academic excellence; Experiences: Discussing future plans with friends, Considering top universities, Exploring financial aid options",
+          "position": "Seated at a corner table with her laptop open",
+          "states": "Hopeful, slightly anxious, determined",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Coco Martinez",
+          "gender": "Female",
+          "description": "Ella’s supportive and organized roommate. She is always ready to help with research and planning, especially when it comes to scholarships and financial aid; Female; Age: 20; Occupation: Part-time student advisor at a community college; Personality: Analytical, empathetic, proactive; Values: Education, perseverance, teamwork; Interests: Budgeting for students, mentoring younger peers, indie music; Experiences: Helped multiple friends navigate the FAFSA process, volunteered at a college access nonprofit during high school, worked her way through community college with scholarships and part-time jobs.",
+          "position": "Sitting across from Ella, sipping her latte",
+          "states": "Supportive, encouraging, focused",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Anna Lee",
+          "gender": "Female",
+          "description": "Ella’s pragmatic and level-headed best friend; Female; Age: 17; Occupation: High school senior and part-time academic tutor; Personality: Analytical, calm, helpful; Values: Practicality, loyalty, intellectual growth; Interests: Strategic board games, reading non-fiction, helping peers with schoolwork; Experiences: Assisted several friends with college application essays, researched financial aid options for her own applications, volunteered at a local library’s study skills workshop.",
+          "position": "Next to Coco, scrolling through her phone",
+          "states": "Analytical, calm, helpful",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Ella Kennedy",
+          "character_id": 0,
+          "action": "Opens her laptop and shows a list of potential scholarships",
+          "dialogue": "Look at this list of scholarships I found for MIT and Harvard. I’m so excited, but I also feel like I’m chasing something I might not be able to afford."
+        },
+        {
+          "action_id": 1,
+          "character": "Coco Martinez",
+          "character_id": 1,
+          "action": "Leans in and starts reviewing the list",
+          "dialogue": "Ella, you’ve got a great start here. I can help you apply for a few of these. We should prioritize the ones with the highest amounts and earliest deadlines."
+        },
+        {
+          "action_id": 2,
+          "character": "Anna Lee",
+          "character_id": 2,
+          "action": "Adds a thoughtful comment",
+          "dialogue": "I think it’s smart to also consider other schools with good programs and lower costs. Just in case, you know? Don’t want to put all your eggs in one basket."
+        },
+        {
+          "action_id": 3,
+          "character": "Ella Kennedy",
+          "character_id": 0,
+          "action": "Nods, then expresses her worry",
+          "dialogue": "I get that, Anna. It’s just that I feel like I can only be my best self at a place like MIT or Harvard. I don’t want to settle, but I also don’t want to get rejected and lose hope."
+        },
+        {
+          "action_id": 4,
+          "character": "Coco Martinez",
+          "character_id": 1,
+          "action": "Reassures Ella",
+          "dialogue": "You won’t lose hope, Ella. We’ll tackle this together. What if we start with a few of these scholarships and also look into some safety schools just to be sure?"
+        },
+        {
+          "action_id": 5,
+          "character": "Anna Lee",
+          "character_id": 2,
+          "action": "Suggests a compromise",
+          "dialogue": "Maybe apply to one safety school and keep your top choices. That way, you still have a shot at your dream schools, but you’re not leaving yourself without options."
+        },
+        {
+          "action_id": 6,
+          "character": "Ella Kennedy",
+          "character_id": 0,
+          "action": "Smiles, feeling a bit more confident",
+          "dialogue": "Yeah, that sounds like a good plan. I just need to make sure I’m not missing out on anything. I want to go somewhere where I can really grow."
+        }
+      ],
+      "plot": "Ella, Coco, and Anna meet to strategize Ella's college applications. Ella is determined to attend MIT or Harvard but is anxious about the costs. Coco supports her by helping her find and apply for scholarships, while Anna advises a more balanced approach by suggesting safety schools and careful application planning. Their discussion helps Ella feel more confident about her choices, even as she weighs her ambitions against the realities of financial constraints.",
+      "social_purpose": "To explore Ella’s values of ambition and pragmatism, and how her friendships influence her decision-making. The scene highlights the tension between hope and worry in her pursuit of academic excellence and the importance of support systems in navigating future challenges.",
+      "chunk": {
+        "id": 0,
+        "text": "Ella, Coco, and Anna meet in a local coffee shop to discuss college plans. Ella is hopeful but anxious about attending MIT or Harvard due to financial concerns. Coco supports her by helping with scholarship applications, while Anna encourages a more strategic approach. The dialogue reveals Ella's determination and the role her friends play in balancing her ambition with practicality."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

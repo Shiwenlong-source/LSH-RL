@@ -1,0 +1,95 @@
+{
+  "title": "The GOATs Meeting",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Planning the GOATs' first public demonstration against local 'Chavs'",
+      "time": "7:00 PM, a weekday evening",
+      "location": "A dimly lit community activity room in Julian's town",
+      "description": "Julian Freeman, a determined 25-year-old British man, is seated at the head of a table in the community center, his posture rigid and focused. Beside him, Ruby, a passionate young woman, is tapping her fingers impatiently on the table, eager to share the evidence they've gathered. Across from them, Anna, a thoughtful and cautious member of the group, sits with her arms folded, her expression troubled. The group is preparing for the GOATs' first public demonstration, and the room is charged with tension as they debate their next steps.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Julian Freeman",
+          "gender": "male",
+          "description": "A righteous young man dissatisfied with the status quo, determined to fight street crime in his community.; male, British, 25 years old; Occupation: Community Organization Leader; Personality: Determined, Idealistic, Analytical; Values: Justice, Community Safety, Action First; Interests: Social Reform, Public Advocacy, Organizing Events; Experiences: Witnessing Community Unrest, Leading Local Initiatives, Collaborating with Peers to Solve Social Issues",
+          "position": "Head of the meeting",
+          "states": "Determined, focused, slightly impatient",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Ruby",
+          "gender": "female",
+          "description": "A young woman with a strong sense of justice and a tendency to act impulsively, eager to share the evidence she's gathered; Female; Age: 23; Occupation: Investigative journalist; Personality: Energetic, idealistic, impatient; Values: Truth, community empowerment, fairness; Interests: Social activism, writing, grassroots organizing; Experiences: Exposed a local corruption scandal at 19, covered the rise of anti-establishment youth movements, lost a close friend to a preventable injustice.",
+          "position": "Beside Julian",
+          "states": "Eager, passionate, restless",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Anna",
+          "gender": "female",
+          "description": "Anna, a thoughtful and cautious member of the group, is troubled and hesitant as she sits across from Julian and Ruby; Female; Age: 28; Occupation: Social worker; Personality: Analytical, empathetic, introverted; Values: Justice, non-violence, community safety; Interests: Reading political theory, urban sociology, and community organizing; Experiences: Witnessed the negative impact of gang violence on vulnerable youth, worked with marginalized groups to advocate for systemic change, previously involved in peaceful protest campaigns.",
+          "position": "Across from Julian",
+          "states": "Troubled, hesitant, analytical",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Julian Freeman",
+          "character_id": 0,
+          "action": "Steadily addresses the group",
+          "dialogue": "We can't afford to delay this. The 'Chavs' are getting worse, and the council is ignoring us. We need to act now before the situation spirals out of control."
+        },
+        {
+          "action_id": 1,
+          "character": "Ruby",
+          "character_id": 1,
+          "action": "Leans forward with excitement",
+          "dialogue": "I've got the footage and the reports. We can show it at the town hall meeting tomorrow. People need to see what's really happening in our streets!"
+        },
+        {
+          "action_id": 2,
+          "character": "Anna",
+          "character_id": 2,
+          "action": "Leans back, speaking calmly",
+          "dialogue": "But Julian, Ruby, if we push too hard, we risk making enemies. We should consider a more measured approach—maybe start with petitions or community forums before public confrontation."
+        },
+        {
+          "action_id": 3,
+          "character": "Julian Freeman",
+          "character_id": 0,
+          "action": "Shakes his head firmly",
+          "dialogue": "No, Anna. The time for measured steps is over. We need to show strength and unity. This is about protecting our community."
+        },
+        {
+          "action_id": 4,
+          "character": "Ruby",
+          "character_id": 1,
+          "action": "Nods in agreement",
+          "dialogue": "I'm with Julian. If we wait, they'll just get bolder. We need to make a statement now."
+        },
+        {
+          "action_id": 5,
+          "character": "Anna",
+          "character_id": 2,
+          "action": "Sighs and opens a folder",
+          "dialogue": "I understand the urgency, but I think we need to analyze the data further before we take action. I've seen what happens when people get scared and act without thinking."
+        }
+      ],
+      "plot": "Julian Freeman is leading a meeting to finalize the GOATs' first public demonstration against the growing 'Chavs' problem in their town. Ruby is eager to showcase the evidence they've collected immediately, while Anna is hesitant and advocates for a more strategic and cautious approach. The group must decide whether to move forward with bold action or take time to build a stronger foundation for their campaign.",
+      "social_purpose": "Explore the tension between idealism and caution in community activism, and how differing values and personalities can shape a group's strategy.",
+      "chunk": {
+        "id": 0,
+        "text": "Julian Freeman's voice cuts through the room like a blade. 'We can't afford to delay this,' he says, his eyes scanning the group for support. Ruby leans forward, her excitement barely contained. 'I've got the footage and the reports. We can show it at the town hall meeting tomorrow. People need to see what's really happening in our streets!' Anna, ever the skeptic, responds with a calm but firm tone, 'But Julian, Ruby, if we push too hard, we risk making enemies. We should consider a more measured approach—maybe start with petitions or community forums before public confrontation.' The room falls silent as the weight of the decision settles in."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

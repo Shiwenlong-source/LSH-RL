@@ -1,0 +1,116 @@
+{
+  "title": "The Last Day Decision",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Lily's final work meeting before resignation",
+      "time": "10:00 AM",
+      "location": "University Administrative Conference Room",
+      "description": "Lily Martin, a 31-year-old university mail administrator, sits at the conference table, visibly anxious as she prepares to discuss her final tasks before leaving her job. Her colleague Anna sits beside her, quietly observing, while her supervisor Sarah leads the meeting with a clipboard in hand, focused on institutional efficiency and deadlines.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Lily Martin",
+          "gender": "Female",
+          "description": "Lily is on her last day before resigning, filled with conflict and anxiety. She longs to break free from the tedious work and express herself through a private diary, but she faces realistic pressure from colleagues and her supervisor.; Female, Administrator, 31 years old; Occupation: University Mail Administrator; Personality: Anxious, Introspective, Idealistic, Hesitant; Values: Self-expression, Autonomy, Growth; Interests: Journaling, Introspection, Creative Writing; Experiences: Working in a Bureaucratic Environment, Career Dissatisfaction, Exploring Personal Interests",
+          "position": "Mail Administrator",
+          "states": "Anxious, Introspective",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Anna Thompson",
+          "gender": "Female",
+          "description": "Anna is a quiet but observant coworker who seems to understand Lily's inner turmoil. She is empathetic and has a subtle way of showing support without being overt; Female; Age: 33; Occupation: University Administrative Assistant; Personality: Compassionate, Analytical, Discreet; Values: Loyalty, Professional Integrity, Empathy; Interests: Journaling, Classical music, Volunteer mentoring; Experiences: Supported a colleague through a difficult career transition, Managed high-pressure academic scheduling during a departmental crisis, Trained new staff on institutional procedures with patience and care.",
+          "position": "Assistant to the Dean",
+          "states": "Supportive, Observant",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Sarah Mitchell",
+          "gender": "Female",
+          "description": "Sarah is the departmental supervisor, representing institutional expectations and a no-nonsense attitude. She is focused on ensuring all administrative tasks are completed efficiently and on time; Female; Age: 42; Occupation: University Administrative Department Head; Personality: Authoritative, Pressuring, Analytical, Perfectionist; Values: Institutional integrity, Timeliness, Accountability; Interests: Organizational process optimization, Staff performance metrics; Experiences: Managed multiple departmental restructures, Dealt with staff resignations and transitions, Supervised budget allocations for campus services.",
+          "position": "Supervisor, Administrative Department",
+          "states": "Authoritative, Pressuring",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Sarah Mitchell",
+          "character_id": 2,
+          "action": "Calls the meeting to order and addresses Lily directly.",
+          "dialogue": "Lily, I know this is your last day, but I need to confirm that all your pending tasks are accounted for. It’s important for the team to wrap up smoothly."
+        },
+        {
+          "action_id": 1,
+          "character": "Lily Martin",
+          "character_id": 0,
+          "action": "Looks down at her notes, hesitates, and then speaks.",
+          "dialogue": "Yes, Sarah. I’ve completed the bulk of it, and I’ve left detailed instructions for the rest. I just… I want to make sure everything is in order before I go."
+        },
+        {
+          "action_id": 2,
+          "character": "Anna Thompson",
+          "character_id": 1,
+          "action": "Nods subtly at Lily, then adds a comment.",
+          "dialogue": "I’ve been helping Lily with some of the more complex tasks. She’s done a great job keeping everything organized."
+        },
+        {
+          "action_id": 3,
+          "character": "Lily Martin",
+          "character_id": 0,
+          "action": "Looks at Anna with a small, grateful smile.",
+          "dialogue": "Thank you, Anna. I couldn’t have done it without your help."
+        },
+        {
+          "action_id": 4,
+          "character": "Sarah Mitchell",
+          "character_id": 2,
+          "action": "Squints slightly, then insists on more details.",
+          "dialogue": "I appreciate the support, Anna, but Lily, we need to make sure the handover is thorough. You’ve been here for years—don’t leave anything ambiguous."
+        },
+        {
+          "action_id": 5,
+          "character": "Lily Martin",
+          "character_id": 0,
+          "action": "Takes a deep breath and responds with a mix of hesitation and determination.",
+          "dialogue": "I’ve left notes for everything. I just hope it’s enough for the next person. I’ve been looking forward to focusing on my writing for a while now."
+        },
+        {
+          "action_id": 6,
+          "character": "Anna Thompson",
+          "character_id": 1,
+          "action": "Leans in slightly and says with a calm tone.",
+          "dialogue": "That’s great to hear, Lily. I’ve always admired how much you value growth and self-expression. It’s not easy to make a change like that."
+        },
+        {
+          "action_id": 7,
+          "character": "Sarah Mitchell",
+          "character_id": 2,
+          "action": "Frowns and shifts the focus back to the task.",
+          "dialogue": "I understand, Lily, but this isn’t just about you. It’s about the continuity of the department. I’ll need a final check from you by 3 PM today."
+        },
+        {
+          "action_id": 8,
+          "character": "Lily Martin",
+          "character_id": 0,
+          "action": "Nods, though her shoulders tense slightly.",
+          "dialogue": "Of course, Sarah. I’ll make sure it’s done."
+        }
+      ],
+      "plot": "Lily is in her final meeting before leaving her job as a university mail administrator. While her supervisor Sarah pushes for a complete and efficient handover, her coworker Anna subtly acknowledges Lily’s personal growth and her desire to pursue writing. Lily feels caught between her professional obligations and her personal aspirations, but she remains committed to fulfilling her duties before making her exit.",
+      "social_purpose": "To explore Lily's internal conflict and the dynamics between her and her colleagues, showing how her values and personality traits influence her actions and relationships in a professional setting.",
+      "chunk": {
+        "id": 0,
+        "text": "Lily’s final meeting is a microcosm of her larger dilemma. Sarah’s pressure reflects the bureaucratic environment she has grown to dislike, while Anna’s quiet support aligns with her introspective and idealistic nature. The shared goal of a smooth transition allows Lily to demonstrate her commitment to autonomy and growth, even as she wrestles with her anxiety and hesitation."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

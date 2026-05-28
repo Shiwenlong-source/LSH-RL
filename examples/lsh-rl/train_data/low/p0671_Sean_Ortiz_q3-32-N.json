@@ -1,0 +1,98 @@
+{
+  "title": "The Questionable Vow",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Sean challenges a traditional wedding vow in front of his family",
+      "time": "10:30 AM",
+      "location": "St. Mary's Church, San Francisco",
+      "description": "Sean stands at the altar, dressed in a tailored suit, as the wedding ceremony is about to begin. His parents, seated in the front row, are visibly anxious. His wife, Loe, gently touches his arm, trying to calm him. The officiant, Father Michael, prepares to recite the vows, unaware of the conflict brewing.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Sean Ortiz",
+          "gender": "Male",
+          "description": "A 35-year-old physicist, Sean is known for his stubborn and thoughtful nature. He values autonomy and equality and is determined to challenge tradition today.; Male, Wedding Participant, 35 years old; Occupation: Physicist; Personality: Stubborn, Determined, Thoughtful; Values: Autonomy, Equality, Individuality; Interests: Challenging Tradition, Self-Expression, Critical Thinking; Experiences: Facing Faith Conflicts at Weddings, Dealing with Family Expectations, Questioning Religious Rituals",
+          "position": "At the altar",
+          "states": "Nervous but resolute",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Loe Chen",
+          "gender": "Female",
+          "description": "Loe Chen; Female; Age: 32; Occupation: Wedding Planner; Personality: Pragmatic, Empathetic, Calm-under-pressure; Values: Harmony, Commitment, Empathy; Interests: Interior design, Cultural traditions, Mindfulness practices; Experiences: Organized over 100 weddings with a focus on personalization, Navigated a high-profile family conflict during a client's ceremony, Helped couples reconcile differing values through creative compromise.",
+          "position": "Beside Sean",
+          "states": "Anxious but supportive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Father Michael",
+          "gender": "Male",
+          "description": "The officiant, a 50-year-old priest with a calm demeanor; Male; Age: 50; Occupation: Catholic Priest and Wedding Officiant; Personality: Composed, empathetic, traditional; Values: Faith, family unity, respect for commitment; Interests: Studying theology, gardening, quiet walks in the park; Experiences: Officiating over 150 weddings, counseling couples in crisis, navigating cultural changes in modern Catholic practices.",
+          "position": "Behind the pulpit",
+          "states": "Calm and professional",
+          "is_npc": true
+        },
+        {
+          "id": 3,
+          "name": "Mrs. Ortiz",
+          "gender": "Female",
+          "description": "Mrs. Ortiz; Female; Age: 70; Occupation: Retired schoolteacher and Sunday school volunteer; Personality: devout, nurturing, traditional; Values: faith, family unity, respect for elders; Interests: reading scripture, baking for church events, tending her rose garden; Experiences: raised three children in a strict Catholic household, lost her husband to illness five years ago, has always found comfort in tradition and ritual.",
+          "position": "Front row",
+          "states": "Upset and confused",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Sean Ortiz",
+          "character_id": 0,
+          "action": "Interrupts the officiant",
+          "dialogue": "Father, I'd like to adjust the vows. I can't in good conscience say the words that suggest inequality between partners. I believe in partnership, not submission."
+        },
+        {
+          "action_id": 1,
+          "character": "Loe Chen",
+          "character_id": 1,
+          "action": "Whispers to Sean",
+          "dialogue": "Sean, please don't do this. You know how much this day means to your mom and me. Can't we just go with it?"
+        },
+        {
+          "action_id": 2,
+          "character": "Father Michael",
+          "character_id": 2,
+          "action": "Pauses and considers",
+          "dialogue": "I understand your perspective, Sean. Would you like to suggest an alternative?"
+        },
+        {
+          "action_id": 3,
+          "character": "Sean Ortiz",
+          "character_id": 0,
+          "action": "Provides an alternative vow",
+          "dialogue": "I propose we say, 'I will honor and support you, not above you, but beside you, as equals.' That's how I want to start our marriage—on a foundation of mutual respect and autonomy."
+        },
+        {
+          "action_id": 4,
+          "character": "Mrs. Ortiz",
+          "character_id": 3,
+          "action": "Looks at Sean with concern",
+          "dialogue": "Sean, this is a holy day. You're making a mockery of it."
+        }
+      ],
+      "plot": "Sean decides to challenge the traditional wedding vows, which he sees as promoting inequality. His wife tries to dissuade him, fearing the reaction of their family, but Sean is resolute in his belief in equality and self-expression. The officiant, though taken aback, is willing to accommodate the change, but Sean's mother is visibly upset. Sean's actions reflect his internal struggle between his values and family expectations.",
+      "social_purpose": "Highlight the protagonist's values of equality and autonomy while showing the tension between personal beliefs and family expectations in a public setting.",
+      "chunk": {
+        "id": 0,
+        "text": "Sean stands at the altar, dressed in a tailored suit, as the wedding ceremony is about to begin. His parents, seated in the front row, are visibly anxious. His wife, Loe, gently touches his arm, trying to calm him. The officiant, Father Michael, prepares to recite the vows, unaware of the conflict brewing. Sean's choice to challenge the vows reflects his determination to live by his values, even if it means straining his relationship with his family."
+      },
+      "npcs": [
+        1,
+        2,
+        3
+      ]
+    }
+  ]
+}

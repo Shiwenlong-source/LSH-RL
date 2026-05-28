@@ -1,0 +1,102 @@
+{
+  "title": "The Last-Minute Decision",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Eleanor is at a coffee shop with her friend Wendy and her colleague Sun, trying to finalize her travel plans.",
+      "time": "Evening, 6:30 PM",
+      "location": "A cozy, dimly-lit coffee shop near the office",
+      "description": "Eleanor sits at a small table with her laptop open, sipping a latte while Wendy and Sun hover nearby. The atmosphere is warm but tense as Eleanor wrestles with her decision to take a last-minute trip.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Eleanor Evans",
+          "gender": "Female",
+          "description": "A 30-year-old office worker with a mix of ambition and anxiety. She is currently caught between her dream of escaping and her fear of abandoning her work responsibilities.; years old, Female, Office worker, 30 years old; Occupation: Office worker; Personality: Ambitious, Anxious, Dreamy, Hesitant; Values: Personal freedom, Work-life balance, Sense of responsibility; Interests: Travel, Self-improvement, Escaping the daily grind; Experiences: Working long hours, Planning travel, Coping with work stress, Receiving mixed support from friends and colleagues",
+          "position": "At the table, laptop open",
+          "states": "Torn, contemplative, slightly nervous",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Wendy Carter",
+          "gender": "Female",
+          "description": "Eleanor’s supportive and outgoing best friend; Female; Age: 29; Occupation: Social worker; Personality: Encouraging, empathetic, spontaneous; Values: Friendship, personal growth, balance; Interests: Travel, yoga, indie music; Experiences: Took a solo backpacking trip across Southeast Asia, volunteered at a women’s shelter for three years, recently helped Eleanor through a difficult career transition.",
+          "position": "Sitting across from Eleanor",
+          "states": "Encouraging, relaxed, cheerful",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Sun Li",
+          "gender": "Male",
+          "description": "Eleanor’s pragmatic and detail-oriented colleague; Male; Age: 34; Occupation: Project Manager at a mid-sized marketing firm; Personality: Analytical, cautious, loyal; Values: Team stability, accountability, logical decision-making; Interests: Urban planning, board games, minimalist design; Experiences: Led a high-pressure campaign that failed due to a rushed decision, Mediated a team conflict that nearly derailed a project, Spent three years working remotely during the pandemic.",
+          "position": "Standing by the table, holding a coffee cup",
+          "states": "Cautious, concerned, analytical",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Eleanor Evans",
+          "character_id": 0,
+          "action": "Looking at her laptop with a hesitant expression.",
+          "dialogue": "I just don’t know if I should go through with this. I’ve been planning this trip for months, but I keep thinking about the project due next week."
+        },
+        {
+          "action_id": 1,
+          "character": "Wendy Carter",
+          "character_id": 1,
+          "action": "Leaning forward, placing a hand on Eleanor’s arm.",
+          "dialogue": "You’ve worked so hard, Ellie. This is your chance to recharge and come back even more focused. Don’t let guilt ruin it for you."
+        },
+        {
+          "action_id": 2,
+          "character": "Sun Li",
+          "character_id": 2,
+          "action": "Crossing his arms, looking slightly concerned.",
+          "dialogue": "I get it, but have you thought about how the team will handle the workload if you’re away? You’re the one who’s been leading it."
+        },
+        {
+          "action_id": 3,
+          "character": "Eleanor Evans",
+          "character_id": 0,
+          "action": "Sighing and closing her laptop.",
+          "dialogue": "I have. I even made a list of tasks to delegate, and I’ve lined up a backup plan. It’s just… what if I’m making a mistake?"
+        },
+        {
+          "action_id": 4,
+          "character": "Wendy Carter",
+          "character_id": 1,
+          "action": "Smiling and nodding.",
+          "dialogue": "Then it’s the kind of mistake that leads to freedom. You’ve always dreamed of this, right?"
+        },
+        {
+          "action_id": 5,
+          "character": "Sun Li",
+          "character_id": 2,
+          "action": "Sitting down and tapping the table.",
+          "dialogue": "I still think you should double-check the timeline. But if you’re sure you’ve got it under control, I won’t stop you."
+        },
+        {
+          "action_id": 6,
+          "character": "Eleanor Evans",
+          "character_id": 0,
+          "action": "Taking a deep breath and smiling faintly.",
+          "dialogue": "Thanks, Wendy. And thanks, Sun. I’ll make it work. I just need this break to remember why I’m working so hard in the first place."
+        }
+      ],
+      "plot": "Eleanor is trying to decide whether to go on a much-needed trip after receiving conflicting advice from her friend Wendy and her colleague Sun. The interaction reveals her internal struggle between personal freedom and professional duty, as well as her desire to maintain a sense of balance.",
+      "social_purpose": "To explore Eleanor’s personality and values through the lens of a shared goal—her travel decision—while showcasing how her relationships influence her choices.",
+      "chunk": {
+        "id": 0,
+        "text": "Eleanor is at a coffee shop with her friend Wendy and her colleague Sun, trying to finalize her travel plans. The tension in the air reflects Eleanor’s internal conflict as she seeks reassurance from her supportive friend and faces practical concerns from her colleague."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

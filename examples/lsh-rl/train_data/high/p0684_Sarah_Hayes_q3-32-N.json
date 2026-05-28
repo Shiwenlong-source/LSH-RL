@@ -1,0 +1,102 @@
+{
+  "title": "A Quiet Coffee Shop Conversation",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Sarah is invited to a small group discussion with her church friends over coffee to talk about a new mission trip opportunity.",
+      "time": "Afternoon",
+      "location": "A cozy, quiet corner of a local coffee shop",
+      "description": "Sarah sits at a small round table with her two close friends, Molly and Pastor Mark. The aroma of coffee and pastries fills the air, and soft music plays in the background. A pamphlet for the upcoming mission trip lies on the table, partially open.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Sarah Hayes",
+          "gender": "Female",
+          "description": "22-year-old graduate student and church fellowship member. She is deep in thought, her fingers tracing the rim of her coffee cup. Her eyes show a mix of hope and hesitation.; 22-year-old / Female / Church fellowship member, 24 years old; Occupation: Graduate student; Personality: Reflective, Conflicted, Sensitive, Determined; Values: Redemption, Spiritual growth, Honesty, Community; Interests: Faith exploration, Personal development, Literature, Quiet reflection; Experiences: Facing moral dilemmas, Participating in church activities, Seeking inner peace, Experiencing emotional challenges",
+          "position": "Center of the table",
+          "states": "Torn, contemplative, seeking clarity",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Molly Carter",
+          "gender": "Female",
+          "description": "23-year-old church member and Sarah’s best friend; Female; Age: 23; Occupation: Youth group coordinator at the local church; Personality: Encouraging, optimistic, attentive; Values: Community service, faith, friendship; Interests: Bible study, baking, outdoor activities; Experiences: Volunteered at a homeless shelter, participated in a short-term mission trip to Guatemala, led a church-based mentorship program for teenagers.",
+          "position": "To Sarah’s left",
+          "states": "Supportive, empathetic, hopeful",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Pastor Mark",
+          "gender": "Male",
+          "description": "35-year-old church leader; Male; Age: 35; Occupation: Pastor and youth minister at a small suburban church; Personality: Calm, compassionate, introspective; Values: Service, community, spiritual growth; Interests: Reading theological texts, hiking, mentoring young adults; Experiences: Led a mission trip to Central America, worked with at-risk youth in urban outreach programs, served as a crisis counselor during the pandemic.",
+          "position": "Across from Sarah",
+          "states": "Observant, patient, spiritually grounded",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Molly Carter",
+          "character_id": 1,
+          "action": "Leans in and speaks gently.",
+          "dialogue": "Sarah, I know this is a big decision, but I really think this trip could be a turning point for you. You've been struggling with where you want to go next in your journey. Maybe this is the answer."
+        },
+        {
+          "action_id": 1,
+          "character": "Sarah Hayes",
+          "character_id": 0,
+          "action": "Looks down at the pamphlet, then up at Molly.",
+          "dialogue": "I want to believe it could be, Molly. I just... I don’t know if I’m ready to leave the comfort of what I know. My studies, my routine—it all feels so safe."
+        },
+        {
+          "action_id": 2,
+          "character": "Pastor Mark",
+          "character_id": 2,
+          "action": "Nods thoughtfully and offers a perspective.",
+          "dialogue": "Sarah, safety is not always the same as peace. Sometimes, the burden of the past is heavier than the unknown. Have you considered how this might help you grow spiritually and find the redemption you’ve been seeking?"
+        },
+        {
+          "action_id": 3,
+          "character": "Sarah Hayes",
+          "character_id": 0,
+          "action": "Sighs and folds her hands, looking at the table.",
+          "dialogue": "I’ve been reading a lot of spiritual literature lately, and it keeps coming back to the idea of surrender. I just don’t know if I can let go of everything I’ve built here."
+        },
+        {
+          "action_id": 4,
+          "character": "Molly Carter",
+          "character_id": 1,
+          "action": "Reaches across the table to touch Sarah’s hand.",
+          "dialogue": "You don’t have to let go of who you are, Sarah. This is about stepping into who you could become. We’ll be there with you, every step of the way."
+        },
+        {
+          "action_id": 5,
+          "character": "Sarah Hayes",
+          "character_id": 0,
+          "action": "Looks at Molly, then at Pastor Mark, and takes a deep breath.",
+          "dialogue": "I... I think I need to pray about it more. But hearing you both say that makes me wonder if I’ve been holding on too tightly to the past."
+        },
+        {
+          "action_id": 6,
+          "character": "Pastor Mark",
+          "character_id": 2,
+          "action": "Smiles kindly and offers a suggestion.",
+          "dialogue": "That’s a good place to start. Sometimes, the journey to redemption begins with a single step—and a lot of quiet reflection."
+        }
+      ],
+      "plot": "Sarah is considering a mission trip as a way to find spiritual growth and redemption. Her friends, Molly and Pastor Mark, support her and encourage her to take the step. The conversation reveals her internal conflict and desire for change, while also showing her sensitivity and determination.",
+      "social_purpose": "To explore Sarah’s values of redemption and spiritual growth, while also showcasing her personality traits of being reflective and conflicted. The interaction highlights the importance of community and honesty in her decision-making process.",
+      "chunk": {
+        "id": 0,
+        "text": "Sarah, Molly, and Pastor Mark sit in a quiet coffee shop, discussing a mission trip. The conversation reveals Sarah’s struggle between the comfort of her current life and the desire for change. Molly’s empathy and Pastor Mark’s spiritual guidance help her begin to consider the possibility of stepping into the unknown."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

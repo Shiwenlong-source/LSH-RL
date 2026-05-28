@@ -1,0 +1,88 @@
+{
+  "title": "Reconnecting at the Café",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Logan and Hao meet at a local café to catch up, while Tang observes from a distance.",
+      "time": "7:30 PM",
+      "location": "A cozy local café near their apartment",
+      "description": "Logan sits at a corner table, nervously sipping his coffee. Across from him is Hao, who looks older but still familiar. Tang, their roommate, is at a nearby table, reading a book and occasionally glancing at them. The café is dimly lit and quiet, with soft music playing in the background.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Logan Barnes",
+          "gender": "Male",
+          "description": "A 20-year-old college student, thoughtful and emotional, who is trying to reconnect with an old friend.; 20-year-old /Male/College Student, 24 years old; Occupation: College Student; Personality: Emotional, Thoughtful, Open and Inclusive; Values: Friendship, Emotional Connection, Honesty; Interests: Social Interaction, Reflection, Technology; Experiences: Reuniting with an old friend, Experiencing emotional ups and downs, Apartment sharing life",
+          "position": "Corner Table",
+          "states": "Nervous, Excited, Thoughtful",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Hao",
+          "gender": "Male",
+          "description": "An old friend of Logan's, now in his mid-20s, who reached out unexpectedly; Male; Age: 26; Occupation: Freelance graphic designer and part-time barista; Personality: Calm, Reflective, Curious; Values: Loyalty, Personal growth, Artistic expression; Interests: Coffee culture, Urban photography, Minimalist design; Experiences: Spent two years traveling through Southeast Asia after college, recently returned to the city to rebuild his life, briefly worked in a corporate design firm before choosing freelance work for creative freedom.",
+          "position": "Across from Logan",
+          "states": "Calm, Reflective, Curious",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Tang",
+          "gender": "Male",
+          "description": "Tang is Logan's observant and calm roommate who quietly supports those around him; Male; Age: 26; Occupation: Part-time barista and freelance graphic designer; Personality: Thoughtful, empathetic, patient; Values: Loyalty, personal growth, harmony; Interests: Reading literary fiction, urban sketching, meditative walks; Experiences: Grew up in a close-knit family that valued open communication, worked multiple part-time jobs while studying design, helped Logan through a difficult period after a personal loss.",
+          "position": "Nearby Table",
+          "states": "Supportive, Observant, Calm",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Logan Barnes",
+          "character_id": 0,
+          "action": "Initiates conversation",
+          "dialogue": "It's been way too long, Hao. I can't believe you finally reached out. How have you been?"
+        },
+        {
+          "action_id": 1,
+          "character": "Hao",
+          "character_id": 1,
+          "action": "Responds warmly",
+          "dialogue": "Honestly, I've been thinking about the old days a lot lately. I wanted to see how you were doing. You always had a way of making me feel understood."
+        },
+        {
+          "action_id": 2,
+          "character": "Logan Barnes",
+          "character_id": 0,
+          "action": "Shares a personal story",
+          "dialogue": "I've been going through some stuff lately. It's been tough being away from people I care about. But seeing you again feels like a spark of something I've been missing."
+        },
+        {
+          "action_id": 3,
+          "character": "Hao",
+          "character_id": 1,
+          "action": "Expresses empathy",
+          "dialogue": "I get that. Life changes, but some connections never really fade. I'm here if you want to talk."
+        },
+        {
+          "action_id": 4,
+          "character": "Tang",
+          "character_id": 2,
+          "action": "Looks up and smiles",
+          "dialogue": "I'm glad you're both finding your way back to each other. That means a lot, Logan."
+        }
+      ],
+      "plot": "Logan and Hao reconnect over coffee, sharing memories and emotions. Tang watches from a nearby table, feeling a sense of relief and connection to his roommate's journey. The evening becomes a turning point in Logan's emotional state as he considers the possibility of rekindling an old friendship.",
+      "social_purpose": "To explore themes of friendship, emotional connection, and the impact of past relationships on current well-being through a natural and realistic interaction.",
+      "chunk": {
+        "id": 0,
+        "text": "Logan and Hao's meeting at the café allows for a meaningful exchange of feelings and experiences. Tang's quiet presence adds a layer of support, highlighting the importance of community and understanding in social interactions."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

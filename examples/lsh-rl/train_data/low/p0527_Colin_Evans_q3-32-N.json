@@ -1,0 +1,102 @@
+{
+  "title": "Registering for Change",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Voter registration rally",
+      "time": "Saturday morning, 9:00 AM",
+      "location": "Downtown Park, Community Center Pavilion",
+      "description": "A small but passionate group of volunteers is setting up a voter registration booth in a bustling downtown park. The event is part of a local initiative to increase civic participation ahead of the upcoming city elections. Colin Evans, the bookstore owner and community volunteer, is at the center of the activity, leading the effort with his characteristic enthusiasm and determination.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Colin Evans",
+          "gender": "Male",
+          "description": "A 25-year-old bookstore owner and community volunteer with a firm, responsible, and enthusiastic personality. He is deeply committed to civic duty and community empowerment.; Male/Community Volunteer, 25 years old; Occupation: Bookstore Owner; Personality: Firm, Responsible, Enthusiastic; Values: Civic Duty, Democracy, Community Empowerment; Interests: Political Participation, Social Justice, Public Service; Experiences: Voter registration issues, Community Organizing, Inspiring Leadership",
+          "position": "Center of the booth, leading the registration effort",
+          "states": "Energetic, focused, and determined to make a difference",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Shary Moore",
+          "gender": "Female",
+          "description": "A 30-year-old local teacher and long-time community organizer. She is calm and practical, often providing logistical support and encouragement to others; Female; Age: 30; Occupation: High school civics teacher and community outreach coordinator; Personality: Supportive, organized, patient; Values: Civic responsibility, equity, collaboration; Interests: Urban gardening, local history, mentoring youth; Experiences: Led a successful voter education campaign in her school district, helped organize a community food drive during the pandemic, served on the city’s youth engagement council.",
+          "position": "Near Colin, managing paperwork and guiding residents",
+          "states": "Supportive, organized, and patient",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Lucy Ramirez",
+          "gender": "Female",
+          "description": "A 22-year-old college student who initially came to the event with skepticism but is gradually being drawn in by Colin’s passion and Shary’s guidance; Female; Age: 22; Occupation: Political Science major and part-time barista; Personality: Analytical, observant, gradually becoming empathetic; Values: Civic responsibility, intellectual honesty, community empowerment; Interests: Political theory, social justice, indie music; Experiences: Volunteered for a local environmental campaign, participated in campus debate club, grew up in a politically disengaged household.",
+          "position": "Standing at the edge of the booth, observing and occasionally helping",
+          "states": "Cautious at first, then curious and eventually engaged",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Colin Evans",
+          "character_id": 0,
+          "action": "Greets a group of young residents and explains the importance of voter registration.",
+          "dialogue": "Hey everyone! I know it might seem like a small step, but registering to vote is one of the most powerful things we can do for our community. It’s how we shape the future and make sure our voices are heard."
+        },
+        {
+          "action_id": 1,
+          "character": "Shary Moore",
+          "character_id": 1,
+          "action": "Hands out registration forms and helps fill them out for people who are unsure how to proceed.",
+          "dialogue": "Don’t worry, it’s simple. I’ll walk you through it. All you need is your ID and a few minutes of your time. Let’s get you ready to vote."
+        },
+        {
+          "action_id": 2,
+          "character": "Lucy Ramirez",
+          "character_id": 2,
+          "action": "Approaches Colin with a hesitant question about the registration process.",
+          "dialogue": "Um, I was just wondering—what if I made a mistake on my form? Like, if I put the wrong address or something?"
+        },
+        {
+          "action_id": 3,
+          "character": "Colin Evans",
+          "character_id": 0,
+          "action": "Reassures Lucy and shares his own experience with voter registration challenges.",
+          "dialogue": "I’ve been there too, Lucy. I once accidentally registered at my old apartment. But don’t worry, we can correct it. That’s why I’m here—to make sure no one gets left behind."
+        },
+        {
+          "action_id": 4,
+          "character": "Shary Moore",
+          "character_id": 1,
+          "action": "Nods in agreement and encourages Lucy to stay.",
+          "dialogue": "That’s right. Colin’s been through this before, and he’s not going to let anyone slip through the cracks. We’re all in this together."
+        },
+        {
+          "action_id": 5,
+          "character": "Lucy Ramirez",
+          "character_id": 2,
+          "action": "Decides to stay and help with the registration process.",
+          "dialogue": "Okay, you’ve convinced me. I’ll help out. Maybe I can make up for the time I spent doubting it all."
+        },
+        {
+          "action_id": 6,
+          "character": "Colin Evans",
+          "character_id": 0,
+          "action": "Smiles and hands Lucy a stack of forms.",
+          "dialogue": "That’s the spirit! Every form we collect is a step toward a stronger, more empowered community. Thank you for joining us."
+        }
+      ],
+      "plot": "Colin leads a voter registration rally in the park, supported by Shary and joined by Lucy after she is persuaded by Colin’s commitment and Shary’s encouragement. The group works together to register as many residents as possible, with the shared goal of increasing voter turnout and civic engagement in the upcoming elections.",
+      "social_purpose": "To demonstrate how civic engagement can be fostered through collective effort and personal commitment, showing how individuals with different attitudes can come together for a common cause.",
+      "chunk": {
+        "id": 0,
+        "text": "Colin stands at the registration booth, handing out forms and speaking to a small crowd. Shary is nearby, helping residents fill out their information. Lucy, who was initially skeptical, steps forward with a question about the process. Colin answers with confidence and shares a personal story about overcoming registration issues. Shary backs him up, and Lucy decides to help. The group works together, and the booth becomes a hub of activity as more residents are drawn in by their enthusiasm and the sense of purpose in the air."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

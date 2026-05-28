@@ -1,0 +1,123 @@
+{
+  "title": "The Confession in the Café",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Simon and Joy meet at a quiet café for a late-night conversation.",
+      "time": "10:30 PM",
+      "location": "Corner Café, a cozy and dimly lit spot with soft jazz music playing in the background.",
+      "description": "Simon and Joy sit across from each other at a small table by the window. The atmosphere is calm, but the tension is palpable. Simon fidgets with his coffee cup, while Joy stares out the window, trying to read the unease in his face.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Simon Brown",
+          "gender": "Male",
+          "description": "A 26-year-old engineer with a thoughtful and affectionate nature, but visibly anxious about what he is about to say. He wears a slightly rumpled shirt, showing he has been up late.; 26-year-old /Male/Lover, 24 years old; Occupation: Engineer; Personality: Affectionate, Anxious, Honest, Determined; Values: Truth, Emotional connection, Integrity; Interests: Deep conversations, Personal growth, Romantic relationships; Experiences: Late-night emotional conversations, Challenges in love, Self-reflection",
+          "position": "Seated across from Joy, looking at her with a mix of determination and fear.",
+          "states": "Nervous, determined, emotionally vulnerable",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Joy Carter",
+          "gender": "Female",
+          "description": "A 24-year-old graphic designer with a calm and perceptive demeanor; Female; Age: 24; Occupation: Freelance graphic designer and part-time art instructor; Personality: Analytical, compassionate, observant; Values: Honesty, emotional authenticity; Interests: Urban sketching, indie music, storytelling; Experiences: Navigated a difficult long-distance relationship, worked on a community mural project that brought people together, lost a close friend to a sudden accident, which made her more attuned to the fragility of life.",
+          "position": "Seated across from Simon, sipping her latte slowly and watching him closely.",
+          "states": "Cautious, empathetic, curious",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Liam",
+          "gender": "Male",
+          "description": "A 28-year-old barista at the café who is observant and has a quiet, supportive personality; Male; Age: 28; Occupation: Barista and part-time nightshift counselor at a community outreach program; Personality: Observant, calm, attentive; Values: Empathy, patience, authenticity; Interests: Soft jazz music, poetry, stargazing; Experiences: Grew up in a foster care system, worked multiple jobs to support his younger siblings, has helped countless patrons navigate personal crises during his late-night shifts.",
+          "position": "Behind the counter, wiping the espresso machine while occasionally glancing at Simon and Joy.",
+          "states": "Observant, calm, attentive",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Simon Brown",
+          "character_id": 0,
+          "action": "Clears his throat and begins to speak.",
+          "dialogue": "Joy, I need to tell you something. I’ve been thinking about it for days, and I can’t keep it inside any longer."
+        },
+        {
+          "action_id": 1,
+          "character": "Joy Carter",
+          "character_id": 1,
+          "action": "Leans forward slightly and places her cup down.",
+          "dialogue": "Okay... I can tell it’s important. What is it?"
+        },
+        {
+          "action_id": 2,
+          "character": "Simon Brown",
+          "character_id": 0,
+          "action": "Takes a deep breath and looks down for a moment before meeting her eyes.",
+          "dialogue": "I’ve been honest with you about everything so far, and I want to keep it that way. But this... this might be hard for you to hear."
+        },
+        {
+          "action_id": 3,
+          "character": "Joy Carter",
+          "character_id": 1,
+          "action": "Nods slowly, showing she is ready to listen.",
+          "dialogue": "I appreciate your honesty, Simon. I’m here for you, no matter what it is."
+        },
+        {
+          "action_id": 4,
+          "character": "Simon Brown",
+          "character_id": 0,
+          "action": "Takes her hand across the table, showing his affection and vulnerability.",
+          "dialogue": "I’ve been in contact with someone from my past. Someone I thought I left behind a long time ago. It’s not what it sounds like, but I needed to tell you before it becomes a bigger issue."
+        },
+        {
+          "action_id": 5,
+          "character": "Joy Carter",
+          "character_id": 1,
+          "action": "Squeezes his hand gently and furrows her brow slightly.",
+          "dialogue": "I see. Is this someone from your life before we met?"
+        },
+        {
+          "action_id": 6,
+          "character": "Simon Brown",
+          "character_id": 0,
+          "action": "Nods, his voice trembling slightly.",
+          "dialogue": "Yes. And I want you to know that I’m not trying to hide anything. I just... I need you to understand how much you mean to me, and why I’m choosing to be open about this now."
+        },
+        {
+          "action_id": 7,
+          "character": "Liam",
+          "character_id": 2,
+          "action": "Approaches the table with a fresh cup of coffee for Simon.",
+          "dialogue": "You okay back there, Simon? I can bring you a refill if you need it."
+        },
+        {
+          "action_id": 8,
+          "character": "Simon Brown",
+          "character_id": 0,
+          "action": "Smiles weakly at Liam’s gesture and thanks him.",
+          "dialogue": "Thanks, Liam. That would be great."
+        },
+        {
+          "action_id": 9,
+          "character": "Joy Carter",
+          "character_id": 1,
+          "action": "Looks at Simon with a mix of concern and trust.",
+          "dialogue": "You don’t have to explain right now if you’re not ready. Just... thank you for telling me."
+        }
+      ],
+      "plot": "Simon is trying to confess a difficult truth about his past to Joy during a late-night café meeting. His honesty and emotional vulnerability are on full display, while Joy listens with empathy and curiosity. Liam, the barista, subtly supports the conversation by offering a coffee refill, showing the café is a familiar and safe environment for them.",
+      "social_purpose": "To explore Simon’s commitment to truth and emotional connection, while also showing the trust and support in his relationship with Joy.",
+      "chunk": {
+        "id": 0,
+        "text": "Simon and Joy are in a quiet café at 10:30 PM. Simon is anxious and determined, and he finally decides to speak up about something he has been holding in for a while. Joy is cautious but supportive, sensing the gravity of the moment. Liam, the barista, notices the tension and offers a small but meaningful gesture of support. The scene captures the emotional weight of Simon’s honesty and the strength of their relationship as he faces his fears and shares his truth."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "title": "Dinner Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Logan Brooks is deciding whether to join his friends for dinner or spend time with his father after school.",
+      "time": "4:30 PM",
+      "location": "Logan's home, near the kitchen and balcony",
+      "description": "Logan stands at the edge of the kitchen, caught between his father Olive, who has just returned from work, and his two friends, Jack and Mike, who are waiting on the balcony. The tension is palpable as both sides make their case.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Logan Brooks",
+          "gender": "Male",
+          "description": "A 16-year-old high school student with a lively and thoughtful demeanor, visibly torn between two important people in his life.; 16-year-old teenager/male/high school student, 16 years old; Occupation: High school student; Personality: Lively, Torn, Empathetic, Thoughtful; Values: Family, Friendship, Responsibility; Interests: Socializing, Family time, Decision making; Experiences: Balancing social and family life, Experiencing peer pressure, Navigating teenage relationships",
+          "position": "Kitchen doorway",
+          "states": "Uncertain, empathetic, conflicted",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Olive Brooks",
+          "gender": "Male",
+          "description": "Logan's father, in his 40s, just off work and visibly tired but eager for some family time; Male; Age: 45; Occupation: High school history teacher; Personality: Caring, patient, introverted; Values: Family, education, integrity; Interests: Reading historical fiction, gardening, quiet evenings at home; Experiences: Worked long hours grading exams, recently reconciled with Logan after a period of emotional distance, grew up in a close-knit family himself.",
+          "position": "Kitchen",
+          "states": "Exhausted, expectant, gentle",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Jack",
+          "gender": "Male",
+          "description": "Logan's close friend, male; Age: 16; Occupation: High school student; Personality: Energetic, persuasive, impulsive; Values: Friendship, spontaneity, loyalty; Interests: Video games, skateboarding, trying new foods; Experiences: Skipping school to hang out in the city, convincing Logan to join secret midnight adventures, helping him cope during his mother's illness.",
+          "position": "Balcony",
+          "states": "Eager, playful, concerned",
+          "is_npc": true
+        },
+        {
+          "id": 3,
+          "name": "Mike",
+          "gender": "Male",
+          "description": "Another one of Logan's friends, 16 years old, more laid-back but equally insistent about the dinner plans; Male; Age: 16; Occupation: High school student; Personality: easygoing, persuasive, friendly; Values: loyalty, fun, time with friends; Interests: skateboarding, video games, casual hangouts; Experiences: frequently spends afternoons with Logan, has a close-knit group of friends, occasionally mediates between Logan and his family.",
+          "position": "Balcony",
+          "states": "Relaxed, encouraging, slightly impatient",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Olive Brooks",
+          "character_id": 1,
+          "action": "Olive leans against the kitchen counter and looks at Logan with a tired but hopeful expression.",
+          "dialogue": "Hey, son. I just got off work, and I was hoping we could have dinner together. Your mom’s lasagna is in the oven. What do you say?"
+        },
+        {
+          "action_id": 1,
+          "character": "Jack",
+          "character_id": 2,
+          "action": "Jack pokes his head through the balcony door and grins at Logan.",
+          "dialogue": "Come on, Logie! We’re already at the pizza place. You can’t ditch us now. It’s been forever since we all hung out."
+        },
+        {
+          "action_id": 2,
+          "character": "Mike",
+          "character_id": 3,
+          "action": "Mike nods at Logan, his tone light but insistent.",
+          "dialogue": "Yeah, man. We saved you a seat. Don’t make us eat without you."
+        },
+        {
+          "action_id": 3,
+          "character": "Logan Brooks",
+          "character_id": 0,
+          "action": "Logan shifts uncomfortably, looking between his father and the balcony.",
+          "dialogue": "Dad, I really want to spend time with you, but Jack and Mike are already there. I don’t want to let them down either."
+        },
+        {
+          "action_id": 4,
+          "character": "Olive Brooks",
+          "character_id": 1,
+          "action": "Olive sighs and gives a small, understanding smile.",
+          "dialogue": "I get it, son. You’ve got your friends and school stuff. But when’s the next time we’ll have a chance to talk?"
+        },
+        {
+          "action_id": 5,
+          "character": "Logan Brooks",
+          "character_id": 0,
+          "action": "Logan steps closer to his father, showing his empathetic side.",
+          "dialogue": "You’re right. I’ve been so caught up in everything else lately. I don’t want to miss out on that."
+        },
+        {
+          "action_id": 6,
+          "character": "Jack",
+          "character_id": 2,
+          "action": "Jack looks disappointed but tries to stay light.",
+          "dialogue": "Aww, man. You’re gonna miss the best pizza in town for lasagna?"
+        },
+        {
+          "action_id": 7,
+          "character": "Mike",
+          "character_id": 3,
+          "action": "Mike shrugs, trying to be supportive.",
+          "dialogue": "It’s cool, Log. We can go another time. Family first, I guess."
+        },
+        {
+          "action_id": 8,
+          "character": "Logan Brooks",
+          "character_id": 0,
+          "action": "Logan gives a small smile and turns to his father, showing his thoughtful and responsible side.",
+          "dialogue": "Thanks, guys. I’ll meet you there later. I just need to be with my dad for a bit."
+        },
+        {
+          "action_id": 9,
+          "character": "Olive Brooks",
+          "character_id": 1,
+          "action": "Olive nods and gently pats Logan’s shoulder.",
+          "dialogue": "That’s my boy. Let’s grab a seat and talk. You can tell me all about your day."
+        }
+      ],
+      "plot": "Logan Brooks is caught between spending time with his friends and honoring his family responsibilities. After a brief but meaningful exchange, he chooses to stay with his father, showing his values of empathy and responsibility.",
+      "social_purpose": "To demonstrate how a teenager navigates the tension between friendship and family while making a thoughtful, empathetic decision.",
+      "chunk": {
+        "id": 0,
+        "text": "Logan Brooks is caught between spending time with his friends and honoring his family responsibilities. After a brief but meaningful exchange, he chooses to stay with his father, showing his values of empathy and responsibility."
+      },
+      "npcs": [
+        1,
+        2,
+        3
+      ]
+    }
+  ]
+}

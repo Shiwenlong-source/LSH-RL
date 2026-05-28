@@ -1,0 +1,95 @@
+{
+  "title": "The Waste Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Wedding Cleanup",
+      "time": "11:45 PM",
+      "location": "Outside a luxury hotel, where a wedding reception just ended",
+      "description": "Ian Ortiz, a 37-year-old wedding caterer, is standing by the trash heap, exhausted after a long day. His colleague, Chen, is sorting through the waste with meticulous care, while Tao, a church cleaner, is preparing to haul the trash directly to the dumpster. The tension between doing the right thing and saving time is palpable.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Ian Ortiz",
+          "gender": "Male",
+          "description": "A wedding caterer in his mid-30s, visibly tired but still trying to uphold his values. He wears a catering apron and holds a flashlight.; Male, Wedding caterer, 37 years old; Occupation: Wedding caterer; Personality: Responsible, Principled, Weary, Thoughtful; Values: Environmental responsibility, Professional ethics; Interests: Event planning, Sustainable development, Teamwork; Experiences: Organizing large events, Facing ethical dilemmas, Working late into the night",
+          "position": "Near the trash heap, observing the situation",
+          "states": "Weary, conflicted, thoughtful",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Chen",
+          "gender": "Male",
+          "description": "A younger, energetic caterer who is passionate about sustainability; Male; Age: 26; Occupation: Catering Assistant; Personality: Determined, focused, idealistic; Values: Environmental responsibility, diligence, innovation; Interests: Urban farming, zero-waste cooking, experimenting with plant-based recipes; Experiences: Volunteered at a community composting initiative, organized a sustainable food fair at a local college, led a team in reducing food waste at a high-profile event.",
+          "position": "Sorting waste in the heap",
+          "states": "Determined, focused, idealistic",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Tao",
+          "gender": "Male",
+          "description": "A church cleaner with a no-nonsense attitude; Male; Age: 58; Occupation: Church Custodian; Personality: Pragmatic, impatient, efficient; Values: Practicality, respect for sacred spaces; Interests: Fixer upper projects, classic cars; Experiences: Managed cleanup after large church events, worked multiple jobs to support family during economic downturns.",
+          "position": "Next to the dumpster",
+          "states": "Pragmatic, impatient, efficient",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Chen",
+          "character_id": 1,
+          "action": "calls out to Ian",
+          "dialogue": "Ian, we need to sort this out before we leave. We promised the client we’d be eco-friendly."
+        },
+        {
+          "action_id": 1,
+          "character": "Ian Ortiz",
+          "character_id": 0,
+          "action": "responds with a sigh",
+          "dialogue": "I know, Chen. But it’s late, and I just want to get this over with. Tomorrow’s another big event."
+        },
+        {
+          "action_id": 2,
+          "character": "Tao",
+          "character_id": 2,
+          "action": "adds his opinion",
+          "dialogue": "You can’t promise something and not follow through. Even if it’s late, we owe it to the people who hired us."
+        },
+        {
+          "action_id": 3,
+          "character": "Ian Ortiz",
+          "character_id": 0,
+          "action": "pauses and looks at the trash",
+          "dialogue": "You’re right, Tao. I just... I don’t know if I can do this tonight. It’s not fair to the team, but I don’t want to break our commitment."
+        },
+        {
+          "action_id": 4,
+          "character": "Chen",
+          "character_id": 1,
+          "action": "offers help",
+          "dialogue": "We can do it together. I’ll take the plastic and paper. You can handle the rest. It won’t take long."
+        },
+        {
+          "action_id": 5,
+          "character": "Ian Ortiz",
+          "character_id": 0,
+          "action": "nods and joins in",
+          "dialogue": "Alright, let’s do this. But I’m setting the timer for 20 minutes. If we’re not done by then, we move on."
+        }
+      ],
+      "plot": "Ian Ortiz is caught in a dilemma after a wedding event. His colleague Chen insists on sorting the trash to uphold their environmental promise, while Tao, the church cleaner, is more concerned with efficiency. Ian, though weary, chooses to honor his professional ethics and values by joining Chen in sorting the waste, despite the pressure to move quickly.",
+      "social_purpose": "The scenario explores the tension between personal values and practical demands in a professional setting. It highlights how individuals balance their principles with the realities of their work, and the importance of teamwork and compromise in achieving shared goals.",
+      "chunk": {
+        "id": 0,
+        "text": "Ian Ortiz, a wedding caterer in his mid-30s, is standing by the trash heap after a long day of work, exhausted but still trying to uphold his values. His colleague, Chen, is sorting through the waste with meticulous care, while Tao, a church cleaner, is preparing to haul the trash directly to the dumpster. The tension between doing the right thing and saving time is palpable."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

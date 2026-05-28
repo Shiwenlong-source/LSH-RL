@@ -1,0 +1,88 @@
+{
+  "title": "Twin's Support in a Coffee Shop",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Austin and Yong meet with Lina at a quiet coffee shop to discuss Yong's relationship issues.",
+      "time": "7:00 PM",
+      "location": "Local Coffee Shop",
+      "description": "The coffee shop is dimly lit and nearly empty, with only a few customers scattered around. Austin sits across from Yong, leaning forward with concern. Lina sits beside Yong, offering quiet encouragement. The atmosphere is tense but supportive as the three prepare to discuss a difficult topic.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Austin Simpson",
+          "gender": "Male",
+          "description": "Austin is a 25-year-old guitarist, known for his responsible and empathetic nature. He is visibly focused and ready to help his brother.; Male, Yong's Twin Brother, 25 years old; Occupation: Guitarist; Personality: Responsible, Empathetic, Determined; Values: Family, Emotional support, Sincerity; Interests: Brotherly support, Late-night talks, Problem-solving; Experiences: Supporting a brother's emotional crisis, Deep late-night conversations, Handling complex relationships",
+          "position": "Across from Yong",
+          "states": "Concerned, determined",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Yong Simpson",
+          "gender": "Male",
+          "description": "Yong is Austin's 25-year-old twin brother. He is emotionally conflicted and hesitant to make a decision about his relationship; Male; Age: 25; Occupation: Part-time barista and freelance graphic designer; Personality: introspective, empathetic, indecisive; Values: honesty, emotional connection; Interests: indie music, journaling, black coffee with a splash of milk; Experiences: recently ended a long-term relationship due to unresolved issues, is navigating a new connection that feels promising but unstable, has always relied on Austin for emotional support in tough decisions.",
+          "position": "Center of the table",
+          "states": "Hesitant, conflicted",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Lina Chen",
+          "gender": "Female",
+          "description": "Lina is a close friend of Yong and Austin. She is supportive and observant, often acting as a mediator in tense situations; Female; Age: 28; Occupation: Counselor; Personality: Empathetic, patient, analytical; Values: Loyalty, emotional well-being, honesty; Interests: Reading self-help books, practicing yoga, listening to indie folk music; Experiences: Trained in conflict resolution and active listening, helped friends navigate difficult life transitions, worked part-time in a community mental health center.",
+          "position": "Beside Yong",
+          "states": "Supportive, calm",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Austin Simpson",
+          "character_id": 0,
+          "action": "Leans forward and speaks with sincerity.",
+          "dialogue": "Yong, I know this is tough, but you don't have to go through it alone. We're here to help you figure it out."
+        },
+        {
+          "action_id": 1,
+          "character": "Yong Simpson",
+          "character_id": 1,
+          "action": "Looks down at his coffee, avoiding eye contact.",
+          "dialogue": "I just don't know if it's worth it anymore... I feel like I'm stuck in a loop."
+        },
+        {
+          "action_id": 2,
+          "character": "Lina Chen",
+          "character_id": 2,
+          "action": "Places a hand on Yong's shoulder and offers reassurance.",
+          "dialogue": "Whatever you decide, it's okay. Just make sure it's what you truly want, not what you think we expect."
+        },
+        {
+          "action_id": 3,
+          "character": "Austin Simpson",
+          "character_id": 0,
+          "action": "Nods and shares a personal experience.",
+          "dialogue": "I went through something similar with my band a while back. It took me time to realize what I really needed. Maybe you need to do the same."
+        },
+        {
+          "action_id": 4,
+          "character": "Yong Simpson",
+          "character_id": 1,
+          "action": "Takes a deep breath and opens up.",
+          "dialogue": "I feel like I'm being pulled in two directions. I care about her, but the pain is too much. I don't know how to fix it."
+        }
+      ],
+      "plot": "Austin, Yong, and Lina meet in a quiet coffee shop to help Yong navigate his emotional crisis. Austin's determination and empathy shine through as he supports his brother, while Lina provides a calming presence. Yong is at a crossroads and slowly begins to open up about his feelings.",
+      "social_purpose": "To explore Yong's internal conflict and the importance of family and emotional support through a realistic, public conversation. Austin's traits of responsibility and determination are shown as he encourages Yong, while Lina's supportive nature helps ease the tension.",
+      "chunk": {
+        "id": 0,
+        "text": "The conversation continues as the three of them work through Yong's dilemma, with Austin offering practical advice and Lina providing emotional reassurance."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

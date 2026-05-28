@@ -1,0 +1,95 @@
+{
+  "title": "Rehearsal Room Tension",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Band rehearsal",
+      "time": "Afternoon",
+      "location": "Unity Youth Band rehearsal room",
+      "description": "Ezra is at the piano, playing scales with intense focus. The room is dimly lit, with posters of past performances on the walls. Two other band members, Leo and Angel, are nearby, with Leo leaning against the wall and Angel sitting on a bench, watching Ezra closely.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Ezra Burns",
+          "gender": "Male",
+          "description": "22-year-old pianist with a focused and determined expression, fingers moving rapidly over the keys.; 22-year-old male, musician, 22 years old; Occupation: Band pianist; Personality: Determined, Self-disciplined, Resilient; Values: Dedication, Teamwork, Professionalism; Interests: Practicing piano, Band performances, Technical improvement; Experiences: Intense rehearsal, Performance preparation, Peer interaction in music groups",
+          "position": "At the piano",
+          "states": "Exhausted but determined",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Leo",
+          "gender": "Male",
+          "description": "A laid-back guitarist with a mischievous grin, clearly enjoying Ezra's hard work; Male; Age: 19; Occupation: Aspiring musician and part-time music tutor; Personality: Easygoing, playful, observant; Values: Creativity, loyalty, fun; Interests: Improvisation, vintage guitar gear, storytelling; Experiences: Played in local open-mic scenes since high school, helped mentor younger band members in the Unity Youth Band, recovered from a hand injury that nearly ended his musical career.",
+          "position": "Leaning against the wall",
+          "states": "Relaxed and teasing",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Angel",
+          "gender": "Female",
+          "description": "A drummer who is observant and empathetic, watching Ezra with concern; Female; Age: 17; Occupation: High school student and part-time music instructor for younger kids; Personality: Compassionate, perceptive, patient; Values: Teamwork, emotional support, dedication to craft; Interests: Live performances, journaling, acoustic music; Experiences: Mentored a struggling bandmate through stage fright, helped organize a charity concert for a local shelter, witnessed a friend's emotional breakdown during rehearsal.",
+          "position": "On the bench",
+          "states": "Caring and worried",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Leo",
+          "character_id": 1,
+          "action": "Tease Ezra",
+          "dialogue": "You're going to break the piano if you keep at it like that, Burns."
+        },
+        {
+          "action_id": 1,
+          "character": "Angel",
+          "character_id": 2,
+          "action": "Advise Ezra to rest",
+          "dialogue": "Ezra, you've been at it for hours. Take a break before you burn out."
+        },
+        {
+          "action_id": 2,
+          "character": "Ezra Burns",
+          "character_id": 0,
+          "action": "Respond with determination",
+          "dialogue": "I can't stop now. The performance is in two days, and I need to make sure I don't let the team down."
+        },
+        {
+          "action_id": 3,
+          "character": "Leo",
+          "character_id": 1,
+          "action": "Mock Ezra's seriousness",
+          "dialogue": "You're too serious, man. It's just a show. We've all got your back."
+        },
+        {
+          "action_id": 4,
+          "character": "Angel",
+          "character_id": 2,
+          "action": "Acknowledge Ezra's effort",
+          "dialogue": "He's got a point, Ezra. But you don't have to do it all alone. We're a team, remember?"
+        },
+        {
+          "action_id": 5,
+          "character": "Ezra Burns",
+          "character_id": 0,
+          "action": "Continue practicing",
+          "dialogue": "I know, but I can't risk messing up my part. I'll take a break after this run-through."
+        }
+      ],
+      "plot": "Ezra is practicing piano in the Unity Youth Band rehearsal room, pushing himself despite being exhausted. Leo teases him for his overzealous attitude, while Angel tries to get him to take a break. Ezra insists on continuing, showing his dedication and the pressure he feels to perform well.",
+      "social_purpose": "To explore the dynamics of peer support and pressure in a music group, while highlighting Ezra's values of dedication, teamwork, and professionalism.",
+      "chunk": {
+        "id": 0,
+        "text": "Ezra is practicing piano in the Unity Youth Band rehearsal room, pushing himself despite being exhausted. Leo teases him for his overzealous attitude, while Angel tries to get him to take a break. Ezra insists on continuing, showing his dedication and the pressure he feels to perform well."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

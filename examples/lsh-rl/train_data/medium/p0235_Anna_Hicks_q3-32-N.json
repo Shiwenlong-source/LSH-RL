@@ -1,0 +1,102 @@
+{
+  "title": "Breaking the Chocolate Barrier",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Group Study Session",
+      "time": "Afternoon",
+      "location": "School Library",
+      "description": "Anna Hicks sits at a corner table in the school library, surrounded by her books and a half-eaten chocolate bar. She is trying to focus on her upcoming history test but is distracted by her own thoughts and the tension around her. Bob, her classmate, sits across from her with a dismissive attitude, while Mary, a close friend, sits beside Anna, trying to engage her in conversation.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Anna Hicks",
+          "gender": "Female",
+          "description": "A 17-year-old high school student with emotional instability and a strong desire for self-improvement. She often uses chocolate to manage her anxiety and is in a dilemma about opening up to others.; Female, High School Student, 17 years old; Occupation: High School Student; Personality: Emotional, Determined, Self-aware; Values: Self-improvement, Independence, Emotional Control; Interests: Self-reflection, Emotional Management, Academic Focus; Experiences: Emotional Instability, Seeking Personal Growth, Handling Interpersonal Relationships",
+          "position": "Corner of the table",
+          "states": "Anxious, conflicted, focused",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Bob Thompson",
+          "gender": "Male",
+          "description": "A classmate of Anna's with an indifferent and aloof attitude; Male; Age: 17; Occupation: High school junior; Personality: Detached, pragmatic, reserved; Values: Independence, efficiency, privacy; Interests: Coding, robotics, video games; Experiences: Won regional science fair in 10th grade, struggled with social anxiety in middle school, spends most free time in the library or computer lab.",
+          "position": "Across from Anna",
+          "states": "Detached, uninterested, focused",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Mary Chen",
+          "gender": "Female",
+          "description": "A supportive and caring friend of Anna's. She is concerned about Anna's emotional struggles and tries to encourage her to seek help and open up; Female; Age: 17; Occupation: High school student; Personality: Empathetic, persistent, optimistic; Values: Loyalty, emotional well-being, academic integrity; Interests: Reading self-help books, journaling, helping others; Experiences: Has supported a friend through anxiety, participated in peer counseling workshops, volunteers at a youth mental health center.",
+          "position": "Beside Anna",
+          "states": "Concerned, patient, encouraging",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Mary Chen",
+          "character_id": 2,
+          "action": "Asks Anna a question",
+          "dialogue": "Hey Anna, are you okay? You've been really quiet today. You want to talk about it?"
+        },
+        {
+          "action_id": 1,
+          "character": "Anna Hicks",
+          "character_id": 0,
+          "action": "Avoids eye contact and eats chocolate",
+          "dialogue": "I'm fine, Mary. Just trying to get this study group done."
+        },
+        {
+          "action_id": 2,
+          "character": "Bob Thompson",
+          "character_id": 1,
+          "action": "Sneers at the interaction",
+          "dialogue": "You guys are acting like this is a therapy session. We need to get back to the test."
+        },
+        {
+          "action_id": 3,
+          "character": "Mary Chen",
+          "character_id": 2,
+          "action": "Persists in showing concern",
+          "dialogue": "Anna, I know you're trying to be independent, but it's okay to ask for help. You don't have to do everything alone."
+        },
+        {
+          "action_id": 4,
+          "character": "Anna Hicks",
+          "character_id": 0,
+          "action": "Softens slightly and responds",
+          "dialogue": "I know... I just don't know how to explain it. It's hard to talk about."
+        },
+        {
+          "action_id": 5,
+          "character": "Bob Thompson",
+          "character_id": 1,
+          "action": "Changes the subject",
+          "dialogue": "Let's just get through this chapter. I don't want to be here all day."
+        },
+        {
+          "action_id": 6,
+          "character": "Anna Hicks",
+          "character_id": 0,
+          "action": "Takes a deep breath and refocuses",
+          "dialogue": "Right, sorry. Let's get back to work."
+        }
+      ],
+      "plot": "Anna is in a group study session with Bob and Mary, trying to focus on her history test. Mary's concern pushes Anna to confront her internal conflict between self-suppression and seeking change, while Bob's indifference amplifies her anxiety. Anna's emotional struggle becomes evident as she tries to balance her need for independence with her growing desire to confide in someone.",
+      "social_purpose": "To demonstrate Anna's emotional control and self-awareness as she navigates a social situation where she must decide whether to open up or remain isolated. This scenario highlights the tension between her values of independence and self-improvement.",
+      "chunk": {
+        "id": 0,
+        "text": "Anna Hicks sat at the corner table in the library, her fingers wrapped around a chocolate bar as she tried to focus on her history notes. Mary Chen, her friend, gently asked if she was okay, but Anna, determined to keep her emotions in check, brushed it off. Bob Thompson, as usual, rolled his eyes and changed the subject. Anna's internal struggle between her need for independence and the desire to share her feelings was palpable as she took a deep breath and forced a smile, trying to keep the group moving forward."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "title": "The Coffee Shop Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Coffee Shop Meetup",
+      "time": "Afternoon",
+      "location": "Local Coffee Shop",
+      "description": "Logan sits at a corner table, typing on his laptop. Mona and Fiona are across from him, sipping their lattes and waiting for a response to their request. His mother, Colin, is on a video call nearby, trying to keep the conversation light.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Logan Kennedy",
+          "gender": "Male",
+          "description": "A thoughtful and privacy-conscious 23-year-old blogger who is struggling with the idea of sharing a personal photo with his audience.; Male / Blogger, 23 years old; Occupation: Blogger; Personality: Thoughtful, Privacy-conscious, Introspective, Sensitive; Values: Authenticity, Privacy, Genuine connection; Interests: Writing, Self-expression, Literature, Introspection; Experiences: Maintaining a blog, Valuing personal boundaries, Receiving feedback from friends and family, Struggling with public exposure, Engaging in deep self-reflection",
+          "position": "Corner Table",
+          "states": "Nervous, Introspective",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Mona Patel",
+          "gender": "Female",
+          "description": "Mona Patel; Female; Age: 32; Occupation: Freelance journalist and content writer; Personality: Outgoing, empathetic, persistent; Values: Friendship, authenticity, growth; Interests: Creative writing, indie music, community events; Experiences: Collaborated with Logan on a successful blog project, attended multiple writing workshops to hone her craft, navigated a difficult period of self-doubt in her career.",
+          "position": "Across from Logan",
+          "states": "Supportive, Persistent",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Fiona Reyes",
+          "gender": "Female",
+          "description": "Logan's former colleague and editor, who values professionalism but also believes in the power of personal branding; Female; Age: 38; Occupation: Content Strategy Consultant; Personality: Analytical, Encouraging, Empathetic; Values: Professional integrity, Authenticity, Collaboration; Interests: Networking events, Coffee culture, Digital marketing trends; Experiences: Worked at a high-profile publishing house for over a decade, Transitioned to freelance editorial and content strategy work, Mentored emerging writers and influencers.",
+          "position": "Across from Logan",
+          "states": "Analytical, Encouraging",
+          "is_npc": true
+        },
+        {
+          "id": 3,
+          "name": "Colin Kennedy",
+          "gender": "Female",
+          "description": "Logan's mother, who is gently curious about seeing her son's face but respects his boundaries; Female; Age: 58; Occupation: Part-time school counselor and volunteer community mediator; Personality: Empathetic, patient, observant; Values: Family, trust, emotional well-being; Interests: Reading self-help books, gardening, and baking; Experiences: Navigated Logan's reclusive behavior during his teenage years, volunteered in local support groups for parents of introverted children, has a background in psychology and education.",
+          "position": "Nearby, on a video call",
+          "states": "Caring, Understanding",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Mona Patel",
+          "character_id": 1,
+          "action": "Encourages Logan to upload a photo.",
+          "dialogue": "Logan, your readers connect with your words, but a face would make it all the more real. Just a simple one, not even a professional shot."
+        },
+        {
+          "action_id": 1,
+          "character": "Logan Kennedy",
+          "character_id": 0,
+          "action": "Expresses hesitation and concern.",
+          "dialogue": "I know, but I'm not sure I'm ready for that. I want my writing to speak for itself, not my face."
+        },
+        {
+          "action_id": 2,
+          "character": "Fiona Reyes",
+          "character_id": 2,
+          "action": "Offers a practical perspective.",
+          "dialogue": "I get it, but consider this: a photo can humanize you. People are more likely to trust and engage with a real person."
+        },
+        {
+          "action_id": 3,
+          "character": "Colin Kennedy",
+          "character_id": 3,
+          "action": "Shares her gentle concern.",
+          "dialogue": "I just want to see what you look like, but I won't push you if you're not ready. Your comfort matters."
+        },
+        {
+          "action_id": 4,
+          "character": "Logan Kennedy",
+          "character_id": 0,
+          "action": "Reflects on their input and his own values.",
+          "dialogue": "I appreciate all of you caring, but this is about more than just a photo. It's about how I define myself in my work."
+        }
+      ],
+      "plot": "Logan is invited by his friend Mona and former colleague Fiona to a coffee shop to discuss his blog's future. His mother, Colin, joins via a video call. The group gently pressures him to upload a photo to his blog, highlighting the tension between his desire for authenticity and his fear of exposure.",
+      "social_purpose": "To explore the protagonist's internal conflict regarding personal exposure in a public setting, while showcasing how friends and family influence his decision-making.",
+      "chunk": {
+        "id": 0,
+        "text": "Logan Kennedy sat at the corner table of his favorite coffee shop, the familiar scent of roasted beans and the soft hum of conversation around him grounding him. He had been avoiding the question for weeks—should he upload a photo to his blog? Mona and Fiona, both seated across from him, leaned in as if they could hear the storm brewing in his mind. 'Just one photo, Logan,' Mona said, her voice warm and persuasive. Fiona nodded, adding, 'It's part of your brand now. People want to know the face behind the words.' On the nearby table, his laptop displayed a video call with his mother, Colin, who offered a quiet, 'I just want to see you, sweetheart.' Logan's fingers hovered over the keyboard, the weight of their expectations and his own values pressing down on him."
+      },
+      "npcs": [
+        1,
+        2,
+        3
+      ]
+    }
+  ]
+}

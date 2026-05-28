@@ -1,0 +1,95 @@
+{
+  "title": "Team Dinner and Decision",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Team Dinner",
+      "time": "7:30 PM",
+      "location": "A cozy Italian restaurant in the city center",
+      "description": "Ella Hunter, the Restaurant Manager, has organized a team dinner to celebrate the completion of a successful event at her restaurant. The team includes her two close colleagues, Mona and Sun, who are both part of the kitchen staff. The evening is meant to be a casual and enjoyable break from their busy work schedules, but Ella insists on maintaining a balance between fun and responsibility.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Ella Hunter",
+          "gender": "Female",
+          "description": "A 35-year-old Restaurant Manager with a calm and focused demeanor. She is responsible and values teamwork and safety above all.; Female, Professional Role, 35 years old; Occupation: Restaurant Manager; Personality: Steady, Firm, Responsible, Focused; Values: Responsibility, Safety, Teamwork; Interests: Food, Event Planning, Leadership; Experiences: Managing Kitchen Operations, Organizing Social Events, Team Coordination",
+          "position": "Table Leader",
+          "states": "Calm, focused, and firm in her decisions",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Mona",
+          "gender": "Female",
+          "description": "A passionate and energetic chef in her late 20s who loves to unwind with drinks after a long day but respects Ella's leadership; Female; Age: 28; Occupation: Sous Chef; Personality: enthusiastic, loyal, easygoing; Values: teamwork, culinary excellence, respect for hierarchy; Interests: experimenting with new recipes, attending food festivals, mixology; Experiences: worked her way up from line cook to sous chef in three years, helped plan and execute the restaurant’s most recent high-profile event, spent a summer interning at a Michelin-starred restaurant in Tuscany.",
+          "position": "Adjacent seat to Ella",
+          "states": "Slightly disappointed but respectful",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Sun",
+          "gender": "Male",
+          "description": "A laid-back and friendly sous-chef in his early 30s; Male; Age: 32; Occupation: Sous-chef at an upscale Italian restaurant; Personality: Amused, easygoing, charismatic; Values: Team harmony, culinary excellence, work-life balance; Interests: Trying new street foods, playing guitar, cooking for friends; Experiences: Worked his way up from line cook in a Michelin-starred kitchen, helped prepare for a high-profile food festival last month, organized a charity cookout with fellow chefs.",
+          "position": "Across from Ella",
+          "states": "Amused, trying to lighten the mood",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Ella Hunter",
+          "character_id": 0,
+          "action": "Announces the designated driver role",
+          "dialogue": "Alright, team, let’s enjoy the evening, but I’m the designated driver tonight. No one is driving drunk, not even if we have a great time."
+        },
+        {
+          "action_id": 1,
+          "character": "Mona",
+          "character_id": 1,
+          "action": "Reacts with mild disappointment",
+          "dialogue": "Ugh, really? We could’ve split the driving. But, I get it, you’re just being safe."
+        },
+        {
+          "action_id": 2,
+          "character": "Sun",
+          "character_id": 2,
+          "action": "Tries to make light of the situation",
+          "dialogue": "Well, I guess that means we can’t get too wild. But hey, Ella, you’re the best host. What’s the plan for food?"
+        },
+        {
+          "action_id": 3,
+          "character": "Ella Hunter",
+          "character_id": 0,
+          "action": "Laughs and suggests a strategy",
+          "dialogue": "I’ll handle the driving, and I’ll handle the food. You two just enjoy the conversation and maybe one drink each. Let’s keep the night safe and fun for everyone."
+        },
+        {
+          "action_id": 4,
+          "character": "Mona",
+          "character_id": 1,
+          "action": "Agrees with a smile",
+          "dialogue": "Fine, fine. I’ll stick to a glass of wine. But you better make sure the pasta is worth it, Ella!"
+        },
+        {
+          "action_id": 5,
+          "character": "Sun",
+          "character_id": 2,
+          "action": "Cheers to the plan",
+          "dialogue": "To Ella, our fearless leader and wine monitor! Let’s make it a great night."
+        }
+      ],
+      "plot": "Ella organizes a team dinner to celebrate a recent event success. She clearly states her role as the designated driver to ensure the team's safety. Although Mona and Sun initially express disappointment, they ultimately respect her decision and contribute to the evening's positive atmosphere.",
+      "social_purpose": "To demonstrate Ella’s leadership, responsibility, and ability to balance fun and safety within a team dynamic.",
+      "chunk": {
+        "id": 0,
+        "text": "Ella, Mona, and Sun gather for a celebratory dinner. Ella asserts her role as the designated driver, showing her commitment to safety and team harmony. Mona and Sun, while initially disappointed, support her decision and engage in lighthearted banter about the evening’s menu and plans."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

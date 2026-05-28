@@ -1,0 +1,102 @@
+{
+  "title": "Tax Time Tensions",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Filing Taxes Consultation",
+      "time": "March 15, 2025, 3:00 PM",
+      "location": "Local Tax Preparation Center",
+      "description": "Mia Pike, a 23-year-old first-time taxpayer, sits across from Ethan, a professional accountant, and Quinn, her close friend. The three are in a small, quiet office at a tax preparation center. Mia is reviewing her tax return and looks visibly anxious. Ethan is calm and confident, while Quinn is more skeptical and concerned.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Mia Pike",
+          "gender": "female",
+          "description": "23-year-old first-time taxpayer, anxious but independent, trying to balance trust in professionals with her desire for autonomy.; 23-year-old female, filing taxes for the first time, 23 years old; Occupation: Workplace Newcomer; Personality: Anxious, Independent, Thoughtful; Values: Trust, Accuracy, Autonomy; Interests: Financial Management, Learning new processes, Friendship; Experiences: Filing taxes for the first time, Accepting professional advice, Dealing with uncertainty, Relying on friend support",
+          "position": "Sitting at the table with her laptop open",
+          "states": "Anxious, thoughtful, confused",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Ethan",
+          "gender": "male",
+          "description": "A professional accountant in his late 30s, known for his calm demeanor and expertise in tax matters; Male; Age: 38; Occupation: Tax Accountant; Personality: Confident, patient, reassuring; Values: Integrity, reliability, client trust; Interests: Reading financial journals, hiking on weekends, mentoring young professionals; Experiences: Assisted numerous first-time taxpayers, worked in public accounting for over 12 years, navigated complex tax reforms during the 2023 economic changes.",
+          "position": "Sitting beside Mia, reviewing the documents with her",
+          "states": "Confident, patient, reassuring",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Quinn",
+          "gender": "female",
+          "description": "Quinn is Mia’s best friend in her early 20s, who is more skeptical and concerned about Mia’s tax situation; Female; Age: 24; Occupation: Financial Aid Advisor at a local community college; Personality: Analytical, loyal, cautious; Values: Integrity, fairness, personal responsibility; Interests: Budgeting and personal finance, mystery novels, hiking; Experiences: Helped family members navigate complex financial aid forms, struggled with student loans after college, volunteered at a free tax assistance clinic.",
+          "position": "Leaning against the wall, observing the interaction",
+          "states": "Concerned, curious, supportive",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Mia Pike",
+          "character_id": 0,
+          "action": "Asks Ethan a question about the discrepancy in her tax return",
+          "dialogue": "Ethan, I don’t understand why the total here is so different from the estimate you gave me earlier. Am I missing something?"
+        },
+        {
+          "action_id": 1,
+          "character": "Ethan",
+          "character_id": 1,
+          "action": "Explains the breakdown of the numbers",
+          "dialogue": "Mia, the difference comes from the deductions we applied for your student loan interest and the standard deduction. Let me walk you through the breakdown again so it makes more sense."
+        },
+        {
+          "action_id": 2,
+          "character": "Quinn",
+          "character_id": 2,
+          "action": "Intervenes to question the process",
+          "dialogue": "But Mia, why didn’t you just let me help you with this? I’ve done my taxes before, and I could have at least double-checked it."
+        },
+        {
+          "action_id": 3,
+          "character": "Mia Pike",
+          "character_id": 0,
+          "action": "Defends her decision to seek professional help",
+          "dialogue": "I appreciate the offer, Quinn, but I wanted to make sure I did this right. I’ve never filed before, and I didn’t want to risk making a mistake."
+        },
+        {
+          "action_id": 4,
+          "character": "Ethan",
+          "character_id": 1,
+          "action": "Reassures Mia and offers further help",
+          "dialogue": "That’s a smart move, Mia. Tax codes can be complicated, especially for first-timers. I’m here to help you understand everything. Let me show you where the numbers come from."
+        },
+        {
+          "action_id": 5,
+          "character": "Quinn",
+          "character_id": 2,
+          "action": "Softens her tone and supports Mia’s choice",
+          "dialogue": "Okay, I get it. It’s just that I worry about you trying to handle everything alone. Maybe next time I can learn from you too."
+        },
+        {
+          "action_id": 6,
+          "character": "Mia Pike",
+          "character_id": 0,
+          "action": "Expresses gratitude and a desire to learn",
+          "dialogue": "Thanks, Quinn. I’ll be sure to explain it all to you later. And Ethan, I’m really glad I came to you. This helps me feel more in control."
+        }
+      ],
+      "plot": "Mia, a first-time taxpayer, is struggling to understand the discrepancy in her tax return. Ethan, the accountant, is trying to reassure her and explain the numbers, while Quinn, her friend, questions her decision to handle the matter alone. The conversation reveals Mia’s internal struggle between independence and the need for guidance, as well as her growing trust in Ethan’s expertise.",
+      "social_purpose": "To explore the tension between independence and trust in professional advice, while showcasing Mia’s values of autonomy and accuracy, and her reliance on friend support.",
+      "chunk": {
+        "id": 0,
+        "text": "Mia Pike, a 23-year-old first-time taxpayer, sits across from Ethan, a professional accountant, and Quinn, her close friend. The three are in a small, quiet office at a tax preparation center. Mia is reviewing her tax return and looks visibly anxious. Ethan is calm and confident, while Quinn is more skeptical and concerned. Mia asks Ethan a question about the discrepancy in her tax return, and he explains the breakdown of the numbers. Quinn intervenes to question the process, defending her decision to seek professional help. Ethan reassures Mia and offers further help, while Quinn softens her tone and supports Mia’s choice. Mia expresses gratitude and a desire to learn."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

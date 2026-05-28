@@ -1,0 +1,102 @@
+{
+  "title": "The Last Paper Deadline",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Sadie tries to track down missing student papers with the help of her TA and a visiting colleague.",
+      "time": "7:45 PM",
+      "location": "TRC Academy Faculty Lounge",
+      "description": "Sadie King, the nutrition professor, is sitting at a small table in the faculty lounge, surrounded by stacks of papers and a half-empty coffee cup. Her TA, Lucy, is quietly sorting through a pile of lunch materials nearby, while a visiting colleague, Dr. Marcus Lee, walks in and approaches her with a concerned look. The tension in the air is palpable as the deadline looms.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Sadie King",
+          "gender": "Female",
+          "description": "A 34-year-old nutrition professor, visibly tired but determined. Her desk is cluttered with ungraded papers and takeout receipts.; years old / Female / Academic practitioner, 34 years old; Occupation: Nutrition Professor; Personality: Determined, Responsible, Anxious, Organized; Values: Academic integrity, Dedication, Professionalism; Interests: Education, Health and nutrition, Organizing, Academic research; Experiences: Working late, Student management, Academic administration, Coping with high-pressure situations",
+          "position": "Professor of Nutrition",
+          "states": "Anxious, focused, physically exhausted",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Lucy Chen",
+          "gender": "Female",
+          "description": "A 23-year-old teaching assistant, calm and observant; Female; Age: 23; Occupation: Graduate Teaching Assistant in Nutrition; Personality: Supportive, composed, attentive; Values: Academic integrity, collaboration, responsibility; Interests: Educational technology, healthy meal planning, mentoring; Experiences: Assisted in organizing large-scale student assessments, coordinated peer review sessions for undergraduate research, managed classroom logistics during a faculty shortage.",
+          "position": "Teaching Assistant",
+          "states": "Supportive, composed, attentive",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Dr. Marcus Lee",
+          "gender": "Male",
+          "description": "A 42-year-old visiting professor from the biology department, known for his laid-back but insightful demeanor; Male; Age: 42; Occupation: Visiting Professor of Biology at TRC Academy; Personality: Curious, empathetic, encouraging; Values: Academic integrity, collaboration, intellectual growth; Interests: Exploring interdisciplinary research, hiking, brewing his own coffee; Experiences: Conducted field research in biodiversity conservation in South America, mentored struggling students during his postdoctoral years, recently collaborated with nutrition faculty on a health and genetics project.",
+          "position": "Visiting Professor",
+          "states": "Curious, empathetic, encouraging",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Sadie King",
+          "character_id": 0,
+          "action": "Looking at her computer screen and sighing.",
+          "dialogue": "I've reached out to them all, but seven students still haven't submitted their final papers. I can't assign zeros, but I also can't let this slide."
+        },
+        {
+          "action_id": 1,
+          "character": "Lucy Chen",
+          "character_id": 1,
+          "action": "Handing Sadie a printed list of names.",
+          "dialogue": "Maybe this will make it easier to cross-reference their contact info. I can help you reach out to them again if you'd like."
+        },
+        {
+          "action_id": 2,
+          "character": "Dr. Marcus Lee",
+          "character_id": 2,
+          "action": "Sitting down and asking a question.",
+          "dialogue": "Sadie, have you tried setting up a late submission policy earlier in the semester? Sometimes students don't realize the consequences until it's too late."
+        },
+        {
+          "action_id": 3,
+          "character": "Sadie King",
+          "character_id": 0,
+          "action": "Nodding, then responding with a mix of frustration and resolve.",
+          "dialogue": "I did, but some just don't take it seriously. I want to maintain academic integrity, but I also want to give them a chance to learn from their mistakes."
+        },
+        {
+          "action_id": 4,
+          "character": "Dr. Marcus Lee",
+          "character_id": 2,
+          "action": "Offering a suggestion.",
+          "dialogue": "What if you send a reminder email with a clear deadline and mention that you're available for last-minute consultations? It might encourage them to take it more seriously."
+        },
+        {
+          "action_id": 5,
+          "character": "Sadie King",
+          "character_id": 0,
+          "action": "Considering the suggestion and organizing her thoughts.",
+          "dialogue": "That could work. I need to be professional but also clear. I'll draft something and send it out right away."
+        },
+        {
+          "action_id": 6,
+          "character": "Lucy Chen",
+          "character_id": 1,
+          "action": "Offering to help draft the email.",
+          "dialogue": "I can help you put it together if you want. I know what tone would be most effective."
+        }
+      ],
+      "plot": "Sadie is struggling with the final paper submissions for her nutrition class. With the deadline approaching, she is anxious about the consequences of not receiving the missing papers. Her TA, Lucy, and visiting professor, Dr. Marcus Lee, offer support and suggestions to help her maintain academic integrity while still being understanding of her students' circumstances.",
+      "social_purpose": "To demonstrate Sadie's dedication to her students and her academic values, while also highlighting the collaborative nature of academic support and the importance of balancing responsibility with empathy.",
+      "chunk": {
+        "id": 0,
+        "text": "Sadie King is working late in the faculty lounge, trying to track down missing student papers. Her TA, Lucy, and a visiting professor, Dr. Marcus Lee, offer support and suggestions to help her manage the situation with professionalism and care."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

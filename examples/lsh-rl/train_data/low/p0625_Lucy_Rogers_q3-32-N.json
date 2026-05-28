@@ -1,0 +1,95 @@
+{
+  "title": "Lucy's First Livestream Setup",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Lucy prepares for her first livestream with support from her friends.",
+      "time": "Afternoon",
+      "location": "Lucy's newly set-up art studio",
+      "description": "The sun is streaming through the large window of Lucy's art studio, illuminating her carefully arranged workspace. She is adjusting the lighting and camera angles, trying to capture the perfect shot for her first livestream. Her best friend Joy is sitting nearby, holding a cup of tea, while Tao, an old friend, checks the website updates on his laptop. The room is filled with a mix of excitement and mild anxiety.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Lucy Rogers",
+          "gender": "Female",
+          "description": "Lucy is a 25-year-old art blogger who is passionate about sharing her creative process with the world. She is enthusiastic and determined, but her positive energy is tinged with a bit of hesitation as she prepares for her first livestream.; Female, Content creator, 25 years old; Occupation: Art blogger; Personality: Enthusiastic, Creative, Positive, Determined; Values: Artistic expression, Friendship, Professional responsibility; Interests: Painting, Interior design, Digital content creation, Online community interaction; Experiences: Setting up an art studio, Planning creative projects, Managing a personal website, Collaborating on content with friends",
+          "position": "In front of the camera",
+          "states": "Nervous, focused, excited",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Joy Mitchell",
+          "gender": "Female",
+          "description": "Joy is Lucy's best friend and a constant source of encouragement; Female; Age: 26; Occupation: Social media strategist and content creator; Personality: Optimistic, empathetic, creative; Values: Friendship, authenticity, growth; Interests: Art, digital marketing, baking; Experiences: Managed successful online campaigns for indie artists, co-hosted a YouTube channel during college, helped friends launch their creative careers.",
+          "position": "Sitting on the couch",
+          "states": "Supportive, relaxed, cheerful",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Tao Lin",
+          "gender": "Male",
+          "description": "Tao is an old friend and a tech-savvy web developer; Male; Age: 28; Occupation: Freelance Web Developer and Digital Consultant; Personality: Focused, helpful, calm; Values: Responsibility, collaboration, efficiency; Interests: Coding, minimalist design, indie music; Experiences: Built Lucy's personal portfolio website, collaborated on several tech-creative projects with her, worked remotely from co-working spaces and cafes.",
+          "position": "Sitting at the desk",
+          "states": "Focused, helpful, calm",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Lucy Rogers",
+          "character_id": 0,
+          "action": "Adjusting the lighting",
+          "dialogue": "This light is just right for the painting I want to feature. I hope the stream viewers like it."
+        },
+        {
+          "action_id": 1,
+          "character": "Joy Mitchell",
+          "character_id": 1,
+          "action": "Offering encouragement",
+          "dialogue": "You're going to do great, Lucy! Your studio looks amazing, and your passion for art is contagious."
+        },
+        {
+          "action_id": 2,
+          "character": "Tao Lin",
+          "character_id": 2,
+          "action": "Checking the website",
+          "dialogue": "I just updated the website with the new project details. Make sure you mention the link during the stream."
+        },
+        {
+          "action_id": 3,
+          "character": "Lucy Rogers",
+          "character_id": 0,
+          "action": "Expressing hesitation",
+          "dialogue": "I just wish I could focus more on the stream and less on the website updates. It's hard to balance everything."
+        },
+        {
+          "action_id": 4,
+          "character": "Joy Mitchell",
+          "character_id": 1,
+          "action": "Offering reassurance",
+          "dialogue": "You're doing a great job, Lucy. You've got this! Just take it one step at a time."
+        },
+        {
+          "action_id": 5,
+          "character": "Tao Lin",
+          "character_id": 2,
+          "action": "Providing technical advice",
+          "dialogue": "Let me test the camera feed again. We don’t want any technical issues during the stream."
+        }
+      ],
+      "plot": "Lucy is preparing for her first livestream in her new studio. While she is excited to showcase her creative space and recent art projects, she is also aware of the need to update her website and ensure everything is ready for the audience. Joy supports her with enthusiasm, while Tao ensures the technical and professional aspects are covered. Through their interaction, Lucy finds the balance she needs to move forward with confidence.",
+      "social_purpose": "To demonstrate the protagonist's dedication to artistic expression while highlighting the importance of friendship and professional responsibility in achieving her goals.",
+      "chunk": {
+        "id": 0,
+        "text": "Lucy's First Livestream Setup"
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

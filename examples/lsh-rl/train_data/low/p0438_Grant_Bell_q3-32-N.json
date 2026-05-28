@@ -1,0 +1,123 @@
+{
+  "title": "A Morning in the Park",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Grant meets locals in the park",
+      "time": "7:30 AM",
+      "location": "City Park, near the central bench",
+      "description": "It's a crisp morning in the park, and Grant Bell is walking her golden retriever, Sunny, along a tree-lined path. She spots a group of locals nearby and decides to approach them with her usual enthusiasm and bilingual greetings. Tiki, a young mother with a toddler, responds warmly. Joy, an older woman sitting on a bench, watches silently, taking in the exchange.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Grant Bell",
+          "gender": "Female",
+          "description": "An enthusiastic and persistent international school teacher, expatriate in her 30s, who is actively trying to integrate into the local community.; Female, years old, Expatriate, 34 years old; Occupation: International School Teacher; Personality: Enthusiastic, Persistent, Observant; Values: Community, Connection, Faith; Interests: Language learning, Dog walking, Socializing; Experiences: Moving to a foreign country, Cross-cultural communication, Building a social network",
+          "position": "Walking with her dog, Sunny",
+          "states": "Enthusiastic, hopeful, observant",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Tiki",
+          "gender": "Female",
+          "description": "A friendly and curious local mother in her early 30s, who is open to learning about different cultures and people; Female; Age: 32; Occupation: Early childhood educator and part-time community tour guide; Personality: Warm-hearted, observant, adaptable; Values: Family, cultural exchange, community harmony; Interests: Children's literature, local history, gardening; Experiences: Raised in a multicultural neighborhood, volunteered at a refugee resettlement center, recently started a bilingual storytime at the community center.",
+          "position": "Pushing a stroller with her toddler",
+          "states": "Curious, welcoming, engaged",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Joy",
+          "gender": "Female",
+          "description": "An older, quiet woman in her 60s who is observant and has a deep connection to the community; Female; Age: 67; Occupation: Retired school librarian; Personality: Thoughtful, empathetic, patient; Values: Knowledge, community harmony, respect for tradition; Interests: Birdwatching, reading historical fiction, morning walks; Experiences: Spent 30 years fostering a love of reading in children, survived the loss of her husband five years ago, volunteers at the local historical society.",
+          "position": "Sitting on a bench",
+          "states": "Observant, contemplative, slightly reserved",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Grant Bell",
+          "character_id": 0,
+          "action": "Greets the group in Chinese and English",
+          "dialogue": "早上好！Good morning! I’m Grant, and this is my dog Sunny. I love walking here and meeting new people."
+        },
+        {
+          "action_id": 1,
+          "character": "Tiki",
+          "character_id": 1,
+          "action": "Smiles and responds in English",
+          "dialogue": "Hi Grant! That’s a lovely dog. I’m Tiki, and this is my daughter, Lily. I come here every morning to push her in the stroller."
+        },
+        {
+          "action_id": 2,
+          "character": "Grant Bell",
+          "character_id": 0,
+          "action": "Compliments Tiki and asks about her routine",
+          "dialogue": "Thank you! I love how friendly this park is. Do you often meet other people here?"
+        },
+        {
+          "action_id": 3,
+          "character": "Tiki",
+          "character_id": 1,
+          "action": "Nods and introduces Joy",
+          "dialogue": "Yes, Joy is here most days. She’s a great listener and knows everyone in the neighborhood."
+        },
+        {
+          "action_id": 4,
+          "character": "Grant Bell",
+          "character_id": 0,
+          "action": "Waves to Joy and says hello in Chinese",
+          "dialogue": "你好，Joy！Nice to meet you."
+        },
+        {
+          "action_id": 5,
+          "character": "Joy",
+          "character_id": 2,
+          "action": "Nods and responds in a quiet tone",
+          "dialogue": "你好，Grant. Welcome to the park."
+        },
+        {
+          "action_id": 6,
+          "character": "Grant Bell",
+          "character_id": 0,
+          "action": "Shares her goal of building connections",
+          "dialogue": "I just moved here and I’m trying to learn more about the community. I believe in building relationships and sharing faith with others."
+        },
+        {
+          "action_id": 7,
+          "character": "Tiki",
+          "character_id": 1,
+          "action": "Expresses interest in Grant’s background",
+          "dialogue": "That’s really nice. I’m glad to meet you. Maybe we can walk together sometimes?"
+        },
+        {
+          "action_id": 8,
+          "character": "Joy",
+          "character_id": 2,
+          "action": "Observes the conversation and smiles",
+          "dialogue": ""
+        },
+        {
+          "action_id": 9,
+          "character": "Grant Bell",
+          "character_id": 0,
+          "action": "Expresses gratitude and agrees to meet again",
+          "dialogue": "That would be great, Tiki! I’m always happy to learn and connect. Thank you for your kindness."
+        }
+      ],
+      "plot": "Grant meets Tiki and Joy during her morning dog walk in the park. Through a brief but meaningful interaction, she shares her background and goals, and Tiki responds warmly, offering to walk with her again. Joy silently observes, intrigued by Grant’s openness and persistence.",
+      "social_purpose": "Demonstrates Grant’s proactive communication, her desire for community and connection, and her commitment to integrating into the local culture through language and shared activities.",
+      "chunk": {
+        "id": 0,
+        "text": "Grant meets locals in the park during her morning walk with her dog, Sunny. She greets them in both Chinese and English, showing her enthusiasm and commitment to cross-cultural communication. Tiki, a local mother, responds warmly and introduces Joy, an older woman who sits on the bench each day. Joy watches the interaction with quiet interest, and Grant shares her motivation for building relationships and her faith. Tiki offers to walk with her again, and Grant feels a small but meaningful step toward her goal of integration."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

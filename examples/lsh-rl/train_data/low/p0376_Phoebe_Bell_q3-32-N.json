@@ -1,0 +1,88 @@
+{
+  "title": "Balancing Work and Wanderlust",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Family Meeting at a Café",
+      "time": "Saturday Afternoon, 3:00 PM",
+      "location": "A cozy family café in the city",
+      "description": "Phoebe sits at a corner table with her younger sister, Momo, and her father, Andy, discussing the upcoming trip to Banff. The atmosphere is warm, with the smell of coffee and pastries in the air. Phoebe is excited but also conflicted about taking time off from her startup.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Phoebe Bell",
+          "gender": "Female",
+          "description": "Phoebe is a 22-year-old entrepreneur with a thoughtful and ambitious nature. She is visibly excited but also hesitant about the trip.; Female, 22 years old; Occupation: Entrepreneurship; Personality: Enthusiastic, Thoughtful, Ambitious; Values: Work-life Balance, Family, Personal Growth; Interests: Travel, Planning, Nature; Experiences: Saving for travel, Balancing work and personal goals, Family gatherings",
+          "position": "At the table, center seat",
+          "states": "Excited, thoughtful, slightly anxious",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Momo Bell",
+          "gender": "Female",
+          "description": "Momo is Phoebe's 19-year-old sister, carefree and supportive; Female; Age: 19; Occupation: Part-time barista and full-time college student studying communications; Personality: Optimistic, empathetic, spontaneous; Values: Family, personal happiness, growth through experience; Interests: Trying new foods, hiking with friends, planning weekend getaways; Experiences: Took a gap semester to travel across Canada with friends, helped Phoebe through a tough breakup by organizing a surprise road trip, recently started her first blog about self-discovery and adventure.",
+          "position": "To Phoebe's left",
+          "states": "Supportive, cheerful, encouraging",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Andy Bell",
+          "gender": "Male",
+          "description": "Andy is Phoebe and Momo's father, a retired teacher with a gentle and wise demeanor. He values family and is concerned about Phoebe's work-life balance; Male; Age: 58; Occupation: Retired high school English teacher; Personality: Empathetic, patient, introspective; Values: Family unity, personal well-being; Interests: Reading classic literature, hiking with his family, brewing coffee; Experiences: Spent 30 years teaching in a local high school, helped his wife raise two daughters while managing a busy household, took early retirement to focus on family after her passing.",
+          "position": "To Phoebe's right",
+          "states": "Caring, contemplative, supportive",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Momo Bell",
+          "character_id": 1,
+          "action": "Leans forward and smiles",
+          "dialogue": "Phoebe, this is your first big trip since starting your business, right? It's going to be amazing for you to grow and just enjoy nature!"
+        },
+        {
+          "action_id": 1,
+          "character": "Phoebe Bell",
+          "character_id": 0,
+          "action": "Nods, then hesitates",
+          "dialogue": "Yeah, I’ve been saving up for this for a while. I just worry about how my team will handle everything while I’m gone. I don’t want to be seen as irresponsible."
+        },
+        {
+          "action_id": 2,
+          "character": "Andy Bell",
+          "character_id": 2,
+          "action": "Places a hand on Phoebe's",
+          "dialogue": "Phoebe, you’ve worked so hard. Taking this trip is not only good for you, it’s also a way to recharge and come back stronger for your business. We believe in you."
+        },
+        {
+          "action_id": 3,
+          "character": "Phoebe Bell",
+          "character_id": 0,
+          "action": "Sighs and smiles softly",
+          "dialogue": "I know, Dad. I just hope I’m making the right choice for both my work and my family."
+        },
+        {
+          "action_id": 4,
+          "character": "Momo Bell",
+          "character_id": 1,
+          "action": "Grins and nudges Phoebe",
+          "dialogue": "You are, I promise. And I’ll help you plan the itinerary so it’s perfect. Let’s make this trip unforgettable!"
+        }
+      ],
+      "plot": "Phoebe, Momo, and Andy meet at a family café to finalize plans for a trip to Banff. While Phoebe is excited about the adventure, she is conflicted about taking time off from her business. Momo encourages her to embrace the trip as a chance for personal growth, while Andy reassures her that taking a break is a responsible choice. Their conversation highlights Phoebe’s internal struggle and the supportive dynamic within the family.",
+      "social_purpose": "To explore Phoebe’s values of work-life balance and personal growth through a family discussion about an upcoming trip. It also showcases her relationship with her sister and father as they support her decision-making.",
+      "chunk": {
+        "id": 0,
+        "text": "Phoebe, Momo, and Andy are seated at a table in a family café, sipping coffee and discussing the details of their upcoming trip to Banff. Phoebe’s excitement is evident, but her eyes betray a hint of worry. Momo leans in with a bright smile, eager to share her thoughts, while Andy watches with a calm, understanding gaze. Their conversation centers on Phoebe’s concerns about balancing her responsibilities as an entrepreneur with her desire to enjoy a meaningful family experience."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

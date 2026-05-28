@@ -1,0 +1,95 @@
+{
+  "title": "Faith and Friendship at the Coffee House",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Group Discussion and Support",
+      "time": "Afternoon",
+      "location": "Local Coffee House",
+      "description": "Ava, Lina, and Henry are seated at a cozy table in a quiet corner of a local coffee house. They meet weekly for spiritual reflection and meaningful conversation. Ava is visibly contemplative, sipping her latte while Lina and Henry listen attentively. The atmosphere is warm and inviting, with the soft hum of conversation and the aroma of freshly brewed coffee filling the air.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Ava Rogers",
+          "gender": "Female",
+          "description": "A thoughtful and compassionate young woman in her early twenties, actively involved in her faith community. She is open about her struggles with trust and emotional healing.; Female, Active in Faith Community, 22 years old; Occupation: Part-time Job in Faith-related Environment; Personality: Thoughtful, Vulnerable, Determined, Compassionate; Values: Faith, Authenticity, Emotional Growth, Community; Interests: Spiritual Reflection, Meaningful Conversation, Personal Development, Coffee Culture; Experiences: Struggling with Trust in Relationships, Participating in Faith Group Discussions, Seeking Emotional Healing, Self-reflection, Building Supportive Friendships",
+          "position": "Center of the table",
+          "states": "Contemplative, slightly anxious but determined to open up",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Lina Chen",
+          "gender": "Female",
+          "description": "A supportive and empathetic friend of Ava's, who often encourages her in her spiritual journey; Female; Age: 34; Occupation: Counselor and mindfulness coach; Personality: Compassionate, patient, intuitive; Values: Emotional well-being, authenticity, community; Interests: Meditation retreats, journaling, herbal teas; Experiences: Trained in trauma-informed therapy, led a support group for personal growth, traveled through Southeast Asia to deepen her spiritual understanding.",
+          "position": "To the left of Ava",
+          "states": "Encouraging, attentive, and ready to offer support",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Henry Mitchell",
+          "gender": "Male",
+          "description": "A mature and wise group leader who guides discussions with a deep sense of authenticity and faith; Male; Age: 58; Occupation: Pastoral Counselor; Personality: Thoughtful, empathetic, patient; Values: Compassion, spiritual growth, community; Interests: Coffee culture, theological literature, nature walks; Experiences: Led weekly support groups for over a decade, navigated personal loss through faith, trained in grief counseling and conflict resolution.",
+          "position": "To the right of Ava",
+          "states": "Thoughtful, supportive, and spiritually grounded",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Ava Rogers",
+          "character_id": 0,
+          "action": "Expresses inner tension",
+          "dialogue": "I've been thinking a lot lately about how to balance my faith with my relationships. I want to be open and authentic, but I also fear getting hurt. It's like I'm stuck between wanting to grow and being afraid to take that step."
+        },
+        {
+          "action_id": 1,
+          "character": "Lina Chen",
+          "character_id": 1,
+          "action": "Shares personal experience",
+          "dialogue": "I totally get that. I've been through similar things. Faith teaches us to trust, but sometimes our hearts need time to catch up. It's okay to be vulnerable; that's where real growth begins."
+        },
+        {
+          "action_id": 2,
+          "character": "Henry Mitchell",
+          "character_id": 2,
+          "action": "Offers spiritual insight",
+          "dialogue": "Scripture reminds us that God is the author of love and healing. Your desire for connection and spiritual growth is a sign of your deep faith. Let's pray for strength and clarity in your journey."
+        },
+        {
+          "action_id": 3,
+          "character": "Ava Rogers",
+          "character_id": 0,
+          "action": "Responds with gratitude",
+          "dialogue": "Thank you both for listening and for your encouragement. It means a lot to have friends who understand and support me in this space."
+        },
+        {
+          "action_id": 4,
+          "character": "Lina Chen",
+          "character_id": 1,
+          "action": "Suggests a practical step",
+          "dialogue": "Maybe we can start a small journaling challenge this week. Write down one thing you're grateful for and one step you'd like to take toward healing or connection. We can share next week."
+        },
+        {
+          "action_id": 5,
+          "character": "Henry Mitchell",
+          "character_id": 2,
+          "action": "Encourages and wraps up the meeting",
+          "dialogue": "That's a great idea, Lina. Ava, remember you're not alone in this. We're here for you. Let's keep supporting each other in our walk of faith and growth."
+        }
+      ],
+      "plot": "Ava opens up about her inner conflict between faith and relationships, seeking guidance and support from her friends Lina and Henry. They respond with empathy, spiritual insight, and practical suggestions, reinforcing the strength of their community and Ava's journey toward emotional healing.",
+      "social_purpose": "To create a safe and supportive environment for Ava to explore her values and experiences, while also modeling the importance of authenticity and community in personal growth.",
+      "chunk": {
+        "id": 0,
+        "text": "Ava, Lina, and Henry are seated at a cozy table in a quiet corner of a local coffee house. Ava opens up about her struggle to balance faith and relationships, while Lina and Henry listen and offer support. Their conversation highlights the importance of vulnerability, spiritual growth, and the role of community in healing."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

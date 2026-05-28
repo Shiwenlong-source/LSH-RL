@@ -1,0 +1,102 @@
+{
+  "title": "Rainy Day Connection",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Mia and Gina are stranded at school due to a traffic jam and meet a stranger named Joy.",
+      "time": "3:00 PM",
+      "location": "School Courtyard",
+      "description": "It is a rainy afternoon, and Mia and Gina are waiting for the traffic to clear so they can go home. Joy, a calm and confident girl with an umbrella, approaches them after noticing their curiosity about Gabay, a local community project.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Mia Turner",
+          "gender": "female",
+          "description": "An enthusiastic and cheerful 24-year-old college student, open to new experiences but slightly nervous about engaging with strangers.; female student, 24 years old; Occupation: College Student; Personality: Enthusiastic, Cheerful, Creative, Curious; Values: Friendship, Open Mindset, Spontaneity; Interests: Music, Social Interaction, Creative Ideas; Experiences: Campus life, Friendship with Gina, Exposure to new ideas, Stepping out of comfort zone",
+          "position": "near the entrance of the school",
+          "states": "curious, slightly nervous, engaged",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Gina",
+          "gender": "female",
+          "description": "Mia's best friend, bold and adventurous, always ready to suggest unconventional ideas to break the monotony; Female; Age: 16; Occupation: High school student; Personality: energetic, optimistic, impulsive; Values: friendship, spontaneity, community; Interests: urban exploration, creative writing, trying new foods; Experiences: organized a secret midnight school tour, volunteered at a local art fair, once convinced the class to turn a school assignment into a musical skit.",
+          "position": "next to Mia",
+          "states": "excited, encouraging, playful",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Joy",
+          "gender": "female",
+          "description": "A calm and confident girl in her early 20s, holding an umbrella and associated with the Gabay project, looking for new members or volunteers; Female; Age: 22; Occupation: Community Outreach Coordinator; Personality: Empathetic, patient, enthusiastic; Values: Service to others, integrity, community empowerment; Interests: Urban development, mentoring youth, photography; Experiences: Volunteered in disaster relief efforts, organized school-based civic programs, grew up in a low-income neighborhood and benefited from community initiatives.",
+          "position": "approaching Mia and Gina",
+          "states": "friendly, observant, inviting",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Gina",
+          "character_id": 1,
+          "action": "suggests a creative idea",
+          "dialogue": "Hey Mia, what if we go talk to that girl with the umbrella? Maybe she can help us pass the time!"
+        },
+        {
+          "action_id": 1,
+          "character": "Mia Turner",
+          "character_id": 0,
+          "action": "hesitates but agrees",
+          "dialogue": "Ugh, I don't know... I'm not sure if I'm ready to talk to strangers like that. But okay, I'll try."
+        },
+        {
+          "action_id": 2,
+          "character": "Joy",
+          "character_id": 2,
+          "action": "greets them and asks a question",
+          "dialogue": "Hi there! I couldn't help but notice you were looking at the Gabay sign. Are you part of the Gabay team?"
+        },
+        {
+          "action_id": 3,
+          "character": "Mia Turner",
+          "character_id": 0,
+          "action": "responds with curiosity",
+          "dialogue": "No, not yet. I'm Mia, and this is my friend Gina. We were just wondering what it's all about. Can you tell us more?"
+        },
+        {
+          "action_id": 4,
+          "character": "Joy",
+          "character_id": 2,
+          "action": "explains Gabay and invites them to join",
+          "dialogue": "Sure! Gabay is a community initiative that connects students with local volunteers to help with creative projects. We're always looking for new people to join. You seem open-minded and enthusiastic—would you like to learn more?"
+        },
+        {
+          "action_id": 5,
+          "character": "Gina",
+          "character_id": 1,
+          "action": "expresses interest",
+          "dialogue": "That sounds amazing! I love creative ideas and social interaction. I'm definitely in!"
+        },
+        {
+          "action_id": 6,
+          "character": "Mia Turner",
+          "character_id": 0,
+          "action": "decides to step out of her comfort zone",
+          "dialogue": "Me too! I've been wanting to get more involved in campus life. This could be a great opportunity."
+        }
+      ],
+      "plot": "Mia and Gina, stranded at school due to a traffic jam, meet Joy, a member of the Gabay project. Joy's approach sparks their curiosity and gives them the chance to step out of their comfort zone, leading to a spontaneous and positive social interaction.",
+      "social_purpose": "To demonstrate Mia's growth in stepping out of her comfort zone and engaging with others, while naturally showcasing her values and personality traits through dialogue and actions.",
+      "chunk": {
+        "id": 0,
+        "text": "Mia and Gina are waiting in the rain when Joy approaches them and asks if they belong to Gabay. Gina suggests they talk to her, and Mia, despite her initial hesitation, agrees. Joy explains the project, and both Mia and Gina express interest in joining, showing their openness to new experiences and love for creative ideas."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

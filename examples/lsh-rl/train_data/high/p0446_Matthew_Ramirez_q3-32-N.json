@@ -1,0 +1,88 @@
+{
+  "title": "The Café Dilemma",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Matthew and his roommate Joe meet with a technician to set up internet in their new apartment.",
+      "time": "Afternoon",
+      "location": "Local coffee shop",
+      "description": "Matthew and Joe sit at a small table in a quiet corner of the coffee shop, waiting for the technician. They're discussing the recent move and the challenges of adjusting to new living conditions. Peter, the neighbor, joins them and subtly mentions how he's been saving on electricity by not using his own internet. Matthew feels a growing internal conflict between convenience and integrity.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Matthew Ramirez",
+          "gender": "Male",
+          "description": "22-year-old recent graduate, thoughtful and conflicted about using his neighbor's WiFi. He is nostalgic for the past and struggles to adapt to new living conditions.; 22-year-old / Male / New apartment resident, 23 years old; Occupation: Recent graduate seeking employment; Personality: Nostalgic, Conflicted, Thoughtful, Pragmatic; Values: Integrity, Independence, Convenience; Interests: Photography, Technology, Personal comfort; Experiences: Childhood memories of shared resources, Recently moved into a new apartment, Facing moral dilemmas, Living with roommates, Adapting to new living conditions",
+          "position": "Seated at the table, sipping coffee",
+          "states": "Anxious, conflicted, nostalgic",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Joe",
+          "gender": "Male",
+          "description": "Matthew's roommate, male; Relaxed, reassuring, cheerful; Age: 26; Occupation: Freelance graphic designer; Personality: Optimistic, pragmatic, easygoing; Values: Reliability, friendship, adaptability; Interests: DIY home projects, indie music, coffee culture; Experiences: Successfully moved cross-country alone, helped friends with tech setup, navigates apartment life with a laid-back approach.",
+          "position": "Leaning back in his chair, smiling",
+          "states": "Relaxed, reassuring, cheerful",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Peter",
+          "gender": "Male",
+          "description": "Neighbor, observant and subtly manipulative; Male; Age: 40s; Occupation: Real estate agent; Personality: manipulative, friendly, opportunistic; Values: financial independence, social influence; Interests: home automation, neighborhood gossip, cost-saving strategies; Experiences: helped several tenants move into the apartment complex, cut costs during a personal financial crisis by living off-grid for a month, frequently hosts casual meet-and-greets to build community connections.",
+          "position": "Standing by the table, holding a coffee",
+          "states": "Observant, persuasive, casual",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Matthew Ramirez",
+          "character_id": 0,
+          "action": "Expresses his loneliness and nostalgia",
+          "dialogue": "I just miss the old days when everyone shared everything. It felt like a real community."
+        },
+        {
+          "action_id": 1,
+          "character": "Joe",
+          "character_id": 1,
+          "action": "Reassures Matthew about the technician",
+          "dialogue": "Don't worry, the technician is coming tomorrow. We'll have our own internet soon."
+        },
+        {
+          "action_id": 2,
+          "character": "Peter",
+          "character_id": 2,
+          "action": "Hints about his own habits",
+          "dialogue": "You know, I've been saving a lot on electricity by not using my own internet. It's not like it's hurting anyone."
+        },
+        {
+          "action_id": 3,
+          "character": "Matthew Ramirez",
+          "character_id": 0,
+          "action": "Shows internal conflict",
+          "dialogue": "I know, but it still feels wrong. Like I'm not being independent."
+        },
+        {
+          "action_id": 4,
+          "character": "Joe",
+          "character_id": 1,
+          "action": "Encourages Matthew to focus on the future",
+          "dialogue": "You're doing great, Matt. Just a little longer and we won't have to rely on anyone else."
+        }
+      ],
+      "plot": "Matthew is struggling with the decision to continue using his neighbor's free WiFi while waiting for his own internet to be installed. His roommate Joe is trying to reassure him, but Peter's subtle hints about saving money are adding to his internal conflict. The scenario takes place in a local coffee shop, where the three of them meet to discuss the situation.",
+      "social_purpose": "To explore Matthew's internal struggle between convenience and integrity, and how his values and experiences influence his decision-making in a social setting.",
+      "chunk": {
+        "id": 0,
+        "text": "Matthew and Joe are waiting for the technician to set up their internet. Peter joins them and subtly mentions how he's been saving on electricity by not using his own internet. Matthew feels a growing internal conflict between convenience and integrity."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

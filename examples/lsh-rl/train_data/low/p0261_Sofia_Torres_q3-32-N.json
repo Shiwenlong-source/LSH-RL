@@ -1,0 +1,81 @@
+{
+  "title": "Reviving the Knightettes",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Lunchroom Meeting",
+      "time": "Afternoon",
+      "location": "School Cafeteria",
+      "description": "Sofia Torres gathers with Lucy and Gary during lunch to discuss her plan to revive the Knightettes dance team. She is visibly excited and determined, while Lucy is curious and Gary is skeptical.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Sofia Torres",
+          "gender": "Female",
+          "description": "A passionate high school student who is determined to bring back the Knightettes dance team to campus life.; Female, High School Student, 17 years old; Occupation: High School Student; Personality: Enthusiastic, Determined, Optimistic, Persuasive; Values: Teamwork, Cultural Contribution, Leadership; Interests: Dance, Activism, Campus Affairs; Experiences: Leading a dance team, Writing proposals, Organizing events, Public speaking, Persuading classmates",
+          "position": "Center of the table",
+          "states": "Enthusiastic, confident",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Lucy Chen",
+          "gender": "Female",
+          "description": "A supportive classmate interested in arts and culture, open to new initiatives; Female; Age: 17; Occupation: High school junior; Personality: Curious, empathetic, enthusiastic; Values: Collaboration, creativity, inclusivity; Interests: Dance history, visual arts, community projects; Experiences: Participated in school theater productions, volunteered at a local art museum, co-founded a student-led poetry club.",
+          "position": "To Sofia's left",
+          "states": "Curious, engaged",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Gary Patel",
+          "gender": "Male",
+          "description": "A pragmatic classmate who values results and is cautious about the success of new projects; Male; Age: 17; Occupation: High school junior; Personality: Skeptical, analytical, reserved; Values: Practicality, reliability, efficiency; Interests: Robotics club, spreadsheet organizing, data analysis; Experiences: Led a failed school fundraiser in sophomore year, works part-time at a local tech store, prefers structured group projects over creative initiatives.",
+          "position": "To Sofia's right",
+          "states": "Skeptical, analytical",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Sofia Torres",
+          "character_id": 0,
+          "action": "Presenting her letter to the principal",
+          "dialogue": "Look at this, guys! I've written a formal letter to the principal about reviving the Knightettes. I think if we can get enough support, it could really make a difference on campus."
+        },
+        {
+          "action_id": 1,
+          "character": "Lucy Chen",
+          "character_id": 1,
+          "action": "Reading the letter and responding",
+          "dialogue": "This is a great idea, Sofia. The dance team used to be a big part of school spirit. I'd be happy to help spread the word."
+        },
+        {
+          "action_id": 2,
+          "character": "Gary Patel",
+          "character_id": 2,
+          "action": "Voicing his doubts",
+          "dialogue": "But will the principal even take this seriously? You know, they’re always focused on grades and test scores. Do you think a dance team will matter to them?"
+        },
+        {
+          "action_id": 3,
+          "character": "Sofia Torres",
+          "character_id": 0,
+          "action": "Reaffirming her belief",
+          "dialogue": "I understand your concerns, Gary, but if we can show that the Knightettes can bring students together and contribute to a positive school culture, the principal will have to listen. I’ve already organized a meeting with the student council to discuss it further."
+        }
+      ],
+      "plot": "Sofia is trying to convince her friends to support her initiative to bring back the Knightettes dance team. Lucy is on board, but Gary is hesitant. Sofia remains optimistic and uses her persuasive skills to encourage Gary to reconsider.",
+      "social_purpose": "To showcase Sofia's passion for dance, leadership, and her ability to persuade others to support her cause. It also highlights the importance of teamwork and cultural contribution in a school setting.",
+      "chunk": {
+        "id": 0,
+        "text": "Sofia Torres, a 17-year-old high school student with a deep passion for dance, sat at a lunch table with her friends Lucy and Gary. She was the leader of the former Knightettes dance team and had recently drafted a proposal to bring the team back to campus. She believed the team was a vital part of school culture and wanted to reignite its legacy. As she presented her letter to the principal, Lucy showed immediate interest, while Gary questioned its feasibility. Sofia, undeterred, reminded them that with enough support, the principal would have to take it seriously. Her determination and persuasive nature were key to convincing others to join her cause."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

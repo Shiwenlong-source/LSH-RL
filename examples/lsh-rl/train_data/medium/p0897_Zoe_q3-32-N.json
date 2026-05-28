@@ -1,0 +1,88 @@
+{
+  "title": "Challenging the Job Ad",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Zoe, Sunny, and Frank meet in the university coffee shop to discuss the sexist job advertisement.",
+      "time": "3:00 PM",
+      "location": "University Coffee Shop",
+      "description": "Zoe is visibly upset as she shows her friends the job ad on her laptop. Sunny and Frank are sipping their drinks, looking more relaxed and less concerned.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Zoe",
+          "gender": "Female",
+          "description": "A passionate and determined graduate student in Computer Science, visibly frustrated by the ad.; Female, Graduate Student, 24 years old; Occupation: Computer Science Master's Student; Personality: Passionate, Idealistic, Determined, Strong Sense of Justice; Values: Fairness, Equality, Integrity; Interests: Technology, Social Justice, Advocacy; Experiences: Computer Science graduate studies, Witnessing sexism, Participating in academic discussions, Following social issues, Challenging institutional policies",
+          "position": "Student",
+          "states": "Angry, Focused, Determined",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Sunny",
+          "gender": "Male",
+          "description": "A laid-back and indifferent graduate student in Electrical Engineering, more interested in his coffee than the issue at hand; Male; Age: 25; Occupation: Graduate Research Assistant in Electrical Engineering; Personality: Nonchalant, Observant, Analytical; Values: Comfort, Efficiency, Intellectual Growth; Interests: Circuit design, Indie video games, Specialty coffee; Experiences: Worked on renewable energy projects in undergrad, Attended a few academic conferences but found them draining, Prefers solo study sessions over group work.",
+          "position": "Student",
+          "states": "Calm, Disengaged, Curious",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Frank",
+          "gender": "Male",
+          "description": "A pragmatic and slightly apathetic Computer Science student, skeptical about the need for a big reaction; Male; Age: 21; Occupation: Part-time IT Support Intern; Personality: Cynical, Analytical, Detached; Values: Practicality, Efficiency, Personal Freedom; Interests: Coding, Video Games, Minimalist Lifestyle; Experiences: Witnessed subtle sexism in academic settings, Prioritizes career advancement over social activism, Grew up in a low-key, non-confrontational household.",
+          "position": "Student",
+          "states": "Skeptical, Relaxed, Unconvinced",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Zoe",
+          "character_id": 0,
+          "action": "Shows the job ad on her laptop.",
+          "dialogue": "Look at this! The company is openly excluding women from this tech position. How is this even allowed?"
+        },
+        {
+          "action_id": 1,
+          "character": "Sunny",
+          "character_id": 1,
+          "action": "Looks at the ad and shrugs.",
+          "dialogue": "I mean, it's not like it's the 1800s. Maybe they just don't want to deal with the hassle of gender balance?"
+        },
+        {
+          "action_id": 2,
+          "character": "Frank",
+          "character_id": 2,
+          "action": "Says it's not worth the trouble.",
+          "dialogue": "Zoe, it's just one ad. You can't change the whole system overnight. Maybe it's better to focus on your thesis."
+        },
+        {
+          "action_id": 3,
+          "character": "Zoe",
+          "character_id": 0,
+          "action": "Defends her stance and proposes a plan.",
+          "dialogue": "But this is exactly the kind of thing we need to challenge. If we don't speak up, we're complicit. I'm going to write to the department and the company."
+        },
+        {
+          "action_id": 4,
+          "character": "Sunny",
+          "character_id": 1,
+          "action": "Offers to help but seems half-hearted.",
+          "dialogue": "I guess I can sign your petition, but I don't see what it will really do."
+        }
+      ],
+      "plot": "Zoe is determined to take a stand against a sexist job advertisement in her field. Sunny and Frank are her friends who are less passionate about the issue, but Zoe is committed to organizing a response despite their indifference.",
+      "social_purpose": "To showcase the protagonist's values of fairness and justice through her reaction to the ad, and to highlight the differing perspectives of her friends.",
+      "chunk": {
+        "id": 0,
+        "text": "Zoe, Sunny, and Frank are sitting in the university coffee shop, where Zoe shows them a job ad that explicitly excludes women. She is visibly upset, while Sunny and Frank remain more relaxed and indifferent. Zoe's determination to challenge the ad reveals her strong sense of justice and commitment to equality, while Sunny and Frank's reactions show their more passive attitudes."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

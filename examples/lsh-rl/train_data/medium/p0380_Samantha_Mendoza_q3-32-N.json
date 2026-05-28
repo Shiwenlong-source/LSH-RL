@@ -1,0 +1,95 @@
+{
+  "title": "A Quiet Coffee Shop",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Samantha and her friends meet at a coffee shop to support one another after a difficult week.",
+      "time": "Afternoon",
+      "location": "Local coffee shop",
+      "description": "The coffee shop is cozy, with soft lighting and a few scattered customers. Samantha sits at a table with two friends, Cici and Marcus, all of whom are trying to help her process her recent loss. The air is thick with unspoken emotions and a shared need for connection.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Samantha Mendoza",
+          "gender": "Female",
+          "description": "A 25-year-old young professional who is emotionally fragile and trying to cope with the recent death of her brother. She is trying to be strong for her friends but is clearly struggling.; 25-year-old / Female / Close supporter, 24 years old; Occupation: Young professional; Personality: Emotional, Fragile, Supportive; Values: Empathy, Friendship, Emotional authenticity; Interests: Intimate relationships, Emotional expression, Comforting others; Experiences: Recently experienced a friend's relative passing away, Processing personal grief, Receiving emotional support",
+          "position": "At the table",
+          "states": "Tired, emotional, seeking comfort",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Cici",
+          "gender": "Female",
+          "description": "Cici is a caring, attentive, and reassuring close friend of Samantha; Female; Age: 24; Occupation: Therapist's assistant; Personality: Empathetic, intuitive, compassionate; Values: Emotional support, genuine connection, personal growth; Interests: Mindfulness practices, indie music, journaling; Experiences: Supported friends through major life transitions, volunteered at a grief counseling center, lost a close family member in her teens.",
+          "position": "Across from Samantha",
+          "states": "Caring, attentive, trying to provide reassurance",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Marcus",
+          "gender": "Male",
+          "description": "A 26-year-old friend of both Samantha and Cici. He is more reserved but deeply values emotional authenticity and is trying to be a steady presence for Samantha; Male; Age: 26; Occupation: Mental health counselor intern; Personality: Empathetic, introspective, patient; Values: Emotional honesty, loyalty, personal growth; Interests: Journaling, indie music, nature walks; Experiences: Lost a close family member to illness, volunteered at a grief support group, navigated a long-distance friendship that became a deep emotional bond.",
+          "position": "Next to Cici",
+          "states": "Supportive, quiet, observant",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Cici",
+          "character_id": 1,
+          "action": "Reaches across the table to hold Samantha's hand.",
+          "dialogue": "Hey, I'm here for you. You don't have to go through this alone."
+        },
+        {
+          "action_id": 1,
+          "character": "Samantha Mendoza",
+          "character_id": 0,
+          "action": "Looks down at her coffee, then back at Cici with a shaky voice.",
+          "dialogue": "I just keep thinking about how I should've been there... I feel so helpless."
+        },
+        {
+          "action_id": 2,
+          "character": "Marcus",
+          "character_id": 2,
+          "action": "Nods slowly and speaks in a calm, grounding tone.",
+          "dialogue": "It's okay to feel that way, Samantha. Grief doesn't make sense. It just is."
+        },
+        {
+          "action_id": 3,
+          "character": "Samantha Mendoza",
+          "character_id": 0,
+          "action": "Leans back in her chair and exhales deeply, trying to compose herself.",
+          "dialogue": "I don't know how to do this... I want to be strong, but I just can't stop crying."
+        },
+        {
+          "action_id": 4,
+          "character": "Cici",
+          "character_id": 1,
+          "action": "Gently squeezes Samantha's hand and replies with empathy.",
+          "dialogue": "You don't have to be strong all the time. That's not what being strong means. Let it out, we're here."
+        },
+        {
+          "action_id": 5,
+          "character": "Marcus",
+          "character_id": 2,
+          "action": "Orders another cup of tea for Samantha from the waiter.",
+          "dialogue": "Would you like some tea, Sam? Sometimes warmth helps when words don't."
+        }
+      ],
+      "plot": "Samantha meets with Cici and Marcus at a local coffee shop to talk about her brother's death. Through their conversation and actions, the friends support her in a way that reflects their individual personalities and shared values of empathy and friendship.",
+      "social_purpose": "To demonstrate how close friends can provide emotional support in a public setting, using empathy and understanding to help someone through grief.",
+      "chunk": {
+        "id": 0,
+        "text": "Samantha sat at the table, her eyes red and puffy, staring into her untouched coffee. Cici and Marcus were there, not to fix everything, but to simply be with her. Cici took her hand, and Marcus ordered more tea, knowing that sometimes comfort came in small, quiet gestures. The shared goal was not to move past the grief, but to sit with it together."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

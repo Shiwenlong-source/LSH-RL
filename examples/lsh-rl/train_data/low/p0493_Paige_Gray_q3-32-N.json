@@ -1,0 +1,102 @@
+{
+  "title": "The Snowy Mystery",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Paige discovers her driveway cleared and a coffee left for her, sparking a conversation with neighbors.",
+      "time": "Winter morning, 7:30 AM",
+      "location": "A quiet, residential city street with snow-covered sidewalks and driveways",
+      "description": "The sun is barely up, casting a pale light over the neighborhood. Snow still blankets the ground, but one driveway stands out—Paige’s—cleared of snow with a steaming coffee placed on her porch. She steps outside, surprised and touched, and looks around for the mysterious person who did this. Her neighbor Chen is nearby, raking leaves from his own yard, and her friend Lina is walking toward her with a playful smile.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Paige Gray",
+          "gender": "Female",
+          "description": "A 30-year-old writer and creative professional with a curious and empathetic nature. She cherishes community and meaningful human connections.; years old, Female, City Resident, 30 years old; Occupation: Writer and Creative Professional; Personality: Curious, Grateful, Thoughtful, Empathetic; Values: Community, Kindness, Authenticity; Interests: Writing, City Life, Friendship, Puzzles; Experiences: Recently Experienced Anonymous Kindness, Busy Schedule Including Rehearsals and Errands, Living in a Close-knit Community",
+          "position": "On her porch, holding a coffee",
+          "states": "Grateful, curious, slightly touched",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Chen Li",
+          "gender": "Male",
+          "description": "Chen Li; Male; Age: 35; Occupation: Software developer; Personality: Awkward, observant, slightly nervous; Values: Kindness, community, quiet harmony; Interests: Coding, reading mystery novels, winter photography; Experiences: Grew up in a large family where small gestures meant a lot, recently moved to the neighborhood and is still finding his place, secretly admires Paige’s warmth and tries to connect through subtle acts of goodwill.",
+          "position": "Near his own driveway, raking leaves",
+          "states": "Awkward, observant, slightly nervous",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Lina Torres",
+          "gender": "Female",
+          "description": "A witty and lighthearted 32-year-old graphic designer and close friend of Paige; Female; Age: 32; Occupation: Freelance graphic designer and part-time mural artist; Personality: Playful, observant, curious; Values: Community, kindness, creativity; Interests: Winter strolls, local art events, cozy mornings with coffee; Experiences: Grew up in a close-knit neighborhood, volunteered for a community beautification project, once surprised a friend with a hand-painted holiday gift.",
+          "position": "Approaching from the sidewalk, smiling",
+          "states": "Playful, observant, curious",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Paige Gray",
+          "character_id": 0,
+          "action": "Looks around the street and then notices the cleared driveway and coffee on her porch.",
+          "dialogue": "Whoa… someone cleared my driveway and left me coffee. That’s so thoughtful. I can’t believe it."
+        },
+        {
+          "action_id": 1,
+          "character": "Chen Li",
+          "character_id": 1,
+          "action": "Approaches Paige hesitantly, holding a second coffee in his hand.",
+          "dialogue": "Um… I saw the snow was heavy, and I thought you might need help. I just… wanted to do something nice."
+        },
+        {
+          "action_id": 2,
+          "character": "Lina Torres",
+          "character_id": 2,
+          "action": "Laughs and teases Paige playfully.",
+          "dialogue": "Looks like you’ve got a secret snow hero, Paige. Maybe it’s a new love interest? Or a ghost?"
+        },
+        {
+          "action_id": 3,
+          "character": "Paige Gray",
+          "character_id": 0,
+          "action": "Accepts the coffee from Chen and smiles warmly, then turns to Lina with a teasing grin.",
+          "dialogue": "I’m flattered, but I think it’s just a neighbor who wanted to be kind. Still, it feels like a mystery I should solve."
+        },
+        {
+          "action_id": 4,
+          "character": "Chen Li",
+          "character_id": 1,
+          "action": "Looks away, slightly embarrassed, but adds a thoughtful comment.",
+          "dialogue": "I just hope it made your day better. I know how busy you’ve been with rehearsals and everything."
+        },
+        {
+          "action_id": 5,
+          "character": "Lina Torres",
+          "character_id": 2,
+          "action": "Suggests a fun way to find out who did it.",
+          "dialogue": "You could leave a thank-you note in a box for the mystery person to return it anonymously. Like a puzzle! That’s your thing, right?"
+        },
+        {
+          "action_id": 6,
+          "character": "Paige Gray",
+          "character_id": 0,
+          "action": "Considers the idea and smiles thoughtfully.",
+          "dialogue": "That might work. I’d love to know who it was, but I also don’t want to make them uncomfortable. It’s a delicate balance."
+        }
+      ],
+      "plot": "Paige is touched by an anonymous act of kindness and seeks to understand who did it while maintaining a sense of respect for the mystery. Her neighbor Chen offers a hint of his own involvement, while her friend Lina suggests a playful solution to uncover the identity of the 'snow hero'.",
+      "social_purpose": "To demonstrate the protagonist’s cherishing of human connection and community while engaging in a light-hearted, collaborative interaction with her neighbor and friend.",
+      "chunk": {
+        "id": 0,
+        "text": "Paige stands on her porch, holding the warm coffee and looking at the cleared driveway. Chen is nearby, awkwardly raking leaves, while Lina teases her with a smile. The trio’s interaction reflects a shared goal of uncovering the mystery while deepening their connection and appreciation for kindness."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

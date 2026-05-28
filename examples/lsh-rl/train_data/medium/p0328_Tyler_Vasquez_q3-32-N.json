@@ -1,0 +1,102 @@
+{
+  "title": "Rallying for a Cause",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Community Fundraising Meeting",
+      "time": "3:00 PM",
+      "location": "Conference Room at the Community Center",
+      "description": "The team is gathered for a meeting about a new fundraising campaign. Tension is rising as Cici and Lucas question Tyler's approach to the budget and priorities.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Tyler Vasquez",
+          "gender": "Male",
+          "description": "A young, enthusiastic event organizer in his 25th year, recently reinvigorated with purpose. He stands at the front of the room, trying to inspire and unify the team.; Male, Event Organizer, 25 years old; Occupation: Activist; Personality: Enthusiastic, Determined, Reignited Faith, Idealistic; Values: Community, Impact, Transparency; Interests: Social Welfare, Team Leadership, Charitable Activities; Experiences: Emerging from Personal Confusion, Leading Volunteer Teams, Organizing Community Events",
+          "position": "Presenter and Leader",
+          "states": "Determined, Passionate, Slightly Nervous",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Cici Nguyen",
+          "gender": "Female",
+          "description": "A pragmatic and detail-oriented volunteer, 30 years old, with a background in nonprofit finance; Female; Age: 30; Occupation: Financial Analyst at a local nonprofit; Personality: Analytical, Cautious, Diplomatic, Observant; Values: Fiscal responsibility, Community impact, Transparency; Interests: Budget planning workshops, Volunteering for financial literacy programs, Reading about economic policy; Experiences: Managed a nonprofit's annual budget during a funding crisis, Volunteered for a homelessness outreach program for five years, Trained new volunteers in financial tracking and reporting.",
+          "position": "Volunteer and Financial Advisor",
+          "states": "Calm, Analytical, Concerned",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Lucas Morgan",
+          "gender": "Male",
+          "description": "A 28-year-old community advocate and volunteer, known for his critical thinking and commitment to ethical practices; Male; Age: 28; Occupation: Nonprofit Program Coordinator; Personality: Thoughtful, Analytical, Empathetic; Values: Equity, Accountability, Community Empowerment; Interests: Urban gardening, Public policy discussions, Documentary filmmaking; Experiences: Organized a successful neighborhood clean-up initiative, Led a volunteer team during a food drive crisis, Advocated for ethical funding practices in a local nonprofit merger.",
+          "position": "Volunteer and Ethics Advocate",
+          "states": "Thoughtful, Challenging, Supportive",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Tyler Vasquez",
+          "character_id": 0,
+          "action": "Opening the meeting with energy and passion",
+          "dialogue": "Everyone, thank you for being here. I know we've faced some tough times lately, but I believe in this cause more than ever. We can make a real impact if we work together."
+        },
+        {
+          "action_id": 1,
+          "character": "Cici Nguyen",
+          "character_id": 1,
+          "action": "Asking a direct question about the budget",
+          "dialogue": "Tyler, I understand your passion, but we need to be realistic. Where exactly is the $150,000 goal coming from, and how will it be spent?"
+        },
+        {
+          "action_id": 2,
+          "character": "Lucas Morgan",
+          "character_id": 2,
+          "action": "Expressing concern about the balance between ideals and practicality",
+          "dialogue": "I agree with Cici. We can't lose sight of our values just to meet a number. How do we ensure the money is used for the community and not just to cover overhead?"
+        },
+        {
+          "action_id": 3,
+          "character": "Tyler Vasquez",
+          "character_id": 0,
+          "action": "Addressing concerns with a clear plan",
+          "dialogue": "You're both right to be concerned. The goal is ambitious, but it's based on real data and community needs. I've already outlined a transparent budget. Let me walk you through it."
+        },
+        {
+          "action_id": 4,
+          "character": "Cici Nguyen",
+          "character_id": 1,
+          "action": "Reviewing the budget proposal with a critical eye",
+          "dialogue": "Okay, let's see. If we allocate $50,000 to outreach, $75,000 to the actual event, and $25,000 to logistics, that leaves $10,000 for administrative costs. That seems tight."
+        },
+        {
+          "action_id": 5,
+          "character": "Lucas Morgan",
+          "character_id": 2,
+          "action": "Suggesting a compromise to align with the team's values",
+          "dialogue": "What if we set aside a portion of the funds for a community feedback loop? That way, we ensure the event reflects what people actually need."
+        },
+        {
+          "action_id": 6,
+          "character": "Tyler Vasquez",
+          "character_id": 0,
+          "action": "Expressing appreciation and agreeing to adjust the plan",
+          "dialogue": "I love that idea, Lucas. It shows we're not just chasing a number, but building something meaningful. I'll adjust the budget to include that."
+        }
+      ],
+      "plot": "Tyler Vasquez, an idealistic and determined event organizer, is trying to rally his team around a $150,000 fundraising goal for a community event. Cici and Lucas, both experienced volunteers, challenge him to ensure the plan is financially sound and ethically aligned with the team's values. Through dialogue and compromise, Tyler begins to reshape the proposal to include their suggestions, showing his growth as a leader and his commitment to transparency and community impact.",
+      "social_purpose": "To demonstrate how a leader can balance idealism with practical concerns by listening to team feedback and adjusting plans accordingly, all while maintaining a focus on shared values.",
+      "chunk": {
+        "id": 0,
+        "text": "Tyler Vasquez stands in the center of the conference room, facing a small group of volunteers. A large whiteboard behind him displays the goal of $150,000 in bold letters. The room is quiet as he begins, his voice full of conviction. Cici Nguyen raises her hand, her expression calm but skeptical, while Lucas Morgan leans forward, clearly thinking through the implications of Tyler's plan. Tyler listens intently, then responds with a detailed explanation, showing his commitment to transparency. After some discussion, he agrees to adjust the budget to include a community feedback loop, satisfying Lucas's concern. The meeting ends with a renewed sense of purpose, and the team begins to work together more cohesively."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

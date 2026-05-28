@@ -1,0 +1,102 @@
+{
+  "title": "The Debugging Café",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Henry attempts to debug a crashing system while working from a local café, with his father Ruby and friend Mike trying to help him relax.",
+      "time": "Evening",
+      "location": "Local Café",
+      "description": "Henry is hunched over his laptop at a corner table, furiously typing and muttering to himself. His father Ruby, a calm and supportive man in his 50s, sits beside him with a cup of coffee, watching Henry with concern. Mike, a laid-back friend in his late 20s, leans back in his chair, trying to lighten the mood.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Henry Cook",
+          "gender": "male",
+          "description": "A determined and tech-savvy young man in his early 25s, currently frustrated by a system crash.; male, 25, early career, 24 years old; Occupation: Software Engineer; Personality: Determined, Enthusiastic, Prone to frustration, Analytical; Values: Technical Mastery, Independence, Problem-solving; Interests: Computers, Software Development, Learning new technologies; Experiences: Troubleshooting system failures, Working late, Receiving emotional support from family and friends",
+          "position": "Corner table, focused on his laptop",
+          "states": "Frustrated, analytical, emotionally conflicted",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Ruby Cook",
+          "gender": "male",
+          "description": "Ruby Cook; male; Age: 56; Occupation: Systems Engineer; Personality: Calm, patient, empathetic; Values: Family, reliability, personal growth; Interests: Coffee, mentoring young professionals, classic rock; Experiences: Troubleshooting critical infrastructure during a citywide power outage, helping his son navigate early career challenges, managing a team during a major tech merger.",
+          "position": "Beside Henry, sipping coffee",
+          "states": "Supportive, patient, concerned",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Mike Taylor",
+          "gender": "male",
+          "description": "Henry's good friend, a laid-back and empathetic person who tries to help him relax; Male; Age: 28; Occupation: Freelance graphic designer; Personality: easygoing, supportive, humorous; Values: friendship, work-life balance, authenticity; Interests: playing guitar, hiking, indie films; Experiences: worked in a high-stress tech startup and learned to prioritize mental health, helped Henry through previous burnout episodes.",
+          "position": "Across from Henry, leaning back in his chair",
+          "states": "Relaxed, encouraging, observant",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Henry Cook",
+          "character_id": 0,
+          "action": "Types furiously on his laptop, muttering under his breath.",
+          "dialogue": "No, no, no! Why won’t this work? I’ve checked every line of code!"
+        },
+        {
+          "action_id": 1,
+          "character": "Ruby Cook",
+          "character_id": 1,
+          "action": "Places a hand on Henry’s shoulder and speaks gently.",
+          "dialogue": "Henry, you’ve been at this all day. Maybe it’s time to take a break and come back with a fresh mind."
+        },
+        {
+          "action_id": 2,
+          "character": "Mike Taylor",
+          "character_id": 2,
+          "action": "Leans forward and offers a suggestion.",
+          "dialogue": "Hey, what if you try stepping away for a bit? Sometimes a walk or a coffee helps more than staring at the screen."
+        },
+        {
+          "action_id": 3,
+          "character": "Henry Cook",
+          "character_id": 0,
+          "action": "Exhales sharply and looks up at Ruby and Mike.",
+          "dialogue": "I just need to fix this. It’s not that big of a deal, but I can’t let it beat me."
+        },
+        {
+          "action_id": 4,
+          "character": "Ruby Cook",
+          "character_id": 1,
+          "action": "Nods and encourages Henry to take a break.",
+          "dialogue": "I know you don’t want to, but remember, you can’t solve everything when you're exhausted."
+        },
+        {
+          "action_id": 5,
+          "character": "Mike Taylor",
+          "character_id": 2,
+          "action": "Offers to take Henry out for a walk.",
+          "dialogue": "C’mon, let’s go for a walk. I know a shortcut to the park. Fresh air, clear mind—what do you say?"
+        },
+        {
+          "action_id": 6,
+          "character": "Henry Cook",
+          "character_id": 0,
+          "action": "Sighs and reluctantly agrees.",
+          "dialogue": "Alright... maybe a few minutes. But I’ll be back in 10, okay?"
+        }
+      ],
+      "plot": "Henry is struggling to debug a system crash while working from a local café. His father Ruby and friend Mike notice his frustration and attempt to convince him to take a break. Despite his determination, Henry eventually gives in to their suggestion, showing a small step toward valuing emotional support over his usual independent approach.",
+      "social_purpose": "To demonstrate the tension between Henry’s values of independence and technical mastery and his need for emotional support from loved ones. The interaction shows how interpersonal relationships can help in times of stress and failure.",
+      "chunk": {
+        "id": 0,
+        "text": "Henry Cook sat at a corner table in the café, fingers flying across his laptop keyboard. The crash had been persistent, and he was starting to feel the weight of it. Ruby, his father, watched with a calm gaze, sipping his coffee and waiting for the right moment to speak. Mike, ever the optimist, tried to break the tension with a joke or a suggestion. Their combined efforts slowly began to shift Henry’s mindset from frustration to appreciation for the support around him."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "title": "Cultural Exchange Coffee Chat",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Lucy meets with Vivi and Yuki at a local coffee shop to finalize her travel plans.",
+      "time": "Saturday afternoon",
+      "location": "Local Coffee Shop",
+      "description": "Lucy is seated at a corner table with her laptop open, surrounded by travel brochures and a notebook filled with to-do lists. Vivi sits across from her, sipping her latte and looking concerned. Yuki, who is more relaxed, sits next to Lucy, smiling and nodding as they discuss her upcoming trip to Latin America.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Lucy Bailey",
+          "gender": "Female",
+          "description": "22-year-old recent graduate with a passion for international cultural exchange. She is enthusiastic, curious, and adventurous but also feels anxious about her upcoming trip.; 22-year-old Female College Student, 24 years old; Occupation: Recent Graduate; Personality: Enthusiastic, Curious, Anxious, Adventurous; Values: Cultural Exchange, Personal Growth, Friendship; Interests: International Travel, Language Learning, Cross-cultural Communication; Experiences: Studying Abroad, Participating in Cultural Events, Volunteering",
+          "position": "Corner of the table, focused on her laptop and notes",
+          "states": "Excited but also a bit overwhelmed",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Vivi",
+          "gender": "Female",
+          "description": "Vivi is Lucy's roommate, a pragmatic and caring individual who often voices her concerns about Lucy's ambitious plans; Female; Age: 28; Occupation: Office Administrator; Personality: Analytical, empathetic, responsible; Values: Stability, safety, loyalty; Interests: Budgeting and personal finance, interior design, reading self-help books; Experiences: Managed a friend's travel mishaps due to poor planning, worked part-time during college to support her family, volunteers at a local community center.",
+          "position": "Across from Lucy, sipping her latte",
+          "states": "Worried and cautious",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Yuki",
+          "gender": "Female",
+          "description": "Lucy's church friend from Latin America, who is warm, encouraging, and confident in Lucy's ability to adapt and grow; Female; Age: 28; Occupation: Travel blogger and social media influencer; Personality: Empathetic, enthusiastic, patient; Values: Community, personal growth, cultural appreciation; Interests: Exploring local cuisines, photography, sustainable travel; Experiences: Traveled extensively through Central and South America, volunteered in community development projects in rural Colombia, helped friends navigate international moves.",
+          "position": "Next to Lucy, relaxed and smiling",
+          "states": "Supportive and optimistic",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Lucy Bailey",
+          "character_id": 0,
+          "action": "Shows her itinerary to Vivi and Yuki",
+          "dialogue": "Look at this, I'm going to visit three countries in two weeks! I want to learn as much as I can about the local culture and people."
+        },
+        {
+          "action_id": 1,
+          "character": "Vivi",
+          "character_id": 1,
+          "action": "Expresses concern about the tight schedule",
+          "dialogue": "Lucy, I'm worried this is too ambitious. You might end up exhausted or overwhelmed. Have you considered slowing down a bit?"
+        },
+        {
+          "action_id": 2,
+          "character": "Yuki",
+          "character_id": 2,
+          "action": "Reassures Lucy and encourages her",
+          "dialogue": "I think it's amazing that you're so enthusiastic! Your curiosity and openness will help you connect with people there. Just be flexible and enjoy the journey."
+        },
+        {
+          "action_id": 3,
+          "character": "Lucy Bailey",
+          "character_id": 0,
+          "action": "Responds to Yuki's encouragement and Vivi's concern",
+          "dialogue": "Thanks, Yuki. I do want to grow and learn, but I see your point, Vivi. Maybe I can leave a day or two open for unexpected experiences."
+        },
+        {
+          "action_id": 4,
+          "character": "Vivi",
+          "character_id": 1,
+          "action": "Offers practical advice",
+          "dialogue": "You could also look for cultural events or language exchanges in the cities you're visiting. That might help you feel more connected and less rushed."
+        },
+        {
+          "action_id": 5,
+          "character": "Yuki",
+          "character_id": 2,
+          "action": "Shares a personal experience",
+          "dialogue": "When I first moved here, I was nervous too. But I found a community through a local cultural group, and it changed everything for me."
+        },
+        {
+          "action_id": 6,
+          "character": "Lucy Bailey",
+          "character_id": 0,
+          "action": "Expresses gratitude for their input",
+          "dialogue": "I appreciate both of you helping me think this through. It's not just about the places I go, but the people I meet and the things I learn."
+        }
+      ],
+      "plot": "Lucy is finalizing her travel plans for her winter break trip to Latin America. Her roommate Vivi is concerned about the tight schedule and potential challenges, while her church friend Yuki encourages her to embrace the adventure. The three friends discuss practical advice and the importance of cultural exchange and personal growth in Lucy's journey.",
+      "social_purpose": "To explore Lucy's passion for cultural exchange and her internal conflict between excitement and anxiety. The interaction highlights the importance of friendship and community support in personal growth and decision-making.",
+      "chunk": {
+        "id": 0,
+        "text": "Lucy is finalizing her travel plans for her winter break trip to Latin America. Her roommate Vivi is concerned about the tight schedule and potential challenges, while her church friend Yuki encourages her to embrace the adventure. The three friends discuss practical advice and the importance of cultural exchange and personal growth in Lucy's journey."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}

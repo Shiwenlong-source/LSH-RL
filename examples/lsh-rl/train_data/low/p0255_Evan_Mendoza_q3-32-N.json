@@ -1,0 +1,102 @@
+{
+  "title": "Choosing a Teacher Nickname",
+  "scenes": [
+    {
+      "id": 0,
+      "event": "Coffee Shop Discussion",
+      "time": "Afternoon",
+      "location": "Local Coffee Shop",
+      "description": "Evan, Amy, and Jack meet at a cozy coffee shop to discuss Evan's upcoming teaching career. The atmosphere is relaxed, and they're seated at a small table near the window.",
+      "characters": [
+        {
+          "id": 0,
+          "name": "Evan Mendoza",
+          "gender": "male",
+          "description": "A 28-year-old future teacher who is serious, anxious, and goal-oriented. He is trying to choose a nickname for his students.; male, Early career stage, 28 years old; Occupation: Future Teacher; Personality: Serious, Anxious, Goal-oriented; Values: Professionalism, Approachability, Clarity; Interests: Education, Identity, Student interaction; Experiences: Preparing for a teaching career, Considering personal image, Receiving advice from friends",
+          "position": "Seated at the table",
+          "states": "Nervous, thoughtful",
+          "is_npc": false
+        },
+        {
+          "id": 1,
+          "name": "Amy",
+          "gender": "female",
+          "description": "Amy; Female; Age: 26; Occupation: Freelance graphic designer; Personality: Encouraging, practical, optimistic; Values: Friendship, creativity, work-life balance; Interests: Art exhibitions, indie music, coffee culture; Experiences: Helped design promotional materials for local schools, worked remotely while traveling through Europe for a month, supported a close friend through a career change.",
+          "position": "Seated at the table",
+          "states": "Encouraging, relaxed",
+          "is_npc": true
+        },
+        {
+          "id": 2,
+          "name": "Jack",
+          "gender": "male",
+          "description": "A creative and humorous friend who is a musician in his late 20s. He enjoys coming up with unique and memorable ideas; Male; Age: 28; Occupation: Part-time music teacher and session musician; Personality: Playful, enthusiastic, imaginative; Values: Creativity, authenticity, friendship; Interests: Songwriting, indie films, collecting vintage instruments; Experiences: Played in local open mic nights, helped a former student win a music competition, spent a summer busking in Europe.",
+          "position": "Seated at the table",
+          "states": "Playful, enthusiastic",
+          "is_npc": true
+        }
+      ],
+      "actions": [
+        {
+          "action_id": 0,
+          "character": "Evan Mendoza",
+          "character_id": 0,
+          "action": "Expresses his concern about the nickname choice.",
+          "dialogue": "I'm really worried about my surname. Mendoza sounds too formal and might confuse the students. I want something friendly but still professional."
+        },
+        {
+          "action_id": 1,
+          "character": "Amy",
+          "character_id": 1,
+          "action": "Offers a simple and approachable nickname.",
+          "dialogue": "What about 'Mr. Evan'? It's straightforward and easy for the students to remember. Plus, it keeps it professional."
+        },
+        {
+          "action_id": 2,
+          "character": "Jack",
+          "character_id": 2,
+          "action": "Suggests a more unique and memorable nickname.",
+          "dialogue": "Or you could go with 'Mendo'! It's catchy and gives you a cool vibe. You know, like a brand for your teaching style."
+        },
+        {
+          "action_id": 3,
+          "character": "Evan Mendoza",
+          "character_id": 0,
+          "action": "Considers the options and shows hesitation.",
+          "dialogue": "Hmm, 'Mr. Evan' is good for clarity, but 'Mendo' feels too informal. I want to be approachable but not lose professionalism."
+        },
+        {
+          "action_id": 4,
+          "character": "Amy",
+          "character_id": 1,
+          "action": "Reassures Evan about the importance of being approachable.",
+          "dialogue": "Students respect teachers who are easy to talk to. 'Mr. Evan' is a great middle ground. You can always build your image around that."
+        },
+        {
+          "action_id": 5,
+          "character": "Jack",
+          "character_id": 2,
+          "action": "Encourages Evan to embrace a unique identity.",
+          "dialogue": "But think about it—'Mendo' is memorable. It gives you a distinct personality. You could use it to create a fun classroom vibe."
+        },
+        {
+          "action_id": 6,
+          "character": "Evan Mendoza",
+          "character_id": 0,
+          "action": "Decides to find a middle ground.",
+          "dialogue": "Maybe I can go with 'Evan' at first and see how the students respond. If they prefer something more formal, I can adjust."
+        }
+      ],
+      "plot": "Evan is trying to choose a nickname for his students to balance professionalism and approachability. Amy and Jack offer different suggestions, and Evan decides to start with his first name to gauge student reactions.",
+      "social_purpose": "To explore how Evan balances his personal identity and professional image through a discussion with friends.",
+      "chunk": {
+        "id": 0,
+        "text": "Evan, Amy, and Jack meet at a local coffee shop to discuss Evan's nickname for his future students. The conversation reveals Evan's internal conflict between practicality and uniqueness in shaping his professional identity."
+      },
+      "npcs": [
+        1,
+        2
+      ]
+    }
+  ]
+}
