@@ -200,29 +200,3 @@ uv run python -m py_compile \
 
 uv run python examples/lsh-rl/stratified_sampler.py
 ```
-
-## Notes
-
-This project is not a plain dependency on the public Agent-Lightning package. It is a compact
-LSH-RL reproduction fork that bundles the modified Agent-Lightning framework required by the
-paper implementation.
-
-For exact reproduction, use the same base model, warm-start adapter, evaluator model, evaluator
-prompt setup, GPU configuration, and decoding/training hyperparameters reported in the paper.
-
-## Citation
-
-LSH-RL is implemented on top of a modified Agent-Lightning training framework. If you use this
-codebase, please also cite Agent-Lightning:
-
-```bibtex
-@misc{luo2025agentlightningtrainai,
-      title={Agent Lightning: Train ANY AI Agents with Reinforcement Learning},
-      author={Xufang Luo and Yuge Zhang and Zhiyuan He and Zilong Wang and Siyun Zhao and Dongsheng Li and Luna K. Qiu and Yuqing Yang},
-      year={2025},
-      eprint={2508.03680},
-      archivePrefix={arXiv},
-      primaryClass={cs.AI},
-      url={https://arxiv.org/abs/2508.03680},
-}
-```
