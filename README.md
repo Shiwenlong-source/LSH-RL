@@ -14,12 +14,6 @@ to download Agent-Lightning separately.
   <img src="assets/lsh-rl-overview.png" alt="LSH-RL overview" width="85%">
 </p>
 
-Place the paper overview figure at:
-
-```text
-assets/lsh-rl-overview.png
-```
-
 Role-playing agents often learn safe stylized responses that appear in character but become
 repetitive, low-information, or weakly grounded in the evolving scene. LSH-RL addresses this by
 training a shared policy in dynamic multi-character simulation, where each role is conditioned on
